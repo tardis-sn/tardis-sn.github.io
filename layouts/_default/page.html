@@ -1,0 +1,26 @@
+{{ define "content" }}
+
+<div class="outer">
+  <div class="inner-medium">
+    <article class="post post-full">
+      <header class="post-header">
+        <h1 class="post-title">{{ .Params.title }}</h1>
+        {{ if .Params.subtitle }}
+        <div class="post-subtitle">
+          {{ $.Params.subtitle | safeHTML }}
+        </div>
+        {{ end }}
+      </header>
+      {{ if .Params.image }}
+      <div class="post-image">
+        <img src="{{ $.Params.image | relURL }}" alt="{{ $.Params.image_alt }}" />
+      </div>
+      {{ end }}
+      <div class="post-content">
+        {{ .Content }}
+      </div>
+    </article><!-- .post -->
+  </div><!-- .inner-medium -->
+</div><!-- .outer-->
+
+{{ end }}

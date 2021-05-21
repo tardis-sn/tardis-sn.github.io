@@ -1,0 +1,14 @@
+{{ $section := .section }}
+<section class="cell widget widget-text">
+  {{ if $section.image }}
+    {{ if $section.image_url }}
+    <a class="widget-image" href='{{ $section.image_url | relURL }}'><img src="{{ $section.image | relURL }}" alt="{{ $section.image_alt }}" /></a>
+    {{ else }}
+    <p class="widget-image"><img src="{{ $section.image | relURL }}" alt="{{ $section.image_alt }}" /></p>
+    {{ end }}
+  {{ end }}
+  {{ if $section.title }}
+  <h2 class="widget-title">{{ $section.title }}</h2>
+  {{ end }}
+  {{ partial "markdownify-block" $section.content }}
+</section>

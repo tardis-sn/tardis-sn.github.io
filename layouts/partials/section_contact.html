@@ -1,0 +1,32 @@
+{{ $section := .section }}
+<section id="{{ $section.section_id }}" class="block contact-block bg-{{ $section.background }} outer">
+  <div class="block-header inner-small">
+    {{ if $section.title }}
+    <h2 class="block-title">{{ $section.title }}</h2>
+    {{ end }}
+    {{ if $section.subtitle }}
+    <p class="block-subtitle">
+      {{ $section.subtitle | safeHTML }}
+    </p>
+    {{ end }}
+  </div><!-- .block-header -->
+  <div class="block-content inner-medium">
+    {{ partial "markdownify-block" $section.content }}
+    <form name="{{ $section.form_id }}" id="{{ $section.form_id }}"{{ if $section.form_action }} action="{{ $section.form_action }}"{{ end }} method="POST" data-netlify="true" data-netlify-honeypot="{{ $section.form_id }}-bot-field">
+      <div class="screen-reader-text">
+        <label id="{{ $section.form_id }}-honeypot-label" for="{{ $section.form_id }}-honeypot">Don't fill this out if you're human:</label>
+        <input aria-labelledby="{{ $section.form_id }}-honeypot-label" id="{{ $section.form_id }}-honeypot" name="{{ $section.form_id }}-bot-field" />
+      </div>
+      <input aria-labelledby="{{ $section.form_id }}-honeypot-label" type="hidden" name="form-name" value="{{ $section.form_id }}" />
+      {{ range $field := $section.form_fields }}
+      <div class="form-row">
+        {{ $include_dict := dict "field" $field "section" $section }}
+        {{ partial "form_field.html" $include_dict }}
+      </div>
+      {{ end }}
+      <div class="form-row form-submit">
+        <button type="submit" class="button">{{ $section.submit_label }}</button>
+      </div>
+    </form>
+  </div>
+</section><!-- .block-->

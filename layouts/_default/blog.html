@@ -1,0 +1,32 @@
+{{ define "content" }}
+
+<div class="outer">
+  <div class="inner">
+    <div class="grid post-feed">
+      {{ $display_posts := ((.Site.GetPage "section" "/blog").Pages).ByDate.Reverse }}
+      {{ range $post := $display_posts }}
+      <article class="cell post">
+        <div class="card">
+          {{ if $post.Params.thumb_image }}
+          <a class="post-thumbnail" href="{{ $post.URL }}">
+            <img src="{{ $post.Params.thumb_image | relURL }}" alt="{{ $post.Params.thumb_image_alt }}" />
+          </a>
+          {{ end }}
+          <div class="post-body">
+            <header class="post-header">
+              <h2 class="post-title"><a href="{{ $post.URL }}">{{ $post.Params.title }}</a></h2>
+            </header>
+            <div class="post-excerpt">
+              <p>{{ $post.Params.excerpt }}</p>
+            </div>
+            {{ $include_dict := dict "page" $post "date_type" "short" }}
+            {{ partial "blog_post_footer.html" $include_dict }}
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div><!-- .post-feed -->
+  </div><!-- .inner -->
+</div><!-- .outer-->
+
+{{ end }}

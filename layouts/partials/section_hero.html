@@ -1,0 +1,26 @@
+{{ $section := .section }}
+<section id="{{ $section.section_id }}" class="block hero-block bg-accent outer">
+  <div class="inner">
+    <div class="grid">
+      {{ if $section.image }}
+      <div class="cell block-preview">
+        <img src="{{ $section.image | relURL }}" alt="{{ $section.image_alt }}" />
+      </div>
+      {{ end }}
+      <div class="cell block-content">
+        {{ if $section.title }}
+        <h2 class="block-title underline">{{ $section.title }}</h2>
+        {{ end }}
+        <div class="block-copy">
+          {{ partial "markdownify-block" $section.content }}
+        </div>
+        {{ if $section.actions }}
+        <div class="block-buttons">
+          {{ $include_dict := dict "actions" $section.actions }}
+          {{ partial "cta_buttons.html" $include_dict }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section><!-- .block -->

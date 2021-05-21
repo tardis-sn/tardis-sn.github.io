@@ -1,0 +1,35 @@
+<header id="masthead" class="site-header outer">
+  <div class="inner">
+    <div class="site-header-inside">
+      <div class="site-branding">
+        {{ if .Site.Params.header.logo_img }}
+        <p class="site-logo"><a href='{{ "/" | relURL }}'><img src="{{ $.Site.Params.header.logo_img | relURL }}" alt="{{ $.Site.Params.header.logo_img_alt }}" /></a></p>
+        {{ end }}
+        {{ if or (eq .Params.layout "landing") (eq .Params.layout "blog") }}
+        <h1 class="site-title{{ if $.Site.Params.header.logo_img }} screen-reader-text{{ end }}"><a href='{{ "/" | relURL }}'>{{ $.Site.Title }}</a></h1>
+        {{ else }}
+        <p class="site-title{{ if $.Site.Params.header.logo_img }} screen-reader-text{{ end }}"><a href='{{ "/" | relURL }}'>{{ $.Site.Title }}</a></p>
+        {{ end }}
+      </div><!-- .site-branding -->
+      {{ if and .Site.Params.header.nav_links .Site.Params.header.has_nav }}
+      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+        <div class="site-nav-inside">
+          <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
+          <ul class="menu">
+            {{ range $action := $.Site.Params.header.nav_links }}
+              {{ $page_url := trim $.URL "/" }}
+              {{ $action_url := trim $action.url "/" }}
+              {{ $action_style := $action.style | default "link" }}
+              <li class="menu-item{{ if eq $page_url $action_url }} current-menu-item{{ end }}{{ if ne $action_style "link" }} menu-button{{ end }}">
+                {{ $include_dict := dict "action" $action }}
+                {{ partial "action.html" $include_dict }}
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </nav><!-- .site-navigation -->
+      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+      {{ end }}
+    </div>
+  </div>
+</header><!-- .site-header -->

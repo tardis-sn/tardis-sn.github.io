@@ -1,0 +1,32 @@
+{{ $section := .section }}
+<section id="{{ $section.section_id }}" class="block reviews-block bg-{{ $section.background }} outer">
+  <div class="block-header inner-small">
+    {{ if $section.title }}
+    <h2 class="block-title">{{ $section.title }}</h2>
+    {{ end }}
+    {{ if $section.subtitle }}
+    <p class="block-subtitle">
+      {{ $section.subtitle | safeHTML }}
+    </p>
+    {{ end }}
+  </div>
+  {{ if $section.reviews }}
+  <div class="inner">
+    <div class="grid">
+      {{ range $review := $section.reviews }}
+      <blockquote class="cell review">
+        <div class="card">
+          <p class="review-text">{{ $review.content | safeHTML }}</p>
+          <footer class="review-footer">
+            {{ if $review.avatar }}
+            <img class="review-avatar" src="{{ $review.avatar | relURL }}" alt="{{ $review.avatar_alt }}">
+            {{ end }}
+            <cite class="review-author">{{ $review.author }}</cite>
+          </footer>
+        </div>
+      </blockquote>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</section><!-- .block -->

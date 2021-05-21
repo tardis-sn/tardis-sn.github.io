@@ -1,0 +1,16 @@
+{{ $section := .section }}
+<section class="cell widget widget-nav">
+  {{ if $section.title }}
+  <h2 class="widget-title">{{ $section.title }}</h2>
+  {{ end }}
+  {{ if $section.nav_links }}
+  <ul class="menu">
+    {{ range $action := $section.nav_links }}
+    <li class="menu-item">
+      {{ $include_dict := dict "action" $action }}
+      {{ partial "action.html" $include_dict }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</section>

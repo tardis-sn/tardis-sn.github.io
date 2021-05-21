@@ -1,0 +1,5 @@
+{{ $post := .page }}
+{{ $date_type := .date_type }}
+<footer class="post-meta">
+    <time class="published" datetime="{{ $post.Date | dateFormat "2006-01-02 15:04" }}">{{ if eq $date_type "short" }}{{ $post.Date | dateFormat "January 02, 2006" }}{{ else }}{{ $post.Date | dateFormat "Monday, January 2, 2006" }}{{ end }}</time>{{ if $post.Params.author }}{{ $author := getJSON $post.Params.author }}, by {{ $author.first_name }} {{ $author.last_name }}{{ end }}
+</footer>
