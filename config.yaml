@@ -11,17 +11,17 @@ params:
       - label: Home
         url: /
         style: link
-      - label: Features
-        url: /features
+      - label: Documentation
+        url: /documentation
         style: link
-      - label: Pricing
-        url: /pricing
+      - label: Team
+        url: /team
         style: link
-      - label: Style Guide
-        url: /style-guide
+      - label: Research
+        url: /research
         style: link
-      - label: Sign Up
-        url: /signup
+      - label: News
+        url: /news
         style: primary
   footer:
     sections:
