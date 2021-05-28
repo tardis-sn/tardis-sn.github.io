@@ -1,10 +1,10 @@
-title: Azimuth
+title: TARDIS
 baseURL: /
 params:
   base_font: nunito-sans
   palette: blue
   header:
-    logo_img: images/logo.svg
+    logo_img: images/tardis_banner.jpg #Increase the size of this/find better so it's legible, or remove the bottom text!
     logo_img_alt: Logo
     has_nav: true
     nav_links:
@@ -22,7 +22,7 @@ params:
         style: link
       - label: News
         url: /news
-        style: primary
+        style: link #primary is another style available
   footer:
     sections:
       - type: footer_text
