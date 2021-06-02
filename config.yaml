@@ -1,5 +1,5 @@
 title: TARDIS
-baseURL: /
+baseURL: https://kevincawley.github.io/tardis-sn.github.io/
 params:
   base_font: nunito-sans
   palette: blue
