@@ -1,5 +1,5 @@
 title: TARDIS
-baseURL: https://tardis-sn.github.io/
+baseURL: https://tardis-sn.github.io/preview/ # Remove "preview/" when ready to publish publicly
 params:
   base_font: nunito-sans
   palette: blue
