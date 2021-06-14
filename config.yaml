@@ -4,7 +4,7 @@ params:
   base_font: nunito-sans
   palette: blue
   header:
-    logo_img: images/tardis_banner.jpg # TODO: Increase the size of this/find better so it's legible, or remove the bottom text!
+    logo_img: images/tardis-logo-2.svg # TODO: Increase the size of this/find better so it's legible, or remove the bottom text!
     logo_img_alt: Logo
     has_nav: true
     nav_links:
@@ -26,10 +26,10 @@ params:
   footer:
     sections:
       - type: footer_text
-        image: images/logo-alt.svg
+        image: images/tardis-banner-2.svg
         image_url: /
         image_alt: Footer logo
-        content: Stackbit theme demo
+        # content: Stackbit theme demo
       - type: footer_nav
         title: Company
         nav_links:
