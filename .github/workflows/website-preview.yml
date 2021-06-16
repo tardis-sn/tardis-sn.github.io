@@ -1,4 +1,4 @@
-name: preview
+name: Preview website on fork
 
 on:
   push:
