@@ -3,7 +3,7 @@
     <div class="site-header-inside">
       <div class="site-branding">
         {{ if .Site.Params.header.logo_img }}
-        <p class="site-logo"><a href='{{ "/" | relURL }}'><img src="{{ $.Site.Params.header.logo_img | relURL }}" alt="{{ $.Site.Params.header.logo_img_alt }}" /></a></p>
+        <p class="site-logo"><img src="{{ $.Site.Params.header.logo_img | relURL }}" alt="{{ $.Site.Params.header.logo_img_alt }}" /></p>
         {{ end }}
         {{ if or (eq .Params.layout "landing") (eq .Params.layout "blog") }}
         <h1 class="site-title{{ if $.Site.Params.header.logo_img }} screen-reader-text{{ end }}"><a href='{{ "/" | relURL }}'>{{ $.Site.Title }}</a></h1>
