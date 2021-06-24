@@ -1,12 +1,10 @@
 ---
-title: "Credits"
+title: "Credits & Publication Policies"
 date: 2021-05-28T10:09:58-05:00
 draft: false
 layout: page
 ---
 
-
-# Credits & Publication Policies
 
 We provide TARDIS as a free, open-source tool. If you are using it, please
 adhere to a few policies and acknowledge the TARDIS Team.
