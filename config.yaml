@@ -20,6 +20,9 @@ params:
       - label: Research
         url: /research
         style: link
+      - label: Credits
+        url: /credits
+        style: link
       - label: News
         url: /news
         style: link #primary is another style available
@@ -102,3 +105,4 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      
