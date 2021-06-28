@@ -13,16 +13,41 @@ params:
         style: link
       - label: Documentation
         url: /documentation
-        style: link
+        style: dropdown
+        sub_items:
+          - label: TARDIS
+            url: /documentation/tardis
+            style: link
+          - label: Carcus
+            url: /documentation/carcus
+            style: link
       - label: Team
         url: /team
-        style: link
+        style: dropdown
+        sub_items:
+          - label: Community Roles
+            url: /team/community_roles
+            style: link
+          - label: Other Members
+            url: /team/other_members
+            style: link
+          - label: Governance
+            url: team/governance
+            style: link
       - label: Research
         url: /research
-        style: link
+        style: dropdown
+        sub_items: 
+          - label: Papers
+            url: /research/papers
+            style: link 
+          - label: Posters
+            url:  /research/posters
+            style: link
       - label: Credits
         url: /credits
         style: link
+        style: dropdown
       - label: News
         url: /news
         style: link #primary is another style available

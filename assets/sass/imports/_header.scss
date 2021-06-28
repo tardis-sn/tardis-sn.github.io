@@ -251,3 +251,65 @@
     top: $container-padding;
   }
 }
+
+
+// Credit goes to https://www.w3schools.com/Css/css_dropdowns.asp for dropdown menu template, and to @aRoamingDuck#7049 for flex usage & re-organization help
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.menu .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 45px;
+    background-color: #fff;
+    width: 100px;
+}
+
+.menu .dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 11px;
+}
+
+.dropdown .site-nav-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 45px;
+}
+
+.dropdown .dropdown-item {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.dropdown-item {
+    display: none;
+    justify-content: flex-start;
+    align-items: left;
+    width: 120px;
+    height: 36px;
+    padding: 5px;
+    border: 1px solid rgb(80, 15, 15);
+}
+
+.dropdown:hover .dropdown-item {
+    display: flex;
+}
+
+.open {
+    display: flex !important;
+}
