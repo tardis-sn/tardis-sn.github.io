@@ -4,7 +4,7 @@ params:
   base_font: nunito-sans
   palette: blue
   header:
-    logo_img: images/tardis-logo-2.svg # TODO: Increase the size of this/find better so it's legible, or remove the bottom text!
+    logo_img: images/tardis-logo-2.svg
     logo_img_alt: Logo
     has_nav: true
     nav_links:
