@@ -255,61 +255,58 @@
 
 // Credit goes to https://www.w3schools.com/Css/css_dropdowns.asp for dropdown menu template, and to @aRoamingDuck#7049 for flex usage & re-organization help
 
-.menu {
+.menu-header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.menu .menu-item {
+.menu-header .menu-item-header {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
     height: 45px;
     background-color: inherit;
-    width: 100px;
+    width: max-content;
 }
 
-.menu .dropdown {
-    display: flex;
+.menu-header .dropdown {
+    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     background-color: inherit;
     font-size: 16px;
     padding: 11px;
-}
 
-.dropdown .site-nav-inside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    height: 45px;
+    position: absolute;
+    top: 40px;
+    min-width: 120px;
 }
 
 .dropdown .dropdown-item {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
 .dropdown-item {
-    display: none;
+    display: flex;
     justify-content: flex-start;
     align-items: left;
-    width: 120px;
+    //min-width: 120px;
     height: 36px;
     padding: 5px;
     border: 1px solid rgb(80, 15, 15);
+    background-color: #fff;
 }
 
-.dropdown:hover .dropdown-item {
+.dropdown-item:hover {
+    background-color: #f1f1f1 !important;
+}
+
+.menu-item-header:hover .dropdown {
     display: flex;
-}
-
-.open {
-    display: flex !important;
 }
