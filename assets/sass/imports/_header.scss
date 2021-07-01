@@ -279,8 +279,10 @@
 .dropdown .dropdown-item {
     display: none;
     position: relative;
+    padding: 5px;
     right: 10px;
     vertical-align: middle;
+    align-items: center;
 }
 
 .dropdown-item  {
@@ -302,7 +304,6 @@
 
 .menu-item-header:hover .dropdown .dropdown-item {
     display: flex;
-    align-items: center;
 }
 
 
