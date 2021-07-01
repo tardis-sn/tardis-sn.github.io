@@ -18,8 +18,8 @@ params:
           - label: TARDIS
             url: /documentation/tardis
             style: link
-          - label: Carcus
-            url: /documentation/carcus
+          - label: Carsus
+            url: /documentation/carsus
             style: link
       - label: Team
         url: /team

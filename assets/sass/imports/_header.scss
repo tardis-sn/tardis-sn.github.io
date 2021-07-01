@@ -56,7 +56,7 @@
 
   .site-navigation {
     .current-menu-item {
-      color: $gray-500;
+      color: $gray-500 !important;
     }
 
     a:not(.button) {
@@ -254,7 +254,60 @@
 
 
 // Credit goes to https://www.w3schools.com/Css/css_dropdowns.asp for dropdown menu template, and to @aRoamingDuck#7049 for flex usage & re-organization help
+.menu-header {
+    display: inline-block;
+}
 
+.menu-header .menu-item-header {
+    display: inline-block;
+    align-items: center;
+    font-size: 16px;
+    height: 45px;
+    background-color: inherit;
+    width: max-content;
+}
+
+.menu-header .dropdown  {
+    display: block;
+    font-size: 16px;
+    padding: 11px;
+    position: absolute;
+    top: 40px;
+    min-width: max-content;
+}
+
+.dropdown .dropdown-item {
+    display: none;
+    position: relative;
+    right: 10px;
+    vertical-align: middle;
+}
+
+.dropdown-item  {
+    list-style: none;
+}
+
+.dropdown-item {
+    display: none;
+    min-width: max-content;
+    height: 36px;
+    border: 1px solid rgb(80, 15, 15);
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1 !important;
+}
+
+.menu-item-header:hover .dropdown .dropdown-item {
+    display: flex;
+    align-items: center;
+}
+
+
+//Flex version not complete
+/*
 .menu-header {
     display: flex;
     flex-direction: row;
@@ -288,19 +341,21 @@
 .dropdown .dropdown-item {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
 }
 
 .dropdown-item {
     display: flex;
-    justify-content: flex-start;
-    align-items: left;
-    //min-width: 120px;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 130px;
     height: 36px;
-    padding: 5px;
+    //padding: 5px;
     border: 1px solid rgb(80, 15, 15);
     background-color: #fff;
+    margin: 0;
+    //margin: 0 auto;
 }
 
 .dropdown-item:hover {
@@ -309,4 +364,4 @@
 
 .menu-item-header:hover .dropdown {
     display: flex;
-}
+}*/

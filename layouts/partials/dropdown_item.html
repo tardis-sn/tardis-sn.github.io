@@ -4,8 +4,8 @@
 {{ $action_icon_pos := $action.icon_position | default "left" }}
 {{ $page_url := trim $.URL "/" }}
 {{ $action_url := trim $action.url "/" }}
-<a href="{{ $action.url | relURL}}" class="{{ if eq $page_url $action_url }} current-menu-item{{ end }}dropdown-item"> <!-- {{ if ne $action_style "dropdown"}} {{ $action.label }} {{end}} -->
-    <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}>{{ if ne $action_style "dropdown"}} {{ $action.label }} {{end}}</span>
+<a href="{{ $action.url | relURL}}" class="{{ if eq $page_url $action_url }} current-menu-item{{ end }}dropdown-item">
+    <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}> {{ $action.label }} </span>
     {{ if $action.has_icon }} {{ $include_dict := dict "icon" $action_icon }} {{ partial "icon.html" $include_dict }} {{ end }}
 </a>
 
