@@ -285,10 +285,6 @@
     align-items: center;
 }
 
-.dropdown-item  {
-    list-style: none;
-}
-
 .dropdown-item {
     display: none;
     min-width: max-content;
@@ -305,7 +301,6 @@
 .menu-item-header:hover .dropdown .dropdown-item {
     display: flex;
 }
-
 
 //Flex version not complete
 /*

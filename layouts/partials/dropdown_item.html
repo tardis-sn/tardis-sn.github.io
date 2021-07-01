@@ -5,7 +5,7 @@
 {{ $page_url := trim $.URL "/" }}
 {{ $action_url := trim $action.url "/" }}
 <a href="{{ $action.url | relURL}}" class="{{ if eq $page_url $action_url }} current-menu-item{{ end }}dropdown-item">
-    <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}> {{ $action.label }} </span>
+    <span class="{{ if eq $action_icon_pos "right" }} order-first{{ end }} {{ if eq $action_url  $page_url }} current-menu-item{{ end }}"> {{ $action.label }} </span>
     {{ if $action.has_icon }} {{ $include_dict := dict "icon" $action_icon }} {{ partial "icon.html" $include_dict }} {{ end }}
 </a>
 
