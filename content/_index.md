@@ -103,17 +103,17 @@ sections:
     background: gray
     title: Latest Posts
 seo:
-  title: TARDIS-SN
-  description: Website for TARDIS-SN 
+  title: Stackbit Azimuth Theme
+  description: The preview of the Azimuth theme
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: TARDIS-SN
+      value: Stackbit Azimuth Theme
       keyName: property
     - name: 'og:description'
-      value: Website for TARDIS-SN
+      value: The preview of the Azimuth theme
       keyName: property
     - name: 'og:image'
       value: images/hero.png
@@ -122,9 +122,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: TARDIS-SN
+      value: Stackbit Azimuth Theme
     - name: 'twitter:description'
-      value: Website for TARDIS-SN
+      value: The preview of the Azimuth theme
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
