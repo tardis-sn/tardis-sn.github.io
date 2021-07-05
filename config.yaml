@@ -3,6 +3,7 @@ baseURL: https://tardis-sn.github.io/preview/ # Remove "preview/" when ready to 
 params:
   base_font: nunito-sans
   palette: blue
+  favicon: images/tardis_logo.ico
   header:
     logo_img: images/tardis-logo-2.svg
     logo_img_alt: Logo
