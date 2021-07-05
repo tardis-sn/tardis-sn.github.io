@@ -31,25 +31,22 @@ params:
       - type: footer_text
         image: images/tardis-banner-2.svg
         image_url: /
-        image_alt: Footer logo
-        title: TARDIS-SN
+        image_alt: TARDIS Banner
       - type: footer_nav
-        title: Company
         nav_links:
-          - label: About Us
-            url: /about
+          - label: Code Of Conduct
+            url: /code_of_conduct
             style: link
-          - label: Blog
-            url: /blog
+          - label: Sponsors
+            url: /sponsors
             style: link
-          - label: Sign Up
+          - label: Mission
             url: /signup
             style: link
-          - label: Contact
-            url: /contact
+          - label: Team
+            url: /signup
             style: link
       - type: footer_nav
-        title: Community
         nav_links:
           - label: Twitter
             url: "https://twitter.com/tardis_sn"
@@ -67,11 +64,11 @@ params:
             url: "https://gitter.im/tardis-sn/tardis"
             style: link
             has_icon: true
-            icon: images/icons8-gitter-50.svg
+            icon: gitter
             icon_position: left
       - type: footer_text
-        title: Powered by NUMFOCUS
         image: images/Numfocus_stamp.png
+        image_url: "https://numfocus.org/project/tardis"
     has_nav: true
     nav_links:
       - label: Terms of Service
