@@ -44,7 +44,7 @@ params:
             url: /signup
             style: link
           - label: Team
-            url: /signup
+            url: "https://tardis-sn.github.io/tardis/team_and_governance/index.html"
             style: link
       - type: footer_nav
         nav_links:
