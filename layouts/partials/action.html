@@ -19,7 +19,7 @@
     {{ partial "icon.html" $include_dict }}
 {{ end }}
   {{ if eq $action_style "dropdown"}}
-  <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}> {{ $action.label }}</span>
+  <span class="{{ if eq $action_icon_pos "right" }}order-first{{ end }} dropdown-span-padding"> {{ $action.label }}</span>
     <div class="dropdown {{ if $action.has_icon }} has-icon{{ end }}">
     {{ range $action_item := $action.sub_items }}
         {{ $page_url := trim $.URL "/" }}
