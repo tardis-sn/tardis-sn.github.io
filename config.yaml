@@ -47,7 +47,6 @@ params:
       - label: Credits
         url: /credits
         style: link
-        style: dropdown
       - label: News
         url: /news
         style: link #primary is another style available
