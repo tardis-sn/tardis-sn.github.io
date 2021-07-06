@@ -104,7 +104,7 @@ sections:
     title: Latest Posts
 seo:
   title: TARDIS-SN
-  description: TARDIS is an open-source code to analyze observations of exploding stars. It is developed by a multi-disciplinary team. 
+  description: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.
   extra:
     - name: 'og:type'
       value: website
@@ -113,7 +113,7 @@ seo:
       value: TARDIS-SN
       keyName: property
     - name: 'og:description'
-      value: TARDIS is an open-source code to analyze observations of exploding stars. It is developed by a multi-disciplinary team.
+      value: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.
       keyName: property
     - name: 'og:image'
       value: images/hero.png
@@ -124,7 +124,7 @@ seo:
     - name: 'twitter:title'
       value: TARDIS-SN
     - name: 'twitter:description'
-      value: TARDIS is an open-source code to analyze observations of exploding stars. It is developed by a multi-disciplinary team.
+      value: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
