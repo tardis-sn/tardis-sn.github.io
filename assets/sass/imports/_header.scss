@@ -56,7 +56,7 @@
 
   .site-navigation {
     .current-menu-item {
-      color: $gray-500 !important;
+      color: $gray-500;
     }
 
     a:not(.button) {
@@ -253,7 +253,6 @@
 }
 
 
-// Credit goes to https://www.w3schools.com/Css/css_dropdowns.asp for dropdown menu template, and to @aRoamingDuck#7049 for flex usage & re-organization help
 .menu-header {
     display: flex;
     flex-direction: row;
@@ -273,21 +272,21 @@
     font-size: 16px;
     padding: 11px;
     position: absolute;
-    top: 40px;
-    min-width: 140px;
+    top: 60px;
+    min-width: 160px;
 }
 
-.dropdown .dropdown-item {
+.menu-header .dropdown .dropdown-item {
     display: none;
     position: relative;
-    padding: 5px;
+    padding: 5px 10px;
     right: 10px;
     vertical-align: middle;
     align-items: center;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-.dropdown-item {
+.menu-header .dropdown-item {
     display: none;
     min-width: max-content;
     height: 36px;
@@ -295,7 +294,7 @@
     margin: 0 auto;
 }
 
-.dropdown-item:hover {
+.menu-header .dropdown-item:hover {
     background-color: #f1f1f1;
 }
 
@@ -323,13 +322,14 @@
         padding: 0px 0px 12px 0px;
     }
 
-    .dropdown .dropdown-item {
-        display: flex !important;
+    .menu-header .dropdown .dropdown-item {
+        display: flex;
         position: relative;
-        padding: 0px 1px !important;
-        box-shadow: 0px 0px 0px rgba(0,0,0,0)!important;
+        padding: 0px 1px;
+        box-shadow: 0px 0px 0px rgba(0,0,0,0);
+        background-color: #fff;
     }
-    .dropdown-span-padding {
+    .menu-header .dropdown-span-padding {
         padding-top: 12px;
     }
 }
