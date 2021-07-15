@@ -15,17 +15,24 @@
       <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
         <div class="site-nav-inside">
           <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
-          <ul class="menu">
-            {{ range $action := $.Site.Params.header.nav_links }}
+          <div class="menu menu-header">
+            {{ range $action := $.Site.Params.header.nav_links }} 
               {{ $page_url := trim $.URL "/" }}
-              {{ $action_url := trim $action.url "/" }}
-              {{ $action_style := $action.style | default "link" }}
-              <li class="menu-item{{ if eq $page_url $action_url }} current-menu-item{{ end }}{{ if ne $action_style "link" }} menu-button{{ end }}">
-                {{ $include_dict := dict "action" $action }}
-                {{ partial "action.html" $include_dict }}
-              </li>
+              {{ $action_url := trim $action.url "/" }} 
+              {{ $action_style := $action.style | default "link" }} 
+              {{ if eq $action_style "dropdown" }}
+                <div class="menu-item menu-item-header{{ if eq $page_url $action_url }} current-menu-item{{ end }}">
+                  {{ $include_dict := dict "action" $action }}
+                  {{ partial "action.html" $include_dict }}
+                </div>
+              {{ else }}
+                <div class="menu-item menu-item-header{{ if eq $page_url $action_url }} current-menu-item{{ end }}{{ if ne $action_style "link" }} menu-button{{ end }}">
+                  {{ $include_dict := dict "action" $action }}
+                  {{ partial "action.html" $include_dict }}
+                </div>
+              {{ end }}
             {{ end }}
-          </ul>
+          </div>
         </div>
       </nav><!-- .site-navigation -->
       <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
