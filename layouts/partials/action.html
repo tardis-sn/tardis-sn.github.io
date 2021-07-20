@@ -27,7 +27,11 @@
         {{ $action_url := trim $action_item.url "/" }}
         {{ $action_style := $action_item.style | default "link" }}
         {{ $include_dict := dict "action" $action_item }}
-        {{ partial "dropdown_item.html" $include_dict }}
+        {{ if eq $action_style "redirect-link" }}
+            {{ partial "redirect.html" $include_dict}}
+        {{ else}}
+            {{ partial "dropdown_item.html" $include_dict }}
+        {{ end }}
     {{ end }}
     </div>
 {{ end }}
