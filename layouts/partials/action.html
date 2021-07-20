@@ -2,18 +2,6 @@
 {{ $action_style := $action.style | default "link" }}
 {{ $action_icon := $action.icon | default "arrow-left" }}
 {{ $action_icon_pos := $action.icon_position | default "left" }}
-{{ if ne $action_style "dropdown" }}
-<a href="{{ $action.url | relURL }}"
-  {{ if $action.new_window }} target="_blank"{{ end }}
-  {{ if or $action.new_window $action.no_follow }} rel="{{ if $action.new_window }}noopener {{ end }}{{ if $action.no_follow }}nofollow{{ end }}"{{ end }}
-  class="{{ if or (eq $action_style "primary") (eq $action_style "secondary") }}button{{ end }}{{ if eq $action_style "secondary" }} secondary{{ end }}{{ if $action.has_icon }} has-icon{{ end }}">
-   {{ if $action.has_icon }} 
-    {{ $include_dict := dict "icon" $action_icon }}
-    {{ partial "icon.html" $include_dict }}
-  {{ end }}
-  <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}>{{ if ne $action_style "dropdown"}} {{ $action.label }} {{end}}</span>
-</a>
-{{end}}
 
 {{ if eq $action_style "dropdown"}}
   {{ if $action.has_icon }} 
@@ -35,3 +23,27 @@
     {{ end }}
     </div>
 {{ end }}
+
+{{ if eq $action_style "redirect-link "}}
+    <a href="{{ $action.url | absURL }}"
+        {{ if $action.new_window }} target="_blank"{{ end }}
+        {{ if or $action.new_window $action.no_follow }} rel="{{ if $action.new_window }}noopener {{ end }}{{ if $action.no_follow }}nofollow{{ end }}"{{ end }}
+        class="{{ if or (eq $action_style "primary") (eq $action_style "secondary") }}button{{ end }}{{ if eq $action_style "secondary" }} secondary{{ end }}{{ if $action.has_icon }} has-icon{{ end }}">
+        {{ if $action.has_icon }} 
+        {{ $include_dict := dict "icon" $action_icon }}
+        {{ partial "icon.html" $include_dict }}
+        {{ end }}
+    <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}>{{ if ne $action_style "dropdown"}} {{ $action.label }} {{end}}</span>
+    </a>  
+{{ end }}
+
+<a href="{{ $action.url | relURL }}"
+  {{ if $action.new_window }} target="_blank"{{ end }}
+  {{ if or $action.new_window $action.no_follow }} rel="{{ if $action.new_window }}noopener {{ end }}{{ if $action.no_follow }}nofollow{{ end }}"{{ end }}
+  class="{{ if or (eq $action_style "primary") (eq $action_style "secondary") }}button{{ end }}{{ if eq $action_style "secondary" }} secondary{{ end }}{{ if $action.has_icon }} has-icon{{ end }}">
+   {{ if $action.has_icon }} 
+    {{ $include_dict := dict "icon" $action_icon }}
+    {{ partial "icon.html" $include_dict }}
+  {{ end }}
+  <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}>{{ if ne $action_style "dropdown"}} {{ $action.label }} {{end}}</span>
+</a>
