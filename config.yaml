@@ -17,11 +17,11 @@ params:
         style: dropdown
         sub_items:
           - label: TARDIS
-            url: /documentation/tardis
-            style: link
+            url: https://github.com/tardis-sn/tardis
+            style: redirect-link
           - label: Carsus
-            url: /documentation/carsus
-            style: link
+            url: https://github.com/tardis-sn/carsus
+            style: redirect-link
       - label: Team
         url: /team
         style: dropdown
