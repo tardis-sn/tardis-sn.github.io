@@ -28,23 +28,23 @@ params:
         sub_items:
           - label: Community Roles
             url: /team/community_roles
-            style: link
+            style: dropdown-link
           - label: Other Members
             url: /team/other_members
-            style: link
+            style: dropdown-link
           - label: Governance
             url: team/governance
-            style: link
+            style: dropdown-link
       - label: Research
         url: /research
         style: dropdown
         sub_items: 
           - label: Papers
             url: /research/papers
-            style: link 
+            style: dropdown-link 
           - label: Posters
             url:  /research/posters
-            style: link
+            style: dropdown-link
       - label: Credits
         url: /credits
         style: link
