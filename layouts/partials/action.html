@@ -2,6 +2,7 @@
 {{ $action_style := $action.style | default "link" }}
 {{ $action_icon := $action.icon | default "arrow-left" }}
 {{ $action_icon_pos := $action.icon_position | default "left" }}
+{{ $page_url := trim $.URL "/" }}
 
 {{ if eq $action_style "dropdown"}}
     {{ if $action.has_icon }} 
@@ -24,13 +25,10 @@
     </div>
 
 {{ else if eq $action_style "redirect-link" }}
-    {{ if $action.has_icon }} 
-        {{ $include_dict := dict "icon" $action_icon }}
-        {{ partial "icon.html" $include_dict }}
-    {{ end }}
-    {{ $include_dict := dict "action" $action }}
-    {{ partial "redirect.html" $include_dict}}
-
+    <a href="{{ $action.url | absURL}}" target="_blank" rel="{{ if $action.new_window }}noopener {{ end }}{{ if $action.no_follow }}nofollow{{ end }}">
+    <span class="{{ if eq $action_icon_pos "right" }} order-first{{ end }} "> {{ $action.label }} </span>
+    {{ if $action.has_icon }} {{ $include_dict := dict "icon" $action_icon }} {{ partial "icon.html" $include_dict }} {{ end }}
+    </a>
      
 {{ else }}
     <a href="{{ $action.url | relURL }}"
