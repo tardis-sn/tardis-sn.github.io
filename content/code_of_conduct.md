@@ -1,19 +1,19 @@
 ---
-title: Code Of Conduct
+title: Code Of Conduct - TARDIS-SN
 image: images/tardis_banner.jpg
 image_alt: TARDIS Banner
 seo:
-  title: Code Of Conduct
-  description: Code Of Conduct of the TARDIS Organisation
+  title: Code Of Conduct - TARDIS-SN
+  description: The Code of Conduct that all members of the TARDIS-SN Collaboration are held to.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: CodeOfConduct
+      value: Code Of Conduct - TARDIS-SN
       keyName: property
     - name: 'og:description'
-      value: Code Of Conduct for TARDIS Organisation
+      value: The Code of Conduct that all members of the TARDIS-SN Collaboration are held to.
       keyName: property
     - name: 'og:image'
       value: images/tardis_banner.jpg
@@ -22,9 +22,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Code Of Conduct
+      value: Code Of Conduct - TARDIS-SN
     - name: 'twitter:description'
-      value: Code Of Conduct for TARDIS Organisation
+      value: The Code of Conduct that all members of the TARDIS-SN Collaboration are held to.
     - name: 'twitter:image'
       value: images/tardis_banner.jpg
       relativeUrl: true

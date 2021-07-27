@@ -1,17 +1,17 @@
 ---
-title: Sponsors For TARDIS
+title: Sponsors - TARDIS-SN
 seo:
-  title: Sponsors for TARDIS
-  description: Sponsors for TARDIS Organisation
+  title: Sponsors - TARDIS-SN
+  description: The organizations that help sustain TARDIS as a free and open-source software.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: CodeOfConduct
-      keyName: property
+      value: Sponsors
+      keyName: Sponsors - TARDIS-SN
     - name: 'og:description'
-      value: Code Of Conduct for TARDIS Organisation
+      value: The organizations that help sustain TARDIS as a free and open-source software.
       keyName: property
     - name: 'og:image'
       value: images/tardis_banner.jpg
@@ -20,16 +20,16 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Code Of Conduct
+      value: Sponsors - TARDIS-SN
     - name: 'twitter:description'
-      value: Code Of Conduct for TARDIS Organisation
+      value: The organizations that help sustain TARDIS as a free and open-source software.
     - name: 'twitter:image'
       value: images/tardis_banner.jpg
       relativeUrl: true
 layout: page
 ---
 
-We are grateful to the following organisations for sponsoring us and helping us sustain **TARDIS** as a free and open-source software.
+We are grateful to the following organisations for sponsoring us and helping to sustain **TARDIS** as a free and open-source software.
 <br>
 <div>
   <div style="text-align:center">

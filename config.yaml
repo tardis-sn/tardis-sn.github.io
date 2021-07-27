@@ -43,9 +43,6 @@ params:
           - label: Mission
             url: /signup
             style: link
-          - label: Team
-            url: "https://tardis-sn.github.io/tardis/team_and_governance/index.html"
-            style: link
       - type: footer_nav
         nav_links:
           - label: Twitter
@@ -69,20 +66,17 @@ params:
       - type: footer_text
         image: images/Numfocus_stamp.png
         image_url: "https://numfocus.org/project/tardis"
-    has_nav: true
-    nav_links:
-      - label: Terms of Service
-        url: /terms-of-service
-        style: link
-      - label: Privacy Policy
-        url: /privacy-policy
-        style: link
+#    has_nav: true
+#    nav_links:
+#      - label: Terms of Service
+#        url: /terms-of-service
+#        style: link
+#      - label: Privacy Policy
+#        url: /privacy-policy
+#        style: link
     content: >-
-      &copy; Stackbit. All rights reserved. This Jamstack site was created with
-      <a href="https://www.stackbit.com/?utm_source=deployed-footer"
-      target="_blank" rel="noopener">Stackbit</a>. Create yours <a
-      href="https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer"
-      target="_blank" rel="noopener">now</a>.
+       Made with ❤️ using <a href="https://gohugo.io/" target="_blank" rel="noopener nofollow">Hugo</a> 
+       and the <a href="https://themes.stackbit.com/demos/azimuth/" target="_blank" rel="noopener nofollow">Azimuth theme</a>
 taxonomies:
   stub: stub
 disableKinds:
