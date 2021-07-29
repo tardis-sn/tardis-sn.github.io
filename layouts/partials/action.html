@@ -2,32 +2,51 @@
 {{ $action_style := $action.style | default "link" }}
 {{ $action_icon := $action.icon | default "arrow-left" }}
 {{ $action_icon_pos := $action.icon_position | default "left" }}
-{{ if ne $action_style "dropdown" }}
-<a href="{{ $action.url | relURL }}"
-  {{ if $action.new_window }} target="_blank"{{ end }}
-  {{ if or $action.new_window $action.no_follow }} rel="{{ if $action.new_window }}noopener {{ end }}{{ if $action.no_follow }}nofollow{{ end }}"{{ end }}
-  class="{{ if or (eq $action_style "primary") (eq $action_style "secondary") }}button{{ end }}{{ if eq $action_style "secondary" }} secondary{{ end }}{{ if $action.has_icon }} has-icon{{ end }}">
-   {{ if $action.has_icon }} 
-    {{ $include_dict := dict "icon" $action_icon }}
-    {{ partial "icon.html" $include_dict }}
-  {{ end }}
-  <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}>{{ if ne $action_style "dropdown"}} {{ $action.label }} {{end}}</span>
-</a>
-{{end}}
+{{ $page_url := trim $.URL "/" }}
 
 {{ if eq $action_style "dropdown"}}
-  {{ if $action.has_icon }} 
-    {{ $include_dict := dict "icon" $action_icon }}
-    {{ partial "icon.html" $include_dict }}
-  {{ end }}
-  <span class="{{ if eq $action_icon_pos "right" }}order-first{{ end }} dropdown-span-padding"> {{ $action.label }}</span>
+    {{ if $action.has_icon }} 
+        {{ $include_dict := dict "icon" $action_icon }}
+        {{ partial "icon.html" $include_dict }}
+    {{ end }}
+    <span class="{{ if eq $action_icon_pos "right" }}order-first{{ end }} dropdown-span-padding"> {{ $action.label }}</span>
     <div class="dropdown {{ if $action.has_icon }} has-icon{{ end }}">
+    <!-- $action_item are all of the sub-items inside a dropdown item. -->
     {{ range $action_item := $action.sub_items }}
         {{ $page_url := trim $.URL "/" }}
         {{ $action_url := trim $action_item.url "/" }}
         {{ $action_style := $action_item.style | default "link" }}
         {{ $include_dict := dict "action" $action_item }}
-        {{ partial "dropdown_item.html" $include_dict }}
+        {{ if eq $action_style "redirect-link" }}
+            <!--This is the same code as the "redirect-link", but it deals with 
+            $action_item as it's part of the dropdown menu. As redirects open a new tab, they will never be
+            a current-menu-item, so that class is not added. -->
+            <a href="{{ $action_item.url | absURL}}" target="_blank" rel="{{ if $action_item.new_window }}noopener {{ end }}{{ if $action_item.no_follow }}nofollow{{ end }}"
+            class="dropdown-item">
+            <span class="{{ if eq $action_icon_pos "right" }} order-first{{ end }}"> {{ $action_item.label }} </span>
+            {{ if $action.has_icon }} {{ $include_dict := dict "icon" $action_icon }} {{ partial "icon.html" $include_dict }} {{ end }}
+            </a>
+        {{ else if eq $action_style "dropdown-link" }}
+            {{ partial "dropdown_item.html" $include_dict }}
+        {{ end }}
     {{ end }}
     </div>
+
+{{ else if eq $action_style "redirect-link" }}
+    <a href="{{ $action.url | absURL}}" target="_blank" rel="{{ if $action.new_window }}noopener {{ end }}{{ if $action.no_follow }}nofollow{{ end }}">
+    <span class="{{ if eq $action_icon_pos "right" }} order-first{{ end }} "> {{ $action.label }} </span>
+    {{ if $action.has_icon }} {{ $include_dict := dict "icon" $action_icon }} {{ partial "icon.html" $include_dict }} {{ end }}
+    </a>
+     
+{{ else }}
+    <a href="{{ $action.url | relURL }}"
+        {{ if $action.new_window }} target="_blank"{{ end }}
+        {{ if or $action.new_window $action.no_follow }} rel="{{ if $action.new_window }}noopener {{ end }}{{ if $action.no_follow }}nofollow{{ end }}"{{ end }}
+        class="{{ if or (eq $action_style "primary") (eq $action_style "secondary") }}button{{ end }}{{ if eq $action_style "secondary" }} secondary{{ end }}{{ if $action.has_icon }} has-icon{{ end }}">
+    {{ if $action.has_icon }} 
+        {{ $include_dict := dict "icon" $action_icon }}
+        {{ partial "icon.html" $include_dict }}
+    {{ end }}
+    <span {{ if eq $action_icon_pos "right" }}class="order-first"{{ end }}>{{ if ne $action_style "dropdown"}} {{ $action.label }} {{end}}</span>
+    </a>
 {{ end }}
