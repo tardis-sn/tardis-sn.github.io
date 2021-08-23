@@ -60,10 +60,15 @@ XSEDE-EMPOWER, etc.
 
 ## Additional Contributors
 <<<<<<< HEAD
+<<<<<<< HEAD
  - Josh Shields
  - Vicente Amado Olivo
 =======
  - Josh _?Shields or Hedberg
  - Vicente Olivo
 >>>>>>> 1b2d2f3 (Text section for teams)
+=======
+ - Josh Shields
+ - Vicente Amado Olivo
+>>>>>>> df35978 (Specify users)
  - Shambhabi Gautam
