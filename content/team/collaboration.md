@@ -29,6 +29,6 @@ XSEDE-EMPOWER, etc.
  - Ulrich Noebauer
 
 ## Additional Contributors
- - Josh _?Shields or Hedberg
- - Vicente Olivo
+ - Josh Shields
+ - Vicente Amado Olivo
  - Shambhabi Gautam
