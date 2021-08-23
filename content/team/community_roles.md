@@ -23,7 +23,17 @@ TARDIS Core Team is responsible for:
 ### Members & Roles
 Current TARDIS core team members are as follows (you can click on the role to know what it means):
 
+<<<<<<< HEAD
 Picture Grid of core team (under construction)
+=======
+Picture grid of core team members (following is an example of how SunPy does it). It will consist of:
+ - Name
+ - Picture (not Avatar)
+ - Role(s) (linking to their corresponding description section (through permalinks))
+ - Short Bio (can add link in that if people want)
+ 
+ This is in here as a placeholder!
+>>>>>>> 1b2d2f3 (Text section for teams)
 
 
 ### Role Descriptions
@@ -39,6 +49,12 @@ Picture Grid of core team (under construction)
 #### TARDIS GSoC Coordinators (2020)
  - Coordinate participation of TARDIS in the Google Summer of Code
 
+<<<<<<< HEAD
+=======
+#### TARDIS GSoC Mentors (2020)
+ - Mentors for Google Summer of Code students
+
+>>>>>>> 1b2d2f3 (Text section for teams)
 #### Ombudsperson
  - Designated person appointed to address the concerns of community members and to uphold the code of conduct
  - Solicit and provide anonymized feedback to the TARDIS CORE team

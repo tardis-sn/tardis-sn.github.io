@@ -10,6 +10,7 @@ of our community. To know more about members with specific
 roles, visit the <a href="../community_roles/">Community Roles</a> page.
 
 ## GSoC/SoCIS Students
+<<<<<<< HEAD
 The [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a global program organized by Google where students work with an open source organization on a programming project during Summers. [Summer of Code In Space (SoCIS)](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/SOCIS_The_ESA_Summer_of_Code_in_Space) is another similar program by ESA that aims at promoting open-source "space-related" software to students by letting them code new functionalities.
 
 | Program  | Name     | Project  |
@@ -30,16 +31,25 @@ The [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a gl
 | GSoC 2014  | Vytautas Jančauskas   | <a href="https://www.google-melange.com/archive/gsoc/2014/orgs/python/projects/bucket_brigade.html" target="_blank" rel="noopener nofollow">TARDIS-SN Restructuring and Optimization</a>   |
 
 
+=======
+A brief explanation on GSoC & SoCIS
+
+ - Table of GSoC/SoCIS students
+>>>>>>> 1b2d2f3 (Text section for teams)
 
 ## Project Students
 Other than GSoC, several other students work on different 
 projects through funding programs by organization like NumFOCUS, 
 XSEDE-EMPOWER, etc.
 
+<<<<<<< HEAD
 | Semester  | Name     | Project  |  Funding Organization  |
 |----------|----------|----------|----------|
 | Summer 2021   | Kevin Cawley   | Profiling of TARDIS, GPU Computing   | XSEDE-EMPOWER   |
 | Summer 2021   | Isaac Smith   | Creating Interactive Documentation   |  NumFOCUS |
+=======
+ - Table of Project Students 
+>>>>>>> 1b2d2f3 (Text section for teams)
 
 ## Past Core Team Members
  - Aoife Boyle
@@ -49,6 +59,11 @@ XSEDE-EMPOWER, etc.
  - Ulrich Noebauer
 
 ## Additional Contributors
+<<<<<<< HEAD
  - Josh Shields
  - Vicente Amado Olivo
+=======
+ - Josh _?Shields or Hedberg
+ - Vicente Olivo
+>>>>>>> 1b2d2f3 (Text section for teams)
  - Shambhabi Gautam
