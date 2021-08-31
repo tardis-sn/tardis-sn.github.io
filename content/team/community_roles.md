@@ -50,11 +50,14 @@ Picture grid of core team members (following is an example of how SunPy does it)
  - Coordinate participation of TARDIS in the Google Summer of Code
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### TARDIS GSoC Mentors (2020)
  - Mentors for Google Summer of Code students
 
 >>>>>>> 1b2d2f3 (Text section for teams)
+=======
+>>>>>>> 7782588 (Creation of tables)
 #### Ombudsperson
  - Designated person appointed to address the concerns of community members and to uphold the code of conduct
  - Solicit and provide anonymized feedback to the TARDIS CORE team
