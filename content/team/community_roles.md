@@ -35,6 +35,42 @@ Picture grid of core team members (following is an example of how SunPy does it)
  This is in here as a placeholder!
 >>>>>>> 1b2d2f3 (Text section for teams)
 
+<div class ="picture-grid">
+    <div class ="individual-container">
+        <div class ="role-box">Principal Investigator</div>
+        <div class ="info-container">
+            <div class ="person-name">Brilliant Sunset</div>
+            <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <div class ="small-bio">Biography</div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="role-box">Leading Sunset with a trailing glimmer</div>
+        <div class ="info-container">
+            <div class ="person-name">Brilliant Sunset of a sanctimonous night</div>
+            <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <div class ="small-bio">Biography</div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="role-box">Principal Investigator</div>
+        <div class ="info-container">
+            <div class ="person-name">Brilliant Sunset</div>
+            <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <div class ="small-bio">Biography</div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="role-box">Principal Investigator</div>
+        <div class ="info-container">
+            <div class ="person-name">Brilliant Sunset</div>
+            <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <div class ="small-bio">Biography</div>
+        </div>
+    </div>
+</div>
+
+
 
 ### Role Descriptions
 #### Principlar Investigator
