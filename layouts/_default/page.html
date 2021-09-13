@@ -17,6 +17,14 @@
       </div>
       {{ end }}
       <div class="post-content">
+        {{ if eq .Params.title "Community Roles" }}
+            {{ partial "picture_grid.html" }}
+            <p> first pass done</p><br>
+            {{ range .Site.Data.picture_grid_info }}
+                {{.name}}
+            {{end}}
+            <p> second pass done</p>
+        {{end}}
         {{ .Content }}
       </div>
     </article><!-- .post -->
