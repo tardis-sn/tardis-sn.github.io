@@ -10,7 +10,8 @@ of our community. To know more about members with specific
 roles, visit the <a href="../community_roles/">Community Roles</a> page.
 
 ## GSoC/SoCIS Students
-A brief explanation on GSoC & SoCIS
+The Google Summer of Code (GSoc) is a global program focused on introducting students to open source software development. 
+The Summer of Code In Space (SoCIS) is a program that aims at promoting open-source space-related software to students.
 
 | Program  | Name     | Project  |
 |----------|----------|----------|
