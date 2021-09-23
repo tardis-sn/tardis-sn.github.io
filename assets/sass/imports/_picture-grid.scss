@@ -1,3 +1,7 @@
+//Try to look into only have one container, not something separate for the rest of it. This should help clean it up I hope!
+//Do a complete redesign of it with only 1 container, this should help with the cards being able to handle overflow!
+
+
 .picture-grid {
     position: relative;
     display: flex;
@@ -10,7 +14,7 @@
 .picture-grid .individual-container {
     display: flex;
     max-width: 180px;
-    height: 300px;
+    height: 300px auto;
     flex-direction: column;
     align-items: center;
     border: 1px dotted red;
@@ -25,6 +29,8 @@
     text-align: center;
     align-items: center;
     max-width: 100%;
+
+    word-wrap: break-all;
 }
 
 .picture-grid .individual-container .info-container {
@@ -35,8 +41,10 @@
     
     width: 180px;
     
-    height: inherit;
+    height: 100%;
     border: 1px dotted green;
+
+    padding-bottom: 42px;
 }
 
 .picture-grid .individual-container .info-container .person-name {
@@ -44,22 +52,27 @@
     display: flex;
     text-align: center;
 
-    top: 15px;
+    top: 0px; //was 15px
+    margin-top: 5%;
     border: 1px dotted orange;
-    max-width: 80%;
-    max-height: 62px;
-    overflow:hidden;
+    max-width: 85%;
+    
+    //These two settings make it so there's a max amount for the role box
+    //max-height: 62px;
+    //overflow: hidden;
+    text-overflow: ellipsis;;
 }
 
 .picture-grid .individual-container .info-container .rounded-picture {
-    position: absolute;
+    position: relative;
     display: flex;
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    top: 30%;
+    top: 0px; //was 30%
     border: 1px dotted orange;
     box-shadow: 0 0 5px #112F41;
+    margin: 20% 0px;
 }
 
 .picture-grid .individual-container .info-container .small-bio {
@@ -69,7 +82,9 @@
     flex-direction: column;
     justify-content: center;
 
-    bottom: 20px;
+    margin-bottom: 20px; 
+    bottom: 0px;
+
     width: 120px;
     height: 40px;
     border: 1px dotted orange;

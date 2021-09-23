@@ -55,7 +55,7 @@ Picture grid of core team members (following is an example of how SunPy does it)
         </div>
     </div>
     <div class ="individual-container">
-        <div class ="role-box">Principal Investigator</div>
+        <div class ="role-box">TARDIS GSoC Coordinator</div>
         <div class ="info-container">
             <div class ="person-name">Brilliant Sunset</div>
             <img class="rounded-picture" src="../pictures/random-image.jpg"> 
@@ -63,7 +63,7 @@ Picture grid of core team members (following is an example of how SunPy does it)
         </div>
     </div>
     <div class ="individual-container">
-        <div class ="role-box">Principal Investigator</div>
+        <div class ="role-box">TARDIS GSoC Coordinator</div>
         <div class ="info-container">
             <div class ="person-name">Brilliant Sunset</div>
             <img class="rounded-picture" src="../pictures/random-image.jpg"> 
