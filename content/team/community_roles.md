@@ -23,13 +23,7 @@ TARDIS Core Team is responsible for:
 ### Members & Roles
 Current TARDIS core team members are as follows (you can click on the role to know what it means):
 
-Picture grid of core team members (following is an example of how SunPy does it). It will consist of:
- - Name
- - Picture (not Avatar)
- - Role(s) (linking to their corresponding description section (through permalinks))
- - Short Bio (can add link in that if people want)
- 
- This is in here as a placeholder!
+Picture Grid of core team (under construction)
 
 
 ### Role Descriptions
