@@ -29,8 +29,8 @@ params:
           - label: Community Roles
             url: /team/community_roles
             style: dropdown-link
-          - label: Other Members
-            url: /team/other_members
+          - label: Collaboration
+            url: /team/collaboration
             style: dropdown-link
           - label: Governance
             url: team/governance
