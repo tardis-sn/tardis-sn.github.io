@@ -93,7 +93,7 @@ for the header being ontop of them, try an offset?
 
 Do principle investigator, and then Ombudsperson to the end on the actual docs
 
-Clean up CSS, make PR, then modal
+Make modal and anchor links
 
 ### Role Descriptions
 #### Principlar Investigator
