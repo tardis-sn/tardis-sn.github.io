@@ -1,12 +1,13 @@
 <div class ="picture-grid">
     {{ range .Site.Data.picture_grid_info }}
     <div class ="individual-container">
-        <div class ="role-box">{{.role}}</div>
         <div class ="info-container">
-            <div class ="person-name">{{.name}}</div>
             <img class="rounded-picture" src="{{.image}}"> 
             <div class ="small-bio">More Info</div>
+            <div class ="person-name">{{.name}}</div>
         </div>
+        <div class ="role-box">{{.role}}</div>
     </div>
     {{ end }}
+    test
 </div>

@@ -39,40 +39,61 @@ Picture grid of core team members (following is an example of how SunPy does it)
 
 <div class ="picture-grid">
     <div class ="individual-container">
-        <div class ="role-box">Principal Investigator</div>
         <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg">
             <div class ="person-name">Brilliant Sunset</div>
-            <img class="rounded-picture" src="../pictures/random-image.jpg"> 
             <div class ="small-bio">More Info</div>
+            <div class ="role-box">Principal Investigator</div>
         </div>
     </div>
     <div class ="individual-container">
-        <div class ="role-box">Leading Sunset with a trailing glimmer</div>
         <div class ="info-container">
-            <div class ="person-name">Brilliant Sunset of a sanctimonous night</div>
-            <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <img class="rounded-picture" src="../pictures/random-image.jpg">
+            <div class ="person-name">Brilliant Sunset Night</div>
             <div class ="small-bio">More Info</div>
+            <div class ="role-box">Leading Sunset with a trailing glimmer of sweltering heat</div>
         </div>
     </div>
     <div class ="individual-container">
-        <div class ="role-box">TARDIS GSoC Coordinator</div>
         <div class ="info-container">
-            <div class ="person-name">Brilliant Sunset</div>
             <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <div class ="person-name">Brilliant Sunset</div>
             <div class ="small-bio">More Info</div>
+            <div class ="role-box">TARDIS GSoC Coordinator</div>
         </div>
     </div>
     <div class ="individual-container">
-        <div class ="role-box">TARDIS GSoC Coordinator</div>
         <div class ="info-container">
-            <div class ="person-name">Brilliant Sunset</div>
             <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <div class ="person-name">Brilliant Sunset with a longer name</div>
             <div class ="small-bio">More Info</div>
+            <div class ="role-box">TARDIS GSoC Coordinator</div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg">
+            <div class ="person-name">Role-less Brilliant Sunset</div>
+            <div class ="small-bio">More Info</div>
+            <div class ="role-box"></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg">
+            <div class ="person-name">Brilliant Sunset</div>
+            <div class ="small-bio">More Info</div>
+            <div class ="role-box"></div>
         </div>
     </div>
 </div>
 
+Use anchor links for the roles to link them, but need to account
+for the header being ontop of them, try an offset?
 
+Do principle investigator, and then Ombudsperson to the end on the actual docs
+
+Clean up CSS, make PR, then modal
 
 ### Role Descriptions
 #### Principlar Investigator
