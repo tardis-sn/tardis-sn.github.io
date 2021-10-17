@@ -23,9 +23,6 @@ TARDIS Core Team is responsible for:
 ### Members & Roles
 Current TARDIS core team members are as follows (you can click on the role to know what it means):
 
-<<<<<<< HEAD
-Picture Grid of core team (under construction)
-=======
 Picture grid of core team members (following is an example of how SunPy does it). It will consist of:
  - Name
  - Picture (not Avatar)
@@ -33,7 +30,6 @@ Picture grid of core team members (following is an example of how SunPy does it)
  - Short Bio (can add link in that if people want)
  
  This is in here as a placeholder!
->>>>>>> 1b2d2f3 (Text section for teams)
 
 {{ partial "../../layouts/partials/picture_grid.html" }}
 
@@ -113,66 +109,6 @@ Picture grid of core team members (following is an example of how SunPy does it)
     </ul>
 </div>
 
-<<<<<<< HEAD
-### Role Descriptions
-#### Principlar Investigator
- - Guides the scientific and the educational activities of TARDIS
- - Advised by TARDIS Core
-
-#### TARDIS Core
- - Team that oversees the activities and sets the goals for the TARDIS Collaboration
- - Identifies science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
- - Identifies education opportunities such as workshops, lecture development, and outreach opportunities
-
-#### TARDIS GSoC Coordinators (2020)
- - Coordinate participation of TARDIS in the Google Summer of Code
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-#### TARDIS GSoC Mentors (2020)
- - Mentors for Google Summer of Code students
-
->>>>>>> 1b2d2f3 (Text section for teams)
-=======
->>>>>>> 7782588 (Creation of tables)
-#### Ombudsperson
- - Designated person appointed to address the concerns of community members and to uphold the code of conduct
- - Solicit and provide anonymized feedback to the TARDIS CORE team
- - Assist the TARDIS CORE team with violations of the code of conduct or other ethical concerns
- - Specifically selected as not being part of the TARDIS collaboration
-
-#### Software Architect
- - Ensure overall design pattern throughout TARDIS
- - Coordinate restructure and rewriting efforts
- - Identify and communicate new technologies relevant to TARDIS
-
-#### Issues / Pull Request
- - Monitor open PRs and issues
- - Monitor reviewing is taking place
- - Close abandoned PRs / Issues
-
-#### Continuous Integration / Deployment / Testing
- - Inform team of break in any of the CI/CD pipelines
- - Delegate code maintenance and bug removal
- - Identify new technologies for CI/CD
-
-#### Funding / Financial
- - Manage budget for TARDIS
- - Ensure financial transparency
- - Coordinating with funding organizations
- - Securing funding for parts of the project via discussions and proposals to funding agencies
-
-#### Science / Science Meeting / Publications
- - Coordinating work for weekly science meeting
- - Finding publications and collecting TARDIS models
- - Citation guide
-
-#### Diversity, Equity, and Inclusion
- - Identify opportunities to use TARDIS to engage members of underrepresented minorities (URM) to coding/STEM
- - Identify papers about engaging URM in coding / science
-=======
->>>>>>> df7d31f (Fix anchor link offset)
 
 <div class="anchor-offset">
     <h4 id="ombudsperson">Ombudsperson</h4>
