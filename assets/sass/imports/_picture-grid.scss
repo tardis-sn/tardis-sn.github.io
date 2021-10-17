@@ -61,4 +61,9 @@
     word-wrap: break-all;
 }
 
-//Need to do stuff w/ the Modal thing as well as anchor links 
+.anchor-offset h4:target::before {
+    content: "";
+    height: 81px;
+    margin: -81px 0px 0px;
+    display: block;
+}
