@@ -10,8 +10,6 @@ of our community. To know more about members with specific
 roles, visit the <a href="../community_roles/">Community Roles</a> page.
 
 ## GSoC/SoCIS Students
-A brief explanation on GSoC & SoCIS
-
 The [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a global program organized by Google where students work with an open source organization on a programming project during Summers. [Summer of Code In Space (SoCIS)](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/SOCIS_The_ESA_Summer_of_Code_in_Space) is another similar program by ESA that aims at promoting open-source "space-related" software to students by letting them code new functionalities.
 
 | Program  | Name     | Project  |
@@ -30,6 +28,9 @@ The [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a gl
 | GSoC 2015  | Aoife Boyle   | <a href="https://www.google-melange.com/archive/gsoc/2015/orgs/tardis_sn/projects/aboyle.html" target="_blank" rel="noopener nofollow">Implementation of new features into the new Tardis plasma module framework.</a>   |
 | GSoC 2015  | Vytautas Jančauskas   | <a href="https://www.google-melange.com/archive/gsoc/2015/orgs/tardis_sn/projects/bucket_brigade.html" target="_blank" rel="noopener nofollow">TARDIS-SN Fitting Multiple Supernova Spectra at Once</a>   |
 | GSoC 2014  | Vytautas Jančauskas   | <a href="https://www.google-melange.com/archive/gsoc/2014/orgs/python/projects/bucket_brigade.html" target="_blank" rel="noopener nofollow">TARDIS-SN Restructuring and Optimization</a>   |
+
+
+
 ## Project Students
 Other than GSoC, several other students work on different 
 projects through funding programs by organization like NumFOCUS, 
@@ -39,6 +40,7 @@ XSEDE-EMPOWER, etc.
 |----------|----------|----------|----------|
 | Summer 2021   | Kevin Cawley   | Profiling of TARDIS, GPU Computing   | XSEDE-EMPOWER   |
 | Summer 2021   | Isaac Smith   | Creating Interactive Documentation   |  NumFOCUS |
+
 ## Past Core Team Members
  - Aoife Boyle
  - Michael Klauser
