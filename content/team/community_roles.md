@@ -20,18 +20,7 @@ TARDIS Core Team is responsible for:
  - Identifying science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
  - Identifying education opportunities such as workshops, lecture development, and outreach opportunities
 
-### Members & Roles
-Current TARDIS core team members are as follows (you can click on the role to know what it means):
-
-Picture grid of core team members (following is an example of how SunPy does it). It will consist of:
- - Name
- - Picture (not Avatar)
- - Role(s) (linking to their corresponding description section (through permalinks))
- - Short Bio (can add link in that if people want)
- 
- This is in here as a placeholder!
-
-{{ partial "../../layouts/partials/picture_grid.html" }}
+ You can click on a role to learn more about it.
 
 <div class ="picture-grid">
     <div class ="individual-container">
@@ -47,7 +36,7 @@ Picture grid of core team members (following is an example of how SunPy does it)
             <img class="rounded-picture" src="../pictures/random-image.jpg">
             <div class ="person-name">Brilliant Sunset Night</div>
             <div class ="small-bio">More Info</div>
-            <div class ="role-box">Leading Sunset with a trailing glimmer of sweltering heat</div>
+            <div class ="role-box"><a href="#tardis-core">Leading Sunset with a trailing glimmer of sweltering heat</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -55,7 +44,7 @@ Picture grid of core team members (following is an example of how SunPy does it)
             <img class="rounded-picture" src="../pictures/random-image.jpg"> 
             <div class ="person-name">Brilliant Sunset</div>
             <div class ="small-bio">More Info</div>
-            <div class ="role-box"><a href="#tardis-gsoc-coordinators-2020">TARDIS GSoC Coordinator</a></div>
+            <div class ="role-box"><a href="#continuous-integration--deployment--testing">CI CD</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -63,7 +52,7 @@ Picture grid of core team members (following is an example of how SunPy does it)
             <img class="rounded-picture" src="../pictures/random-image.jpg"> 
             <div class ="person-name">Brilliant Sunset with a longer name</div>
             <div class ="small-bio">More Info</div>
-            <div class ="role-box"><a href="#tardis-gsoc-coordinators-2020">TARDIS GSoC Coordinator</a></div>
+            <div class ="role-box"><a href="#funding--financial">Funding / Financial</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -71,7 +60,7 @@ Picture grid of core team members (following is an example of how SunPy does it)
             <img class="rounded-picture" src="../pictures/random-image.jpg">
             <div class ="person-name">Role-less Brilliant Sunset</div>
             <div class ="small-bio">More Info</div>
-            <div class ="role-box"></div>
+            <div class ="role-box"><a href="#science--science-meeting--publications">Science</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -79,100 +68,52 @@ Picture grid of core team members (following is an example of how SunPy does it)
             <img class="rounded-picture" src="../pictures/random-image.jpg">
             <div class ="person-name">Brilliant Sunset</div>
             <div class ="small-bio">More Info</div>
-            <div class ="role-box"></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion">DEI</a></div>
         </div>
     </div>
 </div>
 
 ### Role Descriptions
-<div class="anchor-offset">
-    <h4 id="principal-investigator">Principal Investigator</h4>
-    <ul>
-        <li>Guides the scientific and the educational activities of TARDIS</li>
-        <li>Advised by TARDIS Core</li>
-    </ul>
-</div>
+#### Principal Investigator { .anchor-offset}
+ - Guides the scientific and the educational activities of TARDIS
+ - Advised by TARDIS Core
 
-<div class="anchor-offset">
-    <h4 id="tardis-core">TARDIS Core</h4>
-    <ul>
-        <li>Team that oversees the activities and sets the goals for the TARDIS Collaboration</li>
-        <li>Identifies science opportunities that match TARDIS capabilities or coordinates the addition of capabilities</li>
-        <li>Identifies education opportunities such as workshops, lecture development, and outreach opportunities</li>
-    </ul>
-</div>
+#### Tardis Core { .anchor-offset}
+ - Team that oversees the activities and sets the goals for the TARDIS Collaboration
+ - Identifies science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
+ - Identifies education opportunities such as workshops, lecture development, and outreach opportunities
 
-<div class="anchor-offset">
-    <h4 id="tardis-gsoc-coordinators-2020">TARDIS GSoC Coordinators (2020)</h4>
-    <ul>
-        <li>Coordinate participation of TARDIS in the Google Summer of Code</li>
-    </ul>
-</div>
-
-
-<div class="anchor-offset">
-    <h4 id="ombudsperson">Ombudsperson</h4>
-    <ul>
-        <li>Designated person appointed to address the concerns of community members and to uphold the code of conduct</li>
-        <li>Solicit and provide anonymized feedback to the TARDIS CORE team</li>
-        <li>Assist the TARDIS CORE team with violations of the code of conduct or other ethical concerns</li>
-        <li>Specifically selected as not being part of the TARDIS collaboration</li>
-    </ul>
-</div>
-
-<div class="anchor-offset">
-    <h4 id="software-architect">Software Architect</h4>
-    <ul>
-        <li>Ensure overall design pattern throughout TARDIS</li>
-        <li>Coordinate restructure and rewriting efforts</li>
-        <li>Identify and communicate new technologies relevant to TARDIS</li>
-    </ul>
-</div>
-
-<div class="anchor-offset">
-    <h4 id="issues--pull-request">Issues / Pull Request</h4>
-    <ul>
-        <li>Monitor open PRs and issues</li>
-        <li>Monitor reviewing is taking place</li>
-        <li>Close abandoned PRs / Issues</li>
-    </ul>
-</div>
-
-<div class="anchor-offset">
-    <h4 id="continuous-integration--deployment--testing">Continuous Integration / Deployment / Testing</h4>
-    <ul>
-        <li>Inform team of break in any of the CI/CD pipelines</li>
-        <li>Delegate code maintenance and bug removal</li>
-        <li>Identify new technologies for CI/CD</li>
-    </ul>
-</div>
-
-<div class="anchor-offset">
-    <h4 id="funding--financial">Funding / Financial</h4>
-    <ul>
-        <li>Manage budget for TARDIS</li>
-        <li>Ensure financial transparency</li>
-        <li>Coordinating with funding organizations</li>
-        <li>Securing funding for parts of the project via discussions and proposals to funding agencies</li>
-    </ul>
-</div>
-
-<div class="anchor-offset">
-    <h4 id="science--science-meeting--publications">Science / Science Meeting / Publications</h4>
-    <ul>
-        <li>Coordinating work for weekly science meeting</li>
-        <li>Finding publications and collecting TARDIS models</li>
-        <li>Citation guide</li>
-    </ul>
-</div>
-
-<div class="anchor-offset">
-    <h4 id="diversity-equity-and-inclusion">Diversity, Equity, and Inclusion</h4>
-    <ul>
-        <li>Identify opportunities to use TARDIS to engage members of underrepresented minorities (URM) to coding/STEM</li>
-        <li>Identify papers about engaging URM in coding / science</li>
-    </ul>
-</div>
+#### TARDIS GSoC Coordinators (2020) { .anchor-offset}
+ - Coordinate participation of TARDIS in the Google Summer of Code
+#### Ombudsperson { .anchor-offset}
+ - Designated person appointed to address the concerns of community members and to uphold the code of conduct
+ - Solicit and provide anonymized feedback to the TARDIS CORE team
+ - Assist the TARDIS CORE team with violations of the code of conduct or other ethical concerns
+ - Specifically selected as not being part of the TARDIS collaboration
+#### Software Architect { .anchor-offset}
+ - Ensure overall design pattern throughout TARDIS
+ - Coordinate restructure and rewriting efforts
+ - Identify and communicate new technologies relevant to TARDIS
+#### Issues / Pull Request { .anchor-offset}
+ - Monitor open PRs and issues
+ - Monitor reviewing is taking place
+ - Close abandoned PRs / Issues
+#### Continuous Integration / Deployment / Testing { .anchor-offset}
+ - Inform team of break in any of the CI/CD pipelines
+ - Delegate code maintenance and bug removal
+ - Identify new technologies for CI/CD
+#### Funding / Financial { .anchor-offset}
+ - Manage budget for TARDIS
+ - Ensure financial transparency
+ - Coordinating with funding organizations
+ - Securing funding for parts of the project via discussions and proposals to funding agencies
+#### Science / Science Meeting / Publications { .anchor-offset}
+ - Coordinating work for weekly science meeting
+ - Finding publications and collecting TARDIS models
+ - Citation guide
+#### Diversity, Equity, and Inclusion { .anchor-offset}
+ - Identify opportunities to use TARDIS to engage members of underrepresented minorities (URM) to coding/STEM
+ - Identify papers about engaging URM in coding / science
 
 
 ## GSoC Org Admins & Mentors
