@@ -53,22 +53,30 @@
     color: #0072ff;
 }
 
+.picture-grid .individual-container .info-container .small-bio a {
+    text-decoration: none;
+}
+
+.picture-grid .individual-container .info-container .small-bio a:hover {
+    color: inherit;
+}
+
 .picture-grid .individual-container .info-container .role-box {
     text-align: center;
     width: 100%;
-    max-height: 60px;
+    //max-height: 60px; //This restricts the height of the card to two lines of text
     overflow: hidden;
     word-wrap: break-all;
 }
 
 .picture-grid .individual-container .info-container .role-box a {
-    font-weight: bold;
-    color: black;
+    font-weight: 600;
+    color: #4c5267;
     text-decoration: none;
 }
 
 .picture-grid .individual-container .info-container .role-box a:hover {
-    color: blue;
+    color: #0072ff;
 }
 
 .anchor-offset:target::before {

@@ -20,54 +20,55 @@ TARDIS Core Team is responsible for:
  - Identifying science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
  - Identifying education opportunities such as workshops, lecture development, and outreach opportunities
 
- You can click on a role to learn more about it.
+### Members & Roles
+Current TARDIS core team members are as follows (you can click on the role to learn more about it):
 
 <div class ="picture-grid">
     <div class ="individual-container">
         <div class ="info-container">
             <img class="rounded-picture" src="../pictures/random-image.jpg">
-            <div class ="person-name">Brilliant Sunset</div>
-            <div class ="small-bio">More Info</div>
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
             <div class ="role-box"><a href="#principal-investigator">Principal Investigator</a></div>
         </div>
     </div>
     <div class ="individual-container">
         <div class ="info-container">
             <img class="rounded-picture" src="../pictures/random-image.jpg">
-            <div class ="person-name">Brilliant Sunset Night</div>
-            <div class ="small-bio">More Info</div>
-            <div class ="role-box"><a href="#tardis-core">Leading Sunset with a trailing glimmer of sweltering heat</a></div>
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#software-architect">Software Architect</a></div>
         </div>
     </div>
     <div class ="individual-container">
         <div class ="info-container">
             <img class="rounded-picture" src="../pictures/random-image.jpg"> 
-            <div class ="person-name">Brilliant Sunset</div>
-            <div class ="small-bio">More Info</div>
-            <div class ="role-box"><a href="#continuous-integration--deployment--testing">CI CD</a></div>
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#continuous-integration--deployment--testing">CI / CD / Testing</a></div>
         </div>
     </div>
     <div class ="individual-container">
         <div class ="info-container">
             <img class="rounded-picture" src="../pictures/random-image.jpg"> 
-            <div class ="person-name">Brilliant Sunset with a longer name</div>
-            <div class ="small-bio">More Info</div>
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
             <div class ="role-box"><a href="#funding--financial">Funding / Financial</a></div>
         </div>
     </div>
     <div class ="individual-container">
         <div class ="info-container">
             <img class="rounded-picture" src="../pictures/random-image.jpg">
-            <div class ="person-name">Role-less Brilliant Sunset</div>
-            <div class ="small-bio">More Info</div>
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
             <div class ="role-box"><a href="#science--science-meeting--publications">Science</a></div>
         </div>
     </div>
     <div class ="individual-container">
         <div class ="info-container">
             <img class="rounded-picture" src="../pictures/random-image.jpg">
-            <div class ="person-name">Brilliant Sunset</div>
-            <div class ="small-bio">More Info</div>
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
             <div class ="role-box"><a href="#diversity-equity-and-inclusion">DEI</a></div>
         </div>
     </div>
@@ -78,7 +79,7 @@ TARDIS Core Team is responsible for:
  - Guides the scientific and the educational activities of TARDIS
  - Advised by TARDIS Core
 
-#### Tardis Core { .anchor-offset}
+#### TARDIS Core { .anchor-offset}
  - Team that oversees the activities and sets the goals for the TARDIS Collaboration
  - Identifies science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
  - Identifies education opportunities such as workshops, lecture development, and outreach opportunities
