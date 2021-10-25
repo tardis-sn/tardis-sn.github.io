@@ -84,8 +84,6 @@ Current TARDIS core team members are as follows (you can click on the role to le
  - Identifies science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
  - Identifies education opportunities such as workshops, lecture development, and outreach opportunities
 
-#### TARDIS GSoC Coordinators (2020) { .anchor-offset}
- - Coordinate participation of TARDIS in the Google Summer of Code
 #### Ombudsperson { .anchor-offset}
  - Designated person appointed to address the concerns of community members and to uphold the code of conduct
  - Solicit and provide anonymized feedback to the TARDIS CORE team
