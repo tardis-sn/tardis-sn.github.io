@@ -14,6 +14,9 @@ The [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a gl
 
 | Program  | Name     | Project  |
 |----------|----------|----------|
+| GSoC 2021  | Atharva Arya   | <a href="https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568/" target="_blank" rel="noopener nofollow">Visualization Tools for TARDIS<a>   |
+| GSoC 2021  | Dhruv Sondhi   | <a href="https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/" target="_blank" rel="noopener nofollow">Improving TARDIS Simulation Logging Framework</a>   |
+| GSoC 2021  | Yizheng Yu   | <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/" target="_blank" rel="noopener nofollow">Custom Abundance Widget</a>   |
 | GSoC 2020  | Jordi Eguren Brown   | <a href="https://summerofcode.withgoogle.com/archive/2020/projects/5699342318436352/" target="_blank" rel="noopener nofollow">TARDIS Code restructure with factory method</a>   |
 | GSoC 2020  | Ezequiel Passaro   | <a href="https://summerofcode.withgoogle.com/archive/2020/projects/5301481479077888/" target="_blank" rel="noopener nofollow">Comparing TARDIS spectra generated with different atomic data sources</a> |
 | GSoC 2020  | Jaladh Singhal  | <a href="https://summerofcode.withgoogle.com/archive/2020/projects/5967738750631936/" target="_blank" rel="noopener nofollow">Jupyter Notebook Widgets for TARDIS</a>  |
