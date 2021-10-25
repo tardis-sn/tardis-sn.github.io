@@ -21,61 +21,100 @@ TARDIS Core Team is responsible for:
  - Identifying education opportunities such as workshops, lecture development, and outreach opportunities
 
 ### Members & Roles
-Current TARDIS core team members are as follows (you can click on the role to know what it means):
+Current TARDIS core team members are as follows (you can click on the role to learn more about it):
 
-Picture Grid of core team (under construction)
-
+<div class ="picture-grid">
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg">
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#principal-investigator">Principal Investigator</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg">
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#software-architect">Software Architect</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#continuous-integration--deployment--testing">CI / CD / Testing</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg"> 
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#funding--financial">Funding / Financial</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg">
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#science--science-meeting--publications">Science</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="../pictures/random-image.jpg">
+            <div class ="person-name">Firstname Lastname</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion">DEI</a></div>
+        </div>
+    </div>
+</div>
 
 ### Role Descriptions
-#### Principlar Investigator
+#### Principal Investigator { .anchor-offset}
  - Guides the scientific and the educational activities of TARDIS
  - Advised by TARDIS Core
 
-#### TARDIS Core
+#### TARDIS Core { .anchor-offset}
  - Team that oversees the activities and sets the goals for the TARDIS Collaboration
  - Identifies science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
  - Identifies education opportunities such as workshops, lecture development, and outreach opportunities
 
-#### TARDIS GSoC Coordinators (2020)
+#### TARDIS GSoC Coordinators (2020) { .anchor-offset}
  - Coordinate participation of TARDIS in the Google Summer of Code
-
-#### Ombudsperson
+#### Ombudsperson { .anchor-offset}
  - Designated person appointed to address the concerns of community members and to uphold the code of conduct
  - Solicit and provide anonymized feedback to the TARDIS CORE team
  - Assist the TARDIS CORE team with violations of the code of conduct or other ethical concerns
  - Specifically selected as not being part of the TARDIS collaboration
-
-#### Software Architect
+#### Software Architect { .anchor-offset}
  - Ensure overall design pattern throughout TARDIS
  - Coordinate restructure and rewriting efforts
  - Identify and communicate new technologies relevant to TARDIS
-
-#### Issues / Pull Request
+#### Issues / Pull Request { .anchor-offset}
  - Monitor open PRs and issues
  - Monitor reviewing is taking place
  - Close abandoned PRs / Issues
-
-#### Continuous Integration / Deployment / Testing
+#### Continuous Integration / Deployment / Testing { .anchor-offset}
  - Inform team of break in any of the CI/CD pipelines
  - Delegate code maintenance and bug removal
  - Identify new technologies for CI/CD
-
-#### Funding / Financial
+#### Funding / Financial { .anchor-offset}
  - Manage budget for TARDIS
  - Ensure financial transparency
  - Coordinating with funding organizations
  - Securing funding for parts of the project via discussions and proposals to funding agencies
-
-#### Science / Science Meeting / Publications
+#### Science / Science Meeting / Publications { .anchor-offset}
  - Coordinating work for weekly science meeting
  - Finding publications and collecting TARDIS models
  - Citation guide
-
-#### Diversity, Equity, and Inclusion
+#### Diversity, Equity, and Inclusion { .anchor-offset}
  - Identify opportunities to use TARDIS to engage members of underrepresented minorities (URM) to coding/STEM
  - Identify papers about engaging URM in coding / science
-
-
 
 
 ## GSoC Org Admins & Mentors
