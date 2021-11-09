@@ -30,15 +30,20 @@ layout: page
 ---
 
 We are grateful to the following organisations for sponsoring us and helping to sustain **TARDIS** as a free and open-source software.
-<br>
+
+
+
+
+<br><br>
 <div>
   <div style="text-align:center">
-    <a href="https://www.esa.int/">
-      <img src="../images/esa.png" width="500">
+    <a href="https://numfocus.org/">
+      <img src="../images/Numfocus_stamp.png" width="500">
     </a>
   </div>
   <br>
-  <p>The <strong>European Space Agency</strong> supports TARDIS through their Summer of Code in Space program.</p>
+  <p><strong>NUMFocus</strong> supports TARDIS by providing us with funding for research, improvements
+    to the TARDIS documentation, and more.</p>
   <br>
 </div>
 <div>
@@ -47,9 +52,10 @@ We are grateful to the following organisations for sponsoring us and helping to 
       <img src="../images/github.png" width="500">
     </a>
   </div>
+  <p><strong>GitHub</strong> continually supports TARDIS research by providing us with free large-file storage, allowing
+    us to easily compute massive data sets and check results.</p>
   <br>
-  <p><strong>GitHub</strong> supports TARDIS by providing us with free large-file storage.</p>
-  <br>
+  <br><br>
 </div>
 <div>
   <div style="text-align:center">
@@ -58,16 +64,21 @@ We are grateful to the following organisations for sponsoring us and helping to 
     </a>
   </div>
   <br>
-  <p><strong>Google</strong> supports TARDIS through their Summer of Code initiative.</p>
-  <br>
+  <p><strong>Google</strong> supports TARDIS through their Summer of Code initiative. This not only expands and improves
+    the current version of TARDIS each session, but also brings a plethora of different viewpoints on what can be improved 
+    with TARDIS.
+    </p>
+  <br><br><br>
 </div>
+
 <div>
   <div style="text-align:center">
-    <a href="https://numfocus.org/">
-      <img src="../images/Numfocus_stamp.png" width="500">
+    <a href="https://www.esa.int/">
+      <img src="../images/esa.png" width="500">
     </a>
   </div>
   <br>
-  <p><strong>NUMFocus</strong> supports TARDIS by providing us with funding for our research.</p>
+  <p>The <strong>European Space Agency</strong> supports TARDIS through their Summer of Code in Space (SoCIS) program, helping
+  TARDIS expand its functionality.</p>
   <br>
 </div>
