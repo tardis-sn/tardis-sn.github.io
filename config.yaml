@@ -12,6 +12,9 @@ params:
       - label: Home
         url: /
         style: link
+      - label: Sponsors
+        url: /sponsors
+        style: link
       - label: Documentation
         url: /documentation
         style: dropdown
