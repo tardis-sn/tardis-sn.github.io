@@ -42,8 +42,8 @@ params:
           - label: Papers
             url: /research/papers
             style: dropdown-link 
-          - label: Posters
-            url:  /research/posters
+          - label: Presentations
+            url:  /research/presentations
             style: dropdown-link
       - label: Credits
         url: /credits
