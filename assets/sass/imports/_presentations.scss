@@ -1,0 +1,41 @@
+.presentation {
+    position: relative; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: start;  
+    margin-left:-40%;
+    margin-right:-40%;
+    @media (max-width: 800px) {
+        margin-left:0%;
+        margin-right:0%;
+    }
+}
+
+.presentation .presentation_section {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    width: 100%;
+    flex-flow: wrap;
+}
+
+.presentation .presentation_section .info-box {
+    width: 19%; 
+    display: flex;
+    justify-content: center; 
+    align-items:center; 
+    padding: 2%;
+    @media (max-width: 800px) {
+        width: 100%;
+        order: 1;
+    }
+}
+
+.presentation .presentation_section .preview-box {
+    width: 70% ; 
+    padding: 1%;
+    @media (max-width: 800px) {
+        width: 100%;
+        order: 2;
+    }
+}
