@@ -13,7 +13,7 @@ layout: page
         </div>
         <div class="preview-box">
             <div class="preview-pdf" >
-                <iframe src="https://drive.google.com/file/d/15K8TtfHBJAHhp7SZ29EyJk6iZGXNO4KI/preview" width="100%" height="100%" allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview" width="100%" height="100%  allow="autoplay"></iframe>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@ layout: page
     <div class="presentation_section" >
         <div class="preview-box">
             <div class="preview-pdf" >
-                <iframe src="https://drive.google.com/file/d/15K8TtfHBJAHhp7SZ29EyJk6iZGXNO4KI/preview" width="100%" height="100%" allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/15SNxFEQn--4D0QPLzKaXgJHVBBnoL9Dg/preview" width="100%" height="100%"allow="autoplay"></iframe>
             </div>
         </div>
         <div class="info-box">
@@ -36,7 +36,7 @@ layout: page
         </div>
         <div class="preview-box">
             <div class="preview-video">
-                <iframe src="https://drive.google.com/file/d/19KvtwDzdzqJhYNC8p_LOghWftREFGY8s/preview" width="100%" height="100%"allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/1VSiuNk0NY3WWXfo4tWy5hM-qYfUyvHa4/preview" width="100%" height="100%"allow="autoplay"></iframe>
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@ layout: page
     <div class="presentation_section" >
         <div class="preview-box">
             <div class="preview-video">
-                <iframe src="https://drive.google.com/file/d/19KvtwDzdzqJhYNC8p_LOghWftREFGY8s/preview" width="100%" height="100%"allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/1C9grvd84kIwan0bnWnQvOoTtFPvrWKNW/preview" width="100%" height="100%" allow="autoplay"></iframe>
             </div>
         </div>
         <div class="info-box">
@@ -58,7 +58,7 @@ layout: page
         </div>
         <div class="preview-box">
             <div class="preview-video">
-                <iframe src="https://drive.google.com/file/d/19KvtwDzdzqJhYNC8p_LOghWftREFGY8s/preview" width="100%" height="100%"allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/1HWsXN-E2Fu98N--PWO5_j9_BCWtcO0l0/preview" width="100%" height="100%" allow="autoplay"></iframe>
             </div>
         </div>
     </div>
