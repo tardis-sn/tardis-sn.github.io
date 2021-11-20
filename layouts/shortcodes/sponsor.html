@@ -4,7 +4,7 @@
         <img src="{{ index .Params 1}}" width="500">
       </a>
     </div>
-    <p>
-        {{ index .Params 2}}<strong> {{ index .Params 3}}</strong> {{ index .Params 4}}
-    </p>
+    <span>
+        {{ index .Params 2 | markdownify }}
+    </span>
 </div>
