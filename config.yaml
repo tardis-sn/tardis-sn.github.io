@@ -48,9 +48,9 @@ params:
       - label: Credits
         url: /credits
         style: link
-      - label: News
-        url: /news
-        style: link #primary is another style available
+      #- label: News
+      #  url: /news
+      #  style: link #primary is another style available
   footer:
     sections:
       - type: footer_text
@@ -65,9 +65,9 @@ params:
           - label: Sponsors
             url: /sponsors
             style: link
-          - label: Mission
-            url: /signup
-            style: link
+          #- label: Mission
+          #  url: /signup
+          #  style: link
       - type: footer_nav
         nav_links:
           - label: Twitter
