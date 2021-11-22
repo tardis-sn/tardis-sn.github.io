@@ -4,7 +4,7 @@ date: 2021-05-28T09:27:27-05:00
 draft: false
 layout: page
 ---
-## Papers Using Tardis
+## Papers using the *TARDIS* package
 
 **Dutta, Anirban, Singh, Avinash, Anupama, G. C., et al.** 2021, MNRAS, *"SN 2017hpa: a carbon-rich Type Ia supernova"* <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503..896D" target="_blank" rel="noopener nofollow">(ADS Link)</a>
 
@@ -148,3 +148,8 @@ layout: page
 
 
 **Kerzendorf, Wolfgang E., Sim, Stuart A.** 2014, MNRAS, *"A spectral synthesis code for rapid modelling of supernovae"* <a href="https://ui.adsabs.harvard.edu/abs/2014MNRAS.440..387K" target="_blank" rel="noopener nofollow">(ADS Link)</a>
+
+
+## Papers using the *CARSUS* package
+
+**James H. Gillanders, Michael McCann, Stuart A. Sim. Stephen J. Smartt, and Connor P. Ballance** 2021, MNRAS, *"Constraints on the presence of platinum and gold in the spectra of the kilonova at2017gfo"* <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506.3560G" target="_blank" rel="noopener nofollow">(ADS Link)</a>
