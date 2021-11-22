@@ -1,5 +1,5 @@
 ---
-title: Code Of Conduct
+title: TARDIS Community Code Of Conduct
 image_alt: TARDIS Banner
 seo:
   title: Code Of Conduct - TARDIS-SN
