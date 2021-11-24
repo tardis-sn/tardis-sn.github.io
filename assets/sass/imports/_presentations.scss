@@ -21,27 +21,21 @@
 }
 
 .presentation .presentation_section .info-box {
-    width: 19%; 
     display: flex;
     justify-content: center; 
     align-items:center; 
     padding: 2%;
-    @media (max-width: 1340px) {
-        width: 100%;
-        order: 1;
-        padding-bottom: 0.6%;
-    }
+    width: 100%;
+    order: 1;
+    padding-bottom: 0.6%;
 }
 
 .presentation .presentation_section .preview-box {
-    width: 70% ; 
     padding: 1%;
-    @media (max-width: 1340px) {
-        width: 100%;
-        order: 2;
-        padding-top: 0%;
-        padding-bottom: 2%;
-    }
+    width: 100%;
+    order: 2;
+    padding-top: 0%;
+    padding-bottom: 2%;
 }
 
 .presentation .presentation_section .preview-box .preview-pdf{

@@ -5,63 +5,10 @@ draft: false
 layout: page
 ---
 
-<div class="presentation" >
-    <h2 style="text-align: center;">Posters</h2>
-    <div class="presentation_section">
-        <div class="info-box">
-            <p><strong>Isaac Smith</strong> presented a poster on “Documenting Scientific Software” at <i>Mid-Michigan Symposium for Undergraduate Research Experiences 2021</i> where he demonstrated how he made TARDIS documentation more user-friendly and interactive. </p>
-        </div>
-        <div class="preview-box">
-            <div class="preview-pdf" >
-                <iframe src="https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview" width="100%" height="100%  allow="autoplay"></iframe>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="presentation_section" >
-        <div class="preview-box">
-            <div class="preview-pdf" >
-                <iframe src="https://drive.google.com/file/d/15SNxFEQn--4D0QPLzKaXgJHVBBnoL9Dg/preview" width="100%" height="100%"allow="autoplay"></iframe>
-            </div>
-        </div>
-        <div class="info-box">
-            <p><strong>Ezequiel Passaro</strong> presented a poster on “An Open Source Framework for Atomic Data” for <i>Reunión anual de la Asociación Argentina de Astronomía</i> in September ’19 where he demonstrated the TARDIS package carsus.  </p>
-        </div>
-    </div>
-    <br>
-    <h2 style="text-align: center;">Talks</h2>
-    <div class="presentation_section" >
-        <div class="info-box">
-            <p><strong>Luke Harvey</strong> a talk on “Exploring SNe Ia with spectral synthesis code TARDIS” at <i>Irish National Astronomy Meeting</i> in September ’21. </p>
-        </div>
-        <div class="preview-box">
-            <div class="preview-video">
-                <iframe src="https://drive.google.com/file/d/1VSiuNk0NY3WWXfo4tWy5hM-qYfUyvHa4/preview" width="100%" height="100%"allow="autoplay"></iframe>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="presentation_section" >
-        <div class="preview-box">
-            <div class="preview-video">
-                <iframe src="https://drive.google.com/file/d/1C9grvd84kIwan0bnWnQvOoTtFPvrWKNW/preview" width="100%" height="100%" allow="autoplay"></iframe>
-            </div>
-        </div>
-        <div class="info-box">
-            <p><strong>James Gillanders</strong> gave a talk on “Spectroscopic Modelling of the kilonova AT2017gfo” at <i>Irish National Astronomy Meeting</i> in September ’21 in which he demonstrated how he used TARDIS. </p>
-        </div>
-    </div>
-    <br>
-    <div class="presentation_section" >
-        <div class="info-box">
-            <p><strong>Jaladh Singhal</strong> gave a lightning talk on “Using Jupyter Widgets to make Astrophysics Research easier” at <i>JupyterCon 2020</i> where he demonstrated interactive visualizations & widgets he developed at TARDIS.</p>
-        </div>
-        <div class="preview-box">
-            <div class="preview-video">
-                <iframe src="https://drive.google.com/file/d/1HWsXN-E2Fu98N--PWO5_j9_BCWtcO0l0/preview" width="100%" height="100%" allow="autoplay"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
 
+{{< presentation preview_type="pdf" info_text="**Isaac Smith** presented a poster on “Documenting Scientific Software” at Mid-Michigan Symposium for Undergraduate Research Experiences 2021 where he demonstrated how he made TARDIS documentation more user-friendly and interactive." embed_link="https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview">}}
+{{< presentation preview_type="pdf" info_text="**Ezequiel Passaro** presented a poster on “An Open Source Framework for Atomic Data” for Reunión anual de la Asociación Argentina de Astronomía in September ’19 where he demonstrated the TARDIS package carsus.  " embed_link="https://drive.google.com/file/d/15SNxFEQn--4D0QPLzKaXgJHVBBnoL9Dg/preview">}}
+{{< presentation preview_type="video" info_text="Luke Harvey a talk on “Exploring SNe Ia with spectral synthesis code TARDIS” at Irish National Astronomy Meeting in September ’21. " embed_link="https://drive.google.com/file/d/1VSiuNk0NY3WWXfo4tWy5hM-qYfUyvHa4/preview">}}
+{{< presentation preview_type="video" info_text="James Gillanders gave a talk on Spectroscopic Modelling of the kilonova AT2017gfo at Irish National Astronomy Meeting in September ’21 in which he demonstrated how he used TARDIS.  " embed_link="https://drive.google.com/file/d/1C9grvd84kIwan0bnWnQvOoTtFPvrWKNW/preview">}}
+{{< presentation preview_type="video" info_text="Jaladh Singhal gave a lightning talk on “Using Jupyter Widgets to make Astrophysics Research easier” at JupyterCon 2020 where he demonstrated interactive visualizations & widgets he developed at TARDIS" embed_link="https://drive.google.com/file/d/1HWsXN-E2Fu98N--PWO5_j9_BCWtcO0l0/preview">}}
 
