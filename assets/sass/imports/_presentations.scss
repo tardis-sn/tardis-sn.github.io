@@ -3,10 +3,7 @@
     display: flex; 
     flex-direction: column;
     justify-content: start;  
-    @media (max-width: 1340px) {
-        margin-left:0%;
-        margin-right:0%;
-    }
+    margin-bottom: 45px;
 }
 
 .presentation .presentation_section {
@@ -22,27 +19,15 @@
     justify-content: center; 
     align-items:center; 
     width: 100%;
-    order: 1;
 }
 
 .presentation .presentation_section .preview-box {
     width: 100%;
-    order: 2;
-    padding-bottom: 7%;
-}
-
-.presentation .presentation_section .preview-box .preview-pdf{
-    width: 100%; 
     aspect-ratio: 16/9;
 }
 
-.presentation .presentation_section .preview-box .preview-video{
-    width: 100%; 
-    aspect-ratio: 16/9;
-}
 
 .subheading {
     display: flex;
     justify-content: center;
 }
-
