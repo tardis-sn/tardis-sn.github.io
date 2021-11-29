@@ -31,7 +31,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          # remove following two lines when ready to publish publicly (currently,
-          # base url shows under construction & built website is available at /preview)
-          publish_branch: under-construction
-          destination_dir: preview
+          # If want to show under construction (also have to change baseURL in config.yml)
+          # publish_branch: under-construction
+          # destination_dir: preview
