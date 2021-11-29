@@ -810,6 +810,68 @@ textarea {
     right: 4vw;
     top: 4vw; } }
 
+.menu-header {
+  display: flex;
+  flex-direction: row; }
+
+.menu-header .menu-item-header {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 45px;
+  background-color: inherit;
+  width: max-content; }
+
+.menu-header .dropdown {
+  display: block;
+  font-size: 16px;
+  padding: 11px;
+  position: absolute;
+  top: 60px;
+  min-width: 160px; }
+
+.menu-header .dropdown .dropdown-item {
+  display: none;
+  position: relative;
+  padding: 5px 10px;
+  right: 10px;
+  vertical-align: middle;
+  align-items: center;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  min-width: max-content;
+  height: 36px;
+  background-color: #fff;
+  margin: 0 auto; }
+
+.menu-header .dropdown-item:hover {
+  background-color: #f1f1f1; }
+
+.menu-item-header:hover .dropdown .dropdown-item {
+  display: flex; }
+
+@media only screen and (max-width: 800px) {
+  .menu-header {
+    flex-direction: column; }
+  .menu-header .menu-item-header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    min-width: 100%; }
+  .menu-header .dropdown {
+    position: relative;
+    top: 5px;
+    left: 30px;
+    padding: 0px 0px 12px 0px; }
+  .menu-header .dropdown .dropdown-item {
+    display: flex;
+    position: relative;
+    padding: 0px 1px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background-color: #fff; }
+  .menu-header .dropdown-span-padding {
+    padding-top: 12px; } }
+
 .post {
   margin-bottom: 1.66667em; }
 
@@ -1527,3 +1589,110 @@ body.has-theme-bar #page {
   @media only screen and (min-width: 801px) {
     body.has-theme-bar #page .site-header {
       top: 60px; } }
+.picture-grid {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; }
+
+.picture-grid .individual-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 180px;
+  height: 300px auto;
+  margin: 15px;
+  box-shadow: 0px 3px 10px 0px rgba(76, 82, 103, 0.15);
+  padding: 1em;
+  border: 1px solid #ebecf0;
+  border-radius: 3px; }
+
+.picture-grid .individual-container .info-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 180px;
+  height: 100%; }
+
+.picture-grid .individual-container .info-container .rounded-picture {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 5px; }
+
+.picture-grid .individual-container .info-container .person-name {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px; }
+
+.picture-grid .individual-container .info-container .small-bio {
+  margin-bottom: 36px;
+  font-size: .8em;
+  color: #0072ff; }
+
+.picture-grid .individual-container .info-container .small-bio a {
+  text-decoration: none; }
+
+.picture-grid .individual-container .info-container .small-bio a:hover {
+  color: inherit; }
+
+.picture-grid .individual-container .info-container .role-box {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  word-wrap: break-all; }
+
+.picture-grid .individual-container .info-container .role-box a {
+  font-weight: 600;
+  color: #4c5267;
+  text-decoration: none; }
+
+.picture-grid .individual-container .info-container .role-box a:hover {
+  color: #0072ff; }
+
+.anchor-offset:target::before {
+  content: "";
+  height: 81px;
+  margin: -81px 0px 0px;
+  display: block; }
+
+.sponsor-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.sponsor-container p {
+  padding-top: 10px; }
+
+.presentation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-bottom: 45px; }
+
+.presentation .presentation_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex-flow: wrap; }
+
+.presentation .presentation_section .info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.presentation .presentation_section .preview-box {
+  width: 100%;
+  aspect-ratio: 16/9; }
+
+.subheading {
+  display: flex;
+  justify-content: center; }
