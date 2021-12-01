@@ -83,10 +83,10 @@ sections:
   #         Interdum et malesuada fames ac ante ipsum primis in faucibus.
   - section_id: call-to-action
     type: section_cta
-    title: Try it out for yourself!
-    subtitle: You can try TARDIS online using binder.
+    title: Try out all of this online!
+    subtitle: Launch an interactive version of our quickstart Jupyter notebook
     actions:
-      - label: TARDIS quickstart
+      - label: Get Started
         url: https://mybinder.org/v2/gh/tardis-sn/tardis/HEAD?filepath=docs/quickstart/quickstart.ipynb
         style: primary
   # - section_id: recent-posts
