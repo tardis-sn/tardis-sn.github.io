@@ -3,14 +3,13 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
     image_alt: App preview
     title: TARDIS Project
     content: >-
       The free and open-source software to simulate and analyse supernovae, in Python.
     actions:
       - label: Learn More
-        url: /features
+        url: index.html#features
         style: primary
   - section_id: features
     type: section_features
@@ -26,7 +25,7 @@ sections:
           With tardis (our Monte Carlo radiative-transfer code), you can control simulation parameters and access physical properties of the model in an intuitive way.
         actions:
           - label: Learn More
-            url: /features
+            url: https://tardis-sn.github.io/tardis/quickstart/quickstart.html
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -38,7 +37,7 @@ sections:
           After simulation, use our variety of tools to generate diagnostic visualizations and Jupyter widgets (GUI) to interactively explore the data.
         actions:
           - label: Learn More
-            url: /features
+            url: https://tardis-sn.github.io/tardis/io/visualization/index.html
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -50,7 +49,7 @@ sections:
           Our carsus package can read atomic data from a variety of sources and output them to file formats readable by tardis and other radiative transfer codes.
         actions:
           - label: Learn More
-            url: /features
+            url: https://tardis-sn.github.io/carsus/
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -84,11 +83,11 @@ sections:
   #         Interdum et malesuada fames ac ante ipsum primis in faucibus.
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Try it out for yourself!
+    subtitle: You can try TARDIS online using binder.
     actions:
-      - label: Get Started
-        url: /signup
+      - label: TARDIS quickstart
+        url: https://mybinder.org/v2/gh/tardis-sn/tardis/HEAD?filepath=docs/quickstart/quickstart.ipynb
         style: primary
   # - section_id: recent-posts
   #   type: section_posts
