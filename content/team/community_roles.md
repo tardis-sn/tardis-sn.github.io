@@ -29,7 +29,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
             <div class ="person-name">Yssa Camacho-Neves</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Education Coordinator</a></div>
+            <div class ="role-box"><a href="#">Education Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -37,7 +37,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1HxWVyLYvNQ_2xVtoF9igJMICCsLQ15tC">
             <div class ="person-name">Andreas Flörs</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#science--science-meeting--publications">PR/Issues Coordinator</a></div>
+            <div class ="role-box"><a href="#issues--pull-request">PR/Issues Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -45,7 +45,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1AYiteXfV_E3Owxyd5SrFyRNQ5ptRtjDt"> 
             <div class ="person-name">Andrew Fullard</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#continuous-integration--deployment--testing">Collaboration Coordinator</a></div>
+            <div class ="role-box"><a href="#">Collaboration Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -53,7 +53,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1QkpoSJaQ1mBZy9YSdYy7hb4Zj8ikn4op">
             <div class ="person-name">James Gillanders</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Visualization Coordinator</a></div>
+            <div class ="role-box"><a href="#">Visualization Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -61,7 +61,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
             <div class ="person-name">Alice Harpole</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Core Alumni</a></div>
+            <div class ="role-box"><a href="#">Core Alumni</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -69,7 +69,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
             <div class ="person-name">Vytautas Jančauskas</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Core Alumni</a></div>
+            <div class ="role-box"><a href="#">Core Alumni</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -78,6 +78,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <div class ="person-name">Wolfgang Kerzendorf</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
             <div class ="role-box"><a href="#principal-investigator">Principal Investigator(Founder)</a></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion">DEI</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -85,7 +86,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
             <div class ="person-name">Jack O’Brien</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Education Coordinator</a></div>
+            <div class ="role-box"><a href="#science--science-meeting--publications">Education Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -93,7 +94,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
             <div class ="person-name">Ezequiel Passaro</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Infrastructure Coordinator</a></div>
+            <div class ="role-box"><a href="#continuous-integration--deployment--testing">Infrastructure Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -101,7 +102,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
             <div class ="person-name">Luke Shingles</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion"></a></div>
+            <div class ="role-box"><a href="#"></a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -109,7 +110,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1b8jZitEFzE2WBwh6Rcjq6b-xTF4PRftn">
             <div class ="person-name">Jaladh Singhal</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Community Coordinator</a></div>
+            <div class ="role-box"><a href="#">Community Coordinator</a></div>
         </div>
     </div> 
     <div class ="individual-container">
@@ -117,7 +118,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
             <div class ="person-name">Stuart Sim</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Co-founder</a></div>
+            <div class ="role-box"><a href="#">Co-founder</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -125,7 +126,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1o_v-u_GogURVSQnTZFht0E2n1DC105Uw">
             <div class ="person-name">Christian Vogl</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Atomic Data Coordinator</a></div>
+            <div class ="role-box"><a href="#">Atomic Data Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -141,7 +142,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
             <div class ="person-name">Michael Zingale</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Ombudsperson</a></div>
+            <div class ="role-box"><a href="#ombudsperson">Ombudsperson</a></div>
         </div>
     </div>
 </div>
