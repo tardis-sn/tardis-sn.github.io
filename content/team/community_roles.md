@@ -29,7 +29,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1bJdmepLYxpkqRzPFqEQjuaYb5d4igcLi">
             <div class ="person-name">Yssa Camacho-Neves</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#">Education Coordinator</a></div>
+            <div class ="role-box"><a href="#">Science Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -77,7 +77,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1_JABVJceujlGpa0sTZfBFWwmJjKUclWp">
             <div class ="person-name">Wolfgang Kerzendorf</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#principal-investigator">Principal Investigator(Founder)</a></div>
+            <div class ="role-box"><a href="#principal-investigator">Principal Investigator (Founder), </a></div>
             <div class ="role-box"><a href="#diversity-equity-and-inclusion">DEI</a></div>
         </div>
     </div>
