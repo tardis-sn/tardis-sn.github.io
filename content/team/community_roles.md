@@ -26,26 +26,10 @@ Current TARDIS core team members are as follows (you can click on the role to le
 <div class ="picture-grid">
     <div class ="individual-container">
         <div class ="info-container">
-            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1_JABVJceujlGpa0sTZfBFWwmJjKUclWp">
-            <div class ="person-name">Wolfgang Kerzendorf</div>
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
+            <div class ="person-name">Yssa Camacho-Neves</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#principal-investigator">Principal Investigator</a></div>
-        </div>
-    </div>
-    <div class ="individual-container">
-        <div class ="info-container">
-            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1AYiteXfV_E3Owxyd5SrFyRNQ5ptRtjDt"> 
-            <div class ="person-name">Andrew Fullard</div>
-            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#continuous-integration--deployment--testing">Collaboration Coordinator</a></div>
-        </div>
-    </div>
-    <div class ="individual-container">
-        <div class ="info-container">
-            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=15g0AHTcagHxM9H-yeVGhXGIqRsntkxkq"> 
-            <div class ="person-name">Marc Williamson</div>
-            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#funding--financial">Funding / Financial</a></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Education Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -58,10 +42,42 @@ Current TARDIS core team members are as follows (you can click on the role to le
     </div>
     <div class ="individual-container">
         <div class ="info-container">
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1AYiteXfV_E3Owxyd5SrFyRNQ5ptRtjDt"> 
+            <div class ="person-name">Andrew Fullard</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#continuous-integration--deployment--testing">Collaboration Coordinator</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1QkpoSJaQ1mBZy9YSdYy7hb4Zj8ikn4op">
             <div class ="person-name">James Gillanders</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
             <div class ="role-box"><a href="#diversity-equity-and-inclusion">Visualization Coordinator</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
+            <div class ="person-name">Alice Harpole</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Core Alumni</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
+            <div class ="person-name">Vytautas Jančauskas</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Core Alumni</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1_JABVJceujlGpa0sTZfBFWwmJjKUclWp">
+            <div class ="person-name">Wolfgang Kerzendorf</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#principal-investigator">Principal Investigator(Founder)</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -82,18 +98,50 @@ Current TARDIS core team members are as follows (you can click on the role to le
     </div>
     <div class ="individual-container">
         <div class ="info-container">
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
+            <div class ="person-name">Luke Shingles</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion"></a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1b8jZitEFzE2WBwh6Rcjq6b-xTF4PRftn">
             <div class ="person-name">Jaladh Singhal</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
             <div class ="role-box"><a href="#diversity-equity-and-inclusion">Community Coordinator</a></div>
         </div>
-    </div>    
+    </div> 
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
+            <div class ="person-name">Stuart Sim</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Co-founder</a></div>
+        </div>
+    </div>
     <div class ="individual-container">
         <div class ="info-container">
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1o_v-u_GogURVSQnTZFht0E2n1DC105Uw">
             <div class ="person-name">Christian Vogl</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
             <div class ="role-box"><a href="#diversity-equity-and-inclusion">Atomic Data Coordinator</a></div>
+        </div>
+    </div>
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=15g0AHTcagHxM9H-yeVGhXGIqRsntkxkq"> 
+            <div class ="person-name">Marc Williamson</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#funding--financial">Funding / Financial</a></div>
+        </div>
+    </div> 
+    <div class ="individual-container">
+        <div class ="info-container">
+            <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1xsE_kfEAmETpdaoreHmurbvlJg8nuSbH">
+            <div class ="person-name">Michael Zingale</div>
+            <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
+            <div class ="role-box"><a href="#diversity-equity-and-inclusion">Ombudsperson</a></div>
         </div>
     </div>
 </div>
