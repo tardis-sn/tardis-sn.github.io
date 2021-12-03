@@ -89,10 +89,10 @@ sections:
       - label: Get Started
         url: https://mybinder.org/v2/gh/tardis-sn/tardis/HEAD?filepath=docs/quickstart/quickstart.ipynb
         style: primary
-  # - section_id: recent-posts
-  #   type: section_posts
-  #   background: gray
-  #   title: Latest Posts
+  - section_id: twitter_widget
+    type: twitter_widget
+    background: gray
+    title: Latest Posts
 seo:
   title: TARDIS-SN
   description: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.
