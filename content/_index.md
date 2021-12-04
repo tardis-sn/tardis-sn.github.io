@@ -13,7 +13,7 @@ sections:
         style: primary
   - section_id: features
     type: section_features
-    background: gray
+    background: white
     title: TARDIS at a Glance
     subtitle: >-
       TARDIS packages provide several tools for physics calculation and visulaization to make your supernova research easier. 
@@ -91,7 +91,7 @@ sections:
         style: primary
   - section_id: twitter_widget
     type: twitter_widget
-    background: gray
+    background: white
     title: Latest Posts
 seo:
   title: TARDIS-SN
