@@ -29,7 +29,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1bJdmepLYxpkqRzPFqEQjuaYb5d4igcLi">
             <div class ="person-name">Yssa Camacho-Neves</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#">Science Coordinator</a></div>
+            <div class ="role-box"><a href="#science-coordinator">Science Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -37,7 +37,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1HxWVyLYvNQ_2xVtoF9igJMICCsLQ15tC">
             <div class ="person-name">Andreas Flörs</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#issues--pull-request">PR/Issues Coordinator</a></div>
+            <div class ="role-box"><a href="#prissues-coordinator">PR/Issues Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -45,7 +45,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1AYiteXfV_E3Owxyd5SrFyRNQ5ptRtjDt"> 
             <div class ="person-name">Andrew Fullard</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#">Collaboration Coordinator</a></div>
+            <div class ="role-box"><a href="#collaboration-coordinator">Collaboration Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -53,7 +53,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1QkpoSJaQ1mBZy9YSdYy7hb4Zj8ikn4op">
             <div class ="person-name">James Gillanders</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#">Visualization Coordinator</a></div>
+            <div class ="role-box"><a href="#visualization-coordinator">Visualization Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -77,8 +77,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1_JABVJceujlGpa0sTZfBFWwmJjKUclWp">
             <div class ="person-name">Wolfgang Kerzendorf</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#principal-investigator">Principal Investigator (Founder), </a></div>
-            <div class ="role-box"><a href="#diversity-equity-and-inclusion">DEI</a></div>
+            <div class ="role-box"><a href="#principal-investigator">Principal Investigator (Founder)</a>, <a href="#diversity-equity-and-inclusion-dei">DEI</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -86,7 +85,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1bJdmepLYxpkqRzPFqEQjuaYb5d4igcLi">
             <div class ="person-name">Jack O’Brien</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#science--science-meeting--publications">Education Coordinator</a></div>
+            <div class ="role-box"><a href="#education-coordinator">Education Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -94,7 +93,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1bJdmepLYxpkqRzPFqEQjuaYb5d4igcLi">
             <div class ="person-name">Ezequiel Passaro</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#continuous-integration--deployment--testing">Infrastructure Coordinator</a></div>
+            <div class ="role-box"><a href="#infrastructure-coordinator">Infrastructure Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -110,7 +109,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1b8jZitEFzE2WBwh6Rcjq6b-xTF4PRftn">
             <div class ="person-name">Jaladh Singhal</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#">Community Coordinator</a></div>
+            <div class ="role-box"><a href="#community-coordinator">Community Coordinator</a></div>
         </div>
     </div> 
     <div class ="individual-container">
@@ -126,7 +125,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=1o_v-u_GogURVSQnTZFht0E2n1DC105Uw">
             <div class ="person-name">Christian Vogl</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#">Atomic Data Coordinator</a></div>
+            <div class ="role-box"><a href="#atomic-data-coordinator">Atomic Data Coordinator</a></div>
         </div>
     </div>
     <div class ="individual-container">
@@ -134,7 +133,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
             <img class="rounded-picture" src="https://drive.google.com/uc?export=view&id=15g0AHTcagHxM9H-yeVGhXGIqRsntkxkq"> 
             <div class ="person-name">Marc Williamson</div>
             <div class ="small-bio"><a href="#" target="_blank" rel="noopener nofollow">More Info</a></div>
-            <div class ="role-box"><a href="#funding--financial">Funding / Financial</a></div>
+            <div class ="role-box"><a href="#financial-coordinator">Financial Coordinator</a></div>
         </div>
     </div> 
     <div class ="individual-container">
@@ -151,12 +150,6 @@ Current TARDIS core team members are as follows (you can click on the role to le
 #### Principal Investigator { .anchor-offset}
  - Guides the scientific and the educational activities of TARDIS
  - Advised by TARDIS Core
-
-#### TARDIS Core { .anchor-offset}
- - Team that oversees the activities and sets the goals for the TARDIS Collaboration
- - Identifies science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
- - Identifies education opportunities such as workshops, lecture development, and outreach opportunities
-
 #### Ombudsperson { .anchor-offset}
  - Designated person appointed to address the concerns of community members and to uphold the code of conduct
  - Solicit and provide anonymized feedback to the TARDIS CORE team
@@ -166,24 +159,42 @@ Current TARDIS core team members are as follows (you can click on the role to le
  - Ensure overall design pattern throughout TARDIS
  - Coordinate restructure and rewriting efforts
  - Identify and communicate new technologies relevant to TARDIS
-#### Issues / Pull Request { .anchor-offset}
+#### PR/Issues Coordinator { .anchor-offset}
  - Monitor open PRs and issues
  - Monitor reviewing is taking place
  - Close abandoned PRs / Issues
-#### Continuous Integration / Deployment / Testing { .anchor-offset}
+#### Infrastructure Coordinator { .anchor-offset}
  - Inform team of break in any of the CI/CD pipelines
  - Delegate code maintenance and bug removal
  - Identify new technologies for CI/CD
-#### Funding / Financial { .anchor-offset}
+#### Financial Coordinator { .anchor-offset}
  - Manage budget for TARDIS
  - Ensure financial transparency
  - Coordinating with funding organizations
  - Securing funding for parts of the project via discussions and proposals to funding agencies
-#### Science / Science Meeting / Publications { .anchor-offset}
+#### Education Coordinator { .anchor-offset}
  - Coordinating work for weekly science meeting
  - Finding publications and collecting TARDIS models
  - Citation guide
-#### Diversity, Equity, and Inclusion { .anchor-offset}
+#### Science Coordinator{ .anchor-offset}
+ - Coordinating work for weekly science meeting
+ - Finding publications and collecting TARDIS models
+ - Citation guide
+#### Community coordinator { .anchor-offset}
+ - Coordinates outreach efforts of TARDIS
+ - Manages posting of tweets, updates for NumFOCUS monthly newsletter, etc.
+ - Encourages participation of TARDIS (as an affiliated project) in different initiatives by NumFOCUS
+#### Atomic Data Coordinator { .anchor-offset}
+ - Organises atomic data sources
+ - Manages Carsus package repository
+#### Visualization Coordinator:  { .anchor-offset}
+ - Plans new visualisations of TARDIS results
+ - Organises visualisation hackathon
+#### Collaboration Coordinator  { .anchor-offset}
+ - Manages role assignment for TARDIS Core
+ - Organises TARDIS Core meetings
+ - Administers TARDIS Core functions
+#### Diversity, Equity, and Inclusion (DEI) { .anchor-offset}
  - Identify opportunities to use TARDIS to engage members of underrepresented minorities (URM) to coding/STEM
  - Identify papers about engaging URM in coding / science
 
