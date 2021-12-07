@@ -92,7 +92,7 @@ sections:
   - section_id: twitter_widget
     type: twitter_widget
     background: white
-    title: Latest Posts
+    title: Recent Posts
 seo:
   title: TARDIS-SN
   description: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.

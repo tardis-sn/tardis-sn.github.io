@@ -83,6 +83,28 @@
   }
 }
 
+#hero-background-video-outer {
+  position: relative;
+  z-index: -1;
+  object-fit: fill;
+}
+
+#hero-background-video {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  filter: brightness(50%);
+}
+
+#hero-main-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 801px) {
   .hero-block,
   .text-block,
@@ -385,6 +407,19 @@
   .font-fira-sans & {
     font-weight: 600;
   }
+}
+
+// Twitter Widget block
+.twitter-widget-block {
+  display: flex; 
+  justify-content: center;
+}
+
+.twitter-block {
+  max-width:80%; 
+  margin-top: 3.33em; 
+  margin-bottom: 3.33em; 
+  border:1px solid lightgray;
 }
 
 // Contact block

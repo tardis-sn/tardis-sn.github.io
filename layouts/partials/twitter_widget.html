@@ -1,8 +1,8 @@
 {{ $section := .section }}
-<section id="{{ $section.section_id }}" class="block  bg-{{ $section.background }} outer" style="display: flex; justify-content: center;">
-  <div class="twitter-block" style="max-width:80%; margin-top: 3.33em; margin-bottom: 3.33em; border:1px solid lightgray;">
-    <a class="twitter-timeline" data-width="850" data-height="900"
-      href="https://twitter.com/tardis_sn?ref_src=twsrc%5Etfw">Tweets by tardis_sn</a>
+<section id="{{ $section.section_id }}" class="block  twitter-widget-block bg-{{ $section.background }} outer">
+  <h2 style="position: absolute;">{{ $section.title }}</h2>
+  <div class="twitter-block">
+    <a class="twitter-timeline" data-width="850" data-height="900" href="https://twitter.com/tardis_sn?ref_src=twsrc%5Etfw">Tweets by tardis_sn</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
   <script>
