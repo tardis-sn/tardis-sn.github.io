@@ -104,6 +104,12 @@
     display: flex;
     justify-content: center;
   }
+
+  .hero-video-background-image {
+    position: absolute;
+    z-index: -100;
+    filter: brightness(50%);
+  }
 }
 
 .hero-main-content {
@@ -435,7 +441,6 @@
 }
 
 .twitter-block {
-  max-width:80%; 
   margin-top: 3.33em; 
   margin-bottom: 3.33em; 
   border:1px solid lightgray;

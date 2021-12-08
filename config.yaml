@@ -100,8 +100,7 @@ params:
 #        url: /privacy-policy
 #        style: link
     content: >-
-       Made with ❤️ using <a href="https://gohugo.io/" target="_blank" rel="noopener nofollow">Hugo</a> 
-       and the <a href="https://themes.stackbit.com/demos/azimuth/" target="_blank" rel="noopener nofollow">Azimuth theme</a>
+       Made with ❤️ <br> Credits of the supernova explosion video in homepage: ESA/Hubble (L. Calçada)
 taxonomies:
   stub: stub
 disableKinds:
