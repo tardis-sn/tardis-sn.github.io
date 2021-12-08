@@ -1,11 +1,11 @@
 {{ $section := .section }}
-<section id="{{ $section.section_id }}" class="block hero-block outer" style="padding: 0%; aspect-ratio: 16/9;">
-  <div id="hero-background-video-outer">
-    <video autoplay loop muted id="hero-background-video">
+<section id="{{ $section.section_id }}" class="block hero-block outer" >
+  <div class="hero-background-video-outer">
+    <video autoplay loop muted class="hero-background-video">
       <source src="https://drive.google.com/uc?export=view&id=1RTgPOF7DsUqPGb5Wn21SW_6MRI-vc9vS" type="video/mp4" >
     </video>
   </div>
-  <div class="inner" id="hero-main-content">
+  <div class="inner hero-main-content">
     <div class="grid" >
       {{ if $section.image }}
       <div class="cell block-preview">
@@ -14,9 +14,9 @@
       {{ end }}
       <div class="cell block-content">
         {{ if $section.title }}
-        <h2 class="block-title underline" style="color: white;">{{ $section.title }}</h2>
+        <h2 class="block-title underline">{{ $section.title }}</h2>
         {{ end }}
-        <div class="block-copy" style="color: white;">
+        <div class="block-copy" >
           {{ partial "markdownify-block" $section.content }}
         </div>
         {{ if $section.actions }}
