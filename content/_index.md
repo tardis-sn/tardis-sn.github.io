@@ -24,7 +24,7 @@ sections:
         image: images/config_and_modeling.png
         image_alt: App preview on a phone and tablet
         content: >-
-          With tardis (our Monte Carlo radiative-transfer code), you can control simulation parameters and access physical properties of the model in an intuitive way.
+          With <a href="https://tardis-sn.github.io/tardis" target="_blank" rel="noopener nofollow">tardis</a> (our Monte Carlo radiative-transfer code), you can control simulation parameters and access physical properties of the model in an intuitive way.
         actions:
           - label: Learn More
             url: https://tardis-sn.github.io/tardis/quickstart/quickstart.html
@@ -48,7 +48,7 @@ sections:
         image: images/carsus_io_diagram.png
         image_alt: App user profile preview
         content: >-
-          Our carsus package can read atomic data from a variety of sources and output them to file formats readable by tardis and other radiative transfer codes.
+          Our <a href="https://tardis-sn.github.io/carsus" target="_blank" rel="noopener nofollow">carsus</a> package can read atomic data from a variety of sources and output them to file formats readable by tardis and other radiative transfer codes.
         actions:
           - label: Learn More
             url: https://tardis-sn.github.io/carsus/
