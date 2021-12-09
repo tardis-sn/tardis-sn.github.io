@@ -16,10 +16,10 @@ params:
         url: /documentation
         style: dropdown
         sub_items:
-          - label: TARDIS
+          - label: tardis package
             url: https://tardis-sn.github.io/tardis
             style: redirect-link
-          - label: Carsus
+          - label: carsus package
             url: https://tardis-sn.github.io/carsus
             style: redirect-link
       - label: Team
