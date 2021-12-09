@@ -6,8 +6,9 @@ sections:
     image_alt: App preview
     title: TARDIS Project
     background_image: images/hubblecast.png
+    image_alt: Exploding supernova
     content: >-
-      The free and open-source software to simulate and analyse supernovae, in Python.
+      The free and open-source software to simulate and analyse supernovae, in Python
     actions:
       - label: Learn More
         url: index.html#features

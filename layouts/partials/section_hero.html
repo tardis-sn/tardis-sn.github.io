@@ -6,7 +6,7 @@
     </video>
   </div>
   <div class="hero-video-background-image">
-    <img src="{{ $section.background_image | absURL }}" alt="hubblecast image" />
+    <img src="{{ $section.background_image | relURL }}" alt="{{ $section.image_alt }}" />
   </div>
   <div class="inner hero-main-content">
     <div class="grid" >
