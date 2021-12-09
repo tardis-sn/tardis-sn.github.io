@@ -38,19 +38,19 @@ params:
       - label: Research
         url: /research
         style: dropdown
-        sub_items: 
+        sub_items:
           - label: Papers
             url: /research/papers
-            style: dropdown-link 
+            style: dropdown-link
           - label: Presentations
-            url:  /research/presentations
+            url: /research/presentations
             style: dropdown-link
       - label: Credits
         url: /credits
         style: link
-#      - label: News
-#        url: /news
-#        style: link #primary is another style available
+  #      - label: News
+  #        url: /news
+  #        style: link #primary is another style available
   footer:
     sections:
       - type: footer_text
@@ -65,9 +65,9 @@ params:
           - label: Sponsors
             url: /sponsors
             style: link
-#          - label: Mission
-#            url: /signup
-#            style: link
+      #          - label: Mission
+      #            url: /signup
+      #            style: link
       - type: footer_nav
         nav_links:
           - label: Twitter
@@ -91,16 +91,20 @@ params:
       - type: footer_text
         image: images/Numfocus_stamp.png
         image_url: "https://numfocus.org/project/tardis"
-#    has_nav: true
-#    nav_links:
-#      - label: Terms of Service
-#        url: /terms-of-service
-#        style: link
-#      - label: Privacy Policy
-#        url: /privacy-policy
-#        style: link
+    #    has_nav: true
+    #    nav_links:
+    #      - label: Terms of Service
+    #        url: /terms-of-service
+    #        style: link
+    #      - label: Privacy Policy
+    #        url: /privacy-policy
+    #        style: link
     content: >-
-       Made with ❤️ <br> Credits of the supernova explosion video in homepage: ESA/Hubble (L. Calçada)
+      Made with ❤️ using <a href="https://gohugo.io/" target="_blank"
+      rel="noopener nofollow">Hugo</a> and the
+      <a href="https://themes.stackbit.com/demos/azimuth/" target="_blank"
+      rel="noopener nofollow">Azimuth theme</a><br>Credits of the supernova
+      explosion video in homepage: ESA/Hubble (L. Calçada)
 taxonomies:
   stub: stub
 disableKinds:
