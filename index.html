@@ -1,6 +1,6 @@
 <!doctype html><html lang=en>
 <head>
-<meta name=generator content="Hugo 0.89.4">
+<meta name=generator content="Hugo 0.90.0">
 <title>TARDIS-SN</title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
@@ -84,16 +84,24 @@
 </div>
 </header>
 <main id=content class=site-content>
-<section id=hero class="block hero-block bg-accent outer">
-<div class=inner>
+<section id=hero class="block hero-block outer">
+<div class=hero-background-video-outer>
+<video autoplay loop muted class=hero-background-video>
+<source src="https://drive.google.com/uc?export=view&id=1RTgPOF7DsUqPGb5Wn21SW_6MRI-vc9vS" type=video/mp4>
+</video>
+</div>
+<div class=hero-video-background-image>
+<img src=/images/hubblecast.png alt="Exploding supernova">
+</div>
+<div class="inner hero-main-content">
 <div class=grid>
 <div class="cell block-content">
 <h2 class="block-title underline">TARDIS Project</h2>
 <div class=block-copy>
-<p>The free and open-source software to simulate and analyse supernovae, in Python.</p>
+<p>The free and open-source software to simulate and analyse supernovae, in Python</p>
 </div>
 <div class=block-buttons>
-<a href=/index.html#features class=button>
+<a href=/#features class=button>
 <span> Learn More </span>
 </a>
 </div>
@@ -101,7 +109,7 @@
 </div>
 </div>
 </section>
-<section id=features class="block features-block bg-gray outer">
+<section id=features class="block features-block bg-white outer">
 <div class="block-header inner-small">
 <h2 class=block-title>TARDIS at a Glance</h2>
 <p class=block-subtitle>
@@ -117,7 +125,7 @@ TARDIS packages provide several tools for physics calculation and visulaization 
 <div class="cell block-content">
 <h3 class="block-title underline">Modeling supernovae made easy</h3>
 <div class=block-copy>
-<p>With tardis (our Monte Carlo radiative-transfer code), you can control simulation parameters and access physical properties of the model in an intuitive way.</p>
+<p>With <a href=https://tardis-sn.github.io/tardis target=_blank rel="noopener nofollow">tardis</a> (our Monte Carlo radiative-transfer code), you can control simulation parameters and access physical properties of the model in an intuitive way.</p>
 </div>
 <div class=block-buttons>
 <a href=/tardis/quickstart/quickstart.html class="button secondary has-icon"><svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.055 10.522V6.016L24.039 12l-5.984 5.984v-4.506h-18.094v-2.957h18.094z"/></svg>
@@ -153,7 +161,7 @@ TARDIS packages provide several tools for physics calculation and visulaization 
 <div class="cell block-content">
 <h3 class="block-title underline">Atomic data ready to use</h3>
 <div class=block-copy>
-<p>Our carsus package can read atomic data from a variety of sources and output them to file formats readable by tardis and other radiative transfer codes.</p>
+<p>Our <a href=https://tardis-sn.github.io/carsus target=_blank rel="noopener nofollow">carsus</a> package can read atomic data from a variety of sources and output them to file formats readable by tardis and other radiative transfer codes.</p>
 </div>
 <div class=block-buttons>
 <a href=/carsus/ class="button secondary has-icon"><svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.055 10.522V6.016L24.039 12l-5.984 5.984v-4.506h-18.094v-2.957h18.094z"/></svg>
@@ -181,6 +189,14 @@ Launch an interactive version of our quickstart Jupyter notebook
 </div>
 </div>
 </div>
+</section>
+<section id=twitter_widget class="block twitter-widget-block bg-white outer">
+<h2 style=position:absolute>Latest Posts</h2>
+<div class=twitter-block>
+<a class=twitter-timeline data-width=850 data-height=900 href="https://twitter.com/tardis_sn?ref_src=twsrc%5Etfw">Tweets by tardis_sn</a>
+<script async src=https://platform.twitter.com/widgets.js></script>
+</div>
+<script>const config={childList:!0},callback=function(a,b){for(const b of a)b.type==="childList"&&customizeTweetMedia()},observer=new MutationObserver(callback);document.getElementsByClassName("twitter-block")[0].addEventListener("DOMSubtreeModified",function(b){for(var a=b.target,c;a&&a!=this;a=a.parentNode)if(a.matches("#twitter-widget-0")){customizeTweetMedia(),c=document.getElementById("twitter-widget-0");const a=c.contentWindow.document.getElementsByClassName("timeline-TweetList")[0];observer.observe(a,config)}},!1);var customizeTweetMedia=function(){var a=document.getElementById("twitter-widget-0"),c=a.contentWindow.document.createElement("link"),d,e,b,f;c.setAttribute("rel","stylesheet"),c.setAttribute("type","text/scss"),c.setAttribute("href","/assets/sass/main.scss"),a.contentWindow.document.body.style.overflow="hidden",d=a.contentWindow.document.getElementsByClassName("timeline-Header-title")[0],d.style.fontSize="18px",e=a.contentWindow.document.getElementsByClassName("timeline-Header-byline")[0],e.style.fontSize="18.5px",b=a.contentWindow.document.getElementsByClassName("timeline-Tweet-text");for(let a=0;a<b.length;a++)b[a].style.fontSize="16px",b[a].style.fontFamily="Nunito Sans, proxima-nova, Helvetica Neue, Arial, sans-serif",b[a].style.lineHeight="1.1"};setTimeout(()=>{if(document.querySelector("#twitter-widget-0")==null){const a=document.createElement("div"),c=document.createElement("span"),b=document.createElement("a");b.setAttribute("href","https://twitter.com/tardis_sn"),b.textContent="TARDIS Tweets",c.appendChild(b);const d=document.createElement("P");d.textContent="It seems Twitter Widget was not loaded. Please check your internet connection or consider disabling tracking protection if on Firefox. If the problem persists, please contact us.",a.appendChild(c),a.appendChild(d),a.style.cssText="font-family: Nunito Sans, sans-serif; text-align:center;",document.querySelector(".twitter-timeline").replaceWith(a)}},4e3)</script>
 </section>
 </main>
 <footer id=colophon class=site-footer>
@@ -232,7 +248,7 @@ Launch an interactive version of our quickstart Jupyter notebook
 <div class="footer-bottom outer">
 <div class=inner>
 <div class=site-info>
-Made with ❤️ using <a href=https://gohugo.io/ target=_blank rel="noopener nofollow">Hugo</a> and the <a href=https://themes.stackbit.com/demos/azimuth/ target=_blank rel="noopener nofollow">Azimuth theme</a>
+Made with ❤️ using <a href=https://gohugo.io/ target=_blank rel="noopener nofollow">Hugo</a> and the <a href=https://themes.stackbit.com/demos/azimuth/ target=_blank rel="noopener nofollow">Azimuth theme</a><br>Credits of the supernova explosion video in homepage: ESA/Hubble (L. Calçada)
 &nbsp;
 </div>
 </div>

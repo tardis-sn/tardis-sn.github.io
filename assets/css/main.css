@@ -1021,6 +1021,40 @@ textarea {
 .cta-block .cell {
   text-align: center; }
 
+.hero-block.block.outer {
+  padding: 0%;
+  aspect-ratio: 16/9; }
+  .hero-block.block.outer .hero-background-video-outer {
+    position: relative;
+    z-index: -1; }
+  .hero-block.block.outer .hero-background-video {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    filter: brightness(50%); }
+  .hero-block.block.outer .hero-main-content {
+    height: 100%;
+    display: flex;
+    justify-content: center; }
+  .hero-block.block.outer .hero-video-background-image {
+    position: absolute;
+    z-index: -100;
+    filter: brightness(50%); }
+
+.hero-main-content {
+  text-shadow: 1px 1px 4px black; }
+  .hero-main-content .grid
+.block-content .block-title {
+    color: white; }
+  .hero-main-content .grid
+.block-content .block-copy {
+    max-width: 450px;
+    color: white; }
+  .hero-main-content .grid
+.block-content .block-buttons .button {
+    background: transparent;
+    border-color: white; }
+
 @media only screen and (min-width: 801px) {
   .hero-block .cell:only-child,
   .text-block .cell:only-child,
@@ -1097,10 +1131,10 @@ textarea {
   margin-bottom: 1.33333em; }
 
 .features-block .block-header .block-subtitle:last-child {
-  margin-bottom: 2.22222em; }
+  margin-bottom: 3em; }
 
 .block-item {
-  margin-bottom: 1.66667em; }
+  margin-bottom: 4em; }
   .block-item:last-child {
     margin-bottom: 0; }
 
@@ -1222,6 +1256,15 @@ textarea {
   margin: 0; }
   .font-fira-sans .review-author {
     font-weight: 600; }
+
+.twitter-widget-block {
+  display: flex;
+  justify-content: center; }
+
+.twitter-block {
+  margin-top: 3.33em;
+  margin-bottom: 3.33em;
+  border: 1px solid lightgray; }
 
 .contact-block form {
   margin: 1.66667em 0; }
