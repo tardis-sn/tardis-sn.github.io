@@ -11,7 +11,7 @@ sections:
       The free and open-source software to simulate and analyse supernovae, in Python
     actions:
       - label: Learn More
-        url: index.html#features
+        url: /#features
         style: primary
   - section_id: features
     type: section_features
