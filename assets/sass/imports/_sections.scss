@@ -83,6 +83,53 @@
   }
 }
 
+.hero-block.block.outer {
+  padding: 0%; 
+  aspect-ratio: 16/9;
+
+  .hero-background-video-outer {
+    position: relative;
+    z-index: -1;
+  }
+  
+  .hero-background-video {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    filter: brightness(50%);
+  }
+  
+  .hero-main-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-video-background-image {
+    position: absolute;
+    z-index: -100;
+    filter: brightness(50%);
+  }
+}
+
+.hero-main-content {
+  text-shadow: 1px 1px 4px black;
+  .grid
+  .block-content{
+    .block-title {
+      color: white;
+    }
+    .block-copy {
+      max-width: 450px;
+      color: white;
+    }
+    .block-buttons .button{
+      background: transparent;
+      border-color: white;
+    }
+  }
+}
+
 @media only screen and (min-width: 801px) {
   .hero-block,
   .text-block,
@@ -213,14 +260,14 @@
 
     .block-subtitle {
       &:last-child {
-        margin-bottom: 2.22222em;
+        margin-bottom: 3em;
       }
     }
   }
 }
 
 .block-item {
-  margin-bottom: 1.66667em;
+  margin-bottom: 4em;
 
   &:last-child {
     margin-bottom: 0;
@@ -385,6 +432,18 @@
   .font-fira-sans & {
     font-weight: 600;
   }
+}
+
+// Twitter Widget block
+.twitter-widget-block {
+  display: flex; 
+  justify-content: center;
+}
+
+.twitter-block {
+  margin-top: 3.33em; 
+  margin-bottom: 3.33em; 
+  border:1px solid lightgray;
 }
 
 // Contact block

@@ -5,15 +5,17 @@ sections:
     type: section_hero
     image_alt: App preview
     title: TARDIS Project
+    background_image: images/hubblecast.png
+    image_alt: Exploding supernova
     content: >-
-      The free and open-source software to simulate and analyse supernovae, in Python.
+      The free and open-source software to simulate and analyse supernovae, in Python
     actions:
       - label: Learn More
-        url: index.html#features
+        url: /#features
         style: primary
   - section_id: features
     type: section_features
-    background: gray
+    background: white
     title: TARDIS at a Glance
     subtitle: >-
       TARDIS packages provide several tools for physics calculation and visulaization to make your supernova research easier. 
@@ -22,7 +24,7 @@ sections:
         image: images/config_and_modeling.png
         image_alt: App preview on a phone and tablet
         content: >-
-          With tardis (our Monte Carlo radiative-transfer code), you can control simulation parameters and access physical properties of the model in an intuitive way.
+          With <a href="https://tardis-sn.github.io/tardis" target="_blank" rel="noopener nofollow">tardis</a> (our Monte Carlo radiative-transfer code), you can control simulation parameters and access physical properties of the model in an intuitive way.
         actions:
           - label: Learn More
             url: https://tardis-sn.github.io/tardis/quickstart/quickstart.html
@@ -46,7 +48,7 @@ sections:
         image: images/carsus_io_diagram.png
         image_alt: App user profile preview
         content: >-
-          Our carsus package can read atomic data from a variety of sources and output them to file formats readable by tardis and other radiative transfer codes.
+          Our <a href="https://tardis-sn.github.io/carsus" target="_blank" rel="noopener nofollow">carsus</a> package can read atomic data from a variety of sources and output them to file formats readable by tardis and other radiative transfer codes.
         actions:
           - label: Learn More
             url: https://tardis-sn.github.io/carsus/
@@ -89,10 +91,10 @@ sections:
       - label: Get Started
         url: https://mybinder.org/v2/gh/tardis-sn/tardis/HEAD?filepath=docs/quickstart/quickstart.ipynb
         style: primary
-  # - section_id: recent-posts
-  #   type: section_posts
-  #   background: gray
-  #   title: Latest Posts
+  - section_id: twitter_widget
+    type: twitter_widget
+    background: white
+    title: Latest Posts
 seo:
   title: TARDIS-SN
   description: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.
