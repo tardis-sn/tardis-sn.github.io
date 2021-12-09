@@ -97,7 +97,7 @@ sections:
     title: Latest Posts
 seo:
   title: TARDIS-SN
-  description: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.
+  description: The free and open-source software to simulate and analyse supernovae, in Python
   extra:
     - name: 'og:type'
       value: website
@@ -106,7 +106,7 @@ seo:
       value: TARDIS-SN
       keyName: property
     - name: 'og:description'
-      value: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.
+      value: The free and open-source software to simulate and analyse supernovae, in Python
       keyName: property
     - name: 'og:image'
       value: images/hero.png
@@ -117,7 +117,7 @@ seo:
     - name: 'twitter:title'
       value: TARDIS-SN
     - name: 'twitter:description'
-      value: A community-developed tool to simulate the spectrum of light emitted by exploding stars using Monte Carlo techniques.
+      value: The free and open-source software to simulate and analyse supernovae, in Python
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
