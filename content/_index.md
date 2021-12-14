@@ -27,7 +27,7 @@ sections:
           With <a href="https://tardis-sn.github.io/tardis" target="_blank" rel="noopener nofollow">tardis</a> (our Monte Carlo radiative-transfer code), you can control simulation parameters and access physical properties of the model in an intuitive way.
         actions:
           - label: Learn More
-            url: https://tardis-sn.github.io/tardis/quickstart/quickstart.html
+            url: https://tardis-sn.github.io/tardis/quickstart.html
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -89,7 +89,7 @@ sections:
     subtitle: Launch an interactive version of our quickstart Jupyter notebook
     actions:
       - label: Get Started
-        url: https://mybinder.org/v2/gh/tardis-sn/tardis/HEAD?filepath=docs/quickstart/quickstart.ipynb
+        url: https://mybinder.org/v2/gh/tardis-sn/tardis/HEAD?filepath=docs/quickstart.ipynb
         style: primary
   - section_id: twitter_widget
     type: twitter_widget
