@@ -8,7 +8,7 @@ sections:
     background_image: images/hubblecast.png
     image_alt: Exploding supernova
     content: >-
-      The free and open-source software to simulate and analyse supernovae, in Python
+      An open-science software to simulate and analyse supernovae and other transients
     actions:
       - label: Learn More
         url: /#features
@@ -97,7 +97,7 @@ sections:
     title: Latest Posts
 seo:
   title: TARDIS-SN
-  description: The free and open-source software to simulate and analyse supernovae, in Python
+  description: An open-science software to simulate and analyse supernovae and other transients
   extra:
     - name: 'og:type'
       value: website
@@ -106,7 +106,7 @@ seo:
       value: TARDIS-SN
       keyName: property
     - name: 'og:description'
-      value: The free and open-source software to simulate and analyse supernovae, in Python
+      value: An open-science software to simulate and analyse supernovae and other transients
       keyName: property
     - name: 'og:image'
       value: images/hero.png
@@ -117,7 +117,7 @@ seo:
     - name: 'twitter:title'
       value: TARDIS-SN
     - name: 'twitter:description'
-      value: The free and open-source software to simulate and analyse supernovae, in Python
+      value: An open-science software to simulate and analyse supernovae and other transients
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
