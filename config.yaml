@@ -26,6 +26,9 @@ params:
         url: /team
         style: dropdown
         sub_items:
+          - label: Code of Conduct
+            url: /code_of_conduct
+            style: dropdown-link
           - label: Community Roles
             url: /team/community_roles
             style: dropdown-link
