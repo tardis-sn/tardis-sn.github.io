@@ -47,4 +47,4 @@ This code of conduct has been adapted from the _Astropy Code of Conduct_, which 
 
 **To report any violations of the code of conduct, please contact a member of the [TARDIS core team](team/community_roles.md) (the email tardis.supernova.code@gmail.com is monitored by the core team) or the Ombudsperson (see the [team page](team/community_roles.md); who is outside of the TARDIS collaboration and will treat reports confidentially).**
 
-This **_Code Of Conduct_** can be found [here](https://github.com/tardis-sn/tardis/blob/master/CODE_OF_CONDUCT.md). 
+This **_Code Of Conduct_** can be found [here](https://github.com/tardis-sn/tardis/blob/master/CODE_OF_CONDUCT.md).
