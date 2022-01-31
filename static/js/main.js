@@ -30,3 +30,15 @@ Array.from(faqAccordions).forEach((faqAccordion) => {
     multiSelectable: true
   });
 });
+
+// Link Handler
+// Applys target="_blank" to required links
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+  if (links[i].hostname != window.location.hostname) {
+    console.log(links[i]);
+    links[i].target = '_blank';
+    links[i].rel = "noopener nofollow";
+  } 
+}

@@ -13,8 +13,8 @@ adhere to a few policies and acknowledge the TARDIS Team.
 
 
 If you use this code for any publications or presentations please acknowledge
-it.  Please cite <a href = "http://adsabs.harvard.edu/abs/2014MNRAS.440..387K">
-Kerzendorf & Sim 2014</a> in the text and add the
+it.  Please cite 
+[Kerzendorf & Sim 2014](http://adsabs.harvard.edu/abs/2014MNRAS.440..387K) in the text and add the
 following paragraph to the Acknowledgement section:
 
    This research made use of \textsc{Tardis}, a community-developed software package for spectral
@@ -25,8 +25,8 @@ following paragraph to the Acknowledgement section:
 
 
 If you use any of the full relativity treatments or use TARDIS for modelling
-Type II supernovae, also add <a href= "https://ui.adsabs.harvard.edu/abs/2019A%26A...621A..29V">
-Spectral modeling of type II supernovae. I. Dilution factors</a> to the Acknowledgement.
+Type II supernovae, also add 
+[Spectral modeling of type II supernovae. I. Dilution factors](https://ui.adsabs.harvard.edu/abs/2019A%26A...621A..29V) to the Acknowledgement.
 
     \citep{2019A&A...621A..29V}
 
