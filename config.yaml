@@ -53,7 +53,7 @@ params:
         style: link
       - label: GSoC
         url: https://tardis-sn.github.io/gsoc/
-        style: link
+        style: redirect-link
       # - label: News
       #   url: /news
       #   style: link #primary is another style available
