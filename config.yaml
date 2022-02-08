@@ -51,7 +51,7 @@ params:
       - label: Credits
         url: /credits
         style: link
-      - label: GSoC 2022
+      - label: GSoC
         url: https://tardis-sn.github.io/gsoc/
         style: link
       # - label: News
