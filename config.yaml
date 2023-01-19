@@ -1,5 +1,6 @@
 title: TARDIS
 baseURL: https://tardis-sn.github.io/
+canonifyurls: true
 params:
   base_font: nunito-sans
   palette: blue
