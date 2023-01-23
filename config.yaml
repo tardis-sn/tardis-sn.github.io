@@ -56,13 +56,16 @@ params:
         url: /gsoc
         style: dropdown
         sub_items:
-          - label: GSoC Intro
+          - label: Welcome to GSoC with TARDIS!
             url: /gsoc/gsoc_home
             style: dropdown-link
-          - label: Checklist
+          - label: 2023 Ideas
+            url: /gsoc/ideas
+            style: dropdown-link
+          - label: GSoC Checklist
             url: /gsoc/checklist
             style: dropdown-link
-          - label: Expectations
+          - label: Participation Expectations
             url: /gsoc/expectations
             style: dropdown-link
           - label: Application Guidelines
@@ -71,12 +74,6 @@ params:
           - label: Application Requirements
             url: /gsoc/requirements
             style: dropdown-link
-          - label: 2023 Ideas
-            url: /gsoc/ideas
-            style: dropdown-link
-      - label: GSoC
-        url: https://tardis-sn.github.io/gsoc/
-        style: redirect-link
       # - label: News
       #   url: /news
       #   style: link #primary is another style available

@@ -1,11 +1,10 @@
 ---
-title: "GSoC Checklist"
+title: "Participation Expectations"
 date: 2021-05-28T09:44:45-05:00
 draft: false
 layout: page
 ---
 
-### Expectations
 Covered below in detail are the expectations for Summer of Code students that are accepted to participate. In addition to the [acceptance requirements](../requirements) that all students are required to abide by, there are participation and behavior expectations.
 
 The program timeframe is very **short**. There's not much time to get up to speed, so there is a need to be clear of what is expected. Also, many students haven't done a lot of real-world development work previously. On top of that, most mentors and students are in different locations so coordinated interaction can be difficult at times. Because of this, it's vitally important to the success of each student's project for all expectations to be specified and understood before students begin coding for the summer. This should be the first step in a long series of frequent communication between student and their mentor(s).
@@ -28,16 +27,16 @@ This means that students should be working closely with the other developers. Pa
 A developer has the responsibility to work cooperatively with the other developers. Particularly for open source projects, the manner in which everyone commits conveys a lot of information about the status, purpose, and directions of development.
 
 #### Do
-1. Commit early, commit often. This allows issues to be caught quickly and prevents the dreaded one-massive-commit-before-deadline. Developers can rarely ever commit too frequently. They can very easily commit too infrequently. Once a day is far too infrequent.
-2. Use quality commit messages. The history in version control is frequently the best timeline log of what happened, why, and who did it. The commit messages should be detailed and informative.
+1. **Commit early, commit often.** This allows issues to be caught quickly and prevents the dreaded one-massive-commit-before-deadline. Developers can rarely ever commit too frequently. They can very easily commit too infrequently. Once a day is far too infrequent.
+2. **Use quality commit messages.** The history in version control is frequently the best timeline log of what happened, why, and who did it. The commit messages should be detailed and informative.
 3. Bad examples- 
    - "Fixed a bug"
    - "Tweaks"
    - "Improved version"
   
 #### Avoid
-1. Checking in multiple non-related changes in one big commit. If something is bad about one of the changes and someone needs to roll it back, it's more difficult to do so. Make each commits succinct and functional, even if it means a little extra work.
-2. Checking in changes that haven't been tested. Each commit should at least compile for the person that makes the commit. New developers that break the build are used for target practice.
+1. **Checking in multiple non-related changes in one big commit.** If something is bad about one of the changes and someone needs to roll it back, it's more difficult to do so. Make each commits succinct and functional, even if it means a little extra work.
+2. **Checking in changes that haven't been tested.** Each commit should at least compile for the person that makes the commit. New developers that break the build are used for target practice.
 
 ### Frequent communication with mentor
 Frequent communication with your mentor is a must. The student should make sure the mentor has a good idea of: what you're currently working on.
