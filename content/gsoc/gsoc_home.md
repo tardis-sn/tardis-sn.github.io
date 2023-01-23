@@ -12,21 +12,25 @@ TARDIS is an open source radiative transfer code for simulating supernova spectr
 
 If you are interested, follow these steps:
 
-- Go through the checklist
-- Check out what we expect from you (expectations, acceptance requirements, application guidelines)
-- Get familiar with TARDIS (Github, Documentation) and pick a project from the Ideas Page
-- Apply!
+- Go through the [checklist](../checklist)
+- Check out what we expect from you ([expectations](../expectations), [acceptance requirements](../requirements), [application guidelines](../guidelines))
+- Get familiar with TARDIS ([Github](https://github.com/tardis-sn/tardis), [Documentation](https://tardis-sn.github.io/tardis/)) and pick a project from the [Ideas Page](../ideas)
+- [Apply](https://summerofcode.withgoogle.com/)!
 
 ### Previously Accepted GSoc Projects
 
 These were the projects that we selected for GSoC 2016 (a while ago but still a good reference) and can serve as a reference for future proposals:
 
-- Accepted Application 1
-- Accepted Application 2
+- [2020 Accepted Application 1](https://tardis-sn.github.io/gsoc/pdfs/jaladh-singhal_gsoc2020_tardis.pdf)
+- [2020 Accepted Application 2](https://tardis-sn.github.io/gsoc/pdfs/TARDIS_Proposal_2020.pdf)
+- [2019 Accepted Application ](https://tardis-sn.github.io/gsoc/pdfs/tardis_proposal.pdf)
+- [2016 Accepted Application 1](https://tardis-sn.github.io/gsoc/pdfs/ftsamis_gsoc_2016.pdf)
+- [2016 Accepted Application 2](https://tardis-sn.github.io/gsoc/pdfs/karandesai_gsoc_2016.pdf)
+- [2016 Accepted Application 3](https://tardis-sn.github.io/gsoc/pdfs/mishinma_gsoc_application.pdf)
 
 ### TARDIS GSoC Ideas Page
 
-We have compiled some background information about TARDIS and the science we do with it as well as some of our suggested projects for GSoC 2022 on the Ideas Page.
+We have compiled some background information about TARDIS and the science we do with it as well as some of our suggested projects for GSoC 2022 on the [Ideas Page](../ideas).
 
 You are also welcome to come up with your own project ideas and discuss them with the TARDIS mentors. We're here to help you become new open source developers, so don't be shy if you have any questions. The best way to get in contact is to chat with us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
 
@@ -43,7 +47,7 @@ Whether or not you are accepted, contributing to open source outside of GSoC is 
 
 ### About GSoC
 
-Since 2005, Google has run an awesome open source software development program, called the Google Summer of Code (GSoC), which specifically targets students. Under this program, Google funds students to write code for open source projects during the northern hemisphere's summer timeframe. TARDIS, a scientific code to study exploding stars, participates in this program to get young minds engaged in scientific software development. The process is as follows.
+Since 2005, Google has run an awesome open source software development program, called the [Google Summer of Code](https://summerofcode.withgoogle.com/) (GSoC), which specifically targets students. Under this program, Google funds students to write code for open source projects during the northern hemisphere's summer timeframe. TARDIS, a scientific code to study exploding stars, participates in this program to get young minds engaged in scientific software development. The process is as follows.
 
 - The student writes a project proposal for TARDIS.
   - Sometimes their project idea caters to something that the TARDIS collaboration suggests and sometimes it's an idea entirely of the student's conception.

@@ -14,28 +14,28 @@ If you are interested in participating, please contact us through <a href="https
     - Install the software using the <a href="https://tardis-sn.github.io/tardis/installation.html" target="_blank">guide</a>.
     - Run the [example](https://tardis-sn.github.io/tardis/quickstart.html).
     - Get familiar with our [development model](https://tardis-sn.github.io/tardis/contributing/development/index.html) using Git and GitHub.
-2. Do the TARDIS intro challenge.
-3. Submit your completed TARDIS challenge.
-4. Check out the Ideas Page.
+2. Do the [TARDIS intro challenge](https://colab.research.google.com/drive/1ojC-CbdvhsnNum9DHxY-JUqlGiZGotDP?usp=sharing).
+3. Submit your completed [TARDIS challenge](https://docs.google.com/forms/d/e/1FAIpQLSexpWSQrd5Uumaayd3ZMstyrUQGQ8EJvHHcEP7IgKlY7JHXZg/viewform).
+4. Check out the [Ideas Page](../ideas).
 5. Introduce yourself to us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
-6. Start your application.
+6. Start your [application](../guidelines).
 7. Select a project.
    - Many projects have additional specific instructions. They often involve a Pull Request.
 8. Discuss and share your project details (don't wait!)
 9. Submit your application!
     
 ### You got accepted (before coding begins) 
-1. Agree to the acceptance requirements in writing.
-2. Read our participation expectations (read it ALL, we will quiz you later).
+1. Agree to the [acceptance requirements](../requirements) **in writing**.
+2. Read our participation [expectations](../expectations) (read it ALL, we will quiz you later).
 3. Set up an interaction schedule with your mentors (at least weekly).
 4. Fill out your profile (one sentence summary, your name, link to proposal, dev log, and GSoC page).
 5. Get familiarized with web resources-
-   - Gitter
-   - GitHub
+   - [Gitter](https://gitter.im/tardis-sn/gsoc)
+   - [GitHub](https://github.com/tardis-sn/tardis)
 6. Post your proposal online (Google Docs, overleaf, wiki, etc.)
-7. Describe your project plan (preferably as a TARDIS Enhancement Proposal at github.com/tardis-sn/tep)
+7. Describe your project plan (preferably as a [TARDIS Enhancement Proposal](https://github.com/tardis-sn/tep))
 8. Announce your plan via Chat and/or E-mail (discuss and make adjustments).
-9.  Submit patches to get familiarized with code (find small tasks like these).
+9. Submit patches to get familiarized with code (find small tasks like these).
 
 ### Once coding begins
 1. Write maintainable, portable, complete code.

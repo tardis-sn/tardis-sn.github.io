@@ -53,4 +53,4 @@ There is intentionally no specific format to our applications. **BUT**... studen
    - (optional) Why you?
    - (optional) Anything else?
 
-**You must agree to our acceptance requirements should you be selected.**
+**You must agree to our [acceptance requirements](../requirements) should you be selected.**
