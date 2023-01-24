@@ -36,3 +36,14 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 
 **Description:** TARDIS generates synthetic observations of stellar explosions that can be compared to real observations. With such comparisons, we can learn more about the physical processes occurring and the conditions inside the supernova, including which elements and atomic transitions are dominant. TARDIS tracks the atomic transitions of interacting photons, level populations, etc. allowing the user to interrogate the physical conditions of the supernova. The goal of this project is to build a visual tool to represent this information for the user in Grotrian diagrams, which show different atomic levels of ions and transitions between them. An example is shown here from Boyle et al. 2017. Developing this tool will allow the user to more easily understand the important physical conditions of their supernova model.
 <img src="/images/Grotrian.png" alt="image" style="display: block; margin: 0 auto;width: 100%;padding-top: 5%;padding-bottom: 5%;">
+
+
+#### Inner boundary velocity solver
+**Project Length:** 350 Hours\
+**Difficulty:** Hard\
+**Astronomy knowledge needed**: Some general understanding of thermodynamics and numerical calculus\
+**Mentors:** Jack O'Brien\
+**Programming skills required:** Git, Python, NumPy, Pandas
+
+**Description:** TARDIS operates on a "photospheric" inner boundary approximation.  A hard inner boundary in velocity is set from which radiative packets are emitted through the ejecta according to a black-body distribution at a given temperature.  Currently, TARDIS can solve for the radiative and inner boundary temperatures as well as dilution factors given a static inner velocity boundary.  The precise location of where this inner boundary velocity should be placed is not always obvious and there are a few methods by which one can intelligently select a location based on the properties of the plasma (which are constantly updating over each iteration).  We would like to be able to update the location of the inner boundary velocity at each iteration based on a set of options for desired properties of the plasma at each iteration so that the inner boundary velocity does not have to be set by hand.  The options include setting the inner boundary velocity according to a given optical depth over all frequencies (either Planck or Rossland mean opacities) or setting the inner boundary according to a desired value for the dilution factors.  Some work must be done to handle these updates mid iteration as the updated velocity boundary may, for example, move outside the bounds of the simulation or may move between simulation shells.  
+**First objective:** In a jupyter notebook, run a TARDIS simulation then use the electron densities and Sobolev optical depths (tau_sobolevs) to compute the Planck mean opacity for the simulation as a function of velocity.  Post this notebook with the plot in a pull request on github.
