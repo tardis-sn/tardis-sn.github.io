@@ -74,7 +74,7 @@ Many of the mentors may not be available on Gitter due to differences in time zo
 ### Resolving problems
 Student can call upon any mentor or other developer, they don't have to limit their interactions to just their mentor. They shouldn't limit their interactions to just one mentor. Students having difficulties communicating with any mentor should contact the <<email_kerzendorf>>.
 
-We also abide by the Astropy Community Code of Conduct and if there are any violations students should contact <<email_kerzendorf>> to arrange for a confidential meeting.
+We also abide by the Astropy Community Code of Conduct and if there are any violations students should email <a href="mailto:tardis.supernova.code@gmail.com">tardis.supernova.code@gmail.com</a> to arrange for a confidential meeting.
 
 If you're stuck, ask for help on Gitter and/or on the mailing list. If you are still stuck, read the source code. If you're still stuck, ask for help again. Better questions frequently yield better answers.
 
