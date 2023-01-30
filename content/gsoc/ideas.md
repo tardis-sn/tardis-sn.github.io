@@ -67,16 +67,16 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 **First objective:** 
 
 ### Model implementation in Gamma-ray code
-**Difficulty:** Moderate to advanced
-**Astronomy Knowledge Needed:** None
-**Mentors:** Andrew Fullard, Vicente Amado Olivo
-**Programming skills required:** Git, Python
+**Difficulty:** Moderate to advanced\
+**Astronomy Knowledge Needed:** None\
+**Mentors:** Andrew Fullard, Vicente Amado Olivo\
+**Programming skills required:** Git, Python\
 **Description:** TARDIS has a set of classes that contain important information for the simulation and act as storage classes. [The model class](https://github.com/tardis-sn/tardis/blob/9a32544c99ce9f10b53e4b430f008d27a7093e8f/tardis/model/base.py#L81) is one of them. The model has been restructured to store only what it needs to. A gamma-ray transport code has been developed to make use of the TARDIS infrastructure. However, the gamma-ray transport code does not use this updated model object. To safely remove outdated model classes, the gamma-ray deposition code should be updated to use the new model object, with any changes made to the model object as needed, or a subclass created.
 
 ### Import and store NNDC deposition data
-**Difficulty:** Moderate
-**Astronomy Knowledge Needed:** None
-**Mentors:** Andrew Fullard, ?
-**Programming skills required:** Git, Python, pandas
+**Difficulty:** Moderate\
+**Astronomy Knowledge Needed:** None\
+**Mentors:** Andrew Fullard\
+**Programming skills required:** Git, Python, Pandas\
 **Description:** Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called “radlist”. This project will use the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output.
 **First objective:** In a jupyter notebook, use the requests.post function of Python to download the result as a json from this page: https://www.nndc.bnl.gov/radlist/radlist2.jsp. You should pass in an ENSDF file and the requested format into the data dictionary. You can acquire an ENSDF file from this page: https://www.nndc.bnl.gov/nudat3/indx_dec.jsp by entering “Co56” (Cobalt 56) into the Nucleus input field.
