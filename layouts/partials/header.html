@@ -17,7 +17,7 @@
           <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
           <div class="menu menu-header">
             {{ range $action := $.Site.Params.header.nav_links }} 
-              {{ $page_url := trim $.URL "/" }}
+              {{ $page_url := trim $.RelPermalink "/" }}
               {{ $action_url := trim $action.url "/" }} 
               {{ $action_style := $action.style | default "link" }} 
               {{ if eq $action_style "dropdown" }}

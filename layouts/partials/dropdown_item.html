@@ -2,7 +2,7 @@
 {{ $action_style := $action.style | default "link" }}
 {{ $action_icon := $action.icon | default "arrow-left" }}
 {{ $action_icon_pos := $action.icon_position | default "left" }}
-{{ $page_url := trim $.URL "/" }}
+{{ $page_url := trim $.RelPermalink "/" }}
 {{ $action_url := trim $action.url "/" }}
 <a href="{{ $action.url | relURL}}" class="{{ if eq $page_url $action_url }} current-menu-item{{ end }}dropdown-item">
     <span class="{{ if eq $action_icon_pos "right" }} order-first{{ end }} {{ if eq $action_url  $page_url }} current-menu-item{{ end }}"> {{ $action.label }} </span>

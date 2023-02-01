@@ -18,13 +18,13 @@
       <article class="cell post">
         <div class="card">
           {{ if $post.Params.thumb_image }}
-          <a class="post-thumbnail" href="{{ $post.URL }}">
+          <a class="post-thumbnail" href="{{ $post.RelPermalink }}">
             <img src="{{ $post.Params.thumb_image | relURL }}" alt="{{ $post.Params.thumb_image_alt }}" />
           </a>
           {{ end }}
           <div class="post-body">
             <header class="post-header">
-              <h3 class="post-title"><a href="{{ $post.URL }}">{{ $post.Params.title }}</a></h3>
+              <h3 class="post-title"><a href="{{ $post.RelPermalink }}">{{ $post.Params.title }}</a></h3>
             </header>
             <div class="post-excerpt">
               <p>{{ $post.Params.excerpt }}</p>
