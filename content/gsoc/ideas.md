@@ -28,55 +28,53 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 
 
 #### Grotrian diagram visualisation
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Matplotlib">}} {{<idea_tag "Plotly">}}{{<idea_tag "Basic atomic physics">}}
+
 **Project Length:** 350 Hours\
 **Difficulty:** Moderate\
-**Astronomy knowledge needed**: Basic atomic physics\
 **Mentors:** Mark Mage, Atharva Arya\
-**Programming skills required:** Python, GitHub, Matplotlib and/or plotly\
 **Description:** TARDIS generates synthetic observations of stellar explosions that can be compared to real observations. With such comparisons, we can learn more about the physical processes occurring and the conditions inside the supernova, including which elements and atomic transitions are dominant. TARDIS tracks the atomic transitions of interacting photons, level populations, etc. allowing the user to interrogate the physical conditions of the supernova. The goal of this project is to build a visual tool to represent this information for the user in Grotrian diagrams, which show different atomic levels of ions and transitions between them. An example is shown here from Boyle et al. 2017. Developing this tool will allow the user to more easily understand the important physical conditions of their supernova model.
 <img src="/images/Grotrian.png" alt="image" style="display: block; margin: 0 auto;width: 100%;padding-top: 5%;padding-bottom: 5%;">
 **Your first objective if you choose to accept the mission:** Run a TARDIS simulation and plot the fraction of neutral and singly-ionised silicon against velocity.
 
 
 #### Inner boundary velocity solver
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "NumPy">}} {{<idea_tag "Pandas">}}{{<idea_tag "General Thermodynamics">}}{{<idea_tag "Calculus">}}
+
 **Project Length:** 350 Hours\
-**Difficulty:** Hard\
-**Astronomy knowledge needed**: Some general understanding of thermodynamics and numerical calculus\
 **Mentors:** Jack O'Brien\
-**Programming skills required:** Git, Python, NumPy, Pandas\
 **Description:** TARDIS operates on a "photospheric" inner boundary approximation.  A hard inner boundary in velocity is set from which radiative packets are emitted through the ejecta according to a black-body distribution at a given temperature.  Currently, TARDIS can solve for the radiative and inner boundary temperatures as well as dilution factors given a static inner velocity boundary.  The precise location of where this inner boundary velocity should be placed is not always obvious and there are a few methods by which one can intelligently select a location based on the properties of the plasma (which are constantly updating over each iteration).  We would like to be able to update the location of the inner boundary velocity at each iteration based on a set of options for desired properties of the plasma at each iteration so that the inner boundary velocity does not have to be set by hand.  The options include setting the inner boundary velocity according to a given optical depth over all frequencies (either Planck or Rossland mean opacities) or setting the inner boundary according to a desired value for the dilution factors.  Some work must be done to handle these updates mid iteration as the updated velocity boundary may, for example, move outside the bounds of the simulation or may move between simulation shells.  
 **First objective:** In a jupyter notebook, run a TARDIS simulation then use the electron densities and Sobolev optical depths (tau_sobolevs) to compute the Planck mean opacity for the simulation as a function of velocity.  Post this notebook with the plot in a pull request on GitHub.
 
 
 #### Develop an interactive abundance visualisation tool
-**Difficulty:** Easy\
-**Astronomy knowledge needed:** None\
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Matplotlib">}} {{<idea_tag "Plotly">}}
+
+**Project Length:** 175 Hours\
 **Mentors:** James Gillanders\
-**Programming skills required:** Python, Github, Matplotlib, Plotly\
 **Description:** TARDIS is used to model and understand the properties of the material ejected during violent explosions in space. By specifying some input model parameters, the simulation runs and generates synthetic spectra which can be compared to observations. Currently, some of the model properties can be difficult to interpret, and so we envisage developing some helpful visualisation tools to aid in understanding the properties of the input model. Specifically, we hope to develop an interactive widget that illustrates the composition of the ejected material across the velocity of the simulation. The focus of this project would be developing a TARDIS plot that is inspired by the TULIPS visualisation tools (see https://astro-tulips.readthedocs.io/en/latest/chemical_profile_diagram.html).
 <img src="/images/tulips_chemical_profile.png" alt="image" style="display: block; margin: 0 auto;width: 100%;padding-top: 5%;padding-bottom: 5%;">
 
 #### STARDIS Parallelization and GPU
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Numba">}} {{<idea_tag "Cuda">}}{{<idea_tag "Basic Astronomy knowledge">}}
+
 **Project Length:** 350 Hours\
-**Difficulty:** Difficult\
-**Astronomy knowledge needed**: None, knowledge about stars is recommended\
 **Mentors:** Isaac Smith, Jaladh Singhal\
-**Programming skills required:** Python, GitHub, Numba and CUDA\
 **Description:** STARDIS generates synthetic spectra for stars, given a set of parameters. These spectra can then be compared to real observations to give us information about the conditions inside that star’s atmosphere. STARDIS is a new companion code to TARDIS, and has not yet been optimised. The goal of this project is to increase the speed of STARDIS using [Numba](https://numba.readthedocs.io/en/stable/index.html) by allowing slower parts of STARDIS to be run [in parallel](https://numba.readthedocs.io/en/stable/user/parallel.html), and allowing for them to be run on the GPU using Numba’s [CUDA capabilities](https://numba.readthedocs.io/en/stable/cuda/index.html). As a reference, this has been done in TARDIS with the formal integral. The regular Numba version (with parts parallelized) can be found [here](https://github.com/tardis-sn/tardis/blob/master/tardis/montecarlo/montecarlo_numba/formal_integral.py). Then, there is also a version written with CUDA [here](https://github.com/tardis-sn/tardis/blob/master/tardis/montecarlo/montecarlo_numba/formal_integral_cuda.py). Increasing the speed of STARDIS will allow research to be done rapidly using our tools.
 
 **First objective:** 
 
 ### Model implementation in Gamma-ray code
-**Difficulty:** Moderate to advanced\
-**Astronomy Knowledge Needed:** None\
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} 
+
+**Project Length:** 175 Hours\
 **Mentors:** Andrew Fullard, Vicente Amado Olivo\
-**Programming skills required:** Git, Python\
 **Description:** TARDIS has a set of classes that contain important information for the simulation and act as storage classes. [The model class](https://github.com/tardis-sn/tardis/blob/9a32544c99ce9f10b53e4b430f008d27a7093e8f/tardis/model/base.py#L81) is one of them. The model has been restructured to store only what it needs to. A gamma-ray transport code has been developed to make use of the TARDIS infrastructure. However, the gamma-ray transport code does not use this updated model object. To safely remove outdated model classes, the gamma-ray deposition code should be updated to use the new model object, with any changes made to the model object as needed, or a subclass created.
 
 ### Import and store NNDC deposition data
-**Difficulty:** Moderate\
-**Astronomy Knowledge Needed:** None\
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Pandas">}} 
+
+**Project Length:** 175 Hours\
 **Mentors:** Andrew Fullard\
-**Programming skills required:** Git, Python, Pandas\
 **Description:** Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called “radlist”. This project will use the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output.\
 **First objective:** In a jupyter notebook, use the requests.post function of Python to download the result as a json from this page: https://www.nndc.bnl.gov/radlist/radlist2.jsp. You should pass in an ENSDF file and the requested format into the data dictionary. You can acquire an ENSDF file from this page: https://www.nndc.bnl.gov/nudat3/indx_dec.jsp by entering “Co56” (Cobalt 56) into the Nucleus input field.
