@@ -26,6 +26,14 @@ If you use one of our TEPs, you can definitely add more detail to the implementa
 
 Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with the First objective is essential for each proposal to allow to see how you work.
 
+#### Velocity Packet Tracker Visualisation
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Matplotlib">}} {{<idea_tag "Plotly">}}{{<idea_tag "Basic atomic physics">}}
+
+**Project Length:** 175 Hours\
+**Difficulty:** Moderate\
+**Mentors:** Marc Williamson, Lindsey Kwok\
+**Description:** The TARDIS SDEC plot visualises which atoms photon packets interact with before they escape the ejecta and contribute towards the absorption and emission features of the output spectrum.  However, the SDEC plot does not visualise where these interactions occur within the ejecta.  This information can be extremely useful to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum.  This project will develop a visualisation tool that plots the number of photon packet interactions as a function of velocity for each element present in the ejecta.  See [this pull request](https://github.com/tardis-sn/tardis/pull/1606) for an example of what the plot could look like.\
+**Your first objective if you choose to accept the mission:** Run the TARDIS example simulation and generate an SDEC plot.  Make a second plot showing the abundance of each element as a function of velocity.
 
 #### Grotrian diagram visualisation
 {{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Matplotlib">}} {{<idea_tag "Plotly">}}{{<idea_tag "Basic atomic physics">}}
@@ -62,14 +70,15 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 **Mentors:** Isaac Smith, Jaladh Singhal\
 **Description:** STARDIS generates synthetic spectra for stars, given a set of parameters. These spectra can then be compared to real observations to give us information about the conditions inside that star’s atmosphere. STARDIS is a new companion code to TARDIS, and has not yet been optimised. The goal of this project is to increase the speed of STARDIS using [Numba](https://numba.readthedocs.io/en/stable/index.html) by allowing slower parts of STARDIS to be run [in parallel](https://numba.readthedocs.io/en/stable/user/parallel.html), and allowing for them to be run on the GPU using Numba’s [CUDA capabilities](https://numba.readthedocs.io/en/stable/cuda/index.html). As a reference, this has been done in TARDIS with the formal integral. The regular Numba version (with parts parallelized) can be found [here](https://github.com/tardis-sn/tardis/blob/master/tardis/montecarlo/montecarlo_numba/formal_integral.py). Then, there is also a version written with CUDA [here](https://github.com/tardis-sn/tardis/blob/master/tardis/montecarlo/montecarlo_numba/formal_integral_cuda.py). Increasing the speed of STARDIS will allow research to be done rapidly using our tools.
 
-**First objective:** 
+**First objective:** In the TARDIS repository, find the Jupyter Notebook that creates the [initialization page of the documentation](https://tardis-sn.github.io/tardis/physics/montecarlo/initialization.html). Create a version of `planck_function()` (see code cell #6) that is `jit` compiled by Numba. Show a comparison of how long it takes to calculate `planck_function(nus_planck)` (see code cell #7) for the original function versus the `jitted` function for 100, 200, and 500 frequency bins. Make a pull request to the TARDIS repository with your modifications of this notebook.
 
-### Model implementation in Gamma-ray code
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} 
+#### Connecting the Gamma-ray code to TARDIS
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Object Oriented Programming">}} 
 
-**Project Length:** 175 Hours\
-**Mentors:** Andrew Fullard, Vicente Amado Olivo\
-**Description:** TARDIS has a set of classes that contain important information for the simulation and act as storage classes. [The model class](https://github.com/tardis-sn/tardis/blob/9a32544c99ce9f10b53e4b430f008d27a7093e8f/tardis/model/base.py#L81) is one of them. The model has been restructured to store only what it needs to. A gamma-ray transport code has been developed to make use of the TARDIS infrastructure. However, the gamma-ray transport code does not use this updated model object. To safely remove outdated model classes, the gamma-ray deposition code should be updated to use the new model object, with any changes made to the model object as needed, or a subclass created.
+**Project Length:** 350 Hours\
+**Mentors:** Andrew Fullard, Vicente Amado Olivo \
+**Description:** A [gamma-ray transport code](https://tardis-sn.github.io/tardis/physics/energy_input/gammaray_deposition.html) has been developed to make use of the TARDIS infrastructure. However, the gamma-ray transport code is disconnected from the way TARDIS is run to generate normal spectra (see the [Quickstart](https://tardis-sn.github.io/tardis/quickstart.html)). It is not connected with the rest of the API. Instead it uses the [`Radial1Dmodel`](https://tardis-sn.github.io/tardis/api/tardis.model.base.html#tardis.model.base.Radial1DModel) object by loading from a configuration file, and generates a [plasma](https://tardis-sn.github.io/tardis/api/tardis.plasma.base.html) object from scratch, as well as loading external data. When it runs, it duplicates some functionality that is already in TARDIS as part of the [Monte Carlo modules](https://tardis-sn.github.io/tardis/api/tardis.montecarlo.html). It also lacks tests of many new functions. For this project, you will integrate the gamma-ray transport code with the rest of TARDIS so that it is an option to run as part of a normal TARDIS simulation. \
+**First objective:** In a notebook, generate a configuration object from the `tardis_example.yml`. Then use the configuration object to generate a `Radial1DModel` object using the `from_config` method. The configuration object’s `atom_data` property should also be used to create an `AtomData` object using the `from_hdf` method. Then use the `Radial1DModel` object to generate a `BasePlasma` object. The BasePlasma `plasma_properties` should be a list of properties: `[Density, Abundance, IsotopeAbundance, AtomicData, AtomicMass, IsotopeNumberDensity, NumberDensity, SelectedAtoms, IsotopeMass]`. The `density, abundance, isotope_abundance` should be read from the model object. The `atomic_data` should be the `AtomData` object created previously. Finally, run the `main_gamma_ray_loop` function using these created model and plasma objects. You will get an error from Pandas that a file is not found.
 
 ### Import and store NNDC deposition data
 {{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Pandas">}} 
@@ -77,4 +86,4 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 **Project Length:** 175 Hours\
 **Mentors:** Andrew Fullard\
 **Description:** Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called “radlist”. This project will use the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output.\
-**First objective:** In a jupyter notebook, use the requests.post function of Python to download the result as a json from this page: https://www.nndc.bnl.gov/radlist/radlist2.jsp. You should pass in an ENSDF file and the requested format into the data dictionary. You can acquire an ENSDF file from this page: https://www.nndc.bnl.gov/nudat3/indx_dec.jsp by entering “Co56” (Cobalt 56) into the Nucleus input field.
+**First objective:** In a jupyter notebook, use the requests.post function of Python to download the result as a json from [this page](https://www.nndc.bnl.gov/radlist/radlist2.jsp). You should pass in an ENSDF file and the requested format into the data dictionary. You can acquire an ENSDF file from [this page](https://www.nndc.bnl.gov/nudat3/indx_dec.jsp) by entering “Co56” (Cobalt 56) into the Nucleus input field.
