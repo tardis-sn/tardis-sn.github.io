@@ -53,26 +53,26 @@ params:
         url: /credits
         style: link
       - label: GSoC
-        url: /gsoc
+        url: /gsoc_2023
         style: dropdown
         sub_items:
           - label: Welcome to GSoC with TARDIS!
-            url: /gsoc/gsoc_home
+            url: /gsoc_2023/gsoc_home
             style: dropdown-link
           - label: 2023 Ideas
-            url: /gsoc/ideas
+            url: /gsoc_2023/ideas
             style: dropdown-link
           - label: GSoC Checklist
-            url: /gsoc/checklist
+            url: /gsoc_2023/checklist
             style: dropdown-link
           - label: Participation Expectations
-            url: /gsoc/expectations
+            url: /gsoc_2023/expectations
             style: dropdown-link
           - label: Application Guidelines
-            url: /gsoc/guidelines
+            url: /gsoc_2023/guidelines
             style: dropdown-link
           - label: Application Requirements
-            url: /gsoc/requirements
+            url: /gsoc_2023/requirements
             style: dropdown-link
       # - label: News
       #   url: /news
