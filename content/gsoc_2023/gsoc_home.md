@@ -21,6 +21,7 @@ If you are interested, follow these steps:
 
 These were the projects that we selected for GSoC 2016 (a while ago but still a good reference) and can serve as a reference for future proposals:
 
+- [2021 Accepted Application 1](/pdfs/atharva_arya_gsoc_2021_tardis.pdf)
 - [2020 Accepted Application 1](/pdfs/jaladh-singhal_gsoc2020_tardis.pdf)
 - [2020 Accepted Application 2](/pdfs/TARDIS_Proposal_2020.pdf)
 - [2019 Accepted Application ](/pdfs/tardis_proposal.pdf)
