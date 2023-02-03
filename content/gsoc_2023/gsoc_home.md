@@ -21,12 +21,12 @@ If you are interested, follow these steps:
 
 These were the projects that we selected for GSoC 2016 (a while ago but still a good reference) and can serve as a reference for future proposals:
 
-- [2020 Accepted Application 1](https://tardis-sn.github.io/gsoc/pdfs/jaladh-singhal_gsoc2020_tardis.pdf)
-- [2020 Accepted Application 2](https://tardis-sn.github.io/gsoc/pdfs/TARDIS_Proposal_2020.pdf)
-- [2019 Accepted Application ](https://tardis-sn.github.io/gsoc/pdfs/tardis_proposal.pdf)
-- [2016 Accepted Application 1](https://tardis-sn.github.io/gsoc/pdfs/ftsamis_gsoc_2016.pdf)
-- [2016 Accepted Application 2](https://tardis-sn.github.io/gsoc/pdfs/karandesai_gsoc_2016.pdf)
-- [2016 Accepted Application 3](https://tardis-sn.github.io/gsoc/pdfs/mishinma_gsoc_application.pdf)
+- [2020 Accepted Application 1](/pdfs/jaladh-singhal_gsoc2020_tardis.pdf)
+- [2020 Accepted Application 2](/pdfs/TARDIS_Proposal_2020.pdf)
+- [2019 Accepted Application ](/pdfs/tardis_proposal.pdf)
+- [2016 Accepted Application 1](/pdfs/ftsamis_gsoc_2016.pdf)
+- [2016 Accepted Application 2](/pdfs/karandesai_gsoc_2016.pdf)
+- [2016 Accepted Application 3](/pdfs/mishinma_gsoc_application.pdf)
 
 ### TARDIS GSoC Ideas Page
 
