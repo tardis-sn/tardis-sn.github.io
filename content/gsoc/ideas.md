@@ -88,4 +88,24 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 **Description:** Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called “radlist”. This project will use the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output.\
 **First objective:** In a jupyter notebook, use the requests.post function of Python to download the result as a json from [this page](https://www.nndc.bnl.gov/radlist/radlist2.jsp). You should pass in an ENSDF file and the requested format into the data dictionary. You can acquire an ENSDF file from [this page](https://www.nndc.bnl.gov/nudat3/indx_dec.jsp) by entering “Co56” (Cobalt 56) into the Nucleus input field.
 
+### Simulation Object Restructure
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}}
+
+**Project Length:** 175 Hours\
+**Mentors:** Atharva Arya, Jack O'Brien, Sona Chitchyan\
+**Description:** When running TARDIS, an instance of the [Simulation object](https://github.com/tardis-sn/tardis/blob/e9d5a432ca27906c3a7ec59cb65621b414842d22/tardis/simulation/base.py#L89) is called first. It sets up the model of the simulation, including initial luminosity, inner temperature of the photosphere, etc. The Simulation class also consists of visualisation tools like [convergence plots](https://tardis-sn.github.io/tardis/io/visualization/convergence_plot.html) and [progress bars](https://tardis-sn.github.io/tardis/io/output/progress_bars.html) which update in real time, displaying various scientific variables and make it easier for users to understand the status of the convergence of the simulation. All of those methods are essential for the simulation to be able to run, but having them all in one class makes it hard for developers to maintain the code and incorporate newer features. This project aims to break the Simulation Object into smaller and more compact classes, making it more modular and maintainable. There will also be a need to restructure the tests to check the functionality of the added features.
+\
+**First objective:** The first objective is creating a new class called `ConvergencePlot` and move `damped_converge` and `_get_convergence_status` methods into this new class. Make sure that you can successfully run an example TARDIS simulation with this change. Make a PR on TARDIS with your change.
+
+
+### Having versioned atomic data repositories
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}}
+
+**Project Length:** 175 Hours\
+**Mentors:**  Atharva Arya, Ezequiel Passaro, Issac Smith, Josh Shields, Wolfgang Kerzendorf\
+**Description:** Carsus generates an HDF file by combining atom data from various sources(CMFGEN, Chianti, NIST, to name a few). This HDF file is then used by TARDIS to generate the atomic spectra. When a new version of the atomic source rolls out, we don’t have a way to determine what changes have crept in. In this project you’d be asked to create a GitHub repository and determine a way to check when a new version of the atomic data source is available and its comparison to the previous versions. Carsus should then use this latest version to generate its atomic file.
+\
+**First objective:** Run the Carsus Quickstart with two different versions of Chianti and compare the generated atomic files using the Atom Data Comparison notebook. 
+
+
 
