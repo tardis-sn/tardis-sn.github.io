@@ -4,6 +4,7 @@ date: 2021-05-28T09:44:45-05:00
 draft: false
 aliases: /gsoc/
 layout: page
+aliases: /gsoc_2023/
 ---
 
 TARDIS is an open source radiative transfer code for simulating supernova spectra. We are dedicated to open source, reproducible science, as well as mentoring new members of the TARDIS community! TARDIS has participated in the Google Summer of Code (GSoC) for the last few years, and we highly encourage interested students to apply! If you are interested in TARDIS, follow the collaboration on <a href="https://twitter.com/tardis_sn" target="_blank">Twitter</a> and join us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
@@ -21,12 +22,13 @@ If you are interested, follow these steps:
 
 These were the projects that we selected for GSoC 2016 (a while ago but still a good reference) and can serve as a reference for future proposals:
 
-- [2020 Accepted Application 1](https://tardis-sn.github.io/gsoc/pdfs/jaladh-singhal_gsoc2020_tardis.pdf)
-- [2020 Accepted Application 2](https://tardis-sn.github.io/gsoc/pdfs/TARDIS_Proposal_2020.pdf)
-- [2019 Accepted Application ](https://tardis-sn.github.io/gsoc/pdfs/tardis_proposal.pdf)
-- [2016 Accepted Application 1](https://tardis-sn.github.io/gsoc/pdfs/ftsamis_gsoc_2016.pdf)
-- [2016 Accepted Application 2](https://tardis-sn.github.io/gsoc/pdfs/karandesai_gsoc_2016.pdf)
-- [2016 Accepted Application 3](https://tardis-sn.github.io/gsoc/pdfs/mishinma_gsoc_application.pdf)
+- [2021 Accepted Application 1](/pdfs/atharva_arya_gsoc_2021_tardis.pdf)
+- [2020 Accepted Application 1](/pdfs/jaladh-singhal_gsoc2020_tardis.pdf)
+- [2020 Accepted Application 2](/pdfs/TARDIS_Proposal_2020.pdf)
+- [2019 Accepted Application ](/pdfs/tardis_proposal.pdf)
+- [2016 Accepted Application 1](/pdfs/ftsamis_gsoc_2016.pdf)
+- [2016 Accepted Application 2](/pdfs/karandesai_gsoc_2016.pdf)
+- [2016 Accepted Application 3](/pdfs/mishinma_gsoc_application.pdf)
 
 ### TARDIS GSoC Ideas Page
 
