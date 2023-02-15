@@ -1,6 +1,14 @@
 title: TARDIS
 baseURL: https://tardis-sn.github.io/
 canonifyurls: true
+
+redirects:
+  - from: "/teams"
+    to: "/team/community_roles"
+    type: 301
+
+
+
 params:
   base_font: nunito-sans
   palette: blue
@@ -141,3 +149,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+redirects:
+  - from: /teams
+    to: /team/community_roles
+    status: 301
