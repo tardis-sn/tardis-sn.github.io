@@ -37,6 +37,7 @@ We have compiled some background information about TARDIS and the science we do 
 You are also welcome to come up with your own project ideas and discuss them with the TARDIS mentors. We're here to help you become new open source developers, so don't be shy if you have any questions. The best way to get in contact is to chat with us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
 
 ### The Selection Process
+
 GSoC is about getting people involved and contributing to open source over the long-term. As such, we heavily weight our application selection process towards students that are interested in remaining involved in TARDIS and open source software development long after GSoC has ended.
 
 GSoC is not a job! If you think this is just a summer job, then GSoC is probably not for you. It's only like a job in terms of planning your time commitment over the summer.
@@ -58,7 +59,8 @@ Since 2005, Google has run an awesome open source software development program, 
   - That, in turn, determines how many student developers work with the TARDIS collaboration.
 
 Please also read the following pages before applying. Project ideas can be found on the [ideas page](../ideas).
+
 1. [Application Requirements](../requirements)
 2. [Application Guidelines](../guidelines)
 3. [Application Checklist](../checklist)
-5. [Participation Expectations](../expectations)
+4. [Participation Expectations](../expectations)
