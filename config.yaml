@@ -74,6 +74,9 @@ params:
           - label: Application Requirements
             url: /gsoc_2023/requirements
             style: dropdown-link
+      - label: GSoD
+        url: /ideas_gsod_2023
+        style: link
       # - label: News
       #   url: /news
       #   style: link #primary is another style available
