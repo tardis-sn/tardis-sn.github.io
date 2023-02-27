@@ -2,6 +2,7 @@ name: Preview website on fork
 
 on:
   push:
+  workflow_dispatch:
     
 
 jobs:
