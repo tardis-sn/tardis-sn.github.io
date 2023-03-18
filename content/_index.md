@@ -18,7 +18,7 @@ sections:
     background: white
     title: TARDIS at a Glance
     subtitle: >-
-      TARDIS packages provide several tools for physics calculation and visulaization to make your supernova research easier. 
+      TARDIS packages provide several tools for physics calculation and visualization to make your supernova research easier. 
     features:
       - title: Modeling supernovae made easy
         image: images/config_and_modeling.png
