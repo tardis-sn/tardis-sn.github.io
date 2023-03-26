@@ -52,6 +52,7 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 **Project Length:** 175 Hours\
 **Mentors:** Atharva Arya, Eva Laplace, Harshul Gupta, James Gillanders\
 **Description:** TARDIS is used to model and understand the properties of the material ejected during violent explosions in space. By specifying some input model parameters, the simulation runs and generates synthetic spectra which can be compared to observations. Currently, some of the model properties can be difficult to interpret, and so we envisage developing some helpful visualisation tools to aid in understanding the properties of the input model. Specifically, we hope to develop an interactive widget that illustrates the composition of the ejected material across the velocity of the simulation. The focus of this project would be developing a TARDIS plot that is inspired by the TULIPS visualisation tools (see https://astro-tulips.readthedocs.io/en/latest/chemical_profile_diagram.html ).\
+**First objective:** Run the TARDIS example simulation and plot the abundance of the elements against velocity.
 <img src="/images/tulips_chemical_profile.png" alt="image" style="display: block; margin: 0 auto;width: 100%;padding-top: 5%;padding-bottom: 5%;">
 
 #### Inner boundary velocity solver
