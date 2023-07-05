@@ -1,0 +1,35 @@
+{
+    "first_name": "Andrew",
+    "last_name": "Fullard",
+    "nick_name": "",
+    "display": {
+        "kg": true,
+        "dti": false,
+        "tardis": true
+    },
+    "project_title": "Inferring explosion conditions from late-time Type Ia supernova spectra",
+    "org": "TARDIS",
+    "category": "Researchers",
+    "academic_role": "Advisor",
+    "secondary_role": "Research Consultant at ICER",
+    "tags": [],
+    "interests": "astronomy, computing, mathematics",
+    "group_start_year": "2020",
+    "group_end_year": "Present",
+    "current_institute": "Michigan State University",
+    "image_path": "media/images/me.jpg",
+    "cover_image_path": "media/images/cover.jpg",
+    "introduction": "I joined the TARDIS group in 2020 and worked on gamma-ray energy deposition for the TARDIS code. I am now the Core Coordinator for TARDIS, and as of 2022 a research consultant at ICER, the MSU HPCC institute.",
+    "id": "andrew_fullard",
+    "tardis_primary_role": "Education Coordinator",
+    "tardis_secondary_role": "",
+    "tardis_start_year": "2018",
+    "tardis_end_year": "Present",
+    "fetch_from": {
+        "kg": true,
+        "dti": false
+    },
+    "view_on": {
+        "tardis": true
+    }
+}
