@@ -1,0 +1,23 @@
+{
+    "first_name": "Stuart",
+    "last_name": "Sim",
+    "nick_name": "",
+    "project_title": "",
+    "org": "",
+    "interests": "",
+    "current_institute": "",
+    "image_path": "media/images/me.jpg",
+    "tardis_primary_role": "Co-founder",
+    "tardis_secondary_role": "",
+    "tardis_start_year": "",
+    "tardis_end_year": "Present",
+    "fetch_from": {
+        "kg": false,
+        "dti": false
+    },
+    "view_on": {
+        "tardis": true
+    },
+    "introduction": "",
+    "id": "stuart_sim"
+}
