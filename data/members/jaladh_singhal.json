@@ -1,35 +1,14 @@
 {
-    "first_name": "Jaladh",
-    "last_name": "Singhal",
-    "nick_name": "",
-    "display": {
-        "kg": true,
-        "dti": false,
-        "tardis": true
-    },
-    "project_title": "Space Tools",
-    "org": "Caltech",
-    "category": "Research Software Engineers",
-    "academic_role": "Research Software Engineer",
-    "secondary_role": "Software Developer",
-    "tags": [],
-    "interests": "astronomy, computing, mathematics",
-    "current_institute": "Caltech",
-    "introduction": "",
-    "group_start_year": "2018",
-    "group_end_year": "Present",
-    "image_path": "media/images/jaladh.jpg",
-    "cover_image_path": "media/images/cover.jpg",
-    "id": "jaladh_singhal",
-    "tardis_primary_role": "Education Coordinator",
+    "tardis_academic_role": "Education Coordinator",
     "tardis_secondary_role": "",
-    "tardis_start_year": "",
-    "tardis_end_year": "Present",
+    "tardis_start_date": "",
+    "tardis_end_date": "Present",
     "fetch_from": {
         "kg": true,
         "dti": false
     },
     "view_on": {
         "tardis": true
-    }
+    },
+    "id": "jaladh_singhal"
 }

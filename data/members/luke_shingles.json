@@ -7,10 +7,10 @@
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/me.jpg",
-    "tardis_primary_role": "",
+    "tardis_academic_role": "",
     "tardis_secondary_role": "",
-    "tardis_start_year": "",
-    "tardis_end_year": "Present",
+    "tardis_start_date": "",
+    "tardis_end_date": "Present",
     "fetch_from": {
         "kg": false,
         "dti": false

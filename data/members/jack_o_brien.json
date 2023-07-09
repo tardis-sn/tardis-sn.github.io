@@ -1,35 +1,15 @@
 {
-    "first_name": "Jack",
-    "last_name": "O'Brien",
-    "nick_name": "Jack",
-    "display": {
-        "kg": false,
-        "dti": false,
-        "tardis": true
-    },
-    "project_title": "Probabilistic Abundance Tomography of Type Ia Supernovae",
-    "org": "TARDIS",
-    "category": "Graduate Students",
-    "academic_role": "PhD Student",
-    "secondary_role": "TARDIS Education Coordinator",
-    "tags": [],
-    "interests": "astronomy, computing, mathematics",
-    "current_institute": "Michigan State University",
-    "introduction": "",
-    "group_start_year": "2018",
-    "group_end_year": "Present",
-    "image_path": "media/images/jack.jpg",
-    "cover_image_path": "media/images/cover.jpg",
-    "id": "jack_o_brien",
-    "tardis_primary_role": "Education Coordinator",
+    "tardis_academic_role": "Education Coordinator",
     "tardis_secondary_role": "",
-    "tardis_start_year": "",
-    "tardis_end_year": "Present",
+    "tardis_start_date": "",
+    "tardis_end_date": "Present",
     "fetch_from": {
         "kg": true,
         "dti": false
     },
     "view_on": {
         "tardis": true
-    }
+    },
+    "introduction": "",
+    "id": "jack_o_brien"
 }
