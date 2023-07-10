@@ -1,0 +1,28 @@
+{{ $section := .section }}
+<section class="cell widget widget-form">
+  {{ if $section.title }}
+  <h2 class="widget-title">{{ $section.title }}</h2>
+  {{ end }}
+  {{ partial "markdownify-block" $section.content }}
+  <form name="{{ $section.form_id }}" id="{{ $section.form_id }}" {{ if $section.form_action }}
+    action="{{ $section.form_action }}" {{ end }} method="POST" data-netlify="true"
+    data-netlify-honeypot="{{ $section.form_id }}-bot-field">
+    <div class="screen-reader-text">
+      <label id="{{ $section.form_id }}-honeypot-label" for="{{ $section.form_id }}-honeypot">Don't fill this out if you're
+        human:</label>
+      <input aria-labelledby="{{ $section.form_id }}-honeypot-label" id="{{ $section.form_id }}-honeypot"
+        name="{{ $section.form_id }}-bot-field" />
+    </div>
+    <input aria-labelledby="{{ $section.form_id }}-honeypot-label" type="hidden" name="form-name"
+      value="{{ $section.form_id }}" />
+    {{ range $field := $section.form_fields }}
+    <div class="form-row">
+      {{ $include_dict := dict "field" $field }}
+      {{ partial "form_field.html" $include_dict }}
+    </div>
+    {{ end }}
+    <div class="form-row">
+      <button type="submit" class="button">{{ $section.submit_label }}</button>
+    </div>
+  </form>
+</section>

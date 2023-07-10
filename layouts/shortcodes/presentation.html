@@ -1,0 +1,10 @@
+<div class="presentation">
+    <div class="presentation_section">
+        <div class="info-box">
+            <p>{{ .Get "info_text"| markdownify }}</p>
+        </div>
+        <div class="preview-box">
+            <iframe src="{{ .Get `embed_link` }}" width="100%" height="100%"  allow="autoplay"></iframe>
+        </div>
+    </div>
+</div>

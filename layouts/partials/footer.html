@@ -1,0 +1,41 @@
+<footer id="colophon" class="site-footer">
+  {{ if .Site.Params.footer.sections }}
+    {{ if gt ($.Site.Params.footer.sections | len) 0 }}
+    <div class="footer-top outer">
+      <div class="inner">
+        <div class="grid footer-widgets">
+          {{ range $section := $.Site.Params.footer.sections }}
+            {{ $include_dict := dict "section" $section "Site" $.Site }}
+            {{ $component := print $section.type ".html" }}
+            {{ partial $component $include_dict }}
+          {{ end }}
+        </div>
+      </div>
+    </div><!-- .footer-top -->
+    {{ end }}
+  {{ end }}
+  <div class="footer-bottom outer">
+    <div class="inner">
+      {{ if and .Site.Params.footer.has_nav .Site.Params.footer.nav_links }}
+      <div class="footer-nav">
+        <ul class="menu">
+          {{ range $action := $.Site.Params.footer.nav_links }}
+          <li class="menu-item"> 
+            {{ $include_dict := dict "action" $action }}
+            {{ partial "action_link.html" $include_dict }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      <div class="site-info">
+        {{ .Site.Params.footer.content | safeHTML }}
+        &nbsp;
+        {{ range $action := .Site.Params.footer.links }}
+          {{ $include_dict := dict "action" $action }}
+          {{ partial "action_link.html" $include_dict }}
+        {{ end }}
+      </div>
+    </div>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->

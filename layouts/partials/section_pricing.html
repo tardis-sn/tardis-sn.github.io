@@ -1,0 +1,45 @@
+{{ $section := .section }}
+<section id="{{ $section.section_id }}" class="block pricing-block bg-{{ $section.background }} outer">
+  <div class="block-header inner-small">
+    {{ if $section.title }}
+    <h2 class="block-title">{{ $section.title }}</h2>
+    {{ end }}
+    {{ if $section.subtitle }}
+    <p class="block-subtitle">
+      {{ $section.subtitle | safeHTML }}
+    </p>
+    {{ end }}
+  </div>
+  {{ if $section.pricing_plans }}
+  <div class="inner">
+    <div class="grid">
+      {{ range $plan := $section.pricing_plans }}
+      <div class="cell plan">
+        <div class="card{{ if $plan.highlight }} highlight{{ end }}">
+          <div class="plan-header">
+            {{ if $plan.title }}
+            <h3 class="plan-title">{{ $plan.title }}</h3>
+            {{ end }}
+            {{ if $plan.subtitle }}
+            <div class="plan-subtitle">{{ $plan.subtitle }}</div>
+            {{ end }}
+            {{ if $plan.price }}
+            <div class="plan-price">{{ $plan.price }}</div>
+            {{ end }}
+          </div>
+          <div class="plan-content">
+            {{ partial "markdownify-block" $plan.details }}
+          </div>
+          {{ if $plan.actions }}
+          <div class="plan-footer block-buttons">
+            {{ $include_dict := dict "actions" $plan.actions }}
+            {{ partial "cta_buttons.html" $include_dict }}
+          </div>
+        {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</section><!-- .block -->

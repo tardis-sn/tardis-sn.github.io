@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>{{ if .Params.seo.title }}{{ $.Params.seo.title }}{{ else }}{{ print print $.Title " | " $.Site.Title }}{{ end }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="{{ .Params.seo.description | default "" }}" />
+        {{ if .Params.seo.robots }}
+        <meta name="robots" content="{{ delimit $.Params.seo.robots "," }}">
+        {{ end }}
+        {{ range $meta := .Params.seo.extra }}
+          {{ $key_name := $meta.keyName | default "name" }}
+          {{ if $meta.relativeUrl }}
+            {{ if $.Site.Params.domain }}
+              {{ $domain := trim $.Site.Params.domain "/" }}
+              {{ $rel_url := $meta.value | relURL }}
+              {{ $full_url := print $domain $rel_url }}
+              <meta {{ $key_name }}="{{ $meta.name }}" content="{{ $full_url }}">
+            {{ end }}
+          {{ else }}
+            <meta {{ $key_name }}="{{ $meta.name }}" content="{{ $meta.value }}">
+          {{ end }}
+        {{ end }}
+        {{ $font := .Site.Params.base_font | default "nunito-sans" }}
+        {{ if ne $font "system-sans" }}
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        {{ end }}
+        {{ if eq $font "nunito-sans" }}
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        {{ else if eq $font "fira-sans" }}
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+        {{ end }}
+        <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | resources.ToCSS (dict "indentWidth" 4 "outputStyle" "nested" "precision" 10)).Permalink }}">
+        {{ if .Site.Params.favicon }}
+        <link rel="icon" href="{{ $.Site.Params.favicon | relURL }}">
+        {{ end }}
+        
+    </head>
+    <body class="palette-{{ .Site.Params.palette }} font-{{ .Site.Params.base_font }}">
+        
+        <div id="page" class="site">
+          {{ partial "header.html" . }}
+          <main id="content" class="site-content">
+            {{ block "content" . }}{{ end }}
+          </main><!-- .site-content -->
+          {{ partial "footer.html" . }}
+        </div><!-- .site -->
+        <!-- Scripts -->
+        <script src="{{ "js/plugins.js" | relURL }}"></script>
+        <script src="{{ "js/init.js" | relURL }}"></script>
+        <script src="{{ "js/main.js" | relURL }}"></script>
+    </body> 
+</html>

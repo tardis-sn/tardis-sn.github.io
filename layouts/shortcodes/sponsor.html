@@ -1,0 +1,10 @@
+<div class="sponsor-container">
+    <div class="sponsor-image">
+      <a href="{{ index .Params 0}}">
+        <img src="{{ index .Params 1}}" width="500">
+      </a>
+    </div>
+    <span>
+        {{ index .Params 2 | markdownify }}
+    </span>
+</div>
