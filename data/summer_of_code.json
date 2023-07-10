@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Jayant Bhakar",
+        "project_title": "????",
+        "org":"tardis",
+        "role": "GSoC",
+        "tags":["soc"],
+        "country": "India",
+        "city": "Rajasthan",
+        "year": 2022
+    },
+
+    {
+        "name": "Dhruv Sondhi",
+        "project_title": "TARDIS logging and packet tracking",
+        "org":"tardis",
+        "role": "GSoC",
+        "tags":["soc"],
+        "country": "India",
+        "year": 2021
+    },
+    {
+        "name": "Jenny Yu",
+        "project_title": "Abundance widget",
+        "org":"tardis",
+        "role": "GSoC",
+        "tags":["soc"],
+        "country": "China",
+        "year": 2021
+    },
+    {
+        "name": "Arib Alam",
+        "project_title": "Packet tracking",
+        "org":"tardis",
+        "role": "GSoC",
+        "tags":["soc", "failed"],
+        "country": "India",
+        "year": 2021
+    },
+    {
+        "name": "Atharva Arya",
+        "project_title": "???",
+        "org":"tardis",
+        "role": "GSoC",
+        "tags":["soc"],
+        "country": "India",
+        "city": "Nagpur",
+        "year": 2022
+    },
+    {
+        "name": "Atharva Arya",
+        "project_title": "various projects",
+        "org":"tardis",
+        "role": "GSoC",
+        "tags":["soc"],
+        "country": "India",
+        "city": "Nagpur",
+        "year": 2021
+    },
+
+    {
+        "name": "Ezequiel Passaro",
+        "project_title": "Understanding atomic data uncertainty",
+        "org":"tardis",
+        "role": "GSoC",
+        "tags":["soc"],
+        "country": "Argentina",
+        "year": 2020
+    },
+    {
+        "name": "Jordi Eguren Brown",
+        "project_title": "Restructuring TARDIS to be more modular",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "Argentina",
+        "tags":["soc"],
+        "year": 2020
+    },
+    {
+        "name": "Ezequiel Passaro",
+        "project_title": "Building a new atomic database",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "Argentina",
+        "tags":["soc"],
+        "year": 2019
+    },
+    {
+        "name": "Youssef Eweis",
+        "project_title": "Building a new atomic database",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "Egypt",
+        "tags":["soc", "failed"],
+        "year": 2019
+    },
+    {
+        "name": "Jaladh Singhal",
+        "project_title": "Improving the synthetic photometry package wsynphot",
+        "org":"starkit",
+        "role": "GSoC",
+        "tags":["soc"],
+        "country": "India",
+        "year": 2019
+    },
+    {
+        "name": "Jaladh Singhal",
+        "project_title": "Creating Jupyter widgets for TARDIS",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "India",
+        "tags":["soc"],
+        "year": 2020
+    },
+
+    
+    {
+        "name": "Vaibhav Gupta",
+        "project_title": "Reading Simulation from file",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "India",
+        "tags":["soc"],
+        "year": 2017
+    },
+    {
+        "name": "Stefan Lietzau",
+        "project_title": "Exploring uncertainties of supernova spectral fits",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "Germany",
+        "tags":["soc"],
+        "year": 2017
+    },
+    {
+        "name": "Vytautas Jan\\v{c}auskas",
+        "project_title": "Improving performance in terms of time consumed.",
+        "role": "GSoC",
+        "org":"tardis",
+        "country": "Lithuania",
+        "tags":["gsoc"],
+        "year": 2014
+    },
+    {
+        "name": "Vytautas Jan\\v{c}auskas",
+        "project_title": "Improving performance in terms of time consumed.",
+        "role": "GSoC",
+        "country": "Lithuania",
+        "org":"tardis",
+        "tags":["gsoc"],
+        "year": 2015
+    },
+
+    {
+        "name": "Aoife Boyle",
+        "project_title": "Helium in the spectra of Type Ia supernovae",
+        "role": "GSoC",
+        "org":"tardis",
+        "country": "Ireland",
+        "tags":["soc"],
+        "year": 2015
+    },
+    {
+        "name": "Tomas Bylund",
+        "project_title": "TARDIS formal integral",
+        "org":"tardis",
+        "role": "SoCIS",
+        "country": "Sweden",
+        "tags":["soc"],
+        "year": 2016
+    },
+    {
+        "name": "Misha Mishkin",
+        "project_title": "TARDIS/Carsus Atomic database",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "Russia",
+        "tags":["soc"],
+        "year": 2016
+    },
+    {
+        "name": "Karan Desai",
+        "project_title": "TARDIS testing framework",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "India",
+        "tags":["soc"],
+        "year": 2016
+    },
+    {
+        "name": "Fotis Tsamis",
+        "project_title": "TARDIS various projects",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "Greece",
+        "tags":["soc"],
+        "year": 2016
+    },
+
+    {
+        "name": "Gaurav Gautam",
+        "project_title": "TARDIS graphical user interface",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "India",
+        "unpaid": true,
+        "year": 2015
+    },
+    {
+        "name": "Vamsi Kaushik",
+        "project_title": "TARDIS testing framework",
+        "org":"tardis",
+        "role": "GSoC",
+        "country": "India",
+        "tags":["gsoc", "failed"],
+        "year": 2015
+    },
+    {
+        "name": "Mabry Cervin",
+        "project_title": "Astropy correlated uncertainties",
+        "org":"astropy",
+        "role": "GSoC",
+        "country": "US",
+        "tags":["soc"],
+        "year": 2014
+    },
+
+    {
+        "name": "Shailesh Ahuja",
+        "project_title": "Specutils readers/writers",
+        "org":"astropy",
+        "role": "GSoC",
+        "country": "India",
+        "tags":["soc"],
+        "year": 2014
+    },
+    {
+        "name": "Jeff Taylor",
+        "project_title": "Wavelength calibration",
+        "org":"astropy",
+        "role": "SoCIS",
+        "tags":["soc"],
+        "country": "US",
+        "year": 2013
+    }
+
+    
+]
