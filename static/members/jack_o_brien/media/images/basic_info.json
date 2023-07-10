@@ -1,0 +1,15 @@
+{
+    "academic_role": "Education Coordinator",
+    "secondary_role": "",
+    "start_date": "",
+    
+    "fetch_from": {
+        "kg": true,
+        "dti": false
+    },
+    "view_on": {
+        "tardis": true
+    },
+    "introduction": "",
+    "id": "jack_o_brien"
+}
