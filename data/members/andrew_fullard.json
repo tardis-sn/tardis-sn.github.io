@@ -1,0 +1,33 @@
+{
+    "first_name": "Andrew",
+    "last_name": "Fullard",
+    "nick_name": "",
+    "display": {
+        "kg": true,
+        "dti": false,
+        "tardis": true
+    },
+    "project_title": "Inferring explosion conditions from late-time Type Ia supernova spectra",
+    "org": "TARDIS",
+    "category": "Researchers",
+    "group_academic_role": "Advisor",
+    "group_secondary_role": "Research Consultant at ICER",
+    "tags": [],
+    "interests": "astronomy, computing, mathematics",
+    "group_start_date": "01-01-2020",
+    "current_institute": "Michigan State University",
+    "image_path": "media/images/me.jpg",
+    "cover_image_path": "media/images/cover.jpg",
+    "introduction": "",
+    "id": "andrew_fullard",
+    "tardis_academic_role": "Education Coordinator",
+    "tardis_secondary_role": "",
+    "tardis_start_date": "",
+    "fetch_from": {
+        "kg": true,
+        "dti": false
+    },
+    "view_on": {
+        "tardis": true
+    }
+}
