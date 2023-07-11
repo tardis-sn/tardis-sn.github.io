@@ -36,8 +36,7 @@ The [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a gl
 
 ## Project Students
 Other than GSoC, several other students work on different 
-projects through funding programs by organization like NumFOCUS, 
-XSEDE-EMPOWER, etc.
+projects through funding programs by organization like NumFOCUS,XSEDE-EMPOWER, etc.
 
 | Semester  | Name     | Project  |  Funding Organization  |
 |----------|----------|----------|----------|
