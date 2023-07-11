@@ -34,6 +34,27 @@ Current TARDIS core team members are as follows (you can click on the role to le
 {{< summerofcode >}}
 
 
+## Project Students
+Other than GSoC, several other students work on different 
+projects through funding programs by organization like NumFOCUS, 
+XSEDE-EMPOWER, etc.
+
+| Semester  | Name     | Project  |  Funding Organization  |
+|----------|----------|----------|----------|
+| Summer 2021   | Kevin Cawley   | Profiling of TARDIS, GPU Computing   | XSEDE-EMPOWER   |
+| Summer 2021   | Isaac Smith   | Creating Interactive Documentation   |  NumFOCUS |
+
+## Past Core Team Members
+ - Aoife Boyle
+ - Michael Klauser
+ - Stefan Lietzau
+ - Markus Kromer
+ - Ulrich Noebauer
+
+## Additional Contributors
+ - Josh Shields
+ - Vicente Amado Olivo
+ - Shambhabi Gautam
 
 ### Role Descriptions
 #### Principal Investigator { .anchor-offset}

@@ -15,9 +15,9 @@
     </thead>
     <tbody>
         {{ range $participant := $data }}
-        <tr>
+        <tr style="font-size: medium;">
 			<td>{{ $participant.name }}</td>
-            <td>{{ $participant.project_title }}</td>
+           <td ><a href="{{ $participant.project_link}}" target="_blank"> {{ $participant.project_title }}</a></td>
             <td>{{ $participant.year }}</td>
 			<td>{{ $participant.city }}</td>
 			<td>{{ $participant.country }}</td>
