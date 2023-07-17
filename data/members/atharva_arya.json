@@ -10,9 +10,9 @@
     "project_title": "",
     "org": "",
     "category": [
+        "student",
         "core",
-        "mentor",
-        "org_admin"
+        "mentor"
     ],
     "group_academic_role": "Research Software Engineer",
     "group_secondary_role": "Sustainability Fellow",
@@ -21,7 +21,7 @@
     "current_institute": "",
     "introduction": "",
     "group_start_date": "01-01-2021",
-    "image_path": "media/images/atharva.jpg",
+    "image_path": "media/images/me.jpg",
     "cover_image_path": "media/images/cover.jpg",
     "id": "atharva_arya",
     "tardis_academic_role": "Core Alumni",

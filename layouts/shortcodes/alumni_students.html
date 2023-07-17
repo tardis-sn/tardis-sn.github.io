@@ -1,9 +1,9 @@
 {{ range $key, $data := site.Data.members }}
     {{ if isset $data "category" }}
         {{ if in $data.category "student" }}
-        {{ $presentYear := now.Year }}
-        {{ $presentYearData := index $data.years (string $presentYear) }}
-            {{ if $presentYearData }}
+            {{ $presentYear := now.Year }}
+            {{ $presentYearData := index $data.years (string $presentYear) }}
+            {{ if not $presentYearData }} <!-- Check if the present year is not present in the "years" data -->
                 <div class="individual-container">
                     <div class="info-container">
                         <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">

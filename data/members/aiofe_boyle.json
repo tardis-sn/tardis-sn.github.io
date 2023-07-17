@@ -1,16 +1,17 @@
 {
-    "first_name": "Markus",
-    "last_name": "Kromer",
+    "first_name": "Aiofe",
+    "last_name": "Boyle",
     "nick_name": "",
-    "project_title": "",
-    "org": "",
     "category": [
+        "mentor",
         "core_alumni"
     ],
+    "project_title": "",
+    "org": "",
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/me.jpeg",
-    "tardis_academic_role": "Core",
+    "image_path": "media/images/me.jpg",
+    "tardis_academic_role": "Core Alumni",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "fetch_from": {
@@ -21,5 +22,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "marc_williamson"
+    "id": "aiofe_boyle"
 }

@@ -30,6 +30,9 @@ params:
           - label: People
             url: /team/people
             style: dropdown-link
+          - label: Alumni
+            url: /team/alumni
+            style: dropdown-link
           - label: Code of Conduct
             url: /code_of_conduct
             style: dropdown-link
