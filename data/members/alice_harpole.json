@@ -2,6 +2,9 @@
     "first_name": "Alice",
     "last_name": "Harpole",
     "nick_name": "",
+    "category": [
+        "core"
+    ],
     "project_title": "",
     "org": "",
     "interests": "",

@@ -4,6 +4,10 @@
     "nick_name": "",
     "project_title": "",
     "org": "",
+    "category": [
+        "core",
+        "mentor"
+    ],
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/andreas.jpeg",

@@ -25,7 +25,7 @@ TARDIS Core Team is responsible for:
 Current TARDIS core team members are as follows (you can click on the role to learn more about it):
 
 <div class ="picture-grid">
-{{< members >}}
+{{< core_members >}}
 </div>
 
 ### Role Descriptions

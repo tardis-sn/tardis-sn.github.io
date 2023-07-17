@@ -4,12 +4,35 @@
     "nick_name": "",
     "project_title": "",
     "org": "",
+    "category": [
+        "core"
+    ],
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/me.jpg",
     "tardis_academic_role": "Infrastructure Coordinator",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
+    "city": "",
+    "state": "",
+    "country": "Argentina",
+    "years": {
+        "2020": {
+            "project_title": "Understanding atomic data uncertainty",
+            "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5301481479077888/",
+            "project_description": "Enter description"
+        },
+        "2019": {
+            "project_title": "Building a new atomic database",
+            "project_link": "https://summerofcode.withgoogle.com/archive/2019/projects/5344591031566336/",
+            "project_description": "Enter description"
+        }
+    },
+    "sections": {
+        "core": true,
+        "alumni": false,
+        "participants": true
+    },
     "fetch_from": {
         "kg": false,
         "dti": false

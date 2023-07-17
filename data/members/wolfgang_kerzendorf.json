@@ -1,4 +1,29 @@
 {
+    "first_name": "Wolfgang",
+    "last_name": "Kerzendorf",
+    "nick_name": "",
+    "display": {
+        "kg": true,
+        "dti": true,
+        "tardis": true
+    },
+    "project_title": "Supernovae & Computational Metaresearch",
+    "org": "TARDIS & DTI",
+    "category": [
+        "core",
+        "mentor",
+        "org_admin"
+    ],
+    "group_academic_role": "Assistant Professor",
+    "group_secondary_role": "Astrophysicist and Computational Metascientist",
+    "tags": [],
+    "interests": "astronomy, computing, mathematics",
+    "current_institute": "Michigan State University",
+    "introduction": "",
+    "group_start_date": "01-01-2019",
+    "image_path": "media/images/wolfgang.jpg",
+    "cover_image_path": "media/images/cover.jpg",
+    "id": "wolfgang_kerzendorf",
     "tardis_academic_role": "Principal Investigator",
     "tardis_secondary_role": "(Founder), DEI",
     "tardis_start_date": "",
@@ -8,7 +33,5 @@
     },
     "view_on": {
         "tardis": true
-    },
-    "introduction": "",
-    "id": "wolfgang_kerzendorf"
+    }
 }

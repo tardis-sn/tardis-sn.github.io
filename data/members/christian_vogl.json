@@ -5,6 +5,9 @@
     "project_title": "",
     "org": "",
     "interests": "",
+    "category": [
+        "core"
+    ],
     "current_institute": "",
     "image_path": "media/images/christian.jpeg",
     "tardis_academic_role": "Atomic Data Coordinator",

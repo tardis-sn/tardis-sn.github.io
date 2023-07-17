@@ -10,6 +10,9 @@
     "tardis_academic_role": "Ombudsperson",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
+    "category": [
+        "core"
+    ],
     "fetch_from": {
         "kg": false,
         "dti": false

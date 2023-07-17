@@ -22,17 +22,28 @@ TARDIS Core Team is responsible for:
  - Identifying science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
  - Identifying education opportunities such as workshops, lecture development, and outreach opportunities
 
-### Members & Roles
+### Core Members & Roles
 Current TARDIS core team members are as follows (you can click on the role to learn more about it):
 
 <div class ="picture-grid">
-{{< members >}}
+{{< core_members >}}
+</div>
+
+### GSoC Org-Admins
+<div class ="picture-grid">
+{{< org_admin >}}
+</div>
+
+
+### GSoC Mentors
+<div class ="picture-grid">
+{{< mentors >}}
 </div>
 
 ### GSoC Students
-
-{{< summerofcode >}}
-
+<div class ="picture-grid">
+{{< students >}}
+</div>
 
 ## Project Students
 Other than GSoC, several other students work on different 

@@ -1,0 +1,40 @@
+{
+    "first_name": "Jayant",
+    "last_name": "Bhakar",
+    "nick_name": "",
+    "project_title": "",
+    "org": "",
+    "interests": "",
+    "current_institute": "",
+    "image_path": "media/images/me.jpg",
+    "tardis_academic_role": "Participant",
+    "tardis_secondary_role": "",
+    "tardis_start_date": "",
+    "city": "",
+    "category": [
+        "student"
+    ],
+    "state": "Rajasthan",
+    "country": "India",
+    "years": {
+        "2022": {
+            "project_title": "Enter your title here",
+            "project_link": "Enter your link here",
+            "project_description": "Enter description"
+        }
+    },
+    "sections": {
+        "core": false,
+        "alumni": false,
+        "participants": true
+    },
+    "fetch_from": {
+        "kg": false,
+        "dti": false
+    },
+    "view_on": {
+        "tardis": true
+    },
+    "introduction": "",
+    "id": "jayant_bhakar"
+}
