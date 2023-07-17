@@ -13,6 +13,16 @@
     "category": [
         "core"
     ],
+    "city": "",
+    "state": "",
+    "country": "",
+    "years": {
+        "2021": {
+            "project_title": "",
+            "project_link": "",
+            "project_description": ""
+        }
+    },
     "fetch_from": {
         "kg": false,
         "dti": false

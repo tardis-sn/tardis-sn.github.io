@@ -11,8 +11,7 @@
     "org": "TARDIS & DTI",
     "category": [
         "core",
-        "mentor",
-        "org_admin"
+        "mentor"
     ],
     "group_academic_role": "Assistant Professor",
     "group_secondary_role": "Astrophysicist and Computational Metascientist",
@@ -27,6 +26,16 @@
     "tardis_academic_role": "Principal Investigator",
     "tardis_secondary_role": "(Founder), DEI",
     "tardis_start_date": "",
+    "city": "Lansing",
+    "state": "Michigan",
+    "country": "USA",
+    "years": {
+        "2021": {
+            "project_title": "",
+            "project_link": "",
+            "project_description": ""
+        }
+    },
     "fetch_from": {
         "kg": true,
         "dti": false

@@ -31,9 +31,13 @@ Current TARDIS core team members are as follows (you can click on the role to le
 
 ### GSoC Alumni Students
 <div class ="picture-grid">
-{{< alumni_students >}}
+{{< alumni_participants >}}
 </div>
 
+## Project Students
+<div class ="picture-grid">
+{{< project_student_alumni >}}
+</div>
 
 ### Role Descriptions
 #### Principal Investigator { .anchor-offset}

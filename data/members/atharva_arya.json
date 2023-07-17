@@ -7,21 +7,22 @@
         "dti": false,
         "tardis": false
     },
-    "project_title": "",
-    "org": "",
+    "project_title": "Mitigating open science sustainability issues",
+    "org": "TARDIS",
     "category": [
         "student",
         "core",
-        "mentor"
+        "mentor",
+        "org_admin"
     ],
     "group_academic_role": "Research Software Engineer",
     "group_secondary_role": "Sustainability Fellow",
     "tags": [],
-    "interests": "",
-    "current_institute": "",
+    "interests": "astronomy, computing, mathematics",
+    "current_institute": "RCOEM, Nagpur, India",
     "introduction": "",
     "group_start_date": "01-01-2021",
-    "image_path": "media/images/me.jpg",
+    "image_path": "media/images/atharva.jpg",
     "cover_image_path": "media/images/cover.jpg",
     "id": "atharva_arya",
     "tardis_academic_role": "Core Alumni",
@@ -32,20 +33,15 @@
     "country": "India",
     "years": {
         "2022": {
-            "project_title": "Enter your title here",
-            "project_link": "Enter your link here",
-            "project_description": "Enter description"
+            "project_title": "",
+            "project_link": "",
+            "project_description": ""
         },
         "2021": {
             "project_title": "Visualization Tools for TARDIS",
             "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568/",
             "project_description": "Enter description"
         }
-    },
-    "sections": {
-        "core": false,
-        "alumni": false,
-        "participants": true
     },
     "fetch_from": {
         "kg": true,

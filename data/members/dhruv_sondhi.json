@@ -14,7 +14,7 @@
     "state": "",
     "country": "India",
     "category": [
-        "student"
+        "participant"
     ],
     "years": {
         "2021": {
@@ -22,11 +22,6 @@
             "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/",
             "project_description": "Enter description"
         }
-    },
-    "sections": {
-        "core": false,
-        "alumni": false,
-        "participants": true
     },
     "fetch_from": {
         "kg": false,

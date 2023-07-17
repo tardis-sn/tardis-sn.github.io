@@ -12,7 +12,7 @@
     "tardis_start_date": "",
     "city": "",
     "category": [
-        "student"
+        "participant"
     ],
     "state": "Rajasthan",
     "country": "India",
@@ -22,11 +22,6 @@
             "project_link": "Enter your link here",
             "project_description": "Enter description"
         }
-    },
-    "sections": {
-        "core": false,
-        "alumni": false,
-        "participants": true
     },
     "fetch_from": {
         "kg": false,

@@ -1,29 +1,28 @@
 {
-    "first_name": "Jack",
-    "last_name": "O'Brien",
-    "nick_name": "Jack",
+    "first_name": "Josh",
+    "last_name": "Shields",
+    "nick_name": "",
     "display": {
-        "kg": false,
+        "kg": true,
         "dti": false,
-        "tardis": true
+        "tardis": false
     },
-    "project_title": "Probabilistic Abundance Tomography of Type Ia Supernovae",
-    "org": "TARDIS",
+    "project_title": "Surviving Companions of Supernovae and Stellar Atmospheric Modeling",
+    "org": "Kerzendorf Group",
     "category": [
-        "mentor",
-        "core"
+        "mentor"
     ],
     "group_academic_role": "PhD Student",
-    "group_secondary_role": "TARDIS Education Coordinator",
+    "group_secondary_role": "Education Uncoordinator",
     "tags": [],
-    "interests": "astronomy, computing, mathematics",
+    "interests": "observational and computational astronomy, software development, supernovae, stellar populations, radiative transfer",
     "current_institute": "Michigan State University",
     "introduction": "",
-    "group_start_date": "01-01-2018",
-    "image_path": "media/images/jack.jpg",
+    "group_start_date": "01-01-2019",
+    "image_path": "media/images/josh_photo.jpg",
     "cover_image_path": "media/images/cover.jpg",
-    "id": "jack_o_brien",
-    "tardis_academic_role": "Education Coordinator",
+    "id": "josh_shields",
+    "tardis_academic_role": "Mentor",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "fetch_from": {

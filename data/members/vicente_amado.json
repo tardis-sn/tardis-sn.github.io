@@ -1,29 +1,28 @@
 {
-    "first_name": "Jack",
-    "last_name": "O'Brien",
-    "nick_name": "Jack",
+    "first_name": "Vicente",
+    "last_name": " Amado Olivo",
+    "nick_name": "",
     "display": {
-        "kg": false,
-        "dti": false,
-        "tardis": true
+        "kg": true,
+        "dti": true,
+        "tardis": false
     },
-    "project_title": "Probabilistic Abundance Tomography of Type Ia Supernovae",
-    "org": "TARDIS",
+    "project_title": "Development of a Global Registry for Peer Review in Astrophysics",
+    "org": "DeepThought Initiative (DTI)",
     "category": [
-        "mentor",
-        "core"
+        "mentor"
     ],
     "group_academic_role": "PhD Student",
-    "group_secondary_role": "TARDIS Education Coordinator",
+    "group_secondary_role": "CMSE Student",
     "tags": [],
-    "interests": "astronomy, computing, mathematics",
+    "interests": "Machine Learning, Meta-research, Mathematics",
     "current_institute": "Michigan State University",
     "introduction": "",
-    "group_start_date": "01-01-2018",
-    "image_path": "media/images/jack.jpg",
+    "group_start_date": "01-01-2021",
+    "image_path": "media/images/ESD_headshot.jpg",
     "cover_image_path": "media/images/cover.jpg",
-    "id": "jack_o_brien",
-    "tardis_academic_role": "Education Coordinator",
+    "id": "vicente_amado",
+    "tardis_academic_role": "Mentor",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "fetch_from": {

@@ -6,13 +6,24 @@
     "org": "",
     "interests": "",
     "category": [
-        "core"
+        "core",
+        "mentor"
     ],
     "current_institute": "",
     "image_path": "media/images/christian.jpeg",
     "tardis_academic_role": "Atomic Data Coordinator",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
+    "city": "",
+    "state": "",
+    "country": "",
+    "years": {
+        "2021": {
+            "project_title": "",
+            "project_link": "",
+            "project_description": ""
+        }
+    },
     "fetch_from": {
         "kg": false,
         "dti": false

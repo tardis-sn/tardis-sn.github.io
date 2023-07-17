@@ -1,29 +1,28 @@
 {
-    "first_name": "Jaladh",
-    "last_name": "Singhal",
+    "first_name": "Harshul",
+    "last_name": "Gupta",
     "nick_name": "",
     "display": {
         "kg": true,
-        "dti": false,
-        "tardis": true
+        "dti": true,
+        "tardis": false
     },
-    "project_title": "Space Tools",
-    "org": "Caltech",
+    "project_title": "Kerzendorf Group Website",
+    "org": "Deep Thought Initiative",
     "category": [
-        "core",
         "mentor"
     ],
     "group_academic_role": "Research Software Engineer",
-    "group_secondary_role": "Software Developer",
+    "group_secondary_role": "Website Developer",
     "tags": [],
     "interests": "astronomy, computing, mathematics",
-    "current_institute": "Caltech",
-    "introduction": "",
-    "group_start_date": "01-01-2018",
-    "image_path": "media/images/jaladh.jpg",
+    "group_start_date": "01-01-2023",
+    "current_institute": "Deep Thought Initiative",
+    "image_path": "media/images/harshul.jpeg",
     "cover_image_path": "media/images/cover.jpg",
-    "id": "jaladh_singhal",
-    "tardis_academic_role": "Education Coordinator",
+    "introduction": "",
+    "id": "harshul_gupta",
+    "tardis_academic_role": "Mentor",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "fetch_from": {

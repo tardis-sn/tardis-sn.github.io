@@ -42,7 +42,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
 
 ### GSoC Students
 <div class ="picture-grid">
-{{< students >}}
+{{< participants >}}
 </div>
 
 ## Project Students

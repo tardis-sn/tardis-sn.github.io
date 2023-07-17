@@ -9,7 +9,7 @@
     "image_path": "media/images/me.jpg",
     "tardis_academic_role": "Participant",
     "category": [
-        "student"
+        "participant"
     ],
     "tardis_secondary_role": "",
     "tardis_start_date": "",
@@ -22,11 +22,6 @@
             "project_link": "Enter your link here",
             "project_description": "Enter description"
         }
-    },
-    "sections": {
-        "core": false,
-        "alumni": false,
-        "participants": true
     },
     "fetch_from": {
         "kg": false,

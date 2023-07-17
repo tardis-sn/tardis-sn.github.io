@@ -1,6 +1,6 @@
 {{ range $key, $data := site.Data.members }}
     {{ if isset $data "category" }}
-        {{ if in $data.category "student" }}
+        {{ if in $data.category "participant" }}
         {{ $presentYear := now.Year }}
         {{ $presentYearData := index $data.years (string $presentYear) }}
             {{ if $presentYearData }}

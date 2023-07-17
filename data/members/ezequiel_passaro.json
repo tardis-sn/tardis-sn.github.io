@@ -5,7 +5,8 @@
     "project_title": "",
     "org": "",
     "category": [
-        "core"
+        "core",
+        "mentor"
     ],
     "interests": "",
     "current_institute": "",
@@ -27,11 +28,6 @@
             "project_link": "https://summerofcode.withgoogle.com/archive/2019/projects/5344591031566336/",
             "project_description": "Enter description"
         }
-    },
-    "sections": {
-        "core": true,
-        "alumni": false,
-        "participants": true
     },
     "fetch_from": {
         "kg": false,

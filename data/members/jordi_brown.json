@@ -7,15 +7,15 @@
     "interests": "",
     "current_institute": "",
     "category": [
-        "student"
+        "participant"
     ],
     "image_path": "media/images/me.jpg",
     "tardis_academic_role": "Participant",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
-    "state": "Rajasthan",
-    "country": "India",
+    "state": "",
+    "country": "",
     "years": {
         "2022": {
             "project_title": "TARDIS Code restructure with factory method",
@@ -26,7 +26,7 @@
     "sections": {
         "core": false,
         "alumni": false,
-        "participants": true
+        "participant": true
     },
     "fetch_from": {
         "kg": false,
