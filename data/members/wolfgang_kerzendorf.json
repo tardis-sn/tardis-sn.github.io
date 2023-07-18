@@ -11,7 +11,8 @@
     "org": "TARDIS & DTI",
     "category": [
         "core",
-        "mentor"
+        "mentor",
+        "org-admin"
     ],
     "group_academic_role": "Assistant Professor",
     "group_secondary_role": "Astrophysicist and Computational Metascientist",

@@ -1,26 +1,24 @@
 {
-    "first_name": "Marc",
-    "last_name": "Williamson",
+    "first_name": "Youssef",
+    "last_name": "Eweis",
     "nick_name": "",
     "project_title": "",
     "org": "",
     "category": [
-        "core",
-        "mentor",
-        "org-admin"
+        "alumni_participant"
     ],
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/marc.jpeg",
-    "tardis_academic_role": "Financial Coordinator",
+    "image_path": "media/images/me.jpg",
+    "tardis_academic_role": "Participant",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
     "state": "",
     "country": "",
     "years": {
-        "2021": {
-            "project_title": "",
+        "2019": {
+            "project_title": "Building a new atomic database",
             "project_link": "",
             "project_description": ""
         }
@@ -33,5 +31,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "marc_williamson"
+    "id": "youssef_eweis"
 }

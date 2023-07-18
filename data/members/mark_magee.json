@@ -1,18 +1,17 @@
 {
     "first_name": "Marc",
-    "last_name": "Williamson",
+    "last_name": "Magee",
     "nick_name": "",
     "project_title": "",
     "org": "",
     "category": [
-        "core",
-        "mentor",
+        "alumni_mentor",
         "org-admin"
     ],
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/marc.jpeg",
-    "tardis_academic_role": "Financial Coordinator",
+    "tardis_academic_role": "Mentor",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
@@ -33,5 +32,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "marc_williamson"
+    "id": "mark_magee"
 }

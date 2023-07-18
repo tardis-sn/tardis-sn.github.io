@@ -1,18 +1,16 @@
 {
-    "first_name": "Marc",
-    "last_name": "Williamson",
+    "first_name": "Luke",
+    "last_name": "Harvey",
     "nick_name": "",
     "project_title": "",
     "org": "",
     "category": [
-        "core",
-        "mentor",
-        "org-admin"
+        "alumni_mentor"
     ],
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/marc.jpeg",
-    "tardis_academic_role": "Financial Coordinator",
+    "image_path": "media/images/me.jpg",
+    "tardis_academic_role": "",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
@@ -33,5 +31,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "marc_williamson"
+    "id": "luke_harvey"
 }

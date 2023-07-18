@@ -29,13 +29,21 @@ Current TARDIS core team members are as follows (you can click on the role to le
 {{< core_members >}}
 </div>
 
+## GSoC Org Admins & Mentors
+
+GSoC 2023 was made possible by following members:
+
 ### GSoC Org-Admins
+Org admins coordinate participation of TARDIS in the Google Summer of Code. They complete all administrative tasks like submitting the application to participate, requesting slots, ensuring that mentors fill out evaluations in a timely fashion, etc. They may also act as mentors simultaneously during the GSoC.
 <div class ="picture-grid">
-{{< org_admin >}}
+{{< org-admin >}}
 </div>
 
 
-### GSoC Mentors
+### GSoC Mentors   
+Mentors are people from the community who volunteer to work with a Google 
+Summer of Code student. Mentors provide guidance, feedback and act as 
+ambassadors to help students integrate into the TARDIS community.  
 <div class ="picture-grid">
 {{< mentors >}}
 </div>
@@ -45,27 +53,12 @@ Current TARDIS core team members are as follows (you can click on the role to le
 {{< participants >}}
 </div>
 
-## Project Students
-Other than GSoC, several other students work on different 
-projects through funding programs by organization like NumFOCUS, 
-XSEDE-EMPOWER, etc.
-
-| Semester  | Name     | Project  |  Funding Organization  |
-|----------|----------|----------|----------|
-| Summer 2021   | Kevin Cawley   | Profiling of TARDIS, GPU Computing   | XSEDE-EMPOWER   |
-| Summer 2021   | Isaac Smith   | Creating Interactive Documentation   |  NumFOCUS |
-
-## Past Core Team Members
- - Aoife Boyle
- - Michael Klauser
- - Stefan Lietzau
- - Markus Kromer
- - Ulrich Noebauer
-
 ## Additional Contributors
- - Josh Shields
- - Vicente Amado Olivo
- - Shambhabi Gautam
+<div class ="picture-grid">
+{{< additional_contributor >}}
+</div>
+
+
 
 ### Role Descriptions
 #### Principal Investigator { .anchor-offset}
@@ -120,34 +113,5 @@ XSEDE-EMPOWER, etc.
  - Identify papers about engaging URM in coding / science
 
 
-## GSoC Org Admins & Mentors
-
-GSoC 2021 was made possible by following members:
-
-### Org admins
-Org admins coordinate participation of TARDIS in the Google Summer of Code. 
-They complete all administrative tasks like submitting the application to 
-participate, requesting slots, ensuring that mentors fill out evaluations 
-in a timely fashion, etc. They may also act as mentors simultaneously 
-during the GSoC.
- - Andrew Fullard
- - Marc Williamson
- - Mark Magee
- - Wolfgang Kerzendorf
 
 
-### Mentors
-Mentors are people from the community who volunteer to work with a Google 
-Summer of Code student. Mentors provide guidance, feedback and act as 
-ambassadors to help students integrate into the TARDIS community. 
- - Andreas Flörs
- - Andrew Fullard
- - Christian Vogl
- - Ezequiel Pássaro
- - Jaladh Singhal
- - James Gillanders
- - John O'Brien
- - Luke Harvey
- - Marc Williamson
- - Mark Magee
- - Wolfgang Kerzendorf

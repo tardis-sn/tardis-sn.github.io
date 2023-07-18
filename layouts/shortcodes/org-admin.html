@@ -1,6 +1,6 @@
 {{ range $key, $data := site.Data.members }}
     {{ if isset $data "category" }}
-        {{ if in $data.category "org_admin" }}
+        {{ if in $data.category "org-admin" }}
             <div class="individual-container">
                 <div class="info-container">
                     <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">

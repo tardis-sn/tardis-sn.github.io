@@ -11,7 +11,8 @@
     "org": "TARDIS",
     "category": [
         "core",
-        "mentor"
+        "mentor",
+        "org_admin"
     ],
     "group_academic_role": "Advisor",
     "group_secondary_role": "Research Consultant at ICER",
