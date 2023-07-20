@@ -1,6 +1,8 @@
 {
-    "tardis_academic_role": "Shambhabi",
-    "tardis_secondary_role": "Gautam",
+    "first_name": "Shambhabi",
+    "last_name": "Gautam",
+    "tardis_academic_role": "Contributor",
+    "tardis_secondary_role": "",
     "tardis_start_date": "",
     "category": [
         "alumni_additional_contributor"
