@@ -2,15 +2,15 @@
     "first_name": "Alice",
     "last_name": "Harpole",
     "nick_name": "",
+    "category": [
+        "core"
+    ],
     "project_title": "",
     "org": "",
     "interests": "",
     "current_institute": "",
-    "category": [
-        "participant"
-    ],
     "image_path": "media/images/me.jpg",
-    "tardis_academic_role": "Participant",
+    "tardis_academic_role": "Core Alumni",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
