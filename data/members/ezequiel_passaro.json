@@ -19,6 +19,11 @@
     "state": "",
     "country": "Argentina",
     "years": {
+        "2023": {
+            "role": [
+                "mentor"
+            ]
+        },
         "2020": {
             "project_title": "Understanding atomic data uncertainty",
             "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5301481479077888/",

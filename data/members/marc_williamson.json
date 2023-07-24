@@ -1,22 +1,29 @@
 {
-    "first_name": "Markus",
-    "last_name": "Kromer",
+    "first_name": "Marc",
+    "last_name": "Williamson",
     "nick_name": "",
     "project_title": "",
     "org": "",
     "category": [
-        "core_alumni"
+        "core",
+        "mentor",
+        "org-admin"
     ],
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/me.jpeg",
-    "tardis_academic_role": "Core",
+    "image_path": "media/images/marc.jpeg",
+    "tardis_academic_role": "Financial Coordinator",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
     "state": "",
     "country": "",
     "years": {
+        "2023": {
+            "role": [
+                "mentor"
+            ]
+        },
         "2021": {
             "project_title": "",
             "project_link": "",

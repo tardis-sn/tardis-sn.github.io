@@ -2,20 +2,24 @@
     <thead>
         <tr>
             <th>Name</th>
-            <th>Role</th>
+            <th>Year</th>
         </tr>
     </thead>
     <tbody>
-
-{{ range $key, $data := site.Data.members }}
-    {{ if isset $data "category" }}
-        {{ if in $data.category "alumni_mentor" }}
-        <tr>
-            <td>{{ $data.first_name }} {{ $data.last_name }}</td>
-            <td>{{$data.tardis_academic_role }}</td>
-        </tr>
+        {{ range $key, $data := site.Data.members }}
+            {{ if isset $data "years" }}
+                {{ range $year, $yearData := $data.years }}
+                    {{ $presentYear := now.Year }}
+                    {{ if ne (string $year) (string $presentYear) }}
+                        {{ if in $yearData.role "mentor" }}
+                            <tr>
+                                <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                                <td>{{ $year }}</td>
+                            </tr>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
         {{ end }}
-    {{ end }}
-{{ end }}
-</tbody>
+    </tbody>
 </table>

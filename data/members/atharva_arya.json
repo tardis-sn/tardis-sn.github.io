@@ -32,8 +32,17 @@
     "state": "Maharashtra",
     "country": "India",
     "years": {
+        "2023": {
+            "role": [
+                "core",
+                "mentor"
+            ]
+        },
         "2022": {
             "project_title": "",
+            "role": [
+                "participant"
+            ],
             "project_link": "",
             "project_description": ""
         },
