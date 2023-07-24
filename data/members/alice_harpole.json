@@ -2,10 +2,7 @@
     "first_name": "Alice",
     "last_name": "Harpole",
     "nick_name": "",
-    "category": [
-        "core"
-    ],
-    "project_title": "",
+    "category": [],
     "org": "",
     "interests": "",
     "current_institute": "",
@@ -17,10 +14,20 @@
     "state": "",
     "country": "",
     "years": {
+        "2023": {
+            "role": [
+                "core"
+            ]
+        },
         "2021": {
             "project_title": "",
             "project_link": "",
             "project_description": ""
+        },
+        "2020": {
+            "role": [
+                "mentor"
+            ]
         }
     },
     "fetch_from": {

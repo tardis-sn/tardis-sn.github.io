@@ -2,12 +2,8 @@
     "first_name": "Andreas",
     "last_name": "Flors",
     "nick_name": "",
-    "project_title": "",
     "org": "",
-    "category": [
-        "core",
-        "mentor"
-    ],
+    "category": [],
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/andreas.jpeg",
@@ -20,13 +16,19 @@
     "years": {
         "2023": {
             "role": [
+                "mentor",
+                "core"
+            ]
+        },
+        "2022": {
+            "role": [
                 "mentor"
             ]
         },
-        "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+        "2020": {
+            "role": [
+                "mentor"
+            ]
         }
     },
     "fetch_from": {

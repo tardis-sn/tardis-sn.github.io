@@ -6,7 +6,6 @@
         "mentor",
         "core_alumni"
     ],
-    "project_title": "",
     "org": "",
     "interests": "",
     "current_institute": "",
@@ -16,12 +15,25 @@
     "tardis_start_date": "",
     "city": "",
     "state": "",
-    "country": "",
+    "country": "Ireland",
     "years": {
         "2023": {
             "role": [
                 "mentor"
             ]
+        },
+        "2022": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2015": {
+            "role": [
+                "participant"
+            ],
+            "project_title": "Helium in the spectra of Type Ia supernovae",
+            "project_link": "",
+            "project_description": ""
         }
     },
     "fetch_from": {

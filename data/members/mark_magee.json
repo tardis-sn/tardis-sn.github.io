@@ -2,7 +2,6 @@
     "first_name": "Mark",
     "last_name": "Magee",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "category": [],
     "interests": "",
@@ -19,6 +18,21 @@
             "role": [
                 "mentor",
                 "org-admin"
+            ]
+        },
+        "2022": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2021": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2020": {
+            "role": [
+                "mentor"
             ]
         }
     },

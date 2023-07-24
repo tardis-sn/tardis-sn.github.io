@@ -2,12 +2,8 @@
     "first_name": "James",
     "last_name": "Gillanders",
     "nick_name": "",
-    "project_title": "",
     "org": "",
-    "category": [
-        "core",
-        "mentor"
-    ],
+    "category": [],
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/james.jpeg",
@@ -19,6 +15,17 @@
     "country": "",
     "years": {
         "2023": {
+            "role": [
+                "mentor",
+                "core"
+            ]
+        },
+        "2022": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2021": {
             "role": [
                 "mentor"
             ]

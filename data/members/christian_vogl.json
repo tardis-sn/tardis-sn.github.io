@@ -2,7 +2,6 @@
     "first_name": "Christian",
     "last_name": "Vogl",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "interests": "",
     "category": [
@@ -20,13 +19,19 @@
     "years": {
         "2023": {
             "role": [
+                "mentor",
+                "core"
+            ]
+        },
+        "2022": {
+            "role": [
                 "mentor"
             ]
         },
-        "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+        "2020": {
+            "role": [
+                "mentor"
+            ]
         }
     },
     "fetch_from": {

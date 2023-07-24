@@ -1,8 +1,7 @@
 {
     "first_name": "Vytautas",
-    "last_name": "Jancauskas",
+    "last_name": "Jan\u010dauskas",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "interests": "",
     "current_institute": "",
@@ -15,10 +14,34 @@
     ],
     "city": "",
     "state": "",
-    "country": "",
+    "country": "Lithuania",
     "years": {
-        "2021": {
+        "2023": {
+            "role": [
+                "core"
+            ],
             "project_title": "",
+            "project_link": "",
+            "project_description": ""
+        },
+        "2016": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2015": {
+            "role": [
+                "participant"
+            ],
+            "project_title": "Improving performance in terms of time consumed",
+            "project_link": "",
+            "project_description": ""
+        },
+        "2014": {
+            "role": [
+                "participant"
+            ],
+            "project_title": "Improving performance in terms of time consumed",
             "project_link": "",
             "project_description": ""
         }

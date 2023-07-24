@@ -2,8 +2,7 @@
     "first_name": "Jeff",
     "last_name": "Taylor",
     "nick_name": "",
-    "project_title": "",
-    "org": "",
+    "org": "astropy",
     "interests": "",
     "current_institute": "",
     "category": [
@@ -15,10 +14,13 @@
     "tardis_start_date": "",
     "city": "",
     "state": "",
-    "country": "",
+    "country": "USA",
     "years": {
-        "2021": {
-            "project_title": "",
+        "2013": {
+            "role": [
+                "participant"
+            ],
+            "project_title": "Wavelength calibration",
             "project_link": "",
             "project_description": ""
         }

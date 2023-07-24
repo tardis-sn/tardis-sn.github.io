@@ -2,7 +2,6 @@
     "first_name": "Jenny",
     "last_name": "Yu",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "interests": "",
     "current_institute": "",
@@ -18,6 +17,9 @@
     "country": "China",
     "years": {
         "2021": {
+            "role": [
+                "participant"
+            ],
             "project_title": "Abundance widget",
             "project_link": "Enter your link here",
             "project_description": "Enter description"

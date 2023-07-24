@@ -2,7 +2,6 @@
     "first_name": "Stuart",
     "last_name": "Sim",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "category": [
         "core"
@@ -17,10 +16,10 @@
     "state": "",
     "country": "",
     "years": {
-        "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+        "2023": {
+            "role": [
+                "core"
+            ]
         }
     },
     "fetch_from": {

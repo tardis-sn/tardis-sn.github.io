@@ -36,13 +36,15 @@
     "years": {
         "2023": {
             "role": [
-                "mentor"
+                "mentor",
+                "org-admin",
+                "core"
             ]
         },
-        "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+        "2022": {
+            "role": [
+                "mentor"
+            ]
         }
     },
     "view_on": {

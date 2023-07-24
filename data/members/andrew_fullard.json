@@ -9,11 +9,7 @@
     },
     "project_title": "Inferring explosion conditions from late-time Type Ia supernova spectra",
     "org": "TARDIS",
-    "category": [
-        "core",
-        "mentor",
-        "org_admin"
-    ],
+    "category": [],
     "group_academic_role": "Advisor",
     "group_secondary_role": "Research Consultant at ICER",
     "tags": [],
@@ -33,16 +29,20 @@
     "years": {
         "2023": {
             "role": [
-                "mentor"
+                "core",
+                "mentor",
+                "org-admin"
             ]
         },
         "2022": {
             "role": [
                 "mentor"
-            ],
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+            ]
+        },
+        "2021": {
+            "role": [
+                "mentor"
+            ]
         }
     },
     "fetch_from": {

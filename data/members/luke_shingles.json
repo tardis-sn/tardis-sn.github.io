@@ -2,7 +2,6 @@
     "first_name": "Luke",
     "last_name": "Shingles",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "category": [
         "core"
@@ -21,6 +20,11 @@
             "project_title": "",
             "project_link": "",
             "project_description": ""
+        },
+        "2016": {
+            "role": [
+                "mentor"
+            ]
         }
     },
     "fetch_from": {

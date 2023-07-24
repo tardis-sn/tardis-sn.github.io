@@ -1,27 +1,24 @@
 {
-    "first_name": "Yizheng",
-    "last_name": "Yu",
+    "first_name": "Fotis",
+    "last_name": "Tsamis",
     "nick_name": "",
     "org": "",
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/me.jpg",
-    "tardis_academic_role": "Core Alumni",
+    "tardis_academic_role": "",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
     "state": "",
-    "country": "",
-    "category": [
-        ""
-    ],
+    "country": "Greece",
     "years": {
-        "2021": {
+        "2016": {
             "role": [
                 "participant"
             ],
-            "project_title": "Custom Abundance Widget",
-            "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
+            "project_title": "TARDIS various projects",
+            "project_link": "",
             "project_description": "Enter description"
         }
     },
@@ -33,5 +30,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "yizheng_yu"
+    "id": "fotis_tsamis"
 }

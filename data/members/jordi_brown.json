@@ -2,13 +2,10 @@
     "first_name": "Jordi Eguren",
     "last_name": "Brown",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "interests": "",
     "current_institute": "",
-    "category": [
-        "participant"
-    ],
+    "category": [],
     "image_path": "media/images/me.jpg",
     "tardis_academic_role": "Participant",
     "tardis_secondary_role": "",
@@ -17,7 +14,10 @@
     "state": "",
     "country": "",
     "years": {
-        "2022": {
+        "2020": {
+            "role": [
+                "participant"
+            ],
             "project_title": "TARDIS Code restructure with factory method",
             "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5699342318436352/",
             "project_description": "Enter description"

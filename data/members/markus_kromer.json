@@ -1,28 +1,25 @@
 {
-    "first_name": "Yssa",
-    "last_name": "Camacho-Neves",
+    "first_name": "Markus",
+    "last_name": "Kromer",
     "nick_name": "",
     "org": "",
+    "category": [
+        "core_alumni"
+    ],
     "interests": "",
-    "category": [],
     "current_institute": "",
-    "image_path": "media/images/me.jpg",
-    "tardis_academic_role": "Science Coordinator",
+    "image_path": "media/images/me.jpeg",
+    "tardis_academic_role": "Core",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
     "state": "",
     "country": "",
     "years": {
-        "2023": {
-            "role": [
-                "core"
-            ]
-        },
-        "2020": {
-            "role": [
-                "mentor"
-            ]
+        "2021": {
+            "project_title": "",
+            "project_link": "",
+            "project_description": ""
         }
     },
     "fetch_from": {
@@ -33,5 +30,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "yssa_neves"
+    "id": "markus_kromer"
 }

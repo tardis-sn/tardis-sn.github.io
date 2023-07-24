@@ -2,7 +2,6 @@
     "first_name": "Luke",
     "last_name": "Harvey",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "category": [
         "mentor"
@@ -19,13 +18,14 @@
     "years": {
         "2023": {
             "role": [
-                "mentor"
+                "mentor",
+                "core"
             ]
         },
         "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+            "role": [
+                "mentor"
+            ]
         }
     },
     "fetch_from": {

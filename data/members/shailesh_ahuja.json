@@ -1,8 +1,8 @@
 {
-    "first_name": "Yizheng",
-    "last_name": "Yu",
+    "first_name": "Shailesh",
+    "last_name": "Ahuja",
     "nick_name": "",
-    "org": "",
+    "org": "astropy",
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/me.jpg",
@@ -11,17 +11,14 @@
     "tardis_start_date": "",
     "city": "",
     "state": "",
-    "country": "",
-    "category": [
-        ""
-    ],
+    "country": "India",
     "years": {
-        "2021": {
+        "2014": {
             "role": [
                 "participant"
             ],
-            "project_title": "Custom Abundance Widget",
-            "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
+            "project_title": "Specutils readers/writers",
+            "project_link": "",
             "project_description": "Enter description"
         }
     },
@@ -33,5 +30,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "yizheng_yu"
+    "id": "shailesh_ahuja"
 }

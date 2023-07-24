@@ -32,9 +32,12 @@
     },
     "city": "",
     "state": "",
-    "country": "",
+    "country": "USA",
     "years": {
         "Summer 2021": {
+            "role": [
+                "project_student"
+            ],
             "project_title": "Profiling of TARDIS, GPU Computing",
             "project_link": "",
             "project_description": "",

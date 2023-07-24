@@ -2,7 +2,6 @@
     "first_name": "Michael",
     "last_name": "Zingale",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "interests": "",
     "current_institute": "",
@@ -10,17 +9,15 @@
     "tardis_academic_role": "Ombudsperson",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
-    "category": [
-        "core"
-    ],
+    "category": [],
     "city": "",
     "state": "",
     "country": "",
     "years": {
-        "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+        "2023": {
+            "role": [
+                "core"
+            ]
         }
     },
     "fetch_from": {

@@ -7,7 +7,7 @@
         "dti": false,
         "tardis": false
     },
-    "project_title": "",
+    "project_title": "Enhanced Type IIP cosmology with statistics and machine learning",
     "org": "",
     "category": [
         "mentor"
@@ -34,10 +34,10 @@
                 "mentor"
             ]
         },
-        "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+        "2022": {
+            "role": [
+                "mentor"
+            ]
         }
     },
     "fetch_from": {

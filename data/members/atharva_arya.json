@@ -34,7 +34,7 @@
             ]
         },
         "2022": {
-            "project_title": "",
+            "project_title": "Improving the Carsus Testing Framework",
             "role": [
                 "participant"
             ],
@@ -42,8 +42,11 @@
             "project_description": ""
         },
         "2021": {
+            "role": [
+                "participant"
+            ],
             "project_title": "Visualization Tools for TARDIS",
-            "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568/",
+            "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa",
             "project_description": "Enter description"
         }
     },

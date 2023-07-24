@@ -30,13 +30,66 @@
         "2023": {
             "role": [
                 "mentor",
-                "org-admin"
+                "org-admin",
+                "founder",
+                "core"
+            ]
+        },
+        "2022": {
+            "role": [
+                "mentor",
+                "org-admin",
+                "founder"
             ]
         },
         "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+            "role": [
+                "mentor",
+                "org-admin",
+                "founder"
+            ]
+        },
+        "2020": {
+            "role": [
+                "mentor",
+                "org-admin",
+                "founder"
+            ]
+        },
+        "2019": {
+            "role": [
+                "mentor",
+                "org-admin",
+                "founder"
+            ]
+        },
+        "2018": {
+            "role": [
+                "mentor",
+                "org-admin",
+                "founder"
+            ]
+        },
+        "2017": {
+            "role": [
+                "mentor",
+                "org-admin",
+                "founder"
+            ]
+        },
+        "2016": {
+            "role": [
+                "mentor",
+                "org-admin",
+                "founder"
+            ]
+        },
+        "2015": {
+            "role": [
+                "mentor",
+                "org-admin",
+                "founder"
+            ]
         }
     },
     "fetch_from": {

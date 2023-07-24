@@ -29,7 +29,7 @@ Current TARDIS core team members are as follows (you can click on the role to le
 {{< core_members >}}
 </div>
 
-## GSoC Org Admins & Mentors
+## GSoC 2023 Org Admins & Mentors
 
 GSoC 2023 was made possible by following members:
 
@@ -48,7 +48,7 @@ ambassadors to help students integrate into the TARDIS community.
 {{< mentors >}}
 </div>
 
-### GSoC Students
+### GSoC 2023 Students
 <div class ="picture-grid">
 {{< participants >}}
 </div>

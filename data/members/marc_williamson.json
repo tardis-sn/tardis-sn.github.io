@@ -2,7 +2,6 @@
     "first_name": "Marc",
     "last_name": "Williamson",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "category": [],
     "interests": "",
@@ -20,6 +19,16 @@
                 "core",
                 "mentor",
                 "org-admin"
+            ]
+        },
+        "2022": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2020": {
+            "role": [
+                "mentor"
             ]
         }
     },

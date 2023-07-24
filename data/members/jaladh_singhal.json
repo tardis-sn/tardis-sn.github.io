@@ -42,12 +42,21 @@
         },
         "2022": {
             "role": [
-                "core",
                 "mentor"
+            ]
+        },
+        "2021": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2020": {
+            "role": [
+                "participant"
             ],
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
+            "project_title": "Jupyter Notebook Widgets for TARDIS",
+            "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5967738750631936",
+            "project_description": "Enter description"
         }
     },
     "view_on": {

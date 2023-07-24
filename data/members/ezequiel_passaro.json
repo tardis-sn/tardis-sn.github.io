@@ -2,7 +2,6 @@
     "first_name": "Ezequiel",
     "last_name": "Passaro",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "category": [
         "core",
@@ -21,15 +20,27 @@
     "years": {
         "2023": {
             "role": [
+                "mentor",
+                "core"
+            ]
+        },
+        "2022": {
+            "role": [
                 "mentor"
             ]
         },
         "2020": {
+            "role": [
+                "participant"
+            ],
             "project_title": "Understanding atomic data uncertainty",
             "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5301481479077888/",
             "project_description": "Enter description"
         },
         "2019": {
+            "role": [
+                "participant"
+            ],
             "project_title": "Building a new atomic database",
             "project_link": "https://summerofcode.withgoogle.com/archive/2019/projects/5344591031566336/",
             "project_description": "Enter description"

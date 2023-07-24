@@ -1,30 +1,33 @@
 <table>
     <thead>
         <tr>
+            <th>Program</th>
             <th>Name</th>
-            <th>Year</th>
             <th>Project</th>
         </tr>
     </thead>
     <tbody>
         {{ range $key, $data := site.Data.members }}
-            {{ if isset $data "category" }}
-                {{ if in $data.category "participant" }}
-                    {{ range $year, $yearData := $data.years }}
+            {{ if isset $data "years" }}
+                {{ range $year, $yearData := $data.years }}
+                    {{ $presentYear := now.Year }}
+                    {{ if ne (string $year) (string $presentYear) }}
+                        {{ if in $yearData.role "participant" }}
                         <tr>
+                           
+                            <td>GSoC {{ $year }}</td>
                             <td>{{ $data.first_name }} {{ $data.last_name }}</td>
-                            <td>{{ $year }}</td>
                             <td>
                                 {{ if isset $yearData "project_link" }}
-                                    <a href="{{ $yearData.project_link }}">{{ $yearData.project_title }}</a>
+                                    <a href="{{ $yearData.project_link }}" target="_blank">{{ $yearData.project_title }}</a>
                                 {{ else }}
                                     {{ $yearData.project_title }}
                                 {{ end }}
                             </td>
-                        </tr>
+                            {{ end }}
+                            {{ end }}
+                        {{ end }}
                     {{ end }}
                 {{ end }}
-            {{ end }}
-        {{ end }}
     </tbody>
 </table>

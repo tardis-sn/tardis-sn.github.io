@@ -2,7 +2,6 @@
     "first_name": "Dhruv",
     "last_name": "Sondhi",
     "nick_name": "",
-    "project_title": "",
     "org": "",
     "interests": "",
     "current_institute": "",
@@ -18,6 +17,9 @@
     ],
     "years": {
         "2021": {
+            "role": [
+                "participant"
+            ],
             "project_title": "TARDIS logging and packet tracking",
             "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/",
             "project_description": "Enter description"
