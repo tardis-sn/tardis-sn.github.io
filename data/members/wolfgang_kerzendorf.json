@@ -9,11 +9,7 @@
     },
     "project_title": "Supernovae & Computational Metaresearch",
     "org": "TARDIS & DTI",
-    "category": [
-        "core",
-        "mentor",
-        "org-admin"
-    ],
+    "category": [],
     "group_academic_role": "Assistant Professor",
     "group_secondary_role": "Astrophysicist and Computational Metascientist",
     "tags": [],
@@ -33,7 +29,8 @@
     "years": {
         "2023": {
             "role": [
-                "mentor"
+                "mentor",
+                "org-admin"
             ]
         },
         "2021": {

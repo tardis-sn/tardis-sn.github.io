@@ -4,11 +4,7 @@
     "nick_name": "",
     "project_title": "",
     "org": "",
-    "category": [
-        "core",
-        "mentor",
-        "org-admin"
-    ],
+    "category": [],
     "interests": "",
     "current_institute": "",
     "image_path": "media/images/marc.jpeg",
@@ -21,13 +17,10 @@
     "years": {
         "2023": {
             "role": [
-                "mentor"
+                "core",
+                "mentor",
+                "org-admin"
             ]
-        },
-        "2021": {
-            "project_title": "",
-            "project_link": "",
-            "project_description": ""
         }
     },
     "fetch_from": {

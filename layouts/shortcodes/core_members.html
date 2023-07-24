@@ -6,12 +6,7 @@
                     <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
                     <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
 
-                    {{ if isset $data "tardis_end_date" }}
-                        <div style="font-size: small;">{{ $data.tardis_start_date }}-{{ $data.tardis_end_date }}</div><br>
-                    {{ else }}
-                        <div style="font-size: small;">Since-{{ $data.tardis_start_date }}</div>
-                    {{ end }}
-
+            
                     <div class="role-box"><a href="#{{ $data.tardis_academic_role | urlize }}">{{ $data.tardis_academic_role }}</a></div>
                     <div class="role-box"><a href="#{{ $data.tardis_academic_role | urlize }}">{{ $data.tardis_secondary_role }}</a></div>
                 </div>

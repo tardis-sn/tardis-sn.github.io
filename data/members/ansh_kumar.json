@@ -1,14 +1,16 @@
 {
-    "first_name": "Mark",
-    "last_name": "Magee",
+    "first_name": "Ansh",
+    "last_name": "Kumar",
     "nick_name": "",
+    "category": [
+        ""
+    ],
     "project_title": "",
     "org": "",
-    "category": [],
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/marc.jpeg",
-    "tardis_academic_role": "Mentor",
+    "image_path": "media/images/me.jpg",
+    "tardis_academic_role": "Participant",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
@@ -17,9 +19,11 @@
     "years": {
         "2023": {
             "role": [
-                "mentor",
-                "org-admin"
-            ]
+                "participant"
+            ],
+            "project_title": "Inner Boundary Velocity Solver",
+            "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/uyYkVw0V",
+            "project_description": ""
         }
     },
     "fetch_from": {
@@ -30,5 +34,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "mark_magee"
+    "id": "ansh_kumar"
 }

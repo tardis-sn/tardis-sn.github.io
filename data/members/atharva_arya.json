@@ -9,12 +9,7 @@
     },
     "project_title": "Mitigating open science sustainability issues",
     "org": "TARDIS",
-    "category": [
-        "participant",
-        "core",
-        "mentor",
-        "org-admin"
-    ],
+    "category": [],
     "group_academic_role": "Research Software Engineer",
     "group_secondary_role": "Sustainability Fellow",
     "tags": [],
@@ -34,7 +29,7 @@
     "years": {
         "2023": {
             "role": [
-                "core",
+                "org-admin",
                 "mentor"
             ]
         },

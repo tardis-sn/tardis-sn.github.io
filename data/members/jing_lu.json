@@ -1,26 +1,26 @@
 {
-    "first_name": "Josh",
-    "last_name": "Shields",
+    "first_name": "Jing",
+    "last_name": "Lu",
     "nick_name": "",
     "display": {
         "kg": true,
         "dti": false,
         "tardis": false
     },
-    "project_title": "Surviving Companions of Supernovae and Stellar Atmospheric Modeling",
+    "project_title": "Modeling of Stripped-Envelope Supernovae",
     "org": "Kerzendorf Group",
     "category": [],
-    "group_academic_role": "PhD Student",
-    "group_secondary_role": "Education Uncoordinator",
+    "group_academic_role": "Postdoctoral Researcher",
+    "group_secondary_role": "PhD in Physics",
     "tags": [],
-    "interests": "observational and computational astronomy, software development, supernovae, stellar populations, radiative transfer",
+    "interests": "astronomy, computing, mathematics",
     "current_institute": "Michigan State University",
     "introduction": "",
-    "group_start_date": "01-01-2019",
-    "image_path": "media/images/josh_photo.jpg",
+    "group_start_date": "01-01-2023",
+    "image_path": "media/images/jing.jpg",
     "cover_image_path": "media/images/cover.jpg",
-    "id": "josh_shields",
-    "tardis_academic_role": "Mentor",
+    "id": "jing_lu",
+    "tardis_academic_role": "Education Coordinator",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "fetch_from": {
@@ -33,8 +33,7 @@
     "years": {
         "2023": {
             "role": [
-                "mentor",
-                "additional_contributor"
+                "mentor"
             ]
         }
     },

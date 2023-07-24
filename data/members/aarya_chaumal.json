@@ -1,0 +1,38 @@
+{
+    "first_name": "Aarya",
+    "last_name": "Chaumal",
+    "nick_name": "",
+    "category": [
+        ""
+    ],
+    "project_title": "",
+    "org": "",
+    "interests": "",
+    "current_institute": "",
+    "image_path": "media/images/me.jpg",
+    "tardis_academic_role": "Participant",
+    "tardis_secondary_role": "",
+    "tardis_start_date": "",
+    "city": "",
+    "state": "",
+    "country": "",
+    "years": {
+        "2023": {
+            "role": [
+                "participant"
+            ],
+            "project_title": "STARDIS Parallelization and GPU",
+            "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
+            "project_description": ""
+        }
+    },
+    "fetch_from": {
+        "kg": false,
+        "dti": false
+    },
+    "view_on": {
+        "tardis": true
+    },
+    "introduction": "",
+    "id": "aarya_chaumal"
+}

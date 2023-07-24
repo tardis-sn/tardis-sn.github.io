@@ -1,26 +1,26 @@
 {
-    "first_name": "Vicente",
-    "last_name": " Amado Olivo",
+    "first_name": "Bea",
+    "last_name": "Lu",
     "nick_name": "",
     "display": {
         "kg": true,
         "dti": true,
         "tardis": false
     },
-    "project_title": "Development of a Global Registry for Peer Review in Astrophysics",
-    "org": "DeepThought Initiative (DTI)",
+    "project_title": "Web Development and Natural Language Processing",
+    "org": "Kerzendorf Group",
     "category": [],
-    "group_academic_role": "PhD Student",
-    "group_secondary_role": "CMSE Student",
+    "group_academic_role": "Professorial Assistant",
+    "group_secondary_role": "Computational Data Science Major",
     "tags": [],
-    "interests": "Machine Learning, Meta-research, Mathematics",
-    "current_institute": "Michigan State University",
-    "introduction": "",
+    "interests": "data science, computing, astrophysics",
     "group_start_date": "01-01-2021",
-    "image_path": "media/images/ESD_headshot.jpg",
+    "current_institute": "Michigan State University",
+    "image_path": "media/images/bea_lu.jpg",
     "cover_image_path": "media/images/cover.jpg",
-    "id": "vicente_amado",
-    "tardis_academic_role": "Mentor",
+    "introduction": "",
+    "id": "bea_lu",
+    "tardis_academic_role": "",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "fetch_from": {
@@ -33,8 +33,7 @@
     "years": {
         "2023": {
             "role": [
-                "mentor",
-                "additional_contributor"
+                "mentor"
             ]
         },
         "2021": {

@@ -1,0 +1,38 @@
+{
+    "first_name": "Shikha",
+    "last_name": "Rathi",
+    "nick_name": "",
+    "category": [
+        ""
+    ],
+    "project_title": "",
+    "org": "",
+    "interests": "",
+    "current_institute": "",
+    "image_path": "media/images/me.jpg",
+    "tardis_academic_role": "Participant",
+    "tardis_secondary_role": "",
+    "tardis_start_date": "",
+    "city": "",
+    "state": "",
+    "country": "",
+    "years": {
+        "2023": {
+            "role": [
+                "participant"
+            ],
+            "project_title": "Having Versioned Atomic Data Repositories",
+            "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
+            "project_description": ""
+        }
+    },
+    "fetch_from": {
+        "kg": false,
+        "dti": false
+    },
+    "view_on": {
+        "tardis": true
+    },
+    "introduction": "",
+    "id": "shikha_rathi"
+}

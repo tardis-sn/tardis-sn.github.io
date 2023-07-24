@@ -1,17 +1,16 @@
 {
-    "first_name": "James",
-    "last_name": "Gillanders",
+    "first_name": "Alexander",
+    "last_name": "Holas",
     "nick_name": "",
+    "category": [
+        "core"
+    ],
     "project_title": "",
     "org": "",
-    "category": [
-        "core",
-        "mentor"
-    ],
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/james.jpeg",
-    "tardis_academic_role": "Visualization Coordinator",
+    "image_path": "media/images/me.jpg",
+    "tardis_academic_role": "Core Alumni",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
@@ -32,5 +31,5 @@
         "tardis": true
     },
     "introduction": "",
-    "id": "james_gillanders"
+    "id": "alexander_holas"
 }
