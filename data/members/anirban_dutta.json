@@ -1,8 +1,28 @@
 {
+    "first_name": "Anirban ",
+    "last_name": "Dutta",
+    "nick_name": "",
+    "display": {
+        "kg": true,
+        "dti": false,
+        "tardis": false
+    },
+    "project_title": "Non-LTE modeling of supernova spectra",
+    "org": "Kerzendorf Group",
+    "category": [],
+    "group_academic_role": "Postdoctoral Researcher",
+    "group_secondary_role": "PhD Student in Astrophysics and Astronomy",
+    "tags": [],
+    "interests": "astronomy, computing, mathematics",
+    "group_start_date": "01-01-2023",
+    "current_institute": "Indian Institute of Astrophysics",
+    "image_path": "media/images/anirban_dutta.jpg",
+    "cover_image_path": "media/images/cover.jpg",
+    "introduction": "",
+    "id": "anirban_dutta",
     "tardis_academic_role": "",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
-    "category": [],
     "fetch_from": {
         "kg": true,
         "dti": false
@@ -19,7 +39,5 @@
     },
     "view_on": {
         "tardis": true
-    },
-    "introduction": "",
-    "id": "anirban_dutta"
+    }
 }
