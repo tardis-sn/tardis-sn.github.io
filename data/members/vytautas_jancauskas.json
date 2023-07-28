@@ -5,7 +5,7 @@
     "org": "",
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/me.jpg",
+    "image_path": "../me.jpeg",
     "tardis_academic_role": "Core Alumni",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
@@ -18,7 +18,7 @@
     "years": {
         "2023": {
             "role": [
-                "core"
+                ""
             ],
             "project_title": "",
             "project_link": "",
@@ -26,7 +26,8 @@
         },
         "2016": {
             "role": [
-                "mentor"
+                "mentor",
+                "core"
             ]
         },
         "2015": {

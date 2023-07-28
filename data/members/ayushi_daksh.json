@@ -7,13 +7,15 @@
     ],
     "org": "",
     "interests": "",
-    "current_institute": "",
-    "image_path": "media/images/me.jpg",
+    "current_institute": "Masters student at University at Buffalo (SUNY)",
+    "image_path": "media/images/ayushi.jpg",
     "tardis_academic_role": "Participant",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
-    "city": "",
-    "state": "",
+    "email": "aayusheedaksh@gmail.com",
+    "github": "AyushiDaksh",
+    "city": "Buffalo",
+    "state": "New York",
     "country": "",
     "years": {
         "2023": {
@@ -22,7 +24,7 @@
             ],
             "project_title": "Grotrian Diagram Visualisation",
             "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
-            "project_description": ""
+            "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
         }
     },
     "fetch_from": {

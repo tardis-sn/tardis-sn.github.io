@@ -6,7 +6,7 @@
     "org": "",
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/me.jpg",
+    "image_path": "../me.jpeg",
     "tardis_academic_role": "Core Alumni",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
@@ -26,7 +26,8 @@
         },
         "2020": {
             "role": [
-                "mentor"
+                "mentor",
+                "core"
             ]
         }
     },

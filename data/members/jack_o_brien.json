@@ -30,9 +30,9 @@
         "kg": true,
         "dti": false
     },
-    "city": "",
-    "state": "",
-    "country": "",
+    "city": "Albany",
+    "state": "California",
+    "country": "USA",
     "years": {
         "2023": {
             "role": [
@@ -42,6 +42,16 @@
             ]
         },
         "2022": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2021": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2020": {
             "role": [
                 "mentor"
             ]

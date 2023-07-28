@@ -13,22 +13,46 @@
     "tardis_academic_role": "Atomic Data Coordinator",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
-    "city": "",
-    "state": "",
-    "country": "",
+    "city": "Munich",
+    "state": "Bavaria",
+    "country": "Germany",
     "years": {
         "2023": {
             "role": [
                 "mentor",
-                "core"
+                "core",
+                "Atomic Data Coordinator"
             ]
         },
         "2022": {
             "role": [
-                "mentor"
+                "mentor",
+                "Atomic Data Coordinator"
+            ]
+        },
+        "2021": {
+            "role": [
+                "mentor",
+                "Atomic Data Coordinator"
             ]
         },
         "2020": {
+            "role": [
+                "mentor",
+                "Infrastructure Coordinator"
+            ]
+        },
+        "2019": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2018": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2017": {
             "role": [
                 "mentor"
             ]

@@ -10,9 +10,9 @@
     "tardis_academic_role": "PR/Issues Coordinator",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
-    "city": "",
-    "state": "",
-    "country": "",
+    "city": "Darmstadt",
+    "state": "Hessen",
+    "country": "Germany",
     "years": {
         "2023": {
             "role": [
@@ -26,6 +26,11 @@
             ]
         },
         "2020": {
+            "role": [
+                "mentor"
+            ]
+        },
+        "2019": {
             "role": [
                 "mentor"
             ]

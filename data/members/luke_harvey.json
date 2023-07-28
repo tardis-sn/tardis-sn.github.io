@@ -8,18 +8,17 @@
     ],
     "interests": "",
     "current_institute": "",
-    "image_path": "media/images/me.jpg",
+    "image_path": "media/images/luke.jpg",
     "tardis_academic_role": "",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
-    "city": "",
+    "city": "Dublin",
     "state": "",
-    "country": "",
+    "country": "Ireland",
     "years": {
         "2023": {
             "role": [
-                "mentor",
-                "core"
+                "mentor"
             ]
         },
         "2021": {

@@ -27,15 +27,16 @@
         "kg": true,
         "dti": false
     },
-    "city": "",
-    "state": "",
-    "country": "",
+    "city": "Lansing",
+    "state": "Michigan",
+    "country": "USA",
     "years": {
         "2023": {
             "role": [
                 "mentor",
                 "additional_contributor"
-            ]
+            ],
+            "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA;; Aarya Chaumal; STARDIS Parallelization and GPU"
         }
     },
     "view_on": {

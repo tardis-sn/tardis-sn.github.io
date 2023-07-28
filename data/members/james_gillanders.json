@@ -12,7 +12,7 @@
     "tardis_start_date": "",
     "city": "",
     "state": "",
-    "country": "",
+    "country": "Italy",
     "years": {
         "2023": {
             "role": [
@@ -22,10 +22,17 @@
         },
         "2022": {
             "role": [
-                "mentor"
+                "mentor",
+                "core"
             ]
         },
         "2021": {
+            "role": [
+                "mentor",
+                "core"
+            ]
+        },
+        "2020": {
             "role": [
                 "mentor"
             ]
