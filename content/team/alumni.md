@@ -25,30 +25,28 @@ TARDIS Core Team is responsible for:
 ### Past Core Team Members
 Current TARDIS core team members are as follows (you can click on the role to learn more about it):
 
-<div class ="picture-grid">
 {{< core_alumni >}}
-</div>
 
 ## Past Project Students
-<div class ="picture-grid">
 {{< alumni_participants >}}
-</div>
 
 ## GSoC Org Admins & Mentors
+
+
+## Past Org-Admins
+{{< alumni_org-admin >}}
+
 ## Past Mentors
 Mentors are people from the community who volunteer to work with a Google 
 Summer of Code student. Mentors provide guidance, feedback and act as 
 ambassadors to help students integrate into the TARDIS community. 
 
 GSoC in past years was made possible by following members:
-<div class ="picture-grid">
 {{< alumni_mentor >}}
-</div>
 
 ## Past Additional Contributors
-<div class ="picture-grid">
+
 {{< alumni_additional_contributor >}}
-</div>
 
 
 ### Role Descriptions
