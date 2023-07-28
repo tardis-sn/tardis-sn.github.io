@@ -39,6 +39,11 @@ Org admins coordinate participation of TARDIS in the Google Summer of Code. They
 {{< org-admin >}}
 </div>
 
+### GSoC 2023 Students
+<div class ="picture-grid">
+{{< participants >}}
+</div>
+
 
 ### GSoC Mentors   
 Mentors are people from the community who volunteer to work with a Google 
@@ -46,11 +51,6 @@ Summer of Code student. Mentors provide guidance, feedback and act as
 ambassadors to help students integrate into the TARDIS community.  
 <div class ="picture-grid">
 {{< mentors >}}
-</div>
-
-### GSoC 2023 Students
-<div class ="picture-grid">
-{{< participants >}}
 </div>
 
 ## Additional Contributors
