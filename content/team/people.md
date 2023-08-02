@@ -30,12 +30,6 @@ Current TARDIS core team members are as follows (you can click on the role to le
 </div>
 
 
-## Additional Contributors
-<div class ="picture-grid">
-{{< additional_contributor >}}
-</div>
-
-
 
 ### Role Descriptions
 #### Principal Investigator { .anchor-offset}
