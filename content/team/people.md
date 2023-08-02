@@ -29,29 +29,6 @@ Current TARDIS core team members are as follows (you can click on the role to le
 {{< core_members >}}
 </div>
 
-## GSoC 2023 Org Admins & Mentors
-
-GSoC 2023 was made possible by following members:
-
-### GSoC Org-Admins
-Org admins coordinate participation of TARDIS in the Google Summer of Code. They complete all administrative tasks like submitting the application to participate, requesting slots, ensuring that mentors fill out evaluations in a timely fashion, etc. They may also act as mentors simultaneously during the GSoC.
-<div class ="picture-grid">
-{{< org-admin >}}
-</div>
-
-### GSoC 2023 Students
-<div class ="picture-grid">
-{{< participants >}}
-</div>
-
-
-### GSoC Mentors   
-Mentors are people from the community who volunteer to work with a Google 
-Summer of Code student. Mentors provide guidance, feedback and act as 
-ambassadors to help students integrate into the TARDIS community.  
-<div class ="picture-grid">
-{{< mentors >}}
-</div>
 
 ## Additional Contributors
 <div class ="picture-grid">
