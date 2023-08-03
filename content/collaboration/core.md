@@ -1,31 +1,24 @@
 ---
-title: "Alumni "
+title: "Core Team"
 date: 2021-06-28T13:44:37-05:00
 draft: false
 layout: page
 aliases: /team/
 ---
 
-## Past Participants
-{{< alumni_participants >}}
 
-## GSoC Org Admins & Mentors
+TARDIS Core Team is responsible for:
+ - Overseeing the activities and sets the goals for the TARDIS Collaboration
+ - Identifying science opportunities that match TARDIS capabilities or coordinates the addition of capabilities
+ - Identifying education opportunities such as workshops, lecture development, and outreach opportunities
 
+### Core Members & Roles
+Current TARDIS core team members are as follows (you can click on the role to learn more about it):
 
-## Past Org-Admins
-{{< alumni_org-admin >}}
+<div class ="picture-grid">
+{{< core_members >}}
+</div>
 
-## Past Mentors
-Mentors are people from the community who volunteer to work with a Google 
-Summer of Code student. Mentors provide guidance, feedback and act as 
-ambassadors to help students integrate into the TARDIS community. 
-
-GSoC in past years was made possible by following members:
-{{< alumni_mentor >}}
-
-## Past Additional Contributors
-
-{{< alumni_additional_contributor >}}
 
 
 ### Role Descriptions
@@ -79,8 +72,6 @@ GSoC in past years was made possible by following members:
 #### Diversity, Equity, and Inclusion (DEI) { .anchor-offset}
  - Identify opportunities to use TARDIS to engage members of underrepresented minorities (URM) to coding/STEM
  - Identify papers about engaging URM in coding / science
-
-
 
 
 

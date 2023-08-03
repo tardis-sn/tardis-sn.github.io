@@ -1,31 +1,10 @@
 {
-    "first_name": "Kevin",
-    "last_name": "Cawley",
-    "nick_name": "",
-    "display": {
-        "kg": true,
-        "dti": false,
-        "tardis": false
-    },
-    "project_title": "Tardis Cuda",
-    "org": "Kerzendorf Group",
-    "category": [
-        "project_student_alumni"
-    ],
-    "group_academic_role": "Professorial Assistant",
-    "group_secondary_role": "Computer Science Major",
-    "tags": [],
-    "interests": "coding, computing, mathematics",
-    "group_start_date": "01-01-2020",
-    "group_end_date": "12-31-2022",
-    "current_institute": "Michigan State University",
-    "image_path": "media/images/KevinCawleyFall2022.jpg",
-    "cover_image_path": "media/images/cover.jpg",
-    "introduction": "",
-    "id": "kevin_cawley",
     "tardis_academic_role": "Mentor",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
+    "category": [
+        "project_student_alumni"
+    ],
     "fetch_from": {
         "kg": true,
         "dti": false
@@ -46,5 +25,7 @@
     },
     "view_on": {
         "tardis": true
-    }
+    },
+    "introduction": "",
+    "id": "kevin_cawley"
 }

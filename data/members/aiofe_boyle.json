@@ -2,15 +2,12 @@
     "first_name": "Aiofe",
     "last_name": "Boyle",
     "nick_name": "",
-    "category": [
-        "mentor",
-        "core_alumni"
-    ],
+    "category": [],
     "org": "",
     "interests": "",
     "current_institute": "",
     "image_path": "../me.jpeg",
-    "tardis_academic_role": "Core Alumni",
+    "tardis_academic_role": "",
     "tardis_secondary_role": "",
     "tardis_start_date": "",
     "city": "",
@@ -25,6 +22,11 @@
         "2022": {
             "role": [
                 "mentor"
+            ]
+        },
+        "2021": {
+            "role": [
+                "core"
             ]
         },
         "2015": {
