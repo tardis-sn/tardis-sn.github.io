@@ -29,9 +29,9 @@
         "kg": true,
         "dti": false
     },
-    "city": "",
-    "state": "",
-    "country": "",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India",
     "years": {
         "2023": {
             "role": [
