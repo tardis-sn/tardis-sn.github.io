@@ -1,0 +1,1311 @@
+[
+    {
+        "first_name": "Mark",
+        "last_name": "Magee",
+        "nick_name": "",
+        "org": "",
+        "category": [],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Mentor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Coventry",
+        "state": "",
+        "country": "UK",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "org-admin"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2021": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2020": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "mark_magee"
+    },
+    {
+        "first_name": "Vicente",
+        "last_name": " Amado Olivo",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": true,
+            "tardis": false
+        },
+        "project_title": "Development of a Global Registry for Peer Review in Astrophysics",
+        "org": "DeepThought Initiative (DTI)",
+        "category": [],
+        "group_academic_role": "PhD Student",
+        "group_secondary_role": "CMSE Student",
+        "tags": [],
+        "interests": "Machine Learning, Meta-research, Mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2021",
+        "image_path": "media/images/ESD_headshot.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "vicente_amado",
+        "tardis_academic_role": "Mentor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "additional_contributor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Luke",
+        "last_name": "Harvey",
+        "nick_name": "",
+        "org": "",
+        "category": [
+            "mentor"
+        ],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "media/images/luke.jpg",
+        "tardis_academic_role": "",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Dublin",
+        "state": "",
+        "country": "Ireland",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2021": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "luke_harvey"
+    },
+    {
+        "first_name": "Ezequiel",
+        "last_name": "Passaro",
+        "nick_name": "",
+        "org": "",
+        "category": [
+            "core",
+            "mentor",
+            "participant"
+        ],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Infrastructure Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "Argentina",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "core"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "ezequiel_passaro"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Harpole",
+        "nick_name": "",
+        "category": [],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Member",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2020": {
+                "role": [
+                    "mentor",
+                    "core"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "alice_harpole"
+    },
+    {
+        "first_name": "Luke",
+        "last_name": "Shingles",
+        "nick_name": "",
+        "org": "",
+        "category": [
+            "core"
+        ],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2016": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "luke_shingles"
+    },
+    {
+        "first_name": "Anirban ",
+        "last_name": "Dutta",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Non-LTE modeling of supernova spectra",
+        "org": "Kerzendorf Group",
+        "category": [],
+        "group_academic_role": "Postdoctoral Researcher",
+        "group_secondary_role": "PhD Student in Astrophysics and Astronomy",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "group_start_date": "01-01-2023",
+        "current_institute": "Indian Institute of Astrophysics",
+        "image_path": "media/images/anirban_dutta.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "introduction": "",
+        "id": "anirban_dutta",
+        "tardis_academic_role": "",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Josh",
+        "last_name": "Shields",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Surviving Companions of Supernovae and Stellar Atmospheric Modeling",
+        "org": "Kerzendorf Group",
+        "category": [],
+        "group_academic_role": "PhD Student",
+        "group_secondary_role": "Education Uncoordinator",
+        "tags": [],
+        "interests": "observational and computational astronomy, software development, supernovae, stellar populations, radiative transfer",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2019",
+        "image_path": "media/images/josh_photo.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "josh_shields",
+        "tardis_academic_role": "Mentor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "Lansing",
+        "state": "Michigan",
+        "country": "USA",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "additional_contributor"
+                ],
+                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA;; Aarya Chaumal; STARDIS Parallelization and GPU"
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": true
+        },
+        "project_title": "Inferring explosion conditions from late-time Type Ia supernova spectra",
+        "org": "TARDIS",
+        "category": [],
+        "group_academic_role": "Advisor",
+        "group_secondary_role": "Research Consultant at ICER",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "group_start_date": "01-01-2020",
+        "current_institute": "Michigan State University",
+        "image_path": "media/images/me.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "introduction": "",
+        "id": "andrew_fullard",
+        "tardis_academic_role": "Collaboration Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Lansing",
+        "state": "Michigan",
+        "country": "USA",
+        "years": {
+            "2023": {
+                "role": [
+                    "core",
+                    "mentor",
+                    "org-admin"
+                ],
+                "project_title": "Import and Store NNDC Deposition Data"
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ],
+                "project_title": "Resuming TARDIS Simulations from HDF"
+            },
+            "2021": {
+                "role": [
+                    "mentor"
+                ],
+                "project_title": "TARDIS logging and packet tracking"
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Atharva",
+        "last_name": "Arya",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Mitigating open science sustainability issues",
+        "org": "TARDIS",
+        "category": [],
+        "group_academic_role": "Research Software Engineer",
+        "group_secondary_role": "Sustainability Fellow",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "RCOEM, Nagpur, India",
+        "introduction": "",
+        "group_start_date": "01-01-2021",
+        "image_path": "media/images/atharva.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "atharva_arya",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "country": "India",
+        "years": {
+            "2023": {
+                "role": [
+                    "org-admin",
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Ulrich",
+        "last_name": "Noebauer",
+        "nick_name": "",
+        "category": [],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2016": {
+                "role": [
+                    "mentor",
+                    "core"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "ulrich_noebauer"
+    },
+    {
+        "first_name": "Marc",
+        "last_name": "Williamson",
+        "nick_name": "",
+        "org": "",
+        "category": [],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "media/images/marc.jpeg",
+        "tardis_academic_role": "Financial Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "core",
+                    "mentor",
+                    "org-admin"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2020": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "marc_williamson"
+    },
+    {
+        "first_name": "Alexander",
+        "last_name": "Holas",
+        "nick_name": "",
+        "category": [
+            "core"
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "alexander_holas"
+    },
+    {
+        "first_name": "Bea",
+        "last_name": "Lu",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": true,
+            "tardis": false
+        },
+        "project_title": "Web Development and Natural Language Processing",
+        "org": "Kerzendorf Group",
+        "category": [],
+        "group_academic_role": "Professorial Assistant",
+        "group_secondary_role": "Computational Data Science Major",
+        "tags": [],
+        "interests": "data science, computing, astrophysics",
+        "group_start_date": "01-01-2021",
+        "current_institute": "Michigan State University",
+        "image_path": "media/images/bea_lu.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "introduction": "",
+        "id": "bea_lu",
+        "tardis_academic_role": "",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Jack",
+        "last_name": "O'Brien",
+        "nick_name": "Jack",
+        "display": {
+            "kg": false,
+            "dti": false,
+            "tardis": true
+        },
+        "project_title": "Probabilistic Abundance Tomography of Type Ia Supernovae",
+        "org": "TARDIS",
+        "category": [
+            "mentor",
+            "core"
+        ],
+        "group_academic_role": "PhD Student",
+        "group_secondary_role": "TARDIS Education Coordinator",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2018",
+        "image_path": "media/images/jack.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "jack_o_brien",
+        "tardis_academic_role": "Education Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "Albany",
+        "state": "California",
+        "country": "USA",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "core"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2021": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2020": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Christian",
+        "last_name": "Vogl",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "category": [
+            "core",
+            "mentor"
+        ],
+        "current_institute": "",
+        "image_path": "media/images/christian.jpeg",
+        "tardis_academic_role": "Atomic Data Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "core",
+                    "Atomic Data Coordinator"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor",
+                    "Atomic Data Coordinator"
+                ]
+            },
+            "2021": {
+                "role": [
+                    "mentor",
+                    "Atomic Data Coordinator"
+                ]
+            },
+            "2020": {
+                "role": [
+                    "mentor",
+                    "Infrastructure Coordinator"
+                ]
+            },
+            "2019": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2018": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2017": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "christian_vogl"
+    },
+    {
+        "first_name": "James",
+        "last_name": "Gillanders",
+        "nick_name": "",
+        "org": "",
+        "category": [],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "media/images/james.jpeg",
+        "tardis_academic_role": "Visualization Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "Italy",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "core"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor",
+                    "core"
+                ]
+            },
+            "2021": {
+                "role": [
+                    "mentor",
+                    "core"
+                ]
+            },
+            "2020": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "james_gillanders"
+    },
+    {
+        "first_name": "Sona",
+        "last_name": "Chitchyan",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Enhanced Type IIP cosmology with statistics and machine learning",
+        "org": "",
+        "category": [
+            "mentor"
+        ],
+        "group_academic_role": "PhD Student",
+        "group_secondary_role": "Physics & Astronomy Student",
+        "tags": [],
+        "interests": "",
+        "current_institute": "",
+        "introduction": "",
+        "group_start_date": "01-01-2021",
+        "image_path": "media/images/sona_photo.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "sona_chitchyan",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Yuki",
+        "last_name": "Matsumura",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Type IIP supernovae as cosmological distance probes",
+        "org": "",
+        "category": [
+            "mentor"
+        ],
+        "group_academic_role": "PhD Student",
+        "group_secondary_role": "Physics and CMSE Student",
+        "tags": [],
+        "interests": "Physics, astronomy, and computing",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2022",
+        "image_path": "media/images/andreas.jpeg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "yuki_matsumura",
+        "tardis_academic_role": "Mentor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Jaladh",
+        "last_name": "Singhal",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": true
+        },
+        "project_title": "Space Tools",
+        "org": "Caltech",
+        "category": [
+            "core",
+            "mentor"
+        ],
+        "group_academic_role": "Research Software Engineer",
+        "group_secondary_role": "Software Developer",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "Caltech",
+        "introduction": "",
+        "group_start_date": "01-01-2018",
+        "image_path": "media/images/jaladh.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "jaladh_singhal",
+        "tardis_academic_role": "Education Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "core",
+                    "mentor"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2021": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Wolfgang",
+        "last_name": "Kerzendorf",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": true,
+            "tardis": true
+        },
+        "project_title": "Supernovae & Computational Metaresearch",
+        "org": "TARDIS & DTI",
+        "category": [],
+        "group_academic_role": "Assistant Professor",
+        "group_secondary_role": "Astrophysicist and Computational Metascientist",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2019",
+        "image_path": "media/images/wolfgang.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "wolfgang_kerzendorf",
+        "tardis_academic_role": "Principal Investigator",
+        "tardis_secondary_role": "(Founder), DEI",
+        "tardis_start_date": "",
+        "city": "Lansing",
+        "state": "Michigan",
+        "country": "USA",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder",
+                    "core"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2021": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2020": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2019": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2018": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2017": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2016": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2015": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Jing",
+        "last_name": "Lu",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Modeling of Stripped-Envelope Supernovae",
+        "org": "Kerzendorf Group",
+        "category": [],
+        "group_academic_role": "Postdoctoral Researcher",
+        "group_secondary_role": "PhD in Physics",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2023",
+        "image_path": "media/images/jing.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "jing_lu",
+        "tardis_academic_role": "Education Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Yssavo",
+        "last_name": "Camacho-Neves",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "category": [],
+        "current_institute": "",
+        "image_path": "media/images/yssavo.jpg",
+        "tardis_academic_role": "Science Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2020": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "yssa_neves"
+    },
+    {
+        "first_name": "Aiofe",
+        "last_name": "Boyle",
+        "nick_name": "",
+        "category": [],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "Ireland",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "aiofe_boyle"
+    },
+    {
+        "first_name": "Harshul",
+        "last_name": "Gupta",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": true,
+            "tardis": false
+        },
+        "project_title": "Kerzendorf Group Website",
+        "org": "Deep Thought Initiative",
+        "category": [
+            "mentor"
+        ],
+        "group_academic_role": "Research Software Engineer",
+        "group_secondary_role": "Website Developer",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "group_start_date": "01-01-2023",
+        "current_institute": "Deep Thought Initiative",
+        "image_path": "media/images/harshul.jpeg",
+        "cover_image_path": "media/images/cover.jpg",
+        "introduction": "",
+        "id": "harshul_gupta",
+        "tardis_academic_role": "Mentor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Vytautas",
+        "last_name": "Jan\u010dauskas",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "category": [
+            "core"
+        ],
+        "city": "",
+        "state": "",
+        "country": "Lithuania",
+        "years": {
+            "2016": {
+                "role": [
+                    "mentor",
+                    "core"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "vytautas_jancauskas"
+    },
+    {
+        "first_name": "Isaac",
+        "last_name": "Smith",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "STARDIS",
+        "org": "Kerzendorf Group",
+        "category": "Undergraduate Students",
+        "group_academic_role": "Professorial Assistant",
+        "group_secondary_role": "Math and Physics Double Major",
+        "tags": [],
+        "interests": "physics, mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2020",
+        "group_end_date": "12-31-2023",
+        "image_path": "media/images/isaac_image.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "isaac_smith",
+        "tardis_academic_role": "Mentor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Andreas",
+        "last_name": "Flors",
+        "nick_name": "",
+        "org": "",
+        "category": [],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "media/images/andreas.jpeg",
+        "tardis_academic_role": "PR/Issues Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Darmstadt",
+        "state": "Hessen",
+        "country": "Germany",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "core"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2020": {
+                "role": [
+                    "mentor"
+                ]
+            },
+            "2019": {
+                "role": [
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "andreas_flors"
+    }
+]
