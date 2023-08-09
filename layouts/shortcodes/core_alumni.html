@@ -33,3 +33,23 @@
         {{ end }}
     </tbody>
 </table>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    // Function to sort the table by year
+    function sortTable() {
+        let table = document.querySelector("#past-core-team-members + table");
+        let tbody = table.querySelector("tbody");
+        
+        let rows = Array.from(tbody.querySelectorAll("tr")).sort((a, b) => {
+            let yearA = parseInt(a.cells[1].textContent.trim().split(',').pop());
+            let yearB = parseInt(b.cells[1].textContent.trim().split(',').pop());
+            return yearB - yearA; // descending order
+        });
+        
+        rows.forEach(row => tbody.appendChild(row));
+    }
+
+    sortTable();
+});
+
+</script>
