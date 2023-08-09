@@ -1,0 +1,94 @@
+[
+    {
+        "first_name": "Jing",
+        "last_name": "Lu",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Modeling of Stripped-Envelope Supernovae",
+        "org": "Kerzendorf Group",
+        "category": [],
+        "group_academic_role": "Postdoctoral Researcher",
+        "group_secondary_role": "PhD in Physics",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2023",
+        "image_path": "media/images/jing.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "jing_lu",
+        "tardis_academic_role": "Contributor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "contributor"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Isaac",
+        "last_name": "Smith",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "STARDIS",
+        "org": "Kerzendorf Group",
+        "category": "Undergraduate Students",
+        "group_academic_role": "Professorial Assistant",
+        "group_secondary_role": "Math and Physics Double Major",
+        "tags": [],
+        "interests": "physics, mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2020",
+        "group_end_date": "12-31-2023",
+        "image_path": "media/images/isaac_image.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "isaac_smith",
+        "tardis_academic_role": "Mentor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2021": {
+                "role": [
+                    "contributor"
+                ],
+                "project_title": "Creating Interactive Documentation",
+                "project_link": "",
+                "project_description": "",
+                "funding_org": "NumFOCUS"
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    }
+]

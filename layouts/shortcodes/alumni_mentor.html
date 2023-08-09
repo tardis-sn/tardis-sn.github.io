@@ -1,101 +1,34 @@
-
 <table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th style="text-align: right;">Year</th>
-        </tr>
-    </thead>
-    <tbody>
-        {{ range $key, $data := site.Data.members }}
-            {{ $yearsMentored := slice }}
-            {{ if isset $data "years" }}
-                {{ range $year, $yearData := $data.years }}
-                    {{ $presentYear := now.Year }}
-                    {{ if ne (string $year) (string $presentYear) }}
-                        {{ if in $yearData.role "mentor" }}
-                            {{ $yearsMentored = $yearsMentored | append $year }}
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
-                {{ if $yearsMentored }}
-                    <tr>
-                        <td>{{ $data.first_name }} {{ $data.last_name }}</td>
-                        <td style="text-align: right; font-size: medium; width: 35%;">
-                            {{ range $i, $year := $yearsMentored }}
-                                {{ if ne $i 0 }}, {{ end }}
-                                {{ $year }}
-                            {{ end }}
-                        </td>
-                    </tr>
-                {{ end }}
-            {{ end }}
-        {{ end }}
-    </tbody>
-</table>
-
-<!--------------------------------
-<div>
-    <label for="yearFilter">Filter by Year:</label>
-    <select id="yearFilter">
-      <option value="all">All Years</option>
-      {{ $presentYear := now.Year }}
-      {{ $startYear := 2014 }}
-      {{ range $year := (seq $startYear $presentYear) }}
-        <option value="{{ $year }}">{{ $year }}</option>
-      {{ end }}
-    </select>
-  </div>
-  
-  <table id="mentorTable">
-    <thead>
+  <thead>
       <tr>
-        <th>Name</th>
-        <th style="text-align: right;">Year</th>
+          <th>Name</th>
+          <th style="text-align: right;">Year</th>
       </tr>
-    </thead>
-    <tbody>
-      {{ range $key, $data := site.Data.members }}
-        {{ $yearsMentored := slice }}
-        {{ if isset $data "years" }}
-          {{ range $year, $yearData := $data.years }}
-            {{ $presentYear := now.Year }}
-            {{ if ne (string $year) (string $presentYear) }}
-              {{ if in $yearData.role "mentor" }}
-                {{ $yearsMentored = $yearsMentored | append $year }}
+  </thead>
+  <tbody>
+      {{ range $key, $data := site.Data.members.gsoc_mentors }}
+          {{ $yearsMentored := slice }}
+          {{ if isset $data "years" }}
+              {{ range $year, $yearData := $data.years }}
+                  {{ $presentYear := now.Year }}
+                  {{ if ne (string $year) (string $presentYear) }}
+                      {{ if in $yearData.role "mentor" }}
+                          {{ $yearsMentored = $yearsMentored | append $year }}
+                      {{ end }}
+                  {{ end }}
               {{ end }}
-            {{ end }}
+              {{ if $yearsMentored }}
+                  <tr>
+                      <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                      <td style="text-align: right; font-size: medium; width: 35%;">
+                          {{ range $i, $year := $yearsMentored }}
+                              {{ if ne $i 0 }}, {{ end }}
+                              {{ $year }}
+                          {{ end }}
+                      </td>
+                  </tr>
+              {{ end }}
           {{ end }}
-          {{ if $yearsMentored }}
-            <tr class="mentor-row{{ range $i, $year := $yearsMentored }} year-{{ $year }}{{ end }}">
-              <td>{{ $data.first_name }} {{ $data.last_name }}</td>
-              <td style="text-align: right; font-size: medium; width: 35%;">
-                {{ range $i, $year := $yearsMentored }}
-                  {{ if ne $i 0 }}, {{ end }}
-                  {{ $year }}
-                {{ end }}
-              </td>
-            </tr>
-          {{ end }}
-        {{ end }}
       {{ end }}
-    </tbody>
-  </table>
-  
-  <script>
-    const yearFilter = document.getElementById('yearFilter');
-    const mentorRows = document.querySelectorAll('.mentor-row');
-  
-    yearFilter.addEventListener('change', () => {
-      const selectedYear = yearFilter.value;
-      mentorRows.forEach(row => {
-        const rowYears = row.classList[1].split('-').slice(1);
-        if (selectedYear === 'all' || rowYears.includes(selectedYear)) {
-          row.style.display = '';
-        } else {
-          row.style.display = 'none';
-        }
-      });
-    });
-  </script>
-  -->
+  </tbody>
+</table>

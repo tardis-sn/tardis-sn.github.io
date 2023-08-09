@@ -7,14 +7,13 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $key, $data := site.Data.members }}
+        {{ range $key, $data := site.Data.members.gsoc_participants }}
             {{ if isset $data "years" }}
                 {{ range $year, $yearData := $data.years }}
                     {{ $presentYear := now.Year }}
                     {{ if ne (string $year) (string $presentYear) }}
                         {{ if in $yearData.role "participant" }}
                         <tr>
-                           
                             <td>GSoC {{ $year }}</td>
                             <td>{{ $data.first_name }} {{ $data.last_name }}</td>
                             <td>
@@ -24,10 +23,11 @@
                                     {{ $yearData.project_title }}
                                 {{ end }}
                             </td>
-                            {{ end }}
-                            {{ end }}
+                        </tr>
                         {{ end }}
                     {{ end }}
                 {{ end }}
+            {{ end }}
+        {{ end }}
     </tbody>
 </table>

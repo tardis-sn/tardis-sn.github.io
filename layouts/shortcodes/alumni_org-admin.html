@@ -1,4 +1,3 @@
-
 <table>
     <thead>
         <tr>
@@ -7,7 +6,7 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $key, $data := site.Data.members }}
+        {{ range $key, $data := site.Data.members.org_admins }}
             {{ $yearsMentored := slice }}
             {{ if isset $data "years" }}
                 {{ range $year, $yearData := $data.years }}

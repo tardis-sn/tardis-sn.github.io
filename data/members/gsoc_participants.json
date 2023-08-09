@@ -1,0 +1,1163 @@
+[
+    {
+        "first_name": "Jayant",
+        "last_name": "Bhakar",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "years": {
+            "2022": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Monte Carlo 2D Packet Visualization",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "jayant_bhakar"
+    },
+    {
+        "first_name": "Misha",
+        "last_name": "Mishkin",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "Russia",
+        "years": {
+            "2016": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "TARDIS/Carsus Atomic database",
+                "project_link": "",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "misha_mishkin"
+    },
+    {
+        "first_name": "Ezequiel",
+        "last_name": "Passaro",
+        "nick_name": "",
+        "org": "",
+        "category": [
+            "core",
+            "mentor",
+            "participant"
+        ],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Infrastructure Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "Argentina",
+        "years": {
+            "2020": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Understanding atomic data uncertainty",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5301481479077888/",
+                "project_description": "Enter description"
+            },
+            "2019": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Building a new atomic database",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2019/projects/5344591031566336/",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "ezequiel_passaro"
+    },
+    {
+        "first_name": "Karan",
+        "last_name": "Desai",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "years": {
+            "2016": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "TARDIS testing framework",
+                "project_link": "",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "karan_desai"
+    },
+    {
+        "first_name": "Shreyas",
+        "last_name": "Singh",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "media/images/shreyas.jpg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "email": "shreyashsingh31@gmail.com",
+        "github": "shreyas3156",
+        "city": "Patna",
+        "state": "Bihar",
+        "country": "India",
+        "years": {
+            "2023": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Import and Store NNDC Deposition Data",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
+                "project_description": "Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called \u201cradlist\u201d. This project involves using the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output."
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "shreyas_singh"
+    },
+    {
+        "first_name": "Satwik",
+        "last_name": "Kambham",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2022": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Resuming TARDIS Simulations from HDF",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "satwik_kambham"
+    },
+    {
+        "first_name": "Fotis",
+        "last_name": "Tsamis",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "Greece",
+        "years": {
+            "2016": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "TARDIS various projects",
+                "project_link": "",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "fotis_tsamis"
+    },
+    {
+        "first_name": "Atharva",
+        "last_name": "Arya",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Mitigating open science sustainability issues",
+        "org": "TARDIS",
+        "category": [],
+        "group_academic_role": "Research Software Engineer",
+        "group_secondary_role": "Sustainability Fellow",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "RCOEM, Nagpur, India",
+        "introduction": "",
+        "group_start_date": "01-01-2021",
+        "image_path": "media/images/atharva.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "atharva_arya",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "country": "India",
+        "years": {
+            "2022": {
+                "project_title": "Improving the Carsus Testing Framework",
+                "role": [
+                    "participant"
+                ],
+                "project_link": "",
+                "project_description": ""
+            },
+            "2021": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Visualization Tools for TARDIS",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Dhruv",
+        "last_name": "Sondhi",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "category": [
+            "participant"
+        ],
+        "years": {
+            "2021": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "TARDIS logging and packet tracking",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "dhruv_sondhi"
+    },
+    {
+        "first_name": "William",
+        "last_name": "Black",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "email": "wblack1845@gmail.com",
+        "github": "smokestacklightnin",
+        "city": "",
+        "state": "California",
+        "country": "USA",
+        "years": {
+            "2023": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "william_black"
+    },
+    {
+        "first_name": "Jordi Eguren",
+        "last_name": "Brown",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "category": [],
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2020": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "TARDIS Code restructure with factory method",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5699342318436352/",
+                "project_description": "Enter description"
+            }
+        },
+        "sections": {
+            "core": false,
+            "alumni": false,
+            "participant": true
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "jordi_brown"
+    },
+    {
+        "first_name": "Shikha",
+        "last_name": "Rathi",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "Indian Institute of Technology",
+        "image_path": "media/images/shikha.jpg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "email": "srathi@ph.itr.ac.in",
+        "github": "",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "years": {
+            "2023": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Having Versioned Atomic Data Repositories",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
+                "project_description": "The goal of my project is to create a repository integrated with CI pipelines to periodically check for changes in the upstream data sources like NIST, Kurucz, CHIANTI, CMFGEN and maintain a repository of semantic versioned datasets along with a report on the changes in each version update. The Carsus project will be updated to use the latest data source by default by checking for updates in the data repository. Additionally, a utility function will be implemented in the Carsus to support using the older version of the datasets available on the data repository by passing the dataset version number."
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "shikha_rathi"
+    },
+    {
+        "first_name": "Ansh",
+        "last_name": "Kumar",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "project_title": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "media/images/ansh.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "email": "ansh.kr049@gmail.com",
+        "github": "xansh",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "years": {
+            "2023": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Simulation Restrcture",
+                "project_link": "",
+                "project_description": "The project aims to decouple the various Tardis simulation components and to integrate packet sampling where the inner boundary need not be fixed e.g. Gamma Ray Deposition packet sampling."
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "ansh_kumar"
+    },
+    {
+        "first_name": "Shailesh",
+        "last_name": "Ahuja",
+        "nick_name": "",
+        "org": "astropy",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "years": {
+            "2014": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Specutils readers/writers",
+                "project_link": "",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "shailesh_ahuja"
+    },
+    {
+        "first_name": "Aarya",
+        "last_name": "Chaumal",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "media/images/aarya.png",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "email": "achaumal2802@gmail.com",
+        "github": "light2802",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India",
+        "years": {
+            "2023": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "STARDIS Parallelization and GPU",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
+                "project_description": "Increase the speed of STARDIS using Numba by allowing slower parts of STARDIS to be run in parallel and allowing for them to be run on the GPU using Numba\u2019s CUDA capabilities if the user requires them."
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "aarya_chaumal"
+    },
+    {
+        "first_name": "Youssef",
+        "last_name": "Eweis",
+        "nick_name": "",
+        "org": "",
+        "category": [
+            "participant"
+        ],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2019": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Building a new atomic database",
+                "project_link": "",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": false
+        },
+        "introduction": "",
+        "id": "youssef_eweis"
+    },
+    {
+        "first_name": "Jaladh",
+        "last_name": "Singhal",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": true
+        },
+        "project_title": "Space Tools",
+        "org": "Caltech",
+        "category": [
+            "core",
+            "mentor"
+        ],
+        "group_academic_role": "Research Software Engineer",
+        "group_secondary_role": "Software Developer",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "Caltech",
+        "introduction": "",
+        "group_start_date": "01-01-2018",
+        "image_path": "media/images/jaladh.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "jaladh_singhal",
+        "tardis_academic_role": "Education Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2020": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Jupyter Notebook Widgets for TARDIS",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5967738750631936",
+                "project_description": "Enter description"
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Tomas",
+        "last_name": "Bylund",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "Sweden",
+        "years": {
+            "2016": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "TARDIS formal integral",
+                "project_link": "",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "tomas_bylund"
+    },
+    {
+        "first_name": "Gaurav",
+        "last_name": "Gautam",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "years": {
+            "2015": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "TARDIS graphical user interface",
+                "project_link": "",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "gaurav_gautam"
+    },
+    {
+        "first_name": "Yizheng",
+        "last_name": "Yu",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "category": [
+            ""
+        ],
+        "years": {
+            "2021": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Custom Abundance Widget",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "yizheng_yu"
+    },
+    {
+        "first_name": "Ayushi",
+        "last_name": "Daksh",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "Masters student at University at Buffalo (SUNY)",
+        "image_path": "media/images/ayushi.jpg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "email": "aayusheedaksh@gmail.com",
+        "github": "AyushiDaksh",
+        "city": "Buffalo",
+        "state": "New York",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Grotrian Diagram Visualisation",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
+                "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "ayushi_daksh"
+    },
+    {
+        "first_name": "Aiofe",
+        "last_name": "Boyle",
+        "nick_name": "",
+        "category": [],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "Ireland",
+        "years": {
+            "2015": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Helium in the spectra of Type Ia supernovae",
+                "project_link": "",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "aiofe_boyle"
+    },
+    {
+        "first_name": "Jeff",
+        "last_name": "Taylor",
+        "nick_name": "",
+        "org": "astropy",
+        "interests": "",
+        "current_institute": "",
+        "category": [
+            "participant"
+        ],
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "USA",
+        "years": {
+            "2013": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Wavelength calibration",
+                "project_link": "",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "jeff_taylor"
+    },
+    {
+        "first_name": "Arib",
+        "last_name": "Alam",
+        "nick_name": "",
+        "org": "",
+        "tags": [
+            "soc",
+            "failed"
+        ],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "category": [
+            "participant"
+        ],
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2021": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Packet tracking",
+                "project_link": "Enter your link here",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": false
+        },
+        "introduction": "",
+        "id": "arib_alam"
+    },
+    {
+        "first_name": "Mikhail",
+        "last_name": "Mishin",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "category": [
+            "participant"
+        ],
+        "years": {
+            "2022": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Carsus package for creating atomic datasets",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "mikhail_mishin"
+    },
+    {
+        "first_name": "Jenny",
+        "last_name": "Yu",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "category": [
+            "participant"
+        ],
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "China",
+        "years": {
+            "2021": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Abundance widget",
+                "project_link": "Enter your link here",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "jenny_yu"
+    },
+    {
+        "first_name": "Vytautas",
+        "last_name": "Jan\u010dauskas",
+        "nick_name": "",
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "category": [
+            "core"
+        ],
+        "city": "",
+        "state": "",
+        "country": "Lithuania",
+        "years": {
+            "2015": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Improving performance in terms of time consumed",
+                "project_link": "",
+                "project_description": ""
+            },
+            "2014": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Improving performance in terms of time consumed",
+                "project_link": "",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "vytautas_jancauskas"
+    },
+    {
+        "first_name": "Vaibhav",
+        "last_name": "Gupta",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "years": {
+            "2017": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Reading Simulation from file",
+                "project_link": "",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "vaibhav_gupta"
+    },
+    {
+        "first_name": "Rohith Varma",
+        "last_name": "Buddaraju",
+        "nick_name": "",
+        "category": [
+            ""
+        ],
+        "org": "",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Participant",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2022": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Tardis Setups Framework",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z",
+                "project_description": ""
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "rohith_buddaraju"
+    },
+    {
+        "first_name": "Mabry",
+        "last_name": "Cervin",
+        "nick_name": "",
+        "project_title": "",
+        "org": "astropy",
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "USA",
+        "years": {
+            "2014": {
+                "role": [
+                    "participant"
+                ],
+                "project_title": "Astropy correlated uncertainties",
+                "project_link": "",
+                "project_description": "Enter description"
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "mabry_cervin"
+    }
+]

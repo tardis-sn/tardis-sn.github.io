@@ -1,16 +1,24 @@
-{{ range $key, $data := site.Data.members }}
-{{ if isset $data "years" }}
-    {{ $presentYear := now.Year }}
-    {{ $yearData := index $data.years (string $presentYear) }}
-    {{ if $yearData }}
-        {{ if in $yearData.role "org-admin" }}
-            <div class="individual-container">
-                <div class="info-container">
-                    <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
-                    <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
-  </div>
-            </div>
-            {{ end }}
+{{ $members := .Site.Data.members.org_admins }}
+{{ $presentYear := now.Year }}
+
+{{ range $member := $members }}
+    {{ with $member.years }}
+        {{ with index . (string $presentYear) }}
+            {{ if in .role "org-admin" }}
+                <div class="individual-container">
+                    <div class="info-container">
+                        <img class="rounded-picture" src="../../members/{{ $member.id }}/{{ $member.image_path }}">
+                        <div class="person-name">{{ $member.first_name }} {{ $member.last_name }}</div>
+
+                        {{ with $member.tardis_academic_role }}
+                            <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
+                        {{ end }}
+                        {{ with $member.tardis_secondary_role }}
+                            <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
+                        {{ end }}
+                    </div>
+                </div>
             {{ end }}
         {{ end }}
     {{ end }}
+{{ end }}

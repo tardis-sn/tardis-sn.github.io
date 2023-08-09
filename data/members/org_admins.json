@@ -1,0 +1,309 @@
+[
+    {
+        "first_name": "Mark",
+        "last_name": "Magee",
+        "nick_name": "",
+        "org": "",
+        "category": [],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "../me.jpeg",
+        "tardis_academic_role": "Mentor",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Coventry",
+        "state": "",
+        "country": "UK",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "org-admin"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "mark_magee"
+    },
+    {
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": true
+        },
+        "project_title": "Inferring explosion conditions from late-time Type Ia supernova spectra",
+        "org": "TARDIS",
+        "category": [],
+        "group_academic_role": "Advisor",
+        "group_secondary_role": "Research Consultant at ICER",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "group_start_date": "01-01-2020",
+        "current_institute": "Michigan State University",
+        "image_path": "media/images/me.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "introduction": "",
+        "id": "andrew_fullard",
+        "tardis_academic_role": "Collaboration Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Lansing",
+        "state": "Michigan",
+        "country": "USA",
+        "years": {
+            "2023": {
+                "role": [
+                    "core",
+                    "mentor",
+                    "org-admin"
+                ],
+                "project_title": "Import and Store NNDC Deposition Data"
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Atharva",
+        "last_name": "Arya",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": false,
+            "tardis": false
+        },
+        "project_title": "Mitigating open science sustainability issues",
+        "org": "TARDIS",
+        "category": [],
+        "group_academic_role": "Research Software Engineer",
+        "group_secondary_role": "Sustainability Fellow",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "RCOEM, Nagpur, India",
+        "introduction": "",
+        "group_start_date": "01-01-2021",
+        "image_path": "media/images/atharva.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "atharva_arya",
+        "tardis_academic_role": "Core Alumni",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "country": "India",
+        "years": {
+            "2023": {
+                "role": [
+                    "org-admin",
+                    "mentor"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Marc",
+        "last_name": "Williamson",
+        "nick_name": "",
+        "org": "",
+        "category": [],
+        "interests": "",
+        "current_institute": "",
+        "image_path": "media/images/marc.jpeg",
+        "tardis_academic_role": "Financial Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "years": {
+            "2023": {
+                "role": [
+                    "core",
+                    "mentor",
+                    "org-admin"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "marc_williamson"
+    },
+    {
+        "first_name": "Jack",
+        "last_name": "O'Brien",
+        "nick_name": "Jack",
+        "display": {
+            "kg": false,
+            "dti": false,
+            "tardis": true
+        },
+        "project_title": "Probabilistic Abundance Tomography of Type Ia Supernovae",
+        "org": "TARDIS",
+        "category": [
+            "mentor",
+            "core"
+        ],
+        "group_academic_role": "PhD Student",
+        "group_secondary_role": "TARDIS Education Coordinator",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2018",
+        "image_path": "media/images/jack.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "jack_o_brien",
+        "tardis_academic_role": "Education Coordinator",
+        "tardis_secondary_role": "",
+        "tardis_start_date": "",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "Albany",
+        "state": "California",
+        "country": "USA",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "core"
+                ]
+            }
+        },
+        "view_on": {
+            "tardis": true
+        }
+    },
+    {
+        "first_name": "Wolfgang",
+        "last_name": "Kerzendorf",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": true,
+            "tardis": true
+        },
+        "project_title": "Supernovae & Computational Metaresearch",
+        "org": "TARDIS & DTI",
+        "category": [],
+        "group_academic_role": "Assistant Professor",
+        "group_secondary_role": "Astrophysicist and Computational Metascientist",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "current_institute": "Michigan State University",
+        "introduction": "",
+        "group_start_date": "01-01-2019",
+        "image_path": "media/images/wolfgang.jpg",
+        "cover_image_path": "media/images/cover.jpg",
+        "id": "wolfgang_kerzendorf",
+        "tardis_academic_role": "Principal Investigator",
+        "tardis_secondary_role": "(Founder), DEI",
+        "tardis_start_date": "",
+        "city": "Lansing",
+        "state": "Michigan",
+        "country": "USA",
+        "years": {
+            "2023": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder",
+                    "core"
+                ]
+            },
+            "2022": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2021": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2020": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2019": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2018": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2017": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2016": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            },
+            "2015": {
+                "role": [
+                    "mentor",
+                    "org-admin",
+                    "founder"
+                ]
+            }
+        },
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        }
+    }
+]

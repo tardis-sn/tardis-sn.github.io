@@ -1,4 +1,3 @@
-
 <table>
     <thead>
         <tr>
@@ -7,10 +6,11 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $key, $data := site.Data.members }}
+        {{ $members := .Site.Data.members.core_members }}
+        {{ range $member := $members }}
             {{ $yearsMentored := slice }}
-            {{ if isset $data "years" }}
-                {{ range $year, $yearData := $data.years }}
+            {{ with $member.years }}
+                {{ range $year, $yearData := . }}
                     {{ $presentYear := now.Year }}
                     {{ if ne (string $year) (string $presentYear) }}
                         {{ if in $yearData.role "core" }}
@@ -20,7 +20,7 @@
                 {{ end }}
                 {{ if $yearsMentored }}
                     <tr>
-                        <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                        <td>{{ $member.first_name }} {{ $member.last_name }}</td>
                         <td style="text-align: right; font-size: medium; width: 35%;">
                             {{ range $i, $year := $yearsMentored }}
                                 {{ if ne $i 0 }}, {{ end }}

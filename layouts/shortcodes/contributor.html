@@ -1,0 +1,42 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $key, $data := site.Data.members.contributors }}
+            {{ if isset $data "years" }}
+                {{ range $year, $yearData := $data.years }}
+                    {{ $presentYear := now.Year }}
+                   
+                        {{ if in $yearData.role "contributor" }}
+                        <tr>
+                           
+                            <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                            <td> {{ $data.tardis_academic_role }}   </td>
+                        </tr>
+                        {{ end }}
+                    
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ range $key, $data := site.Data.members.core_members }}
+        {{ if isset $data "years" }}
+            {{ range $year, $yearData := $data.years }}
+                {{ $presentYear := now.Year }}
+               
+                    {{ if in $yearData.role "core" }}
+                    <tr>
+                       
+                        <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                        <td> {{ $data.tardis_academic_role }}   </td>
+                    </tr>
+                    {{ end }}
+                
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    </tbody>
+</table>

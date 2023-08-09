@@ -1,25 +1,24 @@
-{{ range $key, $data := site.Data.members }}
-{{ if isset $data "years" }}
-    {{ $presentYear := now.Year }}
-    {{ $yearData := index $data.years (string $presentYear) }}
-    {{ if $yearData }}
-        {{ if in $yearData.role "mentor" }}
-            <div class="individual-container">
-                <div class="info-container">
-                    <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
-                    <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
-<!--
-                    {{ if isset $data "tardis_end_date" }}
-                        <div style="font-size: small;">{{ $data.tardis_start_date }}-{{ $data.tardis_end_date }}</div><br>
-                    {{ else }}
-                        <div style="font-size: small;">Since-{{ $data.tardis_start_date }}</div>
-                    {{ end }}
+{{ $members := .Site.Data.members.gsoc_mentors }}
+{{ $presentYear := now.Year }}
 
-                    <div class="role-box"><a href="#{{ $data.tardis_academic_role | urlize }}">{{ $data.tardis_academic_role }}</a></div>
-                    <div class="role-box"><a href="#{{ $data.tardis_academic_role | urlize }}">{{ $data.tardis_secondary_role }}</a></div>-->
+{{ range $member := $members }}
+    {{ with $member.years }}
+        {{ with index . (string $presentYear) }}
+            {{ if in .role "mentor" }}
+                <div class="individual-container">
+                    <div class="info-container">
+                        <img class="rounded-picture" src="../../members/{{ $member.id }}/{{ $member.image_path }}">
+                        <div class="person-name">{{ $member.first_name }} {{ $member.last_name }}</div>
+
+                        {{ with $member.tardis_academic_role }}
+                            <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
+                        {{ end }}
+                        {{ with $member.tardis_secondary_role }}
+                            <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
+                        {{ end }}
+                    </div>
                 </div>
-            </div>
-            {{ end }}
             {{ end }}
         {{ end }}
     {{ end }}
+{{ end }}
