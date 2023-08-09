@@ -6,37 +6,66 @@
         </tr>
     </thead>
     <tbody>
+        {{/* Initialize a scratch space to keep track of processed members */}}
+        {{ $.Scratch.Add "processedMembers" slice }}
+        
         {{ range $key, $data := site.Data.members.contributors }}
             {{ if isset $data "years" }}
                 {{ range $year, $yearData := $data.years }}
-                    {{ $presentYear := now.Year }}
-                   
+                    {{/* Check if member has already been processed */}}
+                    {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
                         {{ if in $yearData.role "contributor" }}
-                        <tr>
-                           
-                            <td>{{ $data.first_name }} {{ $data.last_name }}</td>
-                            <td> {{ $data.tardis_academic_role }}   </td>
-                        </tr>
+                            {{/* Add the member to the scratch space */}}
+                            {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
+                            <tr>
+                                <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                                <td>{{ $data.tardis_academic_role }}</td>
+                            </tr>
                         {{ end }}
-                    
+                    {{ end }}
                 {{ end }}
             {{ end }}
         {{ end }}
+        
+        {{/* Reset the scratch space for the next set of data */}}
+        {{ $.Scratch.Set "processedMembers" slice }}
+        
         {{ range $key, $data := site.Data.members.core_members }}
-        {{ if isset $data "years" }}
-            {{ range $year, $yearData := $data.years }}
-                {{ $presentYear := now.Year }}
-               
-                    {{ if in $yearData.role "core" }}
-                    <tr>
-                       
-                        <td>{{ $data.first_name }} {{ $data.last_name }}</td>
-                        <td> {{ $data.tardis_academic_role }}   </td>
-                    </tr>
+            {{ if isset $data "years" }}
+                {{ range $year, $yearData := $data.years }}
+                    {{/* Check if member has already been processed */}}
+                    {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
+                        {{ if in $yearData.role "core" }}
+                            {{/* Add the member to the scratch space */}}
+                            {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
+                            <tr>
+                                <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                                <td>{{ $data.tardis_academic_role }}</td>
+                            </tr>
+                        {{ end }}
                     {{ end }}
-                
+                {{ end }}
             {{ end }}
         {{ end }}
-    {{ end }}
+        
     </tbody>
 </table>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+    const table = document.querySelector("tbody");
+    const rows = Array.from(table.rows);
+
+    rows.sort((a, b) => {
+        const nameA = a.cells[0].innerText.toUpperCase();
+        const nameB = b.cells[0].innerText.toUpperCase();
+
+        if (nameA < nameB) return -1;
+        if (nameA > nameB) return 1;
+        return 0;
+    });
+
+    rows.forEach(row => table.appendChild(row));
+});
+
+</script>
