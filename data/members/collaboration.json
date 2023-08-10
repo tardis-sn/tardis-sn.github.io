@@ -37,15 +37,6 @@
                         "Statistics"
                     ]
                 }
-            },
-            {
-                "tardis_core_team": {
-                    "start_year": 2011,
-                    "role": [
-                        "Principal Investigator",
-                        "DEI convenor"
-                    ]
-                }
             }
         ],
         "fetch_from": {

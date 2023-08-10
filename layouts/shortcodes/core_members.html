@@ -2,18 +2,15 @@
 {{ $presentYear := now.Year }}
 
 {{ range $member := $members }}
-    {{ with $member.years }}
-        {{ with index . (string $presentYear) }}
-            {{ if in .role "core" }}
+    {{ range $experience := $member.experience }}
+        {{ with $experience.tardis_core_team }}
+            {{ if not .end_year }}
                 <div class="individual-container">
                     <div class="info-container">
                         <img class="rounded-picture" src="../../members/{{ $member.id }}/{{ $member.image_path }}">
                         <div class="person-name">{{ $member.first_name }} {{ $member.last_name }}</div>
 
-                        {{ with $member.tardis_academic_role }}
-                            <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
-                        {{ end }}
-                        {{ with $member.tardis_secondary_role }}
+                        {{ range .role }}
                             <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
                         {{ end }}
                     </div>

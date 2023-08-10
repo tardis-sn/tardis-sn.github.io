@@ -1,0 +1,53 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th style="text-align: right;">Expertise</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        {{ range $key, $data := site.Data.members.collaboration }}
+            {{ if isset $data "experience" }}
+                {{ range $experience := $data.experience }}
+                    {{ if and (isset $experience.tardis_collaboration "start_year") (not (isset $experience.tardis_collaboration "end_date")) }}
+                        {{/* Check if member has already been processed */}}
+                        {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
+                            {{/* Add the member to the scratch space */}}
+                            {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
+                            <tr>
+                                <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                                <td style="text-align: right;">
+                                    {{ range $index, $expertise := $experience.tardis_collaboration.expertise }}
+                                        {{ if $index }}, {{ end }}{{ $expertise }}
+                                    {{ end }}
+                                </td>
+                            </tr>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        
+    </tbody>
+</table>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+    const table = document.querySelector("tbody");
+    const rows = Array.from(table.rows);
+
+    rows.sort((a, b) => {
+        const nameA = a.cells[0].innerText.toUpperCase();
+        const nameB = b.cells[0].innerText.toUpperCase();
+
+        if (nameA < nameB) return -1;
+        if (nameA > nameB) return 1;
+        return 0;
+    });
+
+    rows.forEach(row => table.appendChild(row));
+});
+
+</script>
