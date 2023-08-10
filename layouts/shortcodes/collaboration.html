@@ -2,6 +2,7 @@
     <thead>
         <tr>
             <th>Name</th>
+            <th>Start Date</th>
             <th style="text-align: right;">Expertise</th>
         </tr>
     </thead>
@@ -17,6 +18,7 @@
                             {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
                             <tr>
                                 <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                                <td class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  >{{ $experience.tardis_collaboration.start_year }}</td>
                                 <td style="text-align: right;">
                                     {{ range $index, $expertise := $experience.tardis_collaboration.expertise }}
                                         {{ if $index }}, {{ end }}{{ $expertise }}
