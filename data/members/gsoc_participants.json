@@ -1,0 +1,70 @@
+[
+    {
+        "first_name": "Shikha",
+        "last_name": "Rathi",
+        "interests": "",
+        "current_institute": "Indian Institute of Technology",
+        "image_path": "media/images/shikha.jpg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "email": "srathi@ph.itr.ac.in",
+        "github": "",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "shikha_rathi",
+        "gsoc_participation": [
+            {
+                "year": 2023,
+                "project_title": "Having Versioned Atomic Data Repositories",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
+                "project_description": "The goal of my project is to create a repository integrated with CI pipelines to periodically check for changes in the upstream data sources like NIST, Kurucz, CHIANTI, CMFGEN and maintain a repository of semantic versioned datasets along with a report on the changes in each version update. The Carsus project will be updated to use the latest data source by default by checking for updates in the data repository. Additionally, a utility function will be implemented in the Carsus to support using the older version of the datasets available on the data repository by passing the dataset version number.",
+                "mentors": [
+                    "harshul_gupta"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Arnav",
+        "last_name": "Radas",
+        "interests": "",
+        "current_institute": "Indian Institute of Technology",
+        "image_path": "media/images/shikha.jpg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "email": "srathi@ph.itr.ac.in",
+        "github": "",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "fetch_from": {
+            "kg": false,
+            "dti": false
+        },
+        "view_on": {
+            "tardis": true
+        },
+        "introduction": "",
+        "id": "shikha_rathi",
+        "gsoc_participation": [
+            {
+                "year": 2023,
+                "project_title": "Having Versioned Atomic Data Repositories",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
+                "project_description": "The goal of my project is to create a repository integrated with CI pipelines to periodically check for changes in the upstream data sources like NIST, Kurucz, CHIANTI, CMFGEN and maintain a repository of semantic versioned datasets along with a report on the changes in each version update. The Carsus project will be updated to use the latest data source by default by checking for updates in the data repository. Additionally, a utility function will be implemented in the Carsus to support using the older version of the datasets available on the data repository by passing the dataset version number.",
+                "mentors": [
+                    "harshul_gupta"
+                ]
+            }
+        ]
+    }
+]

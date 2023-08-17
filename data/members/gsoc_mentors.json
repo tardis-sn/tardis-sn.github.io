@@ -54,6 +54,47 @@
         ]
     },
     {
+        "first_name": "Harshul",
+        "last_name": "Gupta",
+        "nick_name": "",
+        "display": {
+            "kg": true,
+            "dti": true,
+            "tardis": false
+        },
+        "project_title": "Kerzendorf Group Website",
+        "org": "Deep Thought Initiative",
+        "category": "Research Software Engineers",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "tags": [],
+        "interests": "astronomy, computing, mathematics",
+        "start_date": "01-01-2023",
+        "current_institute": "Deep Thought Initiative",
+        "image_path": "media/images/harshul.jpeg",
+        "cover_image_path": "media/images/cover.jpg",
+        "introduction": "",
+        "id": "harshul_gupta",
+        "fetch_from": {
+            "kg": true,
+            "dti": false
+        },
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "country": "India",
+        "view_on": {
+            "tardis": true
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "ayushi_daksh"
+                ]
+            }
+        ]
+    },
+    {
         "first_name": "Wolfgang",
         "last_name": "Kerzendorf",
         "nick_name": "",

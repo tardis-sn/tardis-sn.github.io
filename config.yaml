@@ -28,13 +28,13 @@ params:
         style: dropdown
         sub_items:
           - label: Collaboration
-            url: /collaboration/collaboration
+            url: /people/collaboration
             style: dropdown-link
           - label: Core Team
-            url: /collaboration/core
+            url: /people/core
             style: dropdown-link
           - label: Alumni
-            url: /collaboration/alumni
+            url: /people/alumni
             style: dropdown-link
           - label: Code of Conduct
             url: /code_of_conduct

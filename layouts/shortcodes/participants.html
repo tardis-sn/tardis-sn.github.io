@@ -1,17 +1,15 @@
 {{ range $key, $data := site.Data.members.gsoc_participants }}
-{{ if isset $data "years" }}
-    {{ $presentYear := now.Year }}
-    {{ $yearData := index $data.years (string $presentYear) }}
-    {{ if $yearData }}
-        {{ if in $yearData.role "participant" }}
+    {{ $gsoc_participation := index $data "gsoc_participation" }}
+    {{ range $gsoc := $gsoc_participation }}
+        {{ $yearData := index $gsoc "year" }}
+        {{ if $yearData }}
             <div class="individual-container">
                 <div class="info-container">
                     <img class="rounded-picture" src="{{ $data.image_path }}">
                     <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>             
-                    <div style="font-size: small;" class="role-box"><a href="{{ $yearData.project_link }}" target="_blank">{{ $yearData.project_title }}</a></div>
+                    <div style="font-size: small;" class="role-box"><a href="{{ $gsoc.project_link }}" target="_blank">{{ $gsoc.project_title }}</a></div>
                 </div>
             </div>
         {{ end }}
     {{ end }}
-{{ end }}
 {{ end }}

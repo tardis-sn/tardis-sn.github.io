@@ -10,20 +10,17 @@
         },
         "project_title": "Inferring explosion conditions from late-time Type Ia supernova spectra",
         "org": "TARDIS",
-        "category": [],
-        "group_academic_role": "Advisor",
-        "group_secondary_role": "Research Consultant at ICER",
+        "category": "Researchers",
+        "academic_role": "Collaboration Coordinator",
+        "secondary_role": "",
         "tags": [],
         "interests": "astronomy, computing, mathematics",
-        "group_start_date": "01-01-2020",
+        "start_date": "01-01-2020",
         "current_institute": "Michigan State University",
         "image_path": "media/images/me.jpg",
         "cover_image_path": "media/images/cover.jpg",
         "introduction": "",
         "id": "andrew_fullard",
-        "tardis_academic_role": "Collaboration Coordinator",
-        "tardis_secondary_role": "",
-        "tardis_start_date": "",
         "city": "Lansing",
         "state": "Michigan",
         "country": "USA",
@@ -34,14 +31,27 @@
         "view_on": {
             "tardis": true
         },
-        "experience": {
-            "tardis_collaboration": {
-                "start_year": 2020,
-                "expertise": [
-                    "Type Ia SNe Nebular Phase Project"
+        "tardis_collaboration": {
+            "start_year": 2014,
+            "expertise": [
+                "Collaboration Coordinator"
+            ]
+        },
+        "tardis_core_team": {
+            "start_year": 2011,
+            "role": [
+                "Core Contributor"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi",
+                    "aarya_chaumal"
                 ]
             }
-        }
+        ]
     },
     {
         "first_name": "Wolfgang",
@@ -54,20 +64,17 @@
         },
         "project_title": "Supernovae & Computational Metaresearch",
         "org": "TARDIS & DTI",
-        "category": [],
-        "group_academic_role": "Assistant Professor",
-        "group_secondary_role": "Astrophysicist and Computational Metascientist",
+        "category": "Faculty",
+        "academic_role": "Principal Investigator",
+        "secondary_role": "(Founder), DEI",
         "tags": [],
         "interests": "astronomy, computing, mathematics",
         "current_institute": "Michigan State University",
         "introduction": "",
-        "group_start_date": "01-01-2019",
+        "start_date": "",
         "image_path": "media/images/wolfgang.jpg",
         "cover_image_path": "media/images/cover.jpg",
         "id": "wolfgang_kerzendorf",
-        "tardis_academic_role": "Principal Investigator",
-        "tardis_secondary_role": "(Founder), DEI",
-        "tardis_start_date": "",
         "city": "Lansing",
         "state": "Michigan",
         "country": "USA",
@@ -78,15 +85,35 @@
         "view_on": {
             "tardis": true
         },
-        "experience": {
-            "tardis_collaboration": {
-                "start_year": 2011,
-                "expertise": [
-                    "Type Ia supernovae",
-                    "Emulators",
-                    "Statistics"
+        "tardis_collaboration": {
+            "start_year": 2011,
+            "expertise": [
+                "Type Ia supernovae",
+                "Emulators",
+                "Statistics"
+            ]
+        },
+        "tardis_core_team": {
+            "start_year": 2011,
+            "role": [
+                "Principal Investigator",
+                "DEI convenor"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi",
+                    "aarya_chaumal"
+                ]
+            },
+            {
+                "year": 2021,
+                "mentee_ids": [
+                    "atharva_arya"
                 ]
             }
-        }
+        ]
     }
 ]

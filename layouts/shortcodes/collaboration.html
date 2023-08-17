@@ -9,23 +9,21 @@
     <tbody>
         
         {{ range $key, $data := site.Data.members.collaboration }}
-            {{ if isset $data "experience" }}
-                {{ range $experience := $data.experience }}
-                    {{ if and (isset $experience.tardis_collaboration "start_year") (not (isset $experience.tardis_collaboration "end_date")) }}
-                        {{/* Check if member has already been processed */}}
-                        {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
-                            {{/* Add the member to the scratch space */}}
-                            {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
-                            <tr>
-                                <td>{{ $data.first_name }} {{ $data.last_name }}</td>
-                                <td class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  >{{ $experience.tardis_collaboration.start_year }}</td>
-                                <td style="text-align: right;">
-                                    {{ range $index, $expertise := $experience.tardis_collaboration.expertise }}
-                                        {{ if $index }}, {{ end }}{{ $expertise }}
-                                    {{ end }}
-                                </td>
-                            </tr>
-                        {{ end }}
+            {{ if isset $data "tardis_collaboration" }}
+                {{ if and (isset $data.tardis_collaboration "start_year") (not (isset $data.tardis_collaboration "end_date")) }}
+                    {{/* Check if member has already been processed */}}
+                    {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
+                        {{/* Add the member to the scratch space */}}
+                        {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
+                        <tr>
+                            <td>{{ $data.first_name }} {{ $data.last_name }}</td>
+                            <td class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  >{{ $data.tardis_collaboration.start_year }}</td>
+                            <td style="text-align: right;">
+                                {{ range $index, $expertise := $data.tardis_collaboration.expertise }}
+                                    {{ if $index }}, {{ end }}{{ $expertise }}
+                                {{ end }}
+                            </td>
+                        </tr>
                     {{ end }}
                 {{ end }}
             {{ end }}
@@ -33,6 +31,7 @@
         
     </tbody>
 </table>
+
 
 
 <script>
