@@ -23,12 +23,12 @@ params:
           - label: carsus package
             url: https://tardis-sn.github.io/carsus
             style: redirect-link
-      - label: Collaboration
-        url: /collaboration
+      - label: People
+        url: /people
         style: dropdown
         sub_items:
-          - label: People
-            url: /collaboration/people
+          - label: Collaboration
+            url: /collaboration/collaboration
             style: dropdown-link
           - label: Core Team
             url: /collaboration/core

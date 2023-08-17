@@ -27,34 +27,6 @@
         "city": "Lansing",
         "state": "Michigan",
         "country": "USA",
-        "years": {
-            "2023": {
-                "role": [
-                    "core",
-                    "mentor",
-                    "org-admin"
-                ],
-                "project_title": "Import and Store NNDC Deposition Data"
-            },
-            "2022": {
-                "role": [
-                    "mentor"
-                ],
-                "project_title": "Resuming TARDIS Simulations from HDF"
-            },
-            "2021": {
-                "role": [
-                    "mentor"
-                ],
-                "project_title": "TARDIS logging and packet tracking"
-            },
-            "2020": {
-                "role": [
-                    "core_coordinator"
-                ],
-                "project_title": "Type Ia SNe Nebular Phase Project"
-            }
-        },
         "fetch_from": {
             "kg": true,
             "dti": false
@@ -63,10 +35,10 @@
             "tardis": true
         },
         "experience": {
-            "tardis_core_team": {
+            "tardis_collaboration": {
                 "start_year": 2020,
-                "role": [
-                    "Core_coordinator"
+                "expertise": [
+                    "Type Ia SNe Nebular Phase Project"
                 ]
             }
         }
@@ -107,11 +79,12 @@
             "tardis": true
         },
         "experience": {
-            "tardis_core_team": {
+            "tardis_collaboration": {
                 "start_year": 2011,
-                "role": [
-                    "Principal Investigator",
-                    "DEI convenor"
+                "expertise": [
+                    "Type Ia supernovae",
+                    "Emulators",
+                    "Statistics"
                 ]
             }
         }
