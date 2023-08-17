@@ -2,47 +2,9 @@
     {
         "first_name": "Andrew",
         "last_name": "Fullard",
-        "nick_name": "",
-        "display": {
-            "kg": true,
-            "dti": false,
-            "tardis": true
-        },
-        "project_title": "Inferring explosion conditions from late-time Type Ia supernova spectra",
-        "org": "TARDIS",
-        "category": "Researchers",
         "academic_role": "Collaboration Coordinator",
         "secondary_role": "",
-        "tags": [],
-        "interests": "astronomy, computing, mathematics",
-        "start_date": "01-01-2020",
-        "current_institute": "Michigan State University",
         "image_path": "media/images/me.jpg",
-        "cover_image_path": "media/images/cover.jpg",
-        "introduction": "",
-        "id": "andrew_fullard",
-        "city": "Lansing",
-        "state": "Michigan",
-        "country": "USA",
-        "fetch_from": {
-            "kg": true,
-            "dti": false
-        },
-        "view_on": {
-            "tardis": true
-        },
-        "tardis_collaboration": {
-            "start_year": 2014,
-            "expertise": [
-                "Collaboration Coordinator"
-            ]
-        },
-        "tardis_core_team": {
-            "start_year": 2011,
-            "role": [
-                "Core Contributor"
-            ]
-        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -56,35 +18,9 @@
     {
         "first_name": "Harshul",
         "last_name": "Gupta",
-        "nick_name": "",
-        "display": {
-            "kg": true,
-            "dti": true,
-            "tardis": false
-        },
-        "project_title": "Kerzendorf Group Website",
-        "org": "Deep Thought Initiative",
-        "category": "Research Software Engineers",
         "academic_role": "Mentor",
         "secondary_role": "",
-        "tags": [],
-        "interests": "astronomy, computing, mathematics",
-        "start_date": "01-01-2023",
-        "current_institute": "Deep Thought Initiative",
         "image_path": "media/images/harshul.jpeg",
-        "cover_image_path": "media/images/cover.jpg",
-        "introduction": "",
-        "id": "harshul_gupta",
-        "fetch_from": {
-            "kg": true,
-            "dti": false
-        },
-        "city": "Jaipur",
-        "state": "Rajasthan",
-        "country": "India",
-        "view_on": {
-            "tardis": true
-        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -97,50 +33,9 @@
     {
         "first_name": "Wolfgang",
         "last_name": "Kerzendorf",
-        "nick_name": "",
-        "display": {
-            "kg": true,
-            "dti": true,
-            "tardis": true
-        },
-        "project_title": "Supernovae & Computational Metaresearch",
-        "org": "TARDIS & DTI",
-        "category": "Faculty",
         "academic_role": "Principal Investigator",
         "secondary_role": "(Founder), DEI",
-        "tags": [],
-        "interests": "astronomy, computing, mathematics",
-        "current_institute": "Michigan State University",
-        "introduction": "",
-        "start_date": "",
         "image_path": "media/images/wolfgang.jpg",
-        "cover_image_path": "media/images/cover.jpg",
-        "id": "wolfgang_kerzendorf",
-        "city": "Lansing",
-        "state": "Michigan",
-        "country": "USA",
-        "fetch_from": {
-            "kg": true,
-            "dti": false
-        },
-        "view_on": {
-            "tardis": true
-        },
-        "tardis_collaboration": {
-            "start_year": 2011,
-            "expertise": [
-                "Type Ia supernovae",
-                "Emulators",
-                "Statistics"
-            ]
-        },
-        "tardis_core_team": {
-            "start_year": 2011,
-            "role": [
-                "Principal Investigator",
-                "DEI convenor"
-            ]
-        },
         "gsoc_mentorship": [
             {
                 "year": 2023,

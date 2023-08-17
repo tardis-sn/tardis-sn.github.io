@@ -2,25 +2,9 @@
     {
         "first_name": "Shikha",
         "last_name": "Rathi",
-        "interests": "",
-        "current_institute": "Indian Institute of Technology",
         "image_path": "media/images/shikha.jpg",
         "academic_role": "Participant",
         "secondary_role": "",
-        "email": "srathi@ph.itr.ac.in",
-        "github": "",
-        "city": "New Delhi",
-        "state": "Delhi",
-        "country": "India",
-        "fetch_from": {
-            "kg": false,
-            "dti": false
-        },
-        "view_on": {
-            "tardis": true
-        },
-        "introduction": "",
-        "id": "shikha_rathi",
         "gsoc_participation": [
             {
                 "year": 2023,
