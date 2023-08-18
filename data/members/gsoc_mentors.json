@@ -5,6 +5,7 @@
         "academic_role": "Principal Investigator",
         "secondary_role": "(Founder), DEI",
         "image_path": "media/images/wolfgang.jpg",
+        "id": "wolfgang_kerzendorf",
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -27,6 +28,7 @@
         "academic_role": "Mentor",
         "secondary_role": "",
         "image_path": "media/images/harshul.jpeg",
+        "id": "harshul_gupta",
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -42,6 +44,7 @@
         "academic_role": "Collaboration Coordinator",
         "secondary_role": "",
         "image_path": "media/images/me.jpg",
+        "id": "andrew_fullard",
         "gsoc_mentorship": [
             {
                 "year": 2023,

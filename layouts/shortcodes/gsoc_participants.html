@@ -2,10 +2,10 @@
     {{ $gsoc_participation := index $data "gsoc_participation" }}
     {{ range $gsoc := $gsoc_participation }}
         {{ $yearData := index $gsoc "year" }}
-        {{ if $yearData }}
+        {{ if eq (printf "%v" $yearData) "2023" }}
             <div class="individual-container">
                 <div class="info-container">
-                    <img class="rounded-picture" src="{{ $data.image_path }}">
+                    <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
                     <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>             
                     <div style="font-size: small;" class="role-box"><a href="{{ $gsoc.project_link }}" target="_blank">{{ $gsoc.project_title }}</a></div>
                 </div>

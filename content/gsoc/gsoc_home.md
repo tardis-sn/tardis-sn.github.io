@@ -58,7 +58,7 @@ Since 2005, Google has run an awesome open source software development program, 
   - That, in turn, determines how many student developers work with the TARDIS collaboration.
 
 Please also read the following pages before applying. Project ideas can be found on the [ideas page](../ideas).
-1. [Application Requirements](../requirements)
-2. [Application Guidelines](../guidelines)
-3. [Application Checklist](../checklist)
-5. [Participation Expectations](../expectations)
+1. [Application Requirements](../other_requirements)
+2. [Application Guidelines](../other_requirements)
+3. [Application Checklist](../other_requirements)
+5. [Participation Expectations](../other_requirements)

@@ -5,6 +5,7 @@
         "academic_role": "Principal Investigator",
         "secondary_role": "(Founder), DEI",
         "image_path": "media/images/wolfgang.jpg",
+        "id": "wolfgang_kerzendorf",
         "tardis_collaboration": {
             "start_year": 2011,
             "expertise": [
@@ -20,6 +21,7 @@
         "academic_role": "Collaboration Coordinator",
         "secondary_role": "",
         "image_path": "media/images/me.jpg",
+        "id": "andrew_fullard",
         "tardis_collaboration": {
             "start_year": 2014,
             "expertise": [

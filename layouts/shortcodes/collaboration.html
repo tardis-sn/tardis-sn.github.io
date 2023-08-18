@@ -1,36 +1,30 @@
-<table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Start Date</th>
-            <th style="text-align: right;">Expertise</th>
-        </tr>
-    </thead>
-    <tbody>
-        
-        {{ range $key, $data := site.Data.members.collaboration }}
-            {{ if isset $data "tardis_collaboration" }}
-                {{ if and (isset $data.tardis_collaboration "start_year") (not (isset $data.tardis_collaboration "end_date")) }}
-                    {{/* Check if member has already been processed */}}
-                    {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
-                        {{/* Add the member to the scratch space */}}
-                        {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
-                        <tr>
-                            <td>{{ $data.first_name }} {{ $data.last_name }}</td>
-                            <td class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  >{{ $data.tardis_collaboration.start_year }}</td>
-                            <td style="text-align: right;">
-                                {{ range $index, $expertise := $data.tardis_collaboration.expertise }}
-                                    {{ if $index }}, {{ end }}{{ $expertise }}
-                                {{ end }}
-                            </td>
-                        </tr>
-                    {{ end }}
-                {{ end }}
+{{/* Iterate through the collaboration data */}}
+{{ range $key, $data := site.Data.members.collaboration }}
+    {{ if isset $data "tardis_collaboration" }}
+        {{ if and (isset $data.tardis_collaboration "start_year") (not (isset $data.tardis_collaboration "end_date")) }}
+            {{/* Check if member has already been processed */}}
+            {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
+                {{/* Add the member to the scratch space */}}
+                {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
+                
+                {{/* Use the provided HTML and CSS structure */}}
+                <div class="individual-container">
+                    <div class="info-container">
+                        <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
+                        <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
+                        <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">Since - {{ $data.tardis_collaboration.start_year }}</div>
+                        {{/* Replace "Roles" with "Expertise" */}}
+                       
+                            {{ range $data.tardis_collaboration.expertise }}
+                            <div class="role-box" style="font-size: small;"><a href="#{{ . | urlize }}">{{ . }}</a></div>
+                            {{ end }}
+                       
+                    </div>
+                </div>
             {{ end }}
         {{ end }}
-        
-    </tbody>
-</table>
+    {{ end }}
+{{ end }}
 
 
 

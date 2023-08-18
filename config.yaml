@@ -33,9 +33,9 @@ params:
           - label: Core Team
             url: /people/core
             style: dropdown-link
-          - label: Alumni
-            url: /people/alumni
-            style: dropdown-link
+         # - label: Alumni
+          #   url: /people/alumni
+           #  style: dropdown-link
           - label: Code of Conduct
             url: /code_of_conduct
             style: dropdown-link
@@ -62,16 +62,9 @@ params:
           - label: GSoC 2023 
             url: /gsoc/gsoc_2023
             style: dropdown-link
-            sub_items:  # This is the nested dropdown
-              - label: Sub Item 1
-                url: /gsoc/sub_item_1
-                style: dropdown-link
-              - label: Sub Item 2
-                url: /gsoc/sub_item_2
-                style: dropdown-link
-          - label: Past GSoC Years
-            url: /gsoc/past_people
-            style: dropdown-link
+          # - label: Past GSoC Years
+            # url: /gsoc/past_people
+             #style: dropdown-link
           - label: GSoC Checklist
             url: /gsoc/checklist
             style: dropdown-link
