@@ -1,18 +1,5 @@
 [
     {
-        "first_name": "Andrew",
-        "last_name": "Fullard",
-        "academic_role": "Collaboration Coordinator",
-        "secondary_role": "",
-        "image_path": "media/images/me.jpg",
-        "tardis_core_team": {
-            "start_year": 2011,
-            "role": [
-                "Core Contributor"
-            ]
-        }
-    },
-    {
         "first_name": "Wolfgang",
         "last_name": "Kerzendorf",
         "academic_role": "Principal Investigator",
@@ -23,6 +10,19 @@
             "role": [
                 "Principal Investigator",
                 "DEI convenor"
+            ]
+        }
+    },
+    {
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "academic_role": "Collaboration Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/me.jpg",
+        "tardis_core_team": {
+            "start_year": 2011,
+            "role": [
+                "Core Contributor"
             ]
         }
     }

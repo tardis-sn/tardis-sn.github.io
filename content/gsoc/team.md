@@ -22,12 +22,12 @@ GSoC 2023 was made possible by following members:
 ### GSoC Org-Admins
 Org admins coordinate participation of TARDIS in the Google Summer of Code. They complete all administrative tasks like submitting the application to participate, requesting slots, ensuring that mentors fill out evaluations in a timely fashion, etc. They may also act as mentors simultaneously during the GSoC.
 <div class ="picture-grid">
-{{< org-admin >}}
+{{< gsoc_org-admin >}}
 </div>
 
 ### GSoC 2023 Students
 <div class ="picture-grid">
-{{< participants >}}
+{{< gsoc_participants >}}
 </div>
 
 
@@ -36,7 +36,7 @@ Mentors are people from the community who volunteer to work with a Google
 Summer of Code student. Mentors provide guidance, feedback and act as 
 ambassadors to help students integrate into the TARDIS community.  
 <div class ="picture-grid">
-{{< mentors >}}
+{{< gsoc_mentors >}}
 </div>
 
 ### Role Descriptions

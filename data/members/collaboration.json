@@ -1,18 +1,5 @@
 [
     {
-        "first_name": "Andrew",
-        "last_name": "Fullard",
-        "academic_role": "Collaboration Coordinator",
-        "secondary_role": "",
-        "image_path": "media/images/me.jpg",
-        "tardis_collaboration": {
-            "start_year": 2014,
-            "expertise": [
-                "Collaboration Coordinator"
-            ]
-        }
-    },
-    {
         "first_name": "Wolfgang",
         "last_name": "Kerzendorf",
         "academic_role": "Principal Investigator",
@@ -24,6 +11,19 @@
                 "Type Ia supernovae",
                 "Emulators",
                 "Statistics"
+            ]
+        }
+    },
+    {
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "academic_role": "Collaboration Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/me.jpg",
+        "tardis_collaboration": {
+            "start_year": 2014,
+            "expertise": [
+                "Collaboration Coordinator"
             ]
         }
     }

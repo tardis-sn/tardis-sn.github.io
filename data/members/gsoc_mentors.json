@@ -1,16 +1,22 @@
 [
     {
-        "first_name": "Andrew",
-        "last_name": "Fullard",
-        "academic_role": "Collaboration Coordinator",
-        "secondary_role": "",
-        "image_path": "media/images/me.jpg",
+        "first_name": "Wolfgang",
+        "last_name": "Kerzendorf",
+        "academic_role": "Principal Investigator",
+        "secondary_role": "(Founder), DEI",
+        "image_path": "media/images/wolfgang.jpg",
         "gsoc_mentorship": [
             {
                 "year": 2023,
                 "mentee_ids": [
                     "shikha_rathi",
                     "aarya_chaumal"
+                ]
+            },
+            {
+                "year": 2021,
+                "mentee_ids": [
+                    "atharva_arya"
                 ]
             }
         ]
@@ -31,23 +37,17 @@
         ]
     },
     {
-        "first_name": "Wolfgang",
-        "last_name": "Kerzendorf",
-        "academic_role": "Principal Investigator",
-        "secondary_role": "(Founder), DEI",
-        "image_path": "media/images/wolfgang.jpg",
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "academic_role": "Collaboration Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/me.jpg",
         "gsoc_mentorship": [
             {
                 "year": 2023,
                 "mentee_ids": [
                     "shikha_rathi",
                     "aarya_chaumal"
-                ]
-            },
-            {
-                "year": 2021,
-                "mentee_ids": [
-                    "atharva_arya"
                 ]
             }
         ]
