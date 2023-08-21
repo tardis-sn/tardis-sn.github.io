@@ -1,17 +1,17 @@
 [
     {
-        "first_name": "Ayushi",
-        "last_name": "Daksh",
-        "image_path": "media/images/ayushi.jpg",
+        "first_name": "Ansh",
+        "last_name": "Kumar",
+        "image_path": "media/images/ansh.jpeg",
         "academic_role": "Participant",
         "secondary_role": "",
-        "id": "ayushi_daksh",
+        "id": "ansh_kumar",
         "gsoc_participation": [
             {
                 "year": 2023,
-                "project_title": "Grotrian Diagram Visualisation",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
-                "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
+                "project_title": "Simulation Restrcture",
+                "project_link": "",
+                "project_description": "The project aims to decouple the various Tardis simulation components and to integrate packet sampling where the inner boundary need not be fixed e.g. Gamma Ray Deposition packet sampling."
             }
         ]
     },
@@ -32,22 +32,6 @@
         ]
     },
     {
-        "first_name": "Aarya",
-        "last_name": "Chaumal",
-        "image_path": "media/images/aarya.png",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "aarya_chaumal",
-        "gsoc_participation": [
-            {
-                "year": 2023,
-                "project_title": "STARDIS Parallelization and GPU",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
-                "project_description": "Increase the speed of STARDIS using Numba by allowing slower parts of STARDIS to be run in parallel and allowing for them to be run on the GPU using Numba\u2019s CUDA capabilities if the user requires them."
-            }
-        ]
-    },
-    {
         "first_name": "William",
         "last_name": "Black",
         "image_path": "../me.jpeg",
@@ -64,18 +48,18 @@
         ]
     },
     {
-        "first_name": "Ansh",
-        "last_name": "Kumar",
-        "image_path": "media/images/ansh.jpeg",
+        "first_name": "Ayushi",
+        "last_name": "Daksh",
+        "image_path": "media/images/ayushi.jpg",
         "academic_role": "Participant",
         "secondary_role": "",
-        "id": "ansh_kumar",
+        "id": "ayushi_daksh",
         "gsoc_participation": [
             {
                 "year": 2023,
-                "project_title": "Simulation Restrcture",
-                "project_link": "",
-                "project_description": "The project aims to decouple the various Tardis simulation components and to integrate packet sampling where the inner boundary need not be fixed e.g. Gamma Ray Deposition packet sampling."
+                "project_title": "Grotrian Diagram Visualisation",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
+                "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
             }
         ]
     },
@@ -95,6 +79,22 @@
                 "mentors": [
                     "harshul_gupta"
                 ]
+            }
+        ]
+    },
+    {
+        "first_name": "Aarya",
+        "last_name": "Chaumal",
+        "image_path": "media/images/aarya.png",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "aarya_chaumal",
+        "gsoc_participation": [
+            {
+                "year": 2023,
+                "project_title": "STARDIS Parallelization and GPU",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
+                "project_description": "Increase the speed of STARDIS using Numba by allowing slower parts of STARDIS to be run in parallel and allowing for them to be run on the GPU using Numba\u2019s CUDA capabilities if the user requires them."
             }
         ]
     }

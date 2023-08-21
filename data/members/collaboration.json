@@ -28,5 +28,19 @@
                 "Collaboration Coordinator"
             ]
         }
+    },
+    {
+        "first_name": "Jing",
+        "last_name": "Lu",
+        "academic_role": "Contributor",
+        "secondary_role": "",
+        "image_path": "media/images/jing.jpg",
+        "id": "jing_lu",
+        "tardis_collaboration": {
+            "start_year": 2023,
+            "expertise": [
+                ""
+            ]
+        }
     }
 ]

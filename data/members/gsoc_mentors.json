@@ -1,11 +1,42 @@
 [
     {
+        "first_name": "Bea",
+        "last_name": "Lu",
+        "academic_role": "",
+        "secondary_role": "",
+        "image_path": "media/images/bea_lu.jpg",
+        "id": "bea_lu",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
         "first_name": "Wolfgang",
         "last_name": "Kerzendorf",
         "academic_role": "Principal Investigator",
         "secondary_role": "(Founder), DEI",
         "image_path": "media/images/wolfgang.jpg",
         "id": "wolfgang_kerzendorf",
+        "tardis_collaboration": {
+            "start_year": 2011,
+            "expertise": [
+                "Type Ia supernovae",
+                "Emulators",
+                "Statistics"
+            ]
+        },
+        "tardis_core_team": {
+            "start_year": 2011,
+            "role": [
+                "Principal Investigator",
+                "DEI convenor"
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -18,6 +49,83 @@
                 "year": 2021,
                 "mentee_ids": [
                     "atharva_arya"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Christian",
+        "last_name": "Vogl",
+        "image_path": "media/images/christian.jpeg",
+        "academic_role": "Atomic Data Coordinator",
+        "secondary_role": "",
+        "id": "christian_vogl",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "academic_role": "Collaboration Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/me.jpg",
+        "id": "andrew_fullard",
+        "tardis_collaboration": {
+            "start_year": 2014,
+            "expertise": [
+                "Collaboration Coordinator"
+            ]
+        },
+        "tardis_core_team": {
+            "start_year": 2011,
+            "role": [
+                "Core Contributor"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi",
+                    "aarya_chaumal"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Josh",
+        "last_name": "Shields",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/josh_photo.jpg",
+        "id": "josh_shields",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Alexander",
+        "last_name": "Holas",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "alexander_holas",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
                 ]
             }
         ]
@@ -39,18 +147,230 @@
         ]
     },
     {
-        "first_name": "Andrew",
-        "last_name": "Fullard",
-        "academic_role": "Collaboration Coordinator",
+        "first_name": "Andreas",
+        "last_name": "Flors",
+        "image_path": "media/images/andreas.jpeg",
+        "academic_role": "PR/Issues Coordinator",
         "secondary_role": "",
-        "image_path": "media/images/me.jpg",
-        "id": "andrew_fullard",
+        "id": "andreas_flors",
         "gsoc_mentorship": [
             {
                 "year": 2023,
                 "mentee_ids": [
-                    "shikha_rathi",
-                    "aarya_chaumal"
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Mark",
+        "last_name": "Magee",
+        "image_path": "../me.jpeg",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "id": "mark_magee",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Jack",
+        "last_name": "O'Brien",
+        "academic_role": "Education Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/jack.jpg",
+        "id": "jack_o_brien",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "James",
+        "last_name": "Gillanders",
+        "image_path": "media/images/james.jpeg",
+        "academic_role": "Visualization Coordinator",
+        "secondary_role": "",
+        "id": "james_gillanders",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Jaladh",
+        "last_name": "Singhal",
+        "academic_role": "Education Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/jaladh.jpg",
+        "id": "jaladh_singhal",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Isaac",
+        "last_name": "Smith",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/isaac_image.jpg",
+        "id": "isaac_smith",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Anirban ",
+        "last_name": "Dutta",
+        "academic_role": "",
+        "secondary_role": "",
+        "image_path": "media/images/anirban_dutta.jpg",
+        "id": "anirban_dutta",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Aiofe",
+        "last_name": "Boyle",
+        "image_path": "../me.jpeg",
+        "academic_role": "",
+        "secondary_role": "",
+        "id": "aiofe_boyle",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Ezequiel",
+        "last_name": "Passaro",
+        "image_path": "../me.jpeg",
+        "academic_role": "Infrastructure Coordinator",
+        "secondary_role": "",
+        "id": "ezequiel_passaro",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Yuki",
+        "last_name": "Matsumura",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/yuki_face.png",
+        "id": "yuki_matsumura",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Jing",
+        "last_name": "Lu",
+        "academic_role": "Contributor",
+        "secondary_role": "",
+        "image_path": "media/images/jing.jpg",
+        "id": "jing_lu",
+        "tardis_collaboration": {
+            "start_year": 2023,
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Eva",
+        "last_name": "Laplace",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "id": "eva_laplace",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Sona",
+        "last_name": "Chitchyan",
+        "academic_role": "PhD Student",
+        "secondary_role": "",
+        "image_path": "media/images/sona_photo.jpg",
+        "id": "sona_chitchyan",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Vicente",
+        "last_name": " Amado Olivo",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/ESD_headshot.jpg",
+        "id": "vicente_amado",
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
                 ]
             }
         ]
