@@ -6,6 +6,12 @@
         "secondary_role": "",
         "image_path": "media/images/bea_lu.jpg",
         "id": "bea_lu",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -60,6 +66,12 @@
         "academic_role": "Atomic Data Coordinator",
         "secondary_role": "",
         "id": "christian_vogl",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -105,6 +117,12 @@
         "secondary_role": "",
         "image_path": "media/images/josh_photo.jpg",
         "id": "josh_shields",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -121,6 +139,12 @@
         "academic_role": "Core Alumni",
         "secondary_role": "",
         "id": "alexander_holas",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -137,6 +161,12 @@
         "secondary_role": "",
         "image_path": "media/images/harshul.jpeg",
         "id": "harshul_gupta",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -153,6 +183,12 @@
         "academic_role": "PR/Issues Coordinator",
         "secondary_role": "",
         "id": "andreas_flors",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -169,6 +205,12 @@
         "academic_role": "Mentor",
         "secondary_role": "",
         "id": "mark_magee",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -185,6 +227,12 @@
         "secondary_role": "",
         "image_path": "media/images/jack.jpg",
         "id": "jack_o_brien",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -201,6 +249,12 @@
         "academic_role": "Visualization Coordinator",
         "secondary_role": "",
         "id": "james_gillanders",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -217,6 +271,12 @@
         "secondary_role": "",
         "image_path": "media/images/jaladh.jpg",
         "id": "jaladh_singhal",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -233,6 +293,12 @@
         "secondary_role": "",
         "image_path": "media/images/isaac_image.jpg",
         "id": "isaac_smith",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -249,6 +315,12 @@
         "secondary_role": "",
         "image_path": "media/images/anirban_dutta.jpg",
         "id": "anirban_dutta",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -265,6 +337,12 @@
         "academic_role": "",
         "secondary_role": "",
         "id": "aiofe_boyle",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -281,6 +359,12 @@
         "academic_role": "Infrastructure Coordinator",
         "secondary_role": "",
         "id": "ezequiel_passaro",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -297,6 +381,12 @@
         "secondary_role": "",
         "image_path": "media/images/yuki_face.png",
         "id": "yuki_matsumura",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -334,6 +424,12 @@
         "image_path": "../me.jpeg",
         "academic_role": "Participant",
         "id": "eva_laplace",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -350,6 +446,12 @@
         "secondary_role": "",
         "image_path": "media/images/sona_photo.jpg",
         "id": "sona_chitchyan",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -366,6 +468,12 @@
         "secondary_role": "",
         "image_path": "media/images/ESD_headshot.jpg",
         "id": "vicente_amado",
+        "tardis_collaboration": {
+            "start_year": "",
+            "expertise": [
+                ""
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
