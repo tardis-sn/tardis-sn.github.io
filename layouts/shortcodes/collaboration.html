@@ -1,7 +1,7 @@
 {{/* Iterate through the collaboration data */}}
 {{ range $key, $data := site.Data.members.collaboration }}
     {{ if isset $data "tardis_collaboration" }}
-        {{ if and (isset $data.tardis_collaboration "start_year") (not (isset $data.tardis_collaboration "end_date")) }}
+        {{ if and (isset $data.tardis_collaboration "start_date") (not (isset $data.tardis_collaboration "end_date")) }}
             {{/* Check if member has already been processed */}}
             {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
                 {{/* Add the member to the scratch space */}}
@@ -12,7 +12,7 @@
                     <div class="info-container">
                         <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
                         <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
-                        <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">Since - {{ $data.tardis_collaboration.start_year }}</div>
+                        <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">Since - {{ $data.tardis_collaboration.start_date }}</div>
                         {{/* Replace "Roles" with "Expertise" */}}
                        
                             {{ range $data.tardis_collaboration.expertise }}
