@@ -40,7 +40,7 @@ params:
             url: /code_of_conduct
             style: dropdown-link
           - label: Governance
-            url: collaboration/governance
+            url: /people/governance
             style: dropdown-link
       - label: Research
         url: /research
