@@ -8,7 +8,7 @@
                 <div class="info-container">
                     <img class="rounded-picture" src="../../members/{{ $member.id }}/{{ $member.image_path }}">
                     <div class="person-name">{{ $member.first_name }} {{ $member.last_name }}</div>
-                    <div class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  >Since - {{ .start_date }}</div>
+                    <div class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  >Since - {{ substr .start_date -4 4 }}</div>
                     {{ range .role }}
                         <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
                     {{ end }}
