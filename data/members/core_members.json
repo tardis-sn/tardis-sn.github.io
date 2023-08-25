@@ -1,28 +1,5 @@
 [
     {
-        "first_name": "Wolfgang",
-        "last_name": "Kerzendorf",
-        "academic_role": "Principal Investigator",
-        "secondary_role": "(Founder), DEI",
-        "image_path": "media/images/wolfgang.jpg",
-        "id": "wolfgang_kerzendorf",
-        "tardis_collaboration": {
-            "start_year": 2011,
-            "expertise": [
-                "Type Ia supernovae",
-                "Emulators",
-                "Statistics"
-            ]
-        },
-        "tardis_core_team": {
-            "start_year": 2011,
-            "role": [
-                "Principal Investigator",
-                "DEI convenor"
-            ]
-        }
-    },
-    {
         "first_name": "Andrew",
         "last_name": "Fullard",
         "academic_role": "Collaboration Coordinator",
@@ -30,15 +7,38 @@
         "image_path": "media/images/me.jpg",
         "id": "andrew_fullard",
         "tardis_collaboration": {
-            "start_year": 2014,
+            "start_date": "08-01-2020",
             "expertise": [
                 "Collaboration Coordinator"
             ]
         },
         "tardis_core_team": {
-            "start_year": 2011,
+            "start_date": "08-01-2020",
             "role": [
                 "Core Contributor"
+            ]
+        }
+    },
+    {
+        "first_name": "Wolfgang",
+        "last_name": "Kerzendorf",
+        "academic_role": "Principal Investigator",
+        "secondary_role": "(Founder), DEI",
+        "image_path": "media/images/wolfgang.jpg",
+        "id": "wolfgang_kerzendorf",
+        "tardis_collaboration": {
+            "start_date": 2011,
+            "expertise": [
+                "Type Ia supernovae",
+                "Emulators",
+                "Statistics"
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": 2011,
+            "role": [
+                "Principal Investigator",
+                "DEI convenor"
             ]
         }
     }
