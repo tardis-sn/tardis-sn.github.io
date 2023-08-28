@@ -34,6 +34,12 @@
                 ""
             ]
         },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Community Coordinator"
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -105,6 +111,12 @@
             "start_date": "",
             "expertise": [
                 ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "PR/Issues Coordinator"
             ]
         },
         "gsoc_mentorship": [
@@ -238,6 +250,12 @@
                 ""
             ]
         },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Visualization Coordinator"
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -320,6 +338,12 @@
                 ""
             ]
         },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Infrastructure Coordinator"
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -340,6 +364,12 @@
             "start_date": "",
             "expertise": [
                 ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Education Coordinator"
             ]
         },
         "gsoc_mentorship": [
@@ -448,6 +478,12 @@
             "start_date": "",
             "expertise": [
                 ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Atomic Data Coordinator"
             ]
         },
         "gsoc_mentorship": [

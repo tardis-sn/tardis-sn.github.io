@@ -46,6 +46,12 @@
                 ""
             ]
         },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Education Coordinator"
+            ]
+        },
         "gsoc_mentorship": [
             {
                 "year": 2023,
@@ -70,6 +76,12 @@
         "gsoc_org_admin": {
             "years": [
                 2023
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Financial Coordinator"
             ]
         }
     },
