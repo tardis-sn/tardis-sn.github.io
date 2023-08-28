@@ -1,23 +1,23 @@
-{{/* Iterate through the collaboration data */}}
+
 {{ range $key, $data := site.Data.members.collaboration }}
     {{ if isset $data "tardis_collaboration" }}
         {{ if and (isset $data.tardis_collaboration "start_date") (not (isset $data.tardis_collaboration "end_date")) }}
-            {{/* Check if member has already been processed */}}
+
             {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
-                {{/* Add the member to the scratch space */}}
+
                 {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
                 
-                {{/* Use the provided HTML and CSS structure */}}
+              
                 <div class="individual-container">
                     <div class="info-container">
                         <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
                         <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
-                        <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">Since - {{ $data.tardis_collaboration.start_date }}</div>
-                        {{/* Replace "Roles" with "Expertise" */}}
+                        <!--<div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);"> Since - {{ $data.tardis_collaboration.start_date }}</div>
+           
                        
                             {{ range $data.tardis_collaboration.expertise }}
                             <div class="role-box" style="font-size: small;"><a href="#{{ . | urlize }}">{{ . }}</a></div>
-                            {{ end }}
+                            {{ end }}-->
                        
                     </div>
                 </div>
@@ -28,21 +28,3 @@
 
 
 
-<script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-    const table = document.querySelector("tbody");
-    const rows = Array.from(table.rows);
-
-    rows.sort((a, b) => {
-        const nameA = a.cells[0].innerText.toUpperCase();
-        const nameB = b.cells[0].innerText.toUpperCase();
-
-        if (nameA < nameB) return -1;
-        if (nameA > nameB) return 1;
-        return 0;
-    });
-
-    rows.forEach(row => table.appendChild(row));
-});
-
-</script>
