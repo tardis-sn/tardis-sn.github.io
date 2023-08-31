@@ -1,0 +1,113 @@
+[
+    {
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "academic_role": "Collaboration Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/me.jpg",
+        "id": "andrew_fullard",
+        "tardis_collaboration": {
+            "start_date": "08-01-2020",
+            "expertise": [
+                "Collaboration Coordinator"
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "08-01-2020",
+            "role": [
+                "Core Contributor"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi",
+                    "aarya_chaumal"
+                ]
+            }
+        ],
+        "gsoc_org_admin": {
+            "years": [
+                2023
+            ]
+        }
+    },
+    {
+        "first_name": "Jack",
+        "last_name": "O'Brien",
+        "academic_role": "Education Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/jack.jpg",
+        "id": "jack_o_brien",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Education Coordinator"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ],
+        "gsoc_org_admin": {
+            "years": [
+                2023
+            ]
+        }
+    },
+    {
+        "first_name": "Marc",
+        "last_name": "Williamson",
+        "image_path": "media/images/marc.jpeg",
+        "academic_role": "Financial Coordinator",
+        "secondary_role": "",
+        "id": "marc_williamson",
+        "gsoc_org_admin": {
+            "years": [
+                2023
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Financial Coordinator"
+            ]
+        }
+    },
+    {
+        "first_name": "Atharva",
+        "last_name": "Arya",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "image_path": "media/images/atharva.jpg",
+        "id": "atharva_arya",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": []
+            }
+        ],
+        "gsoc_org_admin": {
+            "years": [
+                2023
+            ]
+        }
+    }
+]

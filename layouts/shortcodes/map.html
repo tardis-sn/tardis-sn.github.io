@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        #map {
+            height: 600px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([20, 0], 2);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // create custom icon
+        var myIcon = L.icon({
+            iconUrl: '../../images/pointer.png',
+            iconSize: [15, 22], // Display size
+            iconAnchor: [7.5, 22], // bottom middle of your displayed icon size
+            popupAnchor: [0, -22] // Adjusted to appear above the displayed icon
+        });
+
+        // Iterate through locations data
+        {{ range .Site.Data.locations }}
+        var latitude = {{ .latitude }};
+        var longitude = {{ .longitude }};
+        if (latitude && longitude) {
+            var popupText = '{{ .city | default "Unknown city" }}, {{ .state | default "Unknown state" }}, {{ .country | default "Unknown country" }}';
+            L.marker([latitude, longitude], {icon: myIcon}).addTo(map)
+                .bindPopup(popupText).openPopup();
+        }
+        {{ end }}
+    </script>
+
+</body>
+</html>

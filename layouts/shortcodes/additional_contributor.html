@@ -1,0 +1,16 @@
+{{ range $key, $data := site.Data.members }}
+{{ if isset $data "years" }}
+    {{ $presentYear := now.Year }}
+    {{ $yearData := index $data.years (string $presentYear) }}
+    {{ if $yearData }}
+        {{ if in $yearData.role "additional_contributor" }}
+            <div class="individual-container">
+                <div class="info-container">
+                    <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
+                    <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
+ </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}

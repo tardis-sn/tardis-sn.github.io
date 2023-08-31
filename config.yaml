@@ -23,21 +23,24 @@ params:
           - label: carsus package
             url: https://tardis-sn.github.io/carsus
             style: redirect-link
-      - label: Team
-        url: /team
+      - label: People
+        url: /people
         style: dropdown
         sub_items:
+          - label: Collaboration
+            url: /people/collaboration
+            style: dropdown-link
+          - label: Core Team
+            url: /people/core
+            style: dropdown-link
+         # - label: Alumni
+          #   url: /people/alumni
+           #  style: dropdown-link
           - label: Code of Conduct
             url: /code_of_conduct
             style: dropdown-link
-          - label: Community Roles
-            url: /team/community_roles
-            style: dropdown-link
-          - label: Collaboration
-            url: /team/collaboration
-            style: dropdown-link
           - label: Governance
-            url: team/governance
+            url: /people/governance
             style: dropdown-link
       - label: Research
         url: /research
@@ -49,31 +52,28 @@ params:
           - label: Presentations
             url: /research/presentations
             style: dropdown-link
+      - label: GSoC
+        url: /gsoc
+        style: dropdown
+        sub_items:
+          - label: GSoC with TARDIS!
+            url: /gsoc/gsoc_home
+            style: dropdown-link
+          - label: GSoC 2023 
+            url: /gsoc/gsoc_2023
+            style: dropdown-link
+          # - label: Past GSoC Years
+            # url: /gsoc/past_people
+             #style: dropdown-link
+          - label: GSoC Checklist
+            url: /gsoc/checklist
+            style: dropdown-link
+          - label: Other Requirements
+            url: /gsoc/other_requirements
+            style: dropdown-link
       - label: Credits
         url: /credits
         style: link
-      - label: GSoC
-        url: /gsoc_2023
-        style: dropdown
-        sub_items:
-          - label: Welcome to GSoC with TARDIS!
-            url: /gsoc_2023/gsoc_home
-            style: dropdown-link
-          - label: 2023 Ideas
-            url: /gsoc_2023/ideas
-            style: dropdown-link
-          - label: GSoC Checklist
-            url: /gsoc_2023/checklist
-            style: dropdown-link
-          - label: Participation Expectations
-            url: /gsoc_2023/expectations
-            style: dropdown-link
-          - label: Application Guidelines
-            url: /gsoc_2023/guidelines
-            style: dropdown-link
-          - label: Application Requirements
-            url: /gsoc_2023/requirements
-            style: dropdown-link
       # - label: News
       #   url: /news
       #   style: link #primary is another style available
