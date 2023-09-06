@@ -1,42 +1,9 @@
 ---
-title: "GSoC 2023"
+title: "GSoC 2023 Ideas"
 date: 2021-05-28T09:44:45-05:00
 draft: false
 layout: page
 ---
-<!----
-<style>
-#myDIV {
-
-  display: none; }
-</style>
-<body>
-
-
-<h1 onclick="myFunction()" style="font-size: xx-large; cursor:pointer;">
--->
-<h1 style="font-size: xx-large;  color:black;">
-<a href="#ideas">
-View Ideas for GSoC 2023
-</a>
-</h1>
-
-<h1 style="font-size: xx-large;  color:black;">
-<a href="#admin-mentor">
-View GSoC 2023 Org Admins & Mentors
-
-</a>
-</h1>
-
-<h1 style="font-size: xx-large;  color:black;">
-<a href="#participants">
-View GSoC 2023 Participants
-
-</a>
-</h1>
-
-<div id="ideas">
-</div>
 
 ### Astronomy and Astrophysics Background:
 A [supernova](https://en.wikipedia.org/wiki/Supernova) (here we show SN1994D in the Galaxy NGC4526 - image source: wikipedia) marks the brilliant death throes of a star, during which it outshines its entire galaxy. It not only marks death, though: supernova ejecta change the evolution of the universe and enable the formation of planets and life as we know it. From the iron in your blood to the silicon in your laptop, supernovae return heavy elements assembled from the primordial hydrogen and helium left after the big bang.
@@ -140,56 +107,3 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 **Description:** Carsus generates an HDF file by combining atom data from various sources(CMFGEN, Chianti, NIST, to name a few). This HDF file is then used by TARDIS to generate the atomic spectra. When a new version of the atomic source rolls out, we don’t have a way to determine what changes have crept in. In this project you’d be asked to create a GitHub repository and determine a way to check when a new version of the atomic data source is available and its comparison to the previous versions. Carsus should then use this latest version to generate its atomic file.
 \
 **First objective:** Run the Carsus Quickstart with two different versions of Chianti and compare the generated atomic files using the Atom Data Comparison notebook. 
-
-<!--
-
-</div>
-
-
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  var displayStyle = window.getComputedStyle(x).getPropertyValue("display");
-  if (displayStyle === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-
-</body>
-
--->
-<div id="admin-mentor">
-</div>
-
-## GSoC 2023 Org Admins & Mentors { .anchor-offset}
-
-GSoC 2023 was made possible by following members:
-
-### GSoC Org-Admins
-Org admins coordinate participation of TARDIS in the Google Summer of Code. They complete all administrative tasks like submitting the application to participate, requesting slots, ensuring that mentors fill out evaluations in a timely fashion, etc. They may also act as mentors simultaneously during the GSoC.
-<div class ="picture-grid">
-{{< gsoc_org_admin >}}
-</div>
-
-
-### GSoC 2023 Mentors   
-Mentors are people from the community who volunteer to work with a Google 
-Summer of Code student. Mentors provide guidance, feedback and act as 
-ambassadors to help students integrate into the TARDIS community.  
-<div class ="picture-grid">
-{{< gsoc_mentors >}}
-</div>
-
-
-<div id="participants">
-</div>
-
-### GSoC 2023 Participants
-<div class ="picture-grid">
-{{< gsoc_participants >}}
-</div>
-
