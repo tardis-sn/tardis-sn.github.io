@@ -59,12 +59,12 @@ params:
           - label: GSoC with TARDIS!
             url: /gsoc/gsoc_home
             style: dropdown-link
-          - label: GSoC 2023 
-            url: /gsoc/gsoc_2023
+          - label: GSoC 2023 Ideas
+            url: /gsoc/ideas
             style: dropdown-link
-          # - label: Past GSoC Years
-            # url: /gsoc/past_people
-             #style: dropdown-link
+          - label: GSoC 2023 Team
+            url: /gsoc/people
+            style: dropdown-link
           - label: GSoC Checklist
             url: /gsoc/checklist
             style: dropdown-link
