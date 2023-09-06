@@ -33,9 +33,6 @@ params:
           - label: Core Team
             url: /people/core
             style: dropdown-link
-         # - label: Alumni
-          #   url: /people/alumni
-           #  style: dropdown-link
           - label: Code of Conduct
             url: /code_of_conduct
             style: dropdown-link
@@ -74,9 +71,7 @@ params:
       - label: Credits
         url: /credits
         style: link
-      # - label: News
-      #   url: /news
-      #   style: link #primary is another style available
+
   footer:
     sections:
       - type: footer_text
