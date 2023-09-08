@@ -49,24 +49,24 @@ params:
           - label: Presentations
             url: /research/presentations
             style: dropdown-link
-      - label: GSoC
-        url: /gsoc
+      - label: Gsoc
+        url: /summer
         style: dropdown
         sub_items:
           - label: GSoC with TARDIS!
-            url: /gsoc/gsoc_home
+            url: /summer/gsoc_home
             style: dropdown-link
           - label: GSoC 2023 Ideas
-            url: /gsoc/ideas
+            url: /summer/ideas
             style: dropdown-link
           - label: GSoC 2023 Team
-            url: /gsoc/people
+            url: /summer/people
             style: dropdown-link
           - label: GSoC Checklist
-            url: /gsoc/checklist
+            url: /summer/checklist
             style: dropdown-link
           - label: Other Requirements
-            url: /gsoc/other_requirements
+            url: /summer/other_requirements
             style: dropdown-link
       - label: Credits
         url: /credits
