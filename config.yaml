@@ -54,19 +54,19 @@ params:
         style: dropdown
         sub_items:
           - label: GSoC with TARDIS!
-            url: /summer/gsoc_home
+            url: /gsoc/gsoc_home
             style: dropdown-link
           - label: GSoC 2023 Ideas
-            url: /summer/ideas
+            url: /gsoc/ideas
             style: dropdown-link
           - label: GSoC 2023 Team
-            url: /summer/people
+            url: /gsoc/people
             style: dropdown-link
           - label: GSoC Checklist
-            url: /summer/checklist
+            url: /gsoc/checklist
             style: dropdown-link
           - label: Other Requirements
-            url: /summer/other_requirements
+            url: /gsoc/other_requirements
             style: dropdown-link
       - label: Credits
         url: /credits
