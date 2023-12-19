@@ -1,0 +1,30 @@
+
+{{ range $key, $data := site.Data.members.collaboration }}
+    {{ if isset $data "tardis_collaboration" }}
+        {{ if and (isset $data.tardis_collaboration "start_date") (and (isset $data.tardis_collaboration "end_date")) }}
+
+            {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
+
+                {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
+                
+              
+                <div class="individual-container">
+                    <div class="info-container">
+                        <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
+                        <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
+                        <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);"> {{ $data.tardis_collaboration.start_date }} - {{ $data.tardis_collaboration.end_date }}</div>
+           
+                       
+                            {{ range $data.tardis_collaboration.expertise }}
+                            <div class="role-box" style="font-size: small;"><a href="#{{ . | urlize }}">{{ . }}</a></div>
+                            {{ end }}
+                       
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+
+

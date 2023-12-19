@@ -1,4 +1,4 @@
-title: TARDIS Past
+title: TARDIS
 baseURL: https://tardis-sn.github.io/
 canonifyurls: true
 params:
@@ -33,6 +33,12 @@ params:
           - label: Core Team
             url: /people/core
             style: dropdown-link
+          - label: Past Core Members
+            url: /people/past_core_members
+            style: dropdown-link
+          - label: Past Collaborators
+            url: /people/past_collaborators
+            style: dropdown-link
           - label: Code of Conduct
             url: /code_of_conduct
             style: dropdown-link
@@ -60,7 +66,10 @@ params:
             url: /summer_of_code/ideas
             style: dropdown-link
           - label: GSoC 2023 Team
-            url: /summer_of_code/people
+            url: /summer_of_code/current_gsoc_team
+            style: dropdown-link
+          - label: Past GSoC Team
+            url: /summer_of_code/past_gsoc_team
             style: dropdown-link
           - label: GSoC Checklist
             url: /summer_of_code/checklist

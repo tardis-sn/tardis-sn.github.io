@@ -1,5 +1,85 @@
 [
     {
+        "first_name": "Ansh",
+        "last_name": "Kumar",
+        "image_path": "media/images/ansh.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "ansh_kumar",
+        "gsoc_participation": [
+            {
+                "year": 2023,
+                "project_title": "Simulation Restrcture",
+                "project_link": "",
+                "project_description": "The project aims to decouple the various Tardis simulation components and to integrate packet sampling where the inner boundary need not be fixed e.g. Gamma Ray Deposition packet sampling."
+            }
+        ]
+    },
+    {
+        "first_name": "Jayant",
+        "last_name": "Bhakar",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "jayant_bhakar",
+        "gsoc_participation": [
+            {
+                "year": 2022,
+                "project_title": "Monte Carlo 2D Packet Visualization",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
+                "project_description": ""
+            }
+        ]
+    },
+    {
+        "first_name": "William",
+        "last_name": "Black",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "william_black",
+        "gsoc_participation": [
+            {
+                "year": 2023,
+                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
+                "project_description": ""
+            }
+        ]
+    },
+    {
+        "first_name": "Gaurav",
+        "last_name": "Gautam",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "gaurav_gautam",
+        "gsoc_participation": [
+            {
+                "year": 2015,
+                "project_title": "TARDIS graphical user interface",
+                "project_link": "",
+                "project_description": ""
+            }
+        ]
+    },
+    {
+        "first_name": "Jeff",
+        "last_name": "Taylor",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "jeff_taylor",
+        "gsoc_participation": [
+            {
+                "year": 2013,
+                "project_title": "Wavelength calibration",
+                "project_link": "",
+                "project_description": ""
+            }
+        ]
+    },
+    {
         "first_name": "Aarya",
         "last_name": "Chaumal",
         "image_path": "media/images/aarya.png",
@@ -32,38 +112,6 @@
         ]
     },
     {
-        "first_name": "Ayushi",
-        "last_name": "Daksh",
-        "image_path": "media/images/ayushi.jpg",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "ayushi_daksh",
-        "gsoc_participation": [
-            {
-                "year": 2023,
-                "project_title": "Grotrian Diagram Visualisation",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
-                "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
-            }
-        ]
-    },
-    {
-        "first_name": "Ansh",
-        "last_name": "Kumar",
-        "image_path": "media/images/ansh.jpeg",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "ansh_kumar",
-        "gsoc_participation": [
-            {
-                "year": 2023,
-                "project_title": "Simulation Restrcture",
-                "project_link": "",
-                "project_description": "The project aims to decouple the various Tardis simulation components and to integrate packet sampling where the inner boundary need not be fixed e.g. Gamma Ray Deposition packet sampling."
-            }
-        ]
-    },
-    {
         "first_name": "Shikha",
         "last_name": "Rathi",
         "image_path": "media/images/shikha.jpg",
@@ -83,18 +131,18 @@
         ]
     },
     {
-        "first_name": "William",
-        "last_name": "Black",
-        "image_path": "../me.jpeg",
+        "first_name": "Ayushi",
+        "last_name": "Daksh",
+        "image_path": "media/images/ayushi.jpg",
         "academic_role": "Participant",
         "secondary_role": "",
-        "id": "william_black",
+        "id": "ayushi_daksh",
         "gsoc_participation": [
             {
                 "year": 2023,
-                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
-                "project_description": ""
+                "project_title": "Grotrian Diagram Visualisation",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
+                "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
             }
         ]
     }

@@ -1,0 +1,26 @@
+<table>
+    <thead>
+        <tr>
+            <th>Org Admin Name</th>
+            <th>Years</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $key, $data := site.Data.members.gsoc_org_admins }}
+            {{ $orgAdminName := printf "%s %s" $data.first_name $data.last_name }}
+            {{ $gsocYears := index $data "years" }}
+            {{ $orgAdminYears := slice }}
+            {{ range $year := $gsocYears }}
+                {{ if ne (printf "%v" $year) "2023" }}
+                    {{ $orgAdminYears = $orgAdminYears | append (printf "%v" $year) }}
+                {{ end }}
+            {{ end }}
+            {{ if gt (len $orgAdminYears) 0 }}
+                <tr>
+                    <td>{{ $orgAdminName }}</td>
+                    <td>{{ delimit $orgAdminYears ", " }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
+    </tbody>
+</table>
