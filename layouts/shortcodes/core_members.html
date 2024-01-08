@@ -1,21 +1,26 @@
-{{ $members := .Site.Data.members.core_members }}
-{{ $presentYear := now.Year }}
-
-{{ range $member := $members }}
-    {{ with $member.tardis_core_team }}
-        {{ if not .end_year }}
-            <div class="individual-container">
-                <div class="info-container">
-                    <img class="rounded-picture" src="../../members/{{ $member.id }}/{{ $member.image_path }}">
-                    <div class="person-name">{{ $member.first_name }} {{ $member.last_name }}</div>
-                    <div class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  > <!--Since - {{ substr .start_date -4 4 }}--> </div>
-                    {{ range .role }}
-                        <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
-                    {{ end }}
-                </div>
+{{ range $key, $member := .Site.Data.members.core_members }}
+    <div class="individual-container">
+        <div class="info-container">
+            <img class="rounded-picture" src="../../members/{{ $key }}/{{ $member.image_path }}">
+            <div class="person-name">{{ $member.first_name }} {{ $member.last_name }}</div>
+            <div class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  >
+                <!--Since - {{ substr .start_date -4 4 }}-->
             </div>
-        {{ end }}
-    {{ end }}
+            {{ with $member }}
+                {{ with .experiences }}
+                    {{range .}}
+                        {{ with .tardis_core_team}}
+                            {{range .role}}
+                                <div class="role-box">
+                                    <a href="#{{ . | urlize }}">{{ . }}</a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
 {{ end }}
 
 

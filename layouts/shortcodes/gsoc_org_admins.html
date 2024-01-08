@@ -1,14 +1,9 @@
 {{ range $key, $data := site.Data.members.gsoc_org_admin }}
-    {{ $gsoc_years := index $data "gsoc_org_admin" }}
-    {{ range $year := $gsoc_years.years }}
-        {{ if eq (printf "%v" $year) "2023" }}
-            <div class="individual-container">
-                <div class="info-container">
-                    <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
-                    <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>             
-                    <div style="font-size: small;" class="role-box">{{ $data.academic_role }}</div>
-                </div>
-            </div>
-        {{ end }}
-    {{ end }}
+    <div class="individual-container">
+        <div class="info-container">
+            <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
+            <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
+            <!-- <div style="font-size: small;" class="role-box">{{ $data.academic_role }}</div> -->
+        </div>
+    </div>
 {{ end }}
