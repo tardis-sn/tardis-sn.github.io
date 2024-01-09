@@ -33,11 +33,8 @@ params:
           - label: Core Team
             url: /people/core
             style: dropdown-link
-          - label: Past Core Members
-            url: /people/past_core_members
-            style: dropdown-link
-          - label: Past Collaborators
-            url: /people/past_collaborators
+          - label: Past Team Members
+            url: /people/past_team_members
             style: dropdown-link
           - label: Code of Conduct
             url: /code_of_conduct
