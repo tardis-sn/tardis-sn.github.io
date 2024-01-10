@@ -1,0 +1,152 @@
+[
+    {
+        "year": 2022,
+        "info": {
+            "jayant_bhakar": {
+                "full_name": "Jayant Bhakar",
+                "project_title": "Monte Carlo 2D Packet Visualization",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM"
+            },
+            "mikhail_mishin": {
+                "full_name": "Mikhail Mishin",
+                "project_title": "Carsus package for creating atomic datasets",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/"
+            },
+            "atharva_arya": {
+                "full_name": "Atharva Arya",
+                "project_title": "Improving the Carsus Testing Framework",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa"
+            },
+            "satwik_kambham": {
+                "full_name": "Satwik Kambham",
+                "project_title": "Resuming TARDIS Simulations from HDF",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK"
+            },
+            "rohith_buddaraju": {
+                "full_name": "Rohith Varma Buddaraju",
+                "project_title": "Tardis Setups Framework",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z"
+            }
+        }
+    },
+    {
+        "year": 2021,
+        "info": {
+            "dhruv_sondhi": {
+                "full_name": "Dhruv Sondhi",
+                "project_title": "TARDIS logging and packet tracking",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/"
+            },
+            "atharva_arya": {
+                "full_name": "Atharva Arya",
+                "project_title": "Visualization Tools for TARDIS",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568"
+            },
+            "arib_alam": {
+                "full_name": "Arib Alam",
+                "project_title": "Packet tracking",
+                "project_link": "Enter your link here"
+            },
+            "jenny_yu": {
+                "full_name": "Jenny Yu",
+                "project_title": "Abundance widget",
+                "project_link": "Enter your link here"
+            },
+            "yizheng_yu": {
+                "full_name": "Yizheng Yu",
+                "project_title": "Custom Abundance Widget",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/"
+            }
+        }
+    },
+    {
+        "year": 2020,
+        "info": {
+            "jordi_brown": {
+                "full_name": "Jordi Eguren Brown",
+                "project_title": "TARDIS Code restructure with factory method",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5699342318436352/"
+            }
+        }
+    },
+    {
+        "year": 2019,
+        "info": {
+            "youssef_eweis": {
+                "full_name": "Youssef Eweis",
+                "project_title": "Building a new atomic database",
+                "project_link": ""
+            }
+        }
+    },
+    {
+        "year": 2017,
+        "info": {
+            "vaibhav_gupta": {
+                "full_name": "Vaibhav Gupta",
+                "project_title": "Reading Simulation from file",
+                "project_link": ""
+            }
+        }
+    },
+    {
+        "year": 2016,
+        "info": {
+            "tomas_bylund": {
+                "full_name": "Tomas Bylund",
+                "project_title": "TARDIS formal integral",
+                "project_link": ""
+            },
+            "misha_mishkin": {
+                "full_name": "Misha Mishkin",
+                "project_title": "TARDIS/Carsus Atomic database",
+                "project_link": ""
+            },
+            "karan_desai": {
+                "full_name": "Karan Desai",
+                "project_title": "TARDIS testing framework",
+                "project_link": ""
+            },
+            "fotis_tsamis": {
+                "full_name": "Fotis Tsamis",
+                "project_title": "TARDIS various projects",
+                "project_link": ""
+            }
+        }
+    },
+    {
+        "year": 2015,
+        "info": {
+            "gaurav_gautam": {
+                "full_name": "Gaurav Gautam",
+                "project_title": "TARDIS graphical user interface",
+                "project_link": ""
+            }
+        }
+    },
+    {
+        "year": 2014,
+        "info": {
+            "shailesh_ahuja": {
+                "full_name": "Shailesh Ahuja",
+                "project_title": "Specutils readers/writers",
+                "project_link": ""
+            },
+            "mabry_cervin": {
+                "full_name": "Mabry Cervin",
+                "project_title": "Astropy correlated uncertainties",
+                "project_link": ""
+            }
+        }
+    },
+    {
+        "year": 2013,
+        "info": {
+            "jeff_taylor": {
+                "full_name": "Jeff Taylor",
+                "project_title": "Wavelength calibration",
+                "project_link": ""
+            }
+        }
+    }
+]
