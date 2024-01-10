@@ -1,557 +1,624 @@
-[
-    {
-        "first_name": "Andreas",
-        "last_name": "Flors",
-        "image_path": "media/images/andreas.jpeg",
-        "academic_role": "PR/Issues Coordinator",
-        "secondary_role": "",
-        "id": "andreas_flors",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "PR/Issues Coordinator"
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
+{
+    "jack_o_brien": {
         "first_name": "Jack",
         "last_name": "O'Brien",
-        "academic_role": "Education Coordinator",
-        "secondary_role": "",
+        "nick_name": "Jack",
         "image_path": "media/images/jack.jpg",
-        "id": "jack_o_brien",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Education Coordinator"
-            ]
-        },
-        "gsoc_mentorship": [
+        "experiences": [
             {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "tardis_core_team": {
+                    "start_date": "",
+                    "role": [
+                        "Education Coordinator"
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ],
+                "gsoc_org_admin": {
+                    "years": [
+                        2023
+                    ]
+                }
+            }
+        ]
+    },
+    "christian_vogl": {
+        "first_name": "Christian",
+        "last_name": "Vogl",
+        "nick_name": "",
+        "image_path": "media/images/christian.jpeg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "tardis_core_team": {
+                    "start_date": "",
+                    "role": [
+                        "Atomic Data Coordinator"
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
                 ]
             }
         ]
     },
-    {
-        "first_name": "Aiofe",
-        "last_name": "Boyle",
-        "image_path": "../me.jpeg",
-        "academic_role": "",
-        "secondary_role": "",
-        "id": "aiofe_boyle",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Jaladh",
-        "last_name": "Singhal",
-        "academic_role": "Education Coordinator",
-        "secondary_role": "",
-        "image_path": "media/images/jaladh.jpg",
-        "id": "jaladh_singhal",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Community Coordinator"
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    "william_black"
-                ]
-            },
-            {
-                "year": 2022,
-                "mentee_ids": [
-                    "atharva_arya"
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Jing",
-        "last_name": "Lu",
-        "academic_role": "Contributor",
-        "secondary_role": "",
-        "image_path": "media/images/jing.jpg",
-        "id": "jing_lu",
-        "tardis_collaboration": {
-            "start_date": 2023,
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Isaac",
-        "last_name": "Smith",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/isaac_image.jpg",
-        "id": "isaac_smith",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Anirban ",
-        "last_name": "Dutta",
-        "academic_role": "",
-        "secondary_role": "",
-        "image_path": "media/images/anirban_dutta.jpg",
-        "id": "anirban_dutta",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Atharva",
-        "last_name": "Arya",
-        "academic_role": "Core Alumni",
-        "secondary_role": "",
-        "image_path": "media/images/atharva.jpg",
-        "id": "atharva_arya",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    "shikha_rathi"
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "James",
-        "last_name": "Gillanders",
-        "image_path": "media/images/james.jpeg",
-        "academic_role": "Visualization Coordinator",
-        "secondary_role": "",
-        "id": "james_gillanders",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Visualization Coordinator"
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Wolfgang",
-        "last_name": "Kerzendorf",
-        "academic_role": "Principal Investigator",
-        "secondary_role": "(Founder), DEI",
-        "image_path": "media/images/wolfgang.jpg",
-        "id": "wolfgang_kerzendorf",
-        "tardis_collaboration": {
-            "start_date": 2011,
-            "expertise": [
-                "Type Ia supernovae",
-                "Emulators",
-                "Statistics"
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": 2011,
-            "role": [
-                "Principal Investigator",
-                "DEI convenor"
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    "shikha_rathi",
-                    "aarya_chaumal"
-                ]
-            },
-            {
-                "year": 2021,
-                "mentee_ids": [
-                    "atharva_arya"
-                ]
-            },
-            {
-                "year": 2020,
-                "mentee_ids": [
-                    "jaladh_singhal"
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Josh",
-        "last_name": "Shields",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/josh_photo.jpg",
-        "id": "josh_shields",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Yuki",
-        "last_name": "Matsumura",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/yuki_face.png",
-        "id": "yuki_matsumura",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Sona",
-        "last_name": "Chitchyan",
-        "academic_role": "PhD Student",
-        "secondary_role": "",
-        "image_path": "media/images/sona_photo.jpg",
-        "id": "sona_chitchyan",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
+    "eva_laplace": {
         "first_name": "Eva",
         "last_name": "Laplace",
         "image_path": "../me.jpeg",
-        "academic_role": "Participant",
-        "id": "eva_laplace",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
+        "experiences": [
             {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
                 ]
             }
         ]
     },
-    {
+    "james_gillanders": {
+        "first_name": "James",
+        "last_name": "Gillanders",
+        "nick_name": "",
+        "image_path": "media/images/james.jpeg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "tardis_core_team": {
+                    "start_date": "",
+                    "role": [
+                        "Visualization Coordinator"
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "josh_shields": {
+        "first_name": "Joshua",
+        "last_name": "Shields",
+        "nick_name": "Josh",
+        "image_path": "media/images/josh_photo.jpg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "andreas_flors": {
+        "first_name": "Andreas",
+        "last_name": "Flors",
+        "nick_name": "",
+        "image_path": "media/images/andreas.jpeg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "tardis_core_team": {
+                    "start_date": "",
+                    "role": [
+                        "PR/Issues Coordinator"
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "aiofe_boyle": {
+        "first_name": "Aiofe",
+        "last_name": "Boyle",
+        "nick_name": "",
+        "image_path": "../me.jpeg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "vicente_amado": {
         "first_name": "Vicente",
         "last_name": " Amado Olivo",
-        "academic_role": "Mentor",
-        "secondary_role": "",
         "image_path": "media/images/ESD_headshot.jpg",
-        "id": "vicente_amado",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
+        "experiences": [
             {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
                 ]
             }
         ]
     },
-    {
-        "first_name": "Andrew",
-        "last_name": "Fullard",
-        "academic_role": "Collaboration Coordinator",
-        "secondary_role": "",
-        "image_path": "media/images/me.jpg",
-        "id": "andrew_fullard",
-        "tardis_collaboration": {
-            "start_date": "08-01-2020",
-            "expertise": [
-                "Collaboration Coordinator"
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "08-01-2020",
-            "role": [
-                "Core Contributor"
-            ]
-        },
-        "gsoc_mentorship": [
+    "jing_lu": {
+        "first_name": "Jing",
+        "last_name": "Lu",
+        "image_path": "media/images/jing.jpg",
+        "experiences": [
             {
-                "year": 2023,
-                "mentee_ids": [
-                    "shikha_rathi",
-                    "aarya_chaumal"
+                "tardis_collaboration": {
+                    "start_date": 2023,
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
                 ]
             }
         ]
     },
-    {
-        "first_name": "Christian",
-        "last_name": "Vogl",
-        "image_path": "media/images/christian.jpeg",
-        "academic_role": "Atomic Data Coordinator",
-        "secondary_role": "",
-        "id": "christian_vogl",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Atomic Data Coordinator"
-            ]
-        },
-        "gsoc_mentorship": [
+    "yuki_matsumura": {
+        "first_name": "Yuki",
+        "last_name": "Matsumura",
+        "image_path": "media/images/yuki_face.png",
+        "experiences": [
             {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
                 ]
             }
         ]
     },
-    {
-        "first_name": "Alexander",
-        "last_name": "Holas",
-        "image_path": "../me.jpeg",
-        "academic_role": "Core Alumni",
-        "secondary_role": "",
-        "id": "alexander_holas",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ]
-    },
-    {
-        "first_name": "Harshul",
-        "last_name": "Gupta",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/harshul.jpeg",
-        "id": "harshul_gupta",
-        "tardis_collaboration": {
-            "start_date": "",
-            "end_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    "ayushi_daksh"
-                ]
-            }
-        ]
-    },
-    {
+    "mark_magee": {
         "first_name": "Mark",
         "last_name": "Magee",
+        "nick_name": "",
         "image_path": "../me.jpeg",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "id": "mark_magee",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
+        "experiences": [
             {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
                 ]
             }
         ]
     },
-    {
-        "first_name": "Ezequiel",
-        "last_name": "Passaro",
-        "image_path": "../me.jpeg",
-        "academic_role": "Infrastructure Coordinator",
-        "secondary_role": "",
-        "id": "ezequiel_passaro",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Infrastructure Coordinator"
-            ]
-        },
-        "gsoc_mentorship": [
+    "atharva_arya": {
+        "first_name": "Atharva",
+        "last_name": "Arya",
+        "image_path": "media/images/atharva.jpg",
+        "experiences": [
             {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            "shikha_rathi"
+                        ]
+                    }
+                ],
+                "gsoc_org_admin": {
+                    "years": [
+                        2023
+                    ]
+                },
+                "gsoc_participation": [
+                    {
+                        "year": 2022,
+                        "project_title": "Improving the Carsus Testing Framework",
+                        "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa",
+                        "project_description": "Simplifying various testing modules and adding pipelines",
+                        "mentors": "Wolfgang Kerzendorf, afloers, Christian Vogl, Ezequiel P\u00e1ssaro"
+                    },
+                    {
+                        "year": 2021,
+                        "project_title": "Visualization Tools for TARDIS",
+                        "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568",
+                        "project_description": "Convergence plots, progress bars and more",
+                        "mentors": "James Gillanders, Mark Magee, Jaladh Singhal"
+                    }
                 ]
             }
         ]
     },
-    {
+    "wolfgang_kerzendorf": {
+        "first_name": "Wolfgang",
+        "last_name": "Kerzendorf",
+        "image_path": "media/images/wolfgang.jpg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": 2011,
+                    "expertise": [
+                        "Type Ia supernovae",
+                        "Emulators",
+                        "Statistics"
+                    ]
+                },
+                "tardis_core_team": {
+                    "start_date": 2011,
+                    "role": [
+                        "Principal Investigator",
+                        "DEI convenor"
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_id": "aarya_chaumal",
+                        "primary_mentor": true
+                    },
+                    {
+                        "year": 2021,
+                        "mentee_id": [
+                            "atharva_arya"
+                        ]
+                    },
+                    {
+                        "year": 2020,
+                        "mentee_id": [
+                            "jaladh_singhal"
+                        ]
+                    }
+                ],
+                "gsoc_org_admin": {
+                    "years": [
+                        2023,
+                        2022
+                    ]
+                }
+            }
+        ]
+    },
+    "sona_chitchyan": {
+        "first_name": "Sona",
+        "last_name": "Chitchyan",
+        "image_path": "media/images/sona_photo.jpg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "bea_lu": {
         "first_name": "Bea",
         "last_name": "Lu",
-        "academic_role": "",
-        "secondary_role": "",
         "image_path": "media/images/bea_lu.jpg",
-        "id": "bea_lu",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
+        "experiences": [
             {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "harshul_gupta": {
+        "first_name": "Harshul",
+        "last_name": "Gupta",
+        "image_path": "media/images/harshul.jpeg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "end_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            "ayushi_daksh"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "alexander_holas": {
+        "first_name": "Alexander",
+        "last_name": "Holas",
+        "nick_name": "",
+        "image_path": "../me.jpeg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ezequiel_passaro": {
+        "first_name": "Ezequiel",
+        "last_name": "Passaro",
+        "nick_name": "",
+        "image_path": "../me.jpeg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "tardis_core_team": {
+                    "start_date": "",
+                    "role": [
+                        "Infrastructure Coordinator"
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "andrew_fullard": {
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "image_path": "media/images/me.jpg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "08-01-2020",
+                    "expertise": [
+                        "Collaboration Coordinator"
+                    ]
+                },
+                "tardis_core_team": {
+                    "start_date": "08-01-2020",
+                    "role": [
+                        "Core Contributor"
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            "shikha_rathi",
+                            "aarya_chaumal"
+                        ]
+                    }
+                ],
+                "gsoc_org_admin": {
+                    "years": [
+                        2023
+                    ]
+                }
+            }
+        ]
+    },
+    "jaladh_singhal": {
+        "first_name": "Jaladh",
+        "last_name": "Singhal",
+        "image_path": "media/images/jaladh.jpg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "tardis_core_team": {
+                    "start_date": "",
+                    "role": [
+                        "Community Coordinator"
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            "william_black"
+                        ]
+                    },
+                    {
+                        "year": 2022,
+                        "mentee_ids": [
+                            "atharva_arya"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "isaac_smith": {
+        "first_name": "Isaac",
+        "last_name": "Smith",
+        "image_path": "media/images/isaac_image.jpg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "anirban_dutta": {
+        "first_name": "Anirban ",
+        "last_name": "Dutta",
+        "image_path": "media/images/anirban_dutta.jpg",
+        "experiences": [
+            {
+                "tardis_collaboration": {
+                    "start_date": "",
+                    "expertise": [
+                        ""
+                    ]
+                },
+                "gsoc_mentorship": [
+                    {
+                        "year": 2023,
+                        "mentee_ids": [
+                            ""
+                        ]
+                    }
                 ]
             }
         ]
     }
-]
+}

@@ -2,9 +2,9 @@
     <div class="individual-container">
         <div class="info-container">
             <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
-            <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
-            <!-- <div style="font-size: small;" class="role-box"><a href="{{ $gsoc.project_link }}" target="_blank">{{
-                    $gsoc.project_title }}</a></div> -->
+            <div class="person-name">
+                {{ $data.first_name }} {{ $data.last_name }}
+            </div>
         </div>
     </div>
 {{ end }}
