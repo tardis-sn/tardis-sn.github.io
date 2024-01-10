@@ -1,4 +1,4 @@
-{{ range $key, $data := site.Data.members.gsoc_participants }}
+{{ range $key, $data := site.Data.members.current_gsoc_participants }}
     <div class="individual-container">
         <div class="info-container">
             <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
@@ -9,9 +9,13 @@
                         {{ with .gsoc_participation }}
                             {{ range .}}
                                 <div style="font-size: small;" class="role-box">
+                                    {{ if ne .project_link "" }}
                                     <a href="{{ .project_link }}" target="_blank">
                                         {{.project_title }}
                                     </a>
+                                    {{ else }}
+                                    {{.project_title }}
+                                    {{ end }}
                                 </div>
                             {{ end }}
                         {{ end }}
