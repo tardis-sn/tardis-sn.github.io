@@ -1,9 +1,8 @@
-{{ range $key, $data := site.Data.members.gsoc_org_admin }}
+{{ range $key, $data := site.Data.members.gsoc_org_admins }}
     <div class="individual-container">
         <div class="info-container">
             <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
             <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
-            <!-- <div style="font-size: small;" class="role-box">{{ $data.academic_role }}</div> -->
         </div>
     </div>
 {{ end }}
