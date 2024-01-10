@@ -1,39 +1,5 @@
 [
     {
-        "first_name": "Andrew",
-        "last_name": "Fullard",
-        "academic_role": "Collaboration Coordinator",
-        "secondary_role": "",
-        "image_path": "media/images/me.jpg",
-        "id": "andrew_fullard",
-        "tardis_collaboration": {
-            "start_date": "08-01-2020",
-            "expertise": [
-                "Collaboration Coordinator"
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "08-01-2020",
-            "role": [
-                "Core Contributor"
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    "shikha_rathi",
-                    "aarya_chaumal"
-                ]
-            }
-        ],
-        "gsoc_org_admin": {
-            "years": [
-                2023
-            ]
-        }
-    },
-    {
         "first_name": "Jack",
         "last_name": "O'Brien",
         "academic_role": "Education Coordinator",
@@ -67,6 +33,33 @@
         }
     },
     {
+        "first_name": "Atharva",
+        "last_name": "Arya",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "image_path": "media/images/atharva.jpg",
+        "id": "atharva_arya",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi"
+                ]
+            }
+        ],
+        "gsoc_org_admin": {
+            "years": [
+                2023
+            ]
+        }
+    },
+    {
         "first_name": "Marc",
         "last_name": "Williamson",
         "image_path": "media/images/marc.jpeg",
@@ -86,22 +79,31 @@
         }
     },
     {
-        "first_name": "Atharva",
-        "last_name": "Arya",
-        "academic_role": "Core Alumni",
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "academic_role": "Collaboration Coordinator",
         "secondary_role": "",
-        "image_path": "media/images/atharva.jpg",
-        "id": "atharva_arya",
+        "image_path": "media/images/me.jpg",
+        "id": "andrew_fullard",
         "tardis_collaboration": {
-            "start_date": "",
+            "start_date": "08-01-2020",
             "expertise": [
-                ""
+                "Collaboration Coordinator"
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "08-01-2020",
+            "role": [
+                "Core Contributor"
             ]
         },
         "gsoc_mentorship": [
             {
                 "year": 2023,
-                "mentee_ids": []
+                "mentee_ids": [
+                    "shikha_rathi",
+                    "aarya_chaumal"
+                ]
             }
         ],
         "gsoc_org_admin": {

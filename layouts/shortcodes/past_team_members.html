@@ -1,0 +1,17 @@
+{{ range $key, $data := site.Data.members.past_team_members }}
+    <div class="individual-container">
+        <div class="info-container">
+            <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
+            <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
+            <!-- <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);"> 
+                {{ $data.start_date }} - {{ $data.end_date }}
+            </div>
+                {{ range $data.expertise }}
+                <div class="role-box" style="font-size: small;"><a href="#{{ . | urlize }}">{{ . }}</a></div>
+                {{ end }} -->
+        </div>
+    </div>
+{{ end }}
+
+
+

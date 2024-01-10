@@ -1,0 +1,25 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Years</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{ range $key, $mentor := site.Data.members.past_gsoc_mentors }}
+        {{ $mentorName := printf "%s %s" $mentor.first_name $mentor.last_name }}
+        {{ $mentorYears := slice }}
+        
+            {{ range $experience := $mentor.experiences }}
+                {{ range $gsoc := $experience.gsoc_participation }}
+                    {{ $yearData := index $gsoc "year" }}
+                    {{ $mentorYears = $mentorYears | append (printf "%v" $yearData) }}
+                {{ end }}
+                <tr>
+                    <td>{{ $mentorName }}</td>
+                    <td>{{ delimit $mentorYears ", " }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
+    </tbody>
+</table>

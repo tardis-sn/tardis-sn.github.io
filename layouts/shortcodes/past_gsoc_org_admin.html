@@ -1,0 +1,25 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Years</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $key, $admin := site.Data.members.past_gsoc_org_admins }}
+            {{ $orgAdminName := printf "%s %s" $admin.first_name $admin.last_name }}
+            {{ $orgAdminYears := slice }}
+
+            {{ range $experience := $admin.experiences }}
+                {{ range $gsoc := $experience.gsoc_participation }}
+                    {{ $yearData := index $gsoc "year" }}
+                    {{ $orgAdminYears = $orgAdminYears | append (printf "%v" $yearData) }}
+                    {{ end }}
+                <tr>
+                    <td>{{ $orgAdminName }}</td>
+                    <td>{{ delimit $orgAdminYears ", " }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
+    </tbody>
+</table>
