@@ -6,14 +6,15 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $key, $data := site.Data.members.gsoc_participants }}
+        {{ range $data := site.Data.members.past_gsoc_participants }}
             {{ $participantName := printf "%s %s" $data.first_name $data.last_name }}
-            {{ $gsoc_participation := index $data "gsoc_participation" }}
             {{ $participantYears := slice }}
-            {{ range $gsoc := $gsoc_participation }}
-                {{ $yearData := index $gsoc "year" }}
-                {{ if and (ne (printf "%v" $yearData) "2023") (ne (printf "%v" $yearData) "") }}
-                    {{ $participantYears = $participantYears | append (printf "%v" $yearData) }}
+            {{ range $gsoc := $data.experiences }}
+                {{ range $participation := $gsoc.gsoc_participation }}
+                    {{ $yearData := $participation.year }}
+                    {{ if ne $yearData "2023" }}
+                        {{ $participantYears = $participantYears | append $yearData }}
+                    {{ end }}
                 {{ end }}
             {{ end }}
             {{ if gt (len $participantYears) 0 }}
