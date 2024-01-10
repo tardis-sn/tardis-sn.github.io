@@ -6,15 +6,13 @@ layout: page
 ---
 
 ### Past GSoC Org-Admins
+
 {{< past_gsoc_org_admin >}}
 
-### GSoC 2023 Mentors   
+### Past GSoC Mentors
 
 {{< past_gsoc_mentors >}}
-
 
 ### Past GSoC Participants
 
 {{< past_gsoc_participants >}}
-
-
