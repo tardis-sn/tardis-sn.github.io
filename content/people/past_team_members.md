@@ -8,6 +8,14 @@ aliases: /team/
 
 Get to know the incredible people who were part of our team before. Their hard work and unique talents helped us grow and achieve our goals. We're grateful for their valuable contributions.
 
+### Past Core Team Members
+
 <div class ="picture-grid">
-{{< past_team_members >}}
+{{< past_core_team >}}
+</div>
+
+### Past Collaborators
+
+<div class ="picture-grid">
+{{< past_collaborators >}}
 </div>
