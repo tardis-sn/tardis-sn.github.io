@@ -1,0 +1,26 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Roles</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $coreMember, $coreMemberData := site.Data.members.past_core_team }}
+        <tr>
+            <td>{{ $coreMemberData.full_name }}</td>
+            <td>
+                {{ with $coreMemberData.tardis_core_team }}
+                    {{ $roles := slice }}
+                    {{ range $experience := . }}
+                        {{ $start_year := index (split $experience.start_date "-") 2 }}
+                        {{ $end_year := index (split $experience.end_date "-") 2 }}
+                        {{ $roles = $roles | append (printf "%s (%s-%s)" $experience.role $start_year $end_year) }}
+                    {{ end }}
+                    {{ delimit $roles ", " }}
+                {{ end }}
+            </td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
