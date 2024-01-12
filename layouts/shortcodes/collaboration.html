@@ -1,13 +1,19 @@
-{{ range $key,$data := site.Data.members.collaboration }}
-    <div class="individual-container">
-        <div class="info-container">
-            <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
-            <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
-            <!--<div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);"> Since - {{ $data.tardis_collaboration.start_date }}</div>
-                {{ range $data.tardis_collaboration.expertise }}
-                <div class="role-box" style="font-size: small;"><a href="#{{ . | urlize }}">{{ . }}</a></div>
-                {{ end }}
-            -->
+{{ range $key, $data := site.Data.members.collaboration }}
+<div class="individual-container">
+    <div class="info-container">
+        <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
+        <div class="person-name">{{ $data.full_name }}</div>
+        {{ with $data.tardis_collaboration }}
+        {{ $year := index (split .start_date "-") 2 }}
+        <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">
+            Since {{ $year }}
         </div>
+        {{ range $expertise := .expertise }}
+        <div class="role-box" style="font-size: small;">
+            <a href="#{{ . | urlize }}">{{ . }}</a>
+        </div>
+        {{ end }}
+        {{ end }}
     </div>
+</div>
 {{ end }}
