@@ -1,112 +1,38 @@
 {
     "ansh_kumar": {
-        "first_name": "Ansh",
-        "last_name": "Kumar",
-        "nick_name": "",
+        "full_name": "Ansh Kumar",
         "image_path": "media/images/ansh.jpeg",
-        "experiences": [
-            {
-                "gsoc_participation": [
-                    {
-                        "year": 2023,
-                        "project_title": "Simulation Restrcture",
-                        "project_link": "",
-                        "project_description": "The project aims to decouple the various Tardis simulation components and to integrate packet sampling where the inner boundary need not be fixed e.g. Gamma Ray Deposition packet sampling."
-                    }
-                ]
-            }
-        ]
+        "project_title": "Simulation Restrcture",
+        "project_link": ""
     },
     "william_black": {
-        "first_name": "William",
-        "last_name": "Black",
-        "nick_name": "",
+        "full_name": "William Black",
         "image_path": "../me.jpeg",
-        "experiences": [
-            {
-                "gsoc_participation": [
-                    {
-                        "year": 2023,
-                        "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
-                        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
-                        "project_description": ""
-                    }
-                ]
-            }
-        ]
+        "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
+        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D"
     },
     "aarya_chaumal": {
-        "first_name": "Aarya",
-        "last_name": "Chaumal",
-        "nick_name": "",
+        "full_name": "Aarya Chaumal",
         "image_path": "media/images/aarya.png",
-        "experiences": [
-            {
-                "gsoc_participation": [
-                    {
-                        "year": 2023,
-                        "project_title": "STARDIS Parallelization and GPU",
-                        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
-                        "project_description": "Increase the speed of STARDIS using Numba by allowing slower parts of STARDIS to be run in parallel and allowing for them to be run on the GPU using Numba\u2019s CUDA capabilities if the user requires them."
-                    }
-                ]
-            }
-        ]
+        "project_title": "STARDIS Parallelization and GPU",
+        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR"
     },
     "shikha_rathi": {
-        "first_name": "Shikha",
-        "last_name": "Rathi",
+        "full_name": "Shikha Rathi",
         "image_path": "media/images/shikha.jpg",
-        "experiences": [
-            {
-                "gsoc_participation": [
-                    {
-                        "year": 2023,
-                        "project_title": "Having Versioned Atomic Data Repositories",
-                        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
-                        "project_description": "The goal of my project is to create a repository integrated with CI pipelines to periodically check for changes in the upstream data sources like NIST, Kurucz, CHIANTI, CMFGEN and maintain a repository of semantic versioned datasets along with a report on the changes in each version update. The Carsus project will be updated to use the latest data source by default by checking for updates in the data repository. Additionally, a utility function will be implemented in the Carsus to support using the older version of the datasets available on the data repository by passing the dataset version number.",
-                        "mentors": [
-                            "harshul_gupta"
-                        ]
-                    }
-                ]
-            }
-        ]
+        "project_title": "Having Versioned Atomic Data Repositories",
+        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe"
     },
     "shreyas_singh": {
-        "first_name": "Shreyas",
-        "last_name": "Singh",
-        "nick_name": "",
+        "full_name": "Shreyas Singh",
         "image_path": "media/images/shreyas.jpg",
-        "experiences": [
-            {
-                "gsoc_participation": [
-                    {
-                        "year": 2023,
-                        "project_title": "Import and Store NNDC Deposition Data",
-                        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
-                        "project_description": "Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called \u201cradlist\u201d. This project involves using the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output."
-                    }
-                ]
-            }
-        ]
+        "project_title": "Import and Store NNDC Deposition Data",
+        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc"
     },
     "ayushi_daksh": {
-        "first_name": "Ayushi",
-        "last_name": "Daksh",
-        "nick_name": "",
+        "full_name": "Ayushi Daksh",
         "image_path": "media/images/ayushi.jpg",
-        "experiences": [
-            {
-                "gsoc_participation": [
-                    {
-                        "year": 2023,
-                        "project_title": "Grotrian Diagram Visualisation",
-                        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
-                        "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
-                    }
-                ]
-            }
-        ]
+        "project_title": "Grotrian Diagram Visualisation",
+        "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe"
     }
 }
