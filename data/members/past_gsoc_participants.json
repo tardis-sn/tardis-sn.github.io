@@ -2,20 +2,15 @@
     {
         "year": 2022,
         "info": {
-            "jayant_bhakar": {
-                "full_name": "Jayant Bhakar",
-                "project_title": "Monte Carlo 2D Packet Visualization",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM"
-            },
-            "mikhail_mishin": {
-                "full_name": "Mikhail Mishin",
-                "project_title": "Carsus package for creating atomic datasets",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/"
-            },
             "atharva_arya": {
                 "full_name": "Atharva Arya",
                 "project_title": "Improving the Carsus Testing Framework",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa"
+            },
+            "jayant_bhakar": {
+                "full_name": "Jayant Bhakar",
+                "project_title": "Monte Carlo 2D Packet Visualization",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM"
             },
             "satwik_kambham": {
                 "full_name": "Satwik Kambham",
@@ -32,15 +27,15 @@
     {
         "year": 2021,
         "info": {
-            "dhruv_sondhi": {
-                "full_name": "Dhruv Sondhi",
-                "project_title": "TARDIS logging and packet tracking",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/"
-            },
             "atharva_arya": {
                 "full_name": "Atharva Arya",
                 "project_title": "Visualization Tools for TARDIS",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568"
+            },
+            "dhruv_sondhi": {
+                "full_name": "Dhruv Sondhi",
+                "project_title": "TARDIS logging and packet tracking",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/"
             },
             "arib_alam": {
                 "full_name": "Arib Alam",
@@ -92,6 +87,11 @@
     {
         "year": 2016,
         "info": {
+            "mikhail_mishin": {
+                "full_name": "Mikhail Mishin",
+                "project_title": "Carsus package for creating atomic datasets",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/"
+            },
             "tomas_bylund": {
                 "full_name": "Tomas Bylund",
                 "project_title": "TARDIS formal integral",
