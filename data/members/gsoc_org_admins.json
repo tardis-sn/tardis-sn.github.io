@@ -1,186 +1,22 @@
 {
     "jack_o_brien": {
-        "first_name": "Jack",
-        "last_name": "O'Brien",
-        "nick_name": "Jack",
-        "image_path": "media/images/jack.jpg",
-        "experiences": [
-            {
-                "tardis_collaboration": {
-                    "start_date": "",
-                    "expertise": [
-                        ""
-                    ]
-                },
-                "tardis_core_team": {
-                    "start_date": "",
-                    "role": [
-                        "Education Coordinator"
-                    ]
-                },
-                "gsoc_mentorship": [
-                    {
-                        "year": 2023,
-                        "mentee_ids": [
-                            ""
-                        ]
-                    }
-                ],
-                "gsoc_org_admin": {
-                    "years": [
-                        2023
-                    ]
-                }
-            }
-        ]
+        "full_name": "Jack O'Brien",
+        "image_path": "media/images/jack.jpg"
     },
     "atharva_arya": {
-        "first_name": "Atharva",
-        "last_name": "Arya",
-        "image_path": "media/images/atharva.jpg",
-        "experiences": [
-            {
-                "tardis_collaboration": {
-                    "start_date": "",
-                    "expertise": [
-                        ""
-                    ]
-                },
-                "gsoc_mentorship": [
-                    {
-                        "year": 2023,
-                        "mentee_ids": [
-                            "shikha_rathi"
-                        ]
-                    }
-                ],
-                "gsoc_org_admin": {
-                    "years": [
-                        2023
-                    ]
-                },
-                "gsoc_participation": [
-                    {
-                        "year": 2022,
-                        "project_title": "Improving the Carsus Testing Framework",
-                        "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa",
-                        "project_description": "Simplifying various testing modules and adding pipelines",
-                        "mentors": "Wolfgang Kerzendorf, afloers, Christian Vogl, Ezequiel P\u00e1ssaro"
-                    },
-                    {
-                        "year": 2021,
-                        "project_title": "Visualization Tools for TARDIS",
-                        "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568",
-                        "project_description": "Convergence plots, progress bars and more",
-                        "mentors": "James Gillanders, Mark Magee, Jaladh Singhal"
-                    }
-                ]
-            }
-        ]
+        "full_name": "Atharva Arya",
+        "image_path": "media/images/atharva.jpg"
     },
     "wolfgang_kerzendorf": {
-        "first_name": "Wolfgang",
-        "last_name": "Kerzendorf",
-        "image_path": "media/images/wolfgang.jpg",
-        "experiences": [
-            {
-                "tardis_collaboration": {
-                    "start_date": 2011,
-                    "expertise": [
-                        "Type Ia supernovae",
-                        "Emulators",
-                        "Statistics"
-                    ]
-                },
-                "tardis_core_team": {
-                    "start_date": 2011,
-                    "role": [
-                        "Principal Investigator",
-                        "DEI convenor"
-                    ]
-                },
-                "gsoc_mentorship": [
-                    {
-                        "year": 2023,
-                        "mentee_id": "aarya_chaumal",
-                        "primary_mentor": true
-                    },
-                    {
-                        "year": 2021,
-                        "mentee_id": [
-                            "atharva_arya"
-                        ]
-                    },
-                    {
-                        "year": 2020,
-                        "mentee_id": [
-                            "jaladh_singhal"
-                        ]
-                    }
-                ],
-                "gsoc_org_admin": {
-                    "years": [
-                        2023,
-                        2022
-                    ]
-                }
-            }
-        ]
+        "full_name": "Wolfgang Kerzendorf",
+        "image_path": "media/images/wolfgang.jpg"
     },
     "marc_williamson": {
-        "first_name": "Marc",
-        "last_name": "Williamson",
-        "nick_name": "",
-        "image_path": "media/images/marc.jpeg",
-        "experiences": [
-            {
-                "gsoc_org_admin": {
-                    "years": [
-                        2023
-                    ]
-                },
-                "tardis_core_team": {
-                    "start_date": "",
-                    "role": [
-                        "Financial Coordinator"
-                    ]
-                }
-            }
-        ]
+        "full_name": "Marc Williamson",
+        "image_path": "media/images/marc.jpeg"
     },
     "andrew_fullard": {
-        "first_name": "Andrew",
-        "last_name": "Fullard",
-        "image_path": "media/images/me.jpg",
-        "experiences": [
-            {
-                "tardis_collaboration": {
-                    "start_date": "08-01-2020",
-                    "expertise": [
-                        "Collaboration Coordinator"
-                    ]
-                },
-                "tardis_core_team": {
-                    "start_date": "08-01-2020",
-                    "role": [
-                        "Core Contributor"
-                    ]
-                },
-                "gsoc_mentorship": [
-                    {
-                        "year": 2023,
-                        "mentee_ids": [
-                            "shikha_rathi",
-                            "aarya_chaumal"
-                        ]
-                    }
-                ],
-                "gsoc_org_admin": {
-                    "years": [
-                        2023
-                    ]
-                }
-            }
-        ]
+        "full_name": "Andrew Fullard",
+        "image_path": "media/images/me.jpg"
     }
 }
