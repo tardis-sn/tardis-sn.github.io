@@ -1,265 +1,98 @@
-[
-    {
-        "first_name": "Andreas",
-        "last_name": "Flors",
-        "image_path": "media/images/andreas.jpeg",
-        "academic_role": "PR/Issues Coordinator",
-        "secondary_role": "",
-        "id": "andreas_flors",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "PR/Issues Coordinator"
-            ]
-        }
-    },
-    {
-        "first_name": "Jack",
-        "last_name": "O'Brien",
-        "academic_role": "Education Coordinator",
-        "secondary_role": "",
+{
+    "jack_o_brien": {
+        "full_name": "Jack O'Brien",
         "image_path": "media/images/jack.jpg",
-        "id": "jack_o_brien",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
         "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Education Coordinator"
-            ]
+            "start_date": "08-01-2023",
+            "role": "Education Coordinator"
         }
     },
-    {
-        "first_name": "Vytautas",
-        "last_name": "Jan\u010dauskas",
-        "image_path": "../me.jpeg",
-        "academic_role": "Core Alumni",
-        "secondary_role": "",
-        "id": "vytautas_jancauskas",
-        "tardis_core_team": {
-            "start_date": "",
-            "end_date": "",
-            "role": [
-                "Core Alumni"
-            ]
-        }
-    },
-    {
-        "first_name": "Yssavo",
-        "last_name": "Camacho-Neves",
-        "image_path": "media/images/yssavo.jpg",
-        "academic_role": "Science Coordinator",
-        "secondary_role": "",
-        "id": "yssa_neves",
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Science Coordinator"
-            ]
-        }
-    },
-    {
-        "first_name": "Jaladh",
-        "last_name": "Singhal",
-        "academic_role": "Education Coordinator",
-        "secondary_role": "",
-        "image_path": "media/images/jaladh.jpg",
-        "id": "jaladh_singhal",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Community Coordinator"
-            ]
-        }
-    },
-    {
-        "first_name": "James",
-        "last_name": "Gillanders",
-        "image_path": "media/images/james.jpeg",
-        "academic_role": "Visualization Coordinator",
-        "secondary_role": "",
-        "id": "james_gillanders",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Visualization Coordinator"
-            ]
-        }
-    },
-    {
-        "first_name": "Wolfgang",
-        "last_name": "Kerzendorf",
-        "academic_role": "Principal Investigator",
-        "secondary_role": "(Founder), DEI",
-        "image_path": "media/images/wolfgang.jpg",
-        "id": "wolfgang_kerzendorf",
-        "tardis_collaboration": {
-            "start_date": 2011,
-            "expertise": [
-                "Type Ia supernovae",
-                "Emulators",
-                "Statistics"
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": 2011,
-            "role": [
-                "Principal Investigator",
-                "DEI convenor"
-            ]
-        }
-    },
-    {
-        "first_name": "Marc",
-        "last_name": "Williamson",
-        "image_path": "media/images/marc.jpeg",
-        "academic_role": "Financial Coordinator",
-        "secondary_role": "",
-        "id": "marc_williamson",
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Financial Coordinator"
-            ]
-        }
-    },
-    {
-        "first_name": "Luke",
-        "last_name": "Shingles",
-        "image_path": "../me.jpeg",
-        "academic_role": "",
-        "secondary_role": "",
-        "id": "luke_shingles",
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Andrew",
-        "last_name": "Fullard",
-        "academic_role": "Collaboration Coordinator",
-        "secondary_role": "",
-        "image_path": "media/images/me.jpg",
-        "id": "andrew_fullard",
-        "tardis_collaboration": {
-            "start_date": "08-01-2020",
-            "expertise": [
-                "Collaboration Coordinator"
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "08-01-2020",
-            "role": [
-                "Core Contributor"
-            ]
-        }
-    },
-    {
-        "first_name": "Christian",
-        "last_name": "Vogl",
+    "christian_vogl": {
+        "full_name": "Christian Vogl",
         "image_path": "media/images/christian.jpeg",
-        "academic_role": "Atomic Data Coordinator",
-        "secondary_role": "",
-        "id": "christian_vogl",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
         "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Atomic Data Coordinator"
-            ]
+            "start_date": "08-01-2023",
+            "role": "Computational Physics Coordinator"
         }
     },
-    {
-        "first_name": "Ezequiel",
-        "last_name": "Passaro",
-        "image_path": "../me.jpeg",
-        "academic_role": "Infrastructure Coordinator",
-        "secondary_role": "",
-        "id": "ezequiel_passaro",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
+    "james_gillanders": {
+        "full_name": "James Gillanders",
+        "image_path": "media/images/james.jpeg",
         "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Infrastructure Coordinator"
-            ]
+            "start_date": "08-01-2023",
+            "role": "Package Coordinator: Visualization"
         }
     },
-    {
-        "first_name": "Stuart",
-        "last_name": "Sim",
-        "image_path": "../me.jpeg",
-        "academic_role": "Co-founder",
-        "secondary_role": "",
-        "id": "stuart_sim",
+    "josh_shields": {
+        "full_name": "Joshua Shields",
+        "image_path": "media/images/josh_photo.jpg",
         "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Co-founder"
-            ]
+            "start_date": "08-01-2023",
+            "role": "Package Coordinator: STARDIS"
         }
     },
-    {
-        "first_name": "Michael",
-        "last_name": "Zingale",
-        "image_path": "../me.jpeg",
-        "academic_role": "Ombudsperson",
-        "secondary_role": "",
-        "id": "michael_zingale",
+    "andreas_flors": {
+        "full_name": "Andreas Flors",
+        "image_path": "media/images/andreas.jpeg",
         "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Ombudsperson"
-            ]
+            "start_date": "08-01-2023",
+            "role": "Package Coordinator: Carsus"
         }
     },
-    {
-        "first_name": "Alice",
-        "last_name": "Harpole",
-        "image_path": "../me.jpeg",
-        "academic_role": "Core Member",
-        "secondary_role": "",
-        "id": "alice_harpole",
+    "jing_lu": {
+        "full_name": "Jing Lu",
+        "image_path": "media/images/jing.jpg",
         "tardis_core_team": {
-            "start_date": "",
-            "end_date": "",
-            "role": [
-                "Core Alumni"
-            ]
+            "start_date": "08-01-2023",
+            "role": "Collaboration Coordinator"
+        }
+    },
+    "atharva_arya": {
+        "full_name": "Atharva Arya",
+        "image_path": "media/images/atharva.jpg",
+        "tardis_core_team": {
+            "start_date": "08-01-2023",
+            "role": "Infrastructure Coordinator"
+        }
+    },
+    "wolfgang_kerzendorf": {
+        "full_name": "Wolfgang Kerzendorf",
+        "image_path": "media/images/wolfgang.jpg",
+        "tardis_core_team": {
+            "start_date": "01-01-2023",
+            "role": "Financial Coordinator"
+        }
+    },
+    "sona_chitchyan": {
+        "full_name": "Sona Chitchyan",
+        "image_path": "media/images/sona_photo.jpg",
+        "tardis_core_team": {
+            "start_date": "08-01-2023",
+            "role": "DEI"
+        }
+    },
+    "andrew_fullard": {
+        "full_name": "Andrew Fullard",
+        "image_path": "media/images/me.jpg",
+        "tardis_core_team": {
+            "start_date": "08-01-2023",
+            "role": "Software Architect"
+        }
+    },
+    "jaladh_singhal": {
+        "full_name": "Jaladh Singhal",
+        "image_path": "media/images/jaladh.jpg",
+        "tardis_core_team": {
+            "start_date": "08-01-2023",
+            "role": "Community Coordinator"
+        }
+    },
+    "anirban_dutta": {
+        "full_name": "Anirban  Dutta",
+        "image_path": "media/images/anirban_dutta.jpg",
+        "tardis_core_team": {
+            "start_date": "08-01-2023",
+            "role": "PR/Issues Coordinator"
         }
     }
-]
+}
