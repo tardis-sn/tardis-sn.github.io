@@ -6,7 +6,7 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $admin, $adminData:= site.Data.members.past_gsoc_org_admins }}
+        {{ range $admin, $adminData:= site.Data.members.past_gsoc_admins }}
                 <tr>
                     <td>{{ $adminData.full_name }}</td>
                     <td>{{ delimit $adminData.years ", " }}</td>
