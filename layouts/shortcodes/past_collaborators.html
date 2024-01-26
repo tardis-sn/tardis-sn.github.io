@@ -6,12 +6,12 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $collaborator, $collaboratorData := site.Data.members.past_collaborators }}
-        {{ $start_year := index (split $collaboratorData.tardis_collaboration.start_date "-") 2 }}
-        {{ $end_year := index (split $collaboratorData.tardis_collaboration.end_date "-") 2 }}
+        {{ range $collaborator, $collaboratorData := site.Data.members.past_tardis_collaborators }}
+        {{ $start_year := index (split $collaboratorData.start_year "-") 0 }}
+        {{ $end_year := index (split $collaboratorData.end_year "-") 0 }}
         <tr>
             <td>{{ $collaboratorData.full_name }} ({{ $start_year }} - {{$end_year }})</td>
-            <td>{{ delimit $collaboratorData.tardis_collaboration.expertise ", " }}</td>
+            <td>{{ delimit $collaboratorData.expertise ", " }}</td>
         </tr>
         {{ end }}
     </tbody>
