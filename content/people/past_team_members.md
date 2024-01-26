@@ -14,6 +14,12 @@ Get to know the incredible people who were part of our team before. Their hard w
 {{< past_core_team >}}
 </div>
 
+### Previous Roles
+
+<div class ="picture-grid">
+{{< previous_roles >}}
+</div>
+
 ### Past Collaborators
 
 <div class ="picture-grid">
