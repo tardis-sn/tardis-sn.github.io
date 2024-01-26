@@ -1,0 +1,163 @@
+[
+    {
+        "member_id": "andreas_flors",
+        "roles": [
+            {
+                "role": "Package Coordinator: Carsus",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Andreas Flors",
+        "image_path": "media/images/andreas.jpeg"
+    },
+    {
+        "member_id": "andrew_fullard",
+        "roles": [
+            {
+                "role": "Software Architect",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Andrew Fullard",
+        "image_path": "media/images/me.jpg"
+    },
+    {
+        "member_id": "anirban_dutta",
+        "roles": [
+            {
+                "role": "PR/Issues Coordinator",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Anirban  Dutta",
+        "image_path": "media/images/anirban_dutta.jpg"
+    },
+    {
+        "member_id": "atharva_arya",
+        "roles": [
+            {
+                "role": "Infrastructure Coordinator",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Atharva Arya",
+        "image_path": "media/images/atharva.jpg"
+    },
+    {
+        "member_id": "christian_vogl",
+        "roles": [
+            {
+                "role": "Computational Physics Coordinator",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Christian Vogl",
+        "image_path": "media/images/christian.jpeg"
+    },
+    {
+        "member_id": "jack_o_brien",
+        "roles": [
+            {
+                "role": "Education Coordinator",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Jack O'Brien",
+        "image_path": "media/images/jack.jpg"
+    },
+    {
+        "member_id": "jaladh_singhal",
+        "roles": [
+            {
+                "role": "Community Coordinator",
+                "start_year": 2021,
+                "end_year": null
+            }
+        ],
+        "full_name": "Jaladh Singhal",
+        "image_path": "media/images/jaladh.jpg"
+    },
+    {
+        "member_id": "james_gillanders",
+        "roles": [
+            {
+                "role": "Package Coordinator: Visualization",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "James Gillanders",
+        "image_path": "media/images/james.jpeg"
+    },
+    {
+        "member_id": "jing_lu",
+        "roles": [
+            {
+                "role": "Collaboration Coordinator",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Jing Lu",
+        "image_path": "media/images/jing.jpg"
+    },
+    {
+        "member_id": "josh_shields",
+        "roles": [
+            {
+                "role": "Package Coordinator: STARDIS",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Josh Shields",
+        "image_path": "media/images/josh_photo.jpg"
+    },
+    {
+        "member_id": "michael_zingale",
+        "roles": [
+            {
+                "role": "Ombudsperson",
+                "start_year": 2020,
+                "end_year": null
+            }
+        ],
+        "full_name": "Michael Zingale",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "sona_chitchyan",
+        "roles": [
+            {
+                "role": "DEI",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Sona Chitchyan",
+        "image_path": "media/images/sona_photo.jpg"
+    },
+    {
+        "member_id": "wolfgang_kerzendorf",
+        "roles": [
+            {
+                "role": "Financial Coordinator",
+                "start_year": 2023,
+                "end_year": null
+            },
+            {
+                "role": "Principal Investigator",
+                "start_year": 2011,
+                "end_year": null
+            }
+        ],
+        "full_name": "Wolfgang Kerzendorf",
+        "image_path": "media/images/wolfgang.jpg"
+    }
+]
