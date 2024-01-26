@@ -1,12 +1,11 @@
-{{ range $key, $data := site.Data.members.core_members }}
+{{ range $member := site.Data.members.current_tardis_core_team }}
 <div class="individual-container">
     <div class="info-container">
-        <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
-        <div class="person-name">{{ $data.full_name }}</div>
+        <img class="rounded-picture" src="../../members/{{ $member.member_id }}/{{ $member.image_path }}">
+        <div class="person-name">{{ $member.full_name }}</div>
         <div class="role-box" style="font-size: small;">
-            {{ with $data.tardis_core_team }}
-            {{ $start_year := index (split .start_date "-") 2 }}
-               <a href="#{{ .role | urlize }}"> {{ .role }}</a>
+            {{ range $role := $member.roles }}
+            <a href="#{{ $role.role | urlize }}">{{ $role.role}}</a>
             {{ end }}
         </div>
     </div>
