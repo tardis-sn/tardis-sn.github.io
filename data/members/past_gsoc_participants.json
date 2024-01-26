@@ -1,86 +1,12 @@
 [
     {
-        "year": 2022,
+        "year": 2015,
         "info": {
-            "atharva_arya": {
-                "full_name": "Atharva Arya",
-                "project_title": "Improving the Carsus Testing Framework",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa"
-            },
-            "jayant_bhakar": {
-                "full_name": "Jayant Bhakar",
-                "project_title": "Monte Carlo 2D Packet Visualization",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM"
-            },
-            "satwik_kambham": {
-                "full_name": "Satwik Kambham",
-                "project_title": "Resuming TARDIS Simulations from HDF",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK"
-            },
-            "rohith_buddaraju": {
-                "full_name": "Rohith Varma Buddaraju",
-                "project_title": "Tardis Setups Framework",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z"
-            }
-        }
-    },
-    {
-        "year": 2021,
-        "info": {
-            "atharva_arya": {
-                "full_name": "Atharva Arya",
-                "project_title": "Visualization Tools for TARDIS",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568"
-            },
-            "dhruv_sondhi": {
-                "full_name": "Dhruv Sondhi",
-                "project_title": "TARDIS logging and packet tracking",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/"
-            },
-            "arib_alam": {
-                "full_name": "Arib Alam",
-                "project_title": "Packet tracking",
-                "project_link": "Enter your link here"
-            },
-            "jenny_yu": {
-                "full_name": "Jenny Yu",
-                "project_title": "Abundance widget",
-                "project_link": "Enter your link here"
-            },
-            "yizheng_yu": {
-                "full_name": "Yizheng Yu",
-                "project_title": "Custom Abundance Widget",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/"
-            }
-        }
-    },
-    {
-        "year": 2020,
-        "info": {
-            "jordi_brown": {
-                "full_name": "Jordi Eguren Brown",
-                "project_title": "TARDIS Code restructure with factory method",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5699342318436352/"
-            }
-        }
-    },
-    {
-        "year": 2019,
-        "info": {
-            "youssef_eweis": {
-                "full_name": "Youssef Eweis",
-                "project_title": "Building a new atomic database",
-                "project_link": ""
-            }
-        }
-    },
-    {
-        "year": 2017,
-        "info": {
-            "vaibhav_gupta": {
-                "full_name": "Vaibhav Gupta",
-                "project_title": "Reading Simulation from file",
-                "project_link": ""
+            "gaurav_gautam": {
+                "full_name": "Gaurav Gautam",
+                "project_title": "TARDIS graphical user interface",
+                "project_link": "",
+                "image_path": "../me.jpeg"
             }
         }
     },
@@ -90,62 +16,129 @@
             "mikhail_mishin": {
                 "full_name": "Mikhail Mishin",
                 "project_title": "Carsus package for creating atomic datasets",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/"
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
+                "image_path": "../me.jpeg"
             },
             "tomas_bylund": {
                 "full_name": "Tomas Bylund",
                 "project_title": "TARDIS formal integral",
-                "project_link": ""
+                "project_link": "",
+                "image_path": "../me.jpeg"
             },
             "misha_mishkin": {
                 "full_name": "Misha Mishkin",
                 "project_title": "TARDIS/Carsus Atomic database",
-                "project_link": ""
+                "project_link": "",
+                "image_path": "../me.jpeg"
             },
             "karan_desai": {
                 "full_name": "Karan Desai",
                 "project_title": "TARDIS testing framework",
-                "project_link": ""
+                "project_link": "",
+                "image_path": "../me.jpeg"
             },
             "fotis_tsamis": {
                 "full_name": "Fotis Tsamis",
                 "project_title": "TARDIS various projects",
-                "project_link": ""
+                "project_link": "",
+                "image_path": "../me.jpeg"
             }
         }
     },
     {
-        "year": 2015,
+        "year": 2017,
         "info": {
-            "gaurav_gautam": {
-                "full_name": "Gaurav Gautam",
-                "project_title": "TARDIS graphical user interface",
-                "project_link": ""
+            "vaibhav_gupta": {
+                "full_name": "Vaibhav Gupta",
+                "project_title": "Reading Simulation from file",
+                "project_link": "",
+                "image_path": "../me.jpeg"
             }
         }
     },
     {
-        "year": 2014,
+        "year": 2019,
         "info": {
-            "shailesh_ahuja": {
-                "full_name": "Shailesh Ahuja",
-                "project_title": "Specutils readers/writers",
-                "project_link": ""
+            "youssef_eweis": {
+                "full_name": "Youssef Eweis",
+                "project_title": "Building a new atomic database",
+                "project_link": "",
+                "image_path": "../me.jpeg"
+            }
+        }
+    },
+    {
+        "year": 2020,
+        "info": {
+            "jordi_brown": {
+                "full_name": "Jordi Eguren Brown",
+                "project_title": "TARDIS Code restructure with factory method",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5699342318436352/",
+                "image_path": "../me.jpeg"
+            }
+        }
+    },
+    {
+        "year": 2021,
+        "info": {
+            "atharva_arya": {
+                "full_name": "Atharva Arya",
+                "project_title": "Visualization Tools for TARDIS",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568",
+                "image_path": "media/images/atharva.jpg"
             },
-            "mabry_cervin": {
-                "full_name": "Mabry Cervin",
-                "project_title": "Astropy correlated uncertainties",
-                "project_link": ""
+            "dhruv_sondhi": {
+                "full_name": "Dhruv Sondhi",
+                "project_title": "TARDIS logging and packet tracking",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/",
+                "image_path": "../me.jpeg"
+            },
+            "arib_alam": {
+                "full_name": "Arib Alam",
+                "project_title": "Packet tracking",
+                "project_link": "Enter your link here",
+                "image_path": "../me.jpeg"
+            },
+            "jenny_yu": {
+                "full_name": "Jenny Yu",
+                "project_title": "Abundance widget",
+                "project_link": "Enter your link here",
+                "image_path": "../me.jpeg"
+            },
+            "yizheng_yu": {
+                "full_name": "Yizheng Yu",
+                "project_title": "Custom Abundance Widget",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
+                "image_path": "../me.jpeg"
             }
         }
     },
     {
-        "year": 2013,
+        "year": 2022,
         "info": {
-            "jeff_taylor": {
-                "full_name": "Jeff Taylor",
-                "project_title": "Wavelength calibration",
-                "project_link": ""
+            "atharva_arya": {
+                "full_name": "Atharva Arya",
+                "project_title": "Improving the Carsus Testing Framework",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa",
+                "image_path": "media/images/atharva.jpg"
+            },
+            "jayant_bhakar": {
+                "full_name": "Jayant Bhakar",
+                "project_title": "Monte Carlo 2D Packet Visualization",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
+                "image_path": "../me.jpeg"
+            },
+            "satwik_kambham": {
+                "full_name": "Satwik Kambham",
+                "project_title": "Resuming TARDIS Simulations from HDF",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
+                "image_path": "../me.jpeg"
+            },
+            "rohith_buddaraju": {
+                "full_name": "Rohith Varma Buddaraju",
+                "project_title": "Tardis Setups Framework",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z",
+                "image_path": "../me.jpeg"
             }
         }
     }

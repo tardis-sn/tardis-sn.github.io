@@ -1,17 +1,19 @@
-{{ range $key, $data := site.Data.members.current_gsoc_participants }}
-    <div class="individual-container">
-        <div class="info-container">
-            <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
-            <div class="person-name">{{ $data.full_name }}</div>
-            <div style="font-size: small;" class="role-box">
-                {{ if ne $data.project_link "" }}
-                <a href="{{ $data.project_link }}" target="_blank">
-                    {{ $data.project_title }}
-                </a>
-                {{ else }}
+{{ range $year := site.Data.members.current_gsoc_participants }}
+{{ range $key, $data := $year.info }}
+<div class="individual-container">
+    <div class="info-container">
+        <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
+        <div class="person-name">{{ $data.full_name }}</div>
+        <div style="font-size: small;" class="role-box">
+            {{ if ne $data.project_link "" }}
+            <a href="{{ $data.project_link }}" target="_blank">
                 {{ $data.project_title }}
-                {{ end }}
-            </div>
+            </a>
+            {{ else }}
+            {{ $data.project_title }}
+            {{ end }}
         </div>
     </div>
+</div>
+{{ end }}
 {{ end }}

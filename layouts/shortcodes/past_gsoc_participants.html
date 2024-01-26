@@ -1,4 +1,4 @@
-{{ range $data := site.Data.members.past_gsoc_participants }}
+{{ range $data := sort site.Data.members.past_gsoc_participants "year" "desc" }}
 <h3>{{ $data.year }}</h3>
 <table>
     <thead>
@@ -9,18 +9,18 @@
     </thead>
     <tbody>
         {{ range $key, $participant := $data.info }}
-            <tr>
-                <td style="width: 250px;">{{ $participant.full_name }}</td>
-                <td>
-                    {{ if ne $participant.project_link "" }}
-                    <a href="{{ $participant.project_link }}">
-                        {{$participant.project_title }}
-                    </a>
-                    {{ else }}
+        <tr>
+            <td style="width: 250px;">{{ $participant.full_name }}</td>
+            <td>
+                {{ if ne $participant.project_link "" }}
+                <a href="{{ $participant.project_link }}">
                     {{$participant.project_title }}
-                    {{ end }}
-                </td>
-            </tr>
+                </a>
+                {{ else }}
+                {{$participant.project_title }}
+                {{ end }}
+            </td>
+        </tr>
         {{ end }}
     </tbody>
 </table>
