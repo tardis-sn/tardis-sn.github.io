@@ -1,16 +1,17 @@
-{{ range $key, $data := site.Data.members.collaboration }}
+{{ range $member := site.Data.members.current_tardis_collaborators }}
 <div class="individual-container">
     <div class="info-container">
-        <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
-        <div class="person-name">{{ $data.full_name }}</div>
-        {{ with $data.tardis_collaboration }}
-        {{ $year := index (split .start_date "-") 2 }}
+        <img class="rounded-picture" src="../../members/{{ $member.member_id }}/{{ $member.image_path }}">
+        <div class="person-name">{{ $member.full_name }}</div>
         <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">
-            Since {{ $year }}
+            {{ with $member.start_year }}
+            Since {{ . }}
+            {{ end }}
         </div>
-        {{ range $expertise := .expertise }}
+        {{ with $member.expertise }}
+        {{ range $expertise := . }}
         <div class="role-box" style="font-size: small;">
-            <a href="#{{ . | urlize }}">{{ . }}</a>
+            <a href="#{{ $expertise | urlize }}">{{ $expertise }}</a>
         </div>
         {{ end }}
         {{ end }}
