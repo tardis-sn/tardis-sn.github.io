@@ -1,0 +1,18 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Expertise</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $member := site.Data.members.past_tardis_core_team }}
+        {{ $start_year := index (split (index $member.roles 0).start_year "-") 0 }}
+        {{ $end_year := index (split (index $member.roles 0).end_year "-") 0 }}
+        <tr>
+            <td>{{ $member.full_name }} ({{ $start_year }} - {{$end_year }})</td>
+            <td>{{ (index $member.roles 0).role }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>

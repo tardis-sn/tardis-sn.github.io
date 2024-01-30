@@ -1,15 +1,19 @@
-{{ range $key, $data := site.Data.members.gsoc_participants }}
-    {{ $gsoc_participation := index $data "gsoc_participation" }}
-    {{ range $gsoc := $gsoc_participation }}
-        {{ $yearData := index $gsoc "year" }}
-        {{ if eq (printf "%v" $yearData) "2023" }}
-            <div class="individual-container">
-                <div class="info-container">
-                    <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
-                    <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>             
-                    <div style="font-size: small;" class="role-box"><a href="{{ $gsoc.project_link }}" target="_blank">{{ $gsoc.project_title }}</a></div>
-                </div>
-            </div>
-        {{ end }}
-    {{ end }}
+{{ range $year := site.Data.members.current_gsoc_participants }}
+{{ range $key, $data := $year.info }}
+<div class="individual-container">
+    <div class="info-container">
+        <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
+        <div class="person-name">{{ $data.full_name }}</div>
+        <div style="font-size: small;" class="role-box">
+            {{ if ne $data.project_link "" }}
+            <a href="{{ $data.project_link }}" target="_blank">
+                {{ $data.project_title }}
+            </a>
+            {{ else }}
+            {{ $data.project_title }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
 {{ end }}

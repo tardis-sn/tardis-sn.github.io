@@ -1,28 +1,27 @@
+{{ range $data := sort site.Data.members.past_gsoc_participants "year" "desc" }}
+<h3>{{ $data.year }}</h3>
 <table>
     <thead>
         <tr>
             <th>Name</th>
-            <th>Years</th>
+            <th>Project</th>
         </tr>
     </thead>
     <tbody>
-        {{ range $data := site.Data.members.past_gsoc_participants }}
-            {{ $participantName := printf "%s %s" $data.first_name $data.last_name }}
-            {{ $participantYears := slice }}
-            {{ range $gsoc := $data.experiences }}
-                {{ range $participation := $gsoc.gsoc_participation }}
-                    {{ $yearData := $participation.year }}
-                    {{ if ne $yearData "2023" }}
-                        {{ $participantYears = $participantYears | append $yearData }}
-                    {{ end }}
+        {{ range $key, $participant := $data.info }}
+        <tr>
+            <td style="width: 250px;">{{ $participant.full_name }}</td>
+            <td>
+                {{ if ne $participant.project_link "" }}
+                <a href="{{ $participant.project_link }}">
+                    {{$participant.project_title }}
+                </a>
+                {{ else }}
+                {{$participant.project_title }}
                 {{ end }}
-            {{ end }}
-            {{ if gt (len $participantYears) 0 }}
-                <tr>
-                    <td>{{ $participantName }}</td>
-                    <td>{{ delimit $participantYears ", " }}</td>
-                </tr>
-            {{ end }}
+            </td>
+        </tr>
         {{ end }}
     </tbody>
 </table>
+{{ end }}

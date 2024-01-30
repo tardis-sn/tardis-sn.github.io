@@ -6,20 +6,11 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $key, $admin := site.Data.members.past_gsoc_org_admins }}
-            {{ $orgAdminName := printf "%s %s" $admin.first_name $admin.last_name }}
-            {{ $orgAdminYears := slice }}
-
-            {{ range $experience := $admin.experiences }}
-                {{ range $gsoc := $experience.gsoc_participation }}
-                    {{ $yearData := index $gsoc "year" }}
-                    {{ $orgAdminYears = $orgAdminYears | append (printf "%v" $yearData) }}
-                    {{ end }}
+        {{ range $admin, $adminData:= site.Data.members.past_gsoc_admins }}
                 <tr>
-                    <td>{{ $orgAdminName }}</td>
-                    <td>{{ delimit $orgAdminYears ", " }}</td>
+                    <td>{{ $adminData.full_name }}</td>
+                    <td>{{ delimit $adminData.years ", " }}</td>
                 </tr>
-            {{ end }}
         {{ end }}
     </tbody>
 </table>
