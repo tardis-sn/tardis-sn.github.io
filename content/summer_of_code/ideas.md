@@ -21,7 +21,7 @@ With sophisticated computer simulations astronomers try to reproduce the observe
 As mentioned in the background information above, TARDIS is a scientific tool (more specifically a Monte Carlo radiative transfer code) whose primary goal is the calculation of theoretical spectra for supernovae. Below, you find the typical result of a TARDIS calculation. It shows the calculated synthetic spectra for a simple supernova model. This particular setup (tardis_example) is officially provided by the TARDIS collaboration on the [documentation](https://tardis-sn.github.io/tardis/).
 <img src="/images/tardis_example.png" alt="image" style="display: block; margin: 0 auto;width: 90%;padding-top: 5%;padding-bottom: 5%;">
 
-### List of GSoC {{< current_year >}} Project Ideas
+### List of GSoC 2024 Project Ideas
 
 In the TARDIS collaboration we first establish a detailed plan on implementing new features before starting the actual work. This is an important step that ensures that the entire TARDIS collaboration is informed about the development efforts and that the team members can help shape the ideas during the discussion phase. We call these documents TEP - TARDIS Enhancement Proposals. We already have a great list of ideas [here](https://github.com/tardis-sn/tep) that we need help with. Some of these we have specially selected for GSoC {{< current_year >}} and are listed with specific “warm-up” tasks below. But feel free to propose your own TEP and make a PR on that.
 
