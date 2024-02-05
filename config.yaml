@@ -60,7 +60,7 @@ params:
             url: /summer_of_code/gsoc_home
             style: dropdown-link
           - label: GSoC 2024 Ideas
-            url: /summer_of_code/ideas_2024
+            url: /summer_of_code/ideas
             style: dropdown-link
           - label: GSoC 2023 Ideas
             url: /summer_of_code/ideas_2023

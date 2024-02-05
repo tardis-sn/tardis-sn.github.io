@@ -31,6 +31,8 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 
 #### TARDIS Benchmarking
 
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Benchmarking">}}
+
 **Project Length:** ~175 Hours\
 **Difficulty:** Moderate\
 **Mentors:** Andrew Fullard, Atharva Arya\
@@ -41,7 +43,11 @@ Currently, the benchmarks for the previous 5 commits are created and pushed to a
 We would like you, the GSoC contributor for this project, to improve the benchmarking system for TARDIS. You should plan to expand the framework to make it easy for us to add benchmarks to different parts of TARDIS. You should improve the GitHub Action to store more than just the recent 5 commits of benchmarks to provide an extended history. You should use the improved framework to add more benchmarks that cover other areas of the TARDIS code. You could improve the Airspeed Velocity page to better represent the existing benchmark.\
 **Your first objective if you choose to accept the mission:** Create a new benchmark for an isolated part of TARDIS using Airspeed Velocity. We recommend looking at the existing benchmark and unit tests for inspiration.
 
+<img src="/images/tardis_benchmarking.png" alt="image" style="display: block; margin: 0 auto;width: 90;padding-top: 5%;padding-bottom: 5%;">
+
 #### TARDIS Benchmarking and Performance Improvement
+
+{{<idea_tag "GitHub">}} {{<idea_tag "Benchmarking">}} {{<idea_tag "Performance">}}
 
 **Project Length:** Large, ~350 Hours\
 **Difficulty:** Hard\
@@ -71,3 +77,5 @@ Your first objective if you choose to accept the mission:\
 · Run the example simulation and generate an SDEC plot.\
 · Make a plot showing the abundance of each element, as a function of velocity.\
 · Make a plot that illustrates the total number of interactions that escape the simulation from the different elements.
+
+<img src="/images/velocity_tracker.png" alt="image" style="display: block; margin: 0 auto;width: 90;padding-top: 5%;padding-bottom: 5%;">
