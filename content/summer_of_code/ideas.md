@@ -1,6 +1,6 @@
 ---
-title: "GSoC 2023 Ideas"
-date: 2021-05-28T09:44:45-05:00
+title: "GSoC 2024 Ideas"
+date:
 draft: false
 layout: page
 ---
@@ -21,98 +21,61 @@ With sophisticated computer simulations astronomers try to reproduce the observe
 As mentioned in the background information above, TARDIS is a scientific tool (more specifically a Monte Carlo radiative transfer code) whose primary goal is the calculation of theoretical spectra for supernovae. Below, you find the typical result of a TARDIS calculation. It shows the calculated synthetic spectra for a simple supernova model. This particular setup (tardis_example) is officially provided by the TARDIS collaboration on the [documentation](https://tardis-sn.github.io/tardis/).
 <img src="/images/tardis_example.png" alt="image" style="display: block; margin: 0 auto;width: 90%;padding-top: 5%;padding-bottom: 5%;">
 
-### List of GSoC {{< current_year >}} Project Ideas
+### List of GSoC 2024 Project Ideas
 
-In the TARDIS collaboration we first establish a detailed plan on implementing new features before starting the actual work. This is an important step that ensures that the entire TARDIS collaboration is informed about the development efforts and that the team members can help shape the ideas during the discussion phase. We call these documents TEP - TARDIS Enhancement Proposals. We already have a great list of ideas [here](https://github.com/tardis-sn/tep) that we need help with. Some of these we have specially selected for GSoC {{< current_year >}} and are listed with specific “warm-up” tasks below. But feel free to propose your own TEP and make a PR on that.
+In the TARDIS collaboration we first establish a detailed plan on implementing new features before starting the actual work. This is an important step that ensures that the entire TARDIS collaboration is informed about the development efforts and that the team members can help shape the ideas during the discussion phase. We call these documents TEP - TARDIS Enhancement Proposals. We already have a great list of ideas [here](https://github.com/tardis-sn/tep) that we need help with. Some of these we have specially selected for GSoC 2024 and are listed with specific “warm-up” tasks below. But feel free to propose your own TEP and make a PR on that.
 
 If you use one of our TEPs, you can definitely add more detail to the implementation, but what we really want to see is a detailed timeline with milestones that shows us that you have thought about how to implement the feature in three months. For any questions about the projects, please ask on [Gitter](https://gitter.im/tardis-sn/gsoc).
 
 Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with the First objective is essential for each proposal to allow to see how you work.
 
-#### Velocity Packet Tracker Visualisation
+#### TARDIS Benchmarking
+
+{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Benchmarking">}}
+
+**Project Length:** ~175 Hours\
+**Difficulty:** Moderate\
+**Mentors:** Andrew Fullard, Atharva Arya\
+**Description:** TARDIS uses [Airspeed Velocity](https://asv.readthedocs.io/en/stable/) to produce benchmarks that measure the performance of TARDIS. These benchmarks are created via a [GitHub Action](https://github.com/tardis-sn/tardis/blob/master/.github/workflows/benchmarks.yml) that runs whenever a commit is made to the main branch. It will also trigger when a benchmarks label is added to pull requests, and produce a bot comment that lists the benchmark results.
+
+Currently, the benchmarks for the previous 5 commits are created and pushed to a [separate repository](https://github.com/tardis-sn/tardis-benchmarks/tree/main). This repository publishes to a [website](https://tardis-sn.github.io/tardis-benchmarks/).
+
+We would like you, the GSoC contributor for this project, to improve the benchmarking system for TARDIS. You should plan to expand the framework to make it easy for us to add benchmarks to different parts of TARDIS. You should improve the GitHub Action to store more than just the recent 5 commits of benchmarks to provide an extended history. You should use the improved framework to add more benchmarks that cover other areas of the TARDIS code. You could improve the Airspeed Velocity page to better represent the existing benchmark.\
+**Your first objective if you choose to accept the mission:** Create a new benchmark for an isolated part of TARDIS using Airspeed Velocity. We recommend looking at the existing benchmark and unit tests for inspiration.
+
+<img src="/images/tardis_benchmarking.png" alt="image" style="display: block; margin: 0 auto;width: 90;padding-top: 5%;padding-bottom: 5%;">
+
+#### TARDIS Benchmarking and Performance Improvement
+
+{{<idea_tag "GitHub">}} {{<idea_tag "Benchmarking">}} {{<idea_tag "Performance">}}
+
+**Project Length:** Large, ~350 Hours\
+**Difficulty:** Hard\
+**Mentors:** Andrew Fullard, Atharva Arya, Alex Holas\
+**Description:** This project aims to enhance the efficiency and scalability of the TARDIS radiative transfer code, a critical tool in astrophysical simulations. TARDIS is widely used for modeling the spectra of astronomical transients, providing valuable insights into complex physical processes.\
+However, as computational demands increase and simulations grow in complexity, identifying and addressing performance bottlenecks becomes imperative. The primary goals of this project are to investigate potential performance bottlenecks within the TARDIS codebase, optimize critical components, and establish robust benchmarking procedures. The first half of this project will consist of the “TARDIS Benchmarking” project listed above. The second part will involve making changes to parts of TARDIS identified as poorly performing.\
+The project will focus on improving both single- and multi-core performance and scaling to ensure that TARDIS remains a reliable and efficient tool for researchers in the field. During this project you will acquire hands-on experience with state-of-the-art profiling tools such as [memray](https://github.com/bloomberg/memray), gaining a deep understanding of how to identify and analyze performance bottlenecks in complex codebases like TARDIS. Furthermore you will work closely with the TARDIS codebase, enhancing your ability to navigate and understand intricate scientific software. This experience is invaluable for anyone interested in contributing to large-scale computational projects.\
+By the end of the project, you will not only have made significant contributions to TARDIS but will have acquired a versatile skill set that is transferable to various domains within computational science and software engineering.\
+**First objective**:
+Create a new benchmark for an isolated part of TARDIS using [Airspeed Velocity](https://asv.readthedocs.io/en/stable/). We recommend looking at the existing benchmark and unit tests for inspiration.\
+AND\
+Create a memory usage profile of the TARDIS example simulations using a tool such as [memray](https://github.com/bloomberg/memray).
+
+#### Velocity Packet Tracker Visualization
 
 {{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Matplotlib">}} {{<idea_tag "Plotly">}}
 
 **Project Length:** 175 Hours\
 **Difficulty:** Moderate\
-**Mentors:** Atharva Arya, Lindsey Kwok, Marc Williamson, Mark Magee\
-**Description:** The TARDIS SDEC plot visualises which atoms photon packets interact with before they escape the ejecta and contribute towards the absorption and emission features of the output spectrum. However, the SDEC plot does not visualise where these interactions occur within the ejecta. This information can be extremely useful to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum. This project will develop a visualisation tool that plots the number of photon packet interactions as a function of velocity for each element present in the ejecta. See [this pull request](https://github.com/tardis-sn/tardis/pull/1606) for an example of what the plot could look like.\
-**Your first objective if you choose to accept the mission:** Run the TARDIS example simulation and generate an SDEC plot. Make a second plot showing the abundance of each element as a function of velocity.
+**Mentors:** James Gillanders, Jing Lu, Harshul Gupta
 
-#### Grotrian diagram visualisation
+**Description:**
+The TARDIS SDEC plot visualizes which elements contribute towards the absorption and emission features of the output spectrum. However, the SDEC plot does not visualize where these interactions occur within the ejecta. This information can be extremely useful to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum. This project will develop a visualization tool that plots the number of photon packet interactions as a function of velocity for each element present in the ejecta. See this pull request for an example of what the plot could look like: https://github.com/tardis-sn/tardis/pull/1606.
 
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Matplotlib">}} {{<idea_tag "Plotly">}}{{<idea_tag "Basic atomic physics">}}
+Your first objective if you choose to accept the mission:\
+· Install the most up-to-date version of the TARDIS code.\
+· Run the example simulation and generate an SDEC plot.\
+· Make a plot showing the abundance of each element, as a function of velocity.\
+· Make a plot that illustrates the total number of interactions that escape the simulation from the different elements.
 
-**Project Length:** 350 Hours\
-**Difficulty:** Moderate\
-**Mentors:** Andreas Flörs, Aoife Boyle, James Gillanders, Mark Magee, Sona Chitchyan, Yuki Matsumura\
-**Description:** TARDIS generates synthetic observations of stellar explosions that can be compared to real observations. With such comparisons, we can learn more about the physical processes occurring and the conditions inside the supernova, including which elements and atomic transitions are dominant. TARDIS tracks the atomic transitions of interacting photons, level populations, etc. allowing the user to interrogate the physical conditions of the supernova. The goal of this project is to build a visual tool to represent this information for the user in Grotrian diagrams, which show different atomic levels of ions and transitions between them. An example is shown here from Boyle et al. 2017. Developing this tool will allow the user to more easily understand the important physical conditions of their supernova model.
-<img src="/images/Grotrian.png" alt="image" style="display: block; margin: 0 auto;width: 100%;padding-top: 5%;padding-bottom: 5%;">
-**Your first objective if you choose to accept the mission:** Run a TARDIS simulation and plot the fraction of neutral and singly-ionised silicon against velocity.
-
-#### Develop an interactive abundance visualisation tool
-
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Matplotlib">}} {{<idea_tag "Plotly">}}
-
-**Project Length:** 175 Hours\
-**Mentors:** Atharva Arya, Eva Laplace, Harshul Gupta, James Gillanders\
-**Description:** TARDIS is used to model and understand the properties of the material ejected during violent explosions in space. By specifying some input model parameters, the simulation runs and generates synthetic spectra which can be compared to observations. Currently, some of the model properties can be difficult to interpret, and so we envisage developing some helpful visualisation tools to aid in understanding the properties of the input model. Specifically, we hope to develop an interactive widget that illustrates the composition of the ejected material across the velocity of the simulation. The focus of this project would be developing a TARDIS plot that is inspired by the TULIPS visualisation tools (see https://astro-tulips.readthedocs.io/en/latest/chemical_profile_diagram.html ).\
-**First objective:** Run the TARDIS example simulation and plot the abundance of the elements against velocity.
-<img src="/images/tulips_chemical_profile.png" alt="image" style="display: block; margin: 0 auto;width: 100%;padding-top: 5%;padding-bottom: 5%;">
-
-#### Inner boundary velocity solver
-
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "NumPy">}} {{<idea_tag "Pandas">}}{{<idea_tag "Astrophysics">}}
-
-**Project Length:** 350 Hours\
-**Mentors:** Andreas Flörs, Christian Vogl, Jack O'Brien\
-**Description:** TARDIS operates on a "photospheric" inner boundary approximation. A hard inner boundary in velocity is set from which radiative packets are emitted through the ejecta according to a black-body distribution at a given temperature. Currently, TARDIS can solve for the radiative and inner boundary temperatures as well as dilution factors given a static inner velocity boundary. The precise location of where this inner boundary velocity should be placed is not always obvious and there are a few methods by which one can intelligently select a location based on the properties of the plasma (which are constantly updating over each iteration). We would like to be able to update the location of the inner boundary velocity at each iteration based on a set of options for desired properties of the plasma at each iteration so that the inner boundary velocity does not have to be set by hand. The options include setting the inner boundary velocity according to a given optical depth over all frequencies (either Planck or Rossland mean opacities) or setting the inner boundary according to a desired value for the dilution factors. Some work must be done to handle these updates mid iteration as the updated velocity boundary may, for example, move outside the bounds of the simulation or may move between simulation shells.  
-**First objective:** Find the best inner boundary velocity value for the three tardis models found [here](https://github.com/tardis-sn/tardis-configs/tree/main/gsoc/2023/IBVS). For each model, run them through tardis and look at the converged value of the dilution factor (**w**) at the innermost shell (**shell 0**) after the final iteration. Edit the configuration files to adjust the inner boundary velocity appropriately in order to try to make the inner shell dilution factor be equal to **0.5**. Run the simulation again with your updated inner boundary velocity and again check the dilution factor at the end of the simulation. Once again adjust the inner boundary velocity to try to make the dilution factor closer to the desired value. Repeat this process for each model until the final dilution factor at the innermost shell is equal to **0.5** to within an accuracy of 0.01. In a jupyter notebook, create a cell in markdown that explains the process you went through to find the best value for the inner boundary velocity. If you automated this process, describe how you did it and include the relevant code in a cell below the explaination. In this notebook, for each model, include a cell that plots the integrated spectrum of the simulation using the original inner boundary velocity and using the inner boundary velocity that you found. Both spectra should be on the same plot. The plot should include axis labels, a title that uniquely identifies the model you are plotting, and a legend that indentifies which spectrum is which including the value of each spectrum's respective inner boundary velocity and innermost converged dilution factor. The resulting notebook should then contain 3 plots (corresponding to each model) with two spectra on each plot (corresponding to the spectrum before and after you have updated the inner bounardary velocity).
-
-#### STARDIS Parallelization and GPU
-
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Numba">}} {{<idea_tag "Cuda">}}
-
-**Project Length:** 350 Hours\
-**Mentors:** Alexander Holas, Atharva Arya, Isaac Smith, Jaladh Singhal, Vicente Amado Olivo\
-**Description:** STARDIS generates synthetic spectra for stars, given a set of parameters. These spectra can then be compared to real observations to give us information about the conditions inside that star’s atmosphere. STARDIS is a new companion code to TARDIS, and has not yet been optimised. The goal of this project is to increase the speed of STARDIS using [Numba](https://numba.readthedocs.io/en/stable/index.html) by allowing slower parts of STARDIS to be run [in parallel](https://numba.readthedocs.io/en/stable/user/parallel.html), and allowing for them to be run on the GPU using Numba’s [CUDA capabilities](https://numba.readthedocs.io/en/stable/cuda/index.html). As a reference, this has been done in TARDIS with the formal integral. The regular Numba version (with parts parallelized) can be found [here](https://github.com/tardis-sn/tardis/blob/master/tardis/montecarlo/montecarlo_numba/formal_integral.py). Then, there is also a version written with CUDA [here](https://github.com/tardis-sn/tardis/blob/master/tardis/montecarlo/montecarlo_numba/formal_integral_cuda.py). Increasing the speed of STARDIS will allow research to be done rapidly using our tools.
-
-**First objective:** In the TARDIS repository, find the Jupyter Notebook that creates the [initialization page of the documentation](https://tardis-sn.github.io/tardis/physics/montecarlo/initialization.html). Create a version of `planck_function()` (see code cell #6) that is `jit` compiled by Numba. Show a comparison of how long it takes to calculate `planck_function(nus_planck)` (see code cell #7) for the original function versus the `jitted` function for 100, 200, and 500 frequency bins. Make a pull request to the TARDIS repository with your modifications of this notebook.
-
-#### Connecting the Gamma-ray code to TARDIS
-
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Object Oriented Programming">}}
-
-**Project Length:** 350 Hours\
-**Mentors:** Andrew Fullard, Vicente Amado Olivo \
-**Description:** A [gamma-ray transport code](https://tardis-sn.github.io/tardis/physics/energy_input/gammaray_deposition.html) has been developed to make use of the TARDIS infrastructure. However, the gamma-ray transport code is disconnected from the way TARDIS is run to generate normal spectra (see the [Quickstart](https://tardis-sn.github.io/tardis/quickstart.html)). It is not connected with the rest of the API. Instead it uses the [`Radial1Dmodel`](https://tardis-sn.github.io/tardis/api/tardis.model.base.html#tardis.model.base.Radial1DModel) object by loading from a configuration file, and generates a [plasma](https://tardis-sn.github.io/tardis/api/tardis.plasma.base.html) object from scratch, as well as loading external data. When it runs, it duplicates some functionality that is already in TARDIS as part of the [Monte Carlo modules](https://tardis-sn.github.io/tardis/api/tardis.montecarlo.html). It also lacks tests of many new functions. For this project, you will integrate the gamma-ray transport code with the rest of TARDIS so that it is an option to run as part of a normal TARDIS simulation. \
-**First objective:** In a notebook, generate a configuration object from the `tardis_example.yml`. Then use the configuration object to generate a `Radial1DModel` object using the `from_config` method. The configuration object’s `atom_data` property should also be used to create an `AtomData` object using the `from_hdf` method. Then use the `Radial1DModel` object to generate a `BasePlasma` object. The BasePlasma `plasma_properties` should be a list of properties: `[Density, Abundance, IsotopeAbundance, AtomicData, AtomicMass, IsotopeNumberDensity, NumberDensity, SelectedAtoms, IsotopeMass]`. The `density, abundance, isotope_abundance` should be read from the model object. The `atomic_data` should be the `AtomData` object created previously. Finally, run the `main_gamma_ray_loop` function using these created model and plasma objects. You will get an error from Pandas that a file is not found.
-
-### Import and store NNDC deposition data
-
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Pandas">}}
-
-**Project Length:** 175 Hours\
-**Mentors:** Andreas Flörs, Andrew Fullard, Jack O'Brien\
-**Description:** Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called “radlist”. This project will use the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output.\
-**First objective:** In a jupyter notebook, use the requests.post function of Python to download the result as a json from [this page](https://www.nndc.bnl.gov/radlist/radlist2.jsp). You should pass in an ENSDF file and the requested format into the data dictionary. You can acquire an ENSDF file from [this page](https://www.nndc.bnl.gov/nudat3/indx_dec.jsp) by entering “Co56” (Cobalt 56) into the Nucleus input field.
-
-### Simulation Object Restructure
-
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}}
-
-**Project Length:** 175 Hours\
-**Mentors:** Atharva Arya, Jack O'Brien, Sona Chitchyan\
-**Description:** When running TARDIS, an instance of the [Simulation object](https://github.com/tardis-sn/tardis/blob/e9d5a432ca27906c3a7ec59cb65621b414842d22/tardis/simulation/base.py#L89) is called first. It sets up the model of the simulation, including initial luminosity, inner temperature of the photosphere, etc. The Simulation class also consists of visualisation tools like [convergence plots](https://tardis-sn.github.io/tardis/io/visualization/convergence_plot.html) and [progress bars](https://tardis-sn.github.io/tardis/io/output/progress_bars.html) which update in real time, displaying various scientific variables and make it easier for users to understand the status of the convergence of the simulation. All of those methods are essential for the simulation to be able to run, but having them all in one class makes it hard for developers to maintain the code and incorporate newer features. This project aims to break the Simulation Object into smaller and more compact classes, making it more modular and maintainable. There will also be a need to restructure the tests to check the functionality of the added features.
-\
-**First objective:** The first objective is creating a new class called `ConvergencePlot` and move `damped_converge` and `_get_convergence_status` methods into this new class. Make sure that you can successfully run an example TARDIS simulation with this change. Make a PR on TARDIS with your change.
-
-### Having versioned atomic data repositories
-
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}}
-
-**Project Length:** 175 Hours\
-**Mentors:** Atharva Arya, Ezequiel Passaro, Issac Smith, Josh Shields, Wolfgang Kerzendorf\
-**Description:** Carsus generates an HDF file by combining atom data from various sources(CMFGEN, Chianti, NIST, to name a few). This HDF file is then used by TARDIS to generate the atomic spectra. When a new version of the atomic source rolls out, we don’t have a way to determine what changes have crept in. In this project you’d be asked to create a GitHub repository and determine a way to check when a new version of the atomic data source is available and its comparison to the previous versions. Carsus should then use this latest version to generate its atomic file.
-\
-**First objective:** Run the Carsus Quickstart with two different versions of Chianti and compare the generated atomic files using the Atom Data Comparison notebook.
+<img src="/images/velocity_tracker.png" alt="image" style="display: block; margin: 0 auto;width: 90;padding-top: 5%;padding-bottom: 5%;">
