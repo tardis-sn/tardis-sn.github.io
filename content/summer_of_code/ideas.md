@@ -93,7 +93,8 @@ The TARDIS SDEC plot visualizes which elements contribute towards the absorption
 
 #### Enhancing TARDIS Packet Tracker
 
-{{<idea_tag "Python">}} {{<idea_tag "Numba">}} {{<idea_tag "pandas">}}
+{{<idea_tag "Python">}} {{<idea_tag "Numba">}} {{<idea_tag "Pandas">}}
+
 **Project Length:** 350 Hours\
 **Mentors:** Wolfgang Kerzendorf, Christian Vogl \
 **Difficulty:** Moderate\
