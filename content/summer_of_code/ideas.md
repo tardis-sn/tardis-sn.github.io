@@ -67,7 +67,7 @@ Create a memory usage profile of the TARDIS example simulations using a tool suc
 
 **Project Length:** 175 Hours\
 **Difficulty:** Moderate\
-**Mentors:** James Gillanders, Jing Lu, Harshul Gupta
+**Mentors:** James Gillanders, Jing Lu, Harshul Gupta, Jaladh Singhal
 
 **Description:**
 The TARDIS SDEC plot visualizes which elements contribute towards the absorption and emission features of the output spectrum. However, the SDEC plot does not visualize where these interactions occur within the ejecta. This information can be extremely useful to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum. This project will develop a visualization tool that plots the number of photon packet interactions as a function of velocity for each element present in the ejecta. See this pull request for an example of what the plot could look like: https://github.com/tardis-sn/tardis/pull/1606.
@@ -85,18 +85,19 @@ The TARDIS SDEC plot visualizes which elements contribute towards the absorption
 {{<idea_tag "Python">}} {{<idea_tag "GitHub">}} {{<idea_tag "Numba">}} {{<idea_tag "Cuda">}}
 
 **Project Length:** 175 Hours\
-**Mentors:** Wolfgang Kerzendorf, Josh Shields, \
+**Mentors:** Wolfgang Kerzendorf, Josh Shields \
 **Difficulty:** Moderate\
 **Description:** STARDIS generates synthetic spectra for stars, given a set of parameters. These spectra can then be compared to real observations to give us information about the conditions inside that star’s atmosphere. STARDIS is a new companion code to TARDIS, and has not yet been optimised. The goal of this project is to increase the speed of STARDIS using [Numba](https://numba.readthedocs.io/en/stable/index.html) by allowing slower parts of STARDIS to be run [in parallel](https://numba.readthedocs.io/en/stable/user/parallel.html), and allowing for them to be run on the GPU using Numba’s [CUDA capabilities](https://numba.readthedocs.io/en/stable/cuda/index.html) or [CuPY](https://cupy.dev/). As a reference, this has been done in TARDIS with the formal integral. The regular Numba version (with parts parallelized) can be found [here](https://github.com/tardis-sn/tardis/blob/master/tardis/montecarlo/montecarlo_numba/formal_integral.py). Then, there is also a version written with CUDA [here](https://github.com/tardis-sn/tardis/blob/master/tardis/montecarlo/montecarlo_numba/formal_integral_cuda.py). Increasing the speed of STARDIS will allow research to be done rapidly using our tools.
 
 **First objective:** In the TARDIS repository, find the Jupyter Notebook that creates the [initialization page of the documentation](https://tardis-sn.github.io/tardis/physics/montecarlo/initialization.html). Create a version of `planck_function()` (see code cell #6) that is `jit` compiled by Numba. Show a comparison of how long it takes to calculate `planck_function(nus_planck)` (see code cell #7) for the original function versus the `jitted` function for 100, 200, and 500 frequency bins. Make a pull request to the TARDIS repository with your modifications of this notebook.
 
 #### Enhancing TARDIS Packet Tracker
+
 {{<idea_tag "Python">}} {{<idea_tag "Numba">}} {{<idea_tag "pandas">}}
 **Project Length:** 350 Hours\
-**Mentors:** Wolfgang Kerzendorf, Christian Vogl, \
+**Mentors:** Wolfgang Kerzendorf, Christian Vogl \
 **Difficulty:** Moderate\
-**Description:** TARDIS has a lot of monitoring functionality to study the interiors of the exploding star. At the heart of the current implementation is a so-called packet tracker that logs how the energy escapes the supernovae. In this project, we want to bring together several legacy techniques to track the packets by enhancing the main tracker. 
+**Description:** TARDIS has a lot of monitoring functionality to study the interiors of the exploding star. At the heart of the current implementation is a so-called packet tracker that logs how the energy escapes the supernovae. In this project, we want to bring together several legacy techniques to track the packets by enhancing the main tracker.
 [The tracker](https://tardis-sn.github.io/tardis/io/output/rpacket_tracking.html) can be initialized in the configuration and will produce pandas Dataframes of the packet interaction. Currently, the level of tracking and monitoring is fixed and we want to make the tracker able to be able to track the packets with different detail levels. The addition to the tracking detail will require changes to the compiled part of the Python code (we use the [Numba](https://numba.readthedocs.io/) package for high-performance implementation. The project will give you a very good insight into high-performance and Just-In-Time compiled python and how to connect it to the rest of a larger python project.
 
 **First objective:** Follow the [instructions](https://tardis-sn.github.io/tardis/io/output/rpacket_tracking.html) to setup the tracking for an example TARDIS run. Read-up on how to change the interaction_type column to a category column. Change the documentation notebook and make a Pull Request on that change. Think about how you would only the last interaction of the packets.
