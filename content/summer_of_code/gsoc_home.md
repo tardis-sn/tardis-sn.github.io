@@ -13,7 +13,7 @@ TARDIS is an open source radiative transfer code for simulating supernova spectr
 If you are interested, follow these steps:
 
 - Go through the [checklist](../checklist)
-- Check out what we expect from you ([expectations](../expectations), [acceptance requirements](../requirements), [application guidelines](../guidelines))
+- Check out what we expect from you ([expectations](../other_requirements#participation-expectations), [acceptance requirements](../other_requirements#participation-requirements), [application guidelines](../other_requirements#application-guidelines))
 - Get familiar with TARDIS ([Github](https://github.com/tardis-sn/tardis), [Documentation](https://tardis-sn.github.io/tardis/)) and pick a project from the [Ideas Page](../ideas)
 - [Apply](https://summerofcode.withgoogle.com/)!
 
@@ -36,6 +36,7 @@ We have compiled some background information about TARDIS and the science we do 
 You are also welcome to come up with your own project ideas and discuss them with the TARDIS mentors. We're here to help you become new open source developers, so don't be shy if you have any questions. The best way to get in contact is to chat with us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
 
 ### The Selection Process
+
 GSoC is about getting people involved and contributing to open source over the long-term. As such, we heavily weight our application selection process towards students that are interested in remaining involved in TARDIS and open source software development long after GSoC has ended.
 
 GSoC is not a job! If you think this is just a summer job, then GSoC is probably not for you. It's only like a job in terms of planning your time commitment over the summer.
@@ -57,7 +58,8 @@ Since 2005, Google has run an awesome open source software development program, 
   - That, in turn, determines how many student developers work with the TARDIS collaboration.
 
 Please also read the following pages before applying. Project ideas can be found on the [ideas page](../ideas).
-1. [Application Requirements](../other_requirements)
-2. [Application Guidelines](../other_requirements)
-3. [Application Checklist](../other_requirements)
-5. [Participation Expectations](../other_requirements)
+
+1. [Application Requirements](../other_requirements#participation-requirements)
+2. [Application Guidelines](../other_requirements#application-guidelines)
+3. [Application Checklist](../checklist)
+4. [Participation Expectations](../other_requirements#participation-expectations)
