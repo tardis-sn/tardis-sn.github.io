@@ -67,7 +67,7 @@ Create a memory usage profile of the TARDIS example simulations using a tool suc
 
 **Project Length:** 175 Hours\
 **Difficulty:** Moderate\
-**Mentors:** James Gillanders, Jing Lu, Harshul Gupta
+**Mentors:** James Gillanders, Jing Lu, Harshul Gupta, Jaladh Singhal
 
 **Description:**
 The TARDIS SDEC plot visualizes which elements contribute towards the absorption and emission features of the output spectrum. However, the SDEC plot does not visualize where these interactions occur within the ejecta. This information can be extremely useful to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum. This project will develop a visualization tool that plots the number of photon packet interactions as a function of velocity for each element present in the ejecta. See this pull request for an example of what the plot could look like: https://github.com/tardis-sn/tardis/pull/1606.
