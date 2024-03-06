@@ -54,6 +54,11 @@
                 "role": "Computational Physics Coordinator",
                 "start_year": 2023,
                 "end_year": null
+            },
+            {
+                "role": "Science coordination group member",
+                "start_year": 2023,
+                "end_year": null
             }
         ],
         "full_name": "Christian Vogl",
@@ -64,6 +69,11 @@
         "roles": [
             {
                 "role": "Education Coordinator",
+                "start_year": 2023,
+                "end_year": null
+            },
+            {
+                "role": "Science coordination group member",
                 "start_year": 2023,
                 "end_year": null
             }
@@ -90,6 +100,11 @@
                 "role": "Package Coordinator: Visualization",
                 "start_year": 2023,
                 "end_year": null
+            },
+            {
+                "role": "Science coordination group member",
+                "start_year": 2023,
+                "end_year": null
             }
         ],
         "full_name": "James Gillanders",
@@ -100,6 +115,11 @@
         "roles": [
             {
                 "role": "Collaboration Coordinator",
+                "start_year": 2023,
+                "end_year": null
+            },
+            {
+                "role": "Science coordination group member",
                 "start_year": 2023,
                 "end_year": null
             }
@@ -114,10 +134,27 @@
                 "role": "Package Coordinator: STARDIS",
                 "start_year": 2023,
                 "end_year": null
+            },
+            {
+                "role": "Science coordination group member",
+                "start_year": 2023,
+                "end_year": null
             }
         ],
         "full_name": "Josh Shields",
         "image_path": "media/images/josh_photo.jpg"
+    },
+    {
+        "member_id": "mark_magee",
+        "roles": [
+            {
+                "role": "Science coordination group member",
+                "start_year": 2023,
+                "end_year": null
+            }
+        ],
+        "full_name": "Mark Magee",
+        "image_path": "../me.jpeg"
     },
     {
         "member_id": "michael_zingale",
@@ -154,6 +191,11 @@
             {
                 "role": "Principal Investigator",
                 "start_year": 2011,
+                "end_year": null
+            },
+            {
+                "role": "Science coordination group member",
+                "start_year": 2023,
                 "end_year": null
             }
         ],

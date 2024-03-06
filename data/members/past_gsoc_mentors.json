@@ -1,19 +1,181 @@
 [
     {
+        "member_id": "aiofe_boyle",
+        "years": [
+            2023
+        ],
+        "full_name": "Aiofe Boyle",
+        "image_path": "media/images/profile.png"
+    },
+    {
+        "member_id": "alexander_holas",
+        "years": [
+            2023
+        ],
+        "full_name": "Alexander Holas",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "andreas_flors",
+        "years": [
+            2023
+        ],
+        "full_name": "Andreas Flors",
+        "image_path": "media/images/andreas.jpeg"
+    },
+    {
+        "member_id": "andrew_fullard",
+        "years": [
+            2023
+        ],
+        "full_name": "Andrew Fullard",
+        "image_path": "media/images/me.jpg"
+    },
+    {
+        "member_id": "anirban_dutta",
+        "years": [
+            2023
+        ],
+        "full_name": "Anirban  Dutta",
+        "image_path": "media/images/anirban_dutta.jpg"
+    },
+    {
+        "member_id": "atharva_arya",
+        "years": [
+            2023
+        ],
+        "full_name": "Atharva Arya",
+        "image_path": "media/images/atharva.jpg"
+    },
+    {
+        "member_id": "bea_lu",
+        "years": [
+            2023
+        ],
+        "full_name": "Bea Lu",
+        "image_path": "media/images/bea_lu.jpg"
+    },
+    {
+        "member_id": "christian_vogl",
+        "years": [
+            2023
+        ],
+        "full_name": "Christian Vogl",
+        "image_path": "media/images/christian.jpeg"
+    },
+    {
+        "member_id": "eva_laplace",
+        "years": [
+            2023
+        ],
+        "full_name": "Eva Laplace",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "ezequiel_passaro",
+        "years": [
+            2023
+        ],
+        "full_name": "Ezequiel Passaro",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "harshul_gupta",
+        "years": [
+            2023
+        ],
+        "full_name": "Harshul Gupta",
+        "image_path": "media/images/harshul.jpeg"
+    },
+    {
+        "member_id": "isaac_smith",
+        "years": [
+            2023
+        ],
+        "full_name": "Isaac Smith",
+        "image_path": "media/images/isaac_image.jpg"
+    },
+    {
+        "member_id": "jack_o_brien",
+        "years": [
+            2023
+        ],
+        "full_name": "Jack O'Brien",
+        "image_path": "media/images/jack.jpg"
+    },
+    {
         "member_id": "jaladh_singhal",
         "years": [
+            2023,
             2022
         ],
         "full_name": "Jaladh Singhal",
         "image_path": "media/images/jaladh.jpg"
     },
     {
+        "member_id": "james_gillanders",
+        "years": [
+            2023
+        ],
+        "full_name": "James Gillanders",
+        "image_path": "media/images/james.jpeg"
+    },
+    {
+        "member_id": "jing_lu",
+        "years": [
+            2023
+        ],
+        "full_name": "Jing Lu",
+        "image_path": "media/images/jing.jpg"
+    },
+    {
+        "member_id": "josh_shields",
+        "years": [
+            2023
+        ],
+        "full_name": "Josh Shields",
+        "image_path": "media/images/josh_photo.jpg"
+    },
+    {
+        "member_id": "mark_magee",
+        "years": [
+            2023
+        ],
+        "full_name": "Mark Magee",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "sona_chitchyan",
+        "years": [
+            2023
+        ],
+        "full_name": "Sona Chitchyan",
+        "image_path": "media/images/sona_photo.jpg"
+    },
+    {
+        "member_id": "vicente_amado",
+        "years": [
+            2023
+        ],
+        "full_name": "Vicente  Amado Olivo",
+        "image_path": "media/images/ESD_headshot.jpg"
+    },
+    {
         "member_id": "wolfgang_kerzendorf",
         "years": [
+            2023,
             2021,
             2020
         ],
         "full_name": "Wolfgang Kerzendorf",
         "image_path": "media/images/wolfgang.jpg"
+    },
+    {
+        "member_id": "yuki_matsumura",
+        "years": [
+            2023
+        ],
+        "full_name": "Yuki Matsumura",
+        "image_path": "media/images/yuki_face.png"
     }
 ]
