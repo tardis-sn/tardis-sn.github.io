@@ -35,7 +35,7 @@ Putting in a [Pull Request](https://docs.github.com/en/pull-requests/collaborati
 
 **Project Length:** ~175 Hours\
 **Difficulty:** Moderate\
-**Mentors:** Andrew Fullard, Atharva Arya\
+**Mentors:** Andrew Fullard, Atharva Arya, Aoife Boyle\
 **Description:** TARDIS uses [Airspeed Velocity](https://asv.readthedocs.io/en/stable/) to produce benchmarks that measure the performance of TARDIS. These benchmarks are created via a [GitHub Action](https://github.com/tardis-sn/tardis/blob/master/.github/workflows/benchmarks.yml) that runs whenever a commit is made to the main branch. It will also trigger when a benchmarks label is added to pull requests, and produce a bot comment that lists the benchmark results.
 
 Currently, the benchmarks for the previous 5 commits are created and pushed to a [separate repository](https://github.com/tardis-sn/tardis-benchmarks/tree/main). This repository publishes to a [website](https://tardis-sn.github.io/tardis-benchmarks/).
