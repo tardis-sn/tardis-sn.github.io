@@ -1,7 +1,48 @@
 [
     {
+        "member_id": "andrew_fullard",
+        "years": [
+            2023
+        ],
+        "full_name": "Andrew Fullard",
+        "image_path": "media/images/me.jpg"
+    },
+    {
+        "member_id": "atharva_arya",
+        "years": [
+            2023
+        ],
+        "full_name": "Atharva Arya",
+        "image_path": "media/images/atharva.jpg"
+    },
+    {
+        "member_id": "jack_o_brien",
+        "years": [
+            2023
+        ],
+        "full_name": "Jack O'Brien",
+        "image_path": "media/images/jack.jpg"
+    },
+    {
+        "member_id": "jing_lu",
+        "years": [
+            2023
+        ],
+        "full_name": "Jing Lu",
+        "image_path": "media/images/jing.jpg"
+    },
+    {
+        "member_id": "marc_williamson",
+        "years": [
+            2023
+        ],
+        "full_name": "Marc Williamson",
+        "image_path": "media/images/marc.jpeg"
+    },
+    {
         "member_id": "wolfgang_kerzendorf",
         "years": [
+            2023,
             2022
         ],
         "full_name": "Wolfgang Kerzendorf",

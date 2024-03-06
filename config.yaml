@@ -62,14 +62,11 @@ params:
           - label: GSoC 2024 Ideas
             url: /summer_of_code/ideas
             style: dropdown-link
-          - label: GSoC 2023 Ideas
-            url: /summer_of_code/ideas_2023
-            style: dropdown-link
-          - label: GSoC 2023 Team
+          - label: GSoC 2024 Team
             url: /summer_of_code/current_gsoc_team
             style: dropdown-link
-          - label: Past GSoC Team
-            url: /summer_of_code/past_gsoc_team
+          - label: Past GSoC
+            url: /summer_of_code/past_gsoc
             style: dropdown-link
           - label: GSoC Checklist
             url: /summer_of_code/checklist

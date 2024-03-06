@@ -42,7 +42,10 @@
     {
         "member_id": "josh_shields",
         "expertise": [
-            ""
+            "STARDIS",
+            "stellar radiative transfer",
+            "SNe Ia",
+            "atomic data"
         ],
         "start_year": 2023,
         "end_year": null,
@@ -62,12 +65,16 @@
     {
         "member_id": "aiofe_boyle",
         "expertise": [
-            ""
+            "Plasma",
+            "Atomic physics",
+            "Helium",
+            "Astrophysics",
+            "Cosmology"
         ],
-        "start_year": null,
+        "start_year": 2014,
         "end_year": null,
         "full_name": "Aiofe Boyle",
-        "image_path": "../me.jpeg"
+        "image_path": "media/images/profile.png"
     },
     {
         "member_id": "vicente_amado",
@@ -112,19 +119,9 @@
         "image_path": "media/images/jing.jpg"
     },
     {
-        "member_id": "yuki_matsumura",
-        "expertise": [
-            ""
-        ],
-        "start_year": null,
-        "end_year": null,
-        "full_name": "Yuki Matsumura",
-        "image_path": "media/images/yuki_face.png"
-    },
-    {
         "member_id": "mark_magee",
         "expertise": [
-            ""
+            "Type Ia supernovae"
         ],
         "start_year": null,
         "end_year": null,
@@ -162,16 +159,6 @@
         "end_year": null,
         "full_name": "Sona Chitchyan",
         "image_path": "media/images/sona_photo.jpg"
-    },
-    {
-        "member_id": "bea_lu",
-        "expertise": [
-            ""
-        ],
-        "start_year": null,
-        "end_year": null,
-        "full_name": "Bea Lu",
-        "image_path": "media/images/bea_lu.jpg"
     },
     {
         "member_id": "alexander_holas",
