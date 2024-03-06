@@ -5,7 +5,7 @@
         <div class="person-name">{{ $member.full_name }}</div>
         <div class="role-box" style="font-size: small;">
             {{ range $role := $member.roles }}
-            <a href="#{{ $role.role | urlize }}">{{ $role.role}}</a>
+            <a href="#{{ $role.role | urlize }}">{{ $role.role }}<br></a>
             {{ end }}
         </div>
     </div>
