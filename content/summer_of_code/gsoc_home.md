@@ -15,11 +15,11 @@ If you are interested, follow these steps:
 - Go through the [checklist](../checklist)
 - Check out what we expect from you ([expectations](../other_requirements#participation-expectations), [acceptance requirements](../other_requirements#participation-requirements), [application guidelines](../other_requirements#application-guidelines))
 - Get familiar with TARDIS ([Github](https://github.com/tardis-sn/tardis), [Documentation](https://tardis-sn.github.io/tardis/)) and pick a project from the [Ideas Page](../ideas)
-- [Apply](https://summerofcode.withgoogle.com/)!
+- [Apply](https://summerofcode.withgoogle.com/) (Application deadline for GSoC 2024 is April 2nd)!
 
 ### Previously Accepted GSoc Projects
 
-These were the projects that we selected for GSoC 2016 (a while ago but still a good reference) and can serve as a reference for future proposals:
+These were the projects that we selected for GSoC in the past and can serve as a reference for future proposals:
 
 - [2021 Accepted Application 1](/pdfs/atharva_arya_gsoc_2021_tardis.pdf)
 - [2020 Accepted Application 1](/pdfs/jaladh-singhal_gsoc2020_tardis.pdf)
@@ -31,7 +31,7 @@ These were the projects that we selected for GSoC 2016 (a while ago but still a 
 
 ### TARDIS GSoC Ideas Page
 
-We have compiled some background information about TARDIS and the science we do with it as well as some of our suggested projects for GSoC 2022 on the [Ideas Page](../ideas).
+We have compiled some background information about TARDIS and the science we do with it as well as some of our suggested projects for GSoC this year on the [Ideas Page](../ideas).
 
 You are also welcome to come up with your own project ideas and discuss them with the TARDIS mentors. We're here to help you become new open source developers, so don't be shy if you have any questions. The best way to get in contact is to chat with us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
 
