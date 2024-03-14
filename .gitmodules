@@ -1,0 +1,3 @@
+[submodule "tardis-org-data"]
+	path = tardis-org-data
+	url = https://github.com/tardis-sn/tardis-org-data.git
