@@ -18,7 +18,8 @@ If you are interested in participating, please contact us through <a href="https
 3. Submit your completed [TARDIS challenge](https://forms.gle/ov1f71qogP36qLMc7).
 4. Check out the [Ideas Page](../ideas).
 5. Introduce yourself to us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
-6. Start your [application](../other_requirements#application-guidelines).
+6. Start your [application](../other_requirements#application-guidelines). Here are some of the [previously accepted GSoc projects](../gsoc_home#previously-accepted-gSoc-projects).
+
 7. Select a project.
    - Many projects have additional specific instructions. They often involve a Pull Request.
 8. Discuss and share your project details (don't wait!)
