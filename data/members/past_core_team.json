@@ -1,0 +1,132 @@
+{
+    "alice_harpole": {
+        "full_name": "Alice Harpole",
+        "tardis_core_team": [
+            {
+                "start_date": "01-sep-2020",
+                "end_date": "10-oct-2023",
+                "role": "Core Alumni"
+            }
+        ]
+    },
+    "stephen_lietzau": {
+        "full_name": "Stefan Lietzau",
+        "tardis_core_team": [
+            {
+                "start_date": "01-jan-2017",
+                "end_date": "10-oct-2023",
+                "role": ""
+            }
+        ]
+    },
+    "yssa_neves": {
+        "full_name": "Yssavo Camacho-Neves",
+        "tardis_core_team": [
+            {
+                "start_date": "01-jan-2011",
+                "end_date": "10-oct-2023",
+                "role": "Science Coordinator"
+            }
+        ]
+    },
+    "luke_shingles": {
+        "full_name": "Luke Shingles",
+        "tardis_core_team": [
+            {
+                "start_date": "01-sep-2020",
+                "end_date": "10-oct-2023",
+                "role": "Consultant"
+            }
+        ]
+    },
+    "wolfgang_kerzendorf": {
+        "full_name": "Wolfgang Kerzendorf",
+        "tardis_core_team": [
+            {
+                "start_date": "01-jan-2011",
+                "end_date": "10-oct-2023",
+                "role": "DEI convenor"
+            }
+        ]
+    },
+    "michael_klauser": {
+        "full_name": "Michael Klauser",
+        "tardis_core_team": [
+            {
+                "start_date": "01-sep-2020",
+                "end_date": "10-oct-2023",
+                "role": "Ombudsperson"
+            }
+        ]
+    },
+    "andreas_flors": {
+        "full_name": "Andreas Flors",
+        "tardis_core_team": [
+            {
+                "start_date": "01-sep-2020",
+                "end_date": "10-oct-2023",
+                "role": "PR/Issues Coordinator"
+            }
+        ]
+    },
+    "marc_williamson": {
+        "full_name": "Marc Williamson",
+        "tardis_core_team": [
+            {
+                "start_date": "01-sep-2020",
+                "end_date": "10-oct-2023",
+                "role": "Financial Coordinator"
+            }
+        ]
+    },
+    "vytautas_jancauskas": {
+        "full_name": "Vytautas Jan\u010dauskas",
+        "tardis_core_team": [
+            {
+                "start_date": "01-jan-2011",
+                "end_date": "10-oct-2023",
+                "role": "Core Alumni"
+            }
+        ]
+    },
+    "andrew_fullard": {
+        "full_name": "Andrew Fullard",
+        "tardis_core_team": [
+            {
+                "start_date": "01-sep-2020",
+                "end_date": "10-oct-2023",
+                "role": "Core Contributor"
+            }
+        ]
+    },
+    "christian_vogl": {
+        "full_name": "Christian Vogl",
+        "tardis_core_team": [
+            {
+                "start_date": "01-jan-2011",
+                "end_date": "10-oct-2023",
+                "role": "Atomic Data Coordinator"
+            }
+        ]
+    },
+    "ulrich_noebauer": {
+        "full_name": "Ulrich Noebauer",
+        "tardis_core_team": [
+            {
+                "start_date": "01-jan-2016",
+                "end_date": "10-oct-2023",
+                "role": ""
+            }
+        ]
+    },
+    "ezequiel_passaro": {
+        "full_name": "Ezequiel Passaro",
+        "tardis_core_team": [
+            {
+                "start_date": "01-sep-2020",
+                "end_date": "10-oct-2023",
+                "role": "Infrastructure Coordinator"
+            }
+        ]
+    }
+}
