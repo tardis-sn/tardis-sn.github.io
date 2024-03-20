@@ -1,19 +1,11 @@
 [
     {
-        "member_id": "aiofe_boyle",
-        "years": [
-            2023
-        ],
-        "full_name": "Aiofe Boyle",
-        "image_path": "media/images/profile.png"
-    },
-    {
         "member_id": "alexander_holas",
         "years": [
             2023
         ],
         "full_name": "Alexander Holas",
-        "image_path": "../me.jpeg"
+        "image_path": "media/images/original.jpg"
     },
     {
         "member_id": "andreas_flors",
@@ -38,6 +30,14 @@
         ],
         "full_name": "Anirban  Dutta",
         "image_path": "media/images/anirban_dutta.jpg"
+    },
+    {
+        "member_id": "aoife_boyle",
+        "years": [
+            2023
+        ],
+        "full_name": "Aoife Boyle",
+        "image_path": "media/images/profile.png"
     },
     {
         "member_id": "atharva_arya",
@@ -77,7 +77,7 @@
             2023
         ],
         "full_name": "Ezequiel Passaro",
-        "image_path": "../me.jpeg"
+        "image_path": "media/images/profile.jpg"
     },
     {
         "member_id": "harshul_gupta",
@@ -137,12 +137,21 @@
         "image_path": "media/images/josh_photo.jpg"
     },
     {
+        "member_id": "luke_harvey",
+        "years": [
+            2023,
+            2021
+        ],
+        "full_name": "Luke Harvey",
+        "image_path": "media/images/luke.jpg"
+    },
+    {
         "member_id": "mark_magee",
         "years": [
             2023
         ],
         "full_name": "Mark Magee",
-        "image_path": "../me.jpeg"
+        "image_path": "media/images/mark_profile.png"
     },
     {
         "member_id": "sona_chitchyan",
@@ -151,6 +160,14 @@
         ],
         "full_name": "Sona Chitchyan",
         "image_path": "media/images/sona_photo.jpg"
+    },
+    {
+        "member_id": "ulrich_noebauer",
+        "years": [
+            2016
+        ],
+        "full_name": "Ulrich Noebauer",
+        "image_path": "../me.jpeg"
     },
     {
         "member_id": "vicente_amado",

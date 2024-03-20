@@ -1,19 +1,11 @@
 [
     {
-        "member_id": "aiofe_boyle",
-        "years": [
-            2024
-        ],
-        "full_name": "Aiofe Boyle",
-        "image_path": "media/images/profile.png"
-    },
-    {
         "member_id": "alexander_holas",
         "years": [
             2024
         ],
         "full_name": "Alexander Holas",
-        "image_path": "../me.jpeg"
+        "image_path": "media/images/original.jpg"
     },
     {
         "member_id": "andrew_fullard",
@@ -22,6 +14,14 @@
         ],
         "full_name": "Andrew Fullard",
         "image_path": "media/images/me.jpg"
+    },
+    {
+        "member_id": "aoife_boyle",
+        "years": [
+            2024
+        ],
+        "full_name": "Aoife Boyle",
+        "image_path": "media/images/profile.png"
     },
     {
         "member_id": "atharva_arya",

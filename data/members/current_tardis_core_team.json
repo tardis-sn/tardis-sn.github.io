@@ -69,7 +69,7 @@
         "roles": [
             {
                 "role": "Education Coordinator",
-                "start_year": 2023,
+                "start_year": 2021,
                 "end_year": null
             },
             {
@@ -154,7 +154,7 @@
             }
         ],
         "full_name": "Mark Magee",
-        "image_path": "../me.jpeg"
+        "image_path": "media/images/mark_profile.png"
     },
     {
         "member_id": "michael_zingale",

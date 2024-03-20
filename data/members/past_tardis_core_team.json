@@ -21,7 +21,7 @@
             }
         ],
         "full_name": "Ezequiel Passaro",
-        "image_path": "../me.jpeg"
+        "image_path": "media/images/profile.jpg"
     },
     {
         "member_id": "luke_shingles",
@@ -46,6 +46,42 @@
         ],
         "full_name": "Marc Williamson",
         "image_path": "media/images/marc.jpeg"
+    },
+    {
+        "member_id": "michael_klauser",
+        "roles": [
+            {
+                "role": "Ombudsperson",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Michael Klauser",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "stephen_lietzau",
+        "roles": [
+            {
+                "role": "",
+                "start_year": 2017,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Stefan Lietzau",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "ulrich_noebauer",
+        "roles": [
+            {
+                "role": "",
+                "start_year": 2016,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Ulrich Noebauer",
+        "image_path": "../me.jpeg"
     },
     {
         "member_id": "vytautas_jancauskas",
