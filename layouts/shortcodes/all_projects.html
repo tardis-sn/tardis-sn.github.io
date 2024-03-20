@@ -1,0 +1,17 @@
+{{ range $article := sort site.Data.articles.articles "date" "desc" }}
+<div class="presentation">
+    <div class="presentation_section">
+        <div class="preview-box">
+            <h3>{{ $article.title }}</h3>
+            <h6><strong>Published By</strong> {{$article.author_id}} on {{$article.date}}</h6>
+            <img src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}" class="preview-image">
+            {{range $paraNo, $paraText := $article.content}}
+            <p class="description">{{ $paraText }}</p>
+            {{end}}
+            <section class="people-involved">
+                <p><strong>People Involved:</strong> {{delimit $article.people_involved_ids ", "}}</p>
+            </section>
+        </div>
+    </div>
+</div>
+{{ end }}
