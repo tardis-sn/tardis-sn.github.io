@@ -13,6 +13,18 @@
         "image_path": "media/images/josh_photo.jpg"
     },
     {
+        "member_id": "patrick_van",
+        "expertise": [
+            "Machine learning",
+            "Latent-variable models",
+            "Control"
+        ],
+        "start_year": 2018,
+        "end_year": null,
+        "full_name": "Patrick van der Smagt",
+        "image_path": "media/images/patrick.jpg"
+    },
+    {
         "member_id": "mark_magee",
         "expertise": [
             "Type Ia supernovae"
