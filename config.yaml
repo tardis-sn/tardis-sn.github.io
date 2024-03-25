@@ -17,11 +17,14 @@ params:
         url: /documentation
         style: dropdown
         sub_items:
-          - label: tardis package
+          - label: TARDIS package
             url: https://tardis-sn.github.io/tardis
             style: redirect-link
-          - label: carsus package
+          - label: Carsus package
             url: https://tardis-sn.github.io/carsus
+            style: redirect-link
+          - label: STARDIS package
+            url: https://tardis-sn.github.io/stardis
             style: redirect-link
       - label: People
         url: /people
