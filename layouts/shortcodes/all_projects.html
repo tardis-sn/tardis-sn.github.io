@@ -5,13 +5,36 @@
             <h3>{{ $article.title }}</h3>
             <h6><strong>Published By</strong> {{$article.author_id}} on {{$article.date}}</h6>
             <img src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}" class="preview-image">
+            <p><strong>Summary: </strong>{{$article.short_description}}</p>
             {{range $paraNo, $paraText := $article.content}}
-            <p class="description">{{ $paraText }}</p>
+            <p class="more-text">{{ $paraText }}</p>
             {{end}}
             <section class="people-involved">
                 <p><strong>People Involved:</strong> {{delimit $article.people_involved_ids ", "}}</p>
             </section>
+            <button onclick="myFunction(this)" class="myBtn">Read more</button>
         </div>
     </div>
 </div>
 {{ end }}
+
+<script>
+    function myFunction(btn) {
+        console.log(btn);
+        const moreText = btn.parentNode.querySelectorAll(".more-text");
+        console.log(moreText);
+        if (moreText.length === 0) return; // No additional text to toggle
+
+        moreText.forEach(function (element) {
+            if (element.classList.contains("show")) {
+                element.style.maxHeight = "0px"
+                element.classList.remove("show");
+                btn.innerHTML = "Read more";
+            } else {
+                element.classList.add("show");
+                element.style.maxHeight = element.scrollHeight + "px";
+                btn.innerHTML = "Read less";
+            }
+        });
+    }
+</script>
