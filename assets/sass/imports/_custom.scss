@@ -1,13 +1,10 @@
-.more-text {
+.all-content {
     display: block;
     overflow: hidden;
     max-height: 0px;
+    height: auto;
     transition: max-height 0.7s ease-in-out;
     margin: 0px;
-}
-
-.more-text.show {
-    max-height: 1000px;
 }
 
 .myBtn {
@@ -27,4 +24,8 @@
 
 .myBtn:hover {
     background-color: #333;
+}
+
+.cover-image {
+    margin: auto;
 }
