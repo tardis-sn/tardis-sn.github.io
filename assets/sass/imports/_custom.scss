@@ -1,0 +1,31 @@
+.all-content {
+    display: block;
+    overflow: hidden;
+    max-height: 0px;
+    height: auto;
+    transition: max-height 0.7s ease-in-out;
+    margin: 0px;
+}
+
+.myBtn {
+    background-color: rgb(44, 47, 59);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: background-color 0.3s;
+}
+
+.myBtn:hover {
+    background-color: #333;
+}
+
+.cover-image {
+    margin: auto;
+}

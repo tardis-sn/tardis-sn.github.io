@@ -1,0 +1,59 @@
+[
+    {
+        "title": "MSU UURAF 2021",
+        "author_id": "Vicente Amado Olivo",
+        "article_id": "uuraf21_poster_vicente",
+        "display": true,
+        "category": "Computational Metascience",
+        "date": "04-19-2021",
+        "tags": [
+            "research"
+        ],
+        "platforms": [
+            "tardis",
+            "dti"
+        ],
+        "short_description": "Poster presentation for MSU's University Undergraduate Research and Arts Forum 2021",
+        "long_description": "",
+        "cover_image": "/images/1_thumb.jpg",
+        "content": {
+            "para1": "Abstract: The modern scientific community relies on instruments and data provided by large scientific institutions, such as the Hubble Space Telescope and the Large Hadron Collider. For these institutions to optimally serve the scientific community, it is crucial to track how often and in what way their instruments are being used. The community, however, does not provide usage data directly but embeds this in plain language in their publications. Simple solutions to extract usage information from publications (such as full-text searches) fail as authors often just mention institutions (e.g. Hubble Space Telescope is often mentioned in astronomy papers) even though they do not use them in the presented work. Additionally, the ever-expanding literature introduces new challenges. For example, in astronomy, the number of papers published doubles every 14 years. The current approach is to use the valuable time of scientists at these institutions on the menial task to perform manual searches through the thousands of papers published every year. In this poster, I will present a solution using Natural Language Processing to automatically extract such information with high accuracy from published works. Our algorithm performs with an 87% accuracy on an initial project for the Hubble Space Telescope team that is currently being implemented in the production workflow. One of the main findings of this study is that a focused approach on only parts of the text (paragraphs) performs better than full-text algorithms. I will conclude by providing an outlook on our future work that focuses on using recently published Natural Language Processing algorithms to increase the accuracy of the algorithm."
+        },
+        "people_involved_ids": [
+            "Vicente Amado Olivo",
+            "Wolfgang Kerzendorf",
+            "Jack O'Brien"
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "European Space Agency Research Internship",
+        "author_id": "Vicente Amado Olivo",
+        "article_id": "ESA_internship_vicente",
+        "display": true,
+        "date": "06-15-2023",
+        "category": "News",
+        "tags": [
+            "news",
+            "research",
+            "Internship"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Unleashing the Power of Data Science: Internship at the European Space Agency's Deepthought Initiative Explores Astrophysics Meta-Research.",
+        "long_description": "",
+        "cover_image": "/images/1_thumb.jpg",
+        "content": {
+            "para1": "The Deepthought Initiative (DTI) collaboration applies computational techniques and tools to analyze the vast literature in scientific research, with a specific focus on leveraging machine learning to understand astrophysics literature. Vicente Amado Olivo's research revolves around tracking astrophysics publications and identifying astronomers worldwide through publications on arXiv. Being part of a research group comprising astrophysicists, Vicente's work in computational meta-research ensures that the tools developed by DTI are directly applicable to the needs of astrophysicists. To further their research in astrophysics meta-research, Vicente is visiting ESAC, a world-leading space agency, in order to gain firsthand experience with their current research systems, understand their future needs, actively participate in a proposal cycle, and collaborate with the librarians at ESA.",
+            "para2": "The nion leveraging machine learning to understand astrophysics literature. Vicente Amado Olivo's research revolves around tracking astrophysics publications and identifying astronomers worldwide through publications on arXiv. Being part of a research group comprising astrophysicists, Vicente's work in computational meta-research ensures that the tools developed by DTI are directly applicable to the needs of astrophysicists. To further their research in astrophysics meta-research, Vicente is visiting ESAC, a world-leading space agency, in order to gain firsthand experience with their current research systems, understand their future needs, actively participate in a proposal cycle, and collaborate with the librarians at ESA."
+        },
+        "people_involved_ids": [
+            "Vicente Amado Olivo",
+            "Wolfgang Kerzendorf"
+        ],
+        "links": {},
+        "twitter": "None"
+    }
+]

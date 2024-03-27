@@ -23,11 +23,19 @@
 
 .presentation .presentation_section .preview-box {
     width: 100%;
+    margin-bottom: 30px;
     aspect-ratio: 16/9;
 }
 
+.presentation .presentation_section .preview-box > a{
+    text-decoration: none;
+}
 
 .subheading {
     display: flex;
     justify-content: center;
+}
+
+.presentation .presentation_section .preview-box .preview-image{
+    margin-bottom: 30px;
 }
