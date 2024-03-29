@@ -1,4 +1,4 @@
-{{ range $article := sort site.Data.articles.articles "date" "desc" }}
+{{ range $article := sort site.Data.articles.articles }}
 <div class="presentation">
     <div class="">
         <div class="">
@@ -17,6 +17,14 @@
             </div>
             <section class="people-involved">
                 <p><strong>People Involved:</strong> {{delimit $article.people_involved_ids ", "}}</p>
+            </section>
+            <section>
+                <p><strong>Important Links:</strong></p>
+                {{range $linkId, $linkValue := $article.links}}
+                <ul>
+                    <li><a href="{{ $linkValue }}">{{$linkId}}</a></li>
+                </ul>
+                {{end}}
             </section>
             <button onclick="myFunction(this)" class="myBtn">Read more</button>
         </div>
