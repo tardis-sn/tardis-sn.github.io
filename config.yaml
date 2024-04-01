@@ -1,5 +1,5 @@
 title: TARDIS
-baseURL: https://tardis-sn.github.io/
+baseURL: https://kasukabedefenceforce.github.io/tardis-sn.github.io/
 canonifyurls: true
 params:
   base_font: nunito-sans
@@ -55,6 +55,9 @@ params:
           - label: Presentations
             url: /research/presentations
             style: dropdown-link
+      - label: News
+        url: /news
+        style: link
       - label: Gsoc
         url: /summer_of_code
         style: dropdown
