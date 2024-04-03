@@ -2,50 +2,61 @@
 <div class="presentation">
     <div class="">
         <div class="">
-            <h4>{{ $article.title }}</h4>
+            <h2>{{ $article.title }}</h2>
             <h6><strong>Published By</strong> {{$article.author_id}} on {{$article.date}}</h6>
-            <img class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}" class="preview-image">
-            <p><strong>Summary: </strong>{{$article.short_description}}</p>
-            <div class="all-content">
+            <img class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}"
+                class="preview-image">
+            <div class="readmore">
                 {{range $paraNo, $paraText := $article.content}}
                 {{ if eq (index (split $paraNo "_") 1) "img" }}
                 <img class="content-image" src="{{$paraText}}" alt="Content Image">
                 {{ else }}
-                <p class="more-text">{{ $paraText }}</p>
+                <p>{{ $paraText }}</p>
                 {{ end }}
                 {{end}}
+                <section >
+                    <p><strong>People Involved:</strong> {{delimit $article.people_involved_ids ", "}}</p>
+                </section>
+                <section class="links">
+                    <p><strong>Important Links:</strong></p>
+                    {{range $linkId, $linkValue := $article.links}}
+                    <ul>
+                        <li><a href="{{ $linkValue }}">{{$linkId}}</a></li>
+                    </ul>
+                    {{end}}
+                </section>
+                <span class="readmore-link" id="{{$article.article_id}}">Read More</span>
             </div>
-            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-            <section class="people-involved">
-                <p><strong>People Involved:</strong> {{delimit $article.people_involved_ids ", "}}</p>
-            </section>
-            <section>
-                <p><strong>Important Links:</strong></p>
-                {{range $linkId, $linkValue := $article.links}}
-                <ul>
-                    <li><a href="{{ $linkValue }}">{{$linkId}}</a></li>
-                </ul>
-                {{end}}
-            </section>
         </div>
     </div>
 </div>
 {{ end }}
 
 <script>
-    function myFunction(btn) {
-        const allContent = btn.parentNode.querySelectorAll(".all-content");
-        if (allContent.length === 0) return; // No additional text to toggle
+    const readMoreLinks = document.querySelectorAll(".readmore-link");
 
-        allContent.forEach(function (element) {
-            if (element.style.maxHeight && element.style.maxHeight !== '0px') {
-                element.style.maxHeight = '0px';
-                btn.innerHTML = "Read more";
+    readMoreLinks.forEach(link => {
+        link.addEventListener("click", function (e) {
+            const clickedElement = document.getElementById(this.id);
+            const content = clickedElement.parentNode; // Get parent readmore container
+            const isExpanded = content.classList.contains("expand");
+
+            // Close all open paragraphs within the same article
+            const currentArticle = clickedElement.closest(".presentation");
+            const allExpanded = currentArticle.querySelectorAll(".readmore.expand");
+            allExpanded.forEach(expanded => expanded.classList.remove("expand"));
+
+            // Toggle expand class, text content, and link height
+            if (!isExpanded) {
+                content.classList.add("expand");
+                this.textContent = "Read Less";
+                this.style.height = "19px";
             } else {
-                element.style.maxHeight = element.scrollHeight + 'px'; // Set maxHeight to scrollHeight
-                btn.innerHTML = "Read less";
+                content.classList.remove("expand");
+                this.textContent = "Read More";
+                this.style.height = null;
             }
         });
-    }
+    });
 
 </script>
