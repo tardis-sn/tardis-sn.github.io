@@ -64,6 +64,14 @@
         "image_path": "media/images/christian.jpeg"
     },
     {
+        "member_id": "craig_pellegrino",
+        "years": [
+            "2024"
+        ],
+        "full_name": "Craig Pellegrino",
+        "image_path": "media/images/craig.jpeg"
+    },
+    {
         "member_id": "eva_laplace",
         "years": [
             2023
