@@ -1,59 +1,63 @@
 [
     {
-        "title": "MSU UURAF 2021",
-        "author_id": "Vicente Amado Olivo",
-        "article_id": "uuraf21_poster_vicente",
+        "title": "Google Summer of Code 2024",
+        "author_id": "Atharva Arya",
+        "article_id": "gsoc_2024_news",
         "display": true,
-        "category": "Computational Metascience",
-        "date": "04-19-2021",
-        "tags": [
-            "research"
-        ],
-        "platforms": [
-            "tardis",
-            "dti"
-        ],
-        "short_description": "Poster presentation for MSU's University Undergraduate Research and Arts Forum 2021",
-        "long_description": "",
-        "cover_image": "/images/1_thumb.jpg",
-        "content": {
-            "para1": "Abstract: The modern scientific community relies on instruments and data provided by large scientific institutions, such as the Hubble Space Telescope and the Large Hadron Collider. For these institutions to optimally serve the scientific community, it is crucial to track how often and in what way their instruments are being used. The community, however, does not provide usage data directly but embeds this in plain language in their publications. Simple solutions to extract usage information from publications (such as full-text searches) fail as authors often just mention institutions (e.g. Hubble Space Telescope is often mentioned in astronomy papers) even though they do not use them in the presented work. Additionally, the ever-expanding literature introduces new challenges. For example, in astronomy, the number of papers published doubles every 14 years. The current approach is to use the valuable time of scientists at these institutions on the menial task to perform manual searches through the thousands of papers published every year. In this poster, I will present a solution using Natural Language Processing to automatically extract such information with high accuracy from published works. Our algorithm performs with an 87% accuracy on an initial project for the Hubble Space Telescope team that is currently being implemented in the production workflow. One of the main findings of this study is that a focused approach on only parts of the text (paragraphs) performs better than full-text algorithms. I will conclude by providing an outlook on our future work that focuses on using recently published Natural Language Processing algorithms to increase the accuracy of the algorithm."
-        },
-        "people_involved_ids": [
-            "Vicente Amado Olivo",
-            "Wolfgang Kerzendorf",
-            "Jack O'Brien"
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
-        "title": "European Space Agency Research Internship",
-        "author_id": "Vicente Amado Olivo",
-        "article_id": "ESA_internship_vicente",
-        "display": true,
-        "date": "06-15-2023",
+        "date": "29-Mar-2024",
         "category": "News",
         "tags": [
-            "news",
-            "research",
-            "Internship"
+            "news"
         ],
         "platforms": [
             "tardis"
         ],
-        "short_description": "Unleashing the Power of Data Science: Internship at the European Space Agency's Deepthought Initiative Explores Astrophysics Meta-Research.",
+        "short_description": "We are a part of Google Summer of Code 2024.",
         "long_description": "",
-        "cover_image": "/images/1_thumb.jpg",
+        "cover_image": "../articles/gsoc-logo-2024.png",
         "content": {
-            "para1": "The Deepthought Initiative (DTI) collaboration applies computational techniques and tools to analyze the vast literature in scientific research, with a specific focus on leveraging machine learning to understand astrophysics literature. Vicente Amado Olivo's research revolves around tracking astrophysics publications and identifying astronomers worldwide through publications on arXiv. Being part of a research group comprising astrophysicists, Vicente's work in computational meta-research ensures that the tools developed by DTI are directly applicable to the needs of astrophysicists. To further their research in astrophysics meta-research, Vicente is visiting ESAC, a world-leading space agency, in order to gain firsthand experience with their current research systems, understand their future needs, actively participate in a proposal cycle, and collaborate with the librarians at ESA.",
-            "para2": "The nion leveraging machine learning to understand astrophysics literature. Vicente Amado Olivo's research revolves around tracking astrophysics publications and identifying astronomers worldwide through publications on arXiv. Being part of a research group comprising astrophysicists, Vicente's work in computational meta-research ensures that the tools developed by DTI are directly applicable to the needs of astrophysicists. To further their research in astrophysics meta-research, Vicente is visiting ESAC, a world-leading space agency, in order to gain firsthand experience with their current research systems, understand their future needs, actively participate in a proposal cycle, and collaborate with the librarians at ESA."
+            "1_para": "We are excited to announce that TARDIS has been accepted as a mentoring organization in Google Summer of Code 2024! Check out our ideas page and connect with us on Gitter if you are interested! Please note that application deadline is April 2nd, 2024"
+        },
+        "people_involved_ids": [],
+        "links": {
+            "Our Gitter": "https://gitter.im/tardis-sn/gsoc",
+            "GSoC Ideas": "https://tardis-sn.github.io/summer_of_code/ideas/"
+        },
+        "twitter": "None"
+    },
+    {
+        "title": "Searching for a Hypervelocity White Dwarf SN Ia Companion: A Proper-motion Survey of SN 1006",
+        "author_id": "Josh Shields",
+        "article_id": "sn1006_josh_paper",
+        "display": true,
+        "date": "10-Jul-2022",
+        "category": "Astrophysical Transients",
+        "tags": [
+            "research",
+            "news"
+        ],
+        "platforms": [
+            "kg",
+            "tardis"
+        ],
+        "short_description": "Testing a promising SN Ia progenitor channel by searching for a predicted surviving companion in the SN 1006 Galactic remnant",
+        "long_description": "Type Ia supernovae (SNe Ia) are securely understood to come from the thermonuclear explosion of a white dwarf as a result of binary interaction, but the nature of that binary interaction and the secondary object is uncertain. Recently, a double white dwarf model known as the dynamically driven double-degenerate double-detonation (D6) model has become a promising explanation for these events. One realization of this scenario predicts that the companion may survive the explosion and reside within the remnant as a fast moving (Vpeculiar > 1000 km s\u22121), overluminous (L > 0.1 Le) white dwarf. Recently, three objects that appear to have these unusual properties have been discovered in the Gaia survey. We obtained photometric observations of the SN Ia remnant SN 1006 with the Dark Energy Camera over four years to attempt to discover a similar star. We present a deep, high-precision astrometric proper-motion survey of the interior stellar population of the remnant. We rule out the existence of a high-proper-motion object consistent with our tested realization of the D6 scenario (Vtransverse > 600 km s\u22121 with mr < 21 corresponding to an intrinsic luminosity of L > 0.0176 L_sun). We conclude that such a star does not exist within the remnant or is hidden from detection by either strong localized dust or the unlikely possibility of ejection from the binary system almost parallel to the line of sight.",
+        "cover_image": "../articles/sn1006_viz.png",
+        "content": {
+            "1_para": "2017 DECam imagery of the SN 1006 remnant. The contours are CHANDRA X-ray data (0.5-0.9 keV) showing the position of the remnant. The circles indicate the search region (red) and the the likely maximum displacement of a D6 star (blue), as well as the physical transverse velocity of a star corresponding to the angular distance assuming a distance of the remnant. The larger search region allows for ambiguity on the center of the remnant.",
+            "2_img": "../articles/sn1006_viz.png",
+            "3_para": "Results of proper motion survey showing apparent r-band magnitude against proper motion measurement and calculated transverse velocities assuming a distance of 2.17 kpc for DECam sources. The three Shen et al. 2018 stars have corrected apparent magnitudes as they would appear at the same distance with uncertainties and including foreground extinction. A surviving white dwarf companion in accordance with the predictions of the D6 scenario was expected to lie in the shaded region with the previously discovered D6 stars. The four Gaia stars in the analyzed region are shown in Table 1 and Figure 6, and are discussed in Section 4 along with the high proper motion objects fainter than 21",
+            "4_img": "../articles/sn1006_mag_vs_pm.png",
+            "5_para": "Color-Magnitude Diagram of 150 000 secure parallax (parallax over error > 30), Gaia stars around SN 1006. The blue dots show the three D6 candidates discovered in the field by (Shen et al. 2018) far off the main sequence. The red dots show the high proper motion (> 500 km s\u22121) Gaia objects inside SN 1006 in our search. They lie on or close to the main sequence with ordinary colors",
+            "6_img": "../articles/sn1006_cmd.png"
         },
         "people_involved_ids": [
-            "Vicente Amado Olivo",
+            "Josh Shields",
             "Wolfgang Kerzendorf"
         ],
-        "links": {},
+        "links": {
+            "Proper-motion Survey": "https://iopscience.iop.org/article/10.3847/2041-8213/ac7950"
+        },
         "twitter": "None"
     }
 ]
