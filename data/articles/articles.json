@@ -12,16 +12,18 @@
         "platforms": [
             "tardis"
         ],
-        "short_description": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join Gautham Narayan\u2019s group at University of Illinois, Urbana-Champaign (https: //gnarayan.github.io/) in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!",
+        "short_description": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join Gautham Narayan\u2019s group at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!",
         "long_description": "",
         "cover_image": "../articles/jackDefence.jpg",
         "content": {
-            "1_para": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join Gautham Narayan\u2019s group at University of Illinois, Urbana-Champaign (https: //gnarayan.github.io/) in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!"
+            "1_para": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join Gautham Narayan\u2019s group at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!"
         },
         "people_involved_ids": [
             "Jack O'Brien"
         ],
-        "links": {},
+        "links": {
+            "Gautham Narayan group": "https://gnarayan.github.io/"
+        },
         "twitter": "None"
     },
     {
