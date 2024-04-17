@@ -1,15 +1,5 @@
 [
     {
-        "member_id": "isaac_smith",
-        "expertise": [
-            ""
-        ],
-        "start_year": 2020,
-        "end_year": 2023,
-        "full_name": "Isaac Smith",
-        "image_path": "media/images/isaac_image.jpg"
-    },
-    {
         "member_id": "yuki_matsumura",
         "expertise": [
             ""
@@ -18,6 +8,16 @@
         "end_year": 2023,
         "full_name": "Yuki Matsumura",
         "image_path": "media/images/yuki_face.png"
+    },
+    {
+        "member_id": "isaac_smith",
+        "expertise": [
+            ""
+        ],
+        "start_year": 2020,
+        "end_year": 2023,
+        "full_name": "Isaac Smith",
+        "image_path": "media/images/isaac_image.jpg"
     },
     {
         "member_id": "harshul_gupta",

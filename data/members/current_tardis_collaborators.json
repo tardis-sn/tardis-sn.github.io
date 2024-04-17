@@ -1,52 +1,5 @@
 [
     {
-        "member_id": "jack_o_brien",
-        "expertise": [
-            "Type Ia supernovae",
-            "Spectral analysis",
-            "Machine learning"
-        ],
-        "start_year": 2021,
-        "end_year": null,
-        "full_name": "Jack O'Brien",
-        "image_path": "media/images/jack.jpg"
-    },
-    {
-        "member_id": "sona_chitchyan",
-        "expertise": [
-            ""
-        ],
-        "start_year": null,
-        "end_year": null,
-        "full_name": "Sona Chitchyan",
-        "image_path": "media/images/sona_photo.jpg"
-    },
-    {
-        "member_id": "patrick_van",
-        "expertise": [
-            "Machine learning",
-            "Latent-variable models",
-            "Control"
-        ],
-        "start_year": 2018,
-        "end_year": null,
-        "full_name": "Patrick van der Smagt",
-        "image_path": "media/images/patrick.jpg"
-    },
-    {
-        "member_id": "andrew_fullard",
-        "expertise": [
-            "Scientific software",
-            "Radiative transfer",
-            "Late time type ia supernovae",
-            "Massive stars"
-        ],
-        "start_year": 2020,
-        "end_year": null,
-        "full_name": "Andrew Fullard",
-        "image_path": "media/images/me.jpg"
-    },
-    {
         "member_id": "nutan_chen",
         "expertise": [
             "Machine Learning"
@@ -55,6 +8,16 @@
         "end_year": null,
         "full_name": "Nutan Chen",
         "image_path": "media/images/nutan_chen.jpg"
+    },
+    {
+        "member_id": "anirban_dutta",
+        "expertise": [
+            "Modeling the nebular phase spectra of Type Ia supernovae"
+        ],
+        "start_year": 2023,
+        "end_year": null,
+        "full_name": "Anirban  Dutta",
+        "image_path": "media/images/anirban_dutta.jpg"
     },
     {
         "member_id": "michael_zingale",
@@ -68,27 +31,24 @@
         "image_path": "../me.jpeg"
     },
     {
-        "member_id": "jaladh_singhal",
+        "member_id": "atharva_arya",
         "expertise": [
-            "Visualization/UI Development",
-            "Documentation",
-            "Outreach"
+            "Software Development"
         ],
-        "start_year": 2019,
+        "start_year": 2021,
         "end_year": null,
-        "full_name": "Jaladh Singhal",
-        "image_path": "media/images/jaladh.jpg"
+        "full_name": "Atharva Arya",
+        "image_path": "media/images/atharva.jpg"
     },
     {
-        "member_id": "ezequiel_passaro",
+        "member_id": "sona_chitchyan",
         "expertise": [
-            "CI/CD",
-            "Development Of Carcus"
+            ""
         ],
-        "start_year": 2019,
+        "start_year": null,
         "end_year": null,
-        "full_name": "Ezequiel Passaro",
-        "image_path": "media/images/profile.jpg"
+        "full_name": "Sona Chitchyan",
+        "image_path": "media/images/sona_photo.jpg"
     },
     {
         "member_id": "jing_lu",
@@ -100,6 +60,55 @@
         "end_year": null,
         "full_name": "Jing Lu",
         "image_path": "media/images/jing.jpg"
+    },
+    {
+        "member_id": "alexander_holas",
+        "expertise": [
+            "NLTE"
+        ],
+        "start_year": 2022,
+        "end_year": null,
+        "full_name": "Alexander Holas",
+        "image_path": "media/images/original.jpg"
+    },
+    {
+        "member_id": "vicente_amado",
+        "expertise": [
+            "Meta-research",
+            "Natural language processing"
+        ],
+        "start_year": 2021,
+        "end_year": null,
+        "full_name": "Vicente  Amado Olivo",
+        "image_path": "media/images/ESD_headshot.jpg"
+    },
+    {
+        "member_id": "markus_kromer",
+        "expertise": [],
+        "start_year": 2021,
+        "end_year": null,
+        "full_name": "Markus Kromer",
+        "image_path": "media/images/me.jpeg"
+    },
+    {
+        "member_id": "mark_magee",
+        "expertise": [
+            "Type Ia supernovae"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "full_name": "Mark Magee",
+        "image_path": "media/images/mark_profile.png"
+    },
+    {
+        "member_id": "andreas_flors",
+        "expertise": [
+            "NLTE radiative transfer for type Ia supernovae, kilonovae and atomic structure calculations"
+        ],
+        "start_year": 2019,
+        "end_year": null,
+        "full_name": "Andreas Flors",
+        "image_path": "media/images/andreas.jpeg"
     },
     {
         "member_id": "aoife_boyle",
@@ -116,12 +125,15 @@
         "image_path": "media/images/profile.png"
     },
     {
-        "member_id": "markus_kromer",
-        "expertise": [],
-        "start_year": 2021,
+        "member_id": "ezequiel_passaro",
+        "expertise": [
+            "CI/CD",
+            "Development Of Carcus"
+        ],
+        "start_year": 2019,
         "end_year": null,
-        "full_name": "Markus Kromer",
-        "image_path": "media/images/me.jpeg"
+        "full_name": "Ezequiel Passaro",
+        "image_path": "media/images/profile.jpg"
     },
     {
         "member_id": "christian_vogl",
@@ -139,6 +151,19 @@
         "image_path": "media/images/christian.jpeg"
     },
     {
+        "member_id": "josh_shields",
+        "expertise": [
+            "STARDIS",
+            "Stellar radiative transfer",
+            "SNe Ia",
+            "Atomic data"
+        ],
+        "start_year": 2023,
+        "end_year": null,
+        "full_name": "Josh Shields",
+        "image_path": "media/images/josh_photo.jpg"
+    },
+    {
         "member_id": "james_gillanders",
         "expertise": [
             "Radiative transfer",
@@ -154,55 +179,28 @@
         "image_path": "media/images/james.jpeg"
     },
     {
-        "member_id": "vicente_amado",
+        "member_id": "jack_o_brien",
         "expertise": [
-            "Meta-research",
-            "Natural language processing"
+            "Type Ia supernovae",
+            "Spectral analysis",
+            "Machine learning"
         ],
         "start_year": 2021,
         "end_year": null,
-        "full_name": "Vicente  Amado Olivo",
-        "image_path": "media/images/ESD_headshot.jpg"
+        "full_name": "Jack O'Brien",
+        "image_path": "media/images/jack.jpg"
     },
     {
-        "member_id": "mark_magee",
+        "member_id": "jaladh_singhal",
         "expertise": [
-            "Type Ia supernovae"
-        ],
-        "start_year": null,
-        "end_year": null,
-        "full_name": "Mark Magee",
-        "image_path": "media/images/mark_profile.png"
-    },
-    {
-        "member_id": "anirban_dutta",
-        "expertise": [
-            "Modeling the nebular phase spectra of Type Ia supernovae"
-        ],
-        "start_year": 2023,
-        "end_year": null,
-        "full_name": "Anirban  Dutta",
-        "image_path": "media/images/anirban_dutta.jpg"
-    },
-    {
-        "member_id": "andreas_flors",
-        "expertise": [
-            "NLTE radiative transfer for type Ia supernovae, kilonovae and atomic structure calculations"
+            "Visualization/UI Development",
+            "Documentation",
+            "Outreach"
         ],
         "start_year": 2019,
         "end_year": null,
-        "full_name": "Andreas Flors",
-        "image_path": "media/images/andreas.jpeg"
-    },
-    {
-        "member_id": "alexander_holas",
-        "expertise": [
-            "NLTE"
-        ],
-        "start_year": 2022,
-        "end_year": null,
-        "full_name": "Alexander Holas",
-        "image_path": "media/images/original.jpg"
+        "full_name": "Jaladh Singhal",
+        "image_path": "media/images/jaladh.jpg"
     },
     {
         "member_id": "wolfgang_kerzendorf",
@@ -217,26 +215,28 @@
         "image_path": "media/images/wolfgang.jpg"
     },
     {
-        "member_id": "atharva_arya",
+        "member_id": "andrew_fullard",
         "expertise": [
-            "Software Development"
+            "Scientific software",
+            "Radiative transfer",
+            "Late time type ia supernovae",
+            "Massive stars"
         ],
-        "start_year": 2021,
+        "start_year": 2020,
         "end_year": null,
-        "full_name": "Atharva Arya",
-        "image_path": "media/images/atharva.jpg"
+        "full_name": "Andrew Fullard",
+        "image_path": "media/images/me.jpg"
     },
     {
-        "member_id": "josh_shields",
+        "member_id": "patrick_van",
         "expertise": [
-            "STARDIS",
-            "Stellar radiative transfer",
-            "SNe Ia",
-            "Atomic data"
+            "Machine learning",
+            "Latent-variable models",
+            "Control"
         ],
-        "start_year": 2023,
+        "start_year": 2018,
         "end_year": null,
-        "full_name": "Josh Shields",
-        "image_path": "media/images/josh_photo.jpg"
+        "full_name": "Patrick van der Smagt",
+        "image_path": "media/images/patrick.jpg"
     }
 ]
