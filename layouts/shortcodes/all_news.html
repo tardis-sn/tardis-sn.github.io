@@ -11,10 +11,10 @@
                 {{ if eq (index (split $paraNo "_") 1) "img" }}
                 <img class="content-image" src="{{$paraText}}" alt="Content Image">
                 {{ else }}
-                <p>{{ $paraText }}</p>
+                <p>{{ $paraText | safeHTML }}</p>
                 {{ end }}
                 {{end}}
-                <section >
+                <!-- <section >
                     <p><strong>People Involved:</strong> {{delimit $article.people_involved_ids ", "}}</p>
                 </section>
                 <section class="links">
@@ -24,7 +24,7 @@
                         <li><a href="{{ $linkValue }}">{{$linkId}}</a></li>
                     </ul>
                     {{end}}
-                </section>
+                </section> -->
                 <span class="readmore-link" id="{{$article.article_id}}">Read More</span>
             </div>
         </div>
