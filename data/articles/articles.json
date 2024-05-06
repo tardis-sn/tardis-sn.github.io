@@ -18,7 +18,7 @@
         "long_description": "",
         "cover_image": "../articles/jackDefence.jpg",
         "content": {
-            "1_para": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join Gautham Narayan\u2019s group at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!"
+            "1_para": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join <a href='https://gnarayan.github.io/'>Gautham Narayan's group</a> at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!"
         },
         "people_involved_ids": [
             "Jack O'Brien"
@@ -45,7 +45,7 @@
         "long_description": "",
         "cover_image": "../articles/gsoc-logo-2024.png",
         "content": {
-            "1_para": "We are excited to announce that TARDIS has been accepted as a mentoring organization in Google Summer of Code 2024! Check out our ideas page and connect with us on Gitter if you are interested! Please note that application deadline is April 2nd, 2024"
+            "1_para": "We are excited to announce that TARDIS has been accepted as a mentoring organization in Google Summer of Code 2024! Check out our <a href='https://tardis-sn.github.io/summer_of_code/ideas/'>ideas page</a> and connect with us on <a href='https://gitter.im/tardis-sn/gsoc'>gitter</a> if you are interested! Please note that application deadline is April 2nd, 2024"
         },
         "people_involved_ids": [],
         "links": {
