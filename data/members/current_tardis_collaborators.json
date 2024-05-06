@@ -41,6 +41,18 @@
         "image_path": "media/images/atharva.jpg"
     },
     {
+        "member_id": "johannes_buchner",
+        "expertise": [
+            "Data science",
+            "Nested sampling",
+            "Bayesian model comparison"
+        ],
+        "start_year": 2014,
+        "end_year": null,
+        "full_name": "Johannes Buchner",
+        "image_path": "media/images/johannes.jpg"
+    },
+    {
         "member_id": "sona_chitchyan",
         "expertise": [
             ""
@@ -88,7 +100,7 @@
         "start_year": 2021,
         "end_year": null,
         "full_name": "Markus Kromer",
-        "image_path": "media/images/me.jpeg"
+        "image_path": "media/images/marc.jpeg"
     },
     {
         "member_id": "mark_magee",
