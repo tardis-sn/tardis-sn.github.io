@@ -2,7 +2,14 @@
 {{ range $key, $data := $year.info }}
 <div class="individual-container">
     <div class="info-container">
-        <img class="rounded-picture" src="../../members/{{ $key }}/{{ $data.image_path }}">
+                            {{ $imagePath := printf "../../members/%s/%s" $key $data.image_path }}
+                            {{ $defaultImg := "../../members/me.jpeg" }}
+                            {{ $imageParts := split $data.image_path "/" }}
+                            {{ if lt (len $imageParts) 3 }}
+                            <img class="rounded-picture" src="{{ $defaultImg }}">
+                            {{ else }}
+                            <img class="rounded-picture" src="{{ $imagePath }}">
+                            {{ end }}
         <div class="person-name">{{ $data.full_name }}</div>
         <div style="font-size: small;" class="role-box">
             {{ if ne $data.project_link "" }}

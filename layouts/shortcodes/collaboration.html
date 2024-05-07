@@ -1,7 +1,14 @@
 {{ range $member := site.Data.members.current_tardis_collaborators }}
 <div class="individual-container">
     <div class="info-container">
-        <img class="rounded-picture" src="../../members/{{ $member.member_id }}/{{ $member.image_path }}">
+        {{ $imagePath := printf "../../members/%s/%s" $member.member_id $member.image_path }}
+        {{ $defaultImg := "../../members/me.jpeg" }}
+        {{ $imageParts := split $member.image_path "/" }}
+        {{ if lt (len $imageParts) 3 }}
+        <img class="rounded-picture" src="{{ $defaultImg }}">
+        {{ else }}
+        <img class="rounded-picture" src="{{ $imagePath }}">
+        {{ end }}
         <div class="person-name">{{ $member.full_name }}</div>
         <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">
             {{ with $member.start_year }}
