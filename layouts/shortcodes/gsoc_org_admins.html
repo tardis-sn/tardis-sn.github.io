@@ -1,7 +1,14 @@
 {{ range $key, $data := site.Data.members.current_gsoc_admins }}
     <div class="individual-container">
         <div class="info-container">
-            <img class="rounded-picture" src="../../members/{{ $data.member_id }}/{{ $data.image_path }}">
+                                {{ $imagePath := printf "../../members/%s/%s" $data.member_id $data.image_path }}
+                                {{ $defaultImg := "../../members/me.jpeg" }}
+                                {{ $imageParts := split $data.image_path "/" }}
+                                {{ if lt (len $imageParts) 3 }}
+                                <img class="rounded-picture" src="{{ $defaultImg }}">
+                                {{ else }}
+                                <img class="rounded-picture" src="{{ $imagePath }}">
+                                {{ end }}
             <div class="person-name">{{ $data.full_name }}</div>
         </div>
     </div>
