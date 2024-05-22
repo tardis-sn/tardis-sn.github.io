@@ -1,5 +1,36 @@
 [
     {
+        "title": "A Dr. is Born - Josh Shields Defends Thesis on SN Ia Surviving Companions",
+        "author_id": "Josh Shields",
+        "article_id": "thesis_defense_josh",
+        "display": true,
+        "date": "03th May, 2024",
+        "category": "News",
+        "tags": [
+            "news",
+            "defense",
+            "supernova"
+        ],
+        "platforms": [
+            "tardis",
+            "kg"
+        ],
+        "short_description": "We are pleased to announce that Josh has just defended his thesis at Michigan State University investigating the progenitors of Type Ia Supernovae through the study of their surviving companions. Josh performed multiple surviving companion investigations in supernova remnants, and adapted TARDIS to be able to model stellar atmospheres and produce surviving companion spectra. He will continue to work with us expanding the plasma physics of TARDIS. ",
+        "long_description": "",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../images/josh_defense_title_slide.jpg",
+        "content": {
+            "1_para": "On May 3rd of 2024, Joshua Shields successfully defended his thesis invesitgating the surviving companions of Type Ia Supernovae. He joined our group in 2019 and quickly became an expert in stellar modeling and radiative transfer. In his first project he investigated the SN 1006 remnant for hypervelocity white dwarfs, interesting peculiar stars that could might result from SN Ia. In his second project, he investigated the SNR 0509-67.5 remnant in the Large Magellanic Cloud, testing a large collection of SN Ia progenitor scenarios by modelling the spectral energy distributions of all the stars inside the remnant. He then developed the STARDIS code, an adaptation of TARDIS, able to model stellar atmospheres and produce spectra of surviving companions. He will continue working with us, improving the functionality of TARDIS. He is an integral part of our group, and we are ecstatic to see what he does next.",
+            "2_img": "../images/josh_defense_group_photo.jpg"
+        },
+        "people_involved_ids": [
+            "Josh Shields"
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
         "title": "Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification",
         "author_id": "Jack O'Brien",
         "article_id": "thesis_defence_jack",
