@@ -1662,6 +1662,7 @@ body.has-theme-bar #page {
 
 .picture-grid .individual-container .info-container .rounded-picture {
   height: 100px;
+  object-fit: cover;
   width: 100px;
   border: 1px solid lightgray;
   border-radius: 50%;
@@ -1735,8 +1736,56 @@ body.has-theme-bar #page {
 
 .presentation .presentation_section .preview-box {
   width: 100%;
+  margin-bottom: 30px;
   aspect-ratio: 16/9; }
+
+.presentation .presentation_section .preview-box > a {
+  text-decoration: none; }
 
 .subheading {
   display: flex;
   justify-content: center; }
+
+.presentation .presentation_section .preview-box .preview-image {
+  margin-bottom: 30px; }
+
+.cover-image {
+  margin: auto; }
+
+.readmore {
+  margin-top: 10px;
+  position: relative;
+  max-height: 100px;
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: max-height 0.15s ease-out, opacity 0.15s ease-out;
+  opacity: 1; }
+
+.readmore.expand {
+  max-height: 5000px !important;
+  transition: max-height 0.35s ease-in-out, opacity 0.35s ease-in-out;
+  opacity: 1; }
+
+.readmore-link {
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 20px;
+  background-image: linear-gradient(to bottom, transparent, whitesmoke);
+  cursor: pointer; }
+
+.readmore-link.expand {
+  position: relative;
+  background-image: none;
+  height: 20px; }
+
+.links {
+  margin-bottom: auto; }

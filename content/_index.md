@@ -5,7 +5,7 @@ sections:
     type: section_hero
     image_alt: App preview
     title: TARDIS Project
-    background_image: images/hubblecast.png
+    background_image: images/hubblecast.gif
     image_alt: Exploding supernova
     content: >-
       An open-science software to simulate and analyse supernovae and other transients
