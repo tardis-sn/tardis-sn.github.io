@@ -1,7 +1,33 @@
 [
     {
+        "title": "Attention: Update your TARDIS Python environment",
+        "author_id": "",
+        "article_id": "update_python_env_2024",
+        "display": true,
+        "date": "10th Jun, 2024",
+        "category": "Updates",
+        "tags": [
+            "updates",
+            "dependencies"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.",
+        "long_description": "",
+        "cover_image": "../articles/lock_file_update_2024.jpeg",
+        "content": {
+            "1_para": "We upgrade the TARDIS environment with the current version of the scientific python software stack. This is to ensure that we include the latest bug fixes in our dependencies and have access to new API and tools.  We have updated our Python environment with the latest dependencies and the current lock-file is available here. Please read here how to <a href='https://tardis-sn.github.io/tardis/installation.html#environment-update'>update</a> the new environment."
+        },
+        "people_involved_ids": [
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
         "title": "A Dr. is Born - Josh Shields Defends Thesis on SN Ia Surviving Companions",
-        "author_id": "Josh Shields",
+        "author_id": "",
         "article_id": "thesis_defense_josh",
         "display": true,
         "date": "03th May, 2024",
@@ -26,14 +52,14 @@
             "2_img": "../articles/josh_defense_group_photo.jpg"
         },
         "people_involved_ids": [
-            "Josh Shields"
+            ""
         ],
         "links": {},
         "twitter": "None"
     },
     {
         "title": "Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification",
-        "author_id": "Jack O'Brien",
+        "author_id": "",
         "article_id": "thesis_defence_jack",
         "display": true,
         "date": "20th Apr, 2024",
@@ -53,7 +79,7 @@
             "1_para": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join <a href='https://gnarayan.github.io/'>Gautham Narayan's group</a> at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!"
         },
         "people_involved_ids": [
-            "Jack O'Brien"
+            ""
         ],
         "links": {
             "Gautham Narayan group": "https://gnarayan.github.io/"
@@ -62,7 +88,7 @@
     },
     {
         "title": "Accepted as a mentoring organisation for Google Summer of Code 2024",
-        "author_id": "Atharva Arya",
+        "author_id": "",
         "article_id": "gsoc_2024_news",
         "display": true,
         "date": "29th Mar, 2024",
