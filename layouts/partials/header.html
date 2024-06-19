@@ -1,6 +1,7 @@
 <header id="masthead" class="site-header outer">
   <div class="inner">
     <div class="site-header-inside">
+      <head>{{ template "_internal/google_analytics.html" . }}</head>
       <div class="site-branding">
         {{ if .Site.Params.header.logo_img }}
         <p class="site-logo"><a href='{{ "/" | relURL }}'><img src="{{ $.Site.Params.header.logo_img | relURL }}" alt="{{ $.Site.Params.header.logo_img_alt }}" /></a></p>
