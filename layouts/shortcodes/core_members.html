@@ -1,19 +1,18 @@
 {{ range $member := site.Data.members.current_tardis_core_team }}
 <div class="individual-container">
     <div class="info-container">
-            {{ $imagePath := printf "../../members/%s/%s" $member.member_id $member.image_path }}
-            {{ $defaultImg := "../../members/me.jpeg" }}
-            {{ $imageParts := split $member.image_path "/" }}
-            {{ if lt (len $imageParts) 3 }}
-            <img class="rounded-picture" src="{{ $defaultImg }}">
-            {{ else }}
-            <img class="rounded-picture" src="{{ $imagePath }}">
-            {{ end }}
+        {{ $imagePath := printf "../../members/%s/%s" $member.member_id $member.image_path }}
+        {{ $defaultImg := "../../members/me.jpeg" }}
+        {{ $imageParts := split $member.image_path "/" }}
+        {{ if lt (len $imageParts) 3 }}
+        <img class="rounded-picture" src="{{ $defaultImg }}">
+        {{ else }}
+        <img class="rounded-picture" src="{{ $imagePath }}">
+        {{ end }}
         <div class="role-box" style="font-size: small;">
-            {{$member.full_name}}
-            {{ range $role := $member.roles }}
-            <a href="#{{ $role.role | urlize }}">{{ $role.role }}<br></a>
-            {{ end }}
+            <div class="person-name" style="font-size: 120.5%;">
+                {{$member.full_name}} </div> {{ range $role := $member.roles }} <a href="#{{ $role.role | urlize }}">{{
+                $role.role }}<br></a> {{ end }}
         </div>
     </div>
 </div>
