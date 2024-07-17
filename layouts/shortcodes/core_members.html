@@ -10,6 +10,7 @@
             <img class="rounded-picture" src="{{ $imagePath }}">
             {{ end }}
         <div class="role-box" style="font-size: small;">
+            {{$member.full_name}}
             {{ range $role := $member.roles }}
             <a href="#{{ $role.role | urlize }}">{{ $role.role }}<br></a>
             {{ end }}
