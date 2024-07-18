@@ -1,5 +1,10 @@
 .cover-image {
+    display: block;
     margin: auto;
+    max-height: 450px; 
+    width: auto;
+    height: auto; 
+    object-fit: contain;
 }
 
 .readmore {
