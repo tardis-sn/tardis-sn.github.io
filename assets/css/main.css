@@ -1750,7 +1750,12 @@ body.has-theme-bar #page {
   margin-bottom: 30px; }
 
 .cover-image {
-  margin: auto; }
+  display: block;
+  margin: auto;
+  max-height: 450px;
+  width: auto;
+  height: auto;
+  object-fit: contain; }
 
 .readmore {
   margin-top: 10px;
