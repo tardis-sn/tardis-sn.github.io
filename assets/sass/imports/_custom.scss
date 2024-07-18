@@ -1,10 +1,58 @@
+.cover-image-container {
+    margin-top: 10px;
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: height 0.3s ease-out, opacity 0.15s ease-out;
+    opacity: 1;
+}
+
+.cover-image-container.expanded {
+    height: auto;
+    max-height: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .cover-image {
-    display: block;
-    margin: auto;
-    max-height: 450px; 
-    width: auto;
-    height: auto; 
-    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.cover-image-container.expanded .cover-image {
+    position: static;
+    transform: none;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.focus-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 15px;
+    background-image: linear-gradient(to bottom, transparent, whitesmoke);
+    transition: background-image 0.3s ease;
+    cursor: pointer;
 }
 
 .readmore {
@@ -23,6 +71,7 @@
     transition: max-height 0.35s ease-in-out, opacity 0.35s ease-in-out;
     opacity: 1;
 }
+
 .readmore-link {
     margin-top: auto;
     position: absolute;
@@ -38,12 +87,13 @@
     background-image: linear-gradient(to bottom, transparent, whitesmoke);
     cursor: pointer;
 }
+
 .readmore-link.expand {
     position: relative;
     background-image: none;
     height: 20px;
 }
 
-.links{
+.links {
     margin-bottom: auto;
 }
