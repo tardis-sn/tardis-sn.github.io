@@ -1,5 +1,82 @@
 [
     {
+        "title": "TARDIS-con",
+        "author_id": "",
+        "article_id": "tardis-con24",
+        "display": true,
+        "date": "19th Jul, 2024",
+        "category": "News",
+        "tags": [
+            "news"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "cover_image": "website_files/images/article_content/TARDIScon24-Plasma-Session.jpg",
+        "content": {
+            "1_para": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on. ",
+            "2_img": "TARDIScon24-Plasma-triangle.jpg",
+            "3_para": "On the TARDIS side, we worked on improving the code's efficiency, implementing new features, and discussing the latest scientific insights related to supernovae.",
+            "4_para": "Our insights into Science of Science grew rapidly. We looked at how international collaborations become more prevalent in the last decades. ",
+            "5_para": "We also enjoyed some group outings, including a day trip to Ann Arbor for a local craft market and a detour through an escape room.",
+            "6_img": "../articles/TARDIScon24-Group-outing.jpg",
+            "7_para": "See you next year at TARDIS-Con 2025!"
+        },
+        "people_involved_ids": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "A Sample of TARDIS Improvements at TARDISCon",
+        "author_id": "",
+        "article_id": "sample_tardis_improvements_obrien",
+        "display": true,
+        "date": "19th Jul, 2024",
+        "category": "News or research",
+        "tags": [
+            "TARDISCon",
+            "TARDIS",
+            "news",
+            "supernova"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios: the decay of positronium and the emission of packets from the photosphere.",
+        "long_description": "",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/samplers_compare.mp4",
+        "content": {
+            "1_para": "At TARDISCon, part of the TARDIS team (Anirban Dutta, Jing Lu, and Jack O\u2019Brien) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
+            "2_para": "This sampler will be used as part of the gamma-ray energy deposition module for TARDIS that is currently under development. It will enable TARDIS to accurately simulate the formation and annihilation of positronium and the resulting gamma-ray spectra and deposition rates.",
+            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  Jack O'Brien, Anirban Dutta, and Wolfgang Kerzendorf wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers.",
+            "4_img": "../articles/samplers_compare.mp4"
+        },
+        "people_involved_ids": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
         "title": "Attention: Update your TARDIS Python environment",
         "author_id": "",
         "article_id": "update_python_env_2024",
