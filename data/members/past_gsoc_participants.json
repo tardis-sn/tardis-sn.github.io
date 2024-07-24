@@ -19,10 +19,10 @@
                 "project_link": "",
                 "image_path": "../me.jpeg"
             },
-            "fotis_tsamis": {
-                "full_name": "Fotis Tsamis",
-                "project_title": "TARDIS various projects",
-                "project_link": "",
+            "mikhail_mishin": {
+                "full_name": "Mikhail Mishin",
+                "project_title": "Carsus package for creating atomic datasets",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
                 "image_path": "../me.jpeg"
             },
             "misha_mishkin": {
@@ -31,10 +31,10 @@
                 "project_link": "",
                 "image_path": "../me.jpeg"
             },
-            "mikhail_mishin": {
-                "full_name": "Mikhail Mishin",
-                "project_title": "Carsus package for creating atomic datasets",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
+            "fotis_tsamis": {
+                "full_name": "Fotis Tsamis",
+                "project_title": "TARDIS various projects",
+                "project_link": "",
                 "image_path": "../me.jpeg"
             },
             "karan_desai": {
@@ -151,23 +151,11 @@
     {
         "year": 2023,
         "info": {
-            "william_black": {
-                "full_name": "William Black",
-                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
-                "image_path": "../me.jpeg"
-            },
-            "shreyas_singh": {
-                "full_name": "Shreyas Singh",
-                "project_title": "Import and Store NNDC Deposition Data",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
-                "image_path": "media/images/shreyas.jpg"
-            },
-            "aarya_chaumal": {
-                "full_name": "Aarya Chaumal",
-                "project_title": "STARDIS Parallelization and GPU",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
-                "image_path": "media/images/aarya.png"
+            "shikha_rathi": {
+                "full_name": "Shikha Rathi",
+                "project_title": "Having Versioned Atomic Data Repositories",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
+                "image_path": "media/images/shikha.jpg"
             },
             "ayushi_daksh": {
                 "full_name": "Ayushi Daksh",
@@ -175,17 +163,29 @@
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
                 "image_path": "media/images/ayushi.jpg"
             },
+            "shreyas_singh": {
+                "full_name": "Shreyas Singh",
+                "project_title": "Import and Store NNDC Deposition Data",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
+                "image_path": "media/images/shreyas.jpg"
+            },
             "ansh_kumar": {
                 "full_name": "Ansh Kumar",
                 "project_title": "Simulation Restrcture",
                 "project_link": "",
                 "image_path": "media/images/ansh.jpeg"
             },
-            "shikha_rathi": {
-                "full_name": "Shikha Rathi",
-                "project_title": "Having Versioned Atomic Data Repositories",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
-                "image_path": "media/images/shikha.jpg"
+            "william_black": {
+                "full_name": "William Black",
+                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
+                "image_path": "../me.jpeg"
+            },
+            "aarya_chaumal": {
+                "full_name": "Aarya Chaumal",
+                "project_title": "STARDIS Parallelization and GPU",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
+                "image_path": "media/images/aarya.png"
             }
         }
     }
