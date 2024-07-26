@@ -52,7 +52,7 @@
         "long_description": "",
         "cover_image_height": "520px",
         "cover_image_width": "330px",
-        "cover_image": "../images/logger.gif",
+        "cover_image": "../articles/logger.gif",
         "content": {
             "1_para": "During TARDIS Con 2024, a collaborative effort by Deeksha, Jaladh, Jing, and Anirban led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
             "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
@@ -80,7 +80,7 @@
         ],
         "short_description": "",
         "long_description": "",
-        "cover_image": "website_files/images/article_content/TARDIScon24-Plasma-Session.jpg",
+        "cover_image": "../articles/TARDIScon24-Plasma-Session.jpg",
         "content": {
             "1_para": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on. ",
             "2_img": "../articles/TARDIScon24-Plasma-triangle.png",
