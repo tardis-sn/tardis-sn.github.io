@@ -6,7 +6,7 @@
             <h6><strong>Published on {{$article.date}}</strong></h6>
             <div class="cover-image-container" id="container_{{ $article.article_id }}">
                 <img class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
-                <span class="focus-image" id="Image-{{ $article.article_id }}">Expand</span>
+                <span class="focus-image" id="Image^{{ $article.article_id }}">Expand</span>
             </div>
             <div class="readmore">
                 {{range $paraNo, $paraText := $article.content}}
@@ -63,7 +63,7 @@
 
     document.querySelectorAll('.focus-image').forEach(button => {
     button.addEventListener('click', () => {
-        const articleId = button.id.split('-')[1];
+        const articleId = button.id.split('^')[1];
         const containerId = `container_${articleId}`;
         const container = document.getElementById(containerId);
         if (container) {
