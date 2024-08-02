@@ -9,17 +9,17 @@ layout: page
 
 A [supernova](https://en.wikipedia.org/wiki/Supernova) (here we show SN1994D in the Galaxy NGC4526 - image source: wikipedia) marks the brilliant death throes of a star, during which it outshines its entire galaxy. It not only marks death, though: supernova ejecta change the evolution of the universe and enable the formation of planets and life as we know it. From the iron in your blood to the silicon in your laptop, supernovae return heavy elements assembled from the primordial hydrogen and helium left after the big bang.
 
-<img src="/images/480px-SN1994D.jpg" alt="image" style="display: block; margin: 0 auto;width: 80%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/images/480px-SN1994D.jpg" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
 There are still many mysteries surrounding supernovae (e.g. their precise origins, inner workings, …). One way to study these objects in more detail is to split the light coming from these objects into its components (like using a prism) and analyzing the resulting data (which is called a spectrum). Here, we show spectra (black lines) of a number of different supernova types (image courtesy Daniel Kasen and LBL). Different chemical elements present in the supernova leave their mark on the spectra by imprinting characteristic features, so-called atomic lines (regions highlighted in colour). Thus, studying and interpreting such spectra allows us to identify what supernovae are made of.
 
-<img src="/images/sn_types.jpg" alt="image" style="display: block; margin: 0 auto;width: 90;padding-top: 5%;padding-bottom: 5%;">
+<img src="/images/sn_types.jpg" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
 
 With sophisticated computer simulations astronomers try to reproduce the observed spectra to draw conclusion about the properties of the supernova ejecta and ultimately the explosion mechanism and progenitor stars. TARDIS is such a numerical code. It calculates theoretical spectra based on a number of input parameters, such as the supernova brightness and the abundances of the different chemical elements present in the ejecta (e.g. Oxygen, Silicon, Iron, etc.). The main idea for this procedure is that by finding a close match between theoretical and observed spectra we identify the parameters that actually describe the supernovae.
 
 ### The TARDIS Project
 
 As mentioned in the background information above, TARDIS is a scientific tool (more specifically a Monte Carlo radiative transfer code) whose primary goal is the calculation of theoretical spectra for supernovae. Below, you find the typical result of a TARDIS calculation. It shows the calculated synthetic spectra for a simple supernova model. This particular setup (tardis_example) is officially provided by the TARDIS collaboration on the [documentation](https://tardis-sn.github.io/tardis/).
-<img src="/images/tardis_example.png" alt="image" style="display: block; margin: 0 auto;width: 90%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/images/tardis_example.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
 
 ### List of GSoC 2024 Project Ideas
 
@@ -43,7 +43,7 @@ Currently, the benchmarks for the previous 5 commits are created and pushed to a
 We would like you, the GSoC contributor for this project, to improve the benchmarking system for TARDIS. You should plan to expand the framework to make it easy for us to add benchmarks to different parts of TARDIS. You should improve the GitHub Action to store more than just the recent 5 commits of benchmarks to provide an extended history. You should use the improved framework to add more benchmarks that cover other areas of the TARDIS code. You could improve the Airspeed Velocity page to better represent the existing benchmark.\
 **First objective:** Create a new benchmark for an isolated part of TARDIS using Airspeed Velocity. We recommend looking at the existing benchmark and unit tests for inspiration.
 
-<img src="/images/tardis_benchmarking.png" alt="image" style="display: block; margin: 0 auto;width: 90;padding-top: 5%;padding-bottom: 5%;">
+<img src="/images/tardis_benchmarking.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
 
 #### TARDIS Benchmarking and Performance Improvement
 
@@ -78,7 +78,7 @@ The TARDIS SDEC plot visualizes which elements contribute towards the absorption
 · Make a plot showing the abundance of each element, as a function of velocity.\
 · Make a plot that illustrates the total number of interactions that escape the simulation from the different elements.
 
-<img src="/images/velocity_tracker.png" alt="image" style="display: block; margin: 0 auto;width: 90;padding-top: 5%;padding-bottom: 5%;">
+<img src="/images/velocity_tracker.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
 
 #### Parallelization and GPU
 
