@@ -110,7 +110,7 @@
     {
         "member_id": "markus_kromer",
         "expertise": [],
-        "start_year": 2021,
+        "start_year": 2015,
         "end_year": null,
         "full_name": "Markus Kromer",
         "image_path": ""
@@ -153,6 +153,14 @@
         "image_path": "media/images/patrick.jpg"
     },
     {
+        "member_id": "stuart_sim",
+        "expertise": [],
+        "start_year": 2011,
+        "end_year": null,
+        "full_name": "Stuart Sim",
+        "image_path": "media/images/me.jpg"
+    },
+    {
         "member_id": "andreas_flors",
         "expertise": [
             "NLTE radiative transfer for type Ia supernovae, kilonovae and atomic structure calculations"
@@ -187,7 +195,7 @@
         "member_id": "ezequiel_passaro",
         "expertise": [
             "CI/CD",
-            "Development Of Carcus"
+            "Development Of Carsus"
         ],
         "start_year": 2019,
         "end_year": null,
