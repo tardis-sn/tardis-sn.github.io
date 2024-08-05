@@ -13,7 +13,7 @@
             <td style="width: 250px;">{{ $participant.full_name }}</td>
             <td>
                 {{ if ne $participant.project_link "" }}
-                <a href="{{ $participant.project_link }}">
+                <a href="{{ $participant.project_link }}" target="_blank" >
                     {{$participant.project_title }}
                 </a>
                 {{ else }}

@@ -32,6 +32,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+            new_window: true
       - title: Visualise the model in multiple ways 
         image: images/visualization_sdec_plot.png
         image_alt: App users welcoming a new member
@@ -44,6 +45,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+            new_window: true
       - title: Atomic data ready to use
         image: images/carsus_io_diagram.png
         image_alt: App user profile preview
@@ -56,6 +58,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+            new_window: true
   # - section_id: reviews
   #   type: section_reviews
   #   background: white
@@ -91,6 +94,7 @@ sections:
       - label: Get Started
         url: https://mybinder.org/v2/gh/tardis-sn/tardis/HEAD?filepath=docs/quickstart.ipynb
         style: primary
+        new_window: true
   - section_id: twitter_widget
     type: twitter_widget
     background: white
