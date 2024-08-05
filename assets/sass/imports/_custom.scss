@@ -54,10 +54,12 @@
 
 .short-description {
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 0;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 1000px) {

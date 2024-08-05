@@ -9,9 +9,13 @@
                 <h5 class="title-news">{{ $article.title }}</h5>
             </div>
             <hr>
-            <p class="short-description">
-                {{ $article.short_description }}
-            </p>
+            <div class="short-description">
+                {{range $paraNo, $paraText := $article.content}}
+                    {{ if eq (index (split $paraNo "_") 1) "para" }}
+                        <p>{{ $paraText | safeHTML }}</p>
+                    {{ end }}
+                {{end}}
+            </div>
         </div>
     </div>
 </div>
