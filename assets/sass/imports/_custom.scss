@@ -1,13 +1,14 @@
 .content-container {
     display: flex;
     width: 95%;
-    gap: 20px;
     height: 400px;
     box-sizing: border-box;
     flex-wrap: nowrap;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    gap: 20px;
     background-color: transparent;
+    padding: 5px;
 }
 
 .cover-image-cont {
@@ -16,7 +17,6 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: #f0f0f0;
     border-radius: 5px;
     width: 65%;
     border-radius: 10px;
@@ -28,6 +28,7 @@
     width: auto;
     height: auto;
     object-fit: cover;
+    border-radius: 3px;
 }
 
 
@@ -36,7 +37,6 @@
     flex-grow: 1;
     height: 100%;
     padding: 10px;
-    background-color: #f6f6f6;
     border-radius: 5px;
     overflow-y: hidden;
     box-sizing: border-box;
@@ -55,7 +55,7 @@
 
 .short-description {
     display: -webkit-box;
-    -webkit-line-clamp: 7;
+    -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -64,6 +64,7 @@
 @media only screen and (max-width: 1000px) {
     .content-container {
         flex-direction: column;
+        width: 75%;
         height: auto;
     }
     
