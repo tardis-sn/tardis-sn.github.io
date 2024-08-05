@@ -61,7 +61,7 @@ params:
       - label: News
         url: /news
         style: link
-      - label: Gsoc
+      - label: GSoC
         url: /summer_of_code
         style: dropdown
         sub_items:

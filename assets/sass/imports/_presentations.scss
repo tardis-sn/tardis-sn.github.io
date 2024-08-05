@@ -1,6 +1,7 @@
 .presentation {
     position: relative; 
-    display: flex; 
+    display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: start;  
     margin-bottom: 45px;
@@ -9,7 +10,7 @@
 .presentation .presentation_section {
     display: flex; 
     flex-direction: row; 
-    justify-content: space-between; 
+    justify-content: center; 
     width: 100%;
     flex-flow: wrap;
 }
@@ -22,7 +23,7 @@
 }
 
 .presentation .presentation_section .preview-box {
-    width: 100%;
+    width: 70%;
     margin-bottom: 30px;
     aspect-ratio: 16/9;
 }

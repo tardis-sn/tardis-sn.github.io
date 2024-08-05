@@ -1,33 +1,20 @@
 {{ range $article := site.Data.articles.articles }}
-<div class="presentation">
-    <div class="">
-        <div class="">
-            <h2>{{ $article.title }}</h2>
-            <h6><strong>Published on {{$article.date}}</strong></h6>
-            <div class="cover-image-container" id="container_{{ $article.article_id }}">
-                <img class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
-                <span class="focus-image" id="Image^{{ $article.article_id }}">Expand</span>
+<div class="presentation temp-border">
+    <div class="content-container">
+        <div id="news-card" class="temp-border-r cover-image-cont">
+            <img id="cover-image" class="cover-image fade-img" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
+        </div>
+        <div class="text-container">
+            <div>
+                <h5 class="title-news">{{ $article.title }}</h5>
             </div>
-            <div class="readmore">
+            <hr>
+            <div class="short-description">
                 {{range $paraNo, $paraText := $article.content}}
-                {{ if eq (index (split $paraNo "_") 1) "img" }}
-                <img class="content-image" src="{{$paraText}}" alt="Content Image">
-                {{ else }}
-                <p>{{ $paraText | safeHTML }}</p>
-                {{ end }}
+                    {{ if eq (index (split $paraNo "_") 1) "para" }}
+                        <p>{{ $paraText | safeHTML }}</p>
+                    {{ end }}
                 {{end}}
-                <!-- <section >
-                    <p><strong>People Involved:</strong> {{delimit $article.people_involved_ids ", "}}</p>
-                </section>
-                <section class="links">
-                    <p><strong>Important Links:</strong></p>
-                    {{range $linkId, $linkValue := $article.links}}
-                    <ul>
-                        <li><a href="{{ $linkValue }}">{{$linkId}}</a></li>
-                    </ul>
-                    {{end}}
-                </section> -->
-                <span class="readmore-link" id="{{$article.article_id}}">Read More</span>
             </div>
         </div>
     </div>
@@ -35,51 +22,76 @@
 {{ end }}
 
 <script>
-    const readMoreLinks = document.querySelectorAll(".readmore-link");
-
-    readMoreLinks.forEach(link => {
-        link.addEventListener("click", function (e) {
-            const clickedElement = document.getElementById(this.id);
-            const content = clickedElement.parentNode; // Get parent readmore container
-            const isExpanded = content.classList.contains("expand");
-
-            // Close all open paragraphs within the same article
-            const currentArticle = clickedElement.closest(".presentation");
-            const allExpanded = currentArticle.querySelectorAll(".readmore.expand");
-            allExpanded.forEach(expanded => expanded.classList.remove("expand"));
-
-            // Toggle expand class, text content, and link height
-            if (!isExpanded) {
-                content.classList.add("expand");
-                this.textContent = "Read Less";
-                this.style.height = "19px";
-            } else {
-                content.classList.remove("expand");
-                this.textContent = "Read More";
-                this.style.height = null;
-            }
-        });
-    });
-
-    document.querySelectorAll('.focus-image').forEach(button => {
-    button.addEventListener('click', () => {
-        const articleId = button.id.split('^')[1];
-        const containerId = `container_${articleId}`;
-        const container = document.getElementById(containerId);
-        if (container) {
-            if (container.classList.contains('expanded')) {
-                container.classList.remove('expanded');
-                button.textContent = 'Expand';
-            } else {
-                container.classList.add('expanded');
-                button.textContent = 'Collapse';
-            }
-        } else {
-            console.log('Container not found:', containerId);
+    const allCards = document.querySelectorAll('[id=news-card]');
+    allCards.forEach(cover => {
+        var coverImage = cover.querySelector('#cover-image')
+        var rgb = getAverageRGB(coverImage);
+        cover.style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
+    })
+    function getAverageRGB(imgEl) {
+        var blockSize = 5, // only visit every 5 pixels
+            defaultRGB = {r:0,g:0,b:0}, // for non-supporting envs
+            canvas = document.createElement('canvas'),
+            context = canvas.getContext && canvas.getContext('2d'),
+            data, width, height,
+            i = -4,
+            length,
+            rgb = {r:0,g:0,b:0},
+            count = 0;
+            
+        if (!context) {
+            return defaultRGB;
         }
-    });
-});
+        
+        height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
+        width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
+        
+        context.drawImage(imgEl, 0, 0);
+        
+        try {
+            data = context.getImageData(0, 0, width, height);
+        } catch(e) {
+            return defaultRGB;
+        }
+        
+        length = data.data.length;
+        
+        while ( (i += blockSize * 4) < length ) {
+            ++count;
+            rgb.r += data.data[i];
+            rgb.g += data.data[i+1];
+            rgb.b += data.data[i+2];
+        }
+        
+        // ~~ used to floor values
+        rgb.r = ~~(rgb.r/count);
+        rgb.g = ~~(rgb.g/count);
+        rgb.b = ~~(rgb.b/count);
+        return rgb;            
+    }
+    // const readMoreLinks = document.querySelectorAll(".readmore-link");
 
+    // readMoreLinks.forEach(link => {
+    //     link.addEventListener("click", function (e) {
+    //         const clickedElement = document.getElementById(this.id);
+    //         const content = clickedElement.parentNode; // Get parent readmore container
+    //         const isExpanded = content.classList.contains("expand");
 
+    //         // Close all open paragraphs within the same article
+    //         const currentArticle = clickedElement.closest(".presentation");
+    //         const allExpanded = currentArticle.querySelectorAll(".readmore.expand");
+    //         allExpanded.forEach(expanded => expanded.classList.remove("expand"));
 
+    //         // Toggle expand class, text content, and link height
+    //         if (!isExpanded) {
+    //             content.classList.add("expand");
+    //             this.textContent = "Read Less";
+    //             this.style.height = "19px";
+    //         } else {
+    //             content.classList.remove("expand");
+    //             this.textContent = "Read More";
+    //             this.style.height = null;
+    //         }
+    //     });
+    // });
 </script>

@@ -18,7 +18,9 @@
         {{ with $member.expertise }}
         {{ range $expertise := . }}
         <div class="role-box" style="font-size: small;">
-            <a href="#{{ $expertise | urlize }}">{{ $expertise }}</a>
+            <div href="#{{ $expertise | urlize }}"><strong>
+                    {{ $expertise }}
+                </strong></div>
         </div>
         {{ end }}
         {{ end }}
