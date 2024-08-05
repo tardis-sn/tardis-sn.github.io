@@ -1,30 +1,38 @@
 [
     {
-        "title": "A Sample of TARDIS Improvements at TARDISCon",
+        "title": "TARDIS-con",
         "author_id": "",
-        "article_id": "sample_tardis_improvements_obrien",
+        "article_id": "tardis_con24",
         "display": true,
         "date": "19th Jul, 2024",
-        "category": "News or research",
+        "category": "News",
         "tags": [
-            "TARDISCon",
-            "TARDIS",
-            "news",
-            "supernova"
+            "news"
         ],
         "platforms": [
             "tardis"
         ],
-        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios: the decay of positronium and the emission of packets from the photosphere.",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/samplers_compare.gif",
+        "short_description": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on.",
+        "cover_image": "../articles/TARDIScon24-Plasma-Session.jpg",
         "content": {
-            "1_para": "At TARDISCon, part of the TARDIS team (Anirban Dutta, Jing Lu, and Jack O\u2019Brien) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
-            "2_para": "This sampler will be used as part of the gamma-ray energy deposition module for TARDIS that is currently under development. It will enable TARDIS to accurately simulate the formation and annihilation of positronium and the resulting gamma-ray spectra and deposition rates.",
-            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  Jack O'Brien, Anirban Dutta, and Wolfgang Kerzendorf wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers."
+            "1_para": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on. ",
+            "2_img": "../articles/TARDIScon24-Plasma-triangle.png",
+            "3_para": "On the TARDIS side, we worked on improving the code's efficiency, implementing new features, and discussing the latest scientific insights related to supernovae.",
+            "4_para": "Our insights into Science of Science grew rapidly. We looked at how international collaborations become more prevalent in the last decades. ",
+            "5_para": "We also enjoyed some group outings, including a day trip to Ann Arbor for a local craft market and a detour through an escape room.",
+            "6_img": "../articles/TARDIScon24-Group-outing.png",
+            "7_para": "See you next year at TARDIS-Con 2025!"
         },
         "people_involved_ids": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -64,42 +72,60 @@
         "twitter": "None"
     },
     {
-        "title": "TARDIS-con",
+        "title": "A Sample of TARDIS Improvements at TARDISCon",
         "author_id": "",
-        "article_id": "tardis_con24",
+        "article_id": "sample_tardis_improvements_obrien",
         "display": true,
         "date": "19th Jul, 2024",
         "category": "News",
         "tags": [
-            "news"
+            "TARDISCon",
+            "TARDIS",
+            "news",
+            "supernova"
         ],
         "platforms": [
             "tardis"
         ],
-        "short_description": "",
-        "cover_image": "../articles/TARDIScon24-Plasma-Session.jpg",
+        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios: the decay of positronium and the emission of packets from the photosphere.",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/samplers_compare.gif",
         "content": {
-            "1_para": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on. ",
-            "2_img": "../articles/TARDIScon24-Plasma-triangle.png",
-            "3_para": "On the TARDIS side, we worked on improving the code's efficiency, implementing new features, and discussing the latest scientific insights related to supernovae.",
-            "4_para": "Our insights into Science of Science grew rapidly. We looked at how international collaborations become more prevalent in the last decades. ",
-            "5_para": "We also enjoyed some group outings, including a day trip to Ann Arbor for a local craft market and a detour through an escape room.",
-            "6_img": "../articles/TARDIScon24-Group-outing.png",
-            "7_para": "See you next year at TARDIS-Con 2025!"
+            "1_para": "At TARDISCon, part of the TARDIS team (Anirban Dutta, Jing Lu, and Jack O\u2019Brien) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
+            "2_para": "This sampler will be used as part of the gamma-ray energy deposition module for TARDIS that is currently under development. It will enable TARDIS to accurately simulate the formation and annihilation of positronium and the resulting gamma-ray spectra and deposition rates.",
+            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  Jack O'Brien, Anirban Dutta, and Wolfgang Kerzendorf wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers."
         },
         "people_involved_ids": [
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "Attention: Update your TARDIS Python environment",
+        "author_id": "",
+        "article_id": "update_python_env_2024",
+        "display": true,
+        "date": "10th Jun, 2024",
+        "category": "News",
+        "tags": [
+            "updates",
+            "news",
+            "dependencies"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.",
+        "cover_image": "../articles/lock_file_update_2024.jpeg",
+        "content": {
+            "1_para": "We upgrade the TARDIS environment with the current version of the scientific python software stack. This is to ensure that we include the latest bug fixes in our dependencies and have access to new API and tools.  We have updated our Python environment with the latest dependencies and the current lock-file is available here. Please read here how to <a href='https://tardis-sn.github.io/tardis/installation.html#environment-update'>update</a> the new environment."
+        },
+        "people_involved_ids": [
             ""
         ],
         "links": {},
@@ -118,7 +144,7 @@
         "platforms": [
             "tardis"
         ],
-        "short_description": "",
+        "short_description": "We are thrilled to announce that our Google Summer of Code (GSoC) students, Sumit Gupta, Ashish Kumar, and Sarthak Srivastava, have officially started their projects! The projects will improve TARDIS performance, add tools for better analysis of the simulation and code to improve its science capabilities.",
         "cover_image": "../articles/gsoc_plus_tardis.png",
         "content": {
             "1_para": "We are thrilled to announce that our Google Summer of Code (GSoC) students, Sumit Gupta, Ashish Kumar, and Sarthak Srivastava, have officially started their projects! The projects will improve TARDIS performance, add tools for better analysis of the simulation and code to improve its science capabilities."
@@ -144,7 +170,7 @@
             "tardis",
             "kg"
         ],
-        "short_description": "We are pleased to announce that Josh has just defended his thesis at Michigan State University investigating the progenitors of Type Ia Supernovae through the study of their surviving companions. Josh performed multiple surviving companion investigations in supernova remnants, and adapted TARDIS to be able to model stellar atmospheres and produce surviving companion spectra. He will continue to work with us expanding the plasma physics of TARDIS. ",
+        "short_description": "We are pleased to announce that Josh has just defended his thesis at Michigan State University investigating the progenitors of Type Ia Supernovae through the study of their surviving companions.",
         "cover_image_height": "520px",
         "cover_image_width": "330px",
         "cover_image": "../articles/josh_defense_title_slide.jpg",
@@ -173,7 +199,7 @@
             "tardis",
             "kg"
         ],
-        "short_description": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join Gautham Narayan\u2019s group at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!",
+        "short_description": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University.",
         "cover_image": "../articles/jackDefence.jpg",
         "content": {
             "1_para": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join <a href='https://gnarayan.github.io/'>Gautham Narayan's group</a> at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!"
