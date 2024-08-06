@@ -1,12 +1,14 @@
 {{ range $article := site.Data.articles.articles }}
-<div class="presentation temp-border">
+<div class="presentation">
     <div class="content-container">
-        <div id="news-card" class="temp-border-r cover-image-cont">
-            <img id="cover-image" class="cover-image fade-img" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
+        <div id="news-card" class="cover-image-cont">
+            <img id="cover-image" class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
         </div>
         <div class="text-container">
             <div>
-                <h5 class="title-news">{{ $article.title }}</h5>
+                <a href="{{ replace $article.article_id "_" "-" }}">
+                    <h5 class="title-news">{{ $article.title }}</h5>
+                </a>
             </div>
             <hr>
             <div class="short-description">
