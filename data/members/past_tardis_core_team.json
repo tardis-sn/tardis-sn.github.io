@@ -48,18 +48,6 @@
         "image_path": "media/images/marc.jpeg"
     },
     {
-        "member_id": "michael_klauser",
-        "roles": [
-            {
-                "role": "Ombudsperson",
-                "start_year": 2020,
-                "end_year": 2023
-            }
-        ],
-        "full_name": "Michael Klauser",
-        "image_path": "../me.jpeg"
-    },
-    {
         "member_id": "stephen_lietzau",
         "roles": [
             {
@@ -70,6 +58,18 @@
         ],
         "full_name": "Stefan Lietzau",
         "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "stuart_sim",
+        "roles": [
+            {
+                "role": "",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Stuart Sim",
+        "image_path": "media/images/me.jpg"
     },
     {
         "member_id": "ulrich_noebauer",

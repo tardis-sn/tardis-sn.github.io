@@ -181,18 +181,6 @@
         "image_path": "media/images/sona_photo.jpg"
     },
     {
-        "member_id": "stuart_sim",
-        "roles": [
-            {
-                "role": "Co-founder",
-                "start_year": 2011,
-                "end_year": null
-            }
-        ],
-        "full_name": "Stuart Sim",
-        "image_path": "media/images/me.jpg"
-    },
-    {
         "member_id": "wolfgang_kerzendorf",
         "roles": [
             {

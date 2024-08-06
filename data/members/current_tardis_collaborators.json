@@ -188,7 +188,9 @@
     },
     {
         "member_id": "stuart_sim",
-        "expertise": [],
+        "expertise": [
+            "Co-founder"
+        ],
         "start_year": 2011,
         "end_year": null,
         "full_name": "Stuart Sim",
