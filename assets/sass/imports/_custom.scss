@@ -8,7 +8,7 @@
     border-radius: 10px;
     gap: 20px;
     background-color: transparent;
-    padding: 5px;
+    padding: 7px;
 }
 
 .cover-image-cont {
@@ -48,8 +48,17 @@
     margin: 10px 0;
 }
 
+.text-container a {
+    text-decoration: none;
+}
+
 .title-news {
     padding-top: 10px;
+    font-size: 1.5rem;
+}
+
+a h5:hover{
+    color: #0072ff;
 }
 
 .short-description {
@@ -76,5 +85,31 @@
     .text-container {
         width: 100%;
         height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+        height: auto;
+    }
+    
+    .cover-image-cont {
+        width: 100%;
+    }
+
+    .text-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .title-news {
+        font-size: 1rem;
+    }
+    
+    .short-description {
+        font-size: 0.8rem;
     }
 }
