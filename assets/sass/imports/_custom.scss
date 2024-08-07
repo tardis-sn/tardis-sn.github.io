@@ -52,6 +52,15 @@
     text-decoration: none;
 }
 
+.text-container .post-meta {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-container .post-meta .published {
+    margin-left: 0.3rem;
+}
 .title-news {
     padding-top: 10px;
     font-size: 1.5rem;
@@ -104,7 +113,9 @@ a h5:hover{
         width: 100%;
         height: auto;
     }
-
+    .text-container .post-meta {
+        font-size: 0.7rem;
+    }
     .title-news {
         font-size: 1rem;
     }
