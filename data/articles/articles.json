@@ -87,7 +87,7 @@
         "platforms": [
             "tardis"
         ],
-        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios: the decay of positronium and the emission of packets from the photosphere.",
+        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.",
         "cover_image_height": "520px",
         "cover_image_width": "330px",
         "cover_image": "../articles/samplers_compare.gif",
@@ -106,7 +106,7 @@
         "twitter": "None"
     },
     {
-        "title": "Attention: Update your TARDIS Python environment",
+        "title": "Attention! Update your TARDIS Python environment",
         "author_id": "",
         "article_id": "update_python_env_2024",
         "display": true,
