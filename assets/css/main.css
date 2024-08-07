@@ -1760,7 +1760,7 @@ body.has-theme-bar #page {
   border-radius: 10px;
   gap: 20px;
   background-color: transparent;
-  padding: 5px; }
+  padding: 7px; }
 
 .cover-image-cont {
   height: 100%;
@@ -1795,8 +1795,23 @@ body.has-theme-bar #page {
   background-color: grey;
   margin: 10px 0; }
 
+.text-container a {
+  text-decoration: none; }
+
+.text-container .post-meta {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center; }
+
+.text-container .post-meta .published {
+  margin-left: 0.3rem; }
+
 .title-news {
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-size: 1.5rem; }
+
+a h5:hover {
+  color: #0072ff; }
 
 .short-description {
   display: -webkit-box;
@@ -1817,3 +1832,21 @@ body.has-theme-bar #page {
   .text-container {
     width: 100%;
     height: auto; } }
+
+@media only screen and (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 0px;
+    height: auto; }
+  .cover-image-cont {
+    width: 100%; }
+  .text-container {
+    width: 100%;
+    height: auto; }
+  .text-container .post-meta {
+    font-size: 0.7rem; }
+  .title-news {
+    font-size: 1rem; }
+  .short-description {
+    font-size: 0.8rem; } }
