@@ -112,18 +112,21 @@ params:
             has_icon: true
             icon: twitter
             icon_position: left
+            new_window: true
           - label: GitHub
             url: "https://github.com/tardis-sn"
             style: link
             has_icon: true
             icon: github
             icon_position: left
+            new_window: true
           - label: Gitter
             url: "https://gitter.im/tardis-sn/tardis"
             style: link
             has_icon: true
             icon: gitter
             icon_position: left
+            new_window: true
       - type: footer_text
         image: images/Numfocus_stamp.png
         image_url: "https://numfocus.org/project/tardis"
