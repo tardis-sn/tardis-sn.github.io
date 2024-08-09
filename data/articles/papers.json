@@ -1,0 +1,3923 @@
+[
+    {
+        "author": [
+            "Kerzendorf, Wolfgang E.",
+            "Sim, Stuart A."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.440"
+        ],
+        "title": [
+            "A spectral synthesis code for rapid modelling of supernovae"
+        ],
+        "year": "2014",
+        "citation": [
+            "2015AN....336..464D",
+            "2015ApJS..217....9R",
+            "2015MNRAS.450..967B",
+            "2015MNRAS.450.3331M",
+            "2015MNRAS.453.3120N",
+            "2015arXiv151206972P",
+            "2016A&A...589A..89M",
+            "2016ApJ...820...75P",
+            "2016ApJ...831...79I",
+            "2016IAUTA..29..453P",
+            "2016JPhB...49g4003D",
+            "2016JPhB...49g4009Y",
+            "2016MNRAS.457.3702P",
+            "2016MNRAS.460.1500S",
+            "2016MNRAS.463.2972N",
+            "2017A&A...599A..46B",
+            "2017A&A...601A..62M",
+            "2017ApJ...846...15H",
+            "2017ExA....44...25D",
+            "2017MNRAS.471.4865B",
+            "2017Natur.551...75S",
+            "2017PhDT.........1B",
+            "2017hsn..book..769S",
+            "2017suex.book.....B",
+            "2018A&A...614A.115M",
+            "2018A&A...620A.156E",
+            "2018ApJ...865L...3P",
+            "2018JHEAp..19....1D",
+            "2018MNRAS.477.3425B",
+            "2018MNRAS.480.3609B",
+            "2019A&A...621A..29V",
+            "2019A&A...622A.102M",
+            "2019ApJ...871..250H",
+            "2019ApJ...876..148C",
+            "2019ApJ...885L..23M",
+            "2019LRCA....5....1N",
+            "2019MNRAS.484.4785M",
+            "2019MNRAS.487.2538J",
+            "2019MNRAS.489.5037B",
+            "2019Natur.565..324I",
+            "2019Natur.574..497W",
+            "2019PrPNP.107..109K",
+            "2020A&A...633A..88V",
+            "2020A&A...634A..37M",
+            "2020A&A...642A.189M",
+            "2020ApJ...892L..24S",
+            "2020ApJ...893..143K",
+            "2020ApJ...898...56M",
+            "2020ApJS..249....8B",
+            "2020ApJS..250...12C",
+            "2020Atoms...8...46D",
+            "2020MNRAS.492.2029S",
+            "2020MNRAS.492.5956A",
+            "2020MNRAS.494.5811L",
+            "2020MNRAS.496.1132T",
+            "2020MNRAS.497..246G",
+            "2021A&A...653A..29B",
+            "2021ApJ...908..150W",
+            "2021ApJ...909L..18S",
+            "2021ApJ...910L..23K",
+            "2021ApJ...916L..14O",
+            "2021ApJ...919..142B",
+            "2021ApJ...922..186H",
+            "2021AstL...47....1L",
+            "2021MNRAS.501.1078B",
+            "2021MNRAS.502.2120F",
+            "2021MNRAS.502.3533M",
+            "2021MNRAS.503..896D",
+            "2021MNRAS.506..415B",
+            "2021MNRAS.506.3560G",
+            "2021MNRAS.506.4819P",
+            "2021MNRAS.507.1092C",
+            "2022A&A...668A.163B",
+            "2022ApJ...924...55G",
+            "2022ApJ...925...22P",
+            "2022ApJ...925..217D",
+            "2022ApJ...930...34T",
+            "2022ApJ...930...89F",
+            "2022ApJ...934..102D",
+            "2022ApJ...934..134V",
+            "2022ApJ...935..152S",
+            "2022ApJ...937...40K",
+            "2022ApJ...941...15M",
+            "2022MNRAS.509.3580M",
+            "2022MNRAS.511.2708S",
+            "2022MNRAS.511.2994L",
+            "2022MNRAS.513.3035M",
+            "2022MNRAS.515..631G",
+            "2022MNRAS.517.5617S",
+            "2022arXiv220805825S",
+            "2022arXiv221105219C",
+            "2022mla..confE...1K",
+            "2023A&A...670A..41F",
+            "2023A&A...672A.129C",
+            "2023A&A...673A..27N",
+            "2023A&A...675A..73L",
+            "2023A&A...675A.194S",
+            "2023A&A...675A.201A",
+            "2023A&A...677A.183B",
+            "2023A&A...678A..44C",
+            "2023ApJ...944..123V",
+            "2023ApJ...944L..49W",
+            "2023ApJ...951...67C",
+            "2023ApJ...953...25P",
+            "2023ApJ...953...93S",
+            "2023ApJ...953..132W",
+            "2023ApJ...955...49O",
+            "2023ApJ...956L..31M",
+            "2023ApJ...958..121T",
+            "2023ApJ...959L..26V",
+            "2023EPJD...77..104C",
+            "2023MNRAS.522.4444H",
+            "2023MNRAS.526.5365V",
+            "2023arXiv230517243D",
+            "2023arXiv230812991K",
+            "2024A&A...681A..86M",
+            "2024ApJ...961...47I",
+            "2024ApJ...961..119F",
+            "2024ApJ...962...33V",
+            "2024ApJ...962..125C",
+            "2024ApJ...964..137O",
+            "2024ApJ...965...73S",
+            "2024ApJ...967...54T",
+            "2024MNRAS.528.7137M",
+            "2024MNRAS.529..647R",
+            "2024MNRAS.529.2918G",
+            "2024MNRAS.531.3042M",
+            "2024MNRAS.532.2289M",
+            "2024RNAAS...8..177L",
+            "2024SSRv..220...13S",
+            "2024arXiv240513596M",
+            "2024arXiv240706828B"
+        ]
+    },
+    {
+        "author": [
+            "Diehl, R."
+        ],
+        "bibstem": [
+            "AN",
+            "AN....336"
+        ],
+        "title": [
+            "Gamma rays from a supernova of type Ia: SN2014J"
+        ],
+        "year": "2015",
+        "bibcode": "2015AN....336..464D"
+    },
+    {
+        "author": [
+            "Roth, Nathaniel",
+            "Kasen, Daniel"
+        ],
+        "bibstem": [
+            "ApJS",
+            "ApJS..217"
+        ],
+        "title": [
+            "Monte Carlo Radiation-Hydrodynamics With Implicit Methods"
+        ],
+        "year": "2015",
+        "bibcode": "2015ApJS..217....9R"
+    },
+    {
+        "author": [
+            "Bulla, M.",
+            "Sim, S. A.",
+            "Kromer, M."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.450"
+        ],
+        "title": [
+            "Polarization spectral synthesis for Type Ia supernova explosion models"
+        ],
+        "year": "2015",
+        "bibcode": "2015MNRAS.450..967B"
+    },
+    {
+        "author": [
+            "Matthews, J. H.",
+            "Knigge, C.",
+            "Long, K. S.",
+            "Sim, S. A.",
+            "Higginbottom, N."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.450"
+        ],
+        "title": [
+            "The impact of accretion disc winds on the optical spectra of cataclysmic variables"
+        ],
+        "year": "2015",
+        "bibcode": "2015MNRAS.450.3331M"
+    },
+    {
+        "author": [
+            "Noebauer, U. M.",
+            "Sim, S. A."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.453"
+        ],
+        "title": [
+            "Self-consistent modelling of line-driven hot-star winds with Monte Carlo radiation hydrodynamics"
+        ],
+        "year": "2015",
+        "bibcode": "2015MNRAS.453.3120N"
+    },
+    {
+        "author": [
+            "Puls, Joachim",
+            "Asplund, Martin"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv1512"
+        ],
+        "title": [
+            "IAU Commission 36 (Theory of Stellar Atmospheres): Hexennial Report 2009-2015"
+        ],
+        "year": "2015",
+        "bibcode": "2015arXiv151206972P"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Kotak, R.",
+            "Sim, S. A.",
+            "Kromer, M.",
+            "Rabinowitz, D.",
+            "Smartt, S. J.",
+            "Baltay, C.",
+            "Campbell, H. C.",
+            "Chen, T. -W.",
+            "Fink, M.",
+            "Gal-Yam, A.",
+            "Galbany, L.",
+            "Hillebrandt, W.",
+            "Inserra, C.",
+            "Kankare, E.",
+            "Le Guillou, L.",
+            "Lyman, J. D.",
+            "Maguire, K.",
+            "Pakmor, R.",
+            "R\u00f6pke, F. K.",
+            "Ruiter, A. J.",
+            "Seitenzahl, I. R.",
+            "Sullivan, M.",
+            "Valenti, S.",
+            "Young, D. R."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...589"
+        ],
+        "title": [
+            "The type Iax supernova, SN 2015H. A white dwarf deflagration candidate"
+        ],
+        "year": "2016",
+        "bibcode": "2016A&A...589A..89M"
+    },
+    {
+        "author": [
+            "Parrent, J. T.",
+            "Milisavljevic, D.",
+            "Soderberg, A. M.",
+            "Parthasarathy, M."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...820"
+        ],
+        "title": [
+            "Line Identifications of Type I Supernovae: On the Detection of Si II for These Hydrogen-poor Events"
+        ],
+        "year": "2016",
+        "bibcode": "2016ApJ...820...75P"
+    },
+    {
+        "author": [
+            "Inserra, C.",
+            "Bulla, M.",
+            "Sim, S. A.",
+            "Smartt, S. J."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...831"
+        ],
+        "title": [
+            "Spectropolarimetry of Superluminous Supernovae: Insight into Their Geometry"
+        ],
+        "year": "2016",
+        "bibcode": "2016ApJ...831...79I"
+    },
+    {
+        "author": [
+            "Puls, Joachim",
+            "Hubeny, Ivan",
+            "Asplund, Martin",
+            "Allard, France",
+            "Allende Prieto, Carlos",
+            "Ayres, Thomas R.",
+            "Carlsson, Mats",
+            "Gustafsson, Bengt",
+            "Kudritzki, Rolf-Peter",
+            "Ryabchikova, Tatiana A."
+        ],
+        "bibstem": [
+            "IAUTA",
+            "IAUTA..29"
+        ],
+        "title": [
+            "Division G Commission 36: Theory of Stellar Atmospheres"
+        ],
+        "year": "2016",
+        "bibcode": "2016IAUTA..29..453P"
+    },
+    {
+        "author": [
+            "Dubernet, M. L.",
+            "Antony, B. K.",
+            "Ba, Y. A.",
+            "Babikov, Yu L.",
+            "Bartschat, K.",
+            "Boudon, V.",
+            "Braams, B. J.",
+            "Chung, H. -K.",
+            "Daniel, F.",
+            "Delahaye, F.",
+            "Del Zanna, G.",
+            "de Urquijo, J.",
+            "Dimitrijevi\u0107, M. S.",
+            "Domaracka, A.",
+            "Doronin, M.",
+            "Drouin, B. J.",
+            "Endres, C. P.",
+            "Fazliev, A. Z.",
+            "Gagarin, S. V.",
+            "Gordon, I. E.",
+            "Gratier, P.",
+            "Heiter, U.",
+            "Hill, C.",
+            "Jevremovi\u0107, D.",
+            "Joblin, C.",
+            "Kasprzak, A.",
+            "Krishnakumar, E.",
+            "Leto, G.",
+            "Loboda, P. A.",
+            "Louge, T.",
+            "Maclot, S.",
+            "Marinkovi\u0107, B. P.",
+            "Markwick, A.",
+            "Marquart, T.",
+            "Mason, H. E.",
+            "Mason, N. J.",
+            "Mendoza, C.",
+            "Mihajlov, A. A.",
+            "Millar, T. J.",
+            "Moreau, N.",
+            "Mulas, G.",
+            "Pakhomov, Yu",
+            "Palmeri, P.",
+            "Pancheshnyi, S.",
+            "Perevalov, V. I.",
+            "Piskunov, N.",
+            "Postler, J.",
+            "Quinet, P.",
+            "Quintas-S\u00e1nchez, E.",
+            "Ralchenko, Yu",
+            "Rhee, Y. -J.",
+            "Rixon, G.",
+            "Rothman, L. S.",
+            "Roueff, E.",
+            "Ryabchikova, T.",
+            "Sahal-Br\u00e9chot, S.",
+            "Scheier, P.",
+            "Schlemmer, S.",
+            "Schmitt, B.",
+            "Stempels, E.",
+            "Tashkun, S.",
+            "Tennyson, J.",
+            "Tyuterev, Vl G.",
+            "Vuj\u010di\u0107, V.",
+            "Wakelam, V.",
+            "Walton, N. A.",
+            "Zatsarinny, O.",
+            "Zeippen, C. J.",
+            "Zw\u00f6lf, C. M."
+        ],
+        "bibstem": [
+            "JPhB",
+            "JPhB...49"
+        ],
+        "title": [
+            "The virtual atomic and molecular data centre (VAMDC) consortium"
+        ],
+        "year": "2016",
+        "bibcode": "2016JPhB...49g4003D"
+    },
+    {
+        "author": [
+            "Young, P. R.",
+            "Dere, K. P.",
+            "Landi, E.",
+            "Del Zanna, G.",
+            "Mason, H. E."
+        ],
+        "bibstem": [
+            "JPhB",
+            "JPhB...49"
+        ],
+        "title": [
+            "The CHIANTI atomic database"
+        ],
+        "year": "2016",
+        "bibcode": "2016JPhB...49g4009Y"
+    },
+    {
+        "author": [
+            "Parrent, J. T.",
+            "Howell, D. A.",
+            "Fesen, R. A.",
+            "Parker, S.",
+            "Bianco, F. B.",
+            "Dilday, B.",
+            "Sand, D.",
+            "Valenti, S.",
+            "Vink\u00f3, J.",
+            "Berlind, P.",
+            "Challis, P.",
+            "Milisavljevic, D.",
+            "Sanders, N.",
+            "Marion, G. H.",
+            "Wheeler, J. C.",
+            "Brown, P.",
+            "Calkins, M. L.",
+            "Friesen, B.",
+            "Kirshner, R.",
+            "Pritchard, T.",
+            "Quimby, R.",
+            "Roming, P."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.457"
+        ],
+        "title": [
+            "Comparative analysis of SN 2012dn optical spectra: days -14 to +114"
+        ],
+        "year": "2016",
+        "bibcode": "2016MNRAS.457.3702P"
+    },
+    {
+        "author": [
+            "Szalai, Tam\u00e1s",
+            "Vink\u00f3, J\u00f3zsef",
+            "Nagy, Andrea P.",
+            "Silverman, Jeffrey M.",
+            "Wheeler, J. Craig",
+            "Dhungana, Govinda",
+            "Marion, G. Howie",
+            "Kehoe, Robert",
+            "Fox, Ori D.",
+            "S\u00e1rneczky, Kriszti\u00e1n",
+            "Marschalk\u00f3, G\u00e1bor",
+            "B\u00edr\u00f3, Barna I.",
+            "Borkovits, Tam\u00e1s",
+            "Heged\u00fcs, Tibor",
+            "Szak\u00e1ts, R\u00f3bert",
+            "Ferrante, Farley V.",
+            "B\u00e1nyai, Evelin",
+            "Hodos\u00e1n, Gabriella",
+            "Kelemen, J\u00e1nos",
+            "P\u00e1l, Andr\u00e1s"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.460"
+        ],
+        "title": [
+            "The continuing story of SN IIb 2013df: new optical and IR observations and analysis"
+        ],
+        "year": "2016",
+        "bibcode": "2016MNRAS.460.1500S"
+    },
+    {
+        "author": [
+            "Noebauer, U. M.",
+            "Taubenberger, S.",
+            "Blinnikov, S.",
+            "Sorokina, E.",
+            "Hillebrandt, W."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.463"
+        ],
+        "title": [
+            "Type Ia supernovae within dense carbon- and oxygen-rich envelopes: a model for `Super-Chandrasekhar' explosions?"
+        ],
+        "year": "2016",
+        "bibcode": "2016MNRAS.463.2972N"
+    },
+    {
+        "author": [
+            "Boyle, Aoife",
+            "Sim, Stuart A.",
+            "Hachinger, Stephan",
+            "Kerzendorf, Wolfgang"
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...599"
+        ],
+        "title": [
+            "Helium in double-detonation models of type Ia supernovae"
+        ],
+        "year": "2017",
+        "bibcode": "2017A&A...599A..46B"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Kotak, R.",
+            "Sim, S. A.",
+            "Wright, D.",
+            "Smartt, S. J.",
+            "Berger, E.",
+            "Chornock, R.",
+            "Foley, R. J.",
+            "Howell, D. A.",
+            "Kaiser, N.",
+            "Magnier, E. A.",
+            "Wainscoat, R.",
+            "Waters, C."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...601"
+        ],
+        "title": [
+            "Growing evidence that SNe Iax are not a one-parameter family. The case of PS1-12bwh"
+        ],
+        "year": "2017",
+        "bibcode": "2017A&A...601A..62M"
+    },
+    {
+        "author": [
+            "Heringer, E.",
+            "van Kerkwijk, M. H.",
+            "Sim, S. A.",
+            "Kerzendorf, W. E."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...846"
+        ],
+        "title": [
+            "Spectral Sequences of Type Ia Supernovae. I. Connecting Normal and Subluminous SNe Ia and the Presence of Unburned Carbon"
+        ],
+        "year": "2017",
+        "bibcode": "2017ApJ...846...15H"
+    },
+    {
+        "author": [
+            "De Angelis, A.",
+            "Tatischeff, V.",
+            "Tavani, M.",
+            "Oberlack, U.",
+            "Grenier, I.",
+            "Hanlon, L.",
+            "Walter, R.",
+            "Argan, A.",
+            "von Ballmoos, P.",
+            "Bulgarelli, A.",
+            "Donnarumma, I.",
+            "Hernanz, M.",
+            "Kuvvetli, I.",
+            "Pearce, M.",
+            "Zdziarski, A.",
+            "Aboudan, A.",
+            "Ajello, M.",
+            "Ambrosi, G.",
+            "Bernard, D.",
+            "Bernardini, E.",
+            "Bonvicini, V.",
+            "Brogna, A.",
+            "Branchesi, M.",
+            "Budtz-Jorgensen, C.",
+            "Bykov, A.",
+            "Campana, R.",
+            "Cardillo, M.",
+            "Coppi, P.",
+            "De Martino, D.",
+            "Diehl, R.",
+            "Doro, M.",
+            "Fioretti, V.",
+            "Funk, S.",
+            "Ghisellini, G.",
+            "Grove, E.",
+            "Hamadache, C.",
+            "Hartmann, D. H.",
+            "Hayashida, M.",
+            "Isern, J.",
+            "Kanbach, G.",
+            "Kiener, J.",
+            "Kn\u00f6dlseder, J.",
+            "Labanti, C.",
+            "Laurent, P.",
+            "Limousin, O.",
+            "Longo, F.",
+            "Mannheim, K.",
+            "Marisaldi, M.",
+            "Martinez, M.",
+            "Mazziotta, M. N.",
+            "McEnery, J.",
+            "Mereghetti, S.",
+            "Minervini, G.",
+            "Moiseev, A.",
+            "Morselli, A.",
+            "Nakazawa, K.",
+            "Orleanski, P.",
+            "Paredes, J. M.",
+            "Patricelli, B.",
+            "Peyr\u00e9, J.",
+            "Piano, G.",
+            "Pohl, M.",
+            "Ramarijaona, H.",
+            "Rando, R.",
+            "Reichardt, I.",
+            "Roncadelli, M.",
+            "Silva, R.",
+            "Tavecchio, F.",
+            "Thompson, D. J.",
+            "Turolla, R.",
+            "Ulyanov, A.",
+            "Vacchi, A.",
+            "Wu, X.",
+            "Zoglauer, A."
+        ],
+        "bibstem": [
+            "ExA",
+            "ExA....44"
+        ],
+        "title": [
+            "The e-ASTROGAM mission. Exploring the extreme Universe with gamma rays in the MeV - GeV range"
+        ],
+        "year": "2017",
+        "bibcode": "2017ExA....44...25D"
+    },
+    {
+        "author": [
+            "Barna, Barnab\u00e1s",
+            "Szalai, Tam\u00e1s",
+            "Kromer, Markus",
+            "Kerzendorf, Wolfgang E.",
+            "Vink\u00f3, J\u00f3zsef",
+            "Silverman, Jeffrey M.",
+            "Marion, G. H.",
+            "Wheeler, J. Craig"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.471"
+        ],
+        "title": [
+            "Abundance tomography of Type Iax SN 2011ay with tardis"
+        ],
+        "year": "2017",
+        "bibcode": "2017MNRAS.471.4865B"
+    },
+    {
+        "author": [
+            "Smartt, S. J.",
+            "Chen, T. -W.",
+            "Jerkstrand, A.",
+            "Coughlin, M.",
+            "Kankare, E.",
+            "Sim, S. A.",
+            "Fraser, M.",
+            "Inserra, C.",
+            "Maguire, K.",
+            "Chambers, K. C.",
+            "Huber, M. E.",
+            "Kr\u00fchler, T.",
+            "Leloudas, G.",
+            "Magee, M.",
+            "Shingles, L. J.",
+            "Smith, K. W.",
+            "Young, D. R.",
+            "Tonry, J.",
+            "Kotak, R.",
+            "Gal-Yam, A.",
+            "Lyman, J. D.",
+            "Homan, D. S.",
+            "Agliozzo, C.",
+            "Anderson, J. P.",
+            "Angus, C. R.",
+            "Ashall, C.",
+            "Barbarino, C.",
+            "Bauer, F. E.",
+            "Berton, M.",
+            "Botticella, M. T.",
+            "Bulla, M.",
+            "Bulger, J.",
+            "Cannizzaro, G.",
+            "Cano, Z.",
+            "Cartier, R.",
+            "Cikota, A.",
+            "Clark, P.",
+            "De Cia, A.",
+            "Della Valle, M.",
+            "Denneau, L.",
+            "Dennefeld, M.",
+            "Dessart, L.",
+            "Dimitriadis, G.",
+            "Elias-Rosa, N.",
+            "Firth, R. E.",
+            "Flewelling, H.",
+            "Fl\u00f6rs, A.",
+            "Franckowiak, A.",
+            "Frohmaier, C.",
+            "Galbany, L.",
+            "Gonz\u00e1lez-Gait\u00e1n, S.",
+            "Greiner, J.",
+            "Gromadzki, M.",
+            "Guelbenzu, A. Nicuesa",
+            "Guti\u00e9rrez, C. P.",
+            "Hamanowicz, A.",
+            "Hanlon, L.",
+            "Harmanen, J.",
+            "Heintz, K. E.",
+            "Heinze, A.",
+            "Hernandez, M. -S.",
+            "Hodgkin, S. T.",
+            "Hook, I. M.",
+            "Izzo, L.",
+            "James, P. A.",
+            "Jonker, P. G.",
+            "Kerzendorf, W. E.",
+            "Klose, S.",
+            "Kostrzewa-Rutkowska, Z.",
+            "Kowalski, M.",
+            "Kromer, M.",
+            "Kuncarayakti, H.",
+            "Lawrence, A.",
+            "Lowe, T. B.",
+            "Magnier, E. A.",
+            "Manulis, I.",
+            "Martin-Carrillo, A.",
+            "Mattila, S.",
+            "McBrien, O.",
+            "M\u00fcller, A.",
+            "Nordin, J.",
+            "O'Neill, D.",
+            "Onori, F.",
+            "Palmerio, J. T.",
+            "Pastorello, A.",
+            "Patat, F.",
+            "Pignata, G.",
+            "Podsiadlowski, Ph.",
+            "Pumo, M. L.",
+            "Prentice, S. J.",
+            "Rau, A.",
+            "Razza, A.",
+            "Rest, A.",
+            "Reynolds, T.",
+            "Roy, R.",
+            "Ruiter, A. J.",
+            "Rybicki, K. A.",
+            "Salmon, L.",
+            "Schady, P.",
+            "Schultz, A. S. B.",
+            "Schweyer, T.",
+            "Seitenzahl, I. R.",
+            "Smith, M.",
+            "Sollerman, J.",
+            "Stalder, B.",
+            "Stubbs, C. W.",
+            "Sullivan, M.",
+            "Szegedi, H.",
+            "Taddia, F.",
+            "Taubenberger, S.",
+            "Terreran, G.",
+            "van Soelen, B.",
+            "Vos, J.",
+            "Wainscoat, R. J.",
+            "Walton, N. A.",
+            "Waters, C.",
+            "Weiland, H.",
+            "Willman, M.",
+            "Wiseman, P.",
+            "Wright, D. E.",
+            "Wyrzykowski, \u0141.",
+            "Yaron, O."
+        ],
+        "bibstem": [
+            "Natur",
+            "Natur.551"
+        ],
+        "title": [
+            "A kilonova as the electromagnetic counterpart to a gravitational-wave source"
+        ],
+        "year": "2017",
+        "bibcode": "2017Natur.551...75S"
+    },
+    {
+        "author": [
+            "Bulla, Mattia"
+        ],
+        "bibstem": [
+            "PhDT",
+            "PhDT....."
+        ],
+        "title": [
+            "Polarisation Spectral Synthesis For Type Ia Supernova Explosion Models"
+        ],
+        "year": "2017",
+        "bibcode": "2017PhDT.........1B"
+    },
+    {
+        "author": [
+            "Sim, Stuart A."
+        ],
+        "bibstem": [
+            "hsn",
+            "hsn..book"
+        ],
+        "title": [
+            "Spectra of Supernovae During the Photospheric Phase"
+        ],
+        "year": "2017",
+        "bibcode": "2017hsn..book..769S"
+    },
+    {
+        "author": [
+            "Branch, David",
+            "Wheeler, J. Craig"
+        ],
+        "bibstem": [
+            "suex",
+            "suex.book"
+        ],
+        "title": [
+            "Supernova Explosions"
+        ],
+        "year": "2017",
+        "bibcode": "2017suex.book.....B"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Sim, S. A.",
+            "Kotak, R.",
+            "Kerzendorf, W. E."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...614"
+        ],
+        "title": [
+            "Modelling the early time behaviour of type Ia supernovae: effects of the <SUP>56</SUP>Ni distribution"
+        ],
+        "year": "2018",
+        "bibcode": "2018A&A...614A.115M"
+    },
+    {
+        "author": [
+            "Ergon, M.",
+            "Fransson, C.",
+            "Jerkstrand, A.",
+            "Kozma, C.",
+            "Kromer, M.",
+            "Spricer, K."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...620"
+        ],
+        "title": [
+            "Monte-Carlo methods for NLTE spectral synthesis of supernovae"
+        ],
+        "year": "2018",
+        "bibcode": "2018A&A...620A.156E"
+    },
+    {
+        "author": [
+            "Prentice, S. J.",
+            "Maguire, K.",
+            "Smartt, S. J.",
+            "Magee, M. R.",
+            "Schady, P.",
+            "Sim, S.",
+            "Chen, T. -W.",
+            "Clark, P.",
+            "Colin, C.",
+            "Fulton, M.",
+            "McBrien, O.",
+            "O'Neill, D.",
+            "Smith, K. W.",
+            "Ashall, C.",
+            "Chambers, K. C.",
+            "Denneau, L.",
+            "Flewelling, H. A.",
+            "Heinze, A.",
+            "Holoien, T. W. -S.",
+            "Huber, M. E.",
+            "Kochanek, C. S.",
+            "Mazzali, P. A.",
+            "Prieto, J. L.",
+            "Rest, A.",
+            "Shappee, B. J.",
+            "Stalder, B.",
+            "Stanek, K. Z.",
+            "Stritzinger, M. D.",
+            "Thompson, T. A.",
+            "Tonry, J. L."
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..865"
+        ],
+        "title": [
+            "The Cow: Discovery of a Luminous, Hot, and Rapidly Evolving Transient"
+        ],
+        "year": "2018",
+        "bibcode": "2018ApJ...865L...3P"
+    },
+    {
+        "author": [
+            "de Angelis, A.",
+            "Tatischeff, V.",
+            "Grenier, I. A.",
+            "McEnery, J.",
+            "Mallamaci, M.",
+            "Tavani, M.",
+            "Oberlack, U.",
+            "Hanlon, L.",
+            "Walter, R.",
+            "Argan, A.",
+            "von Ballmoos, P.",
+            "Bulgarelli, A.",
+            "Bykov, A.",
+            "Hernanz, M.",
+            "Kanbach, G.",
+            "Kuvvetli, I.",
+            "Pearce, M.",
+            "Zdziarski, A.",
+            "Conrad, J.",
+            "Ghisellini, G.",
+            "Harding, A.",
+            "Isern, J.",
+            "Leising, M.",
+            "Longo, F.",
+            "Madejski, G.",
+            "Martinez, M.",
+            "Mazziotta, M. N.",
+            "Paredes, J. M.",
+            "Pohl, M.",
+            "Rando, R.",
+            "Razzano, M.",
+            "Aboudan, A.",
+            "Ackermann, M.",
+            "Addazi, A.",
+            "Ajello, M.",
+            "Albertus, C.",
+            "\u00c1lvarez, J. M.",
+            "Ambrosi, G.",
+            "Ant\u00f3n, S.",
+            "Antonelli, L. A.",
+            "Babic, A.",
+            "Baibussinov, B.",
+            "Balbo, M.",
+            "Baldini, L.",
+            "Balman, S.",
+            "Bambi, C.",
+            "Barres de Almeida, U.",
+            "Barrio, J. A.",
+            "Bartels, R.",
+            "Bastieri, D.",
+            "Bednarek, W.",
+            "Bernard, D.",
+            "Bernardini, E.",
+            "Bernasconi, T.",
+            "Bertucci, B.",
+            "Biland, A.",
+            "Bissaldi, E.",
+            "Boettcher, M.",
+            "Bonvicini, V.",
+            "Bosch-Ramon, V.",
+            "Bottacini, E.",
+            "Bozhilov, V.",
+            "Bretz, T.",
+            "Branchesi, M.",
+            "Brdar, V.",
+            "Bringmann, T.",
+            "Brogna, A.",
+            "Budtz J\u00f8rgensen, C.",
+            "Busetto, G.",
+            "Buson, S.",
+            "Busso, M.",
+            "Caccianiga, A.",
+            "Camera, S.",
+            "Campana, R.",
+            "Caraveo, P.",
+            "Cardillo, M.",
+            "Carlson, P.",
+            "Celestin, S.",
+            "Cerme\u00f1o, M.",
+            "Chen, A.",
+            "Cheung, C. C.",
+            "Churazov, E.",
+            "Ciprini, S.",
+            "Coc, A.",
+            "Colafrancesco, S.",
+            "Coleiro, A.",
+            "Collmar, W.",
+            "Coppi, P.",
+            "Curado da Silva, R.",
+            "Cutini, S.",
+            "D'Ammando, F.",
+            "de Lotto, B.",
+            "de Martino, D.",
+            "De Rosa, A.",
+            "Del Santo, M.",
+            "Delgado, L.",
+            "Diehl, R.",
+            "Dietrich, S.",
+            "Dolgov, A. D.",
+            "Dom\u00ednguez, A.",
+            "Dominis Prester, D.",
+            "Donnarumma, I.",
+            "Dorner, D.",
+            "Doro, M.",
+            "Dutra, M.",
+            "Elsaesser, D.",
+            "Fabrizio, M.",
+            "Fern\u00e1ndez-Barral, A.",
+            "Fioretti, V.",
+            "Foffano, L.",
+            "Formato, V.",
+            "Fornengo, N.",
+            "Foschini, L.",
+            "Franceschini, A.",
+            "Franckowiak, A.",
+            "Funk, S.",
+            "Fuschino, F.",
+            "Gaggero, D.",
+            "Galanti, G.",
+            "Gargano, F.",
+            "Gasparrini, D.",
+            "Gehrz, R.",
+            "Giammaria, P.",
+            "Giglietto, N.",
+            "Giommi, P.",
+            "Giordano, F.",
+            "Giroletti, M.",
+            "Ghirlanda, G.",
+            "Godinovic, N.",
+            "Gouiff\u00e9s, C.",
+            "Grove, J. E.",
+            "Hamadache, C.",
+            "Hartmann, D. H.",
+            "Hayashida, M.",
+            "Hryczuk, A.",
+            "Jean, P.",
+            "Johnson, T.",
+            "Jos\u00e9, J.",
+            "Kaufmann, S.",
+            "Khelifi, B.",
+            "Kiener, J.",
+            "Kn\u00f6dlseder, J.",
+            "Kole, M.",
+            "Kopp, J.",
+            "Kozhuharov, V.",
+            "Labanti, C.",
+            "Lalkovski, S.",
+            "Laurent, P.",
+            "Limousin, O.",
+            "Linares, M.",
+            "Lindfors, E.",
+            "Lindner, M.",
+            "Liu, J.",
+            "Lombardi, S.",
+            "Loparco, F.",
+            "L\u00f3pez-Coto, R.",
+            "L\u00f3pez Moya, M.",
+            "Lott, B.",
+            "Lubrano, P.",
+            "Malyshev, D.",
+            "Mankuzhiyil, N.",
+            "Mannheim, K.",
+            "March\u00e3, M. J.",
+            "Marcian\u00f2, A.",
+            "Marcote, B.",
+            "Mariotti, M.",
+            "Marisaldi, M.",
+            "McBreen, S.",
+            "Mereghetti, S.",
+            "Merle, A.",
+            "Mignani, R.",
+            "Minervini, G.",
+            "Moiseev, A.",
+            "Morselli, A.",
+            "Moura, F.",
+            "Nakazawa, K.",
+            "Nava, L.",
+            "Nieto, D.",
+            "Orienti, M.",
+            "Orio, M.",
+            "Orlando, E.",
+            "Orleanski, P.",
+            "Paiano, S.",
+            "Paoletti, R.",
+            "Papitto, A.",
+            "Pasquato, M.",
+            "Patricelli, B.",
+            "P\u00e9rez-Garc\u00eda, M. \u00c1.",
+            "Persic, M.",
+            "Piano, G.",
+            "Pichel, A.",
+            "Pimenta, M.",
+            "Pittori, C.",
+            "Porter, T.",
+            "Poutanen, J.",
+            "Prandini, E.",
+            "Prantzos, N.",
+            "Produit, N.",
+            "Profumo, S.",
+            "Queiroz, F. S.",
+            "Rain\u00f3, S.",
+            "Raklev, A.",
+            "Regis, M.",
+            "Reichardt, I.",
+            "Rephaeli, Y.",
+            "Rico, J.",
+            "Rodejohann, W.",
+            "Rodriguez Fernandez, G.",
+            "Roncadelli, M.",
+            "Roso, L.",
+            "Rovero, A.",
+            "Ruffini, R.",
+            "Sala, G.",
+            "S\u00e1nchez-Conde, M. A.",
+            "Santangelo, A.",
+            "Saz Parkinson, P.",
+            "Sbarrato, T.",
+            "Shearer, A.",
+            "Shellard, R.",
+            "Short, K.",
+            "Siegert, T.",
+            "Siqueira, C.",
+            "Spinelli, P.",
+            "Stamerra, A.",
+            "Starrfield, S.",
+            "Strong, A.",
+            "Str\u00fcmke, I.",
+            "Tavecchio, F.",
+            "Taverna, R.",
+            "Terzi\u0107, T.",
+            "Thompson, D. J.",
+            "Tibolla, O.",
+            "Torres, D. F.",
+            "Turolla, R.",
+            "Ulyanov, A.",
+            "Ursi, A.",
+            "Vacchi, A.",
+            "van den Abeele, J.",
+            "Vankova-Kirilovai, G.",
+            "Venter, C.",
+            "Verrecchia, F.",
+            "Vincent, P.",
+            "Wang, X.",
+            "Weniger, C.",
+            "Wu, X.",
+            "Zaharija\u0161, G.",
+            "Zampieri, L.",
+            "Zane, S.",
+            "Zimmer, S.",
+            "Zoglauer, A.",
+            "E-Astrogam Collaboration"
+        ],
+        "bibstem": [
+            "JHEAp",
+            "JHEAp..19"
+        ],
+        "title": [
+            "Science with e-ASTROGAM. A space mission for MeV-GeV gamma-ray astrophysics"
+        ],
+        "year": "2018",
+        "bibcode": "2018JHEAp..19....1D"
+    },
+    {
+        "author": [
+            "Beaujean, Frederik",
+            "Eggers, Hans C.",
+            "Kerzendorf, Wolfgang E."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.477"
+        ],
+        "title": [
+            "Bayesian modelling of uncertainties of Monte Carlo radiative-transfer simulations"
+        ],
+        "year": "2018",
+        "bibcode": "2018MNRAS.477.3425B"
+    },
+    {
+        "author": [
+            "Barna, Barnab\u00e1s",
+            "Szalai, Tam\u00e1s",
+            "Kerzendorf, Wolfgang E.",
+            "Kromer, Markus",
+            "Sim, Stuart A.",
+            "Magee, Mark R.",
+            "Leibundgut, Bruno"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.480"
+        ],
+        "title": [
+            "Type Iax supernovae as a few-parameter family"
+        ],
+        "year": "2018",
+        "bibcode": "2018MNRAS.480.3609B"
+    },
+    {
+        "author": [
+            "Vogl, C.",
+            "Sim, S. A.",
+            "Noebauer, U. M.",
+            "Kerzendorf, W. E.",
+            "Hillebrandt, W."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...621"
+        ],
+        "title": [
+            "Spectral modeling of type II supernovae. I. Dilution factors"
+        ],
+        "year": "2019",
+        "bibcode": "2019A&A...621A..29V"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Sim, S. A.",
+            "Kotak, R.",
+            "Maguire, K.",
+            "Boyle, A."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...622"
+        ],
+        "title": [
+            "Detecting the signatures of helium in type Iax supernovae"
+        ],
+        "year": "2019",
+        "bibcode": "2019A&A...622A.102M"
+    },
+    {
+        "author": [
+            "Heringer, E.",
+            "van Kerkwijk, M. H.",
+            "Sim, S. A.",
+            "Kerzendorf, W. E.",
+            "Graham, Melissa L."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...871"
+        ],
+        "title": [
+            "Spectral Sequences of Type Ia Supernovae. II. Carbon as a Diagnostic Tool for Explosion Mechanisms"
+        ],
+        "year": "2019",
+        "bibcode": "2019ApJ...871..250H"
+    },
+    {
+        "author": [
+            "Chatzopoulos, E.",
+            "Weide, K."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...876"
+        ],
+        "title": [
+            "Gray Radiation Hydrodynamics with the FLASH Code for Astrophysical Applications"
+        ],
+        "year": "2019",
+        "bibcode": "2019ApJ...876..148C"
+    },
+    {
+        "author": [
+            "McBrien, Owen R.",
+            "Smartt, Stephen J.",
+            "Chen, Ting-Wan",
+            "Inserra, Cosimo",
+            "Gillanders, James H.",
+            "Sim, Stuart A.",
+            "Jerkstrand, Anders",
+            "Rest, Armin",
+            "Valenti, Stefano",
+            "Roy, Rupak",
+            "Gromadzki, Mariusz",
+            "Taubenberger, Stefan",
+            "Fl\u00f6rs, Andreas",
+            "Huber, Mark E.",
+            "Chambers, Ken C.",
+            "Gal-Yam, Avishay",
+            "Young, David R.",
+            "Nicholl, Matt",
+            "Kankare, Erkki",
+            "Smith, Ken W.",
+            "Maguire, Kate",
+            "Mandel, Ilya",
+            "Prentice, Simon",
+            "Rodr\u00edguez, \u00d3smar",
+            "Pineda Garcia, Jonathan",
+            "Guti\u00e9rrez, Claudia P.",
+            "Galbany, Llu\u00eds",
+            "Barbarino, Cristina",
+            "Clark, Peter S. J.",
+            "Sollerman, Jesper",
+            "Kulkarni, Shrinivas R.",
+            "De, Kishalay",
+            "Buckley, David A. H.",
+            "Rau, Arne"
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..885"
+        ],
+        "title": [
+            "SN2018kzr: A Rapidly Declining Transient from the Destruction of a White Dwarf"
+        ],
+        "year": "2019",
+        "bibcode": "2019ApJ...885L..23M"
+    },
+    {
+        "author": [
+            "Noebauer, Ulrich M.",
+            "Sim, Stuart A."
+        ],
+        "bibstem": [
+            "LRCA",
+            "LRCA....5"
+        ],
+        "title": [
+            "Monte Carlo radiative transfer"
+        ],
+        "year": "2019",
+        "bibcode": "2019LRCA....5....1N"
+    },
+    {
+        "author": [
+            "Mulligan, Brian W.",
+            "Zhang, Kaicheng",
+            "Wheeler, J. Craig"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.484"
+        ],
+        "title": [
+            "Exploring the shell model of high-velocity features of Type Ia supernovae using TARDIS"
+        ],
+        "year": "2019",
+        "bibcode": "2019MNRAS.484.4785M"
+    },
+    {
+        "author": [
+            "Jacobson-Gal\u00e1n, Wynn V.",
+            "Foley, Ryan J.",
+            "Schwab, Josiah",
+            "Dimitriadis, Georgios",
+            "Dong, Shawfeng",
+            "Jha, Saurabh W.",
+            "Kasen, Daniel",
+            "Kilpatrick, Charles D.",
+            "Thomas, Rollin"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.487"
+        ],
+        "title": [
+            "Detection of circumstellar helium in Type Iax progenitor systems"
+        ],
+        "year": "2019",
+        "bibcode": "2019MNRAS.487.2538J"
+    },
+    {
+        "author": [
+            "Bulla, M."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.489"
+        ],
+        "title": [
+            "POSSIS: predicting spectra, light curves, and polarization for multidimensional models of supernovae and kilonovae"
+        ],
+        "year": "2019",
+        "bibcode": "2019MNRAS.489.5037B"
+    },
+    {
+        "author": [
+            "Izzo, L.",
+            "de Ugarte Postigo, A.",
+            "Maeda, K.",
+            "Th\u00f6ne, C. C.",
+            "Kann, D. A.",
+            "Della Valle, M.",
+            "Sagues Carracedo, A.",
+            "Micha\u0142owski, M. J.",
+            "Schady, P.",
+            "Schmidl, S.",
+            "Selsing, J.",
+            "Starling, R. L. C.",
+            "Suzuki, A.",
+            "Bensch, K.",
+            "Bolmer, J.",
+            "Campana, S.",
+            "Cano, Z.",
+            "Covino, S.",
+            "Fynbo, J. P. U.",
+            "Hartmann, D. H.",
+            "Heintz, K. E.",
+            "Hjorth, J.",
+            "Japelj, J.",
+            "Kami\u0144ski, K.",
+            "Kaper, L.",
+            "Kouveliotou, C.",
+            "Kru\u017by\u0144ski, M.",
+            "Kwiatkowski, T.",
+            "Leloudas, G.",
+            "Levan, A. J.",
+            "Malesani, D. B.",
+            "Micha\u0142owski, T.",
+            "Piranomonte, S.",
+            "Pugliese, G.",
+            "Rossi, A.",
+            "S\u00e1nchez-Ram\u00edrez, R.",
+            "Schulze, S.",
+            "Steeghs, D.",
+            "Tanvir, N. R.",
+            "Ulaczyk, K.",
+            "Vergani, S. D.",
+            "Wiersema, K."
+        ],
+        "bibstem": [
+            "Natur",
+            "Natur.565"
+        ],
+        "title": [
+            "Signatures of a jet cocoon in early spectra of a supernova associated with a \u03b3-ray burst"
+        ],
+        "year": "2019",
+        "bibcode": "2019Natur.565..324I"
+    },
+    {
+        "author": [
+            "Watson, Darach",
+            "Hansen, Camilla J.",
+            "Selsing, Jonatan",
+            "Koch, Andreas",
+            "Malesani, Daniele B.",
+            "Andersen, Anja C.",
+            "Fynbo, Johan P. U.",
+            "Arcones, Almudena",
+            "Bauswein, Andreas",
+            "Covino, Stefano",
+            "Grado, Aniello",
+            "Heintz, Kasper E.",
+            "Hunt, Leslie",
+            "Kouveliotou, Chryssa",
+            "Leloudas, Giorgos",
+            "Levan, Andrew J.",
+            "Mazzali, Paolo",
+            "Pian, Elena"
+        ],
+        "bibstem": [
+            "Natur",
+            "Natur.574"
+        ],
+        "title": [
+            "Identification of strontium in the merger of two neutron stars"
+        ],
+        "year": "2019",
+        "bibcode": "2019Natur.574..497W"
+    },
+    {
+        "author": [
+            "Kajino, T.",
+            "Aoki, W.",
+            "Balantekin, A. B.",
+            "Diehl, R.",
+            "Famiano, M. A.",
+            "Mathews, G. J."
+        ],
+        "bibstem": [
+            "PrPNP",
+            "PrPNP.107"
+        ],
+        "title": [
+            "Current status of r-process nucleosynthesis"
+        ],
+        "year": "2019",
+        "bibcode": "2019PrPNP.107..109K"
+    },
+    {
+        "author": [
+            "Vogl, C.",
+            "Kerzendorf, W. E.",
+            "Sim, S. A.",
+            "Noebauer, U. M.",
+            "Lietzau, S.",
+            "Hillebrandt, W."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...633"
+        ],
+        "title": [
+            "Spectral modeling of type II supernovae. II. A machine-learning approach to quantitative spectroscopic analysis"
+        ],
+        "year": "2020",
+        "bibcode": "2020A&A...633A..88V"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Maguire, K.",
+            "Kotak, R.",
+            "Sim, S. A.",
+            "Gillanders, J. H.",
+            "Prentice, S. J.",
+            "Skillen, K."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...634"
+        ],
+        "title": [
+            "Determining the <SUP>56</SUP>Ni distribution of type Ia supernovae from observations within days of explosion"
+        ],
+        "year": "2020",
+        "bibcode": "2020A&A...634A..37M"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Maguire, K."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...642"
+        ],
+        "title": [
+            "An investigation of <SUP>56</SUP>Ni shells as the source of early light curve bumps in type Ia supernovae"
+        ],
+        "year": "2020",
+        "bibcode": "2020A&A...642A.189M"
+    },
+    {
+        "author": [
+            "Srivastav, Shubham",
+            "Smartt, Stephen J.",
+            "Leloudas, Giorgos",
+            "Huber, Mark E.",
+            "Chambers, Ken",
+            "Malesani, Daniele B.",
+            "Hjorth, Jens",
+            "Gillanders, James H.",
+            "Schultz, A.",
+            "Sim, Stuart A.",
+            "Auchettl, Katie",
+            "Fynbo, Johan P. U.",
+            "Gall, Christa",
+            "McBrien, Owen R.",
+            "Rest, Armin",
+            "Smith, Ken W.",
+            "Wojtak, Radoslaw",
+            "Young, David R."
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..892"
+        ],
+        "title": [
+            "The Lowest of the Low: Discovery of SN 2019gsc and the Nature of Faint Iax Supernovae"
+        ],
+        "year": "2020",
+        "bibcode": "2020ApJ...892L..24S"
+    },
+    {
+        "author": [
+            "Kawabata, Miho",
+            "Maeda, Keiichi",
+            "Yamanaka, Masayuki",
+            "Nakaoka, Tatsuya",
+            "Kawabata, Koji S.",
+            "Adachi, Ryo",
+            "Akitaya, Hiroshi",
+            "Burgaz, Umut",
+            "Hanayama, Hidekazu",
+            "Horiuchi, Takashi",
+            "Hosokawa, Ryohei",
+            "Iida, Kota",
+            "Imazato, Fumiya",
+            "Isogai, Keisuke",
+            "Jiang, Ji-an",
+            "Katoh, Noriyuki",
+            "Kimura, Hiroki",
+            "Kino, Masaru",
+            "Kuroda, Daisuke",
+            "Maehara, Hiroyuki",
+            "Matsubayashi, Kazuya",
+            "Morihana, Kumiko",
+            "Murata, Katsuhiro L.",
+            "Nagao, Takashi",
+            "Niwano, Masafumi",
+            "Nogami, Daisaku",
+            "Oeda, Motoki",
+            "Ono, Tatsuharu",
+            "Onozato, Hiroki",
+            "Otsuka, Masaaki",
+            "Saito, Tomoki",
+            "Sasada, Mahito",
+            "Shiraishi, Kazuki",
+            "Sugiyama, Haruki",
+            "Taguchi, Kenta",
+            "Takahashi, Jun",
+            "Takagi, Kengo",
+            "Takagi, Seiko",
+            "Takayama, Masaki",
+            "Tozuka, Miyako",
+            "Sekiguchi, Kazuhiro"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...893"
+        ],
+        "title": [
+            "SN 2019ein: New Insights into the Similarities and Diversity among High-velocity Type Ia Supernovae"
+        ],
+        "year": "2020",
+        "bibcode": "2020ApJ...893..143K"
+    },
+    {
+        "author": [
+            "Miller, A. A.",
+            "Magee, M. R.",
+            "Polin, A.",
+            "Maguire, K.",
+            "Zimmerman, E.",
+            "Yao, Y.",
+            "Sollerman, J.",
+            "Schulze, S.",
+            "Perley, D. A.",
+            "Kromer, M.",
+            "Dhawan, S.",
+            "Bulla, M.",
+            "Andreoni, I.",
+            "Bellm, E. C.",
+            "De, K.",
+            "Dekany, R.",
+            "Delacroix, A.",
+            "Fremling, C.",
+            "Gal-Yam, A.",
+            "Goldstein, D. A.",
+            "Golkhou, V. Z.",
+            "Goobar, A.",
+            "Graham, M. J.",
+            "Irani, I.",
+            "Kasliwal, M. M.",
+            "Kaye, S.",
+            "Kim, Y. -L.",
+            "Laher, R. R.",
+            "Mahabal, A. A.",
+            "Masci, F. J.",
+            "Nugent, P. E.",
+            "Ofek, E.",
+            "Phinney, E. S.",
+            "Prentice, S. J.",
+            "Riddle, R.",
+            "Rigault, M.",
+            "Rusholme, B.",
+            "Schweyer, T.",
+            "Shupe, D. L.",
+            "Soumagnac, M. T.",
+            "Terreran, G.",
+            "Walters, R.",
+            "Yan, L.",
+            "Zolkower, J.",
+            "Kulkarni, S. R."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...898"
+        ],
+        "title": [
+            "The Spectacular Ultraviolet Flash from the Peculiar Type Ia Supernova 2019yvq"
+        ],
+        "year": "2020",
+        "bibcode": "2020ApJ...898...56M"
+    },
+    {
+        "author": [
+            "Bouquin, Daina R.",
+            "Chivvis, Daniel A.",
+            "Henneken, Edwin",
+            "Lockhart, Kelly",
+            "Muench, August",
+            "Koch, Jennifer"
+        ],
+        "bibstem": [
+            "ApJS",
+            "ApJS..249"
+        ],
+        "title": [
+            "Credit Lost: Two Decades of Software Citation in Astronomy"
+        ],
+        "year": "2020",
+        "bibcode": "2020ApJS..249....8B"
+    },
+    {
+        "author": [
+            "Chen, Xingzhuo",
+            "Hu, Lei",
+            "Wang, Lifan"
+        ],
+        "bibstem": [
+            "ApJS",
+            "ApJS..250"
+        ],
+        "title": [
+            "Artificial Intelligence-Assisted Inversion (AIAI) of Synthetic Type Ia Supernova Spectra"
+        ],
+        "year": "2020",
+        "bibcode": "2020ApJS..250...12C"
+    },
+    {
+        "author": [
+            "Del Zanna, Giulio",
+            "Young, Peter R."
+        ],
+        "bibstem": [
+            "Atoms",
+            "Atoms...8"
+        ],
+        "title": [
+            "Atomic Data for Plasma Spectroscopy: The CHIANTI Database, Improvements and Challenges"
+        ],
+        "year": "2020",
+        "bibcode": "2020Atoms...8...46D"
+    },
+    {
+        "author": [
+            "Shingles, L. J.",
+            "Sim, S. A.",
+            "Kromer, M.",
+            "Maguire, K.",
+            "Bulla, M.",
+            "Collins, C.",
+            "Ballance, C. P.",
+            "Michel, A. S.",
+            "Ramsbottom, C. A.",
+            "R\u00f6pke, F. K.",
+            "Seitenzahl, I. R.",
+            "Tyndall, N. B."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.492"
+        ],
+        "title": [
+            "Monte Carlo radiative transfer for the nebular phase of Type Ia supernovae"
+        ],
+        "year": "2020",
+        "bibcode": "2020MNRAS.492.2029S"
+    },
+    {
+        "author": [
+            "Ashall, C.",
+            "Mazzali, P. A."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.492"
+        ],
+        "title": [
+            "Extracting high-level information from gamma-ray burst supernova spectra"
+        ],
+        "year": "2020",
+        "bibcode": "2020MNRAS.492.5956A"
+    },
+    {
+        "author": [
+            "Livneh, Ran",
+            "Katz, Boaz"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.494"
+        ],
+        "title": [
+            "An asymmetric explosion mechanism may explain the diversity of Si II linewidths in Type Ia supernovae"
+        ],
+        "year": "2020",
+        "bibcode": "2020MNRAS.494.5811L"
+    },
+    {
+        "author": [
+            "Tomasella, Lina",
+            "Stritzinger, Maximilian",
+            "Benetti, Stefano",
+            "Elias-Rosa, Nancy",
+            "Cappellaro, Enrico",
+            "Kankare, Erkki",
+            "Lundqvist, Peter",
+            "Magee, Mark",
+            "Maguire, Kate",
+            "Pastorello, Andrea",
+            "Prentice, Simon",
+            "Reguitti, Andrea"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.496"
+        ],
+        "title": [
+            "Observations of the low-luminosity Type Iax supernova 2019gsc: a fainter clone of SN 2008ha?"
+        ],
+        "year": "2020",
+        "bibcode": "2020MNRAS.496.1132T"
+    },
+    {
+        "author": [
+            "Gillanders, J. H.",
+            "Sim, S. A.",
+            "Smartt, S. J."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.497"
+        ],
+        "title": [
+            "AT2018kzr: the merger of an oxygen-neon white dwarf and a neutron star or black hole"
+        ],
+        "year": "2020",
+        "bibcode": "2020MNRAS.497..246G"
+    },
+    {
+        "author": [
+            "Bayer, J.",
+            "Huber, S.",
+            "Vogl, C.",
+            "Suyu, S. H.",
+            "Taubenberger, S.",
+            "Sluse, D.",
+            "Chan, J. H. H.",
+            "Kerzendorf, W. E."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...653"
+        ],
+        "title": [
+            "HOLISMOKES. V. Microlensing of type II supernovae and time-delay inference through spectroscopic phase retrieval"
+        ],
+        "year": "2021",
+        "bibcode": "2021A&A...653A..29B"
+    },
+    {
+        "author": [
+            "Williamson, Marc",
+            "Kerzendorf, Wolfgang",
+            "Modjaz, Maryam"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...908"
+        ],
+        "title": [
+            "Modeling Type Ic Supernovae with TARDIS: Hidden Helium in SN 1994I?"
+        ],
+        "year": "2021",
+        "bibcode": "2021ApJ...908..150W"
+    },
+    {
+        "author": [
+            "Shen, Ken J.",
+            "Blondin, St\u00e9phane",
+            "Kasen, Daniel",
+            "Dessart, Luc",
+            "Townsley, Dean M.",
+            "Boos, Samuel",
+            "Hillier, D. John"
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..909"
+        ],
+        "title": [
+            "Non-local Thermodynamic Equilibrium Radiative Transfer Simulations of Sub-Chandrasekhar-mass White Dwarf Detonations"
+        ],
+        "year": "2021",
+        "bibcode": "2021ApJ...909L..18S"
+    },
+    {
+        "author": [
+            "Kerzendorf, Wolfgang E.",
+            "Vogl, Christian",
+            "Buchner, Johannes",
+            "Contardo, Gabriella",
+            "Williamson, Marc",
+            "van der Smagt, Patrick"
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..910"
+        ],
+        "title": [
+            "Dalek: A Deep Learning Emulator for TARDIS"
+        ],
+        "year": "2021",
+        "bibcode": "2021ApJ...910L..23K"
+    },
+    {
+        "author": [
+            "O'Brien, John T.",
+            "Kerzendorf, Wolfgang E.",
+            "Fullard, Andrew",
+            "Williamson, Marc",
+            "Pakmor, R\u00fcdiger",
+            "Buchner, Johannes",
+            "Hachinger, Stephan",
+            "Vogl, Christian",
+            "Gillanders, James H.",
+            "Fl\u00f6rs, Andreas",
+            "van der Smagt, Patrick"
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..916"
+        ],
+        "title": [
+            "Probabilistic Reconstruction of Type Ia Supernova SN 2002bo"
+        ],
+        "year": "2021",
+        "bibcode": "2021ApJ...916L..14O"
+    },
+    {
+        "author": [
+            "Burke, J.",
+            "Howell, D. A.",
+            "Sarbadhicary, S. K.",
+            "Sand, D. J.",
+            "Amaro, R. C.",
+            "Hiramatsu, D.",
+            "McCully, C.",
+            "Pellegrino, C.",
+            "Andrews, J. E.",
+            "Brown, P. J.",
+            "Itagaki, Koichi",
+            "Shahbandeh, M.",
+            "Bostroem, K. A.",
+            "Chomiuk, L.",
+            "Hsiao, E. Y.",
+            "Smith, Nathan",
+            "Valenti, S."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...919"
+        ],
+        "title": [
+            "A Bright Ultraviolet Excess in the Transitional 02es-like Type Ia Supernova 2019yvq"
+        ],
+        "year": "2021",
+        "bibcode": "2021ApJ...919..142B"
+    },
+    {
+        "author": [
+            "Hoeflich, P.",
+            "Ashall, C.",
+            "Bose, S.",
+            "Baron, E.",
+            "Stritzinger, M. D.",
+            "Davis, S.",
+            "Shahbandeh, M.",
+            "Anand, G. S.",
+            "Baade, D.",
+            "Burns, C. R.",
+            "Collins, D. C.",
+            "Diamond, T. R.",
+            "Fisher, A.",
+            "Galbany, L.",
+            "Hristov, B. A.",
+            "Hsiao, E. Y.",
+            "Phillips, M. M.",
+            "Shappee, B.",
+            "Suntzeff, N. B.",
+            "Tucker, M."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...922"
+        ],
+        "title": [
+            "Measuring an Off-center Detonation through Infrared Line Profiles: The Peculiar Type Ia Supernova SN 2020qxp/ASASSN-20jq"
+        ],
+        "year": "2021",
+        "bibcode": "2021ApJ...922..186H"
+    },
+    {
+        "author": [
+            "Lyutykh, A. V.",
+            "Pruzhinskaya, M. V.",
+            "Blinnikov, S. I."
+        ],
+        "bibstem": [
+            "AstL",
+            "AstL...47"
+        ],
+        "title": [
+            "Light Curves of Type Ia Supernovae"
+        ],
+        "year": "2021",
+        "bibcode": "2021AstL...47....1L"
+    },
+    {
+        "author": [
+            "Barna, Barnab\u00e1s",
+            "Szalai, Tam\u00e1s",
+            "Jha, Saurabh W.",
+            "Camacho-Neves, Yssavo",
+            "Kwok, Lindsey",
+            "Foley, Ryan J.",
+            "Kilpatrick, Charles D.",
+            "Coulter, David A.",
+            "Dimitriadis, Georgios",
+            "Rest, Armin",
+            "Rojas-Bravo, C\u00e9sar",
+            "Siebert, Matthew R.",
+            "Brown, Peter J.",
+            "Burke, Jamison",
+            "Padilla Gonzalez, Estefania",
+            "Hiramatsu, Daichi",
+            "Howell, D. Andrew",
+            "McCully, Curtis",
+            "Pellegrino, Craig",
+            "Dobson, Matthew",
+            "Smartt, Stephen J.",
+            "Swift, Jonathan J.",
+            "Stacey, Holland",
+            "Rahman, Mohammed",
+            "Sand, David J.",
+            "Andrews, Jennifer",
+            "Wyatt, Samuel",
+            "Hsiao, Eric Y.",
+            "Anderson, Joseph P.",
+            "Chen, Ting-Wan",
+            "Della Valle, Massimo",
+            "Galbany, Llu\u00eds",
+            "Gromadzki, Mariusz",
+            "Inserra, Cosimo",
+            "Lyman, Joe",
+            "Magee, Mark",
+            "Maguire, Kate",
+            "M\u00fcller-Bravo, Tom\u00e1s E.",
+            "Nicholl, Matt",
+            "Srivastav, Shubham",
+            "Williams, Steven C."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.501"
+        ],
+        "title": [
+            "SN 2019muj - a well-observed Type Iax supernova that bridges the luminosity gap of the class"
+        ],
+        "year": "2021",
+        "bibcode": "2021MNRAS.501.1078B"
+    },
+    {
+        "author": [
+            "Fiore, A.",
+            "Chen, T. -W.",
+            "Jerkstrand, A.",
+            "Benetti, S.",
+            "Ciolfi, R.",
+            "Inserra, C.",
+            "Cappellaro, E.",
+            "Pastorello, A.",
+            "Leloudas, G.",
+            "Schulze, S.",
+            "Berton, M.",
+            "Burke, J.",
+            "McCully, C.",
+            "Fong, W.",
+            "Galbany, L.",
+            "Gromadzki, M.",
+            "Guti\u00e9rrez, C. P.",
+            "Hiramatsu, D.",
+            "Hosseinzadeh, G.",
+            "Howell, D. A.",
+            "Kankare, E.",
+            "Lunnan, R.",
+            "M\u00fcller-Bravo, T. E.",
+            "O'Neill, D.",
+            "Nicholl, M.",
+            "Rau, A.",
+            "Sollerman, J.",
+            "Terreran, G.",
+            "Valenti, S.",
+            "Young, D. R."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.502"
+        ],
+        "title": [
+            "SN 2017gci: a nearby Type I Superluminous Supernova with a bumpy tail"
+        ],
+        "year": "2021",
+        "bibcode": "2021MNRAS.502.2120F"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Maguire, K.",
+            "Kotak, R.",
+            "Sim, S. A."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.502"
+        ],
+        "title": [
+            "Exploring the diversity of double-detonation explosions for Type Ia supernovae: effects of the post-explosion helium shell composition"
+        ],
+        "year": "2021",
+        "bibcode": "2021MNRAS.502.3533M"
+    },
+    {
+        "author": [
+            "Dutta, Anirban",
+            "Singh, Avinash",
+            "Anupama, G. C.",
+            "Sahu, D. K.",
+            "Kumar, Brajesh"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.503"
+        ],
+        "title": [
+            "SN 2017hpa: a carbon-rich Type Ia supernova"
+        ],
+        "year": "2021",
+        "bibcode": "2021MNRAS.503..896D"
+    },
+    {
+        "author": [
+            "Barna, Barnabas",
+            "Pereira, Talytha",
+            "Taubenberger, Stefan",
+            "Magee, Mark",
+            "Kromer, Markus",
+            "Kerzendorf, Wolfgang",
+            "Vogl, Christian",
+            "Williamson, Marc E.",
+            "Fl\u00f6rs, Andreas",
+            "Noebauer, Ulrich M.",
+            "Foley, Ryan J.",
+            "Sasdelli, Michele",
+            "Hillebrandt, Wolfgang"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.506"
+        ],
+        "title": [
+            "ASASSN-14lp: two possible solutions for the observed ultraviolet suppression"
+        ],
+        "year": "2021",
+        "bibcode": "2021MNRAS.506..415B"
+    },
+    {
+        "author": [
+            "Gillanders, J. H.",
+            "McCann, M.",
+            "Sim, S. A.",
+            "Smartt, S. J.",
+            "Ballance, C. P."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.506"
+        ],
+        "title": [
+            "Constraints on the presence of platinum and gold in the spectra of the kilonova AT2017gfo"
+        ],
+        "year": "2021",
+        "bibcode": "2021MNRAS.506.3560G"
+    },
+    {
+        "author": [
+            "Parrag, Eleonora",
+            "Inserra, Cosimo",
+            "Schulze, Steve",
+            "Anderson, Joseph",
+            "Chen, Ting-Wan",
+            "Leloudas, Giorgios",
+            "Galbany, Lluis",
+            "Guti\u00e9rrez, Claudia P.",
+            "Hiramatsu, Daichi",
+            "Kankare, Erkki",
+            "M\u00fcller-Bravo, Tom\u00e1s E.",
+            "Nicholl, Matt",
+            "Pignata, Giuliano",
+            "Cartier, Regis",
+            "Gromadzki, Mariusz",
+            "Kozyreva, Alexandra",
+            "Rau, Arne",
+            "Burke, Jamison",
+            "Howell, D. Andrew",
+            "McCully, Curtis",
+            "Pellegrino, Craig"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.506"
+        ],
+        "title": [
+            "SN 2019hcc: a Type II supernova displaying early O II lines"
+        ],
+        "year": "2021",
+        "bibcode": "2021MNRAS.506.4819P"
+    },
+    {
+        "author": [
+            "Calder\u00f3n, Diego",
+            "Pejcha, Ond\u0159ej",
+            "Duffell, Paul C."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.507"
+        ],
+        "title": [
+            "Moving-mesh radiation-hydrodynamic simulations of wind-reprocessed transients"
+        ],
+        "year": "2021",
+        "bibcode": "2021MNRAS.507.1092C"
+    },
+    {
+        "author": [
+            "Blondin, St\u00e9phane",
+            "Blinnikov, Sergei",
+            "Callan, Fionntan P.",
+            "Collins, Christine E.",
+            "Dessart, Luc",
+            "Even, Wesley",
+            "Fl\u00f6rs, Andreas",
+            "Fullard, Andrew G.",
+            "Hillier, D. John",
+            "Jerkstrand, Anders",
+            "Kasen, Daniel",
+            "Katz, Boaz",
+            "Kerzendorf, Wolfgang",
+            "Kozyreva, Alexandra",
+            "O'Brien, Jack",
+            "P\u00e1ssaro, Ezequiel A.",
+            "Roth, Nathaniel",
+            "Shen, Ken J.",
+            "Shingles, Luke",
+            "Sim, Stuart A.",
+            "Singhal, Jaladh",
+            "Smith, Isaac G.",
+            "Sorokina, Elena",
+            "Utrobin, Victor P.",
+            "Vogl, Christian",
+            "Williamson, Marc",
+            "Wollaeger, Ryan",
+            "Woosley, Stan E.",
+            "Wygoda, Nahliel"
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...668"
+        ],
+        "title": [
+            "StaNdaRT: a repository of standardised test models and outputs for supernova radiative transfer"
+        ],
+        "year": "2022",
+        "bibcode": "2022A&A...668A.163B"
+    },
+    {
+        "author": [
+            "Gagliano, Alexander",
+            "Izzo, Luca",
+            "Kilpatrick, Charles D.",
+            "Mockler, Brenna",
+            "Jacobson-Gal\u00e1n, Wynn Vicente",
+            "Terreran, Giacomo",
+            "Dimitriadis, Georgios",
+            "Zenati, Yossef",
+            "Auchettl, Katie",
+            "Drout, Maria R.",
+            "Narayan, Gautham",
+            "Foley, Ryan J.",
+            "Margutti, R.",
+            "Rest, Armin",
+            "Jones, D. O.",
+            "Aganze, Christian",
+            "Aleo, Patrick D.",
+            "Burgasser, Adam J.",
+            "Coulter, D. A.",
+            "Gerasimov, Roman",
+            "Gall, Christa",
+            "Hjorth, Jens",
+            "Hsu, Chih-Chun",
+            "Magnier, Eugene A.",
+            "Mandel, Kaisey S.",
+            "Piro, Anthony L.",
+            "Rojas-Bravo, C\u00e9sar",
+            "Siebert, Matthew R.",
+            "Stacey, Holland",
+            "Stroh, Michael Cullen",
+            "Swift, Jonathan J.",
+            "Taggart, Kirsty",
+            "Tinyanont, Samaporn",
+            "Tinyanont, Samaporn"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...924"
+        ],
+        "title": [
+            "An Early-time Optical and Ultraviolet Excess in the Type-Ic SN 2020oi"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...924...55G"
+    },
+    {
+        "author": [
+            "Perego, Albino",
+            "Vescovi, Diego",
+            "Fiore, Achille",
+            "Chiesa, Leonardo",
+            "Vogl, Christian",
+            "Benetti, Stefano",
+            "Bernuzzi, Sebastiano",
+            "Branchesi, Marica",
+            "Cappellaro, Enrico",
+            "Cristallo, Sergio",
+            "Fl\u00f6rs, Andreas",
+            "Kerzendorf, Wolfgang E.",
+            "Radice, David"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...925"
+        ],
+        "title": [
+            "Production of Very Light Elements and Strontium in the Early Ejecta of Neutron Star Mergers"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...925...22P"
+    },
+    {
+        "author": [
+            "Dutta, Anirban",
+            "Sahu, D. K.",
+            "Anupama, G. C.",
+            "Joharle, Simran",
+            "Kumar, Brajesh",
+            "Nayana, A. J.",
+            "Singh, Avinash",
+            "Kumar, Harsh",
+            "Bhalerao, Varun",
+            "Barway, Sudhansu"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...925"
+        ],
+        "title": [
+            "SN 2020sck: Deflagration in a Carbon-Oxygen White Dwarf"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...925..217D"
+    },
+    {
+        "author": [
+            "Teja, Rishabh Singh",
+            "Singh, Avinash",
+            "Sahu, D. K.",
+            "Anupama, G. C.",
+            "Kumar, Brajesh",
+            "Nayana, A. J."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...930"
+        ],
+        "title": [
+            "SN 2020jfo: A Short-plateau Type II Supernova from a Low-mass Progenitor"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...930...34T"
+    },
+    {
+        "author": [
+            "Fullard, Andrew G.",
+            "O'Brien, John T.",
+            "Kerzendorf, Wolfgang E.",
+            "Shrestha, Manisha",
+            "Hoffman, Jennifer L.",
+            "Ignace, Richard",
+            "van der Smagt, Patrick"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...930"
+        ],
+        "title": [
+            "New Mass Estimates for Massive Binary Systems: A Probabilistic Approach Using Polarimetric Radiative Transfer"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...930...89F"
+    },
+    {
+        "author": [
+            "Dong, Yize",
+            "Valenti, Stefano",
+            "Polin, Abigail",
+            "Boyle, Aoife",
+            "Fl\u00f6rs, Andreas",
+            "Vogl, Christian",
+            "Kerzendorf, Wolfgang E.",
+            "Sand, David J.",
+            "Jha, Saurabh W.",
+            "Wyrzykowski, \u0141ukasz",
+            "Bostroem, K. Azalee",
+            "Pearson, Jeniveve",
+            "McCully, Curtis",
+            "Andrews, Jennifer E.",
+            "Benetti, Stefano",
+            "Blondin, St\u00e9phane",
+            "Galbany, L.",
+            "Gromadzki, Mariusz",
+            "Hosseinzadeh, Griffin",
+            "Howell, D. Andrew",
+            "Inserra, Cosimo",
+            "Jencson, Jacob E.",
+            "Lundquist, Michael",
+            "Lyman, J. D.",
+            "Magee, Mark",
+            "Maguire, Kate",
+            "Meza, Nicolas",
+            "Srivastav, Shubham",
+            "Taubenberger, Stefan",
+            "Terwel, J. H.",
+            "Wyatt, Samuel",
+            "Young, D. R."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...934"
+        ],
+        "title": [
+            "SN 2016dsg: A Thermonuclear Explosion Involving a Thick Helium Shell"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...934..102D"
+    },
+    {
+        "author": [
+            "Vasylyev, Sergiy S.",
+            "Filippenko, Alexei V.",
+            "Vogl, Christian",
+            "Brink, Thomas G.",
+            "Brown, Peter J.",
+            "de Jaeger, Thomas",
+            "Matheson, Thomas",
+            "Gal-Yam, Avishay",
+            "Mazzali, Paolo A.",
+            "Modjaz, Maryam",
+            "Patra, Kishore C.",
+            "Rowe, Micalyn",
+            "Smith, Nathan",
+            "Van Dyk, Schuyler D.",
+            "Williamson, Marc",
+            "Yang, Yi",
+            "Zheng, WeiKang",
+            "deGraw, Asia",
+            "Fox, Ori D.",
+            "Gates, Elinor L.",
+            "Jennings, Connor",
+            "Rich, R. Michael"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...934"
+        ],
+        "title": [
+            "Early-time Ultraviolet Spectroscopy and Optical Follow-up Observations of the Type IIP Supernova 2021yja"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...934..134V"
+    },
+    {
+        "author": [
+            "Sapienza, Vincenzo",
+            "Miceli, Marco",
+            "Bamba, Aya",
+            "Katsuda, Satoru",
+            "Nagayoshi, Tsutomu",
+            "Terada, Yukikatsu",
+            "Bocchino, Fabrizio",
+            "Orlando, Salvatore",
+            "Peres, Giovanni"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...935"
+        ],
+        "title": [
+            "A Spatially Resolved Study of Hard X-Ray Emission in Kepler's Supernova Remnant: Indications of Different Regimes of Particle Acceleration"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...935..152S"
+    },
+    {
+        "author": [
+            "Kwok, Lindsey A.",
+            "Williamson, Marc",
+            "Jha, Saurabh W.",
+            "Modjaz, Maryam",
+            "Camacho-Neves, Yssavo",
+            "Foley, Ryan J.",
+            "Garnavich, Peter",
+            "Maeda, Keiichi",
+            "Milisavljevic, Dan",
+            "Pandya, Viraj",
+            "Dai, Mi",
+            "McCully, Curtis",
+            "Pritchard, Tyler",
+            "Singhal, Jaladh"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...937"
+        ],
+        "title": [
+            "Ultraviolet Spectroscopy and TARDIS Models of the Broad-lined Type Ic Supernova 2014ad"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...937...40K"
+    },
+    {
+        "author": [
+            "Maeda, Keiichi",
+            "Kawabata, Miho"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...941"
+        ],
+        "title": [
+            "Properties of Type Iax Supernova 2019muj in the Late Phase: Existence, Nature, and Origin of the Iron-rich Dense Core"
+        ],
+        "year": "2022",
+        "bibcode": "2022ApJ...941...15M"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Gillanders, J. H.",
+            "Maguire, K.",
+            "Sim, S. A.",
+            "Callan, F. P."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.509"
+        ],
+        "title": [
+            "An analysis of the spectroscopic signatures of layering in the ejecta of Type Iax supernovae"
+        ],
+        "year": "2022",
+        "bibcode": "2022MNRAS.509.3580M"
+    },
+    {
+        "author": [
+            "Srivastav, Shubham",
+            "Smartt, S. J.",
+            "Huber, M. E.",
+            "Chambers, K. C.",
+            "Angus, C. R.",
+            "Chen, T. -W.",
+            "Callan, F. P.",
+            "Gillanders, J. H.",
+            "McBrien, O. R.",
+            "Sim, S. A.",
+            "Fulton, M.",
+            "Hjorth, J.",
+            "Smith, K. W.",
+            "Young, D. R.",
+            "Auchettl, K.",
+            "Anderson, J. P.",
+            "Pignata, G.",
+            "de Boer, T. J. L.",
+            "Lin, C. -C.",
+            "Magnier, E. A."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.511"
+        ],
+        "title": [
+            "SN 2020kyg and the rates of faint Iax supernovae from ATLAS"
+        ],
+        "year": "2022",
+        "bibcode": "2022MNRAS.511.2708S"
+    },
+    {
+        "author": [
+            "Livneh, Ran",
+            "Katz, Boaz"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.511"
+        ],
+        "title": [
+            "Polarization signatures of the head-on collision model for Type Ia supernovae: how much asymmetry is too much?"
+        ],
+        "year": "2022",
+        "bibcode": "2022MNRAS.511.2994L"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Cuddy, C.",
+            "Maguire, K.",
+            "Deckers, M.",
+            "Dhawan, S.",
+            "Frohmaier, C.",
+            "Miller, A. A.",
+            "Nordin, J.",
+            "Coughlin, M. W.",
+            "Feinstein, F.",
+            "Riddle, R."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.513"
+        ],
+        "title": [
+            "The detection efficiency of Type Ia supernovae from the Zwicky Transient Facility: limits on the intrinsic rate of early flux excesses"
+        ],
+        "year": "2022",
+        "bibcode": "2022MNRAS.513.3035M"
+    },
+    {
+        "author": [
+            "Gillanders, J. H.",
+            "Smartt, S. J.",
+            "Sim, S. A.",
+            "Bauswein, A.",
+            "Goriely, S."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.515"
+        ],
+        "title": [
+            "Modelling the spectra of the kilonova AT2017gfo - I. The photospheric epochs"
+        ],
+        "year": "2022",
+        "bibcode": "2022MNRAS.515..631G"
+    },
+    {
+        "author": [
+            "Singh, Mridweeka",
+            "Misra, Kuntal",
+            "Sahu, Devendra K.",
+            "Ailawadhi, Bhavya",
+            "Dutta, Anirban",
+            "Howell, D. Andrew",
+            "Anupama, G. C.",
+            "Bostroem, K. Azalee",
+            "Burke, Jamison",
+            "Dastidar, Raya",
+            "Gangopadhyay, Anjasha",
+            "Hiramatsu, Daichi",
+            "Im, Hyobin",
+            "McCully, Curtis",
+            "Pellegrino, Craig",
+            "Srivastav, Shubham",
+            "Teja, Rishabh Singh"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.517"
+        ],
+        "title": [
+            "Optical studies of a bright Type Iax supernova SN 2020rea"
+        ],
+        "year": "2022",
+        "bibcode": "2022MNRAS.517.5617S"
+    },
+    {
+        "author": [
+            "Stanway, Elizabeth R."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2208"
+        ],
+        "title": [
+            "Evidencing the interaction between science fiction enthusiasm and career aspirations in the UK astronomy community"
+        ],
+        "year": "2022",
+        "bibcode": "2022arXiv220805825S"
+    },
+    {
+        "author": [
+            "Chen, Xingzhuo",
+            "Jeffery, David J.",
+            "Zhong, Ming",
+            "McClenny, Levi",
+            "Braga-Neto, Ulisses",
+            "Wang, Lifan"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2211"
+        ],
+        "title": [
+            "Using Physics Informed Neural Networks for Supernova Radiative Transfer Simulation"
+        ],
+        "year": "2022",
+        "bibcode": "2022arXiv221105219C"
+    },
+    {
+        "author": [
+            "Kerzendorf, Wolfgang",
+            "Chen, Nutan",
+            "O'Brien, Jack",
+            "Buchner, Johannes",
+            "van der Smagt, Patrick"
+        ],
+        "bibstem": [
+            "mla",
+            "mla..conf"
+        ],
+        "title": [
+            "Probabilistic Dalek - Emulator framework with probabilistic prediction for supernova tomography"
+        ],
+        "year": "2022",
+        "bibcode": "2022mla..confE...1K"
+    },
+    {
+        "author": [
+            "Fi\u0161\u00e1k, J.",
+            "Kub\u00e1t, J.",
+            "Kub\u00e1tov\u00e1, B.",
+            "Kromer, M.",
+            "Krti\u010dka, J."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...670"
+        ],
+        "title": [
+            "Progress towards a 3D Monte Carlo radiative transfer code for outflow wind modelling"
+        ],
+        "year": "2023",
+        "bibcode": "2023A&A...670A..41F"
+    },
+    {
+        "author": [
+            "Cs\u00f6rnyei, G.",
+            "Vogl, C.",
+            "Taubenberger, S.",
+            "Fl\u00f6rs, A.",
+            "Blondin, S.",
+            "Cudmani, M. G.",
+            "Holas, A.",
+            "Kressierer, S.",
+            "Leibundgut, B.",
+            "Hillebrandt, W."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...672"
+        ],
+        "title": [
+            "Consistency of Type IIP supernova sibling distances"
+        ],
+        "year": "2023",
+        "bibcode": "2023A&A...672A.129C"
+    },
+    {
+        "author": [
+            "Nagao, T.",
+            "Kuncarayakti, H.",
+            "Maeda, K.",
+            "Moore, T.",
+            "Pastorello, A.",
+            "Mattila, S.",
+            "Uno, K.",
+            "Smartt, S. J.",
+            "Sim, S. A.",
+            "Ferrari, L.",
+            "Tomasella, L.",
+            "Anderson, J. P.",
+            "Chen, T. -W.",
+            "Galbany, L.",
+            "Gao, H.",
+            "Gromadzki, M.",
+            "Guti\u00e9rrez, C. P.",
+            "Inserra, C.",
+            "Kankare, E.",
+            "Magnier, E. A.",
+            "M\u00fcller-Bravo, T. E.",
+            "Reguitti, A.",
+            "Young, D. R."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...673"
+        ],
+        "title": [
+            "Photometry and spectroscopy of the Type Icn supernova 2021ckj. The diverse properties of the ejecta and circumstellar matter of Type Icn supernovae"
+        ],
+        "year": "2023",
+        "bibcode": "2023A&A...673A..27N"
+    },
+    {
+        "author": [
+            "Li, Yangyang",
+            "Zheng, Sheng",
+            "Zeng, Xiangyun",
+            "Wang, Xiaofeng",
+            "Burke, Jamison",
+            "Pellegrino, Craig",
+            "Esamdin, Ali",
+            "Lin, Xinkui",
+            "Wang, Yong",
+            "Iskandar, Abdusamatjan",
+            "Zhang, Jujia",
+            "Wei, Peng",
+            "Bird, Sarah A.",
+            "Zeng, Shuguang",
+            "Huang, Yao",
+            "Andrew Howell, D.",
+            "Azaleee Bostroem, K.",
+            "McCully, Curtis",
+            "Hiramatsu, Daichi",
+            "Hosseinzadeh, Griffin",
+            "Li, Wenxiong",
+            "Zhang, Tianmeng",
+            "Wang, Lifan",
+            "Zhou, Guangrong"
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...675"
+        ],
+        "title": [
+            "A comparative analysis of type Ia supernovae 2018xx and 2019gbx"
+        ],
+        "year": "2023",
+        "bibcode": "2023A&A...675A..73L"
+    },
+    {
+        "author": [
+            "Sneppen, Albert",
+            "Watson, Darach"
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...675"
+        ],
+        "title": [
+            "Discovery of a 760 nm P Cygni line in AT2017gfo: Identification of yttrium in the kilonova photosphere"
+        ],
+        "year": "2023",
+        "bibcode": "2023A&A...675A.194S"
+    },
+    {
+        "author": [
+            "Agudo, I.",
+            "Amati, L.",
+            "An, T.",
+            "Bauer, F. E.",
+            "Benetti, S.",
+            "Bernardini, M. G.",
+            "Beswick, R.",
+            "Bhirombhakdi, K.",
+            "de Boer, T.",
+            "Branchesi, M.",
+            "Brennan, S. J.",
+            "Brocato, E.",
+            "Caballero-Garc\u00eda, M. D.",
+            "Cappellaro, E.",
+            "Castro Rodr\u00edguez, N.",
+            "Castro-Tirado, A. J.",
+            "Chambers, K. C.",
+            "Chassande-Mottin, E.",
+            "Chaty, S.",
+            "Chen, T. -W.",
+            "Coleiro, A.",
+            "Covino, S.",
+            "D'Ammando, F.",
+            "D'Avanzo, P.",
+            "D'Elia, V.",
+            "Fiore, A.",
+            "Fl\u00f6rs, A.",
+            "Fraser, M.",
+            "Frey, S.",
+            "Frohmaier, C.",
+            "Fulton, M.",
+            "Galbany, L.",
+            "Gall, C.",
+            "Gao, H.",
+            "Garc\u00eda-Rojas, J.",
+            "Ghirlanda, G.",
+            "Giarratana, S.",
+            "Gillanders, J. H.",
+            "Giroletti, M.",
+            "Gompertz, B. P.",
+            "Gromadzki, M.",
+            "Heintz, K. E.",
+            "Hjorth, J.",
+            "Hu, Y. -D.",
+            "Huber, M. E.",
+            "Inkenhaag, A.",
+            "Izzo, L.",
+            "Jin, Z. P.",
+            "Jonker, P. G.",
+            "Kann, D. A.",
+            "Kool, E. C.",
+            "Kotak, R.",
+            "Leloudas, G.",
+            "Levan, A. J.",
+            "Lin, C. -C.",
+            "Lyman, J. D.",
+            "Magnier, E. A.",
+            "Maguire, K.",
+            "Mandel, I.",
+            "Marcote, B.",
+            "Mata S\u00e1nchez, D.",
+            "Mattila, S.",
+            "Melandri, A.",
+            "Micha\u0142owski, M. J.",
+            "Moldon, J.",
+            "Nicholl, M.",
+            "Nicuesa Guelbenzu, A.",
+            "Oates, S. R.",
+            "Onori, F.",
+            "Orienti, M.",
+            "Paladino, R.",
+            "Paragi, Z.",
+            "Perez-Torres, M.",
+            "Pian, E.",
+            "Pignata, G.",
+            "Piranomonte, S.",
+            "Quirola-V\u00e1squez, J.",
+            "Ragosta, F.",
+            "Rau, A.",
+            "Ronchini, S.",
+            "Rossi, A.",
+            "S\u00e1nchez-Ram\u00edrez, R.",
+            "Salafia, O. S.",
+            "Schulze, S.",
+            "Smartt, S. J.",
+            "Smith, K. W.",
+            "Sollerman, J.",
+            "Srivastav, S.",
+            "Starling, R. L. C.",
+            "Steeghs, D.",
+            "Stevance, H. F.",
+            "Tanvir, N. R.",
+            "Testa, V.",
+            "Torres, M. A. P.",
+            "Valeev, A.",
+            "Vergani, S. D.",
+            "Vescovi, D.",
+            "Wainscost, R.",
+            "Watson, D.",
+            "Wiersema, K.",
+            "Wyrzykowski, \u0141.",
+            "Yang, J.",
+            "Yang, S.",
+            "Young, D. R."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...675"
+        ],
+        "title": [
+            "Panning for gold, but finding helium: Discovery of the ultra-stripped supernova SN 2019wxt from gravitational-wave follow-up observations"
+        ],
+        "year": "2023",
+        "bibcode": "2023A&A...675A.201A"
+    },
+    {
+        "author": [
+            "Barna, B.",
+            "Nagy, A. P.",
+            "Bora, Zs.",
+            "Czavalinga, D. R.",
+            "K\u00f6nyves-T\u00f3th, R.",
+            "Szalai, T.",
+            "Sz\u00e9kely, P.",
+            "Zs\u00edros, Sz.",
+            "B\u00e1nhidi, D.",
+            "B\u00edr\u00f3, I. B.",
+            "Cs\u00e1nyi, I.",
+            "Kriskovics, L.",
+            "P\u00e1l, A.",
+            "Szab\u00f3, Zs. M.",
+            "Szak\u00e1ts, R.",
+            "Vida, K.",
+            "Bodola, Zs.",
+            "Vink\u00f3, J."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...677"
+        ],
+        "title": [
+            "Three is the magic number: Distance measurement of NGC 3147 using SN 2021hpr and its siblings"
+        ],
+        "year": "2023",
+        "bibcode": "2023A&A...677A.183B"
+    },
+    {
+        "author": [
+            "Cs\u00f6rnyei, G.",
+            "Anderson, R. I.",
+            "Vogl, C.",
+            "Taubenberger, S.",
+            "Blondin, S.",
+            "Leibundgut, B.",
+            "Hillebrandt, W."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...678"
+        ],
+        "title": [
+            "Reeling in the Whirlpool galaxy: Distance to M 51 clarified through Cepheids and the type IIP supernova 2005cs"
+        ],
+        "year": "2023",
+        "bibcode": "2023A&A...678A..44C"
+    },
+    {
+        "author": [
+            "Vieira, Nicholas",
+            "Ruan, John J.",
+            "Haggard, Daryl",
+            "Ford, Nicole",
+            "Drout, Maria R.",
+            "Fern\u00e1ndez, Rodrigo",
+            "Badnell, N. R."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...944"
+        ],
+        "title": [
+            "Spectroscopic r-Process Abundance Retrieval for Kilonovae. I. The Inferred Abundance Pattern of Early Emission from GW170817"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...944..123V"
+    },
+    {
+        "author": [
+            "Williamson, Marc",
+            "Vogl, Christian",
+            "Modjaz, Maryam",
+            "Kerzendorf, Wolfgang",
+            "Singhal, Jaladh",
+            "Boland, Teresa",
+            "Burke, Jamison",
+            "Chen, Zhihao",
+            "Hiramatsu, Daichi",
+            "Galbany, Llu\u00eds",
+            "Gonzalez, Estefania Padilla",
+            "Howell, D. Andrew",
+            "Jha, Saurabh W.",
+            "Kwok, Lindsey A.",
+            "McCully, Curtis",
+            "Newsome, Megan",
+            "Pellegrino, Craig",
+            "Rho, Jeonghee",
+            "Terreran, Giacomo",
+            "Wang, Xiaofeng"
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..944"
+        ],
+        "title": [
+            "SN 2019ewu: A Peculiar Supernova with Early Strong Carbon and Weak Oxygen Features from a New Sample of Young SN Ic Spectra"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...944L..49W"
+    },
+    {
+        "author": [
+            "Camacho-Neves, Yssavo",
+            "Jha, Saurabh W.",
+            "Barna, Barnabas",
+            "Dai, Mi",
+            "Filippenko, Alexei V.",
+            "Foley, Ryan J.",
+            "Hosseinzadeh, Griffin",
+            "Howell, D. Andrew",
+            "Johansson, Joel",
+            "Kelly, Patrick L.",
+            "Kerzendorf, Wolfgang E.",
+            "Kwok, Lindsey A.",
+            "Larison, Conor",
+            "Magee, Mark R.",
+            "McCully, Curtis",
+            "O'Brien, John T.",
+            "Pan, Yen-Chen",
+            "Pandya, Viraj",
+            "Singhal, Jaladh",
+            "Stahl, Benjamin E.",
+            "Szalai, Tam\u00e1s",
+            "Wieber, Meredith",
+            "Williamson, Marc"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...951"
+        ],
+        "title": [
+            "Over 500 Days in the Life of the Photosphere of the Type Iax Supernova SN 2014dt"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...951...67C"
+    },
+    {
+        "author": [
+            "Padilla Gonzalez, E.",
+            "Howell, D. Andrew",
+            "Burke, J.",
+            "Dong, Yize",
+            "Hiramatsu, D.",
+            "McCully, C.",
+            "Pellegrino, C.",
+            "Kerzendorf, W.",
+            "Modjaz, M.",
+            "Terreran, G.",
+            "Williamson, M."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...953"
+        ],
+        "title": [
+            "Peculiar Spectral Evolution of the Type I Supernova 2019eix: A Possible Double Detonation from a Helium Shell on a Sub-Chandrasekhar-mass White Dwarf"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...953...25P"
+    },
+    {
+        "author": [
+            "Singh, Mridweeka",
+            "Sahu, Devendra. K.",
+            "Dastidar, Raya",
+            "Barna, Barnab\u00e1s",
+            "Misra, Kuntal",
+            "Gangopadhyay, Anjasha",
+            "Howell, D. Andrew",
+            "Jha, Saurabh W.",
+            "Im, Hyobin",
+            "Taggart, Kirsty",
+            "Andrews, Jennifer",
+            "Hiramatsu, Daichi",
+            "Teja, Rishabh Singh",
+            "Pellegrino, Craig",
+            "Foley, Ryan J.",
+            "Joshi, Arti",
+            "Anupama, G. C.",
+            "Bostroem, K. Azalee",
+            "Burke, Jamison",
+            "Camacho-Neves, Yssavo",
+            "Dutta, Anirban",
+            "Kwok, Lindsey A.",
+            "McCully, Curtis",
+            "Pan, Yen-Chen",
+            "Siebert, Matt",
+            "Srivastav, Shubham",
+            "Szalai, Tam\u00e1s",
+            "Swift, Jonathan J.",
+            "Yang, Grace",
+            "Zhou, Henry",
+            "DiLullo, Nico",
+            "Scheer, Jackson"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...953"
+        ],
+        "title": [
+            "Observational Properties of a Bright Type lax SN 2018cni and a Faint Type Iax SN 2020kyg"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...953...93S"
+    },
+    {
+        "author": [
+            "Wagle, Gururaj A.",
+            "Chatzopoulos, Emmanouil",
+            "Wollaeger, Ryan T.",
+            "Fontes, Christopher J."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...953"
+        ],
+        "title": [
+            "Monte Carlo Radiation Transport for Astrophysical Transients Powered by Circumstellar Interaction"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...953..132W"
+    },
+    {
+        "author": [
+            "Ogawa, Mao",
+            "Maeda, Keiichi",
+            "Kawabata, Miho"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...955"
+        ],
+        "title": [
+            "Systematic Investigation of Very-early-phase Spectra of Type Ia Supernovae"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...955...49O"
+    },
+    {
+        "author": [
+            "Moore, T.",
+            "Smartt, S. J.",
+            "Nicholl, M.",
+            "Srivastav, S.",
+            "Stevance, H. F.",
+            "Jess, D. B.",
+            "Grant, S. D. T.",
+            "Fulton, M. D.",
+            "Rhodes, L.",
+            "Sim, S. A.",
+            "Hirai, R.",
+            "Podsiadlowski, P.",
+            "Anderson, J. P.",
+            "Ashall, C.",
+            "Bate, W.",
+            "Fender, R.",
+            "Guti\u00e9rrez, C. P.",
+            "Howell, D. A.",
+            "Huber, M. E.",
+            "Inserra, C.",
+            "Leloudas, G.",
+            "Monard, L. A. G.",
+            "M\u00fcller-Bravo, T. E.",
+            "Shappee, B. J.",
+            "Smith, K. W.",
+            "Terreran, G.",
+            "Tonry, J.",
+            "Tucker, M. A.",
+            "Young, D. R.",
+            "Aamer, A.",
+            "Chen, T. -W.",
+            "Ragosta, F.",
+            "Galbany, L.",
+            "Gromadzki, M.",
+            "Harvey, L.",
+            "Hoeflich, P.",
+            "McCully, C.",
+            "Newsome, M.",
+            "Gonzalez, E. P.",
+            "Pellegrino, C.",
+            "Ramsden, P.",
+            "P\u00e9rez-Torres, M.",
+            "Ridley, E. J.",
+            "Sheng, X.",
+            "Weston, J."
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..956"
+        ],
+        "title": [
+            "SN 2022jli: A Type Ic Supernova with Periodic Modulation of Its Light Curve and an Unusually Long Rise"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...956L..31M"
+    },
+    {
+        "author": [
+            "Tak, Donggeun",
+            "Uhm, Z. Lucas",
+            "Gillanders, James H."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...958"
+        ],
+        "title": [
+            "Exploring the Impact of the Ejecta Velocity Profile on the Evolution of Kilonova: Diversity of the Kilonova Lightcurves"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...958..121T"
+    },
+    {
+        "author": [
+            "Vasylyev, Sergiy S.",
+            "Vogl, Christian",
+            "Yang, Yi",
+            "Filippenko, Alexei V.",
+            "Brink, Thomas G.",
+            "Brown, Peter J.",
+            "Matheson, Thomas",
+            "Modjaz, Maryam",
+            "Gal-Yam, Avishay",
+            "Mazzali, Paolo A.",
+            "de Jaeger, Thomas",
+            "Patra, Kishore C.",
+            "Stewart, Gabrielle E."
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL..959"
+        ],
+        "title": [
+            "Early-time Ultraviolet and Optical Hubble Space Telescope Spectroscopy of the Type II Supernova 2022wsp"
+        ],
+        "year": "2023",
+        "bibcode": "2023ApJ...959L..26V"
+    },
+    {
+        "author": [
+            "Concepcion, Florence",
+            "Clear, Christian P.",
+            "Ding, Milan",
+            "Pickering, Juliet C."
+        ],
+        "bibstem": [
+            "EPJD",
+            "EPJD...77"
+        ],
+        "title": [
+            "The Laboratory Astrophysics Programme at Imperial College London"
+        ],
+        "year": "2023",
+        "bibcode": "2023EPJD...77..104C"
+    },
+    {
+        "author": [
+            "Harvey, L.",
+            "Maguire, K.",
+            "Magee, M. R.",
+            "Bulla, M.",
+            "Dhawan, S.",
+            "Schulze, S.",
+            "Sollerman, J.",
+            "Deckers, M.",
+            "Dimitriadis, G.",
+            "Reusch, S.",
+            "Smith, M.",
+            "Terwel, J.",
+            "Coughlin, M. W.",
+            "Masci, F.",
+            "Purdum, J.",
+            "Reedy, A.",
+            "Robert, E.",
+            "Wold, A."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.522"
+        ],
+        "title": [
+            "Early-time spectroscopic modelling of the transitional Type Ia Supernova 2021rhu with TARDIS"
+        ],
+        "year": "2023",
+        "bibcode": "2023MNRAS.522.4444H"
+    },
+    {
+        "author": [
+            "Valsan, Vinaya",
+            "Borges, Sarah V.",
+            "Prust, Logan",
+            "Chang, Philip"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.526"
+        ],
+        "title": [
+            "Envelope ejection and the transition to homologous expansion in common-envelope events"
+        ],
+        "year": "2023",
+        "bibcode": "2023MNRAS.526.5365V"
+    },
+    {
+        "author": [
+            "de Jaeger, T.",
+            "Galbany, L."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2305"
+        ],
+        "title": [
+            "The pursuit of the Hubble Constant using Type II Supernovae"
+        ],
+        "year": "2023",
+        "bibcode": "2023arXiv230517243D"
+    },
+    {
+        "author": [
+            "Karthik Yadavalli, S.",
+            "Villar, V. Ashley",
+            "Izzo, Luca",
+            "Zenati, Yossef",
+            "Foley, Ryan J.",
+            "Wheeler, J. Craig",
+            "Angus, Charlotte R.",
+            "B\u00e1nhidi, Dominik",
+            "Auchettl, Katie",
+            "Imre B\u00edr\u00f3, Barna",
+            "B\u00f3di, Attila",
+            "Bodola, Zs\u00f3fia",
+            "de Boer, Thomas",
+            "Chambers, Kenneth C.",
+            "Chornock, Ryan",
+            "Coulter, David A.",
+            "Cs\u00e1nyi, Istv\u00e1n",
+            "Cseh, Borb\u00e1la",
+            "Dandu, Srujan",
+            "Davis, Kyle W.",
+            "Braden Dickinson, Connor",
+            "Farias, Diego",
+            "Farah, Joseph",
+            "Gall, Christa",
+            "Gao, Hua",
+            "Howell, D. Andrew",
+            "Jacobson-Galan, Wynn V.",
+            "Khetan, Nandita",
+            "Kilpatrick, Charles D.",
+            "K\u00f6nyves-T\u00f3th, R\u00e9ka",
+            "Kriskovics, Levente",
+            "LeBaron, Natalie",
+            "Loertscher, Kayla",
+            "Le Saux, X. K.",
+            "Margutti, Rafaella",
+            "Magnier, Eugene A.",
+            "McCully, Curtis",
+            "McGill, Peter",
+            "Miao, Hao-Yu",
+            "Newsome, Megan",
+            "Padilla Gonzalez, Estefania",
+            "P\u00e1l, Andr\u00e1s",
+            "P\u00e1l, Bor\u00f3ka H.",
+            "Pan, Yen-Chen",
+            "Politsch, Collin A.",
+            "Ransome, Conor L.",
+            "Ramirez-Ruiz, Enrico",
+            "Rest, Armin",
+            "Rest, Sofia",
+            "Robinson, Olivia",
+            "Sears, Huei",
+            "Scheer, Jackson",
+            "S\u00f3dor, \u00c1d\u00e1m",
+            "Swift, Jonathan",
+            "Sz\u00e9kely, P\u00e9ter",
+            "Szak\u00e1ts, R\u00f3bert",
+            "Szalai, Tam\u00e1s",
+            "Taggart, Kirsty",
+            "Terreran, Giacomo",
+            "Venkatraman, Padma",
+            "Vink\u00f3, J\u00f3zsef",
+            "Yang, Grace",
+            "Zhou, Henry"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2308"
+        ],
+        "title": [
+            "SN 2022oqm: A Bright and Multi-peaked Calcium-rich Transient"
+        ],
+        "year": "2023",
+        "bibcode": "2023arXiv230812991K"
+    },
+    {
+        "author": [
+            "Maltsev, K.",
+            "Schneider, F. R. N.",
+            "R\u00f6pke, F. K.",
+            "Jordan, A. I.",
+            "Qadir, G. A.",
+            "Kerzendorf, W. E.",
+            "Riedmiller, K.",
+            "van der Smagt, P."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...681"
+        ],
+        "title": [
+            "Scalable stellar evolution forecasting. Deep learning emulation versus hierarchical nearest-neighbor interpolation"
+        ],
+        "year": "2024",
+        "bibcode": "2024A&A...681A..86M"
+    },
+    {
+        "author": [
+            "Ishii, Ayako T.",
+            "Takei, Yuki",
+            "Tsuna, Daichi",
+            "Shigeyama, Toshikazu",
+            "Takahashi, Koh"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...961"
+        ],
+        "title": [
+            "Diagnosis of Circumstellar Matter Structure in Interaction-powered Supernovae with Hydrogen Line Features"
+        ],
+        "year": "2024",
+        "bibcode": "2024ApJ...961...47I"
+    },
+    {
+        "author": [
+            "Ford, N. M.",
+            "Vieira, Nicholas",
+            "Ruan, John J.",
+            "Haggard, Daryl"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...961"
+        ],
+        "title": [
+            "KilonovAE: Exploring Kilonova Spectral Features with Autoencoders"
+        ],
+        "year": "2024",
+        "bibcode": "2024ApJ...961..119F"
+    },
+    {
+        "author": [
+            "Vieira, Nicholas",
+            "Ruan, John J.",
+            "Haggard, Daryl",
+            "Ford, Nicole M.",
+            "Drout, Maria R.",
+            "Fern\u00e1ndez, Rodrigo"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...962"
+        ],
+        "title": [
+            "Spectroscopic r-process Abundance Retrieval for Kilonovae. II. Lanthanides in the Inferred Abundance Patterns of Multicomponent Ejecta from the GW170817 Kilonova"
+        ],
+        "year": "2024",
+        "bibcode": "2024ApJ...962...33V"
+    },
+    {
+        "author": [
+            "Chen, Xingzhuo",
+            "Wang, Lifan",
+            "Hu, Lei",
+            "Brown, Peter J."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...962"
+        ],
+        "title": [
+            "Artificial Intelligence Assisted Inversion (AIAI): Quantifying the Spectral Features of <SUP>56</SUP>Ni of Type Ia Supernovae"
+        ],
+        "year": "2024",
+        "bibcode": "2024ApJ...962..125C"
+    },
+    {
+        "author": [
+            "O'Brien, John T.",
+            "Kerzendorf, Wolfgang E.",
+            "Fullard, Andrew",
+            "Pakmor, R\u00fcdiger",
+            "Buchner, Johannes",
+            "Vogl, Christian",
+            "Chen, Nutan",
+            "van der Smagt, Patrick",
+            "Williamson, Marc",
+            "Singhal, Jaladh"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...964"
+        ],
+        "title": [
+            "1991T-Like Type Ia Supernovae as an Extension of the Normal Population"
+        ],
+        "year": "2024",
+        "bibcode": "2024ApJ...964..137O"
+    },
+    {
+        "author": [
+            "Singh, Mridweeka",
+            "Sahu, Devendra K.",
+            "Barna, Barnab\u00e1s",
+            "Gangopadhyay, Anjasha",
+            "Dastidar, Raya",
+            "Teja, Rishabh Singh",
+            "Misra, Kuntal",
+            "Howell, D. Andrew",
+            "Wang, Xiaofeng",
+            "Mo, Jun",
+            "Yan, Shengyu",
+            "Hiramatsu, Daichi",
+            "Pellegrino, Craig",
+            "Anupama, G. C.",
+            "Joshi, Arti",
+            "Bostroem, K. Azalee",
+            "Burke, Jamison",
+            "McCully, Curtis",
+            "Subramanian V, Rama",
+            "Li, Gaici",
+            "Xi, Gaobo",
+            "Li, Xin",
+            "Li, Zhitong",
+            "Srivastav, Shubham",
+            "Im, Hyobin",
+            "Dutta, Anirban"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...965"
+        ],
+        "title": [
+            "SN 2020udy: A New Piece of the Homogeneous Bright Group in the Diverse Iax Subclass"
+        ],
+        "year": "2024",
+        "bibcode": "2024ApJ...965...73S"
+    },
+    {
+        "author": [
+            "Tak, Donggeun",
+            "Uhm, Z. Lucas",
+            "Gillanders, James H."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...967"
+        ],
+        "title": [
+            "Impact of Ejecta Temperature and Mass on the Strength of Heavy Element Signatures in Kilonovae"
+        ],
+        "year": "2024",
+        "bibcode": "2024ApJ...967...54T"
+    },
+    {
+        "author": [
+            "Morag, Jonathan",
+            "Irani, Ido",
+            "Sapir, Nir",
+            "Waxman, Eli"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.528"
+        ],
+        "title": [
+            "Shock cooling emission from explosions of red supergiants: II. An analytic model of deviations from blackbody emission"
+        ],
+        "year": "2024",
+        "bibcode": "2024MNRAS.528.7137M"
+    },
+    {
+        "author": [
+            "Ricigliano, Giacomo",
+            "Perego, Albino",
+            "Borhanian, Ssohrab",
+            "Loffredo, Eleonora",
+            "Kawaguchi, Kyohei",
+            "Bernuzzi, Sebastiano",
+            "Lippold, Lukas Chris"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.529"
+        ],
+        "title": [
+            "xkn: a semi-analytic framework for the modelling of kilonovae"
+        ],
+        "year": "2024",
+        "bibcode": "2024MNRAS.529..647R"
+    },
+    {
+        "author": [
+            "Gillanders, J. H.",
+            "Sim, S. A.",
+            "Smartt, S. J.",
+            "Goriely, S.",
+            "Bauswein, A."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.529"
+        ],
+        "title": [
+            "Modelling the spectra of the kilonova AT2017gfo - II. Beyond the photospheric epochs"
+        ],
+        "year": "2024",
+        "bibcode": "2024MNRAS.529.2918G"
+    },
+    {
+        "author": [
+            "Magee, M. R.",
+            "Siebenaler, L.",
+            "Maguire, K.",
+            "Ackley, K.",
+            "Killestein, T."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.531"
+        ],
+        "title": [
+            "Quantitative modelling of type Ia supernovae spectral time series: constraining the explosion physics"
+        ],
+        "year": "2024",
+        "bibcode": "2024MNRAS.531.3042M"
+    },
+    {
+        "author": [
+            "Mulholland, L. P.",
+            "McElroy, N. E.",
+            "McNeill, F. L.",
+            "Sim, S. A.",
+            "Ballance, C. P.",
+            "Ramsbottom, C. A."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.532"
+        ],
+        "title": [
+            "New radiative and collisional atomic data for Sr II and Y II with application to Kilonova modelling"
+        ],
+        "year": "2024",
+        "bibcode": "2024MNRAS.532.2289M"
+    },
+    {
+        "author": [
+            "Linhart, Nahum",
+            "Yao, Ivy",
+            "Yadavalli, S. Karthik"
+        ],
+        "bibstem": [
+            "RNAAS",
+            "RNAAS...8"
+        ],
+        "title": [
+            "SupSpec: A Python Package for Measuring the Doppler Shifts of Supernova Spectral Lines"
+        ],
+        "year": "2024",
+        "bibcode": "2024RNAAS...8..177L"
+    },
+    {
+        "author": [
+            "Suyu, Sherry H.",
+            "Goobar, Ariel",
+            "Collett, Thomas",
+            "More, Anupreeta",
+            "Vernardos, Giorgos"
+        ],
+        "bibstem": [
+            "SSRv",
+            "SSRv..220"
+        ],
+        "title": [
+            "Strong Gravitational Lensing and Microlensing of Supernovae"
+        ],
+        "year": "2024",
+        "bibcode": "2024SSRv..220...13S"
+    },
+    {
+        "author": [
+            "Moore, Thomas",
+            "Gillanders, James",
+            "Nicholl, Matt",
+            "Huber, Mark",
+            "Smartt, Stephen",
+            "Srivastav, Shubham",
+            "Stevance, Heloise",
+            "Chen, Ting-Wan",
+            "Chambers, Kenneth",
+            "Anderson, Joseph",
+            "Fulton, Michael",
+            "Oates, Samantha",
+            "Angus, Charlotte",
+            "Pignata, Giuliano",
+            "Erasmus, Nicolas",
+            "Gao, Hua",
+            "Bulger, Joanna",
+            "Lin, Chien-Cheng",
+            "Lowe, Thomas",
+            "Magnier, Eugene",
+            "Minguez, Paloma",
+            "Ngeow, Chow-Choong",
+            "Sheng, Xinyue",
+            "Sim, Stuart A.",
+            "Smith, Ken",
+            "Wainscoat, Richard",
+            "Yang, Sheng",
+            "Young, David",
+            "Zeng, Kuang-Jie"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2405"
+        ],
+        "title": [
+            "SN 2023zaw: the low-energy explosion of an ultra-stripped star, with non-radioactive heating"
+        ],
+        "year": "2024",
+        "bibcode": "2024arXiv240513596M"
+    },
+    {
+        "author": [
+            "Burgaz, U.",
+            "Maguire, K.",
+            "Dimitriadis, G.",
+            "Harvey, L.",
+            "Senzel, R.",
+            "Sollerman, J.",
+            "Nordin, J.",
+            "Galbany, L.",
+            "Rigault, M.",
+            "Smith, M.",
+            "Goobar, A.",
+            "Johansson, J.",
+            "Rosnet, P.",
+            "Amenouche, M.",
+            "Deckers, M.",
+            "Dhawan, S.",
+            "Ginolin, M.",
+            "Kim, Y. -L.",
+            "Miller, A. A.",
+            "Muller-Bravo, T. E.",
+            "Nugent, P. E.",
+            "Terwel, J. H.",
+            "Dekany, R.",
+            "Drake, A.",
+            "Graham, M. J.",
+            "Groom, S. L.",
+            "Kasliwal, M. M.",
+            "Kulkarni, S. R.",
+            "Nolan, K.",
+            "Nir, G.",
+            "Riddle, R. L.",
+            "Rusholme, B.",
+            "Sharma, Y."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2407"
+        ],
+        "title": [
+            "ZTF SN Ia DR2: The spectral diversity of Type Ia supernovae in a volume-limited sample"
+        ],
+        "year": "2024",
+        "bibcode": "2024arXiv240706828B"
+    }
+]
