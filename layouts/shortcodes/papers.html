@@ -1,0 +1,24 @@
+{{ $sortedArticles := sort (site.Data.articles.papers) "year" "desc" }}
+
+{{ range $article := $sortedArticles }}
+    <div>
+        <div>
+            <div>
+                <p>{{ $article.short_description }}</p>
+                <strong>
+                    {{- $authors := $article.author -}}
+                    {{- $authorCount := len $authors -}}
+                    {{- if gt $authorCount 3 -}}
+                        {{ index $authors 0 }}, {{ index $authors 1 }}, {{ index $authors 2 }} et al.
+                    {{- else -}}
+                        {{- range $index, $author := $authors -}}
+                            {{ if $index }}, {{ end }}{{ $author }}
+                        {{- end -}}
+                    {{- end -}}
+                </strong>
+                <span>, {{ $article.year }}, {{ index $article.bibstem 0 }}, "{{ index $article.title 0 }}"</span>
+                <span> (<a href="https://ui.adsabs.harvard.edu/abs/{{ $article.bibcode }}/abstract" target="_blank">ADS link</a>)</span>
+            </div>
+        </div>
+    </div>
+{{ end }}
