@@ -7,7 +7,7 @@ aliases: /research/
 ---
 ## Papers using the *tardis* package
 
-{{ < papers >}}
+{{< papers >}}
 
 ## Papers using the *carsus* package
 
