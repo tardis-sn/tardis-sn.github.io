@@ -1,27 +1,5 @@
 [
     {
-        "title": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at SuperVirtual 2021.",
-        "author_id": "",
-        "article_id": "marc_talk_supervirtual_2021",
-        "display": true,
-        "date": "01th Oct, 2021",
-        "category": "Presentation",
-        "tags": [
-            "talks"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at *SuperVirtual 2021*.",
-        "cover_image": "https://drive.google.com/file/d/1CV9xtbGbTNEytzVUqUfMlHVo8s9AgVnF/preview",
-        "content": {},
-        "people_involved_ids": [
-            ""
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
         "title": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at SuperVirtual 2021.",
         "author_id": "",
         "article_id": "yssavo_poster_supervirtual_2021",
@@ -44,20 +22,20 @@
         "twitter": "None"
     },
     {
-        "title": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at Mid-Michigan Symposium for Undergraduate Research Experiences 2021.",
+        "title": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at SuperVirtual 2021.",
         "author_id": "",
-        "article_id": "isaac_poster_mid_michigan_symposium_2021",
+        "article_id": "marc_talk_supervirtual_2021",
         "display": true,
-        "date": "01th Sep, 2021",
+        "date": "01th Oct, 2021",
         "category": "Presentation",
         "tags": [
-            "posters"
+            "talks"
         ],
         "platforms": [
             "tardis"
         ],
-        "short_description": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at *Mid-Michigan Symposium for Undergraduate Research Experiences 2021* where he demonstrated how he made TARDIS documentation more user-friendly and interactive.",
-        "cover_image": "https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview",
+        "short_description": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at *SuperVirtual 2021*.",
+        "cover_image": "https://drive.google.com/file/d/1CV9xtbGbTNEytzVUqUfMlHVo8s9AgVnF/preview",
         "content": {},
         "people_involved_ids": [
             ""
@@ -80,6 +58,28 @@
         ],
         "short_description": "Luke Harvey gave a talk on \u201cExploring SNe Ia with spectral synthesis code TARDIS\u201d at *Irish National Astronomy Meeting* in September \u201921.",
         "cover_image": "https://drive.google.com/file/d/1VSiuNk0NY3WWXfo4tWy5hM-qYfUyvHa4/preview",
+        "content": {},
+        "people_involved_ids": [
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at Mid-Michigan Symposium for Undergraduate Research Experiences 2021.",
+        "author_id": "",
+        "article_id": "isaac_poster_mid_michigan_symposium_2021",
+        "display": true,
+        "date": "01th Sep, 2021",
+        "category": "Presentation",
+        "tags": [
+            "posters"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at *Mid-Michigan Symposium for Undergraduate Research Experiences 2021* where he demonstrated how he made TARDIS documentation more user-friendly and interactive.",
+        "cover_image": "https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview",
         "content": {},
         "people_involved_ids": [
             ""
