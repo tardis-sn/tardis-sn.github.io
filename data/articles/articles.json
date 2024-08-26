@@ -1,5 +1,67 @@
 [
     {
+        "title": "LIV (Last Interaction Velocity) Plot",
+        "author_id": "",
+        "article_id": "liv_plot_sarthak",
+        "display": true,
+        "date": "23th Aug, 2024",
+        "category": "News",
+        "tags": [
+            "visualization"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/LIV_ply.png",
+        "content": {
+            "1_para": "We can create a highly informative and visually appealing Last Interaction Velocity plot using Matplotlib.",
+            "2_img": "research_news/articles/LIV_Plot_Sarthak/media/images/LIV_mpl.png",
+            "3_para": "If you're using the Last Interaction Velocity plot for exploration, consider creating an interactive version with Plotly. This allows you to zoom, pan, and inspect data values by hovering, resizing the scale, and more conveniently.",
+            "4_img": "research_news/articles/LIV_Plot_Sarthak/media/images/plotly-gif.gif",
+            "5_para": "The detailed report for the GSoC project is available <a href='https://sites.google.com/view/sarthak-gsoc2024/home' target='blank'>here</a>."
+        },
+        "people_involved_ids": [],
+        "links": {
+            "Full Report": "https://sites.google.com/view/sarthak-gsoc2024/home"
+        },
+        "twitter": ""
+    },
+    {
+        "title": "Enhancing Packet Trackers",
+        "author_id": "",
+        "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
+        "display": true,
+        "date": "23th Aug, 2024",
+        "category": "News",
+        "tags": [
+            "packet trackers"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Hey there! This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/cover_image.png",
+        "content": {
+            "1_para": "We have introduced a new RPacketLastInteractionTracker class to keep track of the last interaction of a RPacket.",
+            "2_img": "media/images/RPacketLastInteractionTracker.png",
+            "3_para": "As a result of the tracker restructuring, the peak memory usage has been reduced from 4 GB to approximately 1 GB.",
+            "4_para": "<strong>Before Restructure</strong>",
+            "5_img": "media/images/beforeRestructure.png",
+            "6_para": "<strong>After Restructure</strong>",
+            "7_img": "media/images/afterRestructure.png",
+            "8_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
+            "9_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>."
+        },
+        "people_involved_ids": [],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "TARDIS-con",
         "author_id": "",
         "article_id": "tardis_con24",

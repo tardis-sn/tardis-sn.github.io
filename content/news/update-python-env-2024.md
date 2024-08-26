@@ -37,3 +37,4 @@ layout: post
 
 We upgrade the TARDIS environment with the current version of the scientific python software stack. This is to ensure that we include the latest bug fixes in our dependencies and have access to new API and tools.  We have updated our Python environment with the latest dependencies and the current lock-file is available here. Please read here how to <a href='https://tardis-sn.github.io/tardis/installation.html#environment-update'>update</a> the new environment.
 
+

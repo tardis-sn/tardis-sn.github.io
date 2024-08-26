@@ -36,5 +36,7 @@ layout: post
 ---
 
 During TARDIS Con 2024, a collaborative effort by Deeksha, Jaladh, Jing, and Anirban led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.
+
 The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues.
+
 

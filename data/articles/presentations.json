@@ -13,7 +13,7 @@
             "tardis"
         ],
         "short_description": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at *SuperVirtual 2021* in which she used TARDIS for modelling the spectrum of SN 2014dt.",
-        "cover_image": "https://drive.google.com/file/d/1GDHhw8q8lKhErIA-tMSRb7Mun6DdNoVK/preview",
+        "cover_image": "../articles/preview",
         "content": {},
         "people_involved_ids": [
             ""
@@ -35,7 +35,7 @@
             "tardis"
         ],
         "short_description": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at *SuperVirtual 2021*.",
-        "cover_image": "https://drive.google.com/file/d/1CV9xtbGbTNEytzVUqUfMlHVo8s9AgVnF/preview",
+        "cover_image": "../articles/preview",
         "content": {},
         "people_involved_ids": [
             ""
@@ -57,7 +57,7 @@
             "tardis"
         ],
         "short_description": "Luke Harvey gave a talk on \u201cExploring SNe Ia with spectral synthesis code TARDIS\u201d at *Irish National Astronomy Meeting* in September \u201921.",
-        "cover_image": "https://drive.google.com/file/d/1VSiuNk0NY3WWXfo4tWy5hM-qYfUyvHa4/preview",
+        "cover_image": "../articles/preview",
         "content": {},
         "people_involved_ids": [
             ""
@@ -79,7 +79,7 @@
             "tardis"
         ],
         "short_description": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at *Mid-Michigan Symposium for Undergraduate Research Experiences 2021* where he demonstrated how he made TARDIS documentation more user-friendly and interactive.",
-        "cover_image": "https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview",
+        "cover_image": "../articles/preview",
         "content": {},
         "people_involved_ids": [
             ""
@@ -101,7 +101,7 @@
             "tardis"
         ],
         "short_description": "James Gillanders gave a talk on Spectroscopic Modelling of the kilonova AT2017gfo at *Irish National Astronomy Meeting* in September \u201921 in which he demonstrated how he used TARDIS.",
-        "cover_image": "https://drive.google.com/file/d/1C9grvd84kIwan0bnWnQvOoTtFPvrWKNW/preview",
+        "cover_image": "../articles/preview",
         "content": {},
         "people_involved_ids": [
             ""
@@ -123,7 +123,7 @@
             "tardis"
         ],
         "short_description": "Jaladh Singhal gave a lightning talk on \u201cUsing Jupyter Widgets to make Astrophysics Research easier\u201d at *JupyterCon 2020* where he demonstrated interactive visualizations & widgets he developed at TARDIS.",
-        "cover_image": "https://drive.google.com/file/d/1HWsXN-E2Fu98N--PWO5_j9_BCWtcO0l0/preview",
+        "cover_image": "../articles/preview",
         "content": {},
         "people_involved_ids": [
             ""
@@ -145,7 +145,7 @@
             "tardis"
         ],
         "short_description": "Ezequiel Passaro presented a poster on \u201cAn Open Source Framework for Atomic Data\u201d for *Reuni\u00f3n anual de la Asociaci\u00f3n Argentina de Astronom\u00eda* in September \u201919 where he demonstrated the TARDIS package carsus.",
-        "cover_image": "https://drive.google.com/file/d/15SNxFEQn--4D0QPLzKaXgJHVBBnoL9Dg/preview",
+        "cover_image": "../articles/preview",
         "content": {},
         "people_involved_ids": [
             ""

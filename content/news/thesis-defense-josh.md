@@ -39,3 +39,4 @@ On May 3rd of 2024, Joshua Shields successfully defended his thesis invesitgatin
 
 <img src='\../articles/josh_defense_group_photo.jpg' alt='Image'>
 
+

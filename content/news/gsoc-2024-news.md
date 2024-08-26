@@ -37,3 +37,4 @@ layout: post
 
 We are excited to announce that TARDIS has been accepted as a mentoring organization in Google Summer of Code 2024! Check out our <a href='https://tardis-sn.github.io/summer_of_code/ideas/'>ideas page</a> and connect with us on <a href='https://gitter.im/tardis-sn/gsoc'>gitter</a> if you are interested! Please note that application deadline is April 2nd, 2024
 
+
