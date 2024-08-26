@@ -15,6 +15,7 @@
 }
 
 .post-image,
+.news-post-image,
 .post-content {
   img {
     border-radius: $border-radius;
@@ -47,6 +48,12 @@
 .post-image {
   display: block;
   margin-bottom: 2.5em;
+}
+
+.news-post-image{
+  display: block;
+  margin-bottom: 2.5em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 601px) {
