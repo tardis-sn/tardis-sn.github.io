@@ -884,6 +884,7 @@ textarea {
   line-height: 1.5; }
 
 .post-image img,
+.news-post-image img,
 .post-content img {
   border-radius: 3px; }
 
@@ -906,6 +907,11 @@ textarea {
 .post-image {
   display: block;
   margin-bottom: 2.5em; }
+
+.news-post-image {
+  display: block;
+  margin-bottom: 2.5em;
+  text-align: center; }
 
 @media only screen and (min-width: 601px) {
   .post-full {
