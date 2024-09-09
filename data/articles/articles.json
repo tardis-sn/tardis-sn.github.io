@@ -29,7 +29,7 @@
             "10_para": "`event_id` is the interaction number, `current_shell_id` is the previous boundary, and `next_shell_id` is the shell id to which the packet moved",
             "11_para": "We also researched a lot about Numba. Some of the things included using dynamic variables inside Numba using approaches like overload, branch pruning, etc., if you are interested about it, here are some <a href='https://gist.github.com/Sumit112192/6ddf8cb7be016caba1ce98feca95815d'>toy code.</a>",
             "12_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
-            "13_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'></a>"
+            "13_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>."
         },
         "people_involved_ids": [],
         "links": {},

@@ -59,6 +59,6 @@ We also researched a lot about Numba. Some of the things included using dynamic 
 
 Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.
 
-The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'></a>
+The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>.
 
 
