@@ -1,5 +1,41 @@
 [
     {
+        "title": "Enhancing Packet Trackers",
+        "author_id": "",
+        "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
+        "display": true,
+        "date": "23th Aug, 2024",
+        "category": "News",
+        "tags": [
+            "packet trackers"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/cover_image_sharpened.png",
+        "content": {
+            "1_para": "We have introduced a new RPacketLastInteractionTracker class to keep track of the last interaction of a RPacket.",
+            "2_img": "media/images/RPacketLastInteractionTracker.png",
+            "3_para": "As a result of the tracker restructuring, the peak memory usage has been reduced from 4 GB to approximately 1 GB.",
+            "4_para": "<strong>Before Restructure</strong>",
+            "5_img": "media/images/beforeRestructure.png",
+            "6_para": "<strong>After Restructure</strong>",
+            "7_img": "media/images/afterRestructure.png",
+            "8_para": "We also added detailed boundary interaction to the RPacketTracker, the structure of which looks like",
+            "9_img": "media/images/boundary_interaction.png",
+            "10_para": "`event_id` is the interaction number, `current_shell_id` is the previous boundary, and `next_shell_id` is the shell id to which the packet moved",
+            "11_para": "We also researched a lot about Numba. Some of the things included using dynamic variables inside Numba using approaches like overload, branch pruning, etc., if you are interested about it, here are some <a href='https://gist.github.com/Sumit112192/6ddf8cb7be016caba1ce98feca95815d'>toy code.</a>",
+            "12_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
+            "13_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'></a>"
+        },
+        "people_involved_ids": [],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "LIV (Last Interaction Velocity) Plot",
         "author_id": "",
         "article_id": "liv_plot_sarthak",
@@ -12,7 +48,7 @@
         "platforms": [
             "tardis"
         ],
-        "short_description": "This article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
+        "short_description": "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
         "cover_image_height": "520px",
         "cover_image_width": "330px",
         "cover_image": "../articles/LIV_ply.png",
@@ -38,36 +74,38 @@
         "twitter": ""
     },
     {
-        "title": "Enhancing Packet Trackers",
+        "title": "A Sample of TARDIS Improvements at TARDISCon",
         "author_id": "",
-        "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
+        "article_id": "sample_tardis_improvements_obrien",
         "display": true,
-        "date": "23th Aug, 2024",
+        "date": "19th Jul, 2024",
         "category": "News",
         "tags": [
-            "packet trackers"
+            "TARDISCon",
+            "TARDIS",
+            "news",
+            "supernova"
         ],
         "platforms": [
             "tardis"
         ],
-        "short_description": "Hey there! This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.",
+        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.",
         "cover_image_height": "520px",
         "cover_image_width": "330px",
-        "cover_image": "../articles/cover_image.png",
+        "cover_image": "../articles/samplers_compare.gif",
         "content": {
-            "1_para": "We have introduced a new RPacketLastInteractionTracker class to keep track of the last interaction of a RPacket.",
-            "2_img": "media/images/RPacketLastInteractionTracker.png",
-            "3_para": "As a result of the tracker restructuring, the peak memory usage has been reduced from 4 GB to approximately 1 GB.",
-            "4_para": "<strong>Before Restructure</strong>",
-            "5_img": "media/images/beforeRestructure.png",
-            "6_para": "<strong>After Restructure</strong>",
-            "7_img": "media/images/afterRestructure.png",
-            "8_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
-            "9_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>."
+            "1_para": "At TARDISCon, part of the TARDIS team (Anirban Dutta, Jing Lu, and Jack O\u2019Brien) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
+            "2_para": "This sampler will be used as part of the gamma-ray energy deposition module for TARDIS that is currently under development. It will enable TARDIS to accurately simulate the formation and annihilation of positronium and the resulting gamma-ray spectra and deposition rates.",
+            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  Jack O'Brien, Anirban Dutta, and Wolfgang Kerzendorf wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers."
         },
-        "people_involved_ids": [],
+        "people_involved_ids": [
+            "",
+            "",
+            "",
+            ""
+        ],
         "links": {},
-        "twitter": ""
+        "twitter": "None"
     },
     {
         "title": "TARDIS-con",
@@ -134,40 +172,6 @@
             "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
         },
         "people_involved_ids": [
-            "",
-            "",
-            ""
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
-        "title": "A Sample of TARDIS Improvements at TARDISCon",
-        "author_id": "",
-        "article_id": "sample_tardis_improvements_obrien",
-        "display": true,
-        "date": "19th Jul, 2024",
-        "category": "News",
-        "tags": [
-            "TARDISCon",
-            "TARDIS",
-            "news",
-            "supernova"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/samplers_compare.gif",
-        "content": {
-            "1_para": "At TARDISCon, part of the TARDIS team (Anirban Dutta, Jing Lu, and Jack O\u2019Brien) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
-            "2_para": "This sampler will be used as part of the gamma-ray energy deposition module for TARDIS that is currently under development. It will enable TARDIS to accurately simulate the formation and annihilation of positronium and the resulting gamma-ray spectra and deposition rates.",
-            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  Jack O'Brien, Anirban Dutta, and Wolfgang Kerzendorf wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers."
-        },
-        "people_involved_ids": [
-            "",
             "",
             "",
             ""
