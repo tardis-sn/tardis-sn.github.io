@@ -44,6 +44,28 @@
         "twitter": "None"
     },
     {
+        "title": "James Gillanders gave a talk on Spectroscopic Modelling of the kilonova AT2017gfo at Irish National Astronomy Meeting in September \u201921 in which he demonstrated how he used TARDIS.",
+        "author_id": "",
+        "article_id": "james_talk_irish_national_meeting_2021",
+        "display": true,
+        "date": "01th Sep, 2021",
+        "category": "Presentation",
+        "tags": [
+            "talks"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "James Gillanders gave a talk on Spectroscopic Modelling of the kilonova AT2017gfo at *Irish National Astronomy Meeting* in September \u201921 in which he demonstrated how he used TARDIS.",
+        "cover_image": "../articles/preview",
+        "content": {},
+        "people_involved_ids": [
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
         "title": "Luke Harvey gave a talk on \u201cExploring SNe Ia with spectral synthesis code TARDIS\u201d at Irish National Astronomy Meeting in September \u201921.",
         "author_id": "",
         "article_id": "luke_talk_irish_national_meeting_2021",
@@ -79,28 +101,6 @@
             "tardis"
         ],
         "short_description": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at *Mid-Michigan Symposium for Undergraduate Research Experiences 2021* where he demonstrated how he made TARDIS documentation more user-friendly and interactive.",
-        "cover_image": "../articles/preview",
-        "content": {},
-        "people_involved_ids": [
-            ""
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
-        "title": "James Gillanders gave a talk on Spectroscopic Modelling of the kilonova AT2017gfo at Irish National Astronomy Meeting in September \u201921 in which he demonstrated how he used TARDIS.",
-        "author_id": "",
-        "article_id": "james_talk_irish_national_meeting_2021",
-        "display": true,
-        "date": "01th Sep, 2021",
-        "category": "Presentation",
-        "tags": [
-            "talks"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "James Gillanders gave a talk on Spectroscopic Modelling of the kilonova AT2017gfo at *Irish National Astronomy Meeting* in September \u201921 in which he demonstrated how he used TARDIS.",
         "cover_image": "../articles/preview",
         "content": {},
         "people_involved_ids": [
