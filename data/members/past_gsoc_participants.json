@@ -19,15 +19,9 @@
                 "project_link": "",
                 "image_path": "../me.jpeg"
             },
-            "karan_desai": {
-                "full_name": "Karan Desai",
-                "project_title": "TARDIS testing framework",
-                "project_link": "",
-                "image_path": "../me.jpeg"
-            },
-            "fotis_tsamis": {
-                "full_name": "Fotis Tsamis",
-                "project_title": "TARDIS various projects",
+            "misha_mishkin": {
+                "full_name": "Misha Mishkin",
+                "project_title": "TARDIS/Carsus Atomic database",
                 "project_link": "",
                 "image_path": "../me.jpeg"
             },
@@ -37,9 +31,15 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
                 "image_path": "../me.jpeg"
             },
-            "misha_mishkin": {
-                "full_name": "Misha Mishkin",
-                "project_title": "TARDIS/Carsus Atomic database",
+            "fotis_tsamis": {
+                "full_name": "Fotis Tsamis",
+                "project_title": "TARDIS various projects",
+                "project_link": "",
+                "image_path": "../me.jpeg"
+            },
+            "karan_desai": {
+                "full_name": "Karan Desai",
+                "project_title": "TARDIS testing framework",
                 "project_link": "",
                 "image_path": "../me.jpeg"
             }
@@ -93,6 +93,12 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
                 "image_path": "../me.jpeg"
             },
+            "arib_alam": {
+                "full_name": "Arib Alam",
+                "project_title": "Packet tracking",
+                "project_link": "Enter your link here",
+                "image_path": "../me.jpeg"
+            },
             "dhruv_sondhi": {
                 "full_name": "Dhruv Sondhi",
                 "project_title": "TARDIS logging and packet tracking",
@@ -102,12 +108,6 @@
             "jenny_yu": {
                 "full_name": "Jenny Yu",
                 "project_title": "Abundance widget",
-                "project_link": "Enter your link here",
-                "image_path": "../me.jpeg"
-            },
-            "arib_alam": {
-                "full_name": "Arib Alam",
-                "project_title": "Packet tracking",
                 "project_link": "Enter your link here",
                 "image_path": "../me.jpeg"
             }
@@ -128,6 +128,12 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
                 "image_path": "../me.jpeg"
             },
+            "satwik_kambham": {
+                "full_name": "Satwik Kambham",
+                "project_title": "Resuming TARDIS Simulations from HDF",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
+                "image_path": "../me.jpeg"
+            },
             "rohith_buddaraju": {
                 "full_name": "Rohith Varma Buddaraju",
                 "project_title": "Tardis Setups Framework",
@@ -139,29 +145,17 @@
                 "project_title": "",
                 "project_link": "",
                 "image_path": ""
-            },
-            "satwik_kambham": {
-                "full_name": "Satwik Kambham",
-                "project_title": "Resuming TARDIS Simulations from HDF",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
-                "image_path": "../me.jpeg"
             }
         }
     },
     {
         "year": 2023,
         "info": {
-            "ansh_kumar": {
-                "full_name": "Ansh Kumar",
-                "project_title": "Simulation Restrcture",
-                "project_link": "",
-                "image_path": "media/images/ansh.jpeg"
-            },
-            "aarya_chaumal": {
-                "full_name": "Aarya Chaumal",
-                "project_title": "STARDIS Parallelization and GPU",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
-                "image_path": "media/images/aarya.png"
+            "shreyas_singh": {
+                "full_name": "Shreyas Singh",
+                "project_title": "Import and Store NNDC Deposition Data",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
+                "image_path": "media/images/shreyas.jpg"
             },
             "william_black": {
                 "full_name": "William Black",
@@ -169,23 +163,29 @@
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
                 "image_path": "../me.jpeg"
             },
-            "shikha_rathi": {
-                "full_name": "Shikha Rathi",
-                "project_title": "Having Versioned Atomic Data Repositories",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
-                "image_path": "media/images/shikha.jpg"
-            },
             "ayushi_daksh": {
                 "full_name": "Ayushi Daksh",
                 "project_title": "Grotrian Diagram Visualisation",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
                 "image_path": "media/images/ayushi.jpg"
             },
-            "shreyas_singh": {
-                "full_name": "Shreyas Singh",
-                "project_title": "Import and Store NNDC Deposition Data",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
-                "image_path": "media/images/shreyas.jpg"
+            "ansh_kumar": {
+                "full_name": "Ansh Kumar",
+                "project_title": "Simulation Restrcture",
+                "project_link": "",
+                "image_path": "media/images/ansh.jpeg"
+            },
+            "shikha_rathi": {
+                "full_name": "Shikha Rathi",
+                "project_title": "Having Versioned Atomic Data Repositories",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
+                "image_path": "media/images/shikha.jpg"
+            },
+            "aarya_chaumal": {
+                "full_name": "Aarya Chaumal",
+                "project_title": "STARDIS Parallelization and GPU",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
+                "image_path": "media/images/aarya.png"
             }
         }
     }

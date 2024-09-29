@@ -8,16 +8,16 @@
                 "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/1VNxItcN",
                 "image_path": "media/images/myPhoto.jpg"
             },
-            "asish_kumar": {
-                "full_name": "Asish Kumar",
-                "project_title": "TARDIS Benchmarking and Performance Improvement",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/Xglqxr46",
-                "image_path": "media/images/myPhoto.jpg"
-            },
             "sarthak_srivastava": {
                 "full_name": "Sarthak Srivastava",
                 "project_title": "Velocity Packet Tracker Visualization",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/dyvYc2Qb",
+                "image_path": "media/images/myPhoto.jpg"
+            },
+            "asish_kumar": {
+                "full_name": "Asish Kumar",
+                "project_title": "TARDIS Benchmarking and Performance Improvement",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/Xglqxr46",
                 "image_path": "media/images/myPhoto.jpg"
             }
         }
