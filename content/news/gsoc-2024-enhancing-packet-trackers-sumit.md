@@ -2,7 +2,7 @@
 title: Enhancing Packet Trackers
 excerpt: >-
   This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.
-publishDate: 23th Aug, 2024
+publishDate: 23rd Aug, 2024
 thumb_image: ../articles/cover_image_sharpened.png
 seo:
   title: Enhancing Packet Trackers
