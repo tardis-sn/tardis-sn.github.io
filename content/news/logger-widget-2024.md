@@ -2,7 +2,7 @@
 title: Introducing a new logger widget for TARDIS!
 excerpt: >-
   Detailed logger for TARDIS simulation run
-publishDate: 19th Jul, 2024
+publishDate: 19 Jul, 2024
 thumb_image: ../articles/logger.gif
 seo:
   title: Introducing a new logger widget for TARDIS!

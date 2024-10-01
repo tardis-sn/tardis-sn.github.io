@@ -2,7 +2,7 @@
 title: Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification
 excerpt: >-
   We congratulate Dr. Jack O’Brien for successfully defending his thesis titled “Progenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer” in astrophysics at Michigan State University.
-publishDate: 20th Apr, 2024
+publishDate: 20 Apr, 2024
 thumb_image: ../articles/jackDefence.jpg
 seo:
   title: Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification

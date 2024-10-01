@@ -2,7 +2,7 @@
 title: GSoC Students Begin Projects to Enhance TARDIS
 excerpt: >-
   We are thrilled to announce that our Google Summer of Code (GSoC) students, Sumit Gupta, Ashish Kumar, and Sarthak Srivastava, have officially started their projects! The projects will improve TARDIS performance, add tools for better analysis of the simulation and code to improve its science capabilities.
-publishDate: 27th May, 2024
+publishDate: 27 May, 2024
 thumb_image: ../articles/gsoc_plus_tardis.png
 seo:
   title: GSoC Students Begin Projects to Enhance TARDIS
