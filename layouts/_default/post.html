@@ -10,7 +10,7 @@
         </div>"%m-%d-%Y"
         {{ end }} -->
       <div class="published">
-        {{.Params.publishDate}}
+        {{.Params.publishDate | time.Format ":date_medium" }}
       </div>
       </header>
       {{ if .Params.thumb_image }}
