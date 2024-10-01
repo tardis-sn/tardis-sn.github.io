@@ -2,7 +2,7 @@
 title: Accepted as a mentoring organisation for Google Summer of Code 2024
 excerpt: >-
   We are a part of Google Summer of Code 2024.
-publishDate: 29 Mar, 2024
+publishDate: 2024-03-29
 thumb_image: ../articles/gsoc-logo-2024.png
 seo:
   title: Accepted as a mentoring organisation for Google Summer of Code 2024

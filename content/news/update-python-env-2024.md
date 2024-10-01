@@ -2,7 +2,7 @@
 title: Attention! Update your TARDIS Python environment
 excerpt: >-
   We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.
-publishDate: 10 Jun, 2024
+publishDate: 2024-06-10
 thumb_image: ../articles/lock_file_update_2024.jpeg
 seo:
   title: Attention! Update your TARDIS Python environment

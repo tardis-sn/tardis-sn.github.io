@@ -2,7 +2,7 @@
 title: TARDIS-con
 excerpt: >-
   TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on.
-publishDate: 19 Jul, 2024
+publishDate: 2024-07-19
 thumb_image: ../articles/TARDIScon24-Plasma-Session.jpg
 seo:
   title: TARDIS-con

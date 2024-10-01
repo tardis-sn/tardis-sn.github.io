@@ -2,7 +2,7 @@
 title: A Dr. is Born - Josh Shields Defends Thesis on SN Ia Surviving Companions
 excerpt: >-
   We are pleased to announce that Josh has just defended his thesis at Michigan State University investigating the progenitors of Type Ia Supernovae through the study of their surviving companions.
-publishDate: 3 May, 2024
+publishDate: 2024-05-03
 thumb_image: ../articles/josh_defense_title_slide.jpg
 seo:
   title: A Dr. is Born - Josh Shields Defends Thesis on SN Ia Surviving Companions

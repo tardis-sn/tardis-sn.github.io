@@ -2,7 +2,7 @@
 title: A Sample of TARDIS Improvements at TARDISCon
 excerpt: >-
   At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.
-publishDate: 19 Jul, 2024
+publishDate: 2024-07-19
 thumb_image: ../articles/samplers_compare.gif
 seo:
   title: A Sample of TARDIS Improvements at TARDISCon
