@@ -1,6 +1,6 @@
 ---
 title: "GSoC 2024 Ideas"
-date: 2024-05-28T09:44:45-05:00
+date: 2024-05-28
 draft: false
 layout: page
 ---
