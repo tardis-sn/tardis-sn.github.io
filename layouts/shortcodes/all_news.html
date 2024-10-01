@@ -2,7 +2,9 @@
 <div class="presentation">
     <div class="content-container">
         <div id="news-card" class="cover-image-cont">
-            <img id="cover-image" class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
+            <a href="{{ replace $article.article_id "_" "-" }}">
+                <img id="cover-image" class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
+            </a>
         </div>
         <div class="text-container">
             <div>
