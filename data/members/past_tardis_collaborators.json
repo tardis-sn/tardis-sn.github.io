@@ -1,13 +1,13 @@
 [
     {
-        "member_id": "yuki_matsumura",
+        "member_id": "harshul_gupta",
         "expertise": [
             ""
         ],
         "start_year": 2022,
         "end_year": 2023,
-        "full_name": "Yuki Matsumura",
-        "image_path": "media/images/yuki_face.png"
+        "full_name": "Harshul Gupta",
+        "image_path": "media/images/harshul.jpeg"
     },
     {
         "member_id": "isaac_smith",
@@ -28,13 +28,13 @@
         "image_path": "../me.jpeg"
     },
     {
-        "member_id": "harshul_gupta",
+        "member_id": "yuki_matsumura",
         "expertise": [
             ""
         ],
         "start_year": 2022,
         "end_year": 2023,
-        "full_name": "Harshul Gupta",
-        "image_path": "media/images/harshul.jpeg"
+        "full_name": "Yuki Matsumura",
+        "image_path": "media/images/yuki_face.png"
     }
 ]
