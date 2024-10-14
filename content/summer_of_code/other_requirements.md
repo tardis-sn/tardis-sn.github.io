@@ -106,11 +106,11 @@ There is intentionally no specific format to our applications. **BUT**... studen
    - (optional) Why you?
    - (optional) Anything else?
 
-**You must agree to our [acceptance requirements](../other_requirements#participation-requirements) should you be selected.**
+**You must agree to our [acceptance requirements](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-requirements) should you be selected.**
 
 ## Participation Expectations
 
-Covered below in detail are the expectations for Summer of Code students that are accepted to participate. In addition to the [acceptance requirements](../other_requirements#participation-requirements) that all students are required to abide by, there are participation and behavior expectations.
+Covered below in detail are the expectations for Summer of Code students that are accepted to participate. In addition to the [acceptance requirements](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-requirements) that all students are required to abide by, there are participation and behavior expectations.
 
 The program timeframe is very **short**. There's not much time to get up to speed, so there is a need to be clear of what is expected. Also, many students haven't done a lot of real-world development work previously. On top of that, most mentors and students are in different locations so coordinated interaction can be difficult at times. Because of this, it's vitally important to the success of each student's project for all expectations to be specified and understood before students begin coding for the summer. This should be the first step in a long series of frequent communication between student and their mentor(s).
 
