@@ -52,7 +52,7 @@ params:
         url: /research
         style: dropdown
         sub_items:
-          - label: Papers
+          - label: Publications
             url: /research/papers
             style: dropdown-link
           - label: Presentations
@@ -68,9 +68,9 @@ params:
           - label: GSoC with TARDIS!
             url: /summer_of_code/gsoc_home
             style: dropdown-link
-          - label: GSoC 2024 Ideas
-            url: /summer_of_code/ideas
-            style: dropdown-link
+          # - label: GSoC 2024 Ideas
+          #   url: /summer_of_code/ideas
+          #   style: dropdown-link
           - label: GSoC 2024 Team
             url: /summer_of_code/current_gsoc_team
             style: dropdown-link
