@@ -5,20 +5,20 @@ draft: false
 layout: page
 ---
 
-If you are interested in participating, please contact us through <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a> and introduce yourself. Members of the TARDIS collaboration will actively engage with questions on the Gitter!
+If you are interested in participating, please contact us through [Gitter](https://gitter.im/tardis-sn/gsoc) and introduce yourself. Members of the TARDIS collaboration will actively engage with questions on Gitter!
 
 ### The Application Process
 
 1. Get familiar with TARDIS
-   - Go to the <a href="https://tardis-sn.github.io/tardis/" target="_blank">documentation</a> page.
-   - Install the software using the <a href="https://tardis-sn.github.io/tardis/installation.html" target="_blank">guide</a>.
-   - Run the <a href="https://tardis-sn.github.io/tardis/quickstart.html" target="_blank">example</a>.
-   - Get familiar with our <a href="https://tardis-sn.github.io/tardis/contributing/development/index.html" target="_blank">development model</a> using Git and GitHub.
-2. Do the <a href="https://colab.research.google.com/drive/1ojC-CbdvhsnNum9DHxY-JUqlGiZGotDP?usp=sharing" target="_blank">TARDIS intro challenge</a>.
-3. Submit your completed <a href="https://forms.gle/ov1f71qogP36qLMc7" target="_blank">TARDIS challenge</a>.
+   - Go to the [documentation](https://tardis-sn.github.io/tardis/) page.
+   - Install the software using the [guide](https://tardis-sn.github.io/tardis/installation.html).
+   - Run the [example](https://tardis-sn.github.io/tardis/quickstart.html).
+   - Get familiar with our [development model](https://tardis-sn.github.io/tardis/contributing/development/index.html) using Git and GitHub.
+2. Do the [TARDIS intro challenge](https://colab.research.google.com/drive/1ojC-CbdvhsnNum9DHxY-JUqlGiZGotDP?usp=sharing).
+3. Submit your completed [TARDIS challenge](https://forms.gle/ov1f71qogP36qLMc7).
 4. Check out the [Ideas Page](../ideas).
-5. Introduce yourself to us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
-6. Start your [application](../other_requirements#application-guidelines). Here are some of the [previously accepted GSoc projects](../gsoc_home#previously-accepted-gSoc-projects).
+5. Introduce yourself to us on [Gitter](https://gitter.im/tardis-sn/gsoc).
+6. Start your [application](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines). Here are some of the [previously accepted GSoc projects](https://tardis-sn.github.io/summer_of_code/gsoc_home#previously-accepted-gSoc-projects).
 7. Select a project.
    - Many projects have additional specific instructions. They often involve a Pull Request.
 8. Discuss and share your project details (don't wait!)
@@ -26,15 +26,15 @@ If you are interested in participating, please contact us through <a href="https
 
 ### You got accepted (before coding begins)
 
-1. Agree to the [acceptance requirements](../other_requirements#participation-requirements) **in writing**.
-2. Read our participation [expectations](../other_requirements#participation-expectations) (read it ALL, we will quiz you later).
+1. Agree to the [acceptance requirements](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-requirements) **in writing**.
+2. Read our participation [expectations](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-expectations) (read it ALL, we will quiz you later).
 3. Set up an interaction schedule with your mentors (at least weekly).
 4. Fill out your profile (one sentence summary, your name, link to proposal, dev log, and GSoC page).
 5. Get familiarized with web resources-
-   - <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>
-   - <a href="https://github.com/tardis-sn/tardis" target="_blank">GitHub</a>
-6. Post your proposal online (Google Docs, overleaf, wiki, etc.)
-7. Describe your project plan (preferably as a <a href="https://github.com/tardis-sn/tep" target="_blank">TARDIS Enhancement Proposal</a>)
+   - [Gitter](https://gitter.im/tardis-sn/gsoc)
+   - [GitHub](https://github.com/tardis-sn/tardis)
+6. Post your proposal online (Google Docs, Overleaf, wiki, etc.)
+7. Describe your project plan (preferably as a [TARDIS Enhancement Proposal](https://github.com/tardis-sn/tep)).
 8. Announce your plan via Chat and/or E-mail (discuss and make adjustments).
 9. Submit patches to get familiarized with code (find small tasks like these).
 

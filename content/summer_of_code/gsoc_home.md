@@ -12,9 +12,9 @@ TARDIS is an open source radiative transfer code for simulating supernova spectr
 
 If you are interested, follow these steps:
 
-- Go through the [checklist](../checklist)
-- Check out what we expect from you ([expectations](../other_requirements#participation-expectations), [acceptance requirements](../other_requirements#participation-requirements), [application guidelines](../other_requirements#application-guidelines))
-- Get familiar with TARDIS ([Github](https://github.com/tardis-sn/tardis), [Documentation](https://tardis-sn.github.io/tardis/)) and pick a project from the [Ideas Page](../ideas)
+- Go through the [checklist](https://tardis-sn.github.io/summer_of_code/checklist/)
+- Check out what we expect from you ([expectations](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-expectations), [acceptance requirements](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-requirements), [application guidelines](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines))
+- Get familiar with TARDIS ([GitHub](https://github.com/tardis-sn/tardis), [Documentation](https://tardis-sn.github.io/tardis/)) and pick a project from the [Ideas Page](https://tardis-sn.github.io/summer_of_code/ideas)
 - [Apply](https://summerofcode.withgoogle.com/) (Application deadline for GSoC 2024 is April 2nd)!
 
 ### Previously Accepted GSoc Projects
@@ -57,9 +57,9 @@ Since 2005, Google has run an awesome open source software development program, 
 - Google allocates a certain number of slots to each participating organization.
   - That, in turn, determines how many student developers work with the TARDIS collaboration.
 
-Please also read the following pages before applying. Project ideas can be found on the [ideas page](../ideas).
+Please also read the following pages before applying. Project ideas can be found on the [ideas page](https://tardis-sn.github.io/summer_of_code/ideas).
 
-1. [Application Requirements](../other_requirements#participation-requirements)
-2. [Application Guidelines](../other_requirements#application-guidelines)
-3. [Application Checklist](../checklist)
-4. [Participation Expectations](../other_requirements#participation-expectations)
+1. [Application Requirements](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-requirements)
+2. [Application Guidelines](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines)
+3. [Application Checklist](https://tardis-sn.github.io/summer_of_code/checklist)
+4. [Participation Expectations](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-expectations)
