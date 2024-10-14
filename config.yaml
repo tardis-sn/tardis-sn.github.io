@@ -53,7 +53,7 @@ params:
         style: dropdown
         sub_items:
           - label: Publications
-            url: /research/papers
+            url: /research/publications
             style: dropdown-link
           - label: Presentations
             url: /research/presentations
