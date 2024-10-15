@@ -16,7 +16,7 @@ params:
       - label: Home
         url: /
         style: link
-      - label: For Researchers
+      - label: Software
         url: /for_researchers
         style: dropdown
         sub_items:
@@ -65,7 +65,7 @@ params:
           - label: Governance
             url: /people/governance
             style: dropdown-link
-      - label: Research
+      - label: For Researchers
         url: /research
         style: dropdown
         sub_items:
