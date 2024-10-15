@@ -1856,3 +1856,22 @@ a h5:hover {
     font-size: 1rem; }
   .short-description {
     font-size: 0.8rem; } }
+
+.nested-dropdown {
+  position: relative; }
+
+.nested-dropdown-toggle {
+  cursor: pointer; }
+
+.nested-dropdown-content {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  min-width: 200px;
+  background-color: inherit;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.nested-dropdown:hover .nested-dropdown-content {
+  display: block; }
