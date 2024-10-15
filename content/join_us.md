@@ -27,7 +27,7 @@ If you're interested, [reach out](#)! We typically look for students with basic 
 
 Our goal for graduate students is to help them become well-rounded computational scientists. Along with advancing skills in astrophysics, mathematics, and software development, we place a strong emphasis on developing professional skills such as teaching, presentations, networking, collaboration, mentoring, and software engineering. These skills are essential for enhancing career competitiveness across various fields.
 
-We are currently looking for doctoral students interested in areas like galaxy evolution, plasma physics, and exascale code development. Students have the option to pursue a doctorate in Physics & Astronomy, Computational Mathematics, Science, and Engineering (CMSE), or even a joint degree across these disciplines. Interested students should contact us to discuss potential opportunities and plan their applications for the appropriate program by the application deadlines. We also encourage students interested in applying for national fellowships, such as the NSF GRFP or DOE CSGF, to [reach out](#)!
+We are currently looking for doctoral students interested in areas like supernova physics and radiative transfer. Students have the option to pursue a doctorate in Physics & Astronomy, Computational Mathematics, Science, and Engineering (CMSE), or even a joint degree across these disciplines. Interested students should contact us to discuss potential opportunities and plan their applications for the appropriate program by the application deadlines. We also encourage students interested in applying for national fellowships, such as the NSF GRFP or DOE CSGF, to [reach out](#)!
 
 ##### Possible Research Projects:
 - Understanding the diversity of thermonuclear white dwarf explosions
@@ -40,7 +40,13 @@ Successful students in our group typically have a strong computational backgroun
 
 We aim to offer postdoctoral researchers the flexibility and support to pursue innovative research that aligns with our group's focus areas. Postdocs are encouraged to engage in mentoring, contribute to grant proposals, and expand their professional networks, all of which help strengthen their career opportunities.
 
-We are actively seeking funding for postdoctoral positions in [your research areas] and are happy to collaborate with those interested in applying for fellowships such as Hubble/Chandra or NSF AAPF. If you're interested, feel free to [reach out](#) to discuss potential opportunities.
+We are actively seeking funding for postdoctoral positions and are happy to collaborate with those interested in applying for fellowships such as Hubble/Chandra or NSF AAPF. If you're interested, feel free to [reach out](#) to discuss potential opportunities.
+
+##### Opportunities:
+- **Common Envelope Events in Binary Star Systems:** Candidates will use TARDIS to post-process hydrodynamic simulations and generate synthetic spectra for common envelope events. The project involves analyzing how mass transfer and interactions between stars affect their evolution. For more information see https://aas.org/jobregister/ad/2930606a.
+
+- **Late-Phase Type Ia Supernova Studies:** This position focuses on analyzing nebular spectroscopy and light curves of late-phase Type Ia supernovae. Candidates will also work on enhancing the microphysics in TARDIS and comparing the results with recent observational spectral data. For more information see https://aas.org/jobregister/ad/2930606a.
+
 
 ## Visiting Scientists
 
