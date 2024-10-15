@@ -16,19 +16,36 @@ params:
       - label: Home
         url: /
         style: link
-      - label: Documentation
-        url: /documentation
+      - label: For Researchers
+        url: /for_researchers
         style: dropdown
         sub_items:
-          - label: TARDIS package
-            url: https://tardis-sn.github.io/tardis
-            style: redirect-link
-          - label: Carsus package
-            url: https://tardis-sn.github.io/carsus
-            style: redirect-link
-          - label: STARDIS package
-            url: https://tardis-sn.github.io/stardis
-            style: redirect-link
+          - label: Tools
+            url:
+            style: dropdown-link
+            sub_items:
+              - label: TARDIS
+                url: https://github.com/tardis-sn/tardis
+                style: redirect-link
+              - label: CARSUS
+                url: https://github.com/tardis-sn/carsus
+                style: redirect-link
+              - label: STARDIS
+                url: https://github.com/tardis-sn/stardis
+                style: redirect-link
+          - label: Documentation
+            url:
+            style: dropdown-link
+            sub_items:
+              - label: TARDIS package
+                url: https://tardis-sn.github.io/tardis
+                style: redirect-link
+              - label: CARSUS package
+                url: https://tardis-sn.github.io/carsus
+                style: redirect-link
+              - label: STARDIS package
+                url: https://tardis-sn.github.io/stardis
+                style: redirect-link
       - label: People
         url: /people
         style: dropdown
@@ -86,6 +103,13 @@ params:
       - label: Credits
         url: /credits
         style: link
+      - label: GitHub
+        url: https://github.com/tardis-sn/tardis
+        style: link 
+        has_icon: true
+        icon: github
+        icon_position: left
+        new_window: true
 
   footer:
     sections:
