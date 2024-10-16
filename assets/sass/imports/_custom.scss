@@ -154,3 +154,29 @@ a h5:hover{
   .nested-dropdown:hover .nested-dropdown-content {
     display: block;
   }
+
+  @media only screen and (max-width: 800px) {
+    .nested-dropdown {
+        position: relative;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .nested-dropdown-toggle {
+        cursor:auto;
+        display: block;
+    }
+
+    .nested-dropdown-content {
+        display: block;
+        position: initial;
+        min-width: 160px;
+        background-color: inherit;
+        box-shadow: none;
+        z-index: 1;
+        padding-left: 1rem;
+    }
+    .dropdown-item:hover {
+        background-color: #f1f1f1;
+    }
+}
