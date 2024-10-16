@@ -1,5 +1,5 @@
 ---
-title: "Working in our Group"
+title: "Working with the TARDIS collaboration"
 draft: false
 layout: page
 ---
@@ -16,9 +16,7 @@ By joining our group, you'll work closely with senior members, including doctora
 
 ##### There are several ways to join:
 
-- **Honors College at MSU:** MSU students can apply to be professorial assistants through the Honors College, allowing them to engage in research early on.
-- **Research Experience for Undergraduates (REU):** REU programs offer structured research opportunities with mentorship.
-- **Google Summer of Code:** Our lab participates in Google Summer of Code, a great way to contribute to open-source projects and enhance your skills.
+- **Google Summer of Code:** Our lab participates in Google Summer of Code, a great way to contribute to open-source projects and enhance your skills. ??? add link here???
 - **Open-Source Contributions:** Students can also contribute to our open-source tools, gaining valuable experience in the scientific community.
 
 If you're interested, [reach out](#)! We typically look for students with basic Python skills and at least one semester of calculus and physics.
