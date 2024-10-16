@@ -30,12 +30,14 @@
             <span class="nested-dropdown-toggle dropdown-item">{{ $action_item.label }}</span>
             <div class="nested-dropdown-content">
               {{ range $nested_item := $action_item.sub_items }}
+                {{ if eq $action_style "dropdown-link" }}
                 <a href="{{ $nested_item.url | absURL }}" 
                    target="_blank" 
                    rel="{{ if $nested_item.new_window }}noopener {{ end }}{{ if $nested_item.no_follow }}nofollow{{ end }}"
                    class="dropdown-item">
                   {{ $nested_item.label }}
                 </a>
+                {{ end }}
               {{ end }}
             </div>
           </div>
