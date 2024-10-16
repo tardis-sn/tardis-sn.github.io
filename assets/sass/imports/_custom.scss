@@ -36,6 +36,7 @@
     flex-grow: 1;
     height: 100%;
     padding: 10px;
+    padding-top: 5px;
     border-radius: 5px;
     overflow-y: hidden;
     box-sizing: border-box;
@@ -60,10 +61,12 @@
 
 .text-container .post-meta .published {
     margin-left: 0.3rem;
+    font-size: smaller;
+    font-weight: bold;
 }
 .title-news {
     padding-top: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 a h5:hover{
@@ -77,23 +80,29 @@ a h5:hover{
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0;
-    font-size: 18px;
+    font-size: 0.85rem
 }
 
 @media only screen and (max-width: 1000px) {
     .content-container {
         flex-direction: column;
-        width: 75%;
+        width: 60%;
         height: auto;
     }
-    
     .cover-image-cont {
         width: 100%;
     }
-
+    .title-news {
+        padding-top: 10px;
+        font-size: 0.9rem;
+    }
     .text-container {
         width: 100%;
-        height: auto;
+        max-height: 200px;
+        padding-top: 1px;
+    }
+    .short-description {
+        -webkit-line-clamp: 3;
     }
 }
 
@@ -111,17 +120,15 @@ a h5:hover{
 
     .text-container {
         width: 100%;
-        height: auto;
+        max-height: 200px;
     }
     .text-container .post-meta {
         font-size: 0.7rem;
     }
-    .title-news {
-        font-size: 1rem;
-    }
-    
+   
     .short-description {
         font-size: 0.8rem;
+        -webkit-line-clamp: 3;
     }
 }
 
