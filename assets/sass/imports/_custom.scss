@@ -88,13 +88,14 @@ a h5:hover{
         flex-direction: column;
         width: 60%;
         height: auto;
+        gap: 5px;
     }
     .cover-image-cont {
         width: 100%;
     }
     .title-news {
         padding-top: 10px;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
     .text-container {
         width: 100%;
@@ -103,6 +104,7 @@ a h5:hover{
     }
     .short-description {
         -webkit-line-clamp: 3;
+        font-size: 0.75rem;
     }
 }
 
@@ -147,7 +149,6 @@ a h5:hover{
     top: 0;
     min-width: 200px;
     background-color: inherit;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
