@@ -52,6 +52,9 @@ params:
           - label: Join Us
             url: /join_us
             style: dropdown-link
+            has_icon: true
+            icon: hiring
+            icon_position: left
       - label: People
         url: /people
         style: dropdown
@@ -68,6 +71,9 @@ params:
           - label: Join Us
             url: /join_us
             style: dropdown-link
+            has_icon: true
+            icon: hiring
+            icon_position: left
           - label: Code of Conduct
             url: /code_of_conduct
             style: dropdown-link
@@ -173,7 +179,8 @@ params:
       rel="noopener nofollow">Hugo</a> and the
       <a href="https://themes.stackbit.com/demos/azimuth/" target="_blank"
       rel="noopener nofollow">Azimuth theme</a><br>Credits of the supernova
-      explosion video in homepage: ESA/Hubble (L. Calçada)
+      explosion video in homepage: ESA/Hubble (L. Calçada)<br>
+      <a href="https://www.flaticon.com/free-animated-icons/recruitment" title="recruitment animated icons">Recruitment animated icons created by Freepik - Flaticon</a>
 taxonomies:
   stub: stub
 disableKinds:
