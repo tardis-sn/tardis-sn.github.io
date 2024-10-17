@@ -8,23 +8,23 @@ Our research group is designed to be highly interactive, offering a supportive e
 
 Our weekly meetings are diverse, covering presentations, discussions on scientific topics, research ethics, and tutorials on software development and writing. Collaboration is central to our group, with members frequently working together to solve technical and scientific challenges. We actively encourage a culture where everyone supports one another, both through formal mentoring relationships and informal collaboration, helping the group grow and succeed collectively.
 
-## Open Source Contributions
+## Getting Started with Open Source
 
-We invite individuals to join our research group through open-source contributions. It is good way  to participate in our projects, gaining hands-on experience in computational astrophysics, high-performance computing, data visualization, data science techniques, and open-source software development.
+We welcome individuals to join our community through open-source contributions. This is an excellent way to gain hands-on experience in computational astrophysics, high-performance computing, data visualization, data science techniques, and open-source software development.
 
-By contributing to our group, you'll collaborate closely with senior members on cutting-edge research projects. Many contributors have co-authored papers, contributed to open-source software, and presented at conferences.
+By contributing to TARDIS, you'll collaborate with experienced members on cutting-edge research projects. Many contributors have co-authored papers, enhanced our open-source software, and presented at conferences.
 
-##### Ways to join:
+##### How to join:
 
-- **[Google Summer of Code:](https://tardis-sn.github.io/summer_of_code/gsoc_home/)** Our lab participates in Google Summer of Code, a great way to contribute to open-source projects and enhance your skills.
+- **[Google Summer of Code:](https://tardis-sn.github.io/summer_of_code/gsoc_home/)** TARDIS participates in Google Summer of Code, providing an excellent opportunity to contribute to open-source projects and enhance your skills.
 
 If you're interested, [reach out](https://gitter.im/tardis-sn/gsoc)! We typically look for individuals with basic Python skills and knowledge of calculus and physics.
 
-## Graduate Students
+## Student Contributors
 
-Our goal for graduate students is to help them become well-rounded computational scientists. Along with advancing skills in astrophysics, mathematics, and software development, we place a strong emphasis on developing professional skills such as teaching, presentations, networking, collaboration, mentoring, and software engineering. These skills are essential for enhancing career competitiveness across various fields.
+Student contributors in TARDIS develop into well-rounded computational scientists. Beyond advancing skills in astrophysics, mathematics, and software development, participation provides opportunities to enhance professional skills in teaching, presentations, networking, collaboration, mentoring, and software engineering. These skills boost career prospects across various fields.
 
-We are currently looking for doctoral students interested in areas like supernova physics and radiative transfer. Students have the option to pursue a doctorate in Physics & Astronomy, Computational Mathematics, Science, and Engineering (CMSE), or even a joint degree across these disciplines. Interested students should contact us to discuss potential opportunities and plan their applications for the appropriate program by the application deadlines. We also encourage students interested in applying for national fellowships, such as the NSF GRFP or DOE CSGF, to [reach out](https://gitter.im/tardis-sn/gsoc)!
+We welcome doctoral students interested in supernova physics and radiative transfer. Students can contribute while pursuing degrees in Physics & Astronomy, Computational Mathematics, Science, and Engineering (CMSE), or related fields. If you're interested in contributing while applying for national fellowships like NSF GRFP or DOE CSGF, please [reach out](https://gitter.im/tardis-sn/gsoc)!
 
 ##### Possible Research Projects:
 - Understanding the diversity of thermonuclear white dwarf explosions
@@ -35,7 +35,7 @@ Successful students in our group typically have a strong computational backgroun
 
 ## Postdoctoral Researchers
 
-We aim to offer postdoctoral researchers the flexibility and support to pursue innovative research that aligns with our group's focus areas. Postdocs are encouraged to engage in mentoring, contribute to grant proposals, and expand their professional networks, all of which help strengthen their career opportunities.
+We aim to offer postdoctoral researchers the flexibility and support to pursue innovative research that aligns with TARDIS's focus areas. Postdocs are encouraged to engage in mentoring, contribute to grant proposals, and expand their professional networks, all of which help strengthen their career opportunities.
 
 We are actively seeking funding for postdoctoral positions and are happy to collaborate with those interested in applying for fellowships such as Hubble/Chandra or NSF AAPF. If you're interested, feel free to [reach out](https://gitter.im/tardis-sn/gsoc) to discuss potential opportunities.
 
