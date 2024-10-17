@@ -16,11 +16,11 @@ params:
       - label: Home
         url: /
         style: link
-      - label: Software
+      - label: For Researchers
         url: /for_researchers
         style: dropdown
         sub_items:
-          - label: Tools
+          - label: Software
             url:
             style: dropdown-link
             sub_items:
@@ -46,6 +46,12 @@ params:
               - label: STARDIS package
                 url: https://tardis-sn.github.io/stardis
                 style: redirect-link
+          - label: Citation Guide
+            url: /credits
+            style: dropdown-link
+          - label: Join Us
+            url: /join_us
+            style: dropdown-link
       - label: People
         url: /people
         style: dropdown
@@ -59,13 +65,16 @@ params:
           - label: Past Team Members
             url: /people/past_team_members
             style: dropdown-link
+          - label: Join Us
+            url: /join_us
+            style: dropdown-link
           - label: Code of Conduct
             url: /code_of_conduct
             style: dropdown-link
           - label: Governance
             url: /people/governance
             style: dropdown-link
-      - label: For Researchers
+      - label: Our Research
         url: /research
         style: dropdown
         sub_items:
@@ -77,9 +86,6 @@ params:
             style: dropdown-link
       - label: News
         url: /news
-        style: link
-      - label: Join Us
-        url: /join_us
         style: link
       - label: GSoC
         url: /summer_of_code
@@ -103,9 +109,6 @@ params:
           - label: Other Requirements
             url: /summer_of_code/other_requirements
             style: dropdown-link
-      - label: Credits
-        url: /credits
-        style: link
       - label: GitHub
         url: https://github.com/tardis-sn/tardis
         style: link 
