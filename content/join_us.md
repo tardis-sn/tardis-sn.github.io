@@ -4,7 +4,8 @@ draft: false
 layout: page
 ---
 
-Our research group is designed to be highly interactive, offering a supportive environment where members can explore their interests and develop their careers. Every member is paired with mentors, including senior researchers and postdocs, and has the opportunity to mentor others, fostering a dynamic exchange of knowledge. We meet regularly to discuss scientific progress, tackle challenges, and brainstorm ideas. Additionally, we set aside dedicated time each year to focus on career development, professional networking, and ensuring that each member's work aligns with their future goals.
+TARDIS collaboration is designed to be highly interactive, offering a supportive environment where members can explore their interests and develop their careers. Every member is paired with mentors, including senior researchers and postdocs, and has the opportunity to mentor others, fostering a dynamic exchange of knowledge. We meet regularly to discuss scientific progress, tackle challenges, and brainstorm ideas. Additionally, we set aside dedicated time each year to focus on career development, professional networking, and ensuring that each member's work aligns with their future goals.
+
 
 Our weekly meetings are diverse, covering presentations, discussions on scientific topics, research ethics, and tutorials on software development and writing. Collaboration is central to our group, with members frequently working together to solve technical and scientific challenges. We actively encourage a culture where everyone supports one another, both through formal mentoring relationships and informal collaboration, helping the group grow and succeed collectively.
 
