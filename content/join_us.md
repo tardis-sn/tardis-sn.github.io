@@ -47,6 +47,6 @@ We are actively seeking funding for postdoctoral positions and are happy to coll
 
 ## Visiting Scientists
 
-We are always open to collaborations with visiting scientists interested in joining our group for research on topics aligned with our focus areas. Whether you have a specific project in mind or want to explore shared interests, we are eager to offer our space, expertise, and resources to support your work. Visitors have joined us for stays ranging from a week to several months, depending on the nature of the collaboration.
+We are always open to collaborations with visiting scientists interested in joining TARDIS for research on topics aligned with our focus areas. Whether you have a specific project in mind or want to explore shared interests, we are eager to offer our space, expertise, and resources to support your work. Visitors have joined us for stays ranging from a week to several months, depending on the nature of the collaboration.
 
 There are several options for funding, and projects related to transients may be eligible for support through IRENA. If you already have funding or need assistance in securing it, we're happy to explore the possibilities together.
