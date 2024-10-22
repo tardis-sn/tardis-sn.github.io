@@ -6,9 +6,9 @@ layout: page
 ---
 
 ### Past GSoC Ideas
-[2024 Ideas](https://tardis-sn.github.io/summer_of_code/ideas_2024/)
+[2024 Ideas]({{< ref "ideas_2024.md" >}})
 
-[2023 Ideas](https://tardis-sn.github.io/summer_of_code/ideas_2023/)
+[2023 Ideas]({{< ref "ideas_2023.md" >}})
 
 ### Past GSoC Org-Admins
 
