@@ -91,9 +91,9 @@ params:
           # - label: GSoC 2024 Ideas
           #   url: /summer_of_code/ideas
           #   style: dropdown-link
-          - label: GSoC 2024 Team
-            url: /summer_of_code/current_gsoc_team
-            style: dropdown-link
+          # - label: GSoC 2024 Team
+          #   url: /summer_of_code/current_gsoc_team
+          #   style: dropdown-link
           - label: Past GSoC
             url: /summer_of_code/past_gsoc
             style: dropdown-link
