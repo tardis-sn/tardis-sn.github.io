@@ -1,0 +1,193 @@
+title: TARDIS
+baseURL: https://tardis-sn.github.io/
+canonifyurls: true
+services:
+  googleAnalytics:
+    ID: G-53HJHD1BWS
+params:
+  base_font: nunito-sans
+  palette: blue
+  favicon: images/tardis_logo.ico
+  header:
+    logo_img: images/tardis-logo-2.svg
+    logo_img_alt: Logo
+    has_nav: true
+    nav_links:
+      - label: Home
+        url: /
+        style: link
+      - label: For Researchers
+        url: /for_researchers
+        style: dropdown
+        sub_items:
+          - label: Software
+            url:
+            style: dropdown-link
+            sub_items:
+              - label: TARDIS
+                url: https://github.com/tardis-sn/tardis
+                style: redirect-link
+              - label: CARSUS
+                url: https://github.com/tardis-sn/carsus
+                style: redirect-link
+              - label: STARDIS
+                url: https://github.com/tardis-sn/stardis
+                style: redirect-link
+          - label: Documentation
+            url:
+            style: dropdown-link
+            sub_items:
+              - label: TARDIS package
+                url: https://tardis-sn.github.io/tardis
+                style: redirect-link
+              - label: CARSUS package
+                url: https://tardis-sn.github.io/carsus
+                style: redirect-link
+              - label: STARDIS package
+                url: https://tardis-sn.github.io/stardis
+                style: redirect-link
+          - label: Citation Guide
+            url: /credits
+            style: dropdown-link
+          - label: Join Us
+            url: /join_us
+            style: dropdown-link
+            has_icon: true
+            icon: hiring
+            icon_position: left
+      - label: People
+        url: /people
+        style: dropdown
+        sub_items:
+          - label: Collaboration
+            url: /people/collaboration
+            style: dropdown-link
+          - label: Core Team
+            url: /people/core
+            style: dropdown-link
+          - label: Past Team Members
+            url: /people/past_team_members
+            style: dropdown-link
+          - label: Join Us
+            url: /join_us
+            style: dropdown-link
+            has_icon: true
+            icon: hiring
+            icon_position: left
+          - label: Code of Conduct
+            url: /code_of_conduct
+            style: dropdown-link
+          - label: Governance
+            url: /people/governance
+            style: dropdown-link
+      - label: Our Research
+        url: /research
+        style: dropdown
+        sub_items:
+          - label: Publications
+            url: /research/publications
+            style: dropdown-link
+          - label: Presentations
+            url: /research/presentations
+            style: dropdown-link
+      - label: News
+        url: /news
+        style: link
+      - label: GSoC
+        url: /summer_of_code
+        style: dropdown
+        sub_items:
+          - label: GSoC with TARDIS!
+            url: /summer_of_code/gsoc_home
+            style: dropdown-link
+          - label: GSoC 2024 Ideas
+            url: /summer_of_code/ideas
+            style: dropdown-link
+          - label: GSoC 2024 Team
+            url: /summer_of_code/current_gsoc_team
+            style: dropdown-link
+          - label: Past GSoC
+            url: /summer_of_code/past_gsoc
+            style: dropdown-link
+          - label: GSoC Checklist
+            url: /summer_of_code/checklist
+            style: dropdown-link
+          - label: Other Requirements
+            url: /summer_of_code/other_requirements
+            style: dropdown-link
+      - label: GitHub
+        url: https://github.com/tardis-sn/tardis
+        style: link 
+        has_icon: true
+        icon: github
+        icon_position: left
+        new_window: true
+
+  footer:
+    sections:
+      - type: footer_text
+        image: images/tardis-banner-2.svg
+        image_url: /
+        image_alt: TARDIS Banner
+      - type: footer_nav
+        nav_links:
+          - label: Code Of Conduct
+            url: /code_of_conduct
+            style: link
+          - label: Sponsors
+            url: /sponsors
+            style: link
+          # - label: Mission
+          #   url: /signup
+          #   style: link
+      - type: footer_nav
+        nav_links:
+          - label: Twitter
+            url: "https://twitter.com/tardis_sn"
+            style: link
+            has_icon: true
+            icon: twitter
+            icon_position: left
+            new_window: true
+          - label: GitHub
+            url: "https://github.com/tardis-sn"
+            style: link
+            has_icon: true
+            icon: github
+            icon_position: left
+            new_window: true
+          - label: Gitter
+            url: "https://gitter.im/tardis-sn/tardis"
+            style: link
+            has_icon: true
+            icon: gitter
+            icon_position: left
+            new_window: true
+      - type: footer_text
+        image: images/Numfocus_stamp.png
+        image_url: "https://numfocus.org/project/tardis"
+        # has_nav: true
+        # nav_links:
+        #   - label: Terms of Service
+        #     url: /terms-of-service
+        #     style: link
+        #   - label: Privacy Policy
+        #     url: /privacy-policy
+        #     style: link
+    content: >-
+      Made with ❤️ using <a href="https://gohugo.io/" target="_blank"
+      rel="noopener nofollow">Hugo</a> and the
+      <a href="https://themes.stackbit.com/demos/azimuth/" target="_blank"
+      rel="noopener nofollow">Azimuth theme</a><br>Credits of the supernova
+      explosion video in homepage: ESA/Hubble (L. Calçada)<br>
+      <a href="https://www.flaticon.com/free-animated-icons/recruitment" title="recruitment animated icons">Recruitment animated icons created by Freepik - Flaticon</a>
+taxonomies:
+  stub: stub
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
