@@ -1,5 +1,13 @@
 [
     {
+        "member_id": "michael_klauser",
+        "expertise": "",
+        "start_year": 2020,
+        "end_year": 2023,
+        "full_name": "Michael Klauser",
+        "image_path": "../me.jpeg"
+    },
+    {
         "member_id": "harshul_gupta",
         "expertise": [
             ""
@@ -18,14 +26,6 @@
         "end_year": 2023,
         "full_name": "Isaac Smith",
         "image_path": "media/images/isaac_image.jpg"
-    },
-    {
-        "member_id": "michael_klauser",
-        "expertise": "",
-        "start_year": 2020,
-        "end_year": 2023,
-        "full_name": "Michael Klauser",
-        "image_path": "../me.jpeg"
     },
     {
         "member_id": "yuki_matsumura",

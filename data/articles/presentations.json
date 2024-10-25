@@ -1,27 +1,5 @@
 [
     {
-        "title": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at SuperVirtual 2021.",
-        "author_id": "",
-        "article_id": "yssavo_poster_supervirtual_2021",
-        "display": true,
-        "date": "2021-10-01",
-        "category": "Presentation",
-        "tags": [
-            "posters"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at *SuperVirtual 2021* in which she used TARDIS for modelling the spectrum of SN 2014dt.",
-        "cover_image": "https://drive.google.com/file/d/1GDHhw8q8lKhErIA-tMSRb7Mun6DdNoVK/preview",
-        "content": {},
-        "people_involved_ids": [
-            ""
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
         "title": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at SuperVirtual 2021.",
         "author_id": "",
         "article_id": "marc_talk_supervirtual_2021",
@@ -36,6 +14,28 @@
         ],
         "short_description": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at *SuperVirtual 2021*.",
         "cover_image": "https://drive.google.com/file/d/1CV9xtbGbTNEytzVUqUfMlHVo8s9AgVnF/preview",
+        "content": {},
+        "people_involved_ids": [
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at SuperVirtual 2021.",
+        "author_id": "",
+        "article_id": "yssavo_poster_supervirtual_2021",
+        "display": true,
+        "date": "2021-10-01",
+        "category": "Presentation",
+        "tags": [
+            "posters"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at *SuperVirtual 2021* in which she used TARDIS for modelling the spectrum of SN 2014dt.",
+        "cover_image": "https://drive.google.com/file/d/1GDHhw8q8lKhErIA-tMSRb7Mun6DdNoVK/preview",
         "content": {},
         "people_involved_ids": [
             ""

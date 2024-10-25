@@ -1,193 +1,175 @@
-title: TARDIS
 baseURL: https://tardis-sn.github.io/
 canonifyurls: true
-services:
-  googleAnalytics:
-    ID: G-53HJHD1BWS
-params:
-  base_font: nunito-sans
-  palette: blue
-  favicon: images/tardis_logo.ico
-  header:
-    logo_img: images/tardis-logo-2.svg
-    logo_img_alt: Logo
-    has_nav: true
-    nav_links:
-      - label: Home
-        url: /
-        style: link
-      - label: For Researchers
-        url: /for_researchers
-        style: dropdown
-        sub_items:
-          - label: Software
-            url:
-            style: dropdown-link
-            sub_items:
-              - label: TARDIS
-                url: https://github.com/tardis-sn/tardis
-                style: redirect-link
-              - label: CARSUS
-                url: https://github.com/tardis-sn/carsus
-                style: redirect-link
-              - label: STARDIS
-                url: https://github.com/tardis-sn/stardis
-                style: redirect-link
-          - label: Documentation
-            url:
-            style: dropdown-link
-            sub_items:
-              - label: TARDIS package
-                url: https://tardis-sn.github.io/tardis
-                style: redirect-link
-              - label: CARSUS package
-                url: https://tardis-sn.github.io/carsus
-                style: redirect-link
-              - label: STARDIS package
-                url: https://tardis-sn.github.io/stardis
-                style: redirect-link
-          - label: Citation Guide
-            url: /credits
-            style: dropdown-link
-          - label: Join Us
-            url: /join_us
-            style: dropdown-link
-            has_icon: true
-            icon: hiring
-            icon_position: left
-      - label: People
-        url: /people
-        style: dropdown
-        sub_items:
-          - label: Collaboration
-            url: /people/collaboration
-            style: dropdown-link
-          - label: Core Team
-            url: /people/core
-            style: dropdown-link
-          - label: Past Team Members
-            url: /people/past_team_members
-            style: dropdown-link
-          - label: Join Us
-            url: /join_us
-            style: dropdown-link
-            has_icon: true
-            icon: hiring
-            icon_position: left
-          - label: Code of Conduct
-            url: /code_of_conduct
-            style: dropdown-link
-          - label: Governance
-            url: /people/governance
-            style: dropdown-link
-      - label: Our Research
-        url: /research
-        style: dropdown
-        sub_items:
-          - label: Publications
-            url: /research/publications
-            style: dropdown-link
-          - label: Presentations
-            url: /research/presentations
-            style: dropdown-link
-      - label: News
-        url: /news
-        style: link
-      - label: GSoC
-        url: /summer_of_code
-        style: dropdown
-        sub_items:
-          - label: GSoC with TARDIS!
-            url: /summer_of_code/gsoc_home
-            style: dropdown-link
-          - label: GSoC 2024 Ideas
-            url: /summer_of_code/ideas
-            style: dropdown-link
-          - label: GSoC 2024 Team
-            url: /summer_of_code/current_gsoc_team
-            style: dropdown-link
-          - label: Past GSoC
-            url: /summer_of_code/past_gsoc
-            style: dropdown-link
-          - label: GSoC Checklist
-            url: /summer_of_code/checklist
-            style: dropdown-link
-          - label: Other Requirements
-            url: /summer_of_code/other_requirements
-            style: dropdown-link
-      - label: GitHub
-        url: https://github.com/tardis-sn/tardis
-        style: link 
-        has_icon: true
-        icon: github
-        icon_position: left
-        new_window: true
-
-  footer:
-    sections:
-      - type: footer_text
-        image: images/tardis-banner-2.svg
-        image_url: /
-        image_alt: TARDIS Banner
-      - type: footer_nav
-        nav_links:
-          - label: Code Of Conduct
-            url: /code_of_conduct
-            style: link
-          - label: Sponsors
-            url: /sponsors
-            style: link
-          # - label: Mission
-          #   url: /signup
-          #   style: link
-      - type: footer_nav
-        nav_links:
-          - label: Twitter
-            url: "https://twitter.com/tardis_sn"
-            style: link
-            has_icon: true
-            icon: twitter
-            icon_position: left
-            new_window: true
-          - label: GitHub
-            url: "https://github.com/tardis-sn"
-            style: link
-            has_icon: true
-            icon: github
-            icon_position: left
-            new_window: true
-          - label: Gitter
-            url: "https://gitter.im/tardis-sn/tardis"
-            style: link
-            has_icon: true
-            icon: gitter
-            icon_position: left
-            new_window: true
-      - type: footer_text
-        image: images/Numfocus_stamp.png
-        image_url: "https://numfocus.org/project/tardis"
-        # has_nav: true
-        # nav_links:
-        #   - label: Terms of Service
-        #     url: /terms-of-service
-        #     style: link
-        #   - label: Privacy Policy
-        #     url: /privacy-policy
-        #     style: link
-    content: >-
-      Made with ❤️ using <a href="https://gohugo.io/" target="_blank"
-      rel="noopener nofollow">Hugo</a> and the
-      <a href="https://themes.stackbit.com/demos/azimuth/" target="_blank"
-      rel="noopener nofollow">Azimuth theme</a><br>Credits of the supernova
-      explosion video in homepage: ESA/Hubble (L. Calçada)<br>
-      <a href="https://www.flaticon.com/free-animated-icons/recruitment" title="recruitment animated icons">Recruitment animated icons created by Freepik - Flaticon</a>
-taxonomies:
-  stub: stub
 disableKinds:
-  - RSS
-  - taxonomy
-  - taxonomyTerm
+- RSS
+- taxonomy
+- taxonomyTerm
 markup:
   goldmark:
     renderer:
       unsafe: true
+params:
+  base_font: nunito-sans
+  favicon: images/tardis_logo.ico
+  footer:
+    content: "Made with \u2764\uFE0F using <a href=\"https://gohugo.io/\" target=\"\
+      _blank\" rel=\"noopener nofollow\">Hugo</a> and the <a href=\"https://themes.stackbit.com/demos/azimuth/\"\
+      \ target=\"_blank\" rel=\"noopener nofollow\">Azimuth theme</a><br>Credits of\
+      \ the supernova explosion video in homepage: ESA/Hubble (L. Cal\xE7ada)<br>\
+      \ <a href=\"https://www.flaticon.com/free-animated-icons/recruitment\" title=\"\
+      recruitment animated icons\">Recruitment animated icons created by Freepik -\
+      \ Flaticon</a>"
+    sections:
+    - image: images/tardis-banner-2.svg
+      image_alt: TARDIS Banner
+      image_url: /
+      type: footer_text
+    - nav_links:
+      - label: Code Of Conduct
+        style: link
+        url: /code_of_conduct
+      - label: Sponsors
+        style: link
+        url: /sponsors
+      type: footer_nav
+    - nav_links:
+      - has_icon: true
+        icon: twitter
+        icon_position: left
+        label: Twitter
+        new_window: true
+        style: link
+        url: https://twitter.com/tardis_sn
+      - has_icon: true
+        icon: github
+        icon_position: left
+        label: GitHub
+        new_window: true
+        style: link
+        url: https://github.com/tardis-sn
+      - has_icon: true
+        icon: gitter
+        icon_position: left
+        label: Gitter
+        new_window: true
+        style: link
+        url: https://gitter.im/tardis-sn/tardis
+      type: footer_nav
+    - image: images/Numfocus_stamp.png
+      image_url: https://numfocus.org/project/tardis
+      type: footer_text
+  header:
+    has_nav: true
+    logo_img: images/tardis-logo-2.svg
+    logo_img_alt: Logo
+    nav_links:
+    - label: Home
+      style: link
+      url: /
+    - label: For Researchers
+      style: dropdown
+      sub_items:
+      - label: Software
+        style: dropdown-link
+        sub_items:
+        - label: TARDIS
+          style: redirect-link
+          url: https://github.com/tardis-sn/tardis
+        - label: CARSUS
+          style: redirect-link
+          url: https://github.com/tardis-sn/carsus
+        - label: STARDIS
+          style: redirect-link
+          url: https://github.com/tardis-sn/stardis
+        url: null
+      - label: Documentation
+        style: dropdown-link
+        sub_items:
+        - label: TARDIS package
+          style: redirect-link
+          url: https://tardis-sn.github.io/tardis
+        - label: CARSUS package
+          style: redirect-link
+          url: https://tardis-sn.github.io/carsus
+        - label: STARDIS package
+          style: redirect-link
+          url: https://tardis-sn.github.io/stardis
+        url: null
+      - label: Citation Guide
+        style: dropdown-link
+        url: /credits
+      - has_icon: true
+        icon: hiring
+        icon_position: left
+        label: Join Us
+        style: dropdown-link
+        url: /join_us
+      url: /for_researchers
+    - label: People
+      style: dropdown
+      sub_items:
+      - label: Collaboration
+        style: dropdown-link
+        url: /people/collaboration
+      - label: Core Team
+        style: dropdown-link
+        url: /people/core
+      - label: Past Team Members
+        style: dropdown-link
+        url: /people/past_team_members
+      - has_icon: true
+        icon: hiring
+        icon_position: left
+        label: Join Us
+        style: dropdown-link
+        url: /join_us
+      - label: Code of Conduct
+        style: dropdown-link
+        url: /code_of_conduct
+      - label: Governance
+        style: dropdown-link
+        url: /people/governance
+      url: /people
+    - label: Our Research
+      style: dropdown
+      sub_items:
+      - label: Publications
+        style: dropdown-link
+        url: /research/publications
+      - label: Presentations
+        style: dropdown-link
+        url: /research/presentations
+      url: /research
+    - label: News
+      style: link
+      url: /news
+    - label: GSoC
+      style: dropdown
+      sub_items:
+      - label: GSoC with TARDIS!
+        style: dropdown-link
+        url: /summer_of_code/gsoc_home
+      - label: Past GSoC
+        style: dropdown-link
+        url: /summer_of_code/past_gsoc
+      - label: GSoC Checklist
+        style: dropdown-link
+        url: /summer_of_code/checklist
+      - label: Other Requirements
+        style: dropdown-link
+        url: /summer_of_code/other_requirements
+      url: /summer_of_code
+    - has_icon: true
+      icon: github
+      icon_position: left
+      label: GitHub
+      new_window: true
+      style: link
+      url: https://github.com/tardis-sn/tardis
+  palette: blue
+services:
+  googleAnalytics:
+    ID: G-53HJHD1BWS
+taxonomies:
+  stub: stub
+title: TARDIS

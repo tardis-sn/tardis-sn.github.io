@@ -26,42 +26,6 @@
         "twitter": ""
     },
     {
-        "title": "Enhancing Packet Trackers",
-        "author_id": "",
-        "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
-        "display": true,
-        "date": "2024-08-23",
-        "category": "News",
-        "tags": [
-            "packet trackers"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/cover_image_sharpened.png",
-        "content": {
-            "1_para": "We have introduced a new RPacketLastInteractionTracker class to keep track of the last interaction of a RPacket.",
-            "2_img": "media/images/RPacketLastInteractionTracker.png",
-            "3_para": "As a result of the tracker restructuring, the peak memory usage has been reduced from 4 GB to approximately 1 GB.",
-            "4_para": "<strong>Before Restructure</strong>",
-            "5_img": "media/images/beforeRestructure.png",
-            "6_para": "<strong>After Restructure</strong>",
-            "7_img": "media/images/afterRestructure.png",
-            "8_para": "We also added detailed boundary interaction to the RPacketTracker, the structure of which looks like",
-            "9_img": "media/images/boundary_interaction.png",
-            "10_para": "`event_id` is the interaction number, `current_shell_id` is the previous boundary, and `next_shell_id` is the shell id to which the packet moved",
-            "11_para": "We also researched a lot about Numba. Some of the things included using dynamic variables inside Numba using approaches like overload, branch pruning, etc., if you are interested about it, here are some <a href='https://gist.github.com/Sumit112192/6ddf8cb7be016caba1ce98feca95815d'>toy code.</a>",
-            "12_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
-            "13_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>."
-        },
-        "people_involved_ids": [],
-        "links": {},
-        "twitter": ""
-    },
-    {
         "title": "LIV (Last Interaction Velocity) Plot",
         "author_id": "",
         "article_id": "liv_plot_sarthak",
@@ -100,6 +64,42 @@
         "twitter": ""
     },
     {
+        "title": "Enhancing Packet Trackers",
+        "author_id": "",
+        "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
+        "display": true,
+        "date": "2024-08-23",
+        "category": "News",
+        "tags": [
+            "packet trackers"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/cover_image_sharpened.png",
+        "content": {
+            "1_para": "We have introduced a new RPacketLastInteractionTracker class to keep track of the last interaction of a RPacket.",
+            "2_img": "media/images/RPacketLastInteractionTracker.png",
+            "3_para": "As a result of the tracker restructuring, the peak memory usage has been reduced from 4 GB to approximately 1 GB.",
+            "4_para": "<strong>Before Restructure</strong>",
+            "5_img": "media/images/beforeRestructure.png",
+            "6_para": "<strong>After Restructure</strong>",
+            "7_img": "media/images/afterRestructure.png",
+            "8_para": "We also added detailed boundary interaction to the RPacketTracker, the structure of which looks like",
+            "9_img": "media/images/boundary_interaction.png",
+            "10_para": "`event_id` is the interaction number, `current_shell_id` is the previous boundary, and `next_shell_id` is the shell id to which the packet moved",
+            "11_para": "We also researched a lot about Numba. Some of the things included using dynamic variables inside Numba using approaches like overload, branch pruning, etc., if you are interested about it, here are some <a href='https://gist.github.com/Sumit112192/6ddf8cb7be016caba1ce98feca95815d'>toy code.</a>",
+            "12_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
+            "13_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>."
+        },
+        "people_involved_ids": [],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "Our Student Gracie wins best talk at the ACRES MSU NSF Research Experiences for Undergraduates Symposium ",
         "author_id": "",
         "article_id": "gracie_at_acres_msu_nsf",
@@ -127,6 +127,48 @@
         "people_involved_ids": [],
         "links": {},
         "twitter": ""
+    },
+    {
+        "title": "TARDIS-con",
+        "author_id": "",
+        "article_id": "tardis_con24",
+        "display": true,
+        "date": "2024-07-19",
+        "category": "News",
+        "tags": [
+            "news"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on.",
+        "cover_image": "../articles/TARDIScon24-Plasma-Session.jpg",
+        "content": {
+            "1_para": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on. ",
+            "2_img": "../articles/TARDIScon24-Plasma-triangle.png",
+            "3_para": "On the TARDIS side, we worked on improving the code's efficiency, implementing new features, and discussing the latest scientific insights related to supernovae.",
+            "4_para": "Our insights into Science of Science grew rapidly. We looked at how international collaborations become more prevalent in the last decades. ",
+            "5_para": "We also enjoyed some group outings, including a day trip to Ann Arbor for a local craft market and a detour through an escape room.",
+            "6_img": "../articles/TARDIScon24-Group-outing.png",
+            "7_para": "See you next year at TARDIS-Con 2025!"
+        },
+        "people_involved_ids": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
     },
     {
         "title": "A Sample of TARDIS Improvements at TARDISCon",
@@ -185,48 +227,6 @@
             "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
         },
         "people_involved_ids": [
-            "",
-            "",
-            ""
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
-        "title": "TARDIS-con",
-        "author_id": "",
-        "article_id": "tardis_con24",
-        "display": true,
-        "date": "2024-07-19",
-        "category": "News",
-        "tags": [
-            "news"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on.",
-        "cover_image": "../articles/TARDIScon24-Plasma-Session.jpg",
-        "content": {
-            "1_para": "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on. ",
-            "2_img": "../articles/TARDIScon24-Plasma-triangle.png",
-            "3_para": "On the TARDIS side, we worked on improving the code's efficiency, implementing new features, and discussing the latest scientific insights related to supernovae.",
-            "4_para": "Our insights into Science of Science grew rapidly. We looked at how international collaborations become more prevalent in the last decades. ",
-            "5_para": "We also enjoyed some group outings, including a day trip to Ann Arbor for a local craft market and a detour through an escape room.",
-            "6_img": "../articles/TARDIScon24-Group-outing.png",
-            "7_para": "See you next year at TARDIS-Con 2025!"
-        },
-        "people_involved_ids": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             ""
