@@ -1835,18 +1835,20 @@ a h5:hover {
   .content-container {
     flex-direction: column;
     width: 60%;
-    height: auto; }
+    height: auto;
+    gap: 5px; }
   .cover-image-cont {
     width: 100%; }
   .title-news {
     padding-top: 10px;
-    font-size: 0.9rem; }
+    font-size: 1.1rem; }
   .text-container {
     width: 100%;
     max-height: 200px;
     padding-top: 1px; }
   .short-description {
-    -webkit-line-clamp: 3; } }
+    -webkit-line-clamp: 3;
+    font-size: 0.75rem; } }
 
 @media only screen and (max-width: 768px) {
   .content-container {
@@ -1878,7 +1880,6 @@ a h5:hover {
   top: 0;
   min-width: 200px;
   background-color: inherit;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1; }
 
 .nested-dropdown:hover .nested-dropdown-content {
@@ -1902,3 +1903,8 @@ a h5:hover {
     padding-left: 1rem; }
   .dropdown-item:hover {
     background-color: #f1f1f1; } }
+
+.icon-gif {
+  height: 40px;
+  width: 40px;
+  background-color: transparent; }
