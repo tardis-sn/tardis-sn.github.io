@@ -149,12 +149,6 @@ params:
       - label: GSoC with TARDIS!
         style: dropdown-link
         url: /summer_of_code/gsoc_home
-      - label: GSoC 2024 Ideas
-        style: dropdown-link
-        url: /summer_of_code/ideas_2024
-      - label: GSoC 2024 Team
-        style: dropdown-link
-        url: /summer_of_code/current_gsoc_team
       - label: Past GSoC
         style: dropdown-link
         url: /summer_of_code/past_gsoc

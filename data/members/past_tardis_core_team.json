@@ -1,0 +1,110 @@
+[
+    {
+        "member_id": "alice_harpole",
+        "roles": [
+            {
+                "role": "Core Alumni",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Alice Harpole",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "ezequiel_passaro",
+        "roles": [
+            {
+                "role": "Infrastructure Coordinator",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Ezequiel Passaro",
+        "image_path": "media/images/profile.jpg"
+    },
+    {
+        "member_id": "luke_shingles",
+        "roles": [
+            {
+                "role": "Consultant",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Luke Shingles",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "marc_williamson",
+        "roles": [
+            {
+                "role": "Financial Coordinator",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Marc Williamson",
+        "image_path": "media/images/marc.jpeg"
+    },
+    {
+        "member_id": "stephen_lietzau",
+        "roles": [
+            {
+                "role": "",
+                "start_year": 2017,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Stefan Lietzau",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "stuart_sim",
+        "roles": [
+            {
+                "role": "",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Stuart Sim",
+        "image_path": "media/images/me.jpg"
+    },
+    {
+        "member_id": "ulrich_noebauer",
+        "roles": [
+            {
+                "role": "",
+                "start_year": 2016,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Ulrich Noebauer",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "vytautas_jancauskas",
+        "roles": [
+            {
+                "role": "Science Coordinator",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Vytautas Jan\u010dauskas",
+        "image_path": "../me.jpeg"
+    },
+    {
+        "member_id": "yssa_neves",
+        "roles": [
+            {
+                "role": "Science Coordinator",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        ],
+        "full_name": "Yssavo Camacho-Neves",
+        "image_path": "media/images/yssavo.jpg"
+    }
+]
