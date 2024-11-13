@@ -1,8 +1,10 @@
 ---
-title: "TARDIS Summer School at MSU"
+title: "TARDIS Summer School"
 draft: false
 layout: page
 ---
+
+<img src="/images/visualization_sdec_plot.png" alt="image" style="display: block; margin: 0 auto;width: 60%;padding-top: 5%;padding-bottom: 5%;">
 
 ### What
 
@@ -17,3 +19,5 @@ Monday, July 21st 2025 through Friday, July 25th, 2025. [Applications will open 
 Hosted at the Michigan State University, East Lansing, Michigan.
 
 ### Cost
+
+Cost to be determined when additional funding sources are confirmed, but are estimated to be less than $300. Participants will be repsonsible for their own transportation and lodging.
