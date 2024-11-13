@@ -10,9 +10,7 @@
             "gsoc"
         ],
         "platforms": [
-            "kg",
-            "tardis",
-            "dti"
+            "tardis"
         ],
         "short_description": "Wolfgang Kerzendorf and Andreas Fl\u00f6rs attended the Google Summer of Code (GSoC) mentor summit to represent the TARDIS collaboration. Andreas gave a lightning talk summarizing the TARDIS participation in GSoC, emphasizing the excellent work accomplished by the students. The summit provided an opportunity for meaningful discussions with other open-science-focused projects, and potential collaborations are now on the horizon.",
         "cover_image_height": "520px",
@@ -94,35 +92,6 @@
             "11_para": "We also researched a lot about Numba. Some of the things included using dynamic variables inside Numba using approaches like overload, branch pruning, etc., if you are interested about it, here are some <a href='https://gist.github.com/Sumit112192/6ddf8cb7be016caba1ce98feca95815d'>toy code.</a>",
             "12_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
             "13_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>."
-        },
-        "people_involved_ids": [],
-        "links": {},
-        "twitter": ""
-    },
-    {
-        "title": "Our Student Gracie wins best talk at the ACRES MSU NSF Research Experiences for Undergraduates Symposium ",
-        "author_id": "",
-        "article_id": "gracie_at_acres_msu_nsf",
-        "display": true,
-        "date": "2024-07-30",
-        "category": "News",
-        "tags": [
-            "undergraduate"
-        ],
-        "platforms": [
-            "kg",
-            "tardis",
-            "dti"
-        ],
-        "short_description": "Gracie Tvrdik presented her research on the evolution of collaboration dynamics in Astrophysics at the annual ACRES REU (Research Experiences for Undergraduates) Symposium. Her outstanding presentation earned her the 1st Place Outstanding Talk Award.",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/image1.png",
-        "content": {
-            "1_para": "Gracie Tvrdik presented her research on the evolution of collaboration dynamics in Astrophysics at the annual ACRES REU (Research Experiences for Undergraduates) Symposium. Her outstanding presentation earned her the 1st Place Outstanding Talk Award.",
-            "2_para": "Key points of Gracie's research:",
-            "3_para": "<ol><li style='list-style-type: decimal;'><strong>Utilized the NASA/ADS (Astrophysics Data System) dataset</strong> to analyze research dynamics in astrophysics over time.</li><li style='list-style-type: decimal;'><strong>Developed innovative methods</strong> to extract country information from affiliations, enabling accurate tracking of changes in research collaborations.</li><li style='list-style-type: decimal;'><strong>Collaborated with graduate student Vicente Amado Olivo</strong> and undergraduate Ben Mellon from our research group.</li></ol>",
-            "4_para": "The project outcomes showcase Gracie's exceptional research skills and hard work. Congratulations to Gracie for her outstanding achievement and to Vicente for his guidance throughout the project."
         },
         "people_involved_ids": [],
         "links": {},
