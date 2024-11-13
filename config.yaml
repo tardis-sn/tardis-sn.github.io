@@ -140,6 +140,25 @@ params:
         style: dropdown-link
         url: /research/presentations
       url: /research
+    - label: Events
+      style: dropdown
+      url: /events
+      sub_items:
+      - label: TARDIS Summer School
+        style: dropdown-link
+        url: /events/summer_school
+        new_window: false
+        sub_items:
+         - label: About
+           style: dropdown-link
+           url: /events/summer_school/about
+           new_window: false
+         - label: Application
+           style: dropdown-link
+           url:
+      - label: TARDIS-con
+        style: redirect-link
+        url: https://tardis-sn.github.io/tardis-con
     - label: News
       style: link
       url: /news
