@@ -4,7 +4,11 @@
   <div class="inner">
     <article class="post post-full">
       <header class="post-header">
-        <h1 class="post-title">{{ .Params.title }}</h1>
+        {{ if not .Params.hide_title }}
+          <section>
+            <h1 class="post-title">{{ .Params.title }}</h1>
+          </section>
+        {{ end }}
         {{ if .Params.subtitle }}
         <div class="post-subtitle">
           {{ $.Params.subtitle | safeHTML }}
