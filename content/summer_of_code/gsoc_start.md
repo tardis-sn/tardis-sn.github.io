@@ -1,11 +1,12 @@
 ---
-title: "GSoC {{ .Site.Params.base_font }}  Announced!"
+title: "GSoC Start"
+hide_title: true
 date: 2021-02-01T09:00:00-05:00
 draft: false
 layout: page
 ---
 
-## GSoC {{< current_year >}} Announcement
+<h1 class="custom-heading">GSoC {{< current_year >}} Announced</h1>
 
 We’re excited to announce that Google Summer of Code (GSoC) {{< current_year >}} has been officially announced! This year's program will provide another opportunity for students worldwide to make meaningful contributions to open-source projects and work closely with mentors across diverse fields of technology.
 
