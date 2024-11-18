@@ -1,21 +1,65 @@
 ---
-title: "We Are a GSoC {{< .Site.Params.currentYear >}} Mentoring Organization!"
-date: 2021-03-15T09:00:00-05:00
+title: "TARDIS GSoC"
+date: 2021-05-28T09:44:45-05:00
 draft: false
+aliases: /gsoc/
 layout: page
 ---
 
-## We’re Officially a GSoC  {{< current_year >}} Mentoring Organization!
+TARDIS is an open source radiative transfer code for simulating supernova spectra. We are dedicated to open source, reproducible science, as well as mentoring new members of the TARDIS community! TARDIS has participated in the Google Summer of Code (GSoC) for the last few years, and we highly encourage interested students to apply! If you are interested in TARDIS, follow the collaboration on <a href="https://twitter.com/tardis_sn" target="_blank">Twitter</a> and join us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
 
-We are thrilled to announce that we have been selected as a mentoring organization for Google Summer of Code (GSoC) {{< current_year >}}! This means we’ll have the opportunity to work with talented students from around the world, guiding them as they contribute to our open-source projects.
-<img src="/images/yay.gif" alt="image" style="display: block; margin: 0 auto;width: 60%;padding-top: 5%;padding-bottom: 5%;">
+### Apply to TARDIS GSoC
 
-### What’s Next?
+If you are interested, follow these steps:
 
-- **Project Ideas**: We’ll be sharing our list of project ideas soon. Stay tuned for exciting opportunities for students to contribute to our work!
-- **Application Process**: Interested in applying? Head over to the [official GSoC site](https://summerofcode.withgoogle.com/) for details on how to submit your application and join our team.
-- **Important Dates**: Be sure to review the [GSoC timeline](https://summerofcode.withgoogle.com/how-it-works/#timeline) for key dates and deadlines.
+- Go through the [checklist](https://tardis-sn.github.io/summer_of_code/checklist/)
+- Check out what we expect from you ([expectations](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-expectations), [acceptance requirements](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-requirements), [application guidelines](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines))
+- Get familiar with TARDIS ([GitHub](https://github.com/tardis-sn/tardis), [Documentation](https://tardis-sn.github.io/tardis/)) and pick a project from the [Ideas Page](https://tardis-sn.github.io/summer_of_code/ideas)
+- [Apply](https://summerofcode.withgoogle.com/) (Application deadline for GSoC 2024 is April 2nd)!
 
-We look forward to an amazing summer of collaboration and innovation with our GSoC students!
+### Previously Accepted GSoc Projects
 
-**Stay tuned for more updates and reach out to us if you have any questions!**
+These were the projects that we selected for GSoC in the past and can serve as a reference for future proposals:
+
+- [2021 Accepted Application 1](/pdfs/atharva_arya_gsoc_2021_tardis.pdf)
+- [2020 Accepted Application 1](/pdfs/jaladh-singhal_gsoc2020_tardis.pdf)
+- [2020 Accepted Application 2](/pdfs/TARDIS_Proposal_2020.pdf)
+- [2019 Accepted Application ](/pdfs/tardis_proposal.pdf)
+- [2016 Accepted Application 1](/pdfs/ftsamis_gsoc_2016.pdf)
+- [2016 Accepted Application 2](/pdfs/karandesai_gsoc_2016.pdf)
+- [2016 Accepted Application 3](/pdfs/mishinma_gsoc_application.pdf)
+
+### TARDIS GSoC Ideas Page
+
+We have compiled some background information about TARDIS and the science we do with it as well as some of our suggested projects for GSoC this year on the [Ideas Page](../ideas).
+
+You are also welcome to come up with your own project ideas and discuss them with the TARDIS mentors. We're here to help you become new open source developers, so don't be shy if you have any questions. The best way to get in contact is to chat with us on <a href="https://gitter.im/tardis-sn/gsoc" target="_blank">Gitter</a>.
+
+### The Selection Process
+
+GSoC is about getting people involved and contributing to open source over the long-term. As such, we heavily weight our application selection process towards students that are interested in remaining involved in TARDIS and open source software development long after GSoC has ended.
+
+GSoC is not a job! If you think this is just a summer job, then GSoC is probably not for you. It's only like a job in terms of planning your time commitment over the summer.
+
+Additionally, submissions are graded based on perception of the submitter's abilities to complete the task within the program timeframe, general consensus on the technical approach being proposed, and overall interest in having such modifications made to TARDIS-SN. Particular notice is made of students that are responsive to questions and readily interactive in the gitter channel. Communication is a great thing!
+
+Just about every GSoC organization receives considerably more project proposals than can be accepted. Every application gets read multiple times and reviewed in detail. Of those applications, only a small subset are selected, so keep in mind that the selection process is rather competitive and difficult.
+
+Whether or not you are accepted, contributing to open source outside of GSoC is one of the main goals of the program and is the best way to be noticed and get your proposal accepted. Keep that in mind. Thanks for your interest and we look forward to working with new TARDIS-SN developers!
+
+### About GSoC
+
+Since 2005, Google has run an awesome open source software development program, called the [Google Summer of Code](https://summerofcode.withgoogle.com/) (GSoC), which specifically targets students. Under this program, Google funds students to write code for open source projects during the northern hemisphere's summer timeframe. TARDIS, a scientific code to study exploding stars, participates in this program to get young minds engaged in scientific software development. The process is as follows.
+
+- The student writes a project proposal for TARDIS.
+  - Sometimes their project idea caters to something that the TARDIS collaboration suggests and sometimes it's an idea entirely of the student's conception.
+- Proposals are reviewed, evaluated, and ranked by the TARDIS collaboration.
+- Google allocates a certain number of slots to each participating organization.
+  - That, in turn, determines how many student developers work with the TARDIS collaboration.
+
+Please also read the following pages before applying. Project ideas can be found on the [ideas page](https://tardis-sn.github.io/summer_of_code/ideas).
+
+1. [Application Requirements](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-requirements)
+2. [Application Guidelines](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines)
+3. [Application Checklist](https://tardis-sn.github.io/summer_of_code/checklist)
+4. [Participation Expectations](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-expectations)
