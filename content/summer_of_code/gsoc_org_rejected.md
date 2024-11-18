@@ -1,5 +1,5 @@
 ---
-title: "GSoC ${{ .params.current_year }} Update"
+title: "GSoC Update"
 hide_title: true
 draft: false
 layout: page
