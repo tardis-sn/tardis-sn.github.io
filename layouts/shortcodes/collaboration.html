@@ -1,5 +1,5 @@
 {{ range $member := site.Data.members.current_tardis_collaborators }}
-<div class="individual-container">
+<div class="individual-container" id="{{ $member.full_name | urlize }}">
     <div class="info-container">
         {{ $imagePath := printf "../../members/%s/%s" $member.member_id $member.image_path }}
         {{ $defaultImg := "../../members/me.jpeg" }}
