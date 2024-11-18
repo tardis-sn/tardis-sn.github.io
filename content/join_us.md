@@ -16,7 +16,7 @@ By joining our group, you'll work closely with senior members, including doctora
 
 ##### There are several ways to join:
 
-- **[Google Summer of Code:]({{< ref "summer_of_code/gsoc_home.md" >}})** Our lab participates in Google Summer of Code, a great way to contribute to open-source projects and enhance your skills.
+- **[Google Summer of Code:]({{< ref "summer_of_code/past_gsoc.md" >}})** Our lab participates in Google Summer of Code, a great way to contribute to open-source projects and enhance your skills.
 - **Open-Source Contributions:** Students can also contribute to our open-source tools, gaining valuable experience in the scientific community.
 
 If you're interested, [reach out](https://gitter.im/tardis-sn/tardis)! We typically look for students with basic Python skills and at least one semester of calculus and physics.
