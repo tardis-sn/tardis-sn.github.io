@@ -170,7 +170,7 @@ params:
         url: /summer_of_code/gsoc_home
       - label: Past GSoC
         style: dropdown-link
-        url: /summer_of_code/past_gsoc
+        url: /summer_of_code/past_end
       - label: GSoC Checklist
         style: dropdown-link
         url: /summer_of_code/checklist
@@ -181,7 +181,6 @@ params:
     - has_icon: true
       icon: github
       icon_position: left
-      label: GitHub
       new_window: true
       style: link
       url: https://github.com/tardis-sn/tardis
