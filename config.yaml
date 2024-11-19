@@ -167,7 +167,7 @@ params:
       sub_items:
       - label: GSoC with TARDIS!
         style: dropdown-link
-        url: /summer_of_code/gsoc_home
+        url: /summer_of_code/gsoc_end
       - label: Past GSoC
         style: dropdown-link
         url: /summer_of_code/past_end
