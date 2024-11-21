@@ -1,7 +1,7 @@
 [
     {
         "title": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at SuperVirtual 2021.",
-        "author_id": "",
+        "author_id": "Marc Williamson",
         "article_id": "marc_talk_supervirtual_2021",
         "display": true,
         "date": "2021-10-01",
@@ -16,7 +16,7 @@
         "cover_image": "https://drive.google.com/file/d/1CV9xtbGbTNEytzVUqUfMlHVo8s9AgVnF/preview",
         "content": {},
         "people_involved_ids": [
-            ""
+            "Marc Williamson"
         ],
         "links": {},
         "twitter": "None"
@@ -45,7 +45,7 @@
     },
     {
         "title": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at Mid-Michigan Symposium for Undergraduate Research Experiences 2021.",
-        "author_id": "",
+        "author_id": "Isaac Smith",
         "article_id": "isaac_poster_mid_michigan_symposium_2021",
         "display": true,
         "date": "2021-09-01",
@@ -60,14 +60,14 @@
         "cover_image": "https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview",
         "content": {},
         "people_involved_ids": [
-            ""
+            "Isaac Smith"
         ],
         "links": {},
         "twitter": "None"
     },
     {
         "title": "Luke Harvey gave a talk on \u201cExploring SNe Ia with spectral synthesis code TARDIS\u201d at Irish National Astronomy Meeting in September \u201921.",
-        "author_id": "",
+        "author_id": "Luke Harvey",
         "article_id": "luke_talk_irish_national_meeting_2021",
         "display": true,
         "date": "2021-09-01",
@@ -82,14 +82,14 @@
         "cover_image": "https://drive.google.com/file/d/1VSiuNk0NY3WWXfo4tWy5hM-qYfUyvHa4/preview",
         "content": {},
         "people_involved_ids": [
-            ""
+            "Luke Harvey"
         ],
         "links": {},
         "twitter": "None"
     },
     {
         "title": "James Gillanders gave a talk on Spectroscopic Modelling of the kilonova AT2017gfo at Irish National Astronomy Meeting in September \u201921 in which he demonstrated how he used TARDIS.",
-        "author_id": "",
+        "author_id": "James Gillanders",
         "article_id": "james_talk_irish_national_meeting_2021",
         "display": true,
         "date": "2021-09-01",
@@ -104,14 +104,14 @@
         "cover_image": "https://drive.google.com/file/d/1C9grvd84kIwan0bnWnQvOoTtFPvrWKNW/preview",
         "content": {},
         "people_involved_ids": [
-            ""
+            "James Gillanders"
         ],
         "links": {},
         "twitter": "None"
     },
     {
         "title": "Jaladh Singhal gave a lightning talk on \u201cUsing Jupyter Widgets to make Astrophysics Research easier\u201d at JupyterCon 2020 where he demonstrated interactive visualizations & widgets he developed at TARDIS.",
-        "author_id": "",
+        "author_id": "Jaladh Singhal",
         "article_id": "presentaion_using_jupyter_widgets",
         "display": true,
         "date": "2020-01-01",
@@ -126,14 +126,14 @@
         "cover_image": "https://drive.google.com/file/d/1HWsXN-E2Fu98N--PWO5_j9_BCWtcO0l0/preview",
         "content": {},
         "people_involved_ids": [
-            ""
+            "Jaladh Singhal"
         ],
         "links": {},
         "twitter": "None"
     },
     {
         "title": "Ezequiel Passaro presented a poster on \u201cAn Open Source Framework for Atomic Data\u201d for Reuni\u00f3n anual de la Asociaci\u00f3n Argentina de Astronom\u00eda in September \u201919.",
-        "author_id": "",
+        "author_id": "Ezequiel Passaro",
         "article_id": "ezequiel_poster_asociacion_argentina_2019",
         "display": true,
         "date": "2019-09-01",
@@ -148,7 +148,7 @@
         "cover_image": "https://drive.google.com/file/d/15SNxFEQn--4D0QPLzKaXgJHVBBnoL9Dg/preview",
         "content": {},
         "people_involved_ids": [
-            ""
+            "Ezequiel Passaro"
         ],
         "links": {},
         "twitter": "None"

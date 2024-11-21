@@ -41,7 +41,7 @@
         "cover_image_width": "330px",
         "cover_image": "../articles/image2.png",
         "content": {
-            "1_para": "Wolfgang Kerzendorf and Andreas Fl\u00f6rs attended the Google Summer of Code (GSoC) mentor summit to represent the TARDIS collaboration. Andreas gave a lightning talk summarizing the TARDIS participation in GSoC, emphasizing the excellent work accomplished by the students. The summit provided an opportunity for meaningful discussions with other open-science-focused projects, and potential collaborations are now on the horizon."
+            "1_para": "[wolfgang_kerzendorf] and [andreas_flors] attended the Google Summer of Code (GSoC) mentor summit to represent the TARDIS collaboration. Andreas gave a lightning talk summarizing the TARDIS participation in GSoC, emphasizing the excellent work accomplished by the students. The summit provided an opportunity for meaningful discussions with other open-science-focused projects, and potential collaborations are now on the horizon."
         },
         "people_involved_ids": [],
         "links": {},
@@ -49,7 +49,7 @@
     },
     {
         "title": "LIV (Last Interaction Velocity) Plot",
-        "author_id": "",
+        "author_id": "Sarthak Srivastava",
         "article_id": "liv_plot_sarthak",
         "display": true,
         "date": "2024-08-23",
@@ -74,11 +74,11 @@
             "7_para": "The detailed report for the GSoC project is available <a href='https://sites.google.com/view/sarthak-gsoc2024/home'>here</a>."
         },
         "people_involved_ids": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Sarthak Srivastava",
+            "James Gillanders",
+            "Jaladh Singhal",
+            "Abhinav Ohri",
+            "Mark Magee"
         ],
         "links": {
             "Full Report": "https://sites.google.com/view/sarthak-gsoc2024/home"
@@ -87,7 +87,7 @@
     },
     {
         "title": "Enhancing Packet Trackers",
-        "author_id": "",
+        "author_id": "Sumit Gupta",
         "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
         "display": true,
         "date": "2024-08-23",
@@ -123,7 +123,7 @@
     },
     {
         "title": "TARDIS-con",
-        "author_id": "",
+        "author_id": "Josh Shields",
         "article_id": "tardis_con24",
         "display": true,
         "date": "2024-07-19",
@@ -146,17 +146,17 @@
             "7_para": "See you next year at TARDIS-Con 2025!"
         },
         "people_involved_ids": [
+            "Josh Shields",
+            "Jing Lu",
+            "Anirban  Dutta",
+            "Wolfgang Kerzendorf",
+            "Vicente  Amado Olivo",
+            "Jaladh Singhal",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
+            "Andrew Fullard",
+            "Bea Lu",
+            "Jack O'Brien",
             "",
             ""
         ],
@@ -184,15 +184,15 @@
         "cover_image_width": "330px",
         "cover_image": "../articles/samplers_compare.gif",
         "content": {
-            "1_para": "At TARDISCon, part of the TARDIS team (Anirban Dutta, Jing Lu, and Jack O\u2019Brien) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
+            "1_para": "At TARDISCon, part of the TARDIS team ([anirban_dutta], [jing_lu], and [jack_o_brien]) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
             "2_para": "This sampler will be used as part of the gamma-ray energy deposition module for TARDIS that is currently under development. It will enable TARDIS to accurately simulate the formation and annihilation of positronium and the resulting gamma-ray spectra and deposition rates.",
-            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  Jack O'Brien, Anirban Dutta, and Wolfgang Kerzendorf wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers."
+            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  [jack_o_brien], [anirban_dutta], and [wolfgang_kerzendorf] wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers."
         },
         "people_involved_ids": [
+            "Andrew Fullard",
             "",
-            "",
-            "",
-            ""
+            "Anirban  Dutta",
+            "Wolfgang Kerzendorf"
         ],
         "links": {},
         "twitter": "None"
@@ -216,20 +216,20 @@
         "cover_image_width": "330px",
         "cover_image": "../articles/logger.gif",
         "content": {
-            "1_para": "During TARDIS Con 2024, a collaborative effort by Deeksha, Jaladh, Jing, and Anirban led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
+            "1_para": "During TARDIS Con 2024, a collaborative effort by [deeksha_mohanty], [jaladh_singhal], [jing_lu], and [anirban_dutta] led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
             "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
         },
         "people_involved_ids": [
-            "",
-            "",
-            ""
+            "Jaladh Singhal",
+            "Jing Lu",
+            "Anirban  Dutta"
         ],
         "links": {},
         "twitter": "None"
     },
     {
         "title": "Attention! Update your TARDIS Python environment",
-        "author_id": "",
+        "author_id": "Abhinav Ohri",
         "article_id": "update_python_env_2024",
         "display": true,
         "date": "2024-06-10",
@@ -255,7 +255,7 @@
     },
     {
         "title": "GSoC Students Begin Projects to Enhance TARDIS",
-        "author_id": "",
+        "author_id": "Atharva Arya",
         "article_id": "gsoc_students_2024_begin",
         "display": true,
         "date": "2024-05-27",
@@ -277,7 +277,7 @@
     },
     {
         "title": "A Dr. is Born - Josh Shields Defends Thesis on SN Ia Surviving Companions",
-        "author_id": "",
+        "author_id": "Josh Shields",
         "article_id": "thesis_defense_josh",
         "display": true,
         "date": "2024-05-03",
@@ -297,18 +297,18 @@
         "cover_image_width": "330px",
         "cover_image": "../articles/josh_defense_title_slide.jpg",
         "content": {
-            "1_para": "On May 3rd of 2024, Joshua Shields successfully defended his thesis invesitgating the surviving companions of Type Ia Supernovae. He joined our group in 2019 and quickly became an expert in stellar modeling and radiative transfer. In his first project he investigated the SN 1006 remnant for hypervelocity white dwarfs, interesting peculiar stars that could might result from SN Ia. In his second project, he investigated the SNR 0509-67.5 remnant in the Large Magellanic Cloud, testing a large collection of SN Ia progenitor scenarios by modelling the spectral energy distributions of all the stars inside the remnant. He then developed the STARDIS code, an adaptation of TARDIS, able to model stellar atmospheres and produce spectra of surviving companions. He will continue working with us, improving the functionality of TARDIS. He is an integral part of our group, and we are ecstatic to see what he does next.",
+            "1_para": "On May 3rd of 2024, [josh_shields] successfully defended his thesis invesitgating the surviving companions of Type Ia Supernovae. He joined our group in 2019 and quickly became an expert in stellar modeling and radiative transfer. In his first project he investigated the SN 1006 remnant for hypervelocity white dwarfs, interesting peculiar stars that could might result from SN Ia. In his second project, he investigated the SNR 0509-67.5 remnant in the Large Magellanic Cloud, testing a large collection of SN Ia progenitor scenarios by modelling the spectral energy distributions of all the stars inside the remnant. He then developed the STARDIS code, an adaptation of TARDIS, able to model stellar atmospheres and produce spectra of surviving companions. He will continue working with us, improving the functionality of TARDIS. He is an integral part of our group, and we are ecstatic to see what he does next.",
             "2_img": "../articles/josh_defense_group_photo.jpg"
         },
         "people_involved_ids": [
-            ""
+            "Josh Shields"
         ],
         "links": {},
         "twitter": "None"
     },
     {
         "title": "Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification",
-        "author_id": "",
+        "author_id": "Jack O'Brien",
         "article_id": "thesis_defence_jack",
         "display": true,
         "date": "2024-04-20",
@@ -324,10 +324,10 @@
         "short_description": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University.",
         "cover_image": "../articles/jackDefence.jpg",
         "content": {
-            "1_para": "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join <a href='https://gnarayan.github.io/'>Gautham Narayan's group</a> at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!"
+            "1_para": "We congratulate Dr. [jack_o_brien] for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University. Jack started with us in 2020 and scientifically worked on (in addition to his thesis work) adding continuum opacities to TARDIS. He became and still is our education coordinator and made sure that students from different disciplines received training in physics, computing, and machine learning. He will join <a href='https://gnarayan.github.io/'>Gautham Narayan's group</a> at University of Illinois, Urbana-Champaign in the Fall of 2024. Thank you for all of your contributions and help and for being a fantastic team member!"
         },
         "people_involved_ids": [
-            ""
+            "Jack O'Brien"
         ],
         "links": {
             "Gautham Narayan group": "https://gnarayan.github.io/"
@@ -336,7 +336,7 @@
     },
     {
         "title": "Accepted as a mentoring organisation for Google Summer of Code 2024",
-        "author_id": "",
+        "author_id": "Atharva Arya",
         "article_id": "gsoc_2024_news",
         "display": true,
         "date": "2024-03-29",

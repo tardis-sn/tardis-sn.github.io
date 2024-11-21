@@ -35,6 +35,6 @@ seo:
 layout: post
 ---
 
-Wolfgang Kerzendorf and Andreas Flörs attended the Google Summer of Code (GSoC) mentor summit to represent the TARDIS collaboration. Andreas gave a lightning talk summarizing the TARDIS participation in GSoC, emphasizing the excellent work accomplished by the students. The summit provided an opportunity for meaningful discussions with other open-science-focused projects, and potential collaborations are now on the horizon.
+<a href="/people/core/#wolfgang-kerzendorf">Wolfgang</a> and <a href="/people/core/#andreas-flors">Andreas</a> attended the Google Summer of Code (GSoC) mentor summit to represent the TARDIS collaboration. Andreas gave a lightning talk summarizing the TARDIS participation in GSoC, emphasizing the excellent work accomplished by the students. The summit provided an opportunity for meaningful discussions with other open-science-focused projects, and potential collaborations are now on the horizon.
 
 
