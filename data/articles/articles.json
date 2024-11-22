@@ -283,10 +283,11 @@
         "date": "2024-05-03",
         "category": "News",
         "tags": [
-            "news",
+            "PhD",
+            "thesis",
             "defense",
             "supernova",
-            "Internship"
+            "achievement"
         ],
         "platforms": [
             "tardis",
@@ -314,8 +315,10 @@
         "date": "2024-04-20",
         "category": "News",
         "tags": [
-            "news",
-            "Internship"
+            "PhD",
+            "thesis",
+            "achievement",
+            "news"
         ],
         "platforms": [
             "tardis",
