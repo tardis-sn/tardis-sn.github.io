@@ -1,31 +1,30 @@
 {{ range $article := site.Data.articles.articles }}
-<div class="presentation">
+<div class="presentation news-container">
     <div class="content-container">
-        <div id="news-card" class="cover-image-cont">
-            <a href="{{ replace $article.article_id "_" "-" }}">
-                <img id="cover-image" class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
-            </a>
-        </div>
         <div class="text-container">
             <div>
                 <a href="{{ replace $article.article_id "_" "-" }}">
-                    <h6 class="title-news">{{ $article.title }}</h5>
+                    <h3 class="title-news">{{ $article.title }}</h3>
                 </a>
             </div>
             <div class="post-meta">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
                     <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
-                  </svg>
+                </svg>
                 <div class="published">{{$article.date | time.Format ":date_medium" }}</div>
             </div>
-            <hr>
-            <div class="short-description">
+            <!-- <div class="short-description">
                 {{range $paraNo, $paraText := $article.content}}
                     {{ if eq (index (split $paraNo "_") 1) "para" }}
                         <p>{{ $paraText | safeHTML }}</p>
                     {{ end }}
                 {{end}}
-            </div>
+            </div> -->
+        </div>
+        <div id="news-card" class="cover-image-cont">
+            <a href="{{ replace $article.article_id "_" "-" }}">
+                <img id="cover-image" class="cover-image" src="{{ $article.cover_image }}" alt="Preview image for: {{ $article.title }}">
+            </a>
         </div>
     </div>
 </div>
