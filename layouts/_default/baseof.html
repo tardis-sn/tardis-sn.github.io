@@ -32,7 +32,7 @@
         {{ else if eq $font "fira-sans" }}
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
         {{ end }}
-        <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | resources.ToCSS (dict "indentWidth" 4 "outputStyle" "nested" "precision" 10)).Permalink }}">
+        <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | css.Sass (dict "indentWidth" 4 "outputStyle" "nested" "precision" 10)).Permalink }}">
         {{ if .Site.Params.favicon }}
         <link rel="icon" href="{{ $.Site.Params.favicon | relURL }}">
         {{ end }}
