@@ -1,0 +1,11 @@
+<div class="individual-container" id="{{ .Params.full_name | urlize }}">
+    <div class="info-container">
+        {{ $imagePath := printf "/members/%s/%s" .Params.member_id .Params.image_path }}
+        <img class="rounded-picture" src="{{ $imagePath }}">
+        <div class="role-box" style="font-size: small;">
+            <div class="person-name" style="font-size: 120.5%;">
+                {{ .Params.full_name }}
+            </div>
+        </div>
+    </div>
+</div>
