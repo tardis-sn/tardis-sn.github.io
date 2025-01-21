@@ -12,7 +12,7 @@ Participants will learn how to perform scientific quality spectral synthesis of 
 
 ### When
 
-Monday, July 21st 2025 through Friday, July 25th, 2025. [Applications will open soon]().
+Monday, July 28th 2025 through Thursday, July 31st, 2025. [Click here to apply.](https://docs.google.com/forms/d/e/1FAIpQLSeP4jeugQlSjl5w3ScUmMTRw0gTXA1klDmAQiigMESbPzVO0g/viewform).
 
 ### Where
 
