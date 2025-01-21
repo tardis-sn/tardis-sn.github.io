@@ -12,7 +12,7 @@ Participants will learn how to perform scientific quality spectral synthesis of 
 
 ### When
 
-Monday, July 21st 2025 through Friday, July 25th, 2025. [Applications will open soon]().
+Monday, July 28th, 2025 through Thursday, July 31st, 2025. [Click here to apply](https://docs.google.com/forms/d/e/1FAIpQLSeP4jeugQlSjl5w3ScUmMTRw0gTXA1klDmAQiigMESbPzVO0g/viewform).
 
 ### Where
 
@@ -21,3 +21,12 @@ Hosted at the Michigan State University, East Lansing, Michigan.
 ### Cost
 
 Cost to be determined when additional funding sources are confirmed, but are estimated to be less than $300. Participants will be repsonsible for their own transportation and lodging.
+
+### Scientific Organizing Committee (SOC)
+
+<div class='picture-grid'>
+{{< card member_id="anirban_dutta" full_name="Anirban Dutta" image_path="media/images/anirban_dutta.jpg" >}}
+{{< card member_id="jing_lu" full_name="Jing Lu" image_path="media/images/jing.jpg" >}}
+{{< card member_id="josh_shields" full_name="Josh Shields" image_path="media/images/josh_photo.jpg" >}}
+{{< card member_id="wolfgang_kerzendorf" full_name="Wolfgang Kerzendorf" image_path="media/images/wolfgang.jpg" >}}
+</div>
