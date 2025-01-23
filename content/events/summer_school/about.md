@@ -4,15 +4,22 @@ draft: false
 layout: page
 ---
 
-<img src="/images/visualization_sdec_plot.png" alt="image" style="display: block; margin: 0 auto;width: 60%;padding-top: 5%;padding-bottom: 5%;">
+<div style="text-align: center;">
+  <img src="/images/visualization_sdec_plot.png" alt="TARDIS diagnostic capabilities plot" style="width: 60%;">
+  <p style="font-size: 0.8rem; font-style: italic; margin-left: 1rem; margin-right: 1rem; margin-top: 10px;">
+    Fig. 1 This plot shows one example of the diagnostic capabilities of TARDIS. A supernova spectrum can be decomposed into the individual elements that create absorption and emission features in that spectrum.
+  </p>
+</div>
+
+
 
 ### What
 
-Participants will learn how to perform scientific quality spectral synthesis of explosive transients with TARDIS to measure key parameters in supernova ejecta, such as elemental composition. The summer school will consist of short lectures and hands-on labs guided by TARDIS developers to promote an understanding of the underlying physics necessary, a cursory understanding of how the code handles those physics, and how to make better use of the code in astrophysics research.
+The TARDIS summer school will consist of short lectures and hands-on labs guided by TARDIS developers to promote an understanding of the underlying physics of TARDIS, before moving on to a detailed primer on how to use the code to accurately model supernova explosions. The format of our summer school was heavily inspired by the ongoing successful MESA summer school. Participants can expect to learn the necessary radiative transfer and plasma physics, as well as how to perform scientific quality spectral synthesis of explosive transients with TARDIS to measure key parameters in supernova ejecta, such as elemental composition, densities, and luminosity. The summer school will culminate with a hands-on project to synthesize a spectrum for a nearby well-observed supernova and gain an understanding of the explosion and its progenitor.
 
 ### When
 
-Monday, July 28th, 2025 through Thursday, July 31st, 2025. [Click here to apply](https://docs.google.com/forms/d/e/1FAIpQLSeP4jeugQlSjl5w3ScUmMTRw0gTXA1klDmAQiigMESbPzVO0g/viewform).
+Monday, July 28th, 2025 through Friday,August 1st, 2025. [Click here to apply](https://docs.google.com/forms/d/e/1FAIpQLSeP4jeugQlSjl5w3ScUmMTRw0gTXA1klDmAQiigMESbPzVO0g/viewform).
 
 ### Where
 
