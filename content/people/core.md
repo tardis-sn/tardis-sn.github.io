@@ -69,9 +69,9 @@ Current TARDIS core team members are as follows (you can click on the role to le
  - Manages role assignment for TARDIS Core
  - Organises TARDIS Core meetings
  - Administers TARDIS Core functions
-#### Diversity, Equity, and Inclusion (DEI) { .anchor-offset}
- - Identify opportunities to use TARDIS to engage members of underrepresented minorities (URM) to coding/STEM
- - Identify papers about engaging URM in coding / science
+#### Fostering Environment Coordinator { .anchor-offset}
+ - Identify opportunities and shaping an environment within the TARDIS collaboration that fosters new talent from a wide array of populations
+ - Identify research that helps with creating such environments
 
 
 
