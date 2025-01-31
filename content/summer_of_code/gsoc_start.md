@@ -16,7 +16,7 @@ We’re excited to announce that Google Summer of Code (GSoC) {{< current_year >
 
 For detailed information on dates and deadlines, be sure to check out the official GSoC timeline:
 
-- **[GSoC Official Timeline](https://summerofcode.withgoogle.com/how-it-works/#timeline)**
+- **[GSoC Official Timeline](https://developers.google.com/open-source/gsoc/timeline)**
 - **[GSoC Program Overview](https://summerofcode.withgoogle.com/how-it-works/#overview)**
 
 If we’re accepted as a mentoring organization, we’ll update this page with more information on how to apply to work with us and contribute to our projects.
