@@ -142,18 +142,18 @@ params:
       url: /research
     - label: Events
       style: dropdown
-      url: /events
       sub_items:
       - label: TARDIS Summer School
+        new_window: false
         style: dropdown-link
         url: /events/summer_school/about
-        new_window: false
       - label: TARDIS-con
         style: redirect-link
         url: https://tardis-sn.github.io/tardis-con
       - label: TARDIS-connector
         style: redirect-link
         url: https://tardis-sn.github.io/tardis-connector
+      url: /events
     - label: News
       style: link
       url: /news
@@ -162,7 +162,10 @@ params:
       sub_items:
       - label: GSoC with TARDIS!
         style: dropdown-link
-        url: /summer_of_code/gsoc_end
+        url: /summer_of_code/gsoc_start
+      - label: GSoC 2025 Ideas
+        style: dropdown-link
+        url: /summer_of_code/ideas
       - label: Past GSoC
         style: dropdown-link
         url: /summer_of_code/past_gsoc
