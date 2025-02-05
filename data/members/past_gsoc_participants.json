@@ -1,27 +1,5 @@
 [
     {
-        "year": 2013,
-        "info": {
-            "jeff_taylor": {
-                "full_name": "Jeff Taylor",
-                "project_title": "Wavelength Calibration",
-                "project_link": "",
-                "image_path": ""
-            }
-        }
-    },
-    {
-        "year": 2014,
-        "info": {
-            "shailesh_ahuja": {
-                "full_name": "Shailesh Ahuja",
-                "project_title": "Specutils readers/writers",
-                "project_link": "",
-                "image_path": ""
-            }
-        }
-    },
-    {
         "year": 2015,
         "info": {
             "gaurav_gautam": {
