@@ -117,7 +117,7 @@ STARDIS  Benchmarks: https://tardis-sn.github.io/stardis-benchmarks/
 - Comprehensive documentation and tests for all code written.
 
 
-#### Carsus 1
+#### Metadata for atomic data
 
 {{<idea_tag "Python">}}
 
