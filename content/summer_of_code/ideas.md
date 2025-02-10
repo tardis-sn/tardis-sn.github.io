@@ -77,7 +77,7 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 - Comprehensive documentation and tests for all code written.
 
 
-#### HDF Writing
+#### Adding HDF Writing Capabilities to TARDIS Modules 
 
 {{<idea_tag "Python">}}
 
