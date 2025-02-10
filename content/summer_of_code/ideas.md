@@ -3,6 +3,8 @@ title: "GSoC 2025 Ideas"
 date: 2025-02-01
 draft: false
 layout: page
+aliases:
+    - /gsoc/ideas
 ---
 
 ### Astronomy and Astrophysics Background:
