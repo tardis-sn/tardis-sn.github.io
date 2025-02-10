@@ -163,6 +163,9 @@ params:
       - label: GSoC with TARDIS!
         style: dropdown-link
         url: /summer_of_code/gsoc_start
+      - label: GSoC 2025 Ideas
+        style: dropdown-link
+        url: /summer_of_code/ideas
       - label: Past GSoC
         style: dropdown-link
         url: /summer_of_code/past_gsoc
