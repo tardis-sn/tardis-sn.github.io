@@ -54,7 +54,7 @@ https://tardis-sn.github.io/tardis/pull/2872/io/visualization/index.html#tardis-
 - Comprehensive documentation and tests for all code written.
 
 
-#### Improving Regression Data
+#### Regression Data Dashboard
 
 {{<idea_tag "Python">}} {{<idea_tag "GitHub">}}
 
