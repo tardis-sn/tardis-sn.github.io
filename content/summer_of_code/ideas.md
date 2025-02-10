@@ -95,7 +95,7 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 - Comprehensive documentation and tests for all code written.
 
 
-#### Benchmark Optimisation
+#### Benchmark Optimization
 
 {{<idea_tag "Python">}}
 
