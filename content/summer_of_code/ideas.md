@@ -33,7 +33,7 @@ Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-wit
 
 #### Rewrite the TARDIS visualisation module using Panel
 
-{{<idea_tag "Panel">}} {{<idea_tag "Visualization">}}
+{{<idea_tag "Panel">}} {{<idea_tag "Visualisation">}}
 
 <img src="/gsoc_2025/panel.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
 
@@ -56,7 +56,7 @@ https://tardis-sn.github.io/tardis/pull/2872/io/visualization/index.html#tardis-
 
 #### Regression Data Dashboard
 
-{{<idea_tag "Python">}} {{<idea_tag "GitHub">}}
+{{<idea_tag "Python">}}
 
 **Project Length:** ~ 350 Hours\
 **Difficulty:** Hard\
@@ -106,8 +106,8 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 **Difficulty:** Hard\
 **Description:** TARDIS commits are monitored by a benchmarking framework to detect performance regressions. But the current framework only tests 5 commits at a time and not with much detail. The goal of this project is to improve the benchmarking framework by adding more benchmarks. This project will also add more benchmarks to STARDIS, a related code. The second stage of the project will use the benchmarks to investigate possible performance improvements to TARDIS and STARDIS.
 
-TARDIS Benchmarks: https://tardis-sn.github.io/tardis-benchmarks/
-STARDIS  Benchmarks: https://tardis-sn.github.io/stardis-benchmarks/
+- TARDIS Benchmarks: https://tardis-sn.github.io/tardis-benchmarks/
+- STARDIS  Benchmarks: https://tardis-sn.github.io/stardis-benchmarks/
 
 **First objective:** Benchmark the Plasma solver factory: https://github.com/tardis-sn/tardis/blob/304154a270a5270d5e575e901c7b1d794a8e2511/tardis/plasma/assembly/base.py#L46 and share the ASV results for the last 5 commits along with the code in a pull request.
 
@@ -132,7 +132,7 @@ STARDIS  Benchmarks: https://tardis-sn.github.io/stardis-benchmarks/
 
 Carsus- https://tardis-sn.github.io/carsus/ 
 
-First objective: add a metadata table to an existing Carsus output, with a DOI link to a journal article of your choice, some physical units (e.g. Hertz, meters, erg). The output could be the Carsus HDF file, or a Pandas DataFrame. Some form of automation is a bonus.
+**First objective:** add a metadata table to an existing Carsus output, with a DOI link to a journal article of your choice, some physical units (e.g. Hertz, meters, erg). The output could be the Carsus HDF file, or a Pandas DataFrame. Some form of automation is a bonus.
 
 
 **Expected Outcomes:**
