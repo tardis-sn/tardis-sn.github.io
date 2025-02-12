@@ -7,21 +7,34 @@ aliases:
     - /gsoc/ideas
 ---
 
+## Table of Contents
+
+1. [Astronomy and Astrophysics Background](#astronomy-and-astrophysics-background)
+2. [The TARDIS Project](#the-tardis-project)
+3. [List of GSoC 2025 Project Ideas](#list-of-gsoc-2025-project-ideas)
+   - [Rewrite the TARDIS visualisation module using Panel](#rewrite-the-tardis-visualisation-module-using-panel)
+   - [Line Identification Plotting Functionality](#line-identification-plotting-functionality)
+   - [Regression Data Dashboard](#regression-data-dashboard)
+   - [Adding HDF Writing Capabilities to TARDIS Modules](#adding-hdf-writing-capabilities-to-tardis-modules)
+   - [Benchmark Optimization](#benchmark-optimization)
+   - [Metadata for atomic data](#metadata-for-atomic-data)
+
+
 ### Astronomy and Astrophysics Background:
 
 A <a href="https://en.wikipedia.org/wiki/Supernova" target="_blank">supernova</a>(here we show SN1994D in the Galaxy NGC4526 - image source: wikipedia) marks the brilliant death throes of a star, during which it outshines its entire galaxy. It not only marks death, though: supernova ejecta change the evolution of the universe and enable the formation of planets and life as we know it. From the iron in your blood to the silicon in your laptop, supernovae return heavy elements assembled from the primordial hydrogen and helium left after the big bang.
 
-<img src="/images/480px-SN1994D.jpg" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/images/480px-SN1994D.jpg" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 There are still many mysteries surrounding supernovae (e.g. their precise origins, inner workings, …). One way to study these objects in more detail is to split the light coming from these objects into its components (like using a prism) and analyzing the resulting data (which is called a spectrum). Here, we show spectra (black lines) of a number of different supernova types (image courtesy Daniel Kasen and LBL). Different chemical elements present in the supernova leave their mark on the spectra by imprinting characteristic features, so-called atomic lines (regions highlighted in colour). Thus, studying and interpreting such spectra allows us to identify what supernovae are made of.
 
-<img src="/images/sn_types.jpg" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/images/sn_types.jpg" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
 With sophisticated computer simulations astronomers try to reproduce the observed spectra to draw conclusion about the properties of the supernova ejecta and ultimately the explosion mechanism and progenitor stars. TARDIS is such a numerical code. It calculates theoretical spectra based on a number of input parameters, such as the supernova brightness and the abundances of the different chemical elements present in the ejecta (e.g. Oxygen, Silicon, Iron, etc.). The main idea for this procedure is that by finding a close match between theoretical and observed spectra we identify the parameters that actually describe the supernovae.
 
 ### The TARDIS Project
 
 As mentioned in the background information above, TARDIS is a scientific tool (more specifically a Monte Carlo radiative transfer code) whose primary goal is the calculation of theoretical spectra for supernovae. Below, you find the typical result of a TARDIS calculation. It shows the calculated synthetic spectra for a simple supernova model. This particular setup (tardis_example) is officially provided by the TARDIS collaboration on the <a href="https://tardis-sn.github.io/tardis/" target="_blank">documentation</a>.
-<img src="/images/tardis_example.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/images/tardis_example.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
 ### List of GSoC 2025 Project Ideas
 
@@ -35,11 +48,11 @@ Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-wit
 
 {{<idea_tag "Panel">}} {{<idea_tag "Visualisation">}}
 
-<img src="/gsoc_2025/panel.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/gsoc_2025/panel.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
-**Project Length:** ~350 Hours\
-**Difficulty:** Hard\
-**Mentors:** Abhinav Ohri, Andrew Fullard, Atharva Arya, James Gillanders\
+**Project Length:** 350 Hours \
+**Difficulty:** Hard \
+**Mentors:** Abhinav Ohri, Andrew Fullard, Atharva Arya, James Gillanders \
 **Description:** TARDIS has a collection of visualisation tools and widgets to interactively explore TARDIS simulations which run inside Jupyter Notebooks. A lot of these modules currently depend on dependencies like IPython and Qgrid which do not work well with our Sphinx documentation. We want to migrate our tools to depend entirely on Panel instead of these tools and want to showcase their interactivity on our documentation.
 
 Visualisation Module- 
@@ -54,13 +67,35 @@ https://tardis-sn.github.io/tardis/pull/2872/io/visualization/index.html#tardis-
 - Comprehensive documentation and tests for all code written.
 
 
+#### Line Identification Plotting Functionality
+
+{{<idea_tag "Visualisation">}} {{<idea_tag "Plotly">}} {{<idea_tag "Matplotlib">}} 
+
+<img src="/gsoc_2025/line_identification.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 hours\
+**Difficulty:** Medium\
+**Mentors:** Abhinav Ohri, Andrew Fullard, James Gillanders
+
+**Description:**
+TARDIS and STARDIS produce spectra that contain information about the elements and molecules that are part of the simulation. Both software record information about which elements produce which parts of the output spectrum. For TARDIS and STARDIS, you will access the information about where lines originate and plot the frequencies or wavelengths of the originating elements or molecules as requested by the user. This functionality will be incorporated into any of the existing spectral visualizations in TARDIS and STARDIS, so it must be modular. 
+
+**First Objective:**
+Produce a table of energy packets that can be filtered by the originating element. Provide a Jupyter notebook showing a plot of the table with labels and style that matches other TARDIS visualizations.
+
+**Expected Outcomes:**
+- Visualisation Module that builds the plot using existing dependencies.  
+- Comprehensive documentation and tests for all code written.
+
+
+
 #### Regression Data Dashboard
 
-{{<idea_tag "Python">}}
+{{<idea_tag "Data Visualisation">}} {{<idea_tag "Dashboards">}} {{<idea_tag "Python">}}
 
-**Project Length:** ~ 350 Hours\
-**Difficulty:** Hard\
-**Mentors:** Abhinav Ohri, Andrew Fullard, Atharva Arya\
+**Project Length:** 350 Hours \
+**Difficulty:** Hard \
+**Mentors:** Abhinav Ohri, Andrew Fullard, Atharva Arya
 
 **Description:**
 TARDIS implements a regression testing framework that compares current output to an already saved version to validate code. The goal of this project is to develop a dashboard to see exactly where the values of the files changed. Other than this, this project will also improve TARDIS HDF writing capabilities and add functionality to restore simulations from HDF and to create simulation checkpoints which work with the regression data. 
@@ -79,16 +114,16 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 
 #### Adding HDF Writing Capabilities to TARDIS Modules 
 
-{{<idea_tag "Python">}}
+{{<idea_tag "Data Storage">}} {{<idea_tag "HDF5">}} {{<idea_tag "Python">}}
 
-**Project Length:** ~ 350 Hours\
+**Project Length:** 350 Hours \
 **Mentors:** Andrew Fullard, Atharva Arya, Abhinav Ohri \
-**Difficulty:** Hard\
+**Difficulty:** Hard \
 **Description:** This project will improve TARDIS HDF writing capabilities and add functionality to restore simulations from HDF and to create simulation checkpoints which work with the regression data.
 
 TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data 
 
-**First objective:** Add a method to the spectrum class https://github.com/tardis-sn/tardis/blob/304154a270a5270d5e575e901c7b1d794a8e2511/tardis/spectrum/spectrum.py#L9 that allows restoring the class from an HDF. Share the notebook in a pull request.
+**First objective:** Add a method to the [spectrum class](https://github.com/tardis-sn/tardis/blob/304154a270a5270d5e575e901c7b1d794a8e2511/tardis/spectrum/spectrum.py#L9) that allows restoring the class from an HDF. Share the notebook in a pull request.
 
 **Expected Outcomes:**
 - Modular code that allows recreating TARDIS modules from HDF files exactly the way they were before. 
@@ -97,19 +132,19 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 
 #### Benchmark Optimization
 
-{{<idea_tag "Python">}}
+{{<idea_tag "Performance">}} {{<idea_tag "Benchmarking">}} {{<idea_tag "Python">}}
 
-<img src="/gsoc_2025/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/gsoc_2025/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
-**Project Length:** 350 Hours\
+**Project Length:** 350 Hours \
 **Mentors:** Andrew Fullard, Atharva Arya, Abhinav Ohri \
-**Difficulty:** Hard\
+**Difficulty:** Hard \
 **Description:** TARDIS commits are monitored by a benchmarking framework to detect performance regressions. But the current framework only tests 5 commits at a time and not with much detail. The goal of this project is to improve the benchmarking framework by adding more benchmarks. This project will also add more benchmarks to STARDIS, a related code. The second stage of the project will use the benchmarks to investigate possible performance improvements to TARDIS and STARDIS.
 
 - TARDIS Benchmarks: https://tardis-sn.github.io/tardis-benchmarks/
 - STARDIS  Benchmarks: https://tardis-sn.github.io/stardis-benchmarks/
 
-**First objective:** Benchmark the Plasma solver factory: https://github.com/tardis-sn/tardis/blob/304154a270a5270d5e575e901c7b1d794a8e2511/tardis/plasma/assembly/base.py#L46 and share the ASV results for the last 5 commits along with the code in a pull request.
+**First objective:** Benchmark the [Plasma solver factory](https://github.com/tardis-sn/tardis/blob/304154a270a5270d5e575e901c7b1d794a8e2511/tardis/plasma/assembly/base.py#L46) and share the ASV results for the last 5 commits along with the code in a pull request.
 
 **Expected Outcomes:**
 - Exhaustive benchmarks that time important TARDIS modules like plasma, transport, visualisation to name a few.
@@ -119,15 +154,15 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 
 #### Metadata for atomic data
 
-{{<idea_tag "Python">}}
+{{<idea_tag "Data Management">}} {{<idea_tag "Atomic Data">}} {{<idea_tag "Python">}}
 
-<img src="/gsoc_2025/carsus1.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/gsoc_2025/carsus1.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
-<img src="/gsoc_2025/carsus2.png" alt="image" style="display: block; margin: 0 auto;width: 70%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/gsoc_2025/carsus2.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
-**Project Length:** 350 Hours\
+**Project Length:** 350 Hours \
 **Mentors:** Andreas Flörs, Andrew Fullard \
-**Difficulty:** Easy\
+**Difficulty:** Easy \
 **Description:** Carsus provides atomic data to astrophysicists. It would be useful to provide additional data, “metadata”, along with the atomic data, so that users know the source and details of how the data were processed. For this project, you will add metadata to the Carsus atomic data output. This metadata will include physical units, git commit hashes, article citations, and more. You will also work on TARDIS to enable reading of this metadata.
 
 Carsus- https://tardis-sn.github.io/carsus/ 
