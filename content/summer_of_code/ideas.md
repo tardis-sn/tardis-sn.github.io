@@ -91,7 +91,7 @@ Produce a table of energy packets that can be filtered by the originating elemen
 
 #### Regression Data Dashboard
 
-{{<idea_tag "Data Visualisation">}} {{<idea_tag "Dashboards">}} {{<idea_tag "Python">}}
+{{<idea_tag "Data Visualisation">}} {{<idea_tag "Dashboards">}} {{<idea_tag "Python">}} {{<idea_tag "Git">}} {{<idea_tag "HDF">}}
 
 **Project Length:** 350 Hours \
 **Difficulty:** Hard \
@@ -132,7 +132,7 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 
 #### Benchmark Optimization
 
-{{<idea_tag "Performance">}} {{<idea_tag "Benchmarking">}} {{<idea_tag "Python">}}
+{{<idea_tag "Performance">}} {{<idea_tag "Benchmarking">}} {{<idea_tag "Python">}} {{<idea_tag "Airspeed Velocity">}}
 
 <img src="/gsoc_2025/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
@@ -154,7 +154,7 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 
 #### Metadata for atomic data
 
-{{<idea_tag "Data Management">}} {{<idea_tag "Atomic Data">}} {{<idea_tag "Python">}}
+{{<idea_tag "Data Management">}} {{<idea_tag "Atomic Data">}} {{<idea_tag "Pandas">}}
 
 <img src="/gsoc_2025/carsus1.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
