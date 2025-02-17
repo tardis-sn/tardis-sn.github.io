@@ -18,6 +18,8 @@ aliases:
    - [Adding HDF Writing Capabilities to TARDIS Modules](#adding-hdf-writing-capabilities-to-tardis-modules)
    - [Benchmark Optimization](#benchmark-optimization)
    - [Metadata for atomic data](#metadata-for-atomic-data)
+   - [Continuum opacity source reader](#continuum-opacity-source-reader)
+   - [CARSUS Dashboard](#carsus-dashboard)
 
 
 ### Astronomy and Astrophysics Background:
@@ -112,6 +114,7 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 - Comprehensive documentation and tests for all code written.
 
 
+
 #### Adding HDF Writing Capabilities to TARDIS Modules 
 
 {{<idea_tag "Data Storage">}} {{<idea_tag "HDF5">}} {{<idea_tag "Python">}}
@@ -128,6 +131,7 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 **Expected Outcomes:**
 - Modular code that allows recreating TARDIS modules from HDF files exactly the way they were before. 
 - Comprehensive documentation and tests for all code written.
+
 
 
 #### Benchmark Optimization
@@ -152,6 +156,7 @@ TARDIS Regression Data: https://github.com/tardis-sn/tardis-regression-data
 - Comprehensive documentation and tests for all code written.
 
 
+
 #### Metadata for atomic data
 
 {{<idea_tag "Data Management">}} {{<idea_tag "Atomic Data">}} {{<idea_tag "Pandas">}}
@@ -172,4 +177,54 @@ Carsus- https://tardis-sn.github.io/carsus/
 
 **Expected Outcomes:**
 - Metadata for all Carsus outputs.
+- Comprehensive documentation and tests for all code written.
+
+
+
+#### Continuum opacity source reader
+
+{{<idea_tag "Data Processing">}} {{<idea_tag "Scientific Data">}}
+
+<img src="/gsoc_2025/carsus3.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Mentors:** Andrew Fullard, Josh Shields \
+**Difficulty:** Hard \
+**Description:** There’s a lot of literature with useful tables for the TARDIS codebase and other scientific codes in pdfs ([example](https://academic.oup.com/mnras/article/266/4/805/982644)), or often in dataproducts. Carsus currently reads in data from standard sources and archives([Chianti](https://www.chiantidatabase.org/), [CMFGEN](https://sites.pitt.edu/~hillier/web/CMFGEN.htm) ), but does not flexibly read data from sources in the literature. The goal of this project is to expand Carsus to read datatables like ones in this work, with potential expansion for a future-proof workflow (new opacity tables). These could all go in a new tardis repository called “carsus-literature-tables” or something along those lines. You can look at [this](https://github.com/tardis-sn/carsus-data-molecules-barklem2016) for a preprocessed datatables ready to be ingested by Carsus might look.
+
+Carsus- https://tardis-sn.github.io/carsus/ 
+
+**First objective:** Read one of the datatables from the linked paper [here](https://cdsarc.cds.unistra.fr/viz-bin/cat/VI/80#/browse) (try s92.201.gz, under ftp) and process it into a pandas dataframe. Look to do this in a programmatic way that could be reused for similar files, like the other tables found here. See [section 6.4](https://articles.adsabs.harvard.edu/pdf/1994MNRAS.266..805S) for more details on table contents and formatting if desired.
+
+
+**Expected Outcomes:**
+- Code that reads in the new dataproducts and integrates with Carsus.
+- Comprehensive documentation and tests for all code written.
+
+
+
+#### CARSUS Dashboard
+
+{{<idea_tag "GitHub Actions">}} {{<idea_tag "Python Scripting">}} {{<idea_tag "Pandas">}} {{<idea_tag "Notebooks">}}
+
+<img src="/gsoc_2025/carsus_dashboard.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Mentors:** Josh Shields \
+**Difficulty:** Hard \
+**Description:** Carsus is a package to manage atomic datasets. It can read data from a variety of sources and output them to file formats readable by radiative transfer codes like TARDIS. The goal of this project is to build python APIs and Jupyter Notebook scripts to investigate different atomic datasets from various sources. The scripts help researchers analyze key components of atomic data files, including metadata, lines/levels structure and element composition, while enabling web access to examine and compare different atomic datasets.
+
+- Regression Data Repository: https://github.com/tardis-sn/tardis-regression-data 
+- Carsus: https://github.com/tardis-sn/carsus 
+
+
+**First objective:** Use Jinja2 to generate an HTML Report that investigates an atomic file. Display top 50 rows of levels and lines dataframes from the atomic file for Silicon. 
+Here are a few example notebooks-
+- [Quickstart Notebook](https://tardis-sn.github.io/carsus/quickstart.html) 
+- [Compare atomic files](https://tardis-sn.github.io/carsus/development/compare_atomic_files.html). You can find atomic files in the [TARDIS regression data repository](https://github.com/tardis-sn/tardis-regression-data)
+
+
+**Expected Outcomes:**
+- Python APIs and notebooks that investigate custom atomic data files from external parameters and can be triggered using GitHub Actions.
+- Modular code that is compatible with both legacy atom data files and is future-proof.
 - Comprehensive documentation and tests for all code written.
