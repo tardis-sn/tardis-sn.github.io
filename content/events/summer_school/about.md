@@ -19,15 +19,47 @@ The TARDIS summer school will consist of short lectures and hands-on labs guided
 
 ### When
 
-Monday, July 28th, 2025 through Friday,August 1st, 2025. [Click here to apply](https://docs.google.com/forms/d/e/1FAIpQLSeP4jeugQlSjl5w3ScUmMTRw0gTXA1klDmAQiigMESbPzVO0g/viewform).
+Monday, July 28th, 2025 through Friday, August 1st, 2025.
 
 ### Where
 
 Hosted at the Michigan State University, East Lansing, Michigan.
 
-### Cost
+### Schedule
 
-Cost to be determined when additional funding sources are confirmed, but are estimated to be less than $300. Participants will be repsonsible for their own transportation and lodging.
+<div style="text-align: center;">
+  <img src="/events/summer_school_schedule.png" alt="TARDIS Summer School Schedule" style="width: 70%;">
+</div>
+
+### Registration
+
+Registration will be capped at **25 people** to ensure well-balanced instructor-participant ratios.
+
+Registration fees:
+<div style="display: flex; flex-direction: column; gap: 15px; margin: 20px 0;">
+  <div style="display: flex; align-items: center; border-left: 4px solid #4caf50; padding-left: 15px; background-color: #f9f9f9; border-radius: 0 5px 5px 0; padding: 10px;">
+    <div style="font-weight: bold; min-width: 100px;">Early bird:</div>
+    <div style="font-size: 1.1em;"><span style="color: #4caf50; font-weight: bold;">$250</span> <span style="font-style: italic;">before April 15th</span></div>
+  </div>
+  
+  <div style="display: flex; align-items: center; border-left: 4px solid #2196f3; padding-left: 15px; background-color: #f9f9f9; border-radius: 0 5px 5px 0; padding: 10px;">
+    <div style="font-weight: bold; min-width: 100px;">Normal:</div>
+    <div style="font-size: 1.1em;"><span style="color: #2196f3; font-weight: bold;">$300</span> <span style="font-style: italic;">before May 31st</span></div>
+  </div>
+  
+  <div style="display: flex; align-items: center; border-left: 4px solid #ff9800; padding-left: 15px; background-color: #f9f9f9; border-radius: 0 5px 5px 0; padding: 10px;">
+    <div style="font-weight: bold; min-width: 100px;">Late:</div>
+    <div style="font-size: 1.1em;"><span style="color: #ff9800; font-weight: bold;">$350</span> <span style="font-style: italic;">before July 1st</span></div>
+  </div>
+</div>
+
+[Click here to register and pay the registration fee](https://forms.gle/qp233vedbvBYUb6JA).
+
+***Note:** Participants will be responsible for their own transportation and lodging.*
+
+### Contact
+
+Please direct any questions to tardis.summerschool@gmail.com
 
 ### Scientific Organizing Committee (SOC)
 
