@@ -79,44 +79,6 @@
         "twitter": ""
     },
     {
-        "title": "LIV (Last Interaction Velocity) Plot",
-        "author_id": "Sarthak Srivastava",
-        "article_id": "liv_plot_sarthak",
-        "display": true,
-        "date": "2024-08-23",
-        "category": "News",
-        "tags": [
-            "visualization"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/LIV_ply.png",
-        "content": {
-            "1_para": "The TARDIS SDEC plot visualizes which atoms photon packets interact with before they escape the ejecta and contribute to the output spectrum's absorption and emission features. However, the SDEC plot does not visualize where these interactions occur within the ejecta. This information can be beneficial to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum.",
-            "2_para": "This project develops the LIV (Last Interaction Velocity) Plot that plots the number of photon packet interactions as a velocity function for each element present in the ejecta. One such example is shown in the plot below.",
-            "3_img": "research_news/articles/LIV_Plot_Sarthak/media/images/LIV_mpl.png",
-            "4_para": "We can create a highly informative and visually appealing Last Interaction Velocity plot using Matplotlib, If you're using the Last Interaction Velocity plot for exploration, consider creating an interactive version with Plotly. This allows you to zoom, pan, and inspect data values by hovering, resizing the scale, and more conveniently.",
-            "5_img": "research_news/articles/LIV_Plot_Sarthak/media/images/plotly-gif.gif",
-            "6_para": "The plots have various options providing the users with more control over how your last interaction velocity looks, like, 'species_list', 'nelements', 'packet_wvl_range', 'num_bins', 'log_scale' and many other options.",
-            "7_para": "The detailed report for the GSoC project is available <a href='https://sites.google.com/view/sarthak-gsoc2024/home'>here</a>."
-        },
-        "people_involved_ids": [
-            "Sarthak Srivastava",
-            "James Gillanders",
-            "Jaladh Singhal",
-            "Abhinav Ohri",
-            "Mark Magee"
-        ],
-        "links": {
-            "Full Report": "https://sites.google.com/view/sarthak-gsoc2024/home"
-        },
-        "twitter": ""
-    },
-    {
         "title": "Enhancing Packet Trackers",
         "author_id": "Sumit Gupta",
         "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
@@ -153,38 +115,42 @@
         "twitter": ""
     },
     {
-        "title": "A Sample of TARDIS Improvements at TARDISCon",
-        "author_id": "",
-        "article_id": "sample_tardis_improvements_obrien",
+        "title": "LIV (Last Interaction Velocity) Plot",
+        "author_id": "Sarthak Srivastava",
+        "article_id": "liv_plot_sarthak",
         "display": true,
-        "date": "2024-07-19",
+        "date": "2024-08-23",
         "category": "News",
         "tags": [
-            "TARDISCon",
-            "TARDIS",
-            "news",
-            "supernova"
+            "visualization"
         ],
         "platforms": [
             "tardis"
         ],
-        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.",
+        "short_description": "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
         "cover_image_height": "520px",
         "cover_image_width": "330px",
-        "cover_image": "../articles/samplers_compare.gif",
+        "cover_image": "../articles/LIV_ply.png",
         "content": {
-            "1_para": "At TARDISCon, part of the TARDIS team ([anirban_dutta], [jing_lu], and [jack_o_brien]) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
-            "2_para": "This sampler will be used as part of the gamma-ray energy deposition module for TARDIS that is currently under development. It will enable TARDIS to accurately simulate the formation and annihilation of positronium and the resulting gamma-ray spectra and deposition rates.",
-            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  [jack_o_brien], [anirban_dutta], and [wolfgang_kerzendorf] wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers."
+            "1_para": "The TARDIS SDEC plot visualizes which atoms photon packets interact with before they escape the ejecta and contribute to the output spectrum's absorption and emission features. However, the SDEC plot does not visualize where these interactions occur within the ejecta. This information can be beneficial to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum.",
+            "2_para": "This project develops the LIV (Last Interaction Velocity) Plot that plots the number of photon packet interactions as a velocity function for each element present in the ejecta. One such example is shown in the plot below.",
+            "3_img": "research_news/articles/LIV_Plot_Sarthak/media/images/LIV_mpl.png",
+            "4_para": "We can create a highly informative and visually appealing Last Interaction Velocity plot using Matplotlib, If you're using the Last Interaction Velocity plot for exploration, consider creating an interactive version with Plotly. This allows you to zoom, pan, and inspect data values by hovering, resizing the scale, and more conveniently.",
+            "5_img": "research_news/articles/LIV_Plot_Sarthak/media/images/plotly-gif.gif",
+            "6_para": "The plots have various options providing the users with more control over how your last interaction velocity looks, like, 'species_list', 'nelements', 'packet_wvl_range', 'num_bins', 'log_scale' and many other options.",
+            "7_para": "The detailed report for the GSoC project is available <a href='https://sites.google.com/view/sarthak-gsoc2024/home'>here</a>."
         },
         "people_involved_ids": [
-            "Andrew Fullard",
-            "",
-            "Anirban  Dutta",
-            "Wolfgang Kerzendorf"
+            "Sarthak Srivastava",
+            "James Gillanders",
+            "Jaladh Singhal",
+            "Abhinav Ohri",
+            "Mark Magee"
         ],
-        "links": {},
-        "twitter": "None"
+        "links": {
+            "Full Report": "https://sites.google.com/view/sarthak-gsoc2024/home"
+        },
+        "twitter": ""
     },
     {
         "title": "TARDIS-con",
@@ -224,6 +190,40 @@
             "Jack O'Brien",
             "",
             ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "A Sample of TARDIS Improvements at TARDISCon",
+        "author_id": "",
+        "article_id": "sample_tardis_improvements_obrien",
+        "display": true,
+        "date": "2024-07-19",
+        "category": "News",
+        "tags": [
+            "TARDISCon",
+            "TARDIS",
+            "news",
+            "supernova"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/samplers_compare.gif",
+        "content": {
+            "1_para": "At TARDISCon, part of the TARDIS team ([anirban_dutta], [jing_lu], and [jack_o_brien]) worked on a new positronium spectrum sampler. Positronium is a bound system of an electron and a positron that is stable for only a very short time (nanoseconds). It has a chance to be formed as part of the beta decay process of radioactive elements in supernovae. When the electron-positron pair annihilate each other, they can produce either 2 or 3 gamma-rays. We wrote code to sample the possible gamma-ray energies by inverting the integral description from Ore & Powell (1949).",
+            "2_para": "This sampler will be used as part of the gamma-ray energy deposition module for TARDIS that is currently under development. It will enable TARDIS to accurately simulate the formation and annihilation of positronium and the resulting gamma-ray spectra and deposition rates.",
+            "3_para": "In addition to adding samplers for new physics processes, TARDIS team members added new sampling features to the existing radiative transfer framework.  [jack_o_brien], [anirban_dutta], and [wolfgang_kerzendorf] wrote a weighted sampler implementation for the Monte Carlo packet instantiation.  This new sampler allows TARDIS to draw more packet samples in wavelength regions with low radiative intensity to improve the quality of the statistics, especially near the red and blue ends of the spectrum.  In contrast to the original packet sampler, which generates packets at each frequency with a probability corresponding to its initial radiative intensity, the weighted sampler works by drawing frequencies for each packet uniformly across the spectrum and assigning a weight to each packet based on the initial radiative intensity.  In the future, this sampler will serve to help TARDIS both track and actively improve its sampling efficiency in undersampled regions of the spectrum as well as serve as a base for more complex importance samplers."
+        },
+        "people_involved_ids": [
+            "Andrew Fullard",
+            "",
+            "Anirban  Dutta",
+            "Wolfgang Kerzendorf"
         ],
         "links": {},
         "twitter": "None"
