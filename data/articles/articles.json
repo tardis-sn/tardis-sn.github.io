@@ -22,6 +22,35 @@
         "twitter": ""
     },
     {
+        "title": "TARDIS Repository Hits 3000 Pull Requests!",
+        "author_id": "Abhinav Ohri",
+        "article_id": "3000_pull_requests_abhinav",
+        "display": true,
+        "date": "2025-03-03",
+        "category": "News",
+        "tags": [
+            "TARDIS",
+            "Milestone",
+            "Open Source"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Celebrating a major milestone as the TARDIS repository reaches 3000 pull requests.",
+        "cover_image_height": "330px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/cover.gif",
+        "content": {
+            "1_para": "We are thrilled to announce that on March 03, 2025 the <a href='https://github.com/tardis-sn/tardis'>TARDIS repository</a> has reached an incredible milestone of 3000 pull requests! This achievement is a testament to the hard work and dedication of our amazing community of contributors. Since its inception, TARDIS has grown exponentially, thanks to the continuous support and contributions from developers around the world. Each pull request represents a step forward in making TARDIS a more robust and feature-rich tool for everyone. We are excited to see what the future holds as we continue to innovate and improve. We extend our heartfelt gratitude to all contributors, past and present, for their invaluable efforts. Together, we are building something truly remarkable."
+        },
+        "people_involved_ids": [],
+        "links": {
+            "GitHub Repository": "https://github.com/tardis-sn/tardis",
+            "Contribution Guide": "https://github.com/tardis-sn/tardis/blob/main/CONTRIBUTING.md"
+        },
+        "twitter": ""
+    },
+    {
         "title": "Modeling Stripped-Envelope Supernovae with Physics-Driven Framework",
         "author_id": "Jing Lu",
         "research_id": "",
