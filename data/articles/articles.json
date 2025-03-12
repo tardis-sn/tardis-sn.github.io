@@ -1,5 +1,27 @@
 [
     {
+        "title": "The TARDIS collaboration mourns the loss of R. Kurucz",
+        "author_id": "Andrew Fullard",
+        "article_id": "kurucz-obituary-andrew",
+        "display": true,
+        "date": "2025-05-03",
+        "category": "News",
+        "tags": [],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "",
+        "cover_image_height": "630px",
+        "cover_image_width": "580px",
+        "cover_image": "../articles/kurucz-spectrum.png",
+        "content": {
+            "1_para": "The TARDIS collaboration was saddened to learn of the passing of Robert Kurucz on March 1st, 2025. Much of the work we do has been based on his many years of careful work gathering and processing atomic data for astrophysics research. Our default atomic data file bears his name. We recommend reading his Boston Globe obituary at https://obits.mlive.com/us/obituaries/bostonglobe/name/robert-kurucz-obituary?id=57719179 and consider donating to UNICEF to honor his legacy."
+        },
+        "people_involved_ids": [],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "Modeling Stripped-Envelope Supernovae with Physics-Driven Framework",
         "author_id": "Jing Lu",
         "research_id": "",
