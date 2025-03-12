@@ -1,12 +1,12 @@
 ---
 title: The TARDIS collaboration mourns the loss of R. Kurucz
 excerpt: >-
-  
-publishDate: 2025-05-03
+  The TARDIS collaboration mourns the loss of R. Kurucz
+publishDate: 2025-03-05
 thumb_image: ../articles/kurucz-spectrum.png
 seo:
   title: The TARDIS collaboration mourns the loss of R. Kurucz
-  description: 
+  description: The TARDIS collaboration mourns the loss of R. Kurucz
   extra:
     - name: 'og:type'
       value: website
@@ -16,7 +16,7 @@ seo:
       keyName: property
     - name: 'og:description'
       value: >-
-        
+        The TARDIS collaboration mourns the loss of R. Kurucz
       keyName: property
     - name: 'og:image'
       value: ../articles/kurucz-spectrum.png
@@ -28,7 +28,7 @@ seo:
       value: The TARDIS collaboration mourns the loss of R. Kurucz
     - name: 'twitter:description'
       value: >-
-        
+        The TARDIS collaboration mourns the loss of R. Kurucz
     - name: 'twitter:image'
       value: ../articles/kurucz-spectrum.png
       relativeUrl: true
