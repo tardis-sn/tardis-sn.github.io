@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "member_id": "andrew_fullard",
+        "years": [
+            2025
+        ],
+        "full_name": "Andrew Fullard",
+        "image_path": "media/images/me.jpg"
+    },
+    {
+        "member_id": "atharva_arya",
+        "years": [
+            2025
+        ],
+        "full_name": "Atharva Arya",
+        "image_path": "media/images/atharva.jpg"
+    },
+    {
+        "member_id": "wolfgang_kerzendorf",
+        "years": [
+            2025
+        ],
+        "full_name": "Wolfgang Kerzendorf",
+        "image_path": "media/images/wolfgang.jpg"
+    }
+]
