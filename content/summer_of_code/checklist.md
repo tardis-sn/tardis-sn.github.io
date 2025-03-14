@@ -18,7 +18,7 @@ If you are interested in participating, please contact us through [Gitter](https
 3. Submit your completed [TARDIS challenge](https://forms.gle/ov1f71qogP36qLMc7).
 4. Check out the [Ideas Page](../ideas).
 5. Introduce yourself to us on [Gitter](https://gitter.im/tardis-sn/gsoc).
-6. Start your [application](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines). Here are some of the [previously accepted GSoc projects](https://tardis-sn.github.io/summer_of_code/gsoc_home#previously-accepted-gSoc-projects).
+6. Start your [application](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines). Here are some of the [previously accepted GSoc projects](https://tardis-sn.github.io/summer_of_code/gsoc_org_accepted#previously-accepted-gSoc-projects).
 7. Select a project.
    - Many projects have additional specific instructions. They often involve a Pull Request.
 8. Discuss and share your project details (don't wait!)
