@@ -1,13 +1,13 @@
 ---
 title: "Citation Guide"
-date: 2025-03-22
+date: 2025-03-29
 draft: false
 layout: page
 ---
 
 # Credits & Publication Policies {#tardiscredits}
 
-[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.15052203-blue)](https://doi.org/10.5281/zenodo.15052203)
+[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.15069852-blue)](https://doi.org/10.5281/zenodo.15069852)
 
 We provide TARDIS as a free, open-source tool. If you are using it,
 please adhere to a few policies and acknowledge the TARDIS Team.
@@ -22,7 +22,7 @@ add the following paragraph to the Acknowledgement section:
 ```
 This research made use of \textsc{tardis}, a community-developed
 software package for spectral synthesis in supernovae
-\citep{2014MNRAS.440..387K, kerzendorf_2025_15052203}. The development
+\citep{2014MNRAS.440..387K, kerzendorf_2025_15069852}. The development
 of \textsc{tardis} received support from GitHub, the Google Summer of
 Code initiative, and from ESA's Summer of Code in Space program.
 \textsc{tardis} is a fiscally sponsored project of NumFOCUS.
@@ -81,7 +81,7 @@ archivePrefix = {arXiv},
 ```
 
 ``` bibtex
-@software{kerzendorf_2025_15052203,
+@software{kerzendorf_2025_15069852,
   author       = {Kerzendorf, Wolfgang and
                   Sim, Stuart and
                   Vogl, Christian and
@@ -189,12 +189,12 @@ archivePrefix = {arXiv},
                   Nayak U, Ashwin and
                   Kumar, Atul and
                   Kharkar, Atharwa},
-  title        = {tardis-sn/tardis: TARDIS v2025.03.19},
+  title        = {tardis-sn/tardis: TARDIS v2025.03.23},
   month        = mar,
   year         = 2025,
   publisher    = {Zenodo},
-  version      = {release-2025.03.19},
-  doi          = {10.5281/zenodo.15052203},
-  url          = {https://doi.org/10.5281/zenodo.15052203},
+  version      = {release-2025.03.23},
+  doi          = {10.5281/zenodo.15069852},
+  url          = {https://doi.org/10.5281/zenodo.15069852},
 }
 ```
