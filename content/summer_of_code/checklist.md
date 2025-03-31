@@ -22,7 +22,8 @@ If you are interested in participating, please contact us through [Gitter](https
 7. Select a project.
    - Many projects have additional specific instructions. They often involve a Pull Request.
 8. Discuss and share your project details (don't wait!)
-9. Submit your application!
+9. You can share your proposal [here](https://forms.gle/L2zc5f9HLsLCUHPRA) in order to get feedback before final submission. **Please note that this is only for review. You NEED to submit your proposal on the Google Summer of Code website to get accepted.**
+10. Submit your application!
 
 ***NOTE:***
 If you use any AI or LLMs, you must disclose their use in your PRs and/or conversations with your mentor. Additionally, you must fully understand and be able to explain any AI-generated code you submit. Any undisclosed use of AI or Large Language Models, or inability to explain AI-generated contributions, will be grounds for instant disqualification.
