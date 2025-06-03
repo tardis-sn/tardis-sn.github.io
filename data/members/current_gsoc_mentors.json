@@ -80,6 +80,14 @@
         "image_path": "media/images/james.jpeg"
     },
     {
+        "member_id": "jared_goldberg",
+        "years": [
+            2025
+        ],
+        "full_name": "Jared Goldberg",
+        "image_path": "media/images/jared.png"
+    },
+    {
         "member_id": "jing_lu",
         "years": [
             2025
