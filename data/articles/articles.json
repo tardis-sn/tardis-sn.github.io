@@ -1,5 +1,30 @@
 [
     {
+        "title": "GSoC 2025 Coding Period Begins",
+        "author_id": "",
+        "article_id": "gsoc_participants_2025",
+        "display": true,
+        "date": "2025-06-02",
+        "category": "News",
+        "tags": [],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "",
+        "cover_image_height": "330px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/gsoc_2025_participants.png",
+        "content": {
+            "1_para": "Today marks the official start of the 2025 Google Summer of Code coding period for the TARDIS project. We are excited to welcome Haillie Perkins and Riddhi Gangbhoj as this year's GSoC participants.",
+            "2_para": "Riddhi Gangbhoj will tackle the Regression Data Dashboard and HDF writing capabilities project, which would help in tracking changes in regression test outputs and enhancing HDF I/O.",
+            "3_para": "Haillie Perkins will work on the implementing Line Identification Plotting Functionality to visualize the origins of spectral lines in TARDIS and STARDIS.",
+            "4_para": "We are thrilled to have them on board and look forward to a productive summer of collaboration and innovation. Stay tuned for updates on their progress!"
+        },
+        "people_involved_ids": [],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "The TARDIS collaboration mourns the loss of R. Kurucz",
         "author_id": "Andrew Fullard",
         "article_id": "kurucz_obituary_andrew",
@@ -49,6 +74,32 @@
             "GitHub Repository": "https://github.com/tardis-sn/tardis",
             "Contribution Guide": "https://github.com/tardis-sn/tardis/blob/main/CONTRIBUTING.md"
         },
+        "twitter": ""
+    },
+    {
+        "title": "TARDIS Selected as a Google Summer of Code 2025 Mentoring Organization",
+        "author_id": "",
+        "article_id": "tardis_2025_GSOC",
+        "display": true,
+        "date": "2025-02-27",
+        "category": "News",
+        "tags": [
+            "GSoC",
+            "Summer Program",
+            "2025"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "",
+        "cover_image_height": "330px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/gsoc_2025_mentoring.png",
+        "content": {
+            "1_para": "TARDIS has been selected as a mentoring organization for Google Summer of Code 2025. We\u2019re thrilled to join this global program and provide guidance to aspiring open-source contributors and advancing open-source research in computational astrophysics.We look forward to a productive summer of collaboration and innovation."
+        },
+        "people_involved_ids": [],
+        "links": {},
         "twitter": ""
     },
     {
