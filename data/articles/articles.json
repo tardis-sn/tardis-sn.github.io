@@ -1,5 +1,31 @@
 [
     {
+        "title": "Introducing GSoC Contributor Haille Perkins",
+        "author_id": "",
+        "article_id": "gsoc_intro_perkins",
+        "display": true,
+        "date": "2025-06-05",
+        "category": "News",
+        "tags": [
+            "GSoC",
+            "Summer Program",
+            "2025"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "",
+        "cover_image_height": "330px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/perkinsPhoto.jpeg",
+        "content": {
+            "1_para": "Haille Perkins is one of this year's Google Summer of Code contributors! She is a 3rd year graduate candidate in the Astronomy Department at the University of Illinois Urbana-Champaign. At UIUC, her these work focuses on modeling kilonovae and rare core collapse supernovae to learn more about the nucleosynthesis involved in these events. As a GSoC contributor, she will be working on functionality to indicate spectral line features in TARDIS spectral visualizations.  Her work will enable simple comparisons with published, labeled spectra; a physical understanding of new models; and development of publication-ready plots.  Additionally, she will utilize `jax` to more efficiently compute Lucy (1999b) formal integral spectra, reducing computational cost for users. "
+        },
+        "people_involved_ids": [],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "GSoC 2025 Coding Period Begins",
         "author_id": "",
         "article_id": "gsoc_participants_2025",

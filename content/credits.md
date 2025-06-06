@@ -1,6 +1,6 @@
 ---
 title: "Citation Guide"
-date: 2025-06-04
+date: 2025-06-05
 draft: false
 layout: page
 ---
