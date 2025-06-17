@@ -1,5 +1,33 @@
 [
     {
+        "title": "Introducing GSoC-2025 Contributor Riddhi Gangbhoj",
+        "author_id": "",
+        "article_id": "gsoc_introduction_riddhi",
+        "display": true,
+        "date": "2025-06-17",
+        "category": "News",
+        "tags": [
+            "GSoC",
+            "GSoC-2025",
+            "Summer Program",
+            "2025"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "",
+        "cover_image_height": "330px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/riddhigangbhoj.jpg",
+        "content": {
+            "1_para": "Riddhi Gangbhoj is one of the Google Summer of Code 2025 contributors. She is a software developer who completed her graduation in 2023 and worked with Accenture for a year before doing GSoC",
+            "2_para": "As a GSoC contributor, she will work on building a regression data dashboard for TARDIS which will improve the testing experience. Her work will allow detailed comparison and visualization of regression data across TARDIS commits. Additionally, she will develop tools for detailed comparison of individual HDF files and numpy arrays."
+        },
+        "people_involved_ids": [],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "Introducing GSoC Contributor Haille Perkins",
         "author_id": "",
         "article_id": "gsoc_intro_perkins",
