@@ -154,8 +154,9 @@
             "2025ApJ...979..148L",
             "2025ApJ...980L..44M",
             "2025MNRAS.536..879M",
-            "2025MNRAS.tmp..858M",
+            "2025MNRAS.540.2923M",
             "2025PhRvD.111h3047K",
+            "2025RAA....25f5016W",
             "2025arXiv250101485K",
             "2025arXiv250317445J",
             "2025arXiv250410696V",
@@ -4101,13 +4102,13 @@
         ],
         "bibstem": [
             "MNRAS",
-            "MNRAS.tmp"
+            "MNRAS.540"
         ],
         "title": [
-            "Electron-Impact Excitation of Zirconium I-III in support of Neutron Star Merger Diagnostics"
+            "Electron-impact excitation of zirconium I-III in support of neutron star merger diagnostics"
         ],
         "year": "2025",
-        "bibcode": "2025MNRAS.tmp..858M"
+        "bibcode": "2025MNRAS.540.2923M"
     },
     {
         "author": [
@@ -4127,6 +4128,22 @@
         ],
         "year": "2025",
         "bibcode": "2025PhRvD.111h3047K"
+    },
+    {
+        "author": [
+            "Wen, Xudong",
+            "Peng, Zongkai",
+            "Gao, He"
+        ],
+        "bibstem": [
+            "RAA",
+            "RAA....25"
+        ],
+        "title": [
+            "Polarization Signals of Luminous Supernovae by Jet-driven Bipolar Explosions"
+        ],
+        "year": "2025",
+        "bibcode": "2025RAA....25f5016W"
     },
     {
         "author": [
