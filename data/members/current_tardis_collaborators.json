@@ -1,132 +1,13 @@
 [
     {
-        "member_id": "jaladh_singhal",
+        "member_id": "atharva_arya",
         "expertise": [
-            "Visualization/UI Development",
-            "Documentation",
-            "Outreach"
-        ],
-        "start_year": 2019,
-        "end_year": null,
-        "full_name": "Jaladh Singhal",
-        "image_path": "media/images/jaladh.jpg"
-    },
-    {
-        "member_id": "mark_magee",
-        "expertise": [
-            "Type Ia supernovae"
-        ],
-        "start_year": null,
-        "end_year": null,
-        "full_name": "Mark Magee",
-        "image_path": "media/images/mark_profile.png"
-    },
-    {
-        "member_id": "patrick_van",
-        "expertise": [
-            "Machine learning",
-            "Latent-variable models",
-            "Control"
-        ],
-        "start_year": 2018,
-        "end_year": null,
-        "full_name": "Patrick van der Smagt",
-        "image_path": "media/images/patrick.jpg"
-    },
-    {
-        "member_id": "stuart_sim",
-        "expertise": [
-            "Co-founder"
-        ],
-        "start_year": 2011,
-        "end_year": null,
-        "full_name": "Stuart Sim",
-        "image_path": "media/images/me.jpg"
-    },
-    {
-        "member_id": "sona_chitchyan",
-        "expertise": [
-            ""
-        ],
-        "start_year": null,
-        "end_year": null,
-        "full_name": "Sona Chitchyan",
-        "image_path": "media/images/sona_photo.jpg"
-    },
-    {
-        "member_id": "michael_zingale",
-        "expertise": [
-            "Supernovae observation",
-            "Spectral modeling"
-        ],
-        "start_year": 2020,
-        "end_year": null,
-        "full_name": "Michael Zingale",
-        "image_path": "media/images/michael.jpg"
-    },
-    {
-        "member_id": "christian_vogl",
-        "expertise": [
-            "Type II supernovae",
-            "Radiative transfer",
-            "Observational cosmology",
-            "Gravitationally-lensed supernovae",
-            "Machine learning",
-            "Bayesian inference"
-        ],
-        "start_year": 2015,
-        "end_year": null,
-        "full_name": "Christian Vogl",
-        "image_path": "media/images/christian.jpeg"
-    },
-    {
-        "member_id": "aoife_boyle",
-        "expertise": [
-            "Plasma",
-            "Atomic physics",
-            "Helium",
-            "Astrophysics",
-            "Cosmology"
-        ],
-        "start_year": 2014,
-        "end_year": null,
-        "full_name": "Aoife Boyle",
-        "image_path": "media/images/profile.png"
-    },
-    {
-        "member_id": "nutan_chen",
-        "expertise": [
-            "Machine Learning"
+            "Software Development"
         ],
         "start_year": 2021,
         "end_year": null,
-        "full_name": "Nutan Chen",
-        "image_path": "media/images/nutan_chen.jpg"
-    },
-    {
-        "member_id": "josh_shields",
-        "expertise": [
-            "STARDIS",
-            "Stellar radiative transfer",
-            "SNe Ia",
-            "Atomic data"
-        ],
-        "start_year": 2023,
-        "end_year": null,
-        "full_name": "Josh Shields",
-        "image_path": "media/images/josh_photo.jpg"
-    },
-    {
-        "member_id": "jack_o_brien",
-        "expertise": [
-            "Type Ia supernovae",
-            "Spectral analysis",
-            "Machine learning"
-        ],
-        "start_year": 2021,
-        "end_year": null,
-        "full_name": "Jack O'Brien",
-        "image_path": "media/images/jack.jpg"
+        "full_name": "Atharva Arya",
+        "image_path": "media/images/atharva.jpg"
     },
     {
         "member_id": "alexander_holas",
@@ -139,19 +20,6 @@
         "image_path": "media/images/original.jpg"
     },
     {
-        "member_id": "andrew_fullard",
-        "expertise": [
-            "Scientific software",
-            "Radiative transfer",
-            "Late time type ia supernovae",
-            "Massive stars"
-        ],
-        "start_year": 2020,
-        "end_year": null,
-        "full_name": "Andrew Fullard",
-        "image_path": "media/images/me.jpg"
-    },
-    {
         "member_id": "anirban_dutta",
         "expertise": [
             "Modeling the nebular phase spectra of Type Ia supernovae"
@@ -160,6 +28,51 @@
         "end_year": null,
         "full_name": "Anirban  Dutta",
         "image_path": "media/images/anirban_dutta.jpg"
+    },
+    {
+        "member_id": "johannes_buchner",
+        "expertise": [
+            "Data science",
+            "Nested sampling",
+            "Bayesian model comparison"
+        ],
+        "start_year": 2014,
+        "end_year": null,
+        "full_name": "Johannes Buchner",
+        "image_path": "media/images/johannes.jpg"
+    },
+    {
+        "member_id": "mark_magee",
+        "expertise": [
+            "Type Ia supernovae"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "full_name": "Mark Magee",
+        "image_path": "media/images/mark_profile.png"
+    },
+    {
+        "member_id": "wolfgang_kerzendorf",
+        "expertise": [
+            "Type Ia supernovae",
+            "Emulators",
+            "Statistics"
+        ],
+        "start_year": 2011,
+        "end_year": null,
+        "full_name": "Wolfgang Kerzendorf",
+        "image_path": "media/images/wolfgang.jpg"
+    },
+    {
+        "member_id": "vicente_amado",
+        "expertise": [
+            "Meta-research",
+            "Natural language processing"
+        ],
+        "start_year": 2021,
+        "end_year": null,
+        "full_name": "Vicente  Amado Olivo",
+        "image_path": "media/images/ESD_headshot.jpg"
     },
     {
         "member_id": "jing_lu",
@@ -173,16 +86,12 @@
         "image_path": "media/images/jing.jpg"
     },
     {
-        "member_id": "wolfgang_kerzendorf",
-        "expertise": [
-            "Type Ia supernovae",
-            "Emulators",
-            "Statistics"
-        ],
-        "start_year": 2011,
+        "member_id": "markus_kromer",
+        "expertise": [],
+        "start_year": 2015,
         "end_year": null,
-        "full_name": "Wolfgang Kerzendorf",
-        "image_path": "media/images/wolfgang.jpg"
+        "full_name": "Markus Kromer",
+        "image_path": ""
     },
     {
         "member_id": "james_gillanders",
@@ -200,24 +109,41 @@
         "image_path": "media/images/james.jpeg"
     },
     {
-        "member_id": "johannes_buchner",
+        "member_id": "aoife_boyle",
         "expertise": [
-            "Data science",
-            "Nested sampling",
-            "Bayesian model comparison"
+            "Plasma",
+            "Atomic physics",
+            "Helium",
+            "Astrophysics",
+            "Cosmology"
         ],
         "start_year": 2014,
         "end_year": null,
-        "full_name": "Johannes Buchner",
-        "image_path": "media/images/johannes.jpg"
+        "full_name": "Aoife Boyle",
+        "image_path": "media/images/profile.png"
     },
     {
-        "member_id": "markus_kromer",
-        "expertise": [],
-        "start_year": 2015,
+        "member_id": "josh_shields",
+        "expertise": [
+            "STARDIS",
+            "Stellar radiative transfer",
+            "SNe Ia",
+            "Atomic data"
+        ],
+        "start_year": 2023,
         "end_year": null,
-        "full_name": "Markus Kromer",
-        "image_path": ""
+        "full_name": "Josh Shields",
+        "image_path": "media/images/josh_photo.jpg"
+    },
+    {
+        "member_id": "sona_chitchyan",
+        "expertise": [
+            ""
+        ],
+        "start_year": null,
+        "end_year": null,
+        "full_name": "Sona Chitchyan",
+        "image_path": "media/images/sona_photo.jpg"
     },
     {
         "member_id": "ezequiel_passaro",
@@ -231,25 +157,49 @@
         "image_path": "media/images/profile.jpg"
     },
     {
-        "member_id": "atharva_arya",
+        "member_id": "stuart_sim",
         "expertise": [
-            "Software Development"
+            "Co-founder"
         ],
-        "start_year": 2021,
+        "start_year": 2011,
         "end_year": null,
-        "full_name": "Atharva Arya",
-        "image_path": "media/images/atharva.jpg"
+        "full_name": "Stuart Sim",
+        "image_path": "media/images/me.jpg"
     },
     {
-        "member_id": "vicente_amado",
+        "member_id": "andrew_fullard",
         "expertise": [
-            "Meta-research",
-            "Natural language processing"
+            "Scientific software",
+            "Radiative transfer",
+            "Late time type ia supernovae",
+            "Massive stars"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "full_name": "Andrew Fullard",
+        "image_path": "media/images/me.jpg"
+    },
+    {
+        "member_id": "nutan_chen",
+        "expertise": [
+            "Machine Learning"
         ],
         "start_year": 2021,
         "end_year": null,
-        "full_name": "Vicente  Amado Olivo",
-        "image_path": "media/images/ESD_headshot.jpg"
+        "full_name": "Nutan Chen",
+        "image_path": "media/images/nutan_chen.jpg"
+    },
+    {
+        "member_id": "patrick_van",
+        "expertise": [
+            "Machine learning",
+            "Latent-variable models",
+            "Control"
+        ],
+        "start_year": 2018,
+        "end_year": null,
+        "full_name": "Patrick van der Smagt",
+        "image_path": "media/images/patrick.jpg"
     },
     {
         "member_id": "andreas_flors",
@@ -260,5 +210,55 @@
         "end_year": null,
         "full_name": "Andreas Flors",
         "image_path": "media/images/andreas.jpeg"
+    },
+    {
+        "member_id": "jack_o_brien",
+        "expertise": [
+            "Type Ia supernovae",
+            "Spectral analysis",
+            "Machine learning"
+        ],
+        "start_year": 2021,
+        "end_year": null,
+        "full_name": "Jack O'Brien",
+        "image_path": "media/images/jack.jpg"
+    },
+    {
+        "member_id": "christian_vogl",
+        "expertise": [
+            "Type II supernovae",
+            "Radiative transfer",
+            "Observational cosmology",
+            "Gravitationally-lensed supernovae",
+            "Machine learning",
+            "Bayesian inference"
+        ],
+        "start_year": 2015,
+        "end_year": null,
+        "full_name": "Christian Vogl",
+        "image_path": "media/images/christian.jpeg"
+    },
+    {
+        "member_id": "michael_zingale",
+        "expertise": [
+            "Supernovae observation",
+            "Spectral modeling"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "full_name": "Michael Zingale",
+        "image_path": "media/images/michael.jpg"
+    },
+    {
+        "member_id": "jaladh_singhal",
+        "expertise": [
+            "Visualization/UI Development",
+            "Documentation",
+            "Outreach"
+        ],
+        "start_year": 2019,
+        "end_year": null,
+        "full_name": "Jaladh Singhal",
+        "image_path": "media/images/jaladh.jpg"
     }
 ]

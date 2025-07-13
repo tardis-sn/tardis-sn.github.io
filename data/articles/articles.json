@@ -310,6 +310,36 @@
         "twitter": ""
     },
     {
+        "title": "Introducing a new logger widget for TARDIS!",
+        "author_id": "",
+        "article_id": "logger_widget_2024",
+        "display": true,
+        "date": "2024-07-19",
+        "category": "News",
+        "tags": [
+            "logging",
+            "simulation"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Detailed logger for TARDIS simulation run",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/logger.gif",
+        "content": {
+            "1_para": "During TARDIS Con 2024, a collaborative effort by [deeksha_mohanty], [jaladh_singhal], [jing_lu], and [anirban_dutta] led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
+            "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
+        },
+        "people_involved_ids": [
+            "Jaladh Singhal",
+            "Jing Lu",
+            "Anirban  Dutta"
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
         "title": "TARDIS-con",
         "author_id": "Josh Shields",
         "article_id": "tardis_con24",
@@ -347,36 +377,6 @@
             "Jack O'Brien",
             "",
             ""
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
-        "title": "Introducing a new logger widget for TARDIS!",
-        "author_id": "",
-        "article_id": "logger_widget_2024",
-        "display": true,
-        "date": "2024-07-19",
-        "category": "News",
-        "tags": [
-            "logging",
-            "simulation"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Detailed logger for TARDIS simulation run",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/logger.gif",
-        "content": {
-            "1_para": "During TARDIS Con 2024, a collaborative effort by [deeksha_mohanty], [jaladh_singhal], [jing_lu], and [anirban_dutta] led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
-            "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
-        },
-        "people_involved_ids": [
-            "Jaladh Singhal",
-            "Jing Lu",
-            "Anirban  Dutta"
         ],
         "links": {},
         "twitter": "None"
