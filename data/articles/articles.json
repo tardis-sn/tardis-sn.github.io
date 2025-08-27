@@ -1,5 +1,34 @@
 [
     {
+        "title": "Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS",
+        "author_id": "",
+        "article_id": "thesis_defense_deeksha",
+        "display": true,
+        "date": "2025-07-07",
+        "category": "News",
+        "tags": [
+            "Master's Thesis",
+            "talk"
+        ],
+        "platforms": [
+            "kg",
+            "tardis"
+        ],
+        "short_description": "Deeksha Mohanty successfully defended her master's thesis on adaptive damping and convergence in TARDIS simulations at Michigan State University.",
+        "cover_image_height": "390px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/defense_before.jpeg",
+        "content": {
+            "1_para": "We congratulate [deeksha_mohanty] on successfully defending her master's thesis titled \u201cTowards Faster Supernovae Simulations: Enhancing Convergence in TARDIS with Adaptive Damping\u201d at Michigan State University. Her work focused on improving the convergence behavior of TARDIS by studying the stability of its fixed-point iteration scheme and introducing adaptive damping strategies to accelerate it. Deeksha began by developing a convergence framework to analyze and visualize iteration behavior across different supernova types and noise conditions. Building on this, she implemented adaptive damping techniques that respond to residual trends, with the goal of speeding up convergence while maintaining numerical stability.Her benchmarking efforts explored the effects of damping parameters, random seeds, and initial conditions on convergence across hundreds of simulations. We thank her for her contributions and wish her the best in her future endeavors.",
+            "2_img": "research_news/articles/thesis_defense_deeksha/media/images/defense_after.jpeg"
+        },
+        "people_involved_ids": [
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
         "title": "Introducing GSoC-2025 Contributor Riddhi Gangbhoj",
         "author_id": "",
         "article_id": "gsoc_introduction_riddhi",
