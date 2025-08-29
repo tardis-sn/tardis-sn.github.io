@@ -13,10 +13,10 @@
     {
         "year": 2016,
         "info": {
-            "mikhail_mishin": {
-                "full_name": "Mikhail Mishin",
-                "project_title": "Carsus package for creating atomic datasets",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
+            "fotis_tsamis": {
+                "full_name": "Fotis Tsamis",
+                "project_title": "Improvement of the TARDIS configuration system",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/5656164301799424",
                 "image_path": "../me.jpeg"
             },
             "misha_mishkin": {
@@ -25,22 +25,22 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600",
                 "image_path": "../me.jpeg"
             },
-            "tomas_bylund": {
-                "full_name": "Tomas Bylund",
-                "project_title": "TARDIS formal integral",
-                "project_link": "",
-                "image_path": "../me.jpeg"
-            },
             "karan_desai": {
                 "full_name": "Karan Desai",
                 "project_title": "Extensive Test Suite for TARDIS ",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/4796129849901056",
                 "image_path": "../me.jpeg"
             },
-            "fotis_tsamis": {
-                "full_name": "Fotis Tsamis",
-                "project_title": "Improvement of the TARDIS configuration system",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/5656164301799424",
+            "mikhail_mishin": {
+                "full_name": "Mikhail Mishin",
+                "project_title": "Carsus package for creating atomic datasets",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
+                "image_path": "../me.jpeg"
+            },
+            "tomas_bylund": {
+                "full_name": "Tomas Bylund",
+                "project_title": "TARDIS formal integral",
+                "project_link": "",
                 "image_path": "../me.jpeg"
             }
         }
@@ -93,16 +93,16 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/",
                 "image_path": "../me.jpeg"
             },
-            "arib_alam": {
-                "full_name": "Arib Alam",
-                "project_title": "Packet tracking",
-                "project_link": "",
-                "image_path": "../me.jpeg"
-            },
             "yizheng_yu": {
                 "full_name": "Yizheng Yu",
                 "project_title": "Custom Abundance Widget",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
+                "image_path": "../me.jpeg"
+            },
+            "arib_alam": {
+                "full_name": "Arib Alam",
+                "project_title": "Packet tracking",
+                "project_link": "",
                 "image_path": "../me.jpeg"
             },
             "jenny_yu": {
@@ -122,10 +122,10 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa",
                 "image_path": "media/images/atharva.jpg"
             },
-            "jayant_bhakar": {
-                "full_name": "Jayant Bhakar",
-                "project_title": "Monte Carlo 2D Packet Visualization",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
+            "satwik_kambham": {
+                "full_name": "Satwik Kambham",
+                "project_title": "Resuming TARDIS Simulations from HDF",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
                 "image_path": "../me.jpeg"
             },
             "rohith_buddaraju": {
@@ -134,10 +134,10 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z",
                 "image_path": "../me.jpeg"
             },
-            "satwik_kambham": {
-                "full_name": "Satwik Kambham",
-                "project_title": "Resuming TARDIS Simulations from HDF",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
+            "jayant_bhakar": {
+                "full_name": "Jayant Bhakar",
+                "project_title": "Monte Carlo 2D Packet Visualization",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
                 "image_path": "../me.jpeg"
             },
             "shambhabi_gautam": {
@@ -151,17 +151,17 @@
     {
         "year": 2023,
         "info": {
-            "ayushi_daksh": {
-                "full_name": "Ayushi Daksh",
-                "project_title": "Grotrian Diagram Visualisation",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
-                "image_path": "media/images/ayushi.jpg"
-            },
             "shreyas_singh": {
                 "full_name": "Shreyas Singh",
                 "project_title": "Import and Store NNDC Deposition Data",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
                 "image_path": "media/images/shreyas.jpg"
+            },
+            "william_black": {
+                "full_name": "William Black",
+                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
+                "image_path": "../me.jpeg"
             },
             "ansh_kumar": {
                 "full_name": "Ansh Kumar",
@@ -175,23 +175,29 @@
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
                 "image_path": "media/images/aarya.png"
             },
+            "ayushi_daksh": {
+                "full_name": "Ayushi Daksh",
+                "project_title": "Grotrian Diagram Visualisation",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
+                "image_path": "media/images/ayushi.jpg"
+            },
             "shikha_rathi": {
                 "full_name": "Shikha Rathi",
                 "project_title": "Having Versioned Atomic Data Repositories",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
                 "image_path": "media/images/shikha.jpg"
-            },
-            "william_black": {
-                "full_name": "William Black",
-                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
-                "image_path": "../me.jpeg"
             }
         }
     },
     {
         "year": 2024,
         "info": {
+            "sumit_gupta": {
+                "full_name": "Sumit Gupta",
+                "project_title": "Enhancing Packet Trackers",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/1VNxItcN",
+                "image_path": "media/images/myPhoto.jpg"
+            },
             "sarthak_srivastava": {
                 "full_name": "Sarthak Srivastava",
                 "project_title": "Velocity Packet Tracker Visualization",
@@ -202,12 +208,6 @@
                 "full_name": "Asish Kumar",
                 "project_title": "TARDIS Benchmarking and Performance Improvement",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/Xglqxr46",
-                "image_path": "media/images/myPhoto.jpg"
-            },
-            "sumit_gupta": {
-                "full_name": "Sumit Gupta",
-                "project_title": "Enhancing Packet Trackers",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/1VNxItcN",
                 "image_path": "media/images/myPhoto.jpg"
             }
         }
