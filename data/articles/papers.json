@@ -154,10 +154,13 @@
             "2025ApJ...979..148L",
             "2025ApJ...980L..44M",
             "2025ApJ...987..127K",
+            "2025ApJ...990...41S",
+            "2025LRCA...11....1J",
             "2025MNRAS.536..879M",
             "2025MNRAS.540.2923M",
             "2025MNRAS.541..367D",
             "2025MNRAS.541..384D",
+            "2025MNRAS.tmp.1324B",
             "2025PhRvD.111h3047K",
             "2025RAA....25f5016W",
             "2025arXiv250317445J",
@@ -165,7 +168,8 @@
             "2025arXiv250417762S",
             "2025arXiv250508737O",
             "2025arXiv250522992D",
-            "2025arXiv250602118M"
+            "2025arXiv250602118M",
+            "2025arXiv250711767C"
         ]
     },
     {
@@ -4100,6 +4104,20 @@
     },
     {
         "author": [
+            "Jerkstrand, Anders"
+        ],
+        "bibstem": [
+            "LRCA",
+            "LRCA...11"
+        ],
+        "title": [
+            "Spectral synthesis techniques for supernovae and kilonovae"
+        ],
+        "year": "2025",
+        "bibcode": "2025LRCA...11....1J"
+    },
+    {
+        "author": [
             "Matthews, James H.",
             "Long, Knox S.",
             "Knigge, Christian",
@@ -4182,6 +4200,27 @@
         ],
         "year": "2025",
         "bibcode": "2025MNRAS.541..384D"
+    },
+    {
+        "author": [
+            "Bhattacharjee, Snehasish",
+            "Pan, Yen-Chen",
+            "Miao, Hao-Yu",
+            "Kilpatrick, Charles D.",
+            "Hoogendam, Willem B.",
+            "Auchettl, Katie",
+            "Do, Aaron",
+            "Zenati, Yossef"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.tmp"
+        ],
+        "title": [
+            "The Ultraviolet Spectra of 2003fg-like Type Ia Supernovae"
+        ],
+        "year": "2025",
+        "bibcode": "2025MNRAS.tmp.1324B"
     },
     {
         "author": [
@@ -4368,5 +4407,26 @@
         ],
         "year": "2025",
         "bibcode": "2025arXiv250602118M"
+    },
+    {
+        "author": [
+            "Chen, Xingzhuo",
+            "Braga-Neto, Ulisses",
+            "Wang, Lifan",
+            "Kasen, Daniel",
+            "Liu, Zhengwei",
+            "Roepke, F. K.",
+            "Zhong, Ming",
+            "Jeffery, David J."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2507"
+        ],
+        "title": [
+            "SEDONA-GesaRaT: an AI-Accelerated Radiative Transfer Program for 3-D Supernova Simulations"
+        ],
+        "year": "2025",
+        "bibcode": "2025arXiv250711767C"
     }
 ]
