@@ -1,5 +1,42 @@
 [
     {
+        "title": "TARDIS Summer School 2025: Explosive Transient Radiative Transfer",
+        "author_id": "Josh Shields",
+        "article_id": "tardis_summer_school_25",
+        "display": true,
+        "date": "2025-08-15",
+        "category": "News",
+        "tags": [
+            "Education",
+            "Summer School",
+            "TARDIS",
+            "Radiative Transfer"
+        ],
+        "platforms": [
+            "kg",
+            "tardis"
+        ],
+        "short_description": "We hosted a week-long summer school where 15 participants learned the fundamentals of explosive transient radiative transfer and plasma physics, and gained hands-on experience using TARDIS to create spectra of sample supernovae.",
+        "cover_image_height": "330px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/cachedImage.PNG",
+        "content": {
+            "1_para": "We successfully hosted the TARDIS Summer School 2025, a week-long intensive program that brought together 15 researchers from around the world. Participants dove deep into the fundamentals of explosive transient radiative transfer and plasma physics, building a strong theoretical foundation for understanding supernova spectroscopy and the physics behind cosmic explosions.",
+            "2_img": "media/images/DJI_0742.jpg",
+            "3_para": "The hands-on component of the school focused on practical applications using the TARDIS spectral synthesis code. Students learned to set up simulations, interpret results, and create synthetic spectra for various supernova models.",
+            "4_img": "media/images/IMG_1574.jpg"
+        },
+        "people_involved_ids": [
+            "Josh Shields",
+            "Wolfgang Kerzendorf",
+            "Jing Lu",
+            "Anirban  Dutta",
+            "Andrew Fullard"
+        ],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS",
         "author_id": "",
         "article_id": "thesis_defense_deeksha",
