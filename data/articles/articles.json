@@ -1,5 +1,46 @@
 [
     {
+        "title": "Introducing STARDIS: An Open and Modular Stellar Spectral Synthesis Code",
+        "author_id": "Josh Shields",
+        "article_id": "stardis_release",
+        "display": true,
+        "date": "2025-08-28",
+        "category": "News",
+        "tags": [
+            "paper",
+            "Astrophysics",
+            "Stellar Spectroscopy",
+            "Software Release"
+        ],
+        "platforms": [
+            "kg",
+            "tardis"
+        ],
+        "short_description": "We introduce STARDIS, a new open-source Python stellar spectral synthesis code that performs 1D LTE radiative transfer for FGK stars from near-UV to IR wavelengths.",
+        "cover_image_height": "330px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/halpha_sol.png",
+        "content": {
+            "1_para": "We are excited to announce the release of STARDIS, a new 1D stellar spectral synthesis Python code with a detailing manuscript published in The Astrophysical Journal. STARDIS is a modular, open-source radiative transfer code capable of spectral synthesis from near-UV to IR for FGK stars. Built on the TARDIS infrastructure and written in Python\u2014one of the most used languages in astronomy\u2014STARDIS is intended to be approachable for current and future astrophysicists.",
+            "2_img": "../articles/stardis_diagram.jpeg",
+            "3_para": "The code performs three major computational steps: solving the plasma state (molecular, ionization, and excitation balances), calculating wavelength-dependent opacities including continuum and line sources with sophisticated broadening treatments, and solving the radiative transfer equation through ray-tracing to produce synthetic stellar spectra. Validation against established codes like KORG shows excellent agreement, typically within 3% for most spectral features, making STARDIS a reliable tool for stellar abundance analysis and spectroscopic studies."
+        },
+        "people_involved_ids": [
+            "Josh Shields",
+            "Wolfgang Kerzendorf",
+            "",
+            "Andrew Fullard",
+            "Jing Lu"
+        ],
+        "links": {
+            "manuscript": "https://iopscience.iop.org/article/10.3847/1538-4357/adee11",
+            "github": "https://github.com/tardis-sn/stardis",
+            "documentation": "https://tardis-sn.github.io/stardis/",
+            "doi": "10.3847/1538-4357/adee11"
+        },
+        "twitter": ""
+    },
+    {
         "title": "Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS",
         "author_id": "",
         "article_id": "thesis_defense_deeksha",
