@@ -5,20 +5,17 @@ on:
     
 
 jobs:
-  build:
-    
+  build:    
     # This workflow will be triggered only on forks, never on main repository.
-    if: github.repository_owner != 'tardis-sn'
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "0.145.0"
           extended: true
@@ -32,7 +29,7 @@ jobs:
         run: hugo --minify --gc --baseURL https://${{ github.repository_owner }}.github.io/tardis-sn.github.io/branch/${{ steps.extract_branch.outputs.branch }}/
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
