@@ -37,11 +37,11 @@ layout: "post"
 
 We successfully hosted the TARDIS Summer School 2025, a week-long intensive program that brought together 14 researchers from around the world. Participants dove deep into the fundamentals of explosive transient radiative transfer and plasma physics, building a strong theoretical foundation for understanding supernova spectroscopy.
 
-<img src='\../articles/DJI_0742.jpg' alt='Image'>
+<img src='../articles/DJI_0742.jpg' alt='Image'>
 
 The hands-on component of the school focused on key assumptions of computational approaches and practical applications using the TARDIS spectral synthesis code. Students learned to set up simulations, interpret results, and create synthetic spectra for various supernova models.
 
-<img src='\../articles/IMG_1574.jpg' alt='Image'>
+<img src='../articles/IMG_1574.jpg' alt='Image'>
 
 We also had multiple fun social outings throughout the week.
 
