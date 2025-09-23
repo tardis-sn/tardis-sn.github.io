@@ -7,6 +7,7 @@ on:
 jobs:
   build:    
     # This workflow will be triggered only on forks, never on main repository.
+    if: github.repository_owner != 'tardis-sn'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
