@@ -155,21 +155,21 @@
             "2025ApJ...980L..44M",
             "2025ApJ...987..127K",
             "2025ApJ...990...41S",
+            "2025ApJ...990..129D",
             "2025LRCA...11....1J",
             "2025MNRAS.536..879M",
             "2025MNRAS.540.2923M",
             "2025MNRAS.541..367D",
             "2025MNRAS.541..384D",
-            "2025MNRAS.tmp.1324B",
+            "2025MNRAS.542.2752B",
             "2025PhRvD.111h3047K",
             "2025RAA....25f5016W",
             "2025arXiv250317445J",
             "2025arXiv250410696V",
-            "2025arXiv250417762S",
             "2025arXiv250508737O",
-            "2025arXiv250522992D",
             "2025arXiv250602118M",
-            "2025arXiv250711767C"
+            "2025arXiv250711767C",
+            "2025arXiv250907717B"
         ]
     },
     {
@@ -4104,6 +4104,50 @@
     },
     {
         "author": [
+            "Shields, Joshua V.",
+            "Kerzendorf, Wolfgang",
+            "Smith, Isaac G.",
+            "Pereira, Tiago M. D.",
+            "Vogl, Christian",
+            "Groneck, Ryan",
+            "Fullard, Andrew G.",
+            "Singhal, Jaladh",
+            "Lu, Jing",
+            "Fontes, Christopher J."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...990"
+        ],
+        "title": [
+            "Introducing STARDIS: An Open and Modular Stellar Spectral Synthesis Code"
+        ],
+        "year": "2025",
+        "bibcode": "2025ApJ...990...41S"
+    },
+    {
+        "author": [
+            "Dutta, Anirban",
+            "Fullard, Andrew G.",
+            "Kerzendorf, Wolfgang E.",
+            "O'Brien, J. T.",
+            "Powers, Cecelia",
+            "Sim, Stuart A.",
+            "Fl\u00f6rs, Andreas",
+            "Graur, Or"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...990"
+        ],
+        "title": [
+            "Effect of Positronium on the \u03b3-Ray Spectra and Energy Deposition in Type Ia Supernovae"
+        ],
+        "year": "2025",
+        "bibcode": "2025ApJ...990..129D"
+    },
+    {
+        "author": [
             "Jerkstrand, Anders"
         ],
         "bibstem": [
@@ -4214,13 +4258,13 @@
         ],
         "bibstem": [
             "MNRAS",
-            "MNRAS.tmp"
+            "MNRAS.542"
         ],
         "title": [
-            "The Ultraviolet Spectra of 2003fg-like Type Ia Supernovae"
+            "The ultraviolet spectra of 2003fg-like Type Ia supernovae"
         ],
         "year": "2025",
-        "bibcode": "2025MNRAS.tmp.1324B"
+        "bibcode": "2025MNRAS.542.2752B"
     },
     {
         "author": [
@@ -4298,29 +4342,6 @@
     },
     {
         "author": [
-            "Shields, Joshua V.",
-            "Kerzendorf, Wolfgang",
-            "Smith, Isaac G.",
-            "Pereira, Tiago M. D.",
-            "Vogl, Christian",
-            "Groneck, Ryan",
-            "Fullard, Andrew",
-            "Singhal, Jaladh",
-            "Lu, Jing",
-            "Fontes, Christopher J."
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2504"
-        ],
-        "title": [
-            "Introducing STARDIS: An Open and Modular Stellar Spectral Synthesis Code"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv250417762S"
-    },
-    {
-        "author": [
             "Ouyed, Rachid"
         ],
         "bibstem": [
@@ -4332,27 +4353,6 @@
         ],
         "year": "2025",
         "bibcode": "2025arXiv250508737O"
-    },
-    {
-        "author": [
-            "Dutta, Anirban",
-            "Fullard, Andrew",
-            "Kerzendorf, Wolfgang",
-            "O'Brien, J. T.",
-            "Powers, Cecelia",
-            "Sim, Stuart A",
-            "Fl\u00f6rs, Andreas",
-            "Graur, Or"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2505"
-        ],
-        "title": [
-            "Effect of positronium on the $\u03b3$-ray spectra and energy deposition in Type Ia supernovae"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv250522992D"
     },
     {
         "author": [
@@ -4428,5 +4428,38 @@
         ],
         "year": "2025",
         "bibcode": "2025arXiv250711767C"
+    },
+    {
+        "author": [
+            "B\u00e1nhidi, D.",
+            "Barna, B.",
+            "Szalai, T.",
+            "Vink\u00f3, J.",
+            "B\u00edr\u00f3, I. B.",
+            "Bostroem, K. A.",
+            "Cs\u00e1nyi, I.",
+            "Davis, K. W.",
+            "Foley, R. J.",
+            "Galbany, L.",
+            "Jha, S. W.",
+            "Howell, D. A.",
+            "Kwok, L. A.",
+            "P\u00e1l, A.",
+            "Pellegrino, C.",
+            "Rojas-Bravo, C.",
+            "Sz\u00e9kely, P.",
+            "Taggart, K.",
+            "Terreran, G.",
+            "Tinyanont, S."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2509"
+        ],
+        "title": [
+            "SN 2022xlp: The second-known well-observed, intermediate-luminosity Iax supernova"
+        ],
+        "year": "2025",
+        "bibcode": "2025arXiv250907717B"
     }
 ]
