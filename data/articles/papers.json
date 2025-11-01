@@ -146,30 +146,33 @@
             "2024MNRAS.534.3423M",
             "2024RNAAS...8..177L",
             "2024SSRv..220...13S",
-            "2024arXiv240907729C",
-            "2024arXiv241104968V",
-            "2024arXiv241118985C",
             "2025A&A...694A...9B",
+            "2025A&A...702A..41V",
             "2025A&ARv..33....1R",
             "2025ApJ...979..148L",
             "2025ApJ...980L..44M",
             "2025ApJ...987..127K",
             "2025ApJ...990...41S",
             "2025ApJ...990..129D",
+            "2025ApJ...991..180C",
+            "2025ApJ...991..219C",
             "2025LRCA...11....1J",
             "2025MNRAS.536..879M",
             "2025MNRAS.540.2923M",
             "2025MNRAS.541..367D",
             "2025MNRAS.541..384D",
             "2025MNRAS.542.2752B",
+            "2025MNRAS.543.3731M",
+            "2025MNRAS.543.3885O",
             "2025PhRvD.111h3047K",
             "2025RAA....25f5016W",
             "2025arXiv250317445J",
             "2025arXiv250410696V",
-            "2025arXiv250508737O",
-            "2025arXiv250602118M",
             "2025arXiv250711767C",
-            "2025arXiv250907717B"
+            "2025arXiv250718753B",
+            "2025arXiv250907717B",
+            "2025arXiv251009261M",
+            "2025arXiv251023823H"
         ]
     },
     {
@@ -275,7 +278,7 @@
             "Smartt, S. J.",
             "Baltay, C.",
             "Campbell, H. C.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Fink, M.",
             "Gal-Yam, A.",
             "Galbany, L.",
@@ -369,7 +372,7 @@
             "Bartschat, K.",
             "Boudon, V.",
             "Braams, B. J.",
-            "Chung, H. -K.",
+            "Chung, H.-K.",
             "Daniel, F.",
             "Delahaye, F.",
             "Del Zanna, G.",
@@ -412,7 +415,7 @@
             "Quinet, P.",
             "Quintas-S\u00e1nchez, E.",
             "Ralchenko, Yu",
-            "Rhee, Y. -J.",
+            "Rhee, Y.-J.",
             "Rixon, G.",
             "Rothman, L. S.",
             "Roueff, E.",
@@ -733,7 +736,7 @@
     {
         "author": [
             "Smartt, S. J.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Jerkstrand, A.",
             "Coughlin, M.",
             "Kankare, E.",
@@ -792,7 +795,7 @@
             "Harmanen, J.",
             "Heintz, K. E.",
             "Heinze, A.",
-            "Hernandez, M. -S.",
+            "Hernandez, M.-S.",
             "Hodgkin, S. T.",
             "Hook, I. M.",
             "Izzo, L.",
@@ -952,7 +955,7 @@
             "Magee, M. R.",
             "Schady, P.",
             "Sim, S.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Clark, P.",
             "Colin, C.",
             "Fulton, M.",
@@ -964,7 +967,7 @@
             "Denneau, L.",
             "Flewelling, H. A.",
             "Heinze, A.",
-            "Holoien, T. W. -S.",
+            "Holoien, T. W.-S.",
             "Huber, M. E.",
             "Kochanek, C. S.",
             "Mazzali, P. A.",
@@ -1742,7 +1745,7 @@
             "Irani, I.",
             "Kasliwal, M. M.",
             "Kaye, S.",
-            "Kim, Y. -L.",
+            "Kim, Y.-L.",
             "Laher, R. R.",
             "Mahabal, A. A.",
             "Masci, F. J.",
@@ -2154,7 +2157,7 @@
     {
         "author": [
             "Fiore, A.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Jerkstrand, A.",
             "Benetti, S.",
             "Ciolfi, R.",
@@ -2669,7 +2672,7 @@
             "Huber, M. E.",
             "Chambers, K. C.",
             "Angus, C. R.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Callan, F. P.",
             "Gillanders, J. H.",
             "McBrien, O. R.",
@@ -2682,7 +2685,7 @@
             "Anderson, J. P.",
             "Pignata, G.",
             "de Boer, T. J. L.",
-            "Lin, C. -C.",
+            "Lin, C.-C.",
             "Magnier, E. A."
         ],
         "bibstem": [
@@ -2888,7 +2891,7 @@
             "Ferrari, L.",
             "Tomasella, L.",
             "Anderson, J. P.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Galbany, L.",
             "Gao, H.",
             "Gromadzki, M.",
@@ -2983,7 +2986,7 @@
             "Chambers, K. C.",
             "Chassande-Mottin, E.",
             "Chaty, S.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Coleiro, A.",
             "Covino, S.",
             "D'Ammando, F.",
@@ -3007,7 +3010,7 @@
             "Gromadzki, M.",
             "Heintz, K. E.",
             "Hjorth, J.",
-            "Hu, Y. -D.",
+            "Hu, Y.-D.",
             "Huber, M. E.",
             "Inkenhaag, A.",
             "Izzo, L.",
@@ -3018,7 +3021,7 @@
             "Kotak, R.",
             "Leloudas, G.",
             "Levan, A. J.",
-            "Lin, C. -C.",
+            "Lin, C.-C.",
             "Lyman, J. D.",
             "Magnier, E. A.",
             "Maguire, K.",
@@ -3353,7 +3356,7 @@
             "Tucker, M. A.",
             "Young, D. R.",
             "Aamer, A.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Ragosta, F.",
             "Galbany, L.",
             "Gromadzki, M.",
@@ -3893,63 +3896,6 @@
     },
     {
         "author": [
-            "Chen, Xingzhuo",
-            "Wang, Lifan",
-            "Kasen, Daniel"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2409"
-        ],
-        "title": [
-            "An Integral-Based Technique (IBT) to Accelerate the Monte-Carlo Radiative Transfer Computation for Supernovae"
-        ],
-        "year": "2024",
-        "bibcode": "2024arXiv240907729C"
-    },
-    {
-        "author": [
-            "Vogl, Christian",
-            "Taubenberger, Stefan",
-            "Cs\u00f6rnyei, G\u00e9za",
-            "Leibundgut, Bruno",
-            "Kerzendorf, Wolfgang E.",
-            "Sim, Stuart A.",
-            "Blondin, St\u00e9phane",
-            "Fl\u00f6rs, Andreas",
-            "Holas, Alexander",
-            "Shields, Joshua V.",
-            "Spyromilio, Jason",
-            "Suyu, Sherry H.",
-            "Hillebrandt, Wolfgang"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2411"
-        ],
-        "title": [
-            "No rungs attached: A distance-ladder free determination of the Hubble constant through type II supernova spectral modelling"
-        ],
-        "year": "2024",
-        "bibcode": "2024arXiv241104968V"
-    },
-    {
-        "author": [
-            "Chen, Chun",
-            "Shen, Rong-Feng"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2411"
-        ],
-        "title": [
-            "The spectra of a radiative reprocessing outflow model for fast blue optical transients"
-        ],
-        "year": "2024",
-        "bibcode": "2024arXiv241118985C"
-    },
-    {
-        "author": [
             "Burgaz, U.",
             "Maguire, K.",
             "Dimitriadis, G.",
@@ -3968,7 +3914,7 @@
             "Deckers, M.",
             "Dhawan, S.",
             "Ginolin, M.",
-            "Kim, Y. -L.",
+            "Kim, Y.-L.",
             "Miller, A. A.",
             "Muller-Bravo, T. E.",
             "Nugent, P. E.",
@@ -3994,6 +3940,34 @@
         ],
         "year": "2025",
         "bibcode": "2025A&A...694A...9B"
+    },
+    {
+        "author": [
+            "Vogl, C.",
+            "Taubenberger, S.",
+            "Cs\u00f6rnyei, G.",
+            "Leibundgut, B.",
+            "Kerzendorf, W. E.",
+            "Sim, S. A.",
+            "Peterson, E. R.",
+            "Courtois, H. M.",
+            "Blondin, S.",
+            "Fl\u00f6rs, A.",
+            "Holas, A.",
+            "Shields, J. V.",
+            "Spyromilio, J.",
+            "Suyu, S. H.",
+            "Hillebrandt, W."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...702"
+        ],
+        "title": [
+            "No rungs attached: A distance-ladder-free determination of the Hubble constant through type II supernova spectral modelling"
+        ],
+        "year": "2025",
+        "bibcode": "2025A&A...702A..41V"
     },
     {
         "author": [
@@ -4040,7 +4014,7 @@
             "Smartt, S. J.",
             "Srivastav, S.",
             "Stevance, H. F.",
-            "Chen, T. -W.",
+            "Chen, T.-W.",
             "Chambers, K. C.",
             "Anderson, J. P.",
             "Fulton, M. D.",
@@ -4050,18 +4024,18 @@
             "Erasmus, N.",
             "Gao, H.",
             "Herman, J.",
-            "Lin, C. -C.",
+            "Lin, C.-C.",
             "Lowe, T.",
             "Magnier, E. A.",
             "Minguez, P.",
-            "Ngeow, C. -C.",
+            "Ngeow, C.-C.",
             "Sheng, X.",
             "Sim, S. A.",
             "Smith, K. W.",
             "Wainscoat, R.",
             "Yang, S.",
             "Young, D. R.",
-            "Zeng, K. -J."
+            "Zeng, K.-J."
         ],
         "bibstem": [
             "ApJL",
@@ -4145,6 +4119,37 @@
         ],
         "year": "2025",
         "bibcode": "2025ApJ...990..129D"
+    },
+    {
+        "author": [
+            "Chen, Chun",
+            "Shen, Rong-Feng"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...991"
+        ],
+        "title": [
+            "The Spectra of a Radiative Reprocessing Outflow Model for Fast Blue Optical Transients"
+        ],
+        "year": "2025",
+        "bibcode": "2025ApJ...991..180C"
+    },
+    {
+        "author": [
+            "Chen, Xingzhuo",
+            "Wang, Lifan",
+            "Kasen, Daniel"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...991"
+        ],
+        "title": [
+            "An Integral-based Technique to Accelerate the Monte Carlo Radiative Transfer Computation for Supernovae"
+        ],
+        "year": "2025",
+        "bibcode": "2025ApJ...991..219C"
     },
     {
         "author": [
@@ -4268,6 +4273,75 @@
     },
     {
         "author": [
+            "Magee, M. R.",
+            "Killestein, T. L.",
+            "Pursiainen, M.",
+            "Godson, B.",
+            "Jarvis, D.",
+            "Jim\u00e9nez-Palau, C.",
+            "Lyman, J. D.",
+            "Steeghs, D.",
+            "Warwick, B.",
+            "Anderson, J. P.",
+            "Butterley, T.",
+            "Chen, T.-W.",
+            "Dhillon, V. S.",
+            "Galbany, L.",
+            "Gonz\u00e1lez-Gait\u00e1n, S.",
+            "Gromadzki, M.",
+            "Inserra, C.",
+            "Kelsey, L.",
+            "Kumar, A.",
+            "Leloudas, G.",
+            "Mattila, S.",
+            "Moran, S.",
+            "M\u00fcller-Bravo, T. E.",
+            "Noysena, K.",
+            "Ramsay, G.",
+            "Srivastav, S.",
+            "Starling, R.",
+            "Wilson, R. W.",
+            "Young, D. R.",
+            "Ackley, K.",
+            "Breton, R. P.",
+            "Casares Vel\u00e1zquez, J.",
+            "Dyer, M. J.",
+            "Galloway, D. K.",
+            "Kankare, E.",
+            "Kotak, R.",
+            "Nuttall, L. K.",
+            "O'Neill, D.",
+            "Pessi, P.",
+            "Pollacco, D.",
+            "Ulaczyk, K.",
+            "Yaron, O."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.543"
+        ],
+        "title": [
+            "SN 2024bfu, SN 2025qe, and the early light curves of type Iax supernovae"
+        ],
+        "year": "2025",
+        "bibcode": "2025MNRAS.543.3731M"
+    },
+    {
+        "author": [
+            "Ouyed, Rachid"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.543"
+        ],
+        "title": [
+            "Modelling the light curve and spectra of SN 2023aew"
+        ],
+        "year": "2025",
+        "bibcode": "2025MNRAS.543.3885O"
+    },
+    {
+        "author": [
             "Kim, A. G.",
             "Nugent, P. E.",
             "Chen, Xingzhuo",
@@ -4342,74 +4416,6 @@
     },
     {
         "author": [
-            "Ouyed, Rachid"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2505"
-        ],
-        "title": [
-            "Modeling the Light Curve and Spectra of SN 2023aew"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv250508737O"
-    },
-    {
-        "author": [
-            "Magee, M. R.",
-            "Killestein, T. L.",
-            "Pursiainen, M.",
-            "Godson, B.",
-            "Jarvis, D.",
-            "Jim\u00e9nez-Palau, C.",
-            "Lyman, J. D.",
-            "Steeghs, D.",
-            "Warwick, B.",
-            "Anderson, J. P.",
-            "Butterley, T.",
-            "Chen, T. -W.",
-            "Dhillon, V. S.",
-            "Galbany, L.",
-            "Gonz\u00e1lez-Gait\u00e1n, S.",
-            "Gromadzki, M.",
-            "Inserra, C.",
-            "Kelsey, L.",
-            "Kumar, A.",
-            "Leloudas, G.",
-            "Mattila, S.",
-            "M\u00fcller-Bravo, T. E.",
-            "Noysena, K.",
-            "Ramsay, G.",
-            "Srivastav, S.",
-            "Starling, R.",
-            "Wilson, R. W.",
-            "Young, D. R.",
-            "Ackley, K.",
-            "Breton, R. P.",
-            "Casares Vel\u00e1zquez, J.",
-            "Dyer, M. J.",
-            "Galloway, D. K.",
-            "Kankare, E.",
-            "Kotak, R.",
-            "Nuttall, L. K.",
-            "O'Neill, D.",
-            "Pessi, P.",
-            "Pollacco, D.",
-            "Ulaczyk, K.",
-            "Yaron, O."
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2506"
-        ],
-        "title": [
-            "SN 2024bfu, SN 2025qe, and the early light curves of type Iax supernovae"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv250602118M"
-    },
-    {
-        "author": [
             "Chen, Xingzhuo",
             "Braga-Neto, Ulisses",
             "Wang, Lifan",
@@ -4428,6 +4434,62 @@
         ],
         "year": "2025",
         "bibcode": "2025arXiv250711767C"
+    },
+    {
+        "author": [
+            "Baron, E.",
+            "Ashall, C.",
+            "DerKacy, J. M.",
+            "Hoeflich, P.",
+            "Medler, K.",
+            "Shahbandeh, M.",
+            "Fereidouni, E.",
+            "Pfeffer, C. M.",
+            "Mera, T.",
+            "Hoogendam, W. B.",
+            "Shiber, S.",
+            "Auchettl, K.",
+            "Brown, P. J.",
+            "Burns, C. R.",
+            "Burrow, A.",
+            "Coulter, D. . A.",
+            "Engesser, M.",
+            "Folatelli, G.",
+            "Fox, O.",
+            "Galbany, L.",
+            "Guolo, M.",
+            "Hinkle, J. T.",
+            "Huber, Mark E.",
+            "Hsiao, E. Y.",
+            "de Jaeger, T.",
+            "Jones, D. O.",
+            "Kumar, S.",
+            "Lu, J.",
+            "Mazzali, P. A.",
+            "Morrell, N.",
+            "Phillips, M. M.",
+            "Rest, A.",
+            "Suntzeff, N. B.",
+            "Shappee, B. J.",
+            "Shi, Jennifer",
+            "Stritzinger, M. D.",
+            "Strolger, L.",
+            "Temim, T.",
+            "Tinyanont, S.",
+            "Tucker, M.",
+            "Wang, L.",
+            "Wang, Q.",
+            "Yang, Y."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2507"
+        ],
+        "title": [
+            "JWST Observations of SN 2024ggi I: Interpretation and Model Comparison of the Type II Supernova 2024ggi at 55 days Past Explosion"
+        ],
+        "year": "2025",
+        "bibcode": "2025arXiv250718753B"
     },
     {
         "author": [
@@ -4461,5 +4523,76 @@
         ],
         "year": "2025",
         "bibcode": "2025arXiv250907717B"
+    },
+    {
+        "author": [
+            "McNeill, F.",
+            "Sim, S. A.",
+            "Collins, C. E.",
+            "Shingles, L. J.",
+            "Damgaard, R.",
+            "Sneppen, A.",
+            "Gillanders, J. H."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2510"
+        ],
+        "title": [
+            "Light Travel Time Effects in Kilonova Models"
+        ],
+        "year": "2025",
+        "bibcode": "2025arXiv251009261M"
+    },
+    {
+        "author": [
+            "H0DN Collaboration",
+            "Casertano, Stefano",
+            "Anand, Gagandeep",
+            "Anderson, Richard I.",
+            "Beaton, Rachael",
+            "Bhardwaj, Anupam",
+            "Blakeslee, John P.",
+            "Boubel, Paula",
+            "Breuval, Louise",
+            "Brout, Dillon",
+            "Cantiello, Michele",
+            "Cruz Reyes, Mauricio",
+            "Cs\u00f6rnyei, Geza",
+            "de Jaeger, Thomas",
+            "Dhawan, Suhail",
+            "Di Valentino, Eleonora",
+            "Galbany, Llu\u00eds",
+            "Gil-Mar\u00edn, H\u00e9ctor",
+            "Graczyk, Dariusz",
+            "Huang, Caroline",
+            "Jensen, Joseph B.",
+            "Kervella, Pierre",
+            "Leibundgut, Bruno",
+            "Lengen, Bastian",
+            "Li, Siyang",
+            "Macri, Lucas",
+            "\u00d6z\u00fclker, Emre",
+            "Pesce, Dominic W.",
+            "Riess, Adam",
+            "Romaniello, Martino",
+            "Said, Khaled",
+            "Sch\u00f6neberg, Nils",
+            "Scolnic, Dan",
+            "Sicignano, Teresa",
+            "Skowron, Dorota M.",
+            "Uddin, Syed A.",
+            "Verde, Licia",
+            "Nota, Antonella"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2510"
+        ],
+        "title": [
+            "The Local Distance Network: a community consensus report on the measurement of the Hubble constant at 1% precision"
+        ],
+        "year": "2025",
+        "bibcode": "2025arXiv251023823H"
     }
 ]
