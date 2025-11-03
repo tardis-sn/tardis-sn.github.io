@@ -3,7 +3,6 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image_alt: App preview
     title: TARDIS Project
     background_image: images/hubblecast.gif
     image_alt: Exploding supernova
