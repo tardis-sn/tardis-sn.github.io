@@ -1,7 +1,6 @@
 ---
 title: Introducing GSoC Contributor Haille Perkins
-excerpt: >-
-  
+excerpt: ''
 publishDate: 2025-06-05
 thumb_image: ../articles/perkinsPhoto.jpeg
 seo:
@@ -15,8 +14,7 @@ seo:
       value: Introducing GSoC Contributor Haille Perkins
       keyName: property
     - name: 'og:description'
-      value: >-
-        
+      value: ''
       keyName: property
     - name: 'og:image'
       value: ../articles/perkinsPhoto.jpeg
@@ -27,8 +25,7 @@ seo:
     - name: 'twitter:title'
       value: Introducing GSoC Contributor Haille Perkins
     - name: 'twitter:description'
-      value: >-
-        
+      value: ''
     - name: 'twitter:image'
       value: ../articles/perkinsPhoto.jpeg
       relativeUrl: true
