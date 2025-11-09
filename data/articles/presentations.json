@@ -1,5 +1,27 @@
 [
     {
+        "title": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at SuperVirtual 2021.",
+        "author_id": "",
+        "article_id": "yssavo_poster_supervirtual_2021",
+        "display": true,
+        "date": "2021-10-01",
+        "category": "Presentation",
+        "tags": [
+            "posters"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at *SuperVirtual 2021* in which she used TARDIS for modelling the spectrum of SN 2014dt.",
+        "cover_image": "https://drive.google.com/file/d/1GDHhw8q8lKhErIA-tMSRb7Mun6DdNoVK/preview",
+        "content": {},
+        "people_involved_ids": [
+            ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
         "title": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at SuperVirtual 2021.",
         "author_id": "Marc Williamson",
         "article_id": "marc_talk_supervirtual_2021",
@@ -22,11 +44,11 @@
         "twitter": "None"
     },
     {
-        "title": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at SuperVirtual 2021.",
-        "author_id": "",
-        "article_id": "yssavo_poster_supervirtual_2021",
+        "title": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at Mid-Michigan Symposium for Undergraduate Research Experiences 2021.",
+        "author_id": "Isaac Smith",
+        "article_id": "isaac_poster_mid_michigan_symposium_2021",
         "display": true,
-        "date": "2021-10-01",
+        "date": "2021-09-01",
         "category": "Presentation",
         "tags": [
             "posters"
@@ -34,11 +56,11 @@
         "platforms": [
             "tardis"
         ],
-        "short_description": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at *SuperVirtual 2021* in which she used TARDIS for modelling the spectrum of SN 2014dt.",
-        "cover_image": "https://drive.google.com/file/d/1GDHhw8q8lKhErIA-tMSRb7Mun6DdNoVK/preview",
+        "short_description": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at *Mid-Michigan Symposium for Undergraduate Research Experiences 2021* where he demonstrated how he made TARDIS documentation more user-friendly and interactive.",
+        "cover_image": "https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview",
         "content": {},
         "people_involved_ids": [
-            ""
+            "Isaac Smith"
         ],
         "links": {},
         "twitter": "None"
@@ -83,28 +105,6 @@
         "content": {},
         "people_involved_ids": [
             "Luke Harvey"
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
-        "title": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at Mid-Michigan Symposium for Undergraduate Research Experiences 2021.",
-        "author_id": "Isaac Smith",
-        "article_id": "isaac_poster_mid_michigan_symposium_2021",
-        "display": true,
-        "date": "2021-09-01",
-        "category": "Presentation",
-        "tags": [
-            "posters"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Isaac Smith presented a poster on \u201cDocumenting Scientific Software\u201d at *Mid-Michigan Symposium for Undergraduate Research Experiences 2021* where he demonstrated how he made TARDIS documentation more user-friendly and interactive.",
-        "cover_image": "https://drive.google.com/file/d/1tF8QMSAXwheVJIz3WC9i-7EHRD7rfyA-/preview",
-        "content": {},
-        "people_involved_ids": [
-            "Isaac Smith"
         ],
         "links": {},
         "twitter": "None"
