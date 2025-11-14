@@ -1,13 +1,13 @@
 ---
 title: "Citation Guide"
-date: 2025-11-08
+date: 2025-11-13
 draft: false
 layout: page
 ---
 
 # Credits & Publication Policies {#tardiscredits}
 
-[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.17330175-blue)](https://doi.org/10.5281/zenodo.17330175)
+[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.17561758-blue)](https://doi.org/10.5281/zenodo.17561758)
 
 We provide TARDIS as a free, open-source tool. If you are using it,
 please adhere to a few policies and acknowledge the TARDIS Team.
@@ -22,7 +22,7 @@ add the following paragraph to the Acknowledgement section:
 ```
 This research made use of \textsc{tardis}, a community-developed
 software package for spectral synthesis in supernovae
-\citep{2014MNRAS.440..387K, kerzendorf_2025_17330175}. The development
+\citep{2014MNRAS.440..387K, kerzendorf_2025_17561758}. The development
 of \textsc{tardis} received support from GitHub, the Google Summer of
 Code initiative, and from ESA's Summer of Code in Space program.
 \textsc{tardis} is a fiscally sponsored project of NumFOCUS.
@@ -81,7 +81,7 @@ archivePrefix = {arXiv},
 ```
 
 ``` bibtex
-@software{kerzendorf_2025_17330175,
+@software{kerzendorf_2025_17561758,
   author       = {Kerzendorf, Wolfgang and
                   Sim, Stuart and
                   Vogl, Christian and
@@ -133,39 +133,39 @@ archivePrefix = {arXiv},
                   Bylund, Tomas and
                   Bentil, Laud and
                   Black, William and
+                  Dutta, Anirban and
                   Lu, Jing and
                   Kumar, Asish and
                   Groneck, Ryan and
-                  Dutta, Anirban and
                   Eguren, Jordi and
                   Bartnik, Matthew and
                   Srivastava, Sarthak and
                   Kumar, Ansh and
-                  Alam, Arib and
                   Magee, Mark and
                   Varma Buddaraju, Rohith and
+                  Alam, Arib and
                   Daksh, Ayushi and
                   Kambham, Satwik and
                   Livneh, Ran and
-                  Mishra, Sashank and
-                  Rajagopalan, Srinath and
-                  Bhakar, Jayant and
                   Powers, Cecelia and
+                  Mishra, Sashank and
+                  Bhakar, Jayant and
+                  Rajagopalan, Srinath and
                   Roldan, Israel and
-                  Nitish, P and
-                  Reichenbach, John and
-                  Jain, Rinkle and
                   Actions, GitHub and
+                  Nitish, P and
+                  Jain, Rinkle and
+                  Reichenbach, John and
+                  Singh, Sourav and
                   Gupta, Harshul and
                   Brar, Antreev and
-                  Singh, Sourav and
                   Chaumal, Aarya and
                   Selsing, Jonatan and
-                  Sofiatti, Caroline and
                   Talegaonkar, Chinmay and
+                  Gangbhoj, Riddhi and
                   Kowalski, Nathan and
                   Matsumura, Yuki and
-                  Gangbhoj, Riddhi and
+                  Sofiatti, Caroline and
                   Patidar, Abhishek and
                   Perkins, Haille and
                   Aggarwal, Yash and
@@ -200,12 +200,12 @@ archivePrefix = {arXiv},
                   Sharma, Sampark and
                   Venkat, Shashank and
                   Prasad, Shilpi},
-  title        = {tardis-sn/tardis: TARDIS v2025.10.12},
-  month        = oct,
+  title        = {tardis-sn/tardis: TARDIS v2025.11.09},
+  month        = nov,
   year         = 2025,
   publisher    = {Zenodo},
-  version      = {release-2025.10.12},
-  doi          = {10.5281/zenodo.17330175},
-  url          = {https://doi.org/10.5281/zenodo.17330175},
+  version      = {release-2025.11.09},
+  doi          = {10.5281/zenodo.17561758},
+  url          = {https://doi.org/10.5281/zenodo.17561758},
 }
 ```
