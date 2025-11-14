@@ -3,7 +3,7 @@ title: TARDIS Summer School 2025: Explosive Transient Radiative Transfer
 excerpt: >-
   We hosted a week-long summer school where 14 participants learned the fundamentals of explosive transient radiative transfer and plasma physics, and gained fundamental knowledge about radiative transfer and hands-on experience using TARDIS to create spectra of sample supernovae.
 publishDate: 2025-08-15
-thumb_image: ../articles/DJI_0742.jpg
+thumb_image: ../articles/cachedImage.PNG
 seo:
   title: TARDIS Summer School 2025: Explosive Transient Radiative Transfer
   description: We hosted a week-long summer school where 14 participants learned the fundamentals of explosive transient radiative transfer and plasma physics, and gained fundamental knowledge about radiative transfer and hands-on experience using TARDIS to create spectra of sample supernovae.
@@ -19,7 +19,7 @@ seo:
         We hosted a week-long summer school where 14 participants learned the fundamentals of explosive transient radiative transfer and plasma physics, and gained fundamental knowledge about radiative transfer and hands-on experience using TARDIS to create spectra of sample supernovae.
       keyName: property
     - name: 'og:image'
-      value: ../articles/DJI_0742.jpg
+      value: ../articles/cachedImage.PNG
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -30,7 +30,7 @@ seo:
       value: >-
         We hosted a week-long summer school where 14 participants learned the fundamentals of explosive transient radiative transfer and plasma physics, and gained fundamental knowledge about radiative transfer and hands-on experience using TARDIS to create spectra of sample supernovae.
     - name: 'twitter:image'
-      value: ../articles/DJI_0742.jpg
+      value: ../articles/cachedImage.PNG
       relativeUrl: true
 layout: post
 ---
