@@ -148,6 +148,7 @@
             "2024SSRv..220...13S",
             "2025A&A...694A...9B",
             "2025A&A...702A..41V",
+            "2025A&A...703A..64B",
             "2025A&ARv..33....1R",
             "2025ApJ...979..148L",
             "2025ApJ...980L..44M",
@@ -170,9 +171,10 @@
             "2025arXiv250410696V",
             "2025arXiv250711767C",
             "2025arXiv250718753B",
-            "2025arXiv250907717B",
             "2025arXiv251009261M",
-            "2025arXiv251023823H"
+            "2025arXiv251023823H",
+            "2025arXiv251104254B",
+            "2025arXiv251107539V"
         ]
     },
     {
@@ -3971,6 +3973,39 @@
     },
     {
         "author": [
+            "B\u00e1nhidi, D.",
+            "Barna, B.",
+            "Szalai, T.",
+            "Vink\u00f3, J.",
+            "B\u00edr\u00f3, I. B.",
+            "Bostroem, K. A.",
+            "Cs\u00e1nyi, I.",
+            "Davis, K. W.",
+            "Foley, R. J.",
+            "Galbany, L.",
+            "Jha, S. W.",
+            "Howell, D. A.",
+            "Kwok, L. A.",
+            "P\u00e1l, A.",
+            "Pellegrino, C.",
+            "Rojas-Bravo, C.",
+            "Sz\u00e9kely, P.",
+            "Taggart, K.",
+            "Terreran, G.",
+            "Tinyanont, S."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...703"
+        ],
+        "title": [
+            "SN 2022xlp: The second-known well-observed, intermediate-luminosity Iax supernova"
+        ],
+        "year": "2025",
+        "bibcode": "2025A&A...703A..64B"
+    },
+    {
+        "author": [
             "Ruiter, Ashley Jade",
             "Seitenzahl, Ivo Rolf"
         ],
@@ -4409,7 +4444,7 @@
             "arXiv2504"
         ],
         "title": [
-            "Spectroscopic r-Process Abundance Retrieval for Kilonovae III: Self-Consistent Spectral and Light Curve Modeling of the GW170817 Kilonova"
+            "Spectroscopic r-Process Abundance Retrieval for Kilonovae III: Linking Spectral and Light Curve Modeling of the GW170817 Kilonova"
         ],
         "year": "2025",
         "bibcode": "2025arXiv250410696V"
@@ -4493,39 +4528,6 @@
     },
     {
         "author": [
-            "B\u00e1nhidi, D.",
-            "Barna, B.",
-            "Szalai, T.",
-            "Vink\u00f3, J.",
-            "B\u00edr\u00f3, I. B.",
-            "Bostroem, K. A.",
-            "Cs\u00e1nyi, I.",
-            "Davis, K. W.",
-            "Foley, R. J.",
-            "Galbany, L.",
-            "Jha, S. W.",
-            "Howell, D. A.",
-            "Kwok, L. A.",
-            "P\u00e1l, A.",
-            "Pellegrino, C.",
-            "Rojas-Bravo, C.",
-            "Sz\u00e9kely, P.",
-            "Taggart, K.",
-            "Terreran, G.",
-            "Tinyanont, S."
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2509"
-        ],
-        "title": [
-            "SN 2022xlp: The second-known well-observed, intermediate-luminosity Iax supernova"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv250907717B"
-    },
-    {
-        "author": [
             "McNeill, F.",
             "Sim, S. A.",
             "Collins, C. E.",
@@ -4594,5 +4596,35 @@
         ],
         "year": "2025",
         "bibcode": "2025arXiv251023823H"
+    },
+    {
+        "author": [
+            "Bergemann, Maria",
+            "Hoppe, Richard"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2511"
+        ],
+        "title": [
+            "3D Non-LTE radiation transfer: theory and applications to stars, exoplanets, and kilonovae"
+        ],
+        "year": "2025",
+        "bibcode": "2025arXiv251104254B"
+    },
+    {
+        "author": [
+            "van Baal, Bart F. A.",
+            "Jerkstrand, Anders"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2511"
+        ],
+        "title": [
+            "\\texttt{ExTraSS}: a Domain Decomposed 3D NLTE Radiative Transfer spectral synthesis code for nebular phase transients"
+        ],
+        "year": "2025",
+        "bibcode": "2025arXiv251107539V"
     }
 ]
