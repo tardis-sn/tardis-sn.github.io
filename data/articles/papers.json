@@ -157,6 +157,7 @@
             "2025ApJ...990..129D",
             "2025ApJ...991..180C",
             "2025ApJ...991..219C",
+            "2025ApJ...994..249B",
             "2025LRCA...11....1J",
             "2025MNRAS.536..879M",
             "2025MNRAS.540.2923M",
@@ -170,11 +171,12 @@
             "2025arXiv250317445J",
             "2025arXiv250410696V",
             "2025arXiv250711767C",
-            "2025arXiv250718753B",
             "2025arXiv251009261M",
             "2025arXiv251023823H",
             "2025arXiv251104254B",
-            "2025arXiv251107539V"
+            "2025arXiv251107539V",
+            "2025arXiv251213791H",
+            "2026MNRAS.545f2149B"
         ]
     },
     {
@@ -4188,6 +4190,62 @@
     },
     {
         "author": [
+            "Baron, E.",
+            "Ashall, C.",
+            "DerKacy, J. M.",
+            "Hoeflich, P.",
+            "Medler, K.",
+            "Shahbandeh, M.",
+            "Fereidouni, E.",
+            "Pfeffer, C. M.",
+            "Mera, T.",
+            "Hoogendam, W. B.",
+            "Shiber, S.",
+            "Auchettl, K.",
+            "Brown, P. J.",
+            "Burns, C. R.",
+            "Burrow, A.",
+            "Coulter, D. A.",
+            "Engesser, M.",
+            "Folatelli, G.",
+            "Fox, O.",
+            "Galbany, L.",
+            "Guolo, M.",
+            "Hinkle, J. T.",
+            "Huber, Mark E.",
+            "Hsiao, E. Y.",
+            "de Jaeger, T.",
+            "Jones, D. O.",
+            "Kumar, S.",
+            "Lu, J.",
+            "Mazzali, P. A.",
+            "Morrell, N.",
+            "Phillips, M. M.",
+            "Rest, A.",
+            "Suntzeff, N. B.",
+            "Shappee, B. J.",
+            "Shi, Jennifer",
+            "Stritzinger, M. D.",
+            "Strolger, L.",
+            "Temim, T.",
+            "Tinyanont, S.",
+            "Tucker, M.",
+            "Wang, L.",
+            "Wang, Q.",
+            "Yang, Y."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ...994"
+        ],
+        "title": [
+            "JWST Observations of SN 2024ggi. I. Interpretation and Model Comparison of the Type II Supernova 2024ggi at 55 Days past Explosion"
+        ],
+        "year": "2025",
+        "bibcode": "2025ApJ...994..249B"
+    },
+    {
+        "author": [
             "Jerkstrand, Anders"
         ],
         "bibstem": [
@@ -4472,62 +4530,6 @@
     },
     {
         "author": [
-            "Baron, E.",
-            "Ashall, C.",
-            "DerKacy, J. M.",
-            "Hoeflich, P.",
-            "Medler, K.",
-            "Shahbandeh, M.",
-            "Fereidouni, E.",
-            "Pfeffer, C. M.",
-            "Mera, T.",
-            "Hoogendam, W. B.",
-            "Shiber, S.",
-            "Auchettl, K.",
-            "Brown, P. J.",
-            "Burns, C. R.",
-            "Burrow, A.",
-            "Coulter, D. . A.",
-            "Engesser, M.",
-            "Folatelli, G.",
-            "Fox, O.",
-            "Galbany, L.",
-            "Guolo, M.",
-            "Hinkle, J. T.",
-            "Huber, Mark E.",
-            "Hsiao, E. Y.",
-            "de Jaeger, T.",
-            "Jones, D. O.",
-            "Kumar, S.",
-            "Lu, J.",
-            "Mazzali, P. A.",
-            "Morrell, N.",
-            "Phillips, M. M.",
-            "Rest, A.",
-            "Suntzeff, N. B.",
-            "Shappee, B. J.",
-            "Shi, Jennifer",
-            "Stritzinger, M. D.",
-            "Strolger, L.",
-            "Temim, T.",
-            "Tinyanont, S.",
-            "Tucker, M.",
-            "Wang, L.",
-            "Wang, Q.",
-            "Yang, Y."
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2507"
-        ],
-        "title": [
-            "JWST Observations of SN 2024ggi I: Interpretation and Model Comparison of the Type II Supernova 2024ggi at 55 days Past Explosion"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv250718753B"
-    },
-    {
-        "author": [
             "McNeill, F.",
             "Sim, S. A.",
             "Collins, C. E.",
@@ -4626,5 +4628,46 @@
         ],
         "year": "2025",
         "bibcode": "2025arXiv251107539V"
+    },
+    {
+        "author": [
+            "Harvey, Luke",
+            "Maguire, Kate",
+            "Holas, Alexander",
+            "Anderson, Joseph P.",
+            "Chen, Ting-Wan",
+            "Galbany, Llu\u00eds",
+            "Gonz\u00e1lez-Gait\u00e1n, Santiago",
+            "Gromadzki, Mariusz",
+            "M\u00fcller-Bravo, Tomas E.",
+            "Pignata, Giuliano",
+            "Seitenzahl, Ivo R."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2512"
+        ],
+        "title": [
+            "Exploring the origins of high-velocity features in SNe Ia with the spectral synthesis code TARDIS"
+        ],
+        "year": "2025",
+        "bibcode": "2025arXiv251213791H"
+    },
+    {
+        "author": [
+            "Burmester, Uri Pierre",
+            "Ferrario, Lilia",
+            "Seitenzahl, Ivo R.",
+            "Blouin, Simon"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.545"
+        ],
+        "title": [
+            "Comparison of Ne-22 core and shell distilled WD detonations in AREPO"
+        ],
+        "year": "2026",
+        "bibcode": "2026MNRAS.545f2149B"
     }
 ]
