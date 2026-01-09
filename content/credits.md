@@ -1,13 +1,13 @@
 ---
 title: "Citation Guide"
-date: 2025-12-27
+date: 2026-01-08
 draft: false
 layout: page
 ---
 
 # Credits & Publication Policies {#tardiscredits}
 
-[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.17620321-blue)](https://doi.org/10.5281/zenodo.17620321)
+[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.18072609-blue)](https://doi.org/10.5281/zenodo.18072609)
 
 We provide TARDIS as a free, open-source tool. If you are using it,
 please adhere to a few policies and acknowledge the TARDIS Team.
@@ -22,7 +22,7 @@ add the following paragraph to the Acknowledgement section:
 ```
 This research made use of \textsc{tardis}, a community-developed
 software package for spectral synthesis in supernovae
-\citep{2014MNRAS.440..387K, kerzendorf_2025_17620321}. The development
+\citep{2014MNRAS.440..387K, kerzendorf_2025_18072609}. The development
 of \textsc{tardis} received support from GitHub, the Google Summer of
 Code initiative, and from ESA's Summer of Code in Space program.
 \textsc{tardis} is a fiscally sponsored project of NumFOCUS.
@@ -81,7 +81,7 @@ archivePrefix = {arXiv},
 ```
 
 ``` bibtex
-@software{kerzendorf_2025_17620321,
+@software{kerzendorf_2025_18072609,
   author       = {Kerzendorf, Wolfgang and
                   Sim, Stuart and
                   Vogl, Christian and
@@ -122,91 +122,92 @@ archivePrefix = {arXiv},
                   Chitchyan, Sona and
                   Gillanders, James and
                   Singh, Shreyas and
-                  Gupta, Sumit and
                   Savel, Arjun and
+                  Gupta, Sumit and
                   Marie Lynn, Haille and
-                  Eweis, Youssef and
                   Shah, Swayam and
                   Reinecke, Martin and
+                  Eweis, Youssef and
                   Holas, Alexander and
-                  Visser, Erin and
                   Bylund, Tomas and
+                  Visser, Erin and
                   Bentil, Laud and
                   Black, William and
-                  Dutta, Anirban and
                   Kumar, Asish and
-                  Lu, Jing and
+                  Dutta, Anirban and
                   Groneck, Ryan and
+                  Lu, Jing and
                   Eguren, Jordi and
                   Bartnik, Matthew and
-                  Kumar, Ansh and
                   Srivastava, Sarthak and
+                  Kumar, Ansh and
                   Magee, Mark and
-                  Alam, Arib and
                   Varma Buddaraju, Rohith and
+                  Alam, Arib and
                   Daksh, Ayushi and
                   Kambham, Satwik and
                   Livneh, Ran and
+                  Mishra, Sashank and
                   Rajagopalan, Srinath and
-                  Roldan, Israel and
                   Powers, Cecelia and
                   Bhakar, Jayant and
-                  Mishra, Sashank and
+                  Roldan, Israel and
+                  Reichenbach, John and
+                  Jain, Rinkle and
                   Nitish, P and
                   Actions, GitHub and
-                  Jain, Rinkle and
-                  Reichenbach, John and
-                  Singh, Sourav and
+                  McClellan, Connor and
                   Chaumal, Aarya and
+                  Singh, Sourav and
                   Gupta, Harshul and
                   Brar, Antreev and
-                  Talegaonkar, Chinmay and
-                  Sofiatti, Caroline and
+                  Perkins, Haille and
+                  Matsumura, Yuki and
                   Gangbhoj, Riddhi and
                   Selsing, Jonatan and
+                  Talegaonkar, Chinmay and
                   Kowalski, Nathan and
-                  Perkins, Haille and
                   Patidar, Abhishek and
-                  Matsumura, Yuki and
+                  Sofiatti, Caroline and
+                  Wahi, Ujjwal and
                   Aggarwal, Yash and
                   Patel, Pratik and
-                  Singh Rathore, Parikshit and
                   L. Lim, P. and
-                  Yap, Kevin and
-                  Bhandari, Jhalak and
+                  Diddige, Harshitha and
                   Buchner, Johannes and
-                  Patra, Nilesh and
-                  Martinez, Laureano and
                   Chen, Nutan and
+                  Bhandari, Jhalak and
+                  Patra, Nilesh and
+                  Yap, Kevin and
+                  Truong, Le and
                   Zingale, Michael and
                   Sandler, Morgan and
                   Zaheer, Musabbiha and
                   Sarafina, Nance and
                   Vieira, Nicholas and
-                  Lemoine, Thom and
-                  Wahi, Ujjwal and
-                  Dasgupta, Debajyoti and
                   Gupta, Suyash and
-                  Nayak U, Ashwin and
-                  Kumar, Atul and
-                  Volodin, Dmitry and
-                  Kumar, Aman and
-                  McClellan, Connor and
+                  Lemoine, Thom and
+                  Prasad, Shilpi and
+                  Martinez, Laureano and
                   Watson, Clyde and
-                  Truong, Le and
+                  Kumar, Atul and
+                  Nayak U, Ashwin and
+                  Kumar, Aman and
+                  Dadu, Aaryan and
+                  Dasgupta, Debajyoti and
                   PATIDAR, ABHISHEK and
-                  Diddige, Harshitha and
+                  Volodin, Dmitry and
+                  Singh Rathore, Parikshit and
                   Prasad, Rohit and
                   Gajanan Nalbalwar, Rudraksh and
                   Sharma, Sampark and
-                  Venkat, Shashank and
-                  Prasad, Shilpi},
-  title        = {tardis-sn/tardis: TARDIS v2025.11.16},
-  month        = nov,
+                  Venkat, Shashank},
+  title        = {tardis-sn/tardis: TARDIS v2025.12.28},
+  month        = dec,
   year         = 2025,
   publisher    = {Zenodo},
-  version      = {release-2025.11.16},
-  doi          = {10.5281/zenodo.17620321},
-  url          = {https://doi.org/10.5281/zenodo.17620321},
+  version      = {release-2025.12.28},
+  doi          = {10.5281/zenodo.18072609},
+  url          = {https://doi.org/10.5281/zenodo.18072609},
 }
 ```
