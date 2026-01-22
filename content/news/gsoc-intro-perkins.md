@@ -27,8 +27,7 @@ seo:
     - name: 'twitter:title'
       value: Introducing GSoC Contributor Haille Perkins
     - name: 'twitter:description'
-      value: >-
-        
+      value: ''
     - name: 'twitter:image'
       value: ../articles/perkinsPhoto.jpeg
       relativeUrl: true

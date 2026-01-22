@@ -162,11 +162,11 @@ params:
       sub_items:
       - label: GSoC with TARDIS!
         style: dropdown-link
-        url: /summer_of_code/gsoc_org_accepted
-      - label: GSoC 2025 Team
+        url: /summer_of_code/gsoc_waiting
+      - label: GSoC 2026 Team
         style: dropdown-link
         url: /summer_of_code/current_gsoc_team
-      - label: GSoC 2025 Ideas
+      - label: GSoC 2026 Ideas
         style: dropdown-link
         url: /summer_of_code/ideas
       - label: Past GSoC
