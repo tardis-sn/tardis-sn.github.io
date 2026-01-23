@@ -1,4 +1,4 @@
-baseURL: https://tardis-sn.github.io/branch/gsoc-2026/
+baseURL: https://tardis-sn.github.io/
 canonifyurls: true
 disableKinds:
 - RSS
