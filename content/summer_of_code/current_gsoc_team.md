@@ -26,9 +26,3 @@ ambassadors to help students integrate into the TARDIS community.
 <div class ="picture-grid">
 {{< gsoc_mentors >}}
 </div>
-
-### GSoC {{< current_year >}} Participants
-
-<div class ="picture-grid">
-{{< gsoc_participants >}}
-</div>

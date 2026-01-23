@@ -13,8 +13,6 @@ aliases:
 2. [The TARDIS Project](#the-tardis-project)
 3. [List of GSoC 2026 Project Ideas](#list-of-gsoc-2026-project-ideas)
    - [Rewrite the TARDIS visualisation module using Panel](#rewrite-the-tardis-visualisation-module-using-panel)
-   - [Benchmark Optimization](#benchmark-optimization)
-   - [Continuum opacity source reader](#continuum-opacity-source-reader)
 
 
 ### Astronomy and Astrophysics Background:
@@ -60,47 +58,4 @@ https://tardis-sn.github.io/tardis/pull/2872/io/visualization/index.html#tardis-
 **Expected Outcomes:**
 - All visualisation modules moved to Panel.
 - Visualisation tools and widgets can be embedded on the website allowing users to interact with them.
-- Comprehensive documentation and tests for all code written.
-
-
-#### Benchmark Optimization
-
-{{<idea_tag "Performance">}} {{<idea_tag "Benchmarking">}} {{<idea_tag "Python">}} {{<idea_tag "Airspeed Velocity">}}
-
-<img src="/gsoc_2025/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
-
-**Project Length:** 350 Hours \
-**Mentors:** Andrew Fullard, Atharva Arya, Abhinav Ohri \
-**Difficulty:** Hard \
-**Description:** TARDIS commits are monitored by a benchmarking framework to detect performance regressions. But the current framework only tests 5 commits at a time and not with much detail. The goal of this project is to improve the benchmarking framework by adding more benchmarks. This project will also add more benchmarks to STARDIS, a related code. The second stage of the project will use the benchmarks to investigate possible performance improvements to TARDIS and STARDIS.
-
-- TARDIS Benchmarks: https://tardis-sn.github.io/tardis-benchmarks/
-- STARDIS  Benchmarks: https://tardis-sn.github.io/stardis-benchmarks/
-
-**First objective:** Benchmark the [Plasma solver factory](https://github.com/tardis-sn/tardis/blob/304154a270a5270d5e575e901c7b1d794a8e2511/tardis/plasma/assembly/base.py#L46) and share the ASV results for the last 5 commits along with the code in a pull request.
-
-**Expected Outcomes:**
-- Exhaustive benchmarks that time important TARDIS modules like plasma, transport, visualisation to name a few.
-- Larger history of benchmarks(currently only 5) and regenerating benchmarks for failed commits to avoid losing benchmark history.
-- Comprehensive documentation and tests for all code written.
-
-
-#### Continuum opacity source reader
-
-{{<idea_tag "Data Processing">}} {{<idea_tag "Scientific Data">}}
-
-<img src="/gsoc_2025/carsus3.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
-
-**Project Length:** 350 Hours \
-**Mentors:** Andrew Fullard, Josh Shields \
-**Difficulty:** Hard \
-**Description:** There's a lot of literature with useful tables for the TARDIS codebase and other scientific codes in pdfs ([example](https://academic.oup.com/mnras/article/266/4/805/982644)), or often in dataproducts. Carsus currently reads in data from standard sources and archives([Chianti](https://www.chiantidatabase.org/), [CMFGEN](https://sites.pitt.edu/~hillier/web/CMFGEN.htm) ), but does not flexibly read data from sources in the literature. The goal of this project is to expand Carsus to read datatables like ones in this work, with potential expansion for a future-proof workflow (new opacity tables). These could all go in a new tardis repository called "carsus-literature-tables" or something along those lines. You can look at [this](https://github.com/tardis-sn/carsus-data-molecules-barklem2016) for a preprocessed datatables ready to be ingested by Carsus might look.
-
-Carsus- https://tardis-sn.github.io/carsus/
-
-**First objective:** Read one of the datatables from the linked paper [here](https://cdsarc.cds.unistra.fr/viz-bin/cat/VI/80#/browse) (try s92.201.gz, under ftp) and process it into a pandas dataframe. Look to do this in a programmatic way that could be reused for similar files, like the other tables found here. See [section 6.4](https://articles.adsabs.harvard.edu/pdf/1994MNRAS.266..805S) for more details on table contents and formatting if desired.
-
-
-**Expected Outcomes:**
-- Code that reads in the new dataproducts and integrates with Carsus.
 - Comprehensive documentation and tests for all code written.
