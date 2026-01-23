@@ -11,6 +11,6 @@ layout: page
     </header>
 </article>
 
-GSoC {{< current_year >}} has officially begun! We’re excited about the opportunities this year brings and are planning to apply as a mentoring organization soon.
+GSoC {{< current_year >}} has officially begun! We're excited about the opportunities this year brings and are planning to apply as a mentoring organization soon.
 
-Stay tuned for more updates as we progress. Follow us for the latest news and announcements!
+**Follow us on [X](https://x.com/tardis_sn) and [Matrix](https://matrix.to/#/#tardis-sn_gsoc:gitter.im) for the latest news and announcements!**
