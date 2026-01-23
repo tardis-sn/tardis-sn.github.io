@@ -6,6 +6,8 @@ layout: page
 ---
 
 ### Past GSoC Ideas
+[2025 Ideas]({{< ref "ideas_2025.md" >}})
+
 [2024 Ideas]({{< ref "ideas_2024.md" >}})
 
 [2023 Ideas]({{< ref "ideas_2023.md" >}})
