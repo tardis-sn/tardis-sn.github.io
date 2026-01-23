@@ -27,8 +27,7 @@ seo:
     - name: 'twitter:title'
       value: GSoC 2025 Coding Period Begins
     - name: 'twitter:description'
-      value: >-
-        
+      value: ''
     - name: 'twitter:image'
       value: ../articles/gsoc_2025_participants.png
       relativeUrl: true

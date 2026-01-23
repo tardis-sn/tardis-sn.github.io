@@ -27,8 +27,7 @@ seo:
     - name: 'twitter:title'
       value: Introducing GSoC-2025 Contributor Riddhi Gangbhoj
     - name: 'twitter:description'
-      value: >-
-        
+      value: ''
     - name: 'twitter:image'
       value: ../articles/riddhigangbhoj.jpg
       relativeUrl: true

@@ -17,7 +17,7 @@ If you are interested, follow these steps:
 - Go through the [checklist](https://tardis-sn.github.io/summer_of_code/checklist/)
 - Check out what we expect from you ([expectations](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-expectations), [acceptance requirements](https://tardis-sn.github.io/summer_of_code/other_requirements#participation-requirements), [application guidelines](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines))
 - Get familiar with TARDIS ([GitHub](https://github.com/tardis-sn/tardis), [Documentation](https://tardis-sn.github.io/tardis/)) and pick a project from the [Ideas Page](https://tardis-sn.github.io/summer_of_code/ideas)
-- [Apply](https://summerofcode.withgoogle.com/) (Application deadline for GSoC 2024 is April 2nd)!
+- [Apply](https://summerofcode.withgoogle.com/) (Application deadline for GSoC 2026 is March 31st - 18:00 UTC)!
 
 ### Previously Accepted GSoc Projects
 
