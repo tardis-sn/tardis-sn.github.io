@@ -2,6 +2,7 @@
     {
         "member_id": "abhinav_ohri",
         "years": [
+            2025,
             2024
         ],
         "full_name": "Abhinav Ohri",
@@ -10,6 +11,7 @@
     {
         "member_id": "alexander_holas",
         "years": [
+            2025,
             2024,
             2023
         ],
@@ -19,6 +21,7 @@
     {
         "member_id": "andreas_flors",
         "years": [
+            2025,
             2023
         ],
         "full_name": "Andreas Flors",
@@ -27,6 +30,7 @@
     {
         "member_id": "andrew_fullard",
         "years": [
+            2025,
             2024,
             2023
         ],
@@ -36,6 +40,7 @@
     {
         "member_id": "anirban_dutta",
         "years": [
+            2025,
             2023
         ],
         "full_name": "Anirban  Dutta",
@@ -53,6 +58,7 @@
     {
         "member_id": "atharva_arya",
         "years": [
+            2025,
             2024,
             2023
         ],
@@ -95,6 +101,7 @@
     {
         "member_id": "ezequiel_passaro",
         "years": [
+            2025,
             2023
         ],
         "full_name": "Ezequiel Passaro",
@@ -120,6 +127,7 @@
     {
         "member_id": "jack_o_brien",
         "years": [
+            2025,
             2023
         ],
         "full_name": "Jack O'Brien",
@@ -128,6 +136,7 @@
     {
         "member_id": "jaladh_singhal",
         "years": [
+            2025,
             2024,
             2023,
             2022
@@ -138,6 +147,7 @@
     {
         "member_id": "james_gillanders",
         "years": [
+            2025,
             2024,
             2023
         ],
@@ -145,8 +155,17 @@
         "image_path": "media/images/james.jpeg"
     },
     {
+        "member_id": "jared_goldberg",
+        "years": [
+            2025
+        ],
+        "full_name": "Jared Goldberg",
+        "image_path": "media/images/jared.png"
+    },
+    {
         "member_id": "jing_lu",
         "years": [
+            2025,
             2024,
             2023
         ],
@@ -156,6 +175,7 @@
     {
         "member_id": "josh_shields",
         "years": [
+            2025,
             2024,
             2023
         ],

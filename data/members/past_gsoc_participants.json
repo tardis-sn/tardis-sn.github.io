@@ -211,5 +211,22 @@
                 "image_path": "media/images/myPhoto.jpg"
             }
         }
+    },
+    {
+        "year": 2025,
+        "info": {
+            "riddhi_gangbhoj": {
+                "full_name": "Riddhi Gangbhoj",
+                "project_title": "Regression Data Dashboard and HDF Writing Capabilities of TARDIS Modules",
+                "project_link": "",
+                "image_path": "media/images/riddhi1.jpeg"
+            },
+            "haille_perkins": {
+                "full_name": "Haille Perkins",
+                "project_title": "Line Identification Plotting Functionality",
+                "project_link": "",
+                "image_path": "media/images/perkinsTardisPFP.jpg"
+            }
+        }
     }
 ]

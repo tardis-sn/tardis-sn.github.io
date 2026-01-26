@@ -27,7 +27,8 @@ seo:
     - name: 'twitter:title'
       value: Modeling Stripped-Envelope Supernovae with Physics-Driven Framework
     - name: 'twitter:description'
-      value: ''
+      value: >-
+        
     - name: 'twitter:image'
       value: ../articles/sesn.jpeg
       relativeUrl: true
