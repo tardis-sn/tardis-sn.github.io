@@ -15,7 +15,7 @@ If you are interested in participating, please contact us through [Gitter](https
    - Run the [example](https://tardis-sn.github.io/tardis/quickstart.html).
    - Get familiar with our [development model](https://tardis-sn.github.io/tardis/contributing/development/index.html) using Git and GitHub.
 2. Do the [TARDIS intro challenge](https://colab.research.google.com/drive/1ojC-CbdvhsnNum9DHxY-JUqlGiZGotDP?usp=sharing).
-3. Submit your completed [TARDIS challenge](https://forms.gle/ov1f71qogP36qLMc7).
+3. Submit your completed [TARDIS challenge](https://forms.gle/g2yAuuqxYFp73C636).
 4. Check out the [Ideas Page](../ideas).
 5. Introduce yourself to us on [Gitter](https://gitter.im/tardis-sn/gsoc).
 6. Start your [application](https://tardis-sn.github.io/summer_of_code/other_requirements#application-guidelines). Here are some of the [previously accepted GSoc projects](https://tardis-sn.github.io/summer_of_code/gsoc_org_accepted#previously-accepted-gSoc-projects).
