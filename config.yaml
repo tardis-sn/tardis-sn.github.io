@@ -174,7 +174,14 @@ params:
         url: /summer_of_code/past_gsoc
       - label: GSoC Checklist
         style: dropdown-link
-        url: /summer_of_code/checklist
+        sub_items:
+        - label: Application Phase
+          style: redirect-link
+          url: /summer_of_code/application_checklist
+        - label: Accepted Phase
+          style: redirect-link
+          url: /summer_of_code/accepted_checklist
+        url: null
       - label: Other Requirements
         style: dropdown-link
         url: /summer_of_code/other_requirements
