@@ -13,6 +13,7 @@ aliases:
 2. [The TARDIS Project](#the-tardis-project)
 3. [List of GSoC 2026 Project Ideas](#list-of-gsoc-2026-project-ideas)
    - [Rewrite the TARDIS visualisation module using Panel](#rewrite-the-tardis-visualisation-module-using-panel)
+   - [TARDIS Setups Generated Plots and Gallery](#tardis-setups-generated-plots-and-gallery)
 
 
 ### Astronomy and Astrophysics Background:
@@ -43,7 +44,7 @@ Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-wit
 
 {{<idea_tag "Panel">}} {{<idea_tag "Visualisation">}}
 
-<img src="/gsoc_2025/panel.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/gsoc_2026/panel.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
 **Project Length:** 350 Hours \
 **Difficulty:** Hard \
@@ -59,3 +60,23 @@ https://tardis-sn.github.io/tardis/pull/2872/io/visualization/index.html#tardis-
 - All visualisation modules moved to Panel.
 - Visualisation tools and widgets can be embedded on the website allowing users to interact with them.
 - Comprehensive documentation and tests for all code written.
+
+#### TARDIS Setups Generated Plots and Gallery
+
+{{<idea_tag "Visualisation">}} {{<idea_tag "Web Development">}} {{<idea_tag "Jupyter">}}
+
+<img src="/gsoc_2026/tardis-setups-gen-plots.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Difficulty:** Medium \
+**Mentors:** Josh Shields, Andrew Fullard \
+**Description:** The TARDIS umbrella includes a repository for people to put models and simulations that have been used in scientific studies, found at <a href="https://github.com/tardis-sn/tardis-setups" target="_blank">tardis-setups</a>. However, there is very little ability for people to look at what is there, or glean information from the TARDIS models that would be produced by the inputs that live in the repository. This project proposes to develop a template notebook that would be run with every set of TARDIS inputs in the TARDIS setups repository. This notebook would provide a brief overview of the inputs used to generate TARDIS spectra, and an analysis visualization output generated with those TARDIS inputs. This would allow for a quick glimpse into which models exist in the repository, and could also serve as a jumping off point for people who want to create new models, since they will have access to a suite of verified working TARDIS inputs and simulations.
+
+This project could be extended to include a web development component, where the notebook described in the last paragraph could be displayed for each set of inputs that exist in TARDIS setups, and could be easily browsed. This would also include either a pipeline for new submissions to the TARDIS setups repository to automatically produce new notebooks as well.
+
+**First Objective:** Create a notebook that produces the various visualization tools that TARDIS simulations can produce. Validate that the notebook works with a variety of TARDIS inputs.
+
+**Expected Outcomes:**
+- Visualization notebook that demonstrates a run of TARDIS, as well as the various analysis tools TARDIS offers.
+- A revamping of the TARDIS setups repository to accommodate generating the notebook with the models that exist in the TARDIS setups repository.
+- An easy to use pipeline that runs for new submissions to the TARDIS setups repository.
