@@ -44,8 +44,6 @@ Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-wit
 
 #### Rewrite the TARDIS visualisation module using Panel
 
-{{<idea_tag "Panel">}} {{<idea_tag "Visualisation">}}
-
 <img src="/gsoc_2026/panel.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
 **Project Length:** 350 Hours \
@@ -54,7 +52,7 @@ Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-wit
 **Description:** TARDIS has a collection of visualisation tools and widgets to interactively explore TARDIS simulations which run inside Jupyter Notebooks. A lot of these modules currently depend on dependencies like ipywidgets which do not work well with our Sphinx documentation. Some of these tools have already been migrated but we want to migrate the rest of our widgets to panel too.
 
 Visualisation Module-
-https://tardis-sn.github.io/tardis/pull/2872/io/visualization/index.html#tardis-widgets-graphical-user-interfaces
+https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html#tardis-widgets-graphical-user-interfaces
 
 **First Objective:** The line info and shell info widgets are already migrated to panel but they are not fully interactive on the documentation. Make them work as they work in the notebooks.
 
@@ -64,8 +62,6 @@ https://tardis-sn.github.io/tardis/pull/2872/io/visualization/index.html#tardis-
 - Comprehensive documentation and tests for all code written.
 
 #### TARDIS Setups Generated Plots and Gallery
-
-{{<idea_tag "Visualisation">}} {{<idea_tag "Web Development">}} {{<idea_tag "Jupyter">}}
 
 <img src="/gsoc_2026/tardis-setups-gen-plots.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
@@ -85,8 +81,6 @@ This project could be extended to include a web development component, where the
 
 #### Continuum Opacity Source Reader
 
-{{<idea_tag "Carsus">}} {{<idea_tag "Data Processing">}} {{<idea_tag "Python">}}
-
 <img src="/gsoc_2026/carsus3.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
 **Project Length:** 350 Hours \
@@ -101,8 +95,6 @@ This project could be extended to include a web development component, where the
 - Comprehensive documentation and tests for all code written.
 
 #### Benchmark Optimisation
-
-{{<idea_tag "Benchmarking">}} {{<idea_tag "Performance">}} {{<idea_tag "ASV">}}
 
 <img src="/gsoc_2026/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
