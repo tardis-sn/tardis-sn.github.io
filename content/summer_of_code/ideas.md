@@ -14,6 +14,8 @@ aliases:
 3. [List of GSoC 2026 Project Ideas](#list-of-gsoc-2026-project-ideas)
    - [Rewrite the TARDIS visualisation module using Panel](#rewrite-the-tardis-visualisation-module-using-panel)
    - [TARDIS Setups Generated Plots and Gallery](#tardis-setups-generated-plots-and-gallery)
+   - [Continuum Opacity Source Reader](#continuum-opacity-source-reader)
+   - [Benchmark Optimisation](#benchmark-optimisation)
 
 
 ### Astronomy and Astrophysics Background:
@@ -80,3 +82,40 @@ This project could be extended to include a web development component, where the
 - Visualization notebook that demonstrates a run of TARDIS, as well as the various analysis tools TARDIS offers.
 - A revamping of the TARDIS setups repository to accommodate generating the notebook with the models that exist in the TARDIS setups repository.
 - An easy to use pipeline that runs for new submissions to the TARDIS setups repository.
+
+#### Continuum Opacity Source Reader
+
+{{<idea_tag "Carsus">}} {{<idea_tag "Data Processing">}} {{<idea_tag "Python">}}
+
+<img src="/gsoc_2026/carsus3.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Difficulty:** Hard \
+**Mentors:** Andrew Fullard, Josh Shields \
+**Description:** There's a lot of literature with useful tables for the TARDIS codebase and other scientific codes in pdfs (e.g. <a href="https://academic.oup.com/mnras/article/266/4/805/982644" target="_blank">this paper</a>), or often in dataproducts. <a href="https://tardis-sn.github.io/carsus/" target="_blank">Carsus</a> currently reads in data from standard sources and archives (<a href="https://www.chiantidatabase.org/" target="_blank">Chianti</a>, <a href="https://sites.pitt.edu/~hillier/web/CMFGEN.htm" target="_blank">CMFGEN</a>), but does not flexibly read data from sources in the literature. The goal of this project is to expand Carsus to read datatables like ones in this work, with potential expansion for a future-proof workflow (new opacity tables). These could all go in a new tardis repository called "carsus-literature-tables" or something along those lines. You can look at <a href="https://github.com/tardis-sn/carsus-data-molecules-barklem2016" target="_blank">carsus-data-molecules-barklem2016</a> for an example of preprocessed datatables ready to be ingested by Carsus.
+
+**First Objective:** Read one of the datatables from <a href="https://cdsarc.cds.unistra.fr/viz-bin/cat/VI/80#/browse" target="_blank">this archive</a> (try s92.201.gz, under ftp) and process it into a pandas dataframe. Look to do this in a programmatic way that could be reused for similar files. See section 6.4 of <a href="https://articles.adsabs.harvard.edu/pdf/1994MNRAS.266..805S" target="_blank">this paper</a> for more details on table contents and formatting if desired.
+
+**Expected Outcomes:**
+- Code that reads in the new dataproducts and integrates with Carsus.
+- Comprehensive documentation and tests for all code written.
+
+#### Benchmark Optimisation
+
+{{<idea_tag "Benchmarking">}} {{<idea_tag "Performance">}} {{<idea_tag "ASV">}}
+
+<img src="/gsoc_2026/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Difficulty:** Hard \
+**Mentors:** Andrew Fullard, Atharva Arya, Abhinav Ohri \
+**Description:** TARDIS commits are monitored by a benchmarking framework to detect performance regressions. But the current framework only tests 5 commits at a time and not with much detail. The goal of this project is to improve the benchmarking framework by adding more benchmarks. This project will also add more benchmarks to STARDIS, a related code. The second stage of the project will use the benchmarks to investigate possible performance improvements to TARDIS and STARDIS.
+
+<a href="https://tardis-sn.github.io/tardis-benchmarks/" target="_blank">TARDIS Benchmarks</a> | <a href="https://tardis-sn.github.io/stardis-benchmarks/" target="_blank">STARDIS Benchmarks</a>
+
+**First Objective:** Benchmark the Plasma solver factory: <a href="https://github.com/tardis-sn/tardis/blob/master/tardis/plasma/assembly/base.py" target="_blank">base.py</a> and share the ASV results for the last 5 commits along with the code in a pull request.
+
+**Expected Outcomes:**
+- Exhaustive benchmarks that time important TARDIS modules like plasma, transport, visualisation to name a few.
+- Larger history of benchmarks (currently only 5) and regenerating benchmarks for failed commits to avoid losing benchmark history.
+- Comprehensive documentation and tests for all code written.
