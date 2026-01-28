@@ -12,7 +12,7 @@ aliases:
 1. [Astronomy and Astrophysics Background](#astronomy-and-astrophysics-background)
 2. [The TARDIS Project](#the-tardis-project)
 3. [List of GSoC 2026 Project Ideas](#list-of-gsoc-2026-project-ideas)
-   - [Rewrite the TARDIS visualisation module using Panel](#rewrite-the-tardis-visualisation-module-using-panel)
+   - [Rewrite the Custom Abundance Widget in Panel](#rewrite-the-custom-abundance-widget-in-panel)
    - [TARDIS Setups Generated Plots and Gallery](#tardis-setups-generated-plots-and-gallery)
    - [Continuum Opacity Source Reader](#continuum-opacity-source-reader)
    - [Benchmark Optimisation](#benchmark-optimisation)
@@ -42,7 +42,7 @@ If you use one of our TEPs, you can definitely add more detail to the implementa
 
 Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" target="_blank">Pull Request</a> with the First objective is essential for each proposal to allow to see how you work.
 
-#### Rewrite the TARDIS visualisation module using Panel
+#### Rewrite the Custom Abundance Widget in Panel
 
 <img src="/gsoc_2026/panel.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
@@ -54,7 +54,7 @@ Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-wit
 Visualisation Module-
 https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html#tardis-widgets-graphical-user-interfaces
 
-**First Objective:** The line info and shell info widgets are already migrated to panel but they are not fully interactive on the documentation. Make them work as they work in the notebooks.
+**First Objective:** The shell info widget is already migrated to panel but it is not fully interactive on the documentation. Make it work as it works in the notebooks.
 
 **Expected Outcomes:**
 - All visualisation modules moved to Panel.
@@ -100,7 +100,7 @@ This project could be extended to include a web development component, where the
 
 **Project Length:** 350 Hours \
 **Difficulty:** Hard \
-**Mentors:** Andrew Fullard, Atharva Arya, Abhinav Ohri \
+**Mentors:** Andrew Fullard, Atharva Arya \
 **Description:** TARDIS commits are monitored by a benchmarking framework to detect performance regressions. But the current framework only tests 5 commits at a time and not with much detail. The goal of this project is to improve the benchmarking framework by adding more benchmarks. This project will also add more benchmarks to STARDIS, a related code. The second stage of the project will use the benchmarks to investigate possible performance improvements to TARDIS and STARDIS.
 
 <a href="https://tardis-sn.github.io/tardis-benchmarks/" target="_blank">TARDIS Benchmarks</a> | <a href="https://tardis-sn.github.io/stardis-benchmarks/" target="_blank">STARDIS Benchmarks</a>
