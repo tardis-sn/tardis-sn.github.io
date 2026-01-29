@@ -30,3 +30,6 @@ Congratulations on being accepted to GSoC with TARDIS! Here's what you need to d
 5. Stay motivated, engage other devs, allocate time for discussions.
 6. Provide a final report on your project progress.
 7. Keep working on TARDIS-SN!
+
+***NOTE:***
+Please also read our [AI and LLM Usage Policy](../ai_usage_policy).

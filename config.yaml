@@ -185,6 +185,9 @@ params:
       - label: Other Requirements
         style: dropdown-link
         url: /summer_of_code/other_requirements
+      - label: AI and LLM Usage Policy
+        style: dropdown-link
+        url: /summer_of_code/ai_usage_policy
       url: /summer_of_code
     - has_icon: true
       icon: github

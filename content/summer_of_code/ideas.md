@@ -42,6 +42,9 @@ If you use one of our TEPs, you can definitely add more detail to the implementa
 
 Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" target="_blank">Pull Request</a> with the First objective is essential for each proposal to allow to see how you work.
 
+***NOTE:***
+Please also read our [AI and LLM Usage Policy](../ai_usage_policy).
+
 #### Rewrite the Custom Abundance Widget in Panel
 
 <img src="/gsoc_2026/panel.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
