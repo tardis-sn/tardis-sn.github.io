@@ -19,6 +19,9 @@ If you are interested, follow these steps:
 - Get familiar with TARDIS ([GitHub](https://github.com/tardis-sn/tardis), [Documentation](https://tardis-sn.github.io/tardis/)) and pick a project from the [Ideas Page](https://tardis-sn.github.io/summer_of_code/ideas)
 - [Apply](https://summerofcode.withgoogle.com/) (Application deadline for GSoC 2026 is March 31st - 18:00 UTC)!
 
+***NOTE:***
+Please also read our [AI and LLM Usage Policy](../ai_usage_policy).
+
 ### Previously Accepted GSoc Projects
 
 These were the projects that we selected for GSoC in the past and can serve as a reference for future proposals:

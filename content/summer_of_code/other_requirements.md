@@ -5,7 +5,10 @@ draft: false
 layout: page
 ---
 
-This page is intended to lay out the basic “rules and requirements” that our organization requires of all Summer of Code (whether GSoC or SOCIS) participants whose project proposals are accepted. Unless otherwise arranged with the organization administrator, it will be expected that all students will comply with the requirements outlined below.
+This page is intended to lay out the basic "rules and requirements" that our organization requires of all Summer of Code (whether GSoC or SOCIS) participants whose project proposals are accepted. Unless otherwise arranged with the organization administrator, it will be expected that all students will comply with the requirements outlined below.
+
+***NOTE:***
+Please also read our [AI and LLM Usage Policy](../ai_usage_policy).
 
 ## Application Recommendations
 

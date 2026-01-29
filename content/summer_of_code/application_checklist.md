@@ -27,4 +27,4 @@ If you are interested in participating, please contact us through [Gitter](https
 10. Submit your application!
 
 ***NOTE:***
-If you use any AI or LLMs, you must disclose their use in your PRs and/or conversations with your mentor. Additionally, you must fully understand and be able to explain any AI-generated code you submit. Any undisclosed use of AI or Large Language Models, or inability to explain AI-generated contributions, will be grounds for instant disqualification.
+Please also read our [AI and LLM Usage Policy](../ai_usage_policy).
