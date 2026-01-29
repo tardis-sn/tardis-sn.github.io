@@ -175,10 +175,10 @@ params:
       - label: GSoC Checklist
         style: dropdown-link
         sub_items:
-        - label: Application Phase
+        - label: Application Checklist
           style: redirect-link
           url: /summer_of_code/application_checklist
-        - label: Accepted Phase
+        - label: Accepted Checklist
           style: redirect-link
           url: /summer_of_code/accepted_checklist
         url: null
