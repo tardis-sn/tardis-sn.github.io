@@ -1,12 +1,11 @@
 ---
 title: TARDIS Selected as a Google Summer of Code 2025 Mentoring Organization
-excerpt: >-
-  
+excerpt: ''
 publishDate: 2025-02-27
 thumb_image: ../articles/gsoc_2025_mentoring.png
 seo:
   title: TARDIS Selected as a Google Summer of Code 2025 Mentoring Organization
-  description: 
+  description: ''
   extra:
     - name: 'og:type'
       value: website
@@ -15,8 +14,7 @@ seo:
       value: TARDIS Selected as a Google Summer of Code 2025 Mentoring Organization
       keyName: property
     - name: 'og:description'
-      value: >-
-        
+      value: ''
       keyName: property
     - name: 'og:image'
       value: ../articles/gsoc_2025_mentoring.png
@@ -27,8 +25,7 @@ seo:
     - name: 'twitter:title'
       value: TARDIS Selected as a Google Summer of Code 2025 Mentoring Organization
     - name: 'twitter:description'
-      value: >-
-        
+      value: ''
     - name: 'twitter:image'
       value: ../articles/gsoc_2025_mentoring.png
       relativeUrl: true

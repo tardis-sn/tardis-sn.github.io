@@ -1,12 +1,11 @@
 ---
 title: Introducing GSoC-2025 Contributor Riddhi Gangbhoj
-excerpt: >-
-  
+excerpt: ''
 publishDate: 2025-06-17
 thumb_image: ../articles/riddhigangbhoj.jpg
 seo:
   title: Introducing GSoC-2025 Contributor Riddhi Gangbhoj
-  description: 
+  description: ''
   extra:
     - name: 'og:type'
       value: website
@@ -15,8 +14,7 @@ seo:
       value: Introducing GSoC-2025 Contributor Riddhi Gangbhoj
       keyName: property
     - name: 'og:description'
-      value: >-
-        
+      value: ''
       keyName: property
     - name: 'og:image'
       value: ../articles/riddhigangbhoj.jpg
@@ -27,8 +25,7 @@ seo:
     - name: 'twitter:title'
       value: Introducing GSoC-2025 Contributor Riddhi Gangbhoj
     - name: 'twitter:description'
-      value: >-
-        
+      value: ''
     - name: 'twitter:image'
       value: ../articles/riddhigangbhoj.jpg
       relativeUrl: true

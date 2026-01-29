@@ -1,12 +1,11 @@
 ---
 title: Modeling Stripped-Envelope Supernovae with Physics-Driven Framework
-excerpt: >-
-  
+excerpt: ''
 publishDate: 2025-01-13
 thumb_image: ../articles/sesn.jpeg
 seo:
   title: Modeling Stripped-Envelope Supernovae with Physics-Driven Framework
-  description: 
+  description: ''
   extra:
     - name: 'og:type'
       value: website
@@ -15,8 +14,7 @@ seo:
       value: Modeling Stripped-Envelope Supernovae with Physics-Driven Framework
       keyName: property
     - name: 'og:description'
-      value: >-
-        
+      value: ''
       keyName: property
     - name: 'og:image'
       value: ../articles/sesn.jpeg
@@ -27,8 +25,7 @@ seo:
     - name: 'twitter:title'
       value: Modeling Stripped-Envelope Supernovae with Physics-Driven Framework
     - name: 'twitter:description'
-      value: >-
-        
+      value: ''
     - name: 'twitter:image'
       value: ../articles/sesn.jpeg
       relativeUrl: true

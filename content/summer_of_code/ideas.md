@@ -12,7 +12,10 @@ aliases:
 1. [Astronomy and Astrophysics Background](#astronomy-and-astrophysics-background)
 2. [The TARDIS Project](#the-tardis-project)
 3. [List of GSoC 2026 Project Ideas](#list-of-gsoc-2026-project-ideas)
-   - [Rewrite the TARDIS visualisation module using Panel](#rewrite-the-tardis-visualisation-module-using-panel)
+   - [Rewrite the Custom Abundance Widget in Panel](#rewrite-the-custom-abundance-widget-in-panel)
+   - [TARDIS Setups Generated Plots and Gallery](#tardis-setups-generated-plots-and-gallery)
+   - [Continuum Opacity Source Reader](#continuum-opacity-source-reader)
+   - [Benchmark Optimisation](#benchmark-optimisation)
 
 
 ### Astronomy and Astrophysics Background:
@@ -39,11 +42,9 @@ If you use one of our TEPs, you can definitely add more detail to the implementa
 
 Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" target="_blank">Pull Request</a> with the First objective is essential for each proposal to allow to see how you work.
 
-#### Rewrite the TARDIS visualisation module using Panel
+#### Rewrite the Custom Abundance Widget in Panel
 
-{{<idea_tag "Panel">}} {{<idea_tag "Visualisation">}}
-
-<img src="/gsoc_2025/panel.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/gsoc_2026/panel.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
 
 **Project Length:** 350 Hours \
 **Difficulty:** Hard \
@@ -51,11 +52,62 @@ Putting in a <a href="https://docs.github.com/en/pull-requests/collaborating-wit
 **Description:** TARDIS has a collection of visualisation tools and widgets to interactively explore TARDIS simulations which run inside Jupyter Notebooks. A lot of these modules currently depend on dependencies like ipywidgets which do not work well with our Sphinx documentation. Some of these tools have already been migrated but we want to migrate the rest of our widgets to panel too.
 
 Visualisation Module-
-https://tardis-sn.github.io/tardis/pull/2872/io/visualization/index.html#tardis-widgets-graphical-user-interfaces
+https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html#tardis-widgets-graphical-user-interfaces
 
-**First Objective:** The line info and shell info widgets are already migrated to panel but they are not fully interactive on the documentation. Make them work as they work in the notebooks.
+**First Objective:** The shell info widget is already migrated to panel but it is not fully interactive on the documentation. Make it work as it works in the notebooks.
 
 **Expected Outcomes:**
 - All visualisation modules moved to Panel.
 - Visualisation tools and widgets can be embedded on the website allowing users to interact with them.
+- Comprehensive documentation and tests for all code written.
+
+#### TARDIS Setups Generated Plots and Gallery
+
+<img src="/gsoc_2026/tardis-setups-gen-plots.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Difficulty:** Medium \
+**Mentors:** Josh Shields, Andrew Fullard \
+**Description:** The TARDIS umbrella includes a repository for people to put models and simulations that have been used in scientific studies, found at <a href="https://github.com/tardis-sn/tardis-setups" target="_blank">tardis-setups</a>. However, there is very little ability for people to look at what is there, or glean information from the TARDIS models that would be produced by the inputs that live in the repository. This project proposes to develop a template notebook that would be run with every set of TARDIS inputs in the TARDIS setups repository. This notebook would provide a brief overview of the inputs used to generate TARDIS spectra, and an analysis visualization output generated with those TARDIS inputs. This would allow for a quick glimpse into which models exist in the repository, and could also serve as a jumping off point for people who want to create new models, since they will have access to a suite of verified working TARDIS inputs and simulations.
+
+This project could be extended to include a web development component, where the notebook described in the last paragraph could be displayed for each set of inputs that exist in TARDIS setups, and could be easily browsed. This would also include either a pipeline for new submissions to the TARDIS setups repository to automatically produce new notebooks as well.
+
+**First Objective:** Create a notebook that produces the various visualization tools that TARDIS simulations can produce. Validate that the notebook works with a variety of TARDIS inputs.
+
+**Expected Outcomes:**
+- Visualization notebook that demonstrates a run of TARDIS, as well as the various analysis tools TARDIS offers.
+- A revamping of the TARDIS setups repository to accommodate generating the notebook with the models that exist in the TARDIS setups repository.
+- An easy to use pipeline that runs for new submissions to the TARDIS setups repository.
+
+#### Continuum Opacity Source Reader
+
+<img src="/gsoc_2026/carsus3.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Difficulty:** Hard \
+**Mentors:** Andrew Fullard, Josh Shields \
+**Description:** There's a lot of literature with useful tables for the TARDIS codebase and other scientific codes in pdfs (e.g. <a href="https://academic.oup.com/mnras/article/266/4/805/982644" target="_blank">this paper</a>), or often in dataproducts. <a href="https://tardis-sn.github.io/carsus/" target="_blank">Carsus</a> currently reads in data from standard sources and archives (<a href="https://www.chiantidatabase.org/" target="_blank">Chianti</a>, <a href="https://sites.pitt.edu/~hillier/web/CMFGEN.htm" target="_blank">CMFGEN</a>), but does not flexibly read data from sources in the literature. The goal of this project is to expand Carsus to read datatables like ones in this work, with potential expansion for a future-proof workflow (new opacity tables). These could all go in a new tardis repository called "carsus-literature-tables" or something along those lines. You can look at <a href="https://github.com/tardis-sn/carsus-data-molecules-barklem2016" target="_blank">carsus-data-molecules-barklem2016</a> for an example of preprocessed datatables ready to be ingested by Carsus.
+
+**First Objective:** Read one of the datatables from <a href="https://cdsarc.cds.unistra.fr/viz-bin/cat/VI/80#/browse" target="_blank">this archive</a> (try s92.201.gz, under ftp) and process it into a pandas dataframe. Look to do this in a programmatic way that could be reused for similar files. See section 6.4 of <a href="https://articles.adsabs.harvard.edu/pdf/1994MNRAS.266..805S" target="_blank">this paper</a> for more details on table contents and formatting if desired.
+
+**Expected Outcomes:**
+- Code that reads in the new dataproducts and integrates with Carsus.
+- Comprehensive documentation and tests for all code written.
+
+#### Benchmark Optimisation
+
+<img src="/gsoc_2026/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Difficulty:** Hard \
+**Mentors:** Andrew Fullard, Atharva Arya \
+**Description:** TARDIS commits are monitored by a benchmarking framework to detect performance regressions. But the current framework only tests 5 commits at a time and not with much detail. The goal of this project is to improve the benchmarking framework by adding more benchmarks. This project will also add more benchmarks to STARDIS, a related code. The second stage of the project will use the benchmarks to investigate possible performance improvements to TARDIS and STARDIS.
+
+<a href="https://tardis-sn.github.io/tardis-benchmarks/" target="_blank">TARDIS Benchmarks</a> | <a href="https://tardis-sn.github.io/stardis-benchmarks/" target="_blank">STARDIS Benchmarks</a>
+
+**First Objective:** Benchmark the Plasma solver factory: <a href="https://github.com/tardis-sn/tardis/blob/master/tardis/plasma/assembly/base.py" target="_blank">base.py</a> and share the ASV results for the last 5 commits along with the code in a pull request.
+
+**Expected Outcomes:**
+- Exhaustive benchmarks that time important TARDIS modules like plasma, transport, visualisation to name a few.
+- Larger history of benchmarks (currently only 5) and regenerating benchmarks for failed commits to avoid losing benchmark history.
 - Comprehensive documentation and tests for all code written.
