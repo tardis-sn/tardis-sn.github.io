@@ -16,6 +16,7 @@ aliases:
    - [TARDIS Setups Generated Plots and Gallery](#tardis-setups-generated-plots-and-gallery)
    - [Continuum Opacity Source Reader](#continuum-opacity-source-reader)
    - [Benchmark Optimisation](#benchmark-optimisation)
+   - [Improving Test Coverage for Plasma Module](#improving-test-coverage-for-plasma-module)
 
 
 ### Astronomy and Astrophysics Background:
@@ -51,16 +52,17 @@ Please also read our [AI and LLM Usage Policy](../ai_usage_policy).
 
 **Project Length:** 350 Hours \
 **Difficulty:** Hard \
-**Mentors:** Andrew Fullard, Atharva Arya, James Gillanders \
-**Description:** TARDIS has a collection of visualisation tools and widgets to interactively explore TARDIS simulations which run inside Jupyter Notebooks. A lot of these modules currently depend on dependencies like ipywidgets which do not work well with our Sphinx documentation. Some of these tools have already been migrated but we want to migrate the rest of our widgets to panel too.
+**Mentors:** Andrew Fullard, Atharva Arya, James Gillanders, Jaladh Singhal \
+**Description:** TARDIS has a collection of visualisation tools and widgets to interactively explore TARDIS simulations which run inside Jupyter Notebooks. A lot of these modules currently depend on dependencies like ipywidgets which do not work well with our Sphinx documentation. Some of these tools have already been migrated but we want to migrate the rest of our widgets to panel too. For this project, you will be working on migrating the custom abundance widget to Panel.
 
-Visualisation Module-
+Visualisation Module:
 https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html#tardis-widgets-graphical-user-interfaces
 
-**First Objective:** The shell info widget is already migrated to panel but it is not fully interactive on the documentation. Make it work as it works in the notebooks.
+**First Objective:** The shell info widget is already migrated to panel but it is not fully interactive on the documentation. Make it work as it works in the notebooks. 
+See <a href="https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/how_to_generating_widgets.html#How-to-Generate-Data-Exploration-Widgets" target="_blank">documentation here</a>.
 
 **Expected Outcomes:**
-- All visualisation modules moved to Panel.
+- The custom abundance widget moved to Panel.
 - Visualisation tools and widgets can be embedded on the website allowing users to interact with them.
 - Comprehensive documentation and tests for all code written.
 
@@ -99,7 +101,7 @@ This project could be extended to include a web development component, where the
 
 #### Benchmark Optimisation
 
-<img src="/gsoc_2026/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 50%;padding-top: 5%;padding-bottom: 5%;">
+<img src="/gsoc_2026/benchmark.png" alt="image" style="display: block; margin: 0 auto;width: 75%;padding-top: 5%;padding-bottom: 5%;">
 
 **Project Length:** 350 Hours \
 **Difficulty:** Hard \
@@ -114,3 +116,18 @@ This project could be extended to include a web development component, where the
 - Exhaustive benchmarks that time important TARDIS modules like plasma, transport, visualisation to name a few.
 - Larger history of benchmarks (currently only 5) and regenerating benchmarks for failed commits to avoid losing benchmark history.
 - Comprehensive documentation and tests for all code written.
+
+#### Improving Test Coverage for Plasma Module
+
+<img src="/gsoc_2026/test_cov.png" alt="image" style="display: block; margin: 0 auto;width: 75%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Difficulty:** Medium \
+**Mentors:** Andrew Fullard, Atharva Arya, Josh Shields \
+**Description:** TARDIS has an extensive tests suite, a significant part of which is not reflected in the coverage. The goal of this project is to find untested code for the plasma module specifically and improve its test coverage.
+
+**First Objective:** Investigate the plasma module for untested code bits and write a test.
+
+**Expected Outcomes:**
+- 100 percent test coverage for the plasma module.
+- Comprehensive documentation for all tests written.
