@@ -17,6 +17,7 @@ aliases:
    - [Continuum Opacity Source Reader](#continuum-opacity-source-reader)
    - [Benchmark Optimisation](#benchmark-optimisation)
    - [Improving Test Coverage for Plasma Module](#improving-test-coverage-for-plasma-module)
+   - [Visualizing Packet History with Sankey Diagram](#visualizing-packet-history-with-sankey-diagram)
 
 
 ### Astronomy and Astrophysics Background:
@@ -130,4 +131,18 @@ This project could be extended to include a web development component, where the
 
 **Expected Outcomes:**
 - 100 percent test coverage for the plasma module.
-- Comprehensive documentation for all tests written.
+
+#### Visualizing Packet History with Sankey Diagram
+
+<img src="/gsoc_2026/sankey.png" alt="image" style="display: block; margin: 0 auto;width: 75%;padding-top: 5%;padding-bottom: 5%;">
+
+**Project Length:** 350 Hours \
+**Difficulty:** Medium \
+**Mentors:** Connor McClellan, Jaladh Singhal \
+**Description:** A TARDIS simulation propagates a large number of Monte Carlo packets throughout the simulation domain and the last packets form the output synthetic spectrum. There is a collection of existing <a href="https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html" target="_blank">visualization tools</a> that help researchers analyze the packet information, especially the last interaction. However, there are no tools/widgets to visualize the full packet history from the start to end yet. The goal of this project is to build a widget to visualize the full packet interaction history using a Sankey Diagram. The full packet information is stored within the `tardis.transport.montecarlo.packets.trackers.tracker_full` module if the setting is on.
+
+**First Objective:** Write a function that can filter the provided dataset of packet interactions by last interaction type. Your function should return a subset of the packet interaction dataframe containing the full history of all packets whose last interaction is the type specified in the function's argument (electron scattering, C I, Ca II, etc.).
+
+**Expected Outcomes:**
+- Parametrize the plotter to customise it, such as select a specific starting/end condition and/or a subset of interaction types (e.g., electron scattering, specific line interactions).
+- Visualization tool that's documented and tested similar to SDEC plot and other existing visualization tools.
