@@ -1,4 +1,6 @@
-{{ range $key, $data := site.Data.members.current_gsoc_admins }}
+{{ $currentYear := site.Params.gsoc_year }}
+{{ range $key, $data := site.Data.members.gsoc_admins }}
+    {{ if in $data.years $currentYear }}
     <div class="individual-container">
         <div class="info-container">
                                 {{ $imagePath := printf "../../members/%s/%s" $data.member_id $data.image_path }}
@@ -12,4 +14,5 @@
             <div class="person-name">{{ $data.full_name }}</div>
         </div>
     </div>
+    {{ end }}
 {{ end }}
