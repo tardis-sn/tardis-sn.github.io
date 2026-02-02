@@ -9,16 +9,15 @@ aliases:
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-  - [Astronomy and Astrophysics Background:](#astronomy-and-astrophysics-background)
-  - [The TARDIS Project](#the-tardis-project)
-  - [List of GSoC 2026 Project Ideas](#list-of-gsoc-2026-project-ideas)
-    - [Rewrite the Custom Abundance Widget in Panel](#rewrite-the-custom-abundance-widget-in-panel)
-    - [TARDIS Setups Generated Plots and Gallery](#tardis-setups-generated-plots-and-gallery)
-    - [Continuum Opacity Source Reader](#continuum-opacity-source-reader)
-    - [Benchmark Optimisation](#benchmark-optimisation)
-    - [Improving Test Coverage for Plasma Module](#improving-test-coverage-for-plasma-module)
-    - [Visualizing Packet History with Sankey Diagram](#visualizing-packet-history-with-sankey-diagram)
+1. [Astronomy and Astrophysics Background](#astronomy-and-astrophysics-background)
+2. [The TARDIS Project](#the-tardis-project)
+3. [List of GSoC 2026 Project Ideas](#list-of-gsoc-2026-project-ideas)
+   - [Rewrite the Custom Abundance Widget in Panel](#rewrite-the-custom-abundance-widget-in-panel)
+   - [TARDIS Setups Generated Plots and Gallery](#tardis-setups-generated-plots-and-gallery)
+   - [Continuum Opacity Source Reader](#continuum-opacity-source-reader)
+   - [Benchmark Optimisation](#benchmark-optimisation)
+   - [Improving Test Coverage for Plasma Module](#improving-test-coverage-for-plasma-module)
+   - [Visualizing Packet History with Sankey Diagram](#visualizing-packet-history-with-sankey-diagram)
 
 
 ### Astronomy and Astrophysics Background:
