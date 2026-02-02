@@ -9,6 +9,7 @@ markup:
     renderer:
       unsafe: true
 params:
+  gsoc_year: 2026
   base_font: nunito-sans
   favicon: images/tardis_logo.ico
   footer:
