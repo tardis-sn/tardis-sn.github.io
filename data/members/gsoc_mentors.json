@@ -21,15 +21,17 @@
     {
         "member_id": "andreas_flors",
         "years": [
+            2026,
             2025,
             2023
         ],
-        "full_name": "Andreas Flors",
+        "full_name": "Andreas Flörs",
         "image_path": "media/images/andreas.jpeg"
     },
     {
         "member_id": "andrew_fullard",
         "years": [
+            2026,
             2025,
             2024,
             2023
@@ -40,10 +42,11 @@
     {
         "member_id": "anirban_dutta",
         "years": [
+            2026,
             2025,
             2023
         ],
-        "full_name": "Anirban  Dutta",
+        "full_name": "Anirban Dutta",
         "image_path": "media/images/anirban_dutta.jpg"
     },
     {
@@ -58,6 +61,7 @@
     {
         "member_id": "atharva_arya",
         "years": [
+            2026,
             2025,
             2024,
             2023
@@ -83,6 +87,14 @@
         "image_path": "media/images/christian.jpeg"
     },
     {
+        "member_id": "connor_mcclellan",
+        "years": [
+            2026
+        ],
+        "full_name": "Connor McClellan",
+        "image_path": "media/images/profile.png"
+    },
+    {
         "member_id": "craig_pellegrino",
         "years": [
             2024
@@ -101,10 +113,11 @@
     {
         "member_id": "ezequiel_passaro",
         "years": [
+            2026,
             2025,
             2023
         ],
-        "full_name": "Ezequiel Passaro",
+        "full_name": "Ezequiel Pássaro",
         "image_path": "media/images/profile.jpg"
     },
     {
@@ -136,6 +149,7 @@
     {
         "member_id": "jaladh_singhal",
         "years": [
+            2026,
             2025,
             2024,
             2023,
@@ -147,6 +161,7 @@
     {
         "member_id": "james_gillanders",
         "years": [
+            2026,
             2025,
             2024,
             2023
@@ -157,14 +172,16 @@
     {
         "member_id": "jared_goldberg",
         "years": [
+            2026,
             2025
         ],
         "full_name": "Jared Goldberg",
-        "image_path": "media/images/jared.png"
+        "image_path": "media/images/jared_goldberg.jpeg"
     },
     {
         "member_id": "jing_lu",
         "years": [
+            2026,
             2025,
             2024,
             2023
@@ -173,8 +190,17 @@
         "image_path": "media/images/jing.jpg"
     },
     {
+        "member_id": "joe_petrecca",
+        "years": [
+            2026
+        ],
+        "full_name": "Joe Petrecca",
+        "image_path": "media/images/JoeProfilePicture.png"
+    },
+    {
         "member_id": "josh_shields",
         "years": [
+            2026,
             2025,
             2024,
             2023
@@ -218,14 +244,16 @@
     {
         "member_id": "vicente_amado",
         "years": [
+            2026,
             2023
         ],
-        "full_name": "Vicente  Amado Olivo",
+        "full_name": "Vicente Amado Olivo",
         "image_path": "media/images/ESD_headshot.jpg"
     },
     {
         "member_id": "wolfgang_kerzendorf",
         "years": [
+            2026,
             2024,
             2023,
             2021,

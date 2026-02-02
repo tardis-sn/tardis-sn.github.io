@@ -1,3 +1,4 @@
+{{ $currentYear := int site.Params.gsoc_year }}
 <table>
     <thead>
         <tr>
@@ -6,11 +7,19 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $mentor, $mentorData:= site.Data.members.past_gsoc_mentors }}
+        {{ range $mentor, $mentorData := site.Data.members.gsoc_mentors }}
+        {{ $pastYears := slice }}
+        {{ range $mentorData.years }}
+            {{ if lt (int .) $currentYear }}
+                {{ $pastYears = $pastYears | append . }}
+            {{ end }}
+        {{ end }}
+        {{ if $pastYears }}
         <tr>
             <td>{{ $mentorData.full_name }}</td>
-            <td>{{ delimit $mentorData.years ", " }}</td>
+            <td>{{ delimit $pastYears ", " }}</td>
         </tr>
+        {{ end }}
         {{ end }}
     </tbody>
 </table>
