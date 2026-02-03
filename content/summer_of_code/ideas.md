@@ -18,6 +18,7 @@ aliases:
    - [Benchmark Optimisation](#benchmark-optimisation)
    - [Improving Test Coverage for Plasma Module](#improving-test-coverage-for-plasma-module)
    - [Visualizing Packet History with Sankey Diagram](#visualizing-packet-history-with-sankey-diagram)
+   - [Standardizing Test Tolerances](#standardizing-test-tolerances)
 
 
 ### Astronomy and Astrophysics Background:
@@ -57,9 +58,9 @@ Please also read our [AI and LLM Usage Policy](../ai_usage_policy).
 **Description:** TARDIS has a collection of visualisation tools and widgets to interactively explore TARDIS simulations which run inside Jupyter Notebooks. A lot of these modules currently depend on dependencies like ipywidgets which do not work well with our Sphinx documentation. Some of these tools have already been migrated but we want to migrate the rest of our widgets to panel too. For this project, you will be working on migrating the custom abundance widget to Panel.
 
 Visualisation Module:
-https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html#tardis-widgets-graphical-user-interfaces
+<a href="https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html#tardis-widgets-graphical-user-interfaces" target="_blank">https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html#tardis-widgets-graphical-user-interfaces</a>
 
-**First Objective:** The shell info widget is already migrated to panel but it is not fully interactive on the documentation. Make it work as it works in the notebooks. 
+**First Objective:** The line info and shell info widgets are already migrated to panel but they are not fully interactive on the documentation. For instance, in shell info widget, switching the first table does not switch the other ones unlike in a live notebook. As the first objective of this project, your task is to make the widget fully interactive so that the widget mimics its behaviour as if it were in a notebook.
 See <a href="https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/how_to_generating_widgets.html#How-to-Generate-Data-Exploration-Widgets" target="_blank">documentation here</a>.
 
 **Expected Outcomes:**
@@ -125,12 +126,16 @@ This project could be extended to include a web development component, where the
 **Project Length:** 350 Hours \
 **Difficulty:** Medium \
 **Mentors:** Andrew Fullard, Atharva Arya, Josh Shields \
-**Description:** TARDIS has an extensive tests suite, a significant part of which is not reflected in the coverage. The goal of this project is to find untested code for the plasma module specifically and improve its test coverage.
+**Description:** TARDIS has an extensive test suite, but automated test coverage metrics (i.e., CodeCov) do not accurately report coverage of the TARDIS Plasma due to the details of its implementation. The goal of this project is to comprehensively test the plasma by making tests that are easy to find and test each part of the plasma respectively. Additionally, several parts of the module are indirectly tested using the regression data and are missing focussed tests. This makes debugging harder during failures since its hard to pin point the root cause of the failures in multiple tests. The project will begin by taking inventory of which parts of the plasma have existing tests and which do not. The student will then fill in the gaps in the plasma test coverage. Along the way, the student will learn various details of plasma physics and testing infrastructure in a large scientific codebase.
 
-**First Objective:** Investigate the plasma module for untested code bits and write a test.
+**First Objective:** For both objectives, indicate why that is a good test. BONUS - write in the PR description what other tests you would test.
+
+*Level 1:* The DilutePlanckianRadiationField class is tested in various places indirectly via the regression tests but no direct test exists. Write a test for this class using regression data. For first objective purposes, modify the path of the regression data so that you don't need to open a pull request in the regression data repository too.
+
+*Level 2:* Write tests for the RadiativeRatesSolver class, using the regression data as in Level 1. Modify the path of the regression data similarly.
 
 **Expected Outcomes:**
-- 100 percent test coverage for the plasma module.
+- Comprehensive test coverage for the plasma module.
 
 #### Visualizing Packet History with Sankey Diagram
 
@@ -138,11 +143,26 @@ This project could be extended to include a web development component, where the
 
 **Project Length:** 350 Hours \
 **Difficulty:** Medium \
-**Mentors:** Connor McClellan, Jaladh Singhal \
+**Mentors:** Connor McClellan, Jaladh Singhal, Jared Goldberg \
 **Description:** A TARDIS simulation propagates a large number of Monte Carlo packets throughout the simulation domain and the last packets form the output synthetic spectrum. There is a collection of existing <a href="https://tardis-sn.github.io/tardis/analyzing_tardis/visualization/index.html" target="_blank">visualization tools</a> that help researchers analyze the packet information, especially the last interaction. However, there are no tools/widgets to visualize the full packet history from the start to end yet. The goal of this project is to build a widget to visualize the full packet interaction history using a Sankey Diagram. The full packet information is stored within the `tardis.transport.montecarlo.packets.trackers.tracker_full` module if the setting is on.
 
-**First Objective:** Write a function that can filter the provided dataset of packet interactions by last interaction type. Your function should return a subset of the packet interaction dataframe containing the full history of all packets whose last interaction is the type specified in the function's argument (electron scattering, C I, Ca II, etc.).
+**First Objective:** Write a function that can filter the full packet tracker dataframe of interactions by a specific last interaction type. Your function should return a subset of the full packet interaction dataframe containing the full history of all packets, trimmed down to those where the last interaction is the type specified in the function's argument (electron scattering, C I, Ca II, etc.).
 
 **Expected Outcomes:**
 - Parametrize the plotter to customise it, such as select a specific starting/end condition and/or a subset of interaction types (e.g., electron scattering, specific line interactions).
 - Visualization tool that's documented and tested similar to SDEC plot and other existing visualization tools.
+
+#### Standardizing Test Tolerances
+
+**Project Length:** 350 Hours \
+**Difficulty:** Medium \
+**Mentors:** Andrew Fullard, Atharva Arya, Josh Shields \
+**Description:** The TARDIS test suite verifies accuracy of the codebase using data files stored in the regression data repository. However, the tolerance levels at which data is compared is different across different parts of the code. The goal of this project is to standardize test tolerances for each test function or module. Since these tolerances vary based on the module due to the intricacies of the codebase, you will also have to find out which parts of the code cause these levels to rise.
+
+For instance, <a href="https://github.com/tardis-sn/tardis/blob/6c9897f95301023b155e9714e495d1dc25819ddf/tardis/visualization/tools/tests/test_sdec_plot.py#L16" target="_blank">test_sdec_plot.py</a> has its tolerance level set.
+
+**First Objective:** Find the tolerance levels of tests of TestBlackBodySimpleSource class and make a pull request.
+
+**Expected Outcomes:**
+- Known causes for different tolerance levels in different parts of the code.
+- All test assertions with set tolerance levels.
