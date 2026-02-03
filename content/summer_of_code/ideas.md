@@ -157,7 +157,7 @@ This project could be extended to include a web development component, where the
 **Project Length:** 350 Hours \
 **Difficulty:** Medium \
 **Mentors:** Andrew Fullard, Atharva Arya, Josh Shields \
-**Description:** The TARDIS test suite verifies accuracy of the codebase using data files stored in the regression data repository. However, the tolerance levels at which data is compared is different across different parts of the code. The goal of this project is to standardize test tolerances for each test function or module. Since these tolerances vary based on the module due to the intricacies of the codebase, you will also have to find out which parts of the code cause these levels to rise.
+**Description:** The TARDIS test suite verifies accuracy of the codebase using data files stored in the regression data repository. However, the tolerance levels at which data is compared is different across different parts of the code. The goal of this project is to standardize test tolerances for each test function or module, taking into account numerical differences between the different platforms for which TARDIS is developed (Mac versus Linux, for example). Since these tolerances vary based on the module due to the intricacies of the codebase, you will also have to find out which parts of the code cause these levels to rise.
 
 For instance, <a href="https://github.com/tardis-sn/tardis/blob/6c9897f95301023b155e9714e495d1dc25819ddf/tardis/visualization/tools/tests/test_sdec_plot.py#L16" target="_blank">test_sdec_plot.py</a> has its tolerance level set.
 
