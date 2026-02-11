@@ -164,15 +164,6 @@ params:
       - label: GSoC with TARDIS!
         style: dropdown-link
         url: /summer_of_code/gsoc_waiting
-      - label: GSoC 2026 Team
-        style: dropdown-link
-        url: /summer_of_code/current_gsoc_team
-      - label: GSoC 2026 Ideas
-        style: dropdown-link
-        url: /summer_of_code/ideas
-      - label: Past GSoC
-        style: dropdown-link
-        url: /summer_of_code/past_gsoc
       - label: GSoC Checklist
         style: dropdown-link
         sub_items:
@@ -183,6 +174,15 @@ params:
           style: redirect-link
           url: /summer_of_code/accepted_checklist
         url: null
+      - label: GSoC 2026 Ideas
+        style: dropdown-link
+        url: /summer_of_code/ideas
+      - label: GSoC 2026 Team
+        style: dropdown-link
+        url: /summer_of_code/current_gsoc_team
+      - label: Past GSoC
+        style: dropdown-link
+        url: /summer_of_code/past_gsoc
       - label: Other Requirements
         style: dropdown-link
         url: /summer_of_code/other_requirements
