@@ -163,7 +163,7 @@ params:
       sub_items:
       - label: GSoC with TARDIS!
         style: dropdown-link
-        url: /summer_of_code/gsoc_waiting
+        url: /summer_of_code/gsoc_org_accepted
       - label: GSoC Checklist
         style: dropdown-link
         sub_items:
