@@ -8,7 +8,14 @@ Please make sure to follow the following PR rules. Note that we reserve the righ
 
 1. Put `[GSoC]` in the pull request title.
 2. Please follow the PR description template.
-3. Read the [AI and LLM Usage Policy](../ai_usage_policy) and please follow what's mentioned there.
+3. Read the [AI and LLM Usage Policy](../ai_usage_policy) and please follow what's mentioned there. Each Pull Request must include an explicit AI Usage Statement. You must state one of the following:
+   - **If AI tools or Large Language Models were used:**
+     - Name the tool(s).
+     - Describe how they were used.
+     - Confirm that you fully understand and can explain all AI-assisted contributions.
+   - **If no AI tools were used:**
+     - Explicitly state that no AI or LLM tools were used in any part of the contribution.
 
 4. One pull request for one specific task. Please don't address multiple bugs/fixes in the same pull request.
 5. Address the comments given by us or bots within 48 hours. That means fixing code and then replying to the specific messages stating how you addressed the comment.
+6. Please do not create pull requests on TARDIS Physics unless you clearly understand the subject.
