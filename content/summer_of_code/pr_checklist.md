@@ -12,3 +12,4 @@ Please make sure to follow the following PR rules. Note that we reserve the righ
 
 4. One pull request for one specific task. Please don't address multiple bugs/fixes in the same pull request.
 5. Address the comments given by us or bots within 48 hours. That means fixing code and then replying to the specific messages stating how you addressed the comment.
+6. Please do not create PRs on TARDIS Physics unless you clearly understand the subject.
