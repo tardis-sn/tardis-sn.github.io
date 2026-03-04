@@ -17,3 +17,6 @@ Using AI does not change your responsibility:
 
 AI is a productivity multiplier, not an excuse for shallow understanding.<br>
 Learning to use these tools well is now part of being an effective researcher, engineer, and collaborator.
+
+***NOTE:***
+Please also read the [PR Checklist](../pr_checklist) and the [Application Checklist](../application_checklist).
