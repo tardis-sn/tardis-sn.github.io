@@ -152,7 +152,11 @@ params:
         style: redirect-link
         url: https://tardis-sn.github.io/tardis-con
       - label: TARDIS-connector
-        style: redirect-link
+        style: dropdown-link
+        sub_items:
+        - label: Connector 2025
+          style: redirect-link
+          url: https://tardis-sn.github.io/tardis-connector/2025
         url: https://tardis-sn.github.io/tardis-connector
       url: /events
     - label: News
