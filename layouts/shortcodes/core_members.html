@@ -11,7 +11,7 @@
         {{ end }}
         <div class="role-box" style="font-size: small;">
             <div class="person-name" style="font-size: 120.5%;">
-                {{$member.full_name}} </div> {{ range $role := $member.roles }} <a href="#{{ $role.role | urlize }}">{{
+                <a href="/members/{{$member.member_id}}/" style="text-decoration: none; color: inherit;">{{$member.full_name}}</a> </div> {{ range $role := $member.roles }} <a href="#{{ $role.role | urlize }}">{{
                 $role.role }}<br></a> {{ end }}
         </div>
     </div>
