@@ -173,7 +173,7 @@ params:
         - label: Accepted Checklist
           style: redirect-link
           url: /summer_of_code/accepted_checklist
-        url: null
+        url: ""
       - label: GSoC 2026 Ideas
         style: dropdown-link
         url: /summer_of_code/ideas
