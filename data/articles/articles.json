@@ -1,5 +1,40 @@
 [
     {
+        "title": "Traces of Helium Detected in Type Ic Supernova 2014L",
+        "author_id": "Jing Lu",
+        "article_id": "helium_sn2014l_jing",
+        "display": true,
+        "date": "2026-04-21",
+        "category": "News",
+        "tags": [
+            "paper",
+            "Astrophysics"
+        ],
+        "platforms": [
+            "kg",
+            "tardis"
+        ],
+        "short_description": "Applying a Bayesian inference framework to the normal Type Ic supernova SN2014L, the team finds spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova.",
+        "cover_image_height": "330px",
+        "cover_image_width": "520px",
+        "cover_image": "../articles/image.png",
+        "content": {
+            "1_para": "Type Ic supernovae are classified by the absence of helium features in optical spectra, and they are thought to come from the core collapse explosion of massive stars that have lost their outer hydrogen and helium envelopes. But whether helium is truly absent or spectroscopically hidden remains debated. Despite extensive observations, quantifying helium in these events has remained challenging due to limitations in modeling and fitting techniques. Our postdoctoral research associate <a href='https://deerwhale.github.io/jinglu/'>Jing Lu</a> and her collaborators recently applied a Bayesian inference framework to a normal Type Ic supernova SN2014L and found that spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova.",
+            "2_para": "This study applies the inference workflow that has been previously developed and applied to type Ia supernovae by TARDIS team members (See reference O\u2019Brien et al. 2021, 2024) to a stripped envelope supernova. The authors trained a deep-learning network to emulate synthetic spectra calculation using radiative transfer code TARDIS in the space parameterized for SN2014L, adopting the same network architecture of Probabilistic Dalek (see reference Kerzendorf et al. 2022). This emulator is then used for synthetic spectra evaluation during the inference instead of running TARDIS simulations, accelerating the evaluation time drastically and enabling a more efficient exploration of the physical parameter space.",
+            "3_para": "By applying Bayesian inference to the observed optical and near-infrared spectra at the same time, the team finds evidence that a trace amount of helium is present in the outer ejecta of this classified helium-free object SN2014L. From the inferred results, the team shows that the prominent feature near 1 \u03bcm is dominated by helium contribution. This work demonstrates the importance of combining detailed physical modeling with the Bayesian inference technique."
+        },
+        "people_involved_ids": [
+            "Jing Lu"
+        ],
+        "links": {
+            "Lu et al. 2026": "https://iopscience.iop.org/article/10.3847/2041-8213/ae5b8f",
+            "O\u2019Brien et al. 2024": "https://iopscience.iop.org/article/10.3847/1538-4357/ad2358",
+            "Kerzendorf et al. 2022": "https://arxiv.org/abs/2209.09453",
+            "O\u2019Brien et al. 2021": "https://iopscience.iop.org/article/10.3847/2041-8213/ac1173"
+        },
+        "twitter": ""
+    },
+    {
         "title": "Introducing STARDIS - An Open and Modular Stellar Spectral Synthesis Code",
         "author_id": "Josh Shields",
         "article_id": "stardis_release",
@@ -341,6 +376,42 @@
         "twitter": ""
     },
     {
+        "title": "Enhancing Packet Trackers",
+        "author_id": "Sumit Gupta",
+        "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
+        "display": true,
+        "date": "2024-08-23",
+        "category": "News",
+        "tags": [
+            "packet trackers"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/cover_image_sharpened.png",
+        "content": {
+            "1_para": "We have introduced a new RPacketLastInteractionTracker class to keep track of the last interaction of a RPacket.",
+            "2_img": "media/images/RPacketLastInteractionTracker.png",
+            "3_para": "As a result of the tracker restructuring, the peak memory usage has been reduced from 4 GB to approximately 1 GB.",
+            "4_para": "<strong>Before Restructure</strong>",
+            "5_img": "media/images/beforeRestructure.png",
+            "6_para": "<strong>After Restructure</strong>",
+            "7_img": "media/images/afterRestructure.png",
+            "8_para": "We also added detailed boundary interaction to the RPacketTracker, the structure of which looks like",
+            "9_img": "media/images/boundary_interaction.png",
+            "10_para": "`event_id` is the interaction number, `current_shell_id` is the previous boundary, and `next_shell_id` is the shell id to which the packet moved",
+            "11_para": "We also researched a lot about Numba. Some of the things included using dynamic variables inside Numba using approaches like overload, branch pruning, etc., if you are interested about it, here are some <a href='https://gist.github.com/Sumit112192/6ddf8cb7be016caba1ce98feca95815d'>toy code.</a>",
+            "12_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
+            "13_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>."
+        },
+        "people_involved_ids": [],
+        "links": {},
+        "twitter": ""
+    },
+    {
         "title": "LIV (Last Interaction Velocity) Plot",
         "author_id": "Sarthak Srivastava",
         "article_id": "liv_plot_sarthak",
@@ -379,72 +450,6 @@
         "twitter": ""
     },
     {
-        "title": "Enhancing Packet Trackers",
-        "author_id": "Sumit Gupta",
-        "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
-        "display": true,
-        "date": "2024-08-23",
-        "category": "News",
-        "tags": [
-            "packet trackers"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/cover_image_sharpened.png",
-        "content": {
-            "1_para": "We have introduced a new RPacketLastInteractionTracker class to keep track of the last interaction of a RPacket.",
-            "2_img": "media/images/RPacketLastInteractionTracker.png",
-            "3_para": "As a result of the tracker restructuring, the peak memory usage has been reduced from 4 GB to approximately 1 GB.",
-            "4_para": "<strong>Before Restructure</strong>",
-            "5_img": "media/images/beforeRestructure.png",
-            "6_para": "<strong>After Restructure</strong>",
-            "7_img": "media/images/afterRestructure.png",
-            "8_para": "We also added detailed boundary interaction to the RPacketTracker, the structure of which looks like",
-            "9_img": "media/images/boundary_interaction.png",
-            "10_para": "`event_id` is the interaction number, `current_shell_id` is the previous boundary, and `next_shell_id` is the shell id to which the packet moved",
-            "11_para": "We also researched a lot about Numba. Some of the things included using dynamic variables inside Numba using approaches like overload, branch pruning, etc., if you are interested about it, here are some <a href='https://gist.github.com/Sumit112192/6ddf8cb7be016caba1ce98feca95815d'>toy code.</a>",
-            "12_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
-            "13_para": "The detailed report for the GSoC project is available <a href='https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462'>here</a>."
-        },
-        "people_involved_ids": [],
-        "links": {},
-        "twitter": ""
-    },
-    {
-        "title": "Introducing a new logger widget for TARDIS!",
-        "author_id": "",
-        "article_id": "logger_widget_2024",
-        "display": true,
-        "date": "2024-07-19",
-        "category": "News",
-        "tags": [
-            "logging",
-            "simulation"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Detailed logger for TARDIS simulation run",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/logger.gif",
-        "content": {
-            "1_para": "During TARDIS Con 2024, a collaborative effort by [deeksha_mohanty], [jaladh_singhal], [jing_lu], and [anirban_dutta] led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
-            "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
-        },
-        "people_involved_ids": [
-            "Jaladh Singhal",
-            "Jing Lu",
-            "Anirban  Dutta"
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
         "title": "A Sample of TARDIS Improvements at TARDISCon",
         "author_id": "",
         "article_id": "sample_tardis_improvements_obrien",
@@ -474,6 +479,36 @@
             "",
             "Anirban  Dutta",
             "Wolfgang Kerzendorf"
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "Introducing a new logger widget for TARDIS!",
+        "author_id": "",
+        "article_id": "logger_widget_2024",
+        "display": true,
+        "date": "2024-07-19",
+        "category": "News",
+        "tags": [
+            "logging",
+            "simulation"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Detailed logger for TARDIS simulation run",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/logger.gif",
+        "content": {
+            "1_para": "During TARDIS Con 2024, a collaborative effort by [deeksha_mohanty], [jaladh_singhal], [jing_lu], and [anirban_dutta] led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
+            "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
+        },
+        "people_involved_ids": [
+            "Jaladh Singhal",
+            "Jing Lu",
+            "Anirban  Dutta"
         ],
         "links": {},
         "twitter": "None"
