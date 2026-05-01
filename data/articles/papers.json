@@ -169,17 +169,18 @@
             "2025PhRvD.111h3047K",
             "2025RAA....25f5016W",
             "2025arXiv250711767C",
-            "2025arXiv251023823H",
             "2025arXiv251104254B",
             "2025arXiv251107539V",
             "2025arXiv251224257G",
             "2026A&A...706A.381I",
             "2026A&A...707A..57H",
             "2026A&A...708A..60R",
+            "2026A&A...708A.166H",
             "2026ApJ...997...92V",
             "2026ApJ...999...10D",
             "2026ApJ...999...93D",
             "2026ApJ...999L..16J",
+            "2026ApJ..1002L..11L",
             "2026JApA...47...19K",
             "2026MNRAS.545f2149B",
             "2026MNRAS.546ag068M",
@@ -189,7 +190,8 @@
             "2026arXiv260212948F",
             "2026arXiv260222886B",
             "2026arXiv260223175B",
-            "2026arXiv260315791O"
+            "2026arXiv260315791O",
+            "2026arXiv260400158L"
         ]
     },
     {
@@ -4504,57 +4506,6 @@
     },
     {
         "author": [
-            "H0DN Collaboration",
-            "Casertano, Stefano",
-            "Anand, Gagandeep",
-            "Anderson, Richard I.",
-            "Beaton, Rachael",
-            "Bhardwaj, Anupam",
-            "Blakeslee, John P.",
-            "Boubel, Paula",
-            "Breuval, Louise",
-            "Brout, Dillon",
-            "Cantiello, Michele",
-            "Cruz Reyes, Mauricio",
-            "Cs\u00f6rnyei, Geza",
-            "de Jaeger, Thomas",
-            "Dhawan, Suhail",
-            "Di Valentino, Eleonora",
-            "Galbany, Llu\u00eds",
-            "Gil-Mar\u00edn, H\u00e9ctor",
-            "Graczyk, Dariusz",
-            "Huang, Caroline",
-            "Jensen, Joseph B.",
-            "Kervella, Pierre",
-            "Leibundgut, Bruno",
-            "Lengen, Bastian",
-            "Li, Siyang",
-            "Macri, Lucas",
-            "\u00d6z\u00fclker, Emre",
-            "Pesce, Dominic W.",
-            "Riess, Adam",
-            "Romaniello, Martino",
-            "Said, Khaled",
-            "Sch\u00f6neberg, Nils",
-            "Scolnic, Dan",
-            "Sicignano, Teresa",
-            "Skowron, Dorota M.",
-            "Uddin, Syed A.",
-            "Verde, Licia",
-            "Nota, Antonella"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2510"
-        ],
-        "title": [
-            "The Local Distance Network: a community consensus report on the measurement of the Hubble constant at 1% precision"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv251023823H"
-    },
-    {
-        "author": [
             "Bergemann, Maria",
             "Hoppe, Richard"
         ],
@@ -4733,6 +4684,57 @@
     },
     {
         "author": [
+            "H0DN Collaboration",
+            "Casertano, Stefano",
+            "Anand, Gagandeep",
+            "Anderson, Richard I.",
+            "Beaton, Rachael",
+            "Bhardwaj, Anupam",
+            "Blakeslee, John P.",
+            "Boubel, Paula",
+            "Breuval, Louise",
+            "Brout, Dillon",
+            "Cantiello, Michele",
+            "Cruz Reyes, Mauricio",
+            "Cs\u00f6rnyei, Geza",
+            "de Jaeger, Thomas",
+            "Dhawan, Suhail",
+            "Di Valentino, Eleonora",
+            "Galbany, Llu\u00eds",
+            "Gil-Mar\u00edn, H\u00e9ctor",
+            "Graczyk, Dariusz",
+            "Huang, Caroline",
+            "Jensen, Joseph B.",
+            "Kervella, Pierre",
+            "Leibundgut, Bruno",
+            "Lengen, Bastian",
+            "Li, Siyang",
+            "Macri, Lucas",
+            "\u00d6z\u00fclker, Emre",
+            "Pesce, Dominic W.",
+            "Riess, Adam",
+            "Romaniello, Martino",
+            "Said, Khaled",
+            "Sch\u00f6neberg, Nils",
+            "Scolnic, Dan",
+            "Sicignano, Teresa",
+            "Skowron, Dorota M.",
+            "Uddin, Syed A.",
+            "Verde, Licia",
+            "Nota, Antonella"
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...708"
+        ],
+        "title": [
+            "The Local Distance Network: A community consensus report on the measurement of the Hubble constant at \u223c1% precision"
+        ],
+        "year": "2026",
+        "bibcode": "2026A&A...708A.166H"
+    },
+    {
+        "author": [
             "Vieira, Nicholas",
             "Ruan, John J.",
             "Haggard, Daryl",
@@ -4855,6 +4857,28 @@
         ],
         "year": "2026",
         "bibcode": "2026ApJ...999L..16J"
+    },
+    {
+        "author": [
+            "Lu, Jing",
+            "Kerzendorf, Wolfgang E.",
+            "O'Brien, John T.",
+            "Modjaz, Maryam",
+            "Goldberg, Jared A.",
+            "Chen, Nutan",
+            "Visser, Erin",
+            "Shields, Joshua V.",
+            "Fullard, Andrew G."
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL.1002"
+        ],
+        "title": [
+            "Traces of Helium Detected in Type Ic Supernova 2014L"
+        ],
+        "year": "2026",
+        "bibcode": "2026ApJ..1002L..11L"
     },
     {
         "author": [
@@ -5067,7 +5091,6 @@
             "Nicholl, M.",
             "Ochner, P.",
             "Padilla Gonzalez, E.",
-            "Pastorello, A.",
             "Pessi, P. J.",
             "Pignata, G.",
             "Ragosta, F.",
@@ -5088,7 +5111,7 @@
             "arXiv2602"
         ],
         "title": [
-            "A nearby He-rich superluminous supernova at photospheric phases"
+            "The nearby He-rich superluminous supernova SN 2021bnw at photospheric phases"
         ],
         "year": "2026",
         "bibcode": "2026arXiv260212948F"
@@ -5166,5 +5189,27 @@
         ],
         "year": "2026",
         "bibcode": "2026arXiv260315791O"
+    },
+    {
+        "author": [
+            "Lu, Jing",
+            "Kerzendorf, Wolfgang E.",
+            "O'Brien, John T.",
+            "Modjaz, Maryam",
+            "Goldberg, Jared A.",
+            "Chen, Nutan",
+            "Visser, Erin",
+            "Shields, Joshua V.",
+            "Fullard, Andrew G."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2604"
+        ],
+        "title": [
+            "Traces of Helium Detected in Type Ic Supernova 2014L"
+        ],
+        "year": "2026",
+        "bibcode": "2026arXiv260400158L"
     }
 ]
