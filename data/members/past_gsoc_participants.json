@@ -215,6 +215,12 @@
     {
         "year": "2026",
         "info": {
+            "shreyans_saraf": {
+                "full_name": "Shreyans Saraf",
+                "project_title": "Migrating Visualization Widgets to Panel",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2026/projects/vOFfl4Af",
+                "image_path": "media/images/shreyans.jpg"
+            },
             "rishmita_rao": {
                 "full_name": "Rishmita Rao",
                 "project_title": "Improving Test Coverage for the TARDIS Plasma Module",
