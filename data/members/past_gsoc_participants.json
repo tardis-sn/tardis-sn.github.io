@@ -13,6 +13,12 @@
     {
         "year": 2016,
         "info": {
+            "karan_desai": {
+                "full_name": "Karan Desai",
+                "project_title": "Extensive Test Suite for TARDIS ",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/4796129849901056",
+                "image_path": "../me.jpeg"
+            },
             "fotis_tsamis": {
                 "full_name": "Fotis Tsamis",
                 "project_title": "Improvement of the TARDIS configuration system",
@@ -35,12 +41,6 @@
                 "full_name": "Tomas Bylund",
                 "project_title": "TARDIS formal integral",
                 "project_link": "",
-                "image_path": "../me.jpeg"
-            },
-            "karan_desai": {
-                "full_name": "Karan Desai",
-                "project_title": "Extensive Test Suite for TARDIS ",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/4796129849901056",
                 "image_path": "../me.jpeg"
             }
         }
@@ -87,28 +87,28 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568",
                 "image_path": "media/images/atharva.jpg"
             },
-            "arib_alam": {
-                "full_name": "Arib Alam",
-                "project_title": "Packet tracking",
-                "project_link": "",
-                "image_path": "../me.jpeg"
-            },
             "yizheng_yu": {
                 "full_name": "Yizheng Yu",
                 "project_title": "Custom Abundance Widget",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
                 "image_path": "../me.jpeg"
             },
-            "dhruv_sondhi": {
-                "full_name": "Dhruv Sondhi",
-                "project_title": "Improving TARDIS Simulation Logging Framework ",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/",
-                "image_path": "../me.jpeg"
-            },
             "jenny_yu": {
                 "full_name": "Jenny Yu",
                 "project_title": "Custom Abundance widget",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960",
+                "image_path": "../me.jpeg"
+            },
+            "arib_alam": {
+                "full_name": "Arib Alam",
+                "project_title": "Packet tracking",
+                "project_link": "",
+                "image_path": "../me.jpeg"
+            },
+            "dhruv_sondhi": {
+                "full_name": "Dhruv Sondhi",
+                "project_title": "Improving TARDIS Simulation Logging Framework ",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/",
                 "image_path": "../me.jpeg"
             }
         }
@@ -122,10 +122,16 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa",
                 "image_path": "media/images/atharva.jpg"
             },
-            "rohith_buddaraju": {
-                "full_name": "Rohith Varma Buddaraju",
-                "project_title": "Tardis Setups Framework",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z",
+            "shambhabi_gautam": {
+                "full_name": "Shambhabi Gautam",
+                "project_title": "",
+                "project_link": "",
+                "image_path": ""
+            },
+            "satwik_kambham": {
+                "full_name": "Satwik Kambham",
+                "project_title": "Resuming TARDIS Simulations from HDF",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
                 "image_path": "../me.jpeg"
             },
             "jayant_bhakar": {
@@ -134,35 +140,17 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
                 "image_path": "../me.jpeg"
             },
-            "satwik_kambham": {
-                "full_name": "Satwik Kambham",
-                "project_title": "Resuming TARDIS Simulations from HDF",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
+            "rohith_buddaraju": {
+                "full_name": "Rohith Varma Buddaraju",
+                "project_title": "Tardis Setups Framework",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z",
                 "image_path": "../me.jpeg"
-            },
-            "shambhabi_gautam": {
-                "full_name": "Shambhabi Gautam",
-                "project_title": "",
-                "project_link": "",
-                "image_path": ""
             }
         }
     },
     {
         "year": 2023,
         "info": {
-            "aarya_chaumal": {
-                "full_name": "Aarya Chaumal",
-                "project_title": "STARDIS Parallelization and GPU",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
-                "image_path": "media/images/aarya.png"
-            },
-            "shreyas_singh": {
-                "full_name": "Shreyas Singh",
-                "project_title": "Import and Store NNDC Deposition Data",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
-                "image_path": "media/images/shreyas.jpg"
-            },
             "ayushi_daksh": {
                 "full_name": "Ayushi Daksh",
                 "project_title": "Grotrian Diagram Visualisation",
@@ -181,11 +169,23 @@
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
                 "image_path": "../me.jpeg"
             },
+            "shreyas_singh": {
+                "full_name": "Shreyas Singh",
+                "project_title": "Import and Store NNDC Deposition Data",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
+                "image_path": "media/images/shreyas.jpg"
+            },
             "shikha_rathi": {
                 "full_name": "Shikha Rathi",
                 "project_title": "Having Versioned Atomic Data Repositories",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
                 "image_path": "media/images/shikha.jpg"
+            },
+            "aarya_chaumal": {
+                "full_name": "Aarya Chaumal",
+                "project_title": "STARDIS Parallelization and GPU",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
+                "image_path": "media/images/aarya.png"
             }
         }
     },
@@ -198,16 +198,16 @@
                 "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/dyvYc2Qb",
                 "image_path": "media/images/myPhoto.jpg"
             },
-            "asish_kumar": {
-                "full_name": "Asish Kumar",
-                "project_title": "TARDIS Benchmarking and Performance Improvement",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/Xglqxr46",
-                "image_path": "media/images/myPhoto.jpg"
-            },
             "sumit_gupta": {
                 "full_name": "Sumit Gupta",
                 "project_title": "Enhancing Packet Trackers",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/1VNxItcN",
+                "image_path": "media/images/myPhoto.jpg"
+            },
+            "asish_kumar": {
+                "full_name": "Asish Kumar",
+                "project_title": "TARDIS Benchmarking and Performance Improvement",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2024/projects/Xglqxr46",
                 "image_path": "media/images/myPhoto.jpg"
             }
         }
