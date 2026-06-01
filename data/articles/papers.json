@@ -171,11 +171,11 @@
             "2025arXiv250711767C",
             "2025arXiv251104254B",
             "2025arXiv251107539V",
-            "2025arXiv251224257G",
             "2026A&A...706A.381I",
             "2026A&A...707A..57H",
             "2026A&A...708A..60R",
             "2026A&A...708A.166H",
+            "2026A&A...708A.366B",
             "2026ApJ...997...92V",
             "2026ApJ...999...10D",
             "2026ApJ...999...93D",
@@ -184,11 +184,11 @@
             "2026JApA...47...19K",
             "2026MNRAS.545f2149B",
             "2026MNRAS.546ag068M",
+            "2026MNRAS.548ag748G",
             "2026arXiv260114235L",
             "2026arXiv260121782F",
             "2026arXiv260203427L",
             "2026arXiv260212948F",
-            "2026arXiv260222886B",
             "2026arXiv260223175B",
             "2026arXiv260315791O",
             "2026arXiv260400158L"
@@ -4529,26 +4529,10 @@
             "arXiv2511"
         ],
         "title": [
-            "\\texttt{ExTraSS}: a Domain Decomposed 3D NLTE Radiative Transfer spectral synthesis code for nebular phase transients"
+            "ExTraSS: a Domain Decomposed 3D NLTE Radiative Transfer spectral synthesis code for nebular phase transients"
         ],
         "year": "2025",
         "bibcode": "2025arXiv251107539V"
-    },
-    {
-        "author": [
-            "Gillanders, J. H.",
-            "Flors, A.",
-            "Ferreira da Silva, R."
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2512"
-        ],
-        "title": [
-            "Improved lanthanide constraints for the kilonova AT 2017gfo"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv251224257G"
     },
     {
         "author": [
@@ -4732,6 +4716,25 @@
         ],
         "year": "2026",
         "bibcode": "2026A&A...708A.166H"
+    },
+    {
+        "author": [
+            "Bezmalinovich, Matteo",
+            "Bulla, Mattia",
+            "Gaigalas, Gediminas",
+            "Vescovi, Diego",
+            "Canzari, Matteo",
+            "Cristallo, Sergio"
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...708"
+        ],
+        "title": [
+            "The MARTINI platform: I. Se I\u2500X atomic calculation and expansion opacity for early stage kilonova spectral analysis"
+        ],
+        "year": "2026",
+        "bibcode": "2026A&A...708A.366B"
     },
     {
         "author": [
@@ -4936,6 +4939,22 @@
     },
     {
         "author": [
+            "Gillanders, J. H.",
+            "Fl\u00f6rs, A.",
+            "Ferreira da Silva, R."
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.548"
+        ],
+        "title": [
+            "Improved lanthanide constraints for the kilonova AT 2017gfo"
+        ],
+        "year": "2026",
+        "bibcode": "2026MNRAS.548ag748G"
+    },
+    {
+        "author": [
             "LSST Dark Energy Science Collaboration",
             "Aubourg, Eric",
             "Avestruz, Camille",
@@ -5115,25 +5134,6 @@
         ],
         "year": "2026",
         "bibcode": "2026arXiv260212948F"
-    },
-    {
-        "author": [
-            "Bezmalinovich, Matteo",
-            "Bulla, Mattia",
-            "Gaigalas, Gediminas",
-            "Vescovi, Diego",
-            "Canzari, Matteo",
-            "Cristallo, Sergio"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2602"
-        ],
-        "title": [
-            "The MARTINI Platform (I): Se I-X atomic calculation and expansion opacity for early-stage kilonova spectral analysis"
-        ],
-        "year": "2026",
-        "bibcode": "2026arXiv260222886B"
     },
     {
         "author": [
