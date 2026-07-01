@@ -176,6 +176,7 @@
             "2026A&A...708A..60R",
             "2026A&A...708A.166H",
             "2026A&A...708A.366B",
+            "2026A&A...710A..72B",
             "2026ApJ...997...92V",
             "2026ApJ...999...10D",
             "2026ApJ...999...93D",
@@ -189,9 +190,9 @@
             "2026arXiv260121782F",
             "2026arXiv260203427L",
             "2026arXiv260212948F",
-            "2026arXiv260223175B",
             "2026arXiv260315791O",
-            "2026arXiv260400158L"
+            "2026arXiv260400158L",
+            "2026arXiv260618881W"
         ]
     },
     {
@@ -4738,6 +4739,47 @@
     },
     {
         "author": [
+            "Barna, B.",
+            "B\u00e1nhidi, D.",
+            "Szalai, T.",
+            "Anderson, J. P.",
+            "Boland, T.",
+            "Bostroem, K. A.",
+            "Chen, T.-W.",
+            "Farah, J.",
+            "Gromadzki, M.",
+            "Hosseinzadeh, G.",
+            "Howell, D. A.",
+            "Inserra, C.",
+            "Jha, S. W.",
+            "Kwok, L.",
+            "Macrie, C.",
+            "McCully, C.",
+            "Mochn\u00e1cs, E.",
+            "M\u00fcller-Bravo, T. E.",
+            "Newsome, M.",
+            "Padilla Gonzalez, E.",
+            "Pearson, J.",
+            "Petrushevska, T.",
+            "Sand, D. J.",
+            "Shrestha, M.",
+            "Smith, N.",
+            "Srivastav, S.",
+            "Terreran, G.",
+            "Vink\u00f3, J."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...710"
+        ],
+        "title": [
+            "The extremely low-luminosity Type Iax SNe 2022ywf and 2023zgx"
+        ],
+        "year": "2026",
+        "bibcode": "2026A&A...710A..72B"
+    },
+    {
+        "author": [
             "Vieira, Nicholas",
             "Ruan, John J.",
             "Haggard, Daryl",
@@ -5130,51 +5172,10 @@
             "arXiv2602"
         ],
         "title": [
-            "The nearby He-rich superluminous supernova SN 2021bnw at photospheric phases"
+            "The nearby He-rich superluminous supernova SN 2021bnw during photospheric phases"
         ],
         "year": "2026",
         "bibcode": "2026arXiv260212948F"
-    },
-    {
-        "author": [
-            "Barna, Barnab\u00e1s",
-            "B\u00e1nhidi, Dominik",
-            "Szalai, Tam\u00e1s",
-            "Anderson, Joseph P.",
-            "Boland, Teresa",
-            "Bostroem, K. Azalee",
-            "Chen, Ting-Wan",
-            "Farah, Joseph",
-            "Gromadzki, Mariusz",
-            "Hosseinzadeh, Griffin",
-            "Howell, D. Andrew",
-            "Inserra, Cosimo",
-            "Jha, Saurabh W.",
-            "Kwok, Lindsey A.",
-            "Macrie, Colin",
-            "McCully, Curtis",
-            "Mochn\u00e1cs, Erika",
-            "M\u00fcller-Bravo, Tom\u00e1s E.",
-            "Newsome, Megan",
-            "Padilla Gonzalez, Estefania",
-            "Pearson, Jeniveve",
-            "Petrushevska, Tanja",
-            "Sand, David J.",
-            "Shrestha, Manisha",
-            "Smith, Nathan",
-            "Srivastav, Shubham",
-            "Terreran, Giacomo",
-            "Vink\u00f3, J\u00f3zsef"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2602"
-        ],
-        "title": [
-            "The extremely low-luminosity Type Iax SNe 2022ywf and 2023zgx"
-        ],
-        "year": "2026",
-        "bibcode": "2026arXiv260223175B"
     },
     {
         "author": [
@@ -5211,5 +5212,32 @@
         ],
         "year": "2026",
         "bibcode": "2026arXiv260400158L"
+    },
+    {
+        "author": [
+            "Wen, Xudong",
+            "Yang, Yi",
+            "Lu, Jing",
+            "Wang, Lifan",
+            "Wheeler, J. Craig",
+            "Pursiainen, Miika",
+            "Huang, QiuJu",
+            "Wang, Bao",
+            "Wu, Xuefeng",
+            "Filippenko, Alexei V.",
+            "Kerzendorf, Wolfgang E.",
+            "Leloudas, Giorgos",
+            "Schulze, Steve",
+            "Patat, Ferdinando"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2606"
+        ],
+        "title": [
+            "Pinning Down the Geometry of the Type Ic Broad-Line Supernova 2026gzf"
+        ],
+        "year": "2026",
+        "bibcode": "2026arXiv260618881W"
     }
 ]
