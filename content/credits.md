@@ -1,13 +1,13 @@
 ---
 title: "Citation Guide"
-date: 2026-06-13
+date: 2026-07-04
 draft: false
 layout: page
 ---
 
 # Credits & Publication Policies {#tardiscredits}
 
-[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.597298-blue)](https://doi.org/10.5281/zenodo.597298)
+[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.983943-blue)](https://doi.org/10.5281/zenodo.983943)
 
 We provide TARDIS as a free, open-source tool. If you are using it,
 please adhere to a few policies and acknowledge the TARDIS Team.
@@ -22,7 +22,7 @@ add the following paragraph to the Acknowledgement section:
 ```
 This research made use of \textsc{tardis}, a community-developed
 software package for spectral synthesis in supernovae
-\citep{2014MNRAS.440..387K, kerzendorf_2026_20597298}. The development
+\citep{2014MNRAS.440..387K, kerzendorf_2026_20983943}. The development
 of \textsc{tardis} received support from GitHub, the Google Summer of
 Code initiative, and from ESA's Summer of Code in Space program.
 \textsc{tardis} is a fiscally sponsored project of NumFOCUS.
@@ -81,7 +81,7 @@ archivePrefix = {arXiv},
 ```
 
 ``` bibtex
-@software{kerzendorf_2026_20597298,
+@software{kerzendorf_2026_20983943,
   author       = {Kerzendorf, Wolfgang and
                   Sim, Stuart and
                   Vogl, Christian and
@@ -112,75 +112,75 @@ archivePrefix = {arXiv},
                   Cawley, Kevin and
                   Singhal, Jaladh and
                   Barbosa, Talytha and
+                  O'Brien, Jack and
                   Yu, Jenny and
                   Sondhi, Dhruv and
-                  O'Brien, Jack and
                   Shields, Josh and
                   Patel, Maryam and
-                  Rathi, Shikha and
                   Varanasi, Kaushik and
-                  Chitchyan, Sona and
+                  Rathi, Shikha and
                   Gillanders, James and
-                  Marie Lynn, Haille and
-                  Savel, Arjun and
+                  Chitchyan, Sona and
                   Gupta, Sumit and
                   Singh, Shreyas and
-                  Reinecke, Martin and
+                  Marie Lynn, Haille and
+                  Savel, Arjun and
                   Eweis, Youssef and
                   Shah, Swayam and
+                  Reinecke, Martin and
                   Holas, Alexander and
                   Bylund, Tomas and
                   Visser, Erin and
-                  Bentil, Laud and
                   Black, William and
+                  Bentil, Laud and
                   Kumar, Asish and
                   Dutta, Anirban and
                   Groneck, Ryan and
                   Lu, Jing and
                   Eguren, Jordi and
+                  McClellan, Connor and
+                  Srivastava, Sarthak and
                   Bartnik, Matthew and
                   Kumar, Ansh and
-                  Srivastava, Sarthak and
-                  Varma Buddaraju, Rohith and
-                  Magee, Mark and
                   Alam, Arib and
-                  Livneh, Ran and
+                  Magee, Mark and
+                  Varma Buddaraju, Rohith and
                   Kambham, Satwik and
                   Daksh, Ayushi and
-                  Rajagopalan, Srinath and
-                  Roldan, Israel and
-                  McClellan, Connor and
-                  Bhakar, Jayant and
+                  Livneh, Ran and
                   Powers, Cecelia and
+                  Rajagopalan, Srinath and
+                  Bhakar, Jayant and
+                  Roldan, Israel and
                   Mishra, Sashank and
-                  Dadu, Aaryan and
+                  Actions, GitHub and
+                  Nitish, P and
                   Reichenbach, John and
                   Jain, Rinkle and
-                  Nitish, P and
-                  Actions, GitHub and
+                  Dadu, Aaryan and
+                  Singh, Sourav and
+                  Chaumal, Aarya and
                   Saraf, Shreyans and
                   Brar, Antreev and
                   Gupta, Harshul and
-                  Singh, Sourav and
-                  Chaumal, Aarya and
-                  Gangbhoj, Riddhi and
-                  Sofiatti, Caroline and
                   Kowalski, Nathan and
-                  Matsumura, Yuki and
-                  Selsing, Jonatan and
-                  Patidar, Abhishek and
-                  Talegaonkar, Chinmay and
+                  Rao, Rishmita and
+                  Sofiatti, Caroline and
                   Perkins, Haille and
-                  Lemoine, Thom and
+                  Selsing, Jonatan and
+                  Gangbhoj, Riddhi and
+                  Talegaonkar, Chinmay and
+                  Matsumura, Yuki and
+                  Patidar, Abhishek and
                   Wahi, Ujjwal and
                   Aggarwal, Yash and
                   Singh Rathore, Parikshit and
-                  L. Lim, P. and
                   Chen, Nutan and
-                  Buchner, Johannes and
-                  Bhandari, Jhalak and
-                  Vieira, Nicholas and
+                  Diddige, Harshitha and
                   Yap, Kevin and
+                  Bhandari, Jhalak and
+                  Buchner, Johannes and
+                  Vieira, Nicholas and
                   Nagadevi, Kona and
                   Patra, Nilesh and
                   Truong, Le and
@@ -188,30 +188,30 @@ archivePrefix = {arXiv},
                   Sandler, Morgan and
                   Zaheer, Musabbiha and
                   Sarafina, Nance and
-                  Gupta, Suyash and
-                  Dasgupta, Debajyoti and
-                  Prasad, Shilpi and
-                  Martinez, Laureano and
-                  Jaiswal, Abhayraj and
-                  Kumar, Aman and
-                  Nayak U, Ashwin and
+                  Lemoine, Thom and
+                  L. Lim, P. and
                   Kumar, Atul and
+                  Jaiswal, Abhayraj and
+                  Dasgupta, Debajyoti and
+                  Martinez, Laureano and
                   Watson, Clyde and
+                  Nayak U, Ashwin and
+                  Kumar, Aman and
                   PATIDAR, ABHISHEK and
-                  Venkat, Shashank and
+                  Prasad, Shilpi and
                   Volodin, Dmitry and
-                  Diddige, Harshitha and
+                  Gupta, Suyash and
                   Patel, Pratik and
-                  Rao, Rishmita and
                   Prasad, Rohit and
                   Gajanan Nalbalwar, Rudraksh and
-                  Sharma, Sampark},
-  title        = {tardis-sn/tardis: TARDIS v2026.06.08},
+                  Sharma, Sampark and
+                  Venkat, Shashank},
+  title        = {tardis-sn/tardis: TARDIS v2026.06.28},
   month        = jun,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {release-2026.06.08},
-  doi          = {10.5281/zenodo.20597298},
-  url          = {https://doi.org/10.5281/zenodo.20597298},
+  version      = {release-2026.06.28},
+  doi          = {10.5281/zenodo.20983943},
+  url          = {https://doi.org/10.5281/zenodo.20983943},
 }
 ```
