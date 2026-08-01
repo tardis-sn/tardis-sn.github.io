@@ -177,22 +177,26 @@
             "2026A&A...708A.166H",
             "2026A&A...708A.366B",
             "2026A&A...710A..72B",
+            "2026A&A...710A.221F",
+            "2026A&A...710A.258G",
+            "2026A&A...710A.367P",
+            "2026A&A...711A.262L",
             "2026ApJ...997...92V",
             "2026ApJ...999...10D",
             "2026ApJ...999...93D",
             "2026ApJ...999L..16J",
             "2026ApJ..1002L..11L",
+            "2026ApJ..1006...86C",
             "2026JApA...47...19K",
             "2026MNRAS.545f2149B",
             "2026MNRAS.546ag068M",
             "2026MNRAS.548ag748G",
             "2026arXiv260114235L",
             "2026arXiv260121782F",
-            "2026arXiv260203427L",
-            "2026arXiv260212948F",
             "2026arXiv260315791O",
             "2026arXiv260400158L",
-            "2026arXiv260618881W"
+            "2026arXiv260618881W",
+            "2026arXiv260712525K"
         ]
     },
     {
@@ -4713,7 +4717,7 @@
             "A&A...708"
         ],
         "title": [
-            "The Local Distance Network: A community consensus report on the measurement of the Hubble constant at \u223c1% precision"
+            "The Local Distance Network: A community consensus report on the measurement of the Hubble constant at \u03031% precision"
         ],
         "year": "2026",
         "bibcode": "2026A&A...708A.166H"
@@ -4777,6 +4781,152 @@
         ],
         "year": "2026",
         "bibcode": "2026A&A...710A..72B"
+    },
+    {
+        "author": [
+            "Fiore, A.",
+            "Kozyreva, A.",
+            "Yan, L.",
+            "Benetti, S.",
+            "Anderson, J. P.",
+            "Baklanov, P.",
+            "Cai, Y.-Z.",
+            "Cappellaro, E.",
+            "Chen, T.-W.",
+            "Elias-Rosa, N.",
+            "Gal-Yam, A.",
+            "Graham, M. J.",
+            "Gromadzki, M.",
+            "Groom, S. L.",
+            "Guti\u00e9rrez, C. P.",
+            "Hiramatsu, D.",
+            "Howell, D. A.",
+            "Inserra, C.",
+            "Kasliwal, M. M.",
+            "K\u00f6nyves-T\u00f3th, R.",
+            "Lundqvist, P.",
+            "McCully, C.",
+            "Mironov, A.",
+            "Moran, S.",
+            "M\u00fcller-Bravo, T. E.",
+            "Newsome, M.",
+            "Nicholl, M.",
+            "Ochner, P.",
+            "Padilla Gonzalez, E.",
+            "Pessi, P. J.",
+            "Pignata, G.",
+            "Ragosta, F.",
+            "Reguitti, A.",
+            "Reynolds, T. M.",
+            "Riddle, R. L.",
+            "Rusholme, B.",
+            "Salmaso, I.",
+            "Schulze, S.",
+            "Sollerman, J.",
+            "Tomasella, L.",
+            "Warshofsky, D.",
+            "Yang, S.",
+            "Young, D. R."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...710"
+        ],
+        "title": [
+            "The nearby He-rich superluminous supernova SN 2021bnw during photospheric phases"
+        ],
+        "year": "2026",
+        "bibcode": "2026A&A...710A.221F"
+    },
+    {
+        "author": [
+            "Grupa, J.",
+            "Taubenberger, S.",
+            "Suyu, S. H.",
+            "Sluse, D.",
+            "Huber, S.",
+            "Vogl, C."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...710"
+        ],
+        "title": [
+            "HOLISMOKES: XVIII. Cosmology with strongly lensed type II supernovae: Effects of instrumental setups on H<SUB>0</SUB>"
+        ],
+        "year": "2026",
+        "bibcode": "2026A&A...710A.258G"
+    },
+    {
+        "author": [
+            "Poidevin, F.",
+            "West, S. L.",
+            "Omand, C. M. B.",
+            "K\u00f6nyves-T\u00f3th, R.",
+            "Schulze, S.",
+            "Yan, L.",
+            "Kangas, T.",
+            "P\u00e9rez-Fournon, I.",
+            "Geier, S.",
+            "Sollerman, J.",
+            "Pessi, P. J.",
+            "Guti\u00e9rrez, C. M.",
+            "Chen, T.-W.",
+            "Hinds, K.-R.",
+            "Marques-Chaves, R.",
+            "Shirley, R.",
+            "Jimenez Angel, C.",
+            "Lunnan, R.",
+            "Perley, D. A.",
+            "Sarin, N.",
+            "Yao, Y.",
+            "Dekany, R.",
+            "Purdum, J.",
+            "Wold, A.",
+            "Laher, R. R.",
+            "Graham, M. J.",
+            "Kasliwal, M. M.",
+            "Jegou Du Laz, T."
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...710"
+        ],
+        "title": [
+            "SN 2021lwz: Another exotic, luminous, and fast-evolving optical stripped-envelope supernova?"
+        ],
+        "year": "2026",
+        "bibcode": "2026A&A...710A.367P"
+    },
+    {
+        "author": [
+            "Liu, Jialian",
+            "Wang, Xiaofeng",
+            "Chen, Liyang",
+            "Filippenko, Alexei V.",
+            "Brink, Thomas G.",
+            "Zheng, WeiKang",
+            "Pastorello, Andrea",
+            "Ochner, Paolo",
+            "Albanese, Irene",
+            "Reguitti, Andrea",
+            "Valerin, Giorgio",
+            "Cai, Yongzhi",
+            "Zhang, Jujia",
+            "Li, Liping",
+            "Wang, Zhenyu",
+            "Liu, Liangduan",
+            "Zhang, Yuhao"
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...711"
+        ],
+        "title": [
+            "SN 2024igg: A super-Chandrasekhar/03fg-like supernova exhibiting C II-dominated spectra after explosion"
+        ],
+        "year": "2026",
+        "bibcode": "2026A&A...711A.262L"
     },
     {
         "author": [
@@ -4924,6 +5074,27 @@
         ],
         "year": "2026",
         "bibcode": "2026ApJ..1002L..11L"
+    },
+    {
+        "author": [
+            "Chen, Xingzhuo",
+            "Braga-Neto, Ulisses",
+            "Wang, Lifan",
+            "Kasen, Daniel",
+            "Liu, Zhengwei",
+            "R\u00f6pke, Friedrich K.",
+            "Zhong, Ming",
+            "Jeffery, David J."
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ..1006"
+        ],
+        "title": [
+            "SEDONA-GesaRaT: A Deep Learning Accelerated Radiative Transfer Program for 3D Supernova Simulations"
+        ],
+        "year": "2026",
+        "bibcode": "2026ApJ..1006...86C"
     },
     {
         "author": [
@@ -5093,92 +5264,6 @@
     },
     {
         "author": [
-            "Liu, Jialian",
-            "Wang, Xiaofeng",
-            "Chen, Liyang",
-            "Filippenko, Alexei V.",
-            "Brink, Thomas G.",
-            "Zheng, WeiKang",
-            "Pastorello, Andrea",
-            "Ochner, Paolo",
-            "Albanese, Irene",
-            "Reguitti, Andrea",
-            "Valerin, Giorgio",
-            "Cai, Yongzhi",
-            "Zhang, Jujia",
-            "Li, Liping",
-            "Wang, Zhenyu",
-            "Liu, Liangduan",
-            "Zhang, Yuhao"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2602"
-        ],
-        "title": [
-            "SN 2024igg: A Super-Chandrasekhar/03fg-like SN exhibiting C II-dominated spectra after explosion"
-        ],
-        "year": "2026",
-        "bibcode": "2026arXiv260203427L"
-    },
-    {
-        "author": [
-            "Fiore, A.",
-            "Kozyreva, A.",
-            "Yan, L.",
-            "Benetti, S.",
-            "Anderson, J. P.",
-            "Baklanov, P.",
-            "Cai, Y.-Z.",
-            "Cappellaro, E.",
-            "Chen, T.-W.",
-            "Elias-Rosa, N.",
-            "Gal-Yam, A.",
-            "Graham, M. J.",
-            "Gromadzki, M.",
-            "Groom, S. L.",
-            "Guti\u00e9rrez, C. P.",
-            "Hiramatsu, D.",
-            "Howell, D. A.",
-            "Inserra, C.",
-            "Kasliwal, M. M.",
-            "K\u00f6nyves-T\u00f3th, R.",
-            "Lundqvist, P.",
-            "McCully, C.",
-            "Mironov, A.",
-            "Moran, S.",
-            "M\u00fcller-Bravo, T. E.",
-            "Newsome, M.",
-            "Nicholl, M.",
-            "Ochner, P.",
-            "Padilla Gonzalez, E.",
-            "Pessi, P. J.",
-            "Pignata, G.",
-            "Ragosta, F.",
-            "Reguitti, A.",
-            "Reynolds, T. M.",
-            "Riddle, R. L.",
-            "Rusholme, B.",
-            "Salmaso, I.",
-            "Schulze, S.",
-            "Sollerman, J.",
-            "Tomasella, L.",
-            "Warshofsky, D.",
-            "Yang, S.",
-            "Young, D. R."
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2602"
-        ],
-        "title": [
-            "The nearby He-rich superluminous supernova SN 2021bnw during photospheric phases"
-        ],
-        "year": "2026",
-        "bibcode": "2026arXiv260212948F"
-    },
-    {
-        "author": [
             "Ouyed, Rachid"
         ],
         "bibstem": [
@@ -5239,5 +5324,29 @@
         ],
         "year": "2026",
         "bibcode": "2026arXiv260618881W"
+    },
+    {
+        "author": [
+            "Kurre, Mulchand",
+            "Sahu, K. R.",
+            "Tiwari, Shrutika",
+            "Patel, Yogita",
+            "Chakradhari, N. K.",
+            "Sahu, D. K.",
+            "Teja, Rishabh Singh",
+            "Anupama, G. C.",
+            "Singh, Mridweeka",
+            "Dutta, Anirban",
+            "Gangopadhyay, Anjasha"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2607"
+        ],
+        "title": [
+            "Photometric and Spectroscopic Studies of Type Ic Supernovae SN 2020akf and SN 2021mxx"
+        ],
+        "year": "2026",
+        "bibcode": "2026arXiv260712525K"
     }
 ]
