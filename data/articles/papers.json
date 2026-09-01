@@ -168,8 +168,6 @@
             "2025MNRAS.543.3885O",
             "2025PhRvD.111h3047K",
             "2025RAA....25f5016W",
-            "2025arXiv250711767C",
-            "2025arXiv251104254B",
             "2025arXiv251107539V",
             "2026A&A...706A.381I",
             "2026A&A...707A..57H",
@@ -181,13 +179,17 @@
             "2026A&A...710A.258G",
             "2026A&A...710A.367P",
             "2026A&A...711A.262L",
+            "2026A&A...712A.173T",
             "2026ApJ...997...92V",
             "2026ApJ...999...10D",
             "2026ApJ...999...93D",
             "2026ApJ...999L..16J",
             "2026ApJ..1002L..11L",
             "2026ApJ..1006...86C",
+            "2026ApJ..1007....7K",
             "2026JApA...47...19K",
+            "2026JCAP...08..013C",
+            "2026LRCA...12....7B",
             "2026MNRAS.545f2149B",
             "2026MNRAS.546ag068M",
             "2026MNRAS.548ag748G",
@@ -4490,42 +4492,6 @@
     },
     {
         "author": [
-            "Chen, Xingzhuo",
-            "Braga-Neto, Ulisses",
-            "Wang, Lifan",
-            "Kasen, Daniel",
-            "Liu, Zhengwei",
-            "Roepke, F. K.",
-            "Zhong, Ming",
-            "Jeffery, David J."
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2507"
-        ],
-        "title": [
-            "SEDONA-GesaRaT: an AI-Accelerated Radiative Transfer Program for 3-D Supernova Simulations"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv250711767C"
-    },
-    {
-        "author": [
-            "Bergemann, Maria",
-            "Hoppe, Richard"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2511"
-        ],
-        "title": [
-            "3D Non-LTE radiation transfer: theory and applications to stars, exoplanets, and kilonovae"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv251104254B"
-    },
-    {
-        "author": [
             "van Baal, Bart F. A.",
             "Jerkstrand, Anders"
         ],
@@ -4930,6 +4896,60 @@
     },
     {
         "author": [
+            "Terwel, Jacco H.",
+            "Maguire, Kate",
+            "O'Donnell, Cillian",
+            "Pursiainen, Miika",
+            "Casasbuenas, Alba",
+            "Thiim Gadeberg, Julie",
+            "Godson, Ben",
+            "Harvey, Luke",
+            "Nobre Hauptmann, Benjamin",
+            "Koivisto, Niilo",
+            "Liu, Chang",
+            "Shenoy, Shravya",
+            "Grund S\u00f8rensen, Samuel",
+            "Alejandra D\u00edaz Teodori, Mar\u00eda",
+            "Guldberg Theil, Astrid",
+            "Turkki, Mikael",
+            "Alburai, Alaa",
+            "Anderson, Joe",
+            "de Boer, Thomas",
+            "M\u00fcller Bravo, Tom\u00e1s",
+            "Burgaz, Umut",
+            "Chambers, Kenneth C.",
+            "Chen, Ting-Wan",
+            "Duarte, Jo\u00e3o",
+            "Galbany, Lluis",
+            "Gromadzki, Mariusz",
+            "Inserra, Cosimo",
+            "Johansson, Joel",
+            "Kim, Young-Lo",
+            "Lowe, Thomas",
+            "Magnier, Eugene",
+            "Santos, Rita P.",
+            "Sollerman, Jesper",
+            "Wainscoat, Richard",
+            "Young, David R.",
+            "Chen, Tracy X.",
+            "Graham, Matthew J.",
+            "Kasliwal, Mansi M.",
+            "Masci, Frank J.",
+            "Purdum, Josiah N.",
+            "Belkhodja, Ines"
+        ],
+        "bibstem": [
+            "A&A",
+            "A&A...712"
+        ],
+        "title": [
+            "An analysis of the Type Ia SN 2024gy and a comparison of different host extinction estimation techniques"
+        ],
+        "year": "2026",
+        "bibcode": "2026A&A...712A.173T"
+    },
+    {
+        "author": [
             "Vieira, Nicholas",
             "Ruan, John J.",
             "Haggard, Daryl",
@@ -5098,6 +5118,30 @@
     },
     {
         "author": [
+            "Kurre, Mulchand",
+            "Sahu, K. R.",
+            "Tiwari, Shrutika",
+            "Patel, Yogita",
+            "Chakradhari, N. K.",
+            "Sahu, D. K.",
+            "Teja, Rishabh Singh",
+            "Anupama, G. C.",
+            "Singh, Mridweeka",
+            "Dutta, Anirban",
+            "Gangopadhyay, Anjasha"
+        ],
+        "bibstem": [
+            "ApJ",
+            "ApJ..1007"
+        ],
+        "title": [
+            "Photometric and Spectroscopic Studies of Type Ic Supernovae SN 2020akf and SN 2021mxx"
+        ],
+        "year": "2026",
+        "bibcode": "2026ApJ..1007....7K"
+    },
+    {
+        "author": [
             "Kayal, Sohini",
             "Gayatri, P.",
             "Singh, Mridweeka",
@@ -5112,6 +5156,39 @@
         ],
         "year": "2026",
         "bibcode": "2026JApA...47...19K"
+    },
+    {
+        "author": [
+            "Chen, I.-Kai",
+            "Dunsky, David",
+            "Van Tilburg, Ken",
+            "Huang, Junwu",
+            "Wagoner, Robert V."
+        ],
+        "bibstem": [
+            "JCAP",
+            "JCAP...08"
+        ],
+        "title": [
+            "Expanding ejecta method: mapping supernova morphology with intensity interferometry"
+        ],
+        "year": "2026",
+        "bibcode": "2026JCAP...08..013C"
+    },
+    {
+        "author": [
+            "Bergemann, Maria",
+            "Hoppe, Richard"
+        ],
+        "bibstem": [
+            "LRCA",
+            "LRCA...12"
+        ],
+        "title": [
+            "3D NLTE radiation transfer: theory and applications to stars, exoplanets, and kilonovae"
+        ],
+        "year": "2026",
+        "bibcode": "2026LRCA...12....7B"
     },
     {
         "author": [
