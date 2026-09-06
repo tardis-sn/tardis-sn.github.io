@@ -13,16 +13,16 @@
     {
         "year": 2016,
         "info": {
+            "misha_mishkin": {
+                "full_name": "Misha Mishkin",
+                "project_title": "Carsus - TARDIS support package for creating atomic datasets",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600",
+                "image_path": "../me.jpeg"
+            },
             "mikhail_mishin": {
                 "full_name": "Mikhail Mishin",
                 "project_title": "Carsus package for creating atomic datasets",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
-                "image_path": "../me.jpeg"
-            },
-            "tomas_bylund": {
-                "full_name": "Tomas Bylund",
-                "project_title": "TARDIS formal integral",
-                "project_link": "",
                 "image_path": "../me.jpeg"
             },
             "fotis_tsamis": {
@@ -31,16 +31,16 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/5656164301799424",
                 "image_path": "../me.jpeg"
             },
+            "tomas_bylund": {
+                "full_name": "Tomas Bylund",
+                "project_title": "TARDIS formal integral",
+                "project_link": "",
+                "image_path": "../me.jpeg"
+            },
             "karan_desai": {
                 "full_name": "Karan Desai",
                 "project_title": "Extensive Test Suite for TARDIS ",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/4796129849901056",
-                "image_path": "../me.jpeg"
-            },
-            "misha_mishkin": {
-                "full_name": "Misha Mishkin",
-                "project_title": "Carsus - TARDIS support package for creating atomic datasets",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600",
                 "image_path": "../me.jpeg"
             }
         }
@@ -87,6 +87,18 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5844398931181568",
                 "image_path": "media/images/atharva.jpg"
             },
+            "jenny_yu": {
+                "full_name": "Jenny Yu",
+                "project_title": "Custom Abundance widget",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960",
+                "image_path": "../me.jpeg"
+            },
+            "arib_alam": {
+                "full_name": "Arib Alam",
+                "project_title": "Packet tracking",
+                "project_link": "",
+                "image_path": "../me.jpeg"
+            },
             "dhruv_sondhi": {
                 "full_name": "Dhruv Sondhi",
                 "project_title": "Improving TARDIS Simulation Logging Framework ",
@@ -97,18 +109,6 @@
                 "full_name": "Yizheng Yu",
                 "project_title": "Custom Abundance Widget",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
-                "image_path": "../me.jpeg"
-            },
-            "arib_alam": {
-                "full_name": "Arib Alam",
-                "project_title": "Packet tracking",
-                "project_link": "",
-                "image_path": "../me.jpeg"
-            },
-            "jenny_yu": {
-                "full_name": "Jenny Yu",
-                "project_title": "Custom Abundance widget",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960",
                 "image_path": "../me.jpeg"
             }
         }
@@ -122,10 +122,10 @@
                 "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/VI1FUJJa",
                 "image_path": "media/images/atharva.jpg"
             },
-            "rohith_buddaraju": {
-                "full_name": "Rohith Varma Buddaraju",
-                "project_title": "Tardis Setups Framework",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z",
+            "jayant_bhakar": {
+                "full_name": "Jayant Bhakar",
+                "project_title": "Monte Carlo 2D Packet Visualization",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
                 "image_path": "../me.jpeg"
             },
             "satwik_kambham": {
@@ -140,10 +140,10 @@
                 "project_link": "",
                 "image_path": ""
             },
-            "jayant_bhakar": {
-                "full_name": "Jayant Bhakar",
-                "project_title": "Monte Carlo 2D Packet Visualization",
-                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
+            "rohith_buddaraju": {
+                "full_name": "Rohith Varma Buddaraju",
+                "project_title": "Tardis Setups Framework",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z",
                 "image_path": "../me.jpeg"
             }
         }
@@ -151,17 +151,11 @@
     {
         "year": 2023,
         "info": {
-            "ayushi_daksh": {
-                "full_name": "Ayushi Daksh",
-                "project_title": "Grotrian Diagram Visualisation",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
-                "image_path": "media/images/ayushi.jpg"
-            },
-            "william_black": {
-                "full_name": "William Black",
-                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
-                "image_path": "../me.jpeg"
+            "shreyas_singh": {
+                "full_name": "Shreyas Singh",
+                "project_title": "Import and Store NNDC Deposition Data",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
+                "image_path": "media/images/shreyas.jpg"
             },
             "aarya_chaumal": {
                 "full_name": "Aarya Chaumal",
@@ -169,23 +163,29 @@
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
                 "image_path": "media/images/aarya.png"
             },
+            "ayushi_daksh": {
+                "full_name": "Ayushi Daksh",
+                "project_title": "Grotrian Diagram Visualisation",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
+                "image_path": "media/images/ayushi.jpg"
+            },
             "shikha_rathi": {
                 "full_name": "Shikha Rathi",
                 "project_title": "Having Versioned Atomic Data Repositories",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/tXpWIPLe",
                 "image_path": "media/images/shikha.jpg"
             },
-            "shreyas_singh": {
-                "full_name": "Shreyas Singh",
-                "project_title": "Import and Store NNDC Deposition Data",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
-                "image_path": "media/images/shreyas.jpg"
-            },
             "ansh_kumar": {
                 "full_name": "Ansh Kumar",
                 "project_title": "Inner Boundary Velocity Solver",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2023/projects/uyYkVw0V",
                 "image_path": "media/images/ansh.jpeg"
+            },
+            "william_black": {
+                "full_name": "William Black",
+                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
+                "image_path": "../me.jpeg"
             }
         }
     },
@@ -215,17 +215,17 @@
     {
         "year": "2026",
         "info": {
-            "rishmita_rao": {
-                "full_name": "Rishmita Rao",
-                "project_title": "Improving Test Coverage for the TARDIS Plasma Module",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2026/projects/LIZ3ldjS",
-                "image_path": "media/images/rishmita.jpg"
-            },
             "shreyans_saraf": {
                 "full_name": "Shreyans Saraf",
                 "project_title": "Migrating Visualization Widgets to Panel",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2026/projects/vOFfl4Af",
                 "image_path": "media/images/shreyans.jpg"
+            },
+            "rishmita_rao": {
+                "full_name": "Rishmita Rao",
+                "project_title": "Improving Test Coverage for the TARDIS Plasma Module",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2026/projects/LIZ3ldjS",
+                "image_path": "media/images/rishmita.jpg"
             }
         }
     }
