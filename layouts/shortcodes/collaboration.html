@@ -9,7 +9,7 @@
         {{ else }}
         <img class="rounded-picture" src="{{ $imagePath }}">
         {{ end }}
-        <div class="person-name">{{ $member.full_name }}</div>
+        <div class="person-name"><a href="/members/{{ $member.member_id }}/" style="text-decoration: none; color: inherit;">{{ $member.full_name }}</a></div>
         <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">
             {{ with $member.start_year }}
             Since {{ . }}
