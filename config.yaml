@@ -9,7 +9,6 @@ markup:
     renderer:
       unsafe: true
 params:
-  gsoc_year: 2026
   base_font: nunito-sans
   favicon: images/tardis_logo.ico
   footer:
@@ -59,6 +58,7 @@ params:
     - image: images/Numfocus_stamp.png
       image_url: https://numfocus.org/project/tardis
       type: footer_text
+  gsoc_year: 2026
   header:
     has_nav: true
     logo_img: images/tardis-logo-2.svg
@@ -163,7 +163,7 @@ params:
       sub_items:
       - label: GSoC with TARDIS!
         style: dropdown-link
-        url: /summer_of_code/gsoc_org_accepted
+        url: /summer_of_code/gsoc_end
       - label: GSoC Checklist
         style: dropdown-link
         sub_items:
@@ -173,13 +173,7 @@ params:
         - label: Accepted Checklist
           style: redirect-link
           url: /summer_of_code/accepted_checklist
-        url: ""
-      - label: GSoC 2026 Ideas
-        style: dropdown-link
-        url: /summer_of_code/ideas
-      - label: GSoC 2026 Team
-        style: dropdown-link
-        url: /summer_of_code/current_gsoc_team
+        url: ''
       - label: Past GSoC
         style: dropdown-link
         url: /summer_of_code/past_gsoc
