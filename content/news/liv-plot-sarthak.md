@@ -1,22 +1,20 @@
 ---
-title: LIV (Last Interaction Velocity) Plot
-excerpt: >-
-  Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program—a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.
+title: "LIV (Last Interaction Velocity) Plot"
+excerpt: "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra."
 publishDate: 2024-08-23
 thumb_image: ../articles/LIV_ply.png
 seo:
-  title: LIV (Last Interaction Velocity) Plot
+  title: "LIV (Last Interaction Velocity) Plot"
   description: Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program—a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: LIV (Last Interaction Velocity) Plot
+      value: "LIV (Last Interaction Velocity) Plot"
       keyName: property
     - name: 'og:description'
-      value: >-
-        Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program—a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.
+      value: "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra."
       keyName: property
     - name: 'og:image'
       value: ../articles/LIV_ply.png
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: LIV (Last Interaction Velocity) Plot
+      value: "LIV (Last Interaction Velocity) Plot"
     - name: 'twitter:description'
-      value: >-
-        Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program—a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.
+      value: "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra."
     - name: 'twitter:image'
       value: ../articles/LIV_ply.png
       relativeUrl: true

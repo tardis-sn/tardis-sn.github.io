@@ -1,22 +1,20 @@
 ---
-title: TARDIS-con
-excerpt: >-
-  TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on.
+title: "TARDIS-con"
+excerpt: "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on."
 publishDate: 2024-07-19
 thumb_image: ../articles/TARDIScon24-Plasma-Session.jpg
 seo:
-  title: TARDIS-con
+  title: "TARDIS-con"
   description: TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: TARDIS-con
+      value: "TARDIS-con"
       keyName: property
     - name: 'og:description'
-      value: >-
-        TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on.
+      value: "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on."
       keyName: property
     - name: 'og:image'
       value: ../articles/TARDIScon24-Plasma-Session.jpg
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: TARDIS-con
+      value: "TARDIS-con"
     - name: 'twitter:description'
-      value: >-
-        TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on.
+      value: "TARDIS-Con 2024 has come and gone. After another unique two-week un-conference, we are exhausted but very proud of the many projects that we worked on."
     - name: 'twitter:image'
       value: ../articles/TARDIScon24-Plasma-Session.jpg
       relativeUrl: true

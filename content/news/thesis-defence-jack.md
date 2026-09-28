@@ -1,22 +1,20 @@
 ---
-title: Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification
-excerpt: >-
-  We congratulate Dr. Jack O’Brien for successfully defending his thesis titled “Progenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer” in astrophysics at Michigan State University.
+title: "Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification"
+excerpt: "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University."
 publishDate: 2024-04-20
 thumb_image: ../articles/jackDefence.jpg
 seo:
-  title: Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification
+  title: "Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification"
   description: We congratulate Dr. Jack O’Brien for successfully defending his thesis titled “Progenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer” in astrophysics at Michigan State University.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification
+      value: "Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification"
       keyName: property
     - name: 'og:description'
-      value: >-
-        We congratulate Dr. Jack O’Brien for successfully defending his thesis titled “Progenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer” in astrophysics at Michigan State University.
+      value: "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University."
       keyName: property
     - name: 'og:image'
       value: ../articles/jackDefence.jpg
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification
+      value: "Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification"
     - name: 'twitter:description'
-      value: >-
-        We congratulate Dr. Jack O’Brien for successfully defending his thesis titled “Progenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer” in astrophysics at Michigan State University.
+      value: "We congratulate Dr. Jack O\u2019Brien for successfully defending his thesis titled \u201cProgenitor Identification of Type Ia Supernovae through Statistical Abundance Tomography from Optical Spectra with Machine Learning and Radiative Transfer\u201d in astrophysics at Michigan State University."
     - name: 'twitter:image'
       value: ../articles/jackDefence.jpg
       relativeUrl: true

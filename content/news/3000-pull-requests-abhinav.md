@@ -1,22 +1,20 @@
 ---
-title: TARDIS Repository Hits 3000 Pull Requests!
-excerpt: >-
-  Celebrating a major milestone as the TARDIS repository reaches 3000 pull requests.
+title: "TARDIS Repository Hits 3000 Pull Requests!"
+excerpt: "Celebrating a major milestone as the TARDIS repository reaches 3000 pull requests."
 publishDate: 2025-03-03
 thumb_image: ../articles/cover.gif
 seo:
-  title: TARDIS Repository Hits 3000 Pull Requests!
+  title: "TARDIS Repository Hits 3000 Pull Requests!"
   description: Celebrating a major milestone as the TARDIS repository reaches 3000 pull requests.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: TARDIS Repository Hits 3000 Pull Requests!
+      value: "TARDIS Repository Hits 3000 Pull Requests!"
       keyName: property
     - name: 'og:description'
-      value: >-
-        Celebrating a major milestone as the TARDIS repository reaches 3000 pull requests.
+      value: "Celebrating a major milestone as the TARDIS repository reaches 3000 pull requests."
       keyName: property
     - name: 'og:image'
       value: ../articles/cover.gif
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: TARDIS Repository Hits 3000 Pull Requests!
+      value: "TARDIS Repository Hits 3000 Pull Requests!"
     - name: 'twitter:description'
-      value: >-
-        Celebrating a major milestone as the TARDIS repository reaches 3000 pull requests.
+      value: "Celebrating a major milestone as the TARDIS repository reaches 3000 pull requests."
     - name: 'twitter:image'
       value: ../articles/cover.gif
       relativeUrl: true

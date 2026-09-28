@@ -1,22 +1,20 @@
 ---
-title: Traces of Helium Detected in Type Ic Supernova 2014L
-excerpt: >-
-  Applying a Bayesian inference framework to the normal Type Ic supernova SN2014L, the team finds spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova.
+title: "Traces of Helium Detected in Type Ic Supernova 2014L"
+excerpt: "Applying a Bayesian inference framework to the normal Type Ic supernova SN2014L, the team finds spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova."
 publishDate: 2026-04-21
 thumb_image: ../articles/image.png
 seo:
-  title: Traces of Helium Detected in Type Ic Supernova 2014L
+  title: "Traces of Helium Detected in Type Ic Supernova 2014L"
   description: Applying a Bayesian inference framework to the normal Type Ic supernova SN2014L, the team finds spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Traces of Helium Detected in Type Ic Supernova 2014L
+      value: "Traces of Helium Detected in Type Ic Supernova 2014L"
       keyName: property
     - name: 'og:description'
-      value: >-
-        Applying a Bayesian inference framework to the normal Type Ic supernova SN2014L, the team finds spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova.
+      value: "Applying a Bayesian inference framework to the normal Type Ic supernova SN2014L, the team finds spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova."
       keyName: property
     - name: 'og:image'
       value: ../articles/image.png
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Traces of Helium Detected in Type Ic Supernova 2014L
+      value: "Traces of Helium Detected in Type Ic Supernova 2014L"
     - name: 'twitter:description'
-      value: >-
-        Applying a Bayesian inference framework to the normal Type Ic supernova SN2014L, the team finds spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova.
+      value: "Applying a Bayesian inference framework to the normal Type Ic supernova SN2014L, the team finds spectra are inconsistent with a helium-free composition, providing observational evidence for hidden helium in a Type Ic supernova."
     - name: 'twitter:image'
       value: ../articles/image.png
       relativeUrl: true

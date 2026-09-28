@@ -1,22 +1,20 @@
 ---
-title: GSoC 2025 Coding Period Begins
-excerpt: >-
-  
+title: "GSoC 2025 Coding Period Begins"
+excerpt: ""
 publishDate: 2025-06-02
 thumb_image: ../articles/gsoc_2025_participants.png
 seo:
-  title: GSoC 2025 Coding Period Begins
+  title: "GSoC 2025 Coding Period Begins"
   description: 
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: GSoC 2025 Coding Period Begins
+      value: "GSoC 2025 Coding Period Begins"
       keyName: property
     - name: 'og:description'
-      value: >-
-        
+      value: ""
       keyName: property
     - name: 'og:image'
       value: ../articles/gsoc_2025_participants.png
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: GSoC 2025 Coding Period Begins
+      value: "GSoC 2025 Coding Period Begins"
     - name: 'twitter:description'
-      value: >-
-        
+      value: ""
     - name: 'twitter:image'
       value: ../articles/gsoc_2025_participants.png
       relativeUrl: true

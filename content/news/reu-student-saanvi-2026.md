@@ -1,22 +1,20 @@
 ---
-title: A Summer of Research and Collaboration: My CRA-NSF CISE REU Experience, by Saanvi Kunisetty
-excerpt: >-
-  Saanvi Kunisetty summarizes her REU experience at the Kerzendorf Lab, where she worked on improving TARDIS documentation and developing an atomic-data table generator.
+title: "A Summer of Research and Collaboration: My CRA-NSF CISE REU Experience, by Saanvi Kunisetty"
+excerpt: "Saanvi Kunisetty summarizes her REU experience at the Kerzendorf Lab, where she worked on improving TARDIS documentation and developing an atomic-data table generator."
 publishDate: 2026-08-14
 thumb_image: ../articles/atomic_data_table.png
 seo:
-  title: A Summer of Research and Collaboration: My CRA-NSF CISE REU Experience, by Saanvi Kunisetty
+  title: "A Summer of Research and Collaboration: My CRA-NSF CISE REU Experience, by Saanvi Kunisetty"
   description: Saanvi Kunisetty summarizes her REU experience at the Kerzendorf Lab, where she worked on improving TARDIS documentation and developing an atomic-data table generator.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: A Summer of Research and Collaboration: My CRA-NSF CISE REU Experience, by Saanvi Kunisetty
+      value: "A Summer of Research and Collaboration: My CRA-NSF CISE REU Experience, by Saanvi Kunisetty"
       keyName: property
     - name: 'og:description'
-      value: >-
-        Saanvi Kunisetty summarizes her REU experience at the Kerzendorf Lab, where she worked on improving TARDIS documentation and developing an atomic-data table generator.
+      value: "Saanvi Kunisetty summarizes her REU experience at the Kerzendorf Lab, where she worked on improving TARDIS documentation and developing an atomic-data table generator."
       keyName: property
     - name: 'og:image'
       value: ../articles/atomic_data_table.png
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: A Summer of Research and Collaboration: My CRA-NSF CISE REU Experience, by Saanvi Kunisetty
+      value: "A Summer of Research and Collaboration: My CRA-NSF CISE REU Experience, by Saanvi Kunisetty"
     - name: 'twitter:description'
-      value: >-
-        Saanvi Kunisetty summarizes her REU experience at the Kerzendorf Lab, where she worked on improving TARDIS documentation and developing an atomic-data table generator.
+      value: "Saanvi Kunisetty summarizes her REU experience at the Kerzendorf Lab, where she worked on improving TARDIS documentation and developing an atomic-data table generator."
     - name: 'twitter:image'
       value: ../articles/atomic_data_table.png
       relativeUrl: true

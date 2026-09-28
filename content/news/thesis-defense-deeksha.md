@@ -1,22 +1,20 @@
 ---
-title: Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS
-excerpt: >-
-  Deeksha Mohanty successfully defended her master's thesis on adaptive damping and convergence in TARDIS simulations at Michigan State University.
+title: "Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS"
+excerpt: "Deeksha Mohanty successfully defended her master's thesis on adaptive damping and convergence in TARDIS simulations at Michigan State University."
 publishDate: 2025-07-07
 thumb_image: ../articles/defense_before.jpeg
 seo:
-  title: Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS
+  title: "Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS"
   description: Deeksha Mohanty successfully defended her master's thesis on adaptive damping and convergence in TARDIS simulations at Michigan State University.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS
+      value: "Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS"
       keyName: property
     - name: 'og:description'
-      value: >-
-        Deeksha Mohanty successfully defended her master's thesis on adaptive damping and convergence in TARDIS simulations at Michigan State University.
+      value: "Deeksha Mohanty successfully defended her master's thesis on adaptive damping and convergence in TARDIS simulations at Michigan State University."
       keyName: property
     - name: 'og:image'
       value: ../articles/defense_before.jpeg
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS
+      value: "Deeksha Mohanty Defends Master's Thesis on Enhancing Convergence in TARDIS"
     - name: 'twitter:description'
-      value: >-
-        Deeksha Mohanty successfully defended her master's thesis on adaptive damping and convergence in TARDIS simulations at Michigan State University.
+      value: "Deeksha Mohanty successfully defended her master's thesis on adaptive damping and convergence in TARDIS simulations at Michigan State University."
     - name: 'twitter:image'
       value: ../articles/defense_before.jpeg
       relativeUrl: true

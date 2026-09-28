@@ -1,22 +1,20 @@
 ---
-title: A Sample of TARDIS Improvements at TARDISCon
-excerpt: >-
-  At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.
+title: "A Sample of TARDIS Improvements at TARDISCon"
+excerpt: "At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere."
 publishDate: 2024-07-19
 thumb_image: ../articles/samplers_compare.gif
 seo:
-  title: A Sample of TARDIS Improvements at TARDISCon
+  title: "A Sample of TARDIS Improvements at TARDISCon"
   description: At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: A Sample of TARDIS Improvements at TARDISCon
+      value: "A Sample of TARDIS Improvements at TARDISCon"
       keyName: property
     - name: 'og:description'
-      value: >-
-        At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.
+      value: "At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere."
       keyName: property
     - name: 'og:image'
       value: ../articles/samplers_compare.gif
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: A Sample of TARDIS Improvements at TARDISCon
+      value: "A Sample of TARDIS Improvements at TARDISCon"
     - name: 'twitter:description'
-      value: >-
-        At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere.
+      value: "At TARDISCon, we developed two new sampling methods for different scenarios:- the decay of positronium and the emission of packets from the photosphere."
     - name: 'twitter:image'
       value: ../articles/samplers_compare.gif
       relativeUrl: true

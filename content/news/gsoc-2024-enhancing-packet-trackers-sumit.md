@@ -1,22 +1,20 @@
 ---
-title: Enhancing Packet Trackers
-excerpt: >-
-  This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.
+title: "Enhancing Packet Trackers"
+excerpt: "This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers."
 publishDate: 2024-08-23
 thumb_image: ../articles/cover_image_sharpened.png
 seo:
-  title: Enhancing Packet Trackers
+  title: "Enhancing Packet Trackers"
   description: This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Enhancing Packet Trackers
+      value: "Enhancing Packet Trackers"
       keyName: property
     - name: 'og:description'
-      value: >-
-        This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.
+      value: "This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers."
       keyName: property
     - name: 'og:image'
       value: ../articles/cover_image_sharpened.png
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Enhancing Packet Trackers
+      value: "Enhancing Packet Trackers"
     - name: 'twitter:description'
-      value: >-
-        This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.
+      value: "This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers."
     - name: 'twitter:image'
       value: ../articles/cover_image_sharpened.png
       relativeUrl: true

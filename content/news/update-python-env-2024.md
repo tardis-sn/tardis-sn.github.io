@@ -1,22 +1,20 @@
 ---
-title: Attention! Update your TARDIS Python environment
-excerpt: >-
-  We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.
+title: "Attention! Update your TARDIS Python environment"
+excerpt: "We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance."
 publishDate: 2024-06-10
 thumb_image: ../articles/lock_file_update_2024.jpeg
 seo:
-  title: Attention! Update your TARDIS Python environment
+  title: "Attention! Update your TARDIS Python environment"
   description: We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Attention! Update your TARDIS Python environment
+      value: "Attention! Update your TARDIS Python environment"
       keyName: property
     - name: 'og:description'
-      value: >-
-        We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.
+      value: "We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance."
       keyName: property
     - name: 'og:image'
       value: ../articles/lock_file_update_2024.jpeg
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Attention! Update your TARDIS Python environment
+      value: "Attention! Update your TARDIS Python environment"
     - name: 'twitter:description'
-      value: >-
-        We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.
+      value: "We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance."
     - name: 'twitter:image'
       value: ../articles/lock_file_update_2024.jpeg
       relativeUrl: true

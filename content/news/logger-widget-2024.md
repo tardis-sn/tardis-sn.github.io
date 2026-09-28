@@ -1,22 +1,20 @@
 ---
-title: Introducing a new logger widget for TARDIS!
-excerpt: >-
-  Detailed logger for TARDIS simulation run
+title: "Introducing a new logger widget for TARDIS!"
+excerpt: "Detailed logger for TARDIS simulation run"
 publishDate: 2024-07-19
 thumb_image: ../articles/logger.gif
 seo:
-  title: Introducing a new logger widget for TARDIS!
+  title: "Introducing a new logger widget for TARDIS!"
   description: Detailed logger for TARDIS simulation run
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Introducing a new logger widget for TARDIS!
+      value: "Introducing a new logger widget for TARDIS!"
       keyName: property
     - name: 'og:description'
-      value: >-
-        Detailed logger for TARDIS simulation run
+      value: "Detailed logger for TARDIS simulation run"
       keyName: property
     - name: 'og:image'
       value: ../articles/logger.gif
@@ -25,10 +23,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Introducing a new logger widget for TARDIS!
+      value: "Introducing a new logger widget for TARDIS!"
     - name: 'twitter:description'
-      value: >-
-        Detailed logger for TARDIS simulation run
+      value: "Detailed logger for TARDIS simulation run"
     - name: 'twitter:image'
       value: ../articles/logger.gif
       relativeUrl: true
