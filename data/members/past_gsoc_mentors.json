@@ -101,6 +101,14 @@
         "image_path": "media/images/profile.jpg"
     },
     {
+        "member_id": "giacomo_ricigliano",
+        "years": [
+            "2026"
+        ],
+        "full_name": "Giacomo Ricigliano",
+        "image_path": "media/me.jpeg"
+    },
+    {
         "member_id": "haille_perkins",
         "years": [
             2026
