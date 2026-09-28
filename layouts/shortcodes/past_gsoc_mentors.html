@@ -7,7 +7,7 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $mentor, $mentorData := site.Data.members.gsoc_mentors }}
+        {{ range $mentor, $mentorData := site.Data.members.past_gsoc_mentors }}
         {{ $pastYears := slice }}
         {{ range $mentorData.years }}
             {{ if lt (int .) $currentYear }}

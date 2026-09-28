@@ -5,6 +5,8 @@ draft: false
 layout: page
 ---
 
+> **Note:** GSoC {{< next_year >}} has not been announced yet. If you want to take part next year, please wait for the announcement. Please do not open pull requests for now, since we do not have the capacity to review them. In the meantime, you can read our [documentation](https://tardis-sn.github.io/tardis/) and get familiar with the codebase.
+
 We are thrilled to have completed another incredible journey with Google Summer of Code (GSoC) {{< current_year >}}! This year has been packed with innovation, collaboration, and inspiring contributions from our talented GSoC participants. Each of them has demonstrated exceptional skill and dedication, and we’re proud of the work accomplished as part of our projects.
 
 Our participants worked on a variety of impactful projects, contributing to open-source development and tackling challenges with creativity and enthusiasm.
