@@ -13,6 +13,7 @@
             "A spectral synthesis code for rapid modelling of supernovae"
         ],
         "year": "2014",
+        "publisher": "OUP",
         "citation": [
             "2015AN....336..464D",
             "2015ApJS..217....9R",
@@ -168,7 +169,6 @@
             "2025MNRAS.543.3885O",
             "2025PhRvD.111h3047K",
             "2025RAA....25f5016W",
-            "2025arXiv251107539V",
             "2026A&A...706A.381I",
             "2026A&A...707A..57H",
             "2026A&A...708A..60R",
@@ -187,17 +187,18 @@
             "2026ApJ..1002L..11L",
             "2026ApJ..1006...86C",
             "2026ApJ..1007....7K",
+            "2026ApJ..1008L...3W",
             "2026JApA...47...19K",
             "2026JCAP...08..013C",
             "2026LRCA...12....7B",
             "2026MNRAS.545f2149B",
             "2026MNRAS.546ag068M",
             "2026MNRAS.548ag748G",
+            "2026MNRAS.tmp.1621V",
             "2026arXiv260114235L",
             "2026arXiv260121782F",
             "2026arXiv260315791O",
             "2026arXiv260400158L",
-            "2026arXiv260618881W",
             "2026arXiv260712525K"
         ]
     },
@@ -213,6 +214,7 @@
             "Gamma rays from a supernova of type Ia: SN2014J"
         ],
         "year": "2015",
+        "publisher": "Wiley",
         "bibcode": "2015AN....336..464D"
     },
     {
@@ -228,6 +230,7 @@
             "Monte Carlo Radiation-Hydrodynamics With Implicit Methods"
         ],
         "year": "2015",
+        "publisher": "IOP",
         "bibcode": "2015ApJS..217....9R"
     },
     {
@@ -244,6 +247,7 @@
             "Polarization spectral synthesis for Type Ia supernova explosion models"
         ],
         "year": "2015",
+        "publisher": "OUP",
         "bibcode": "2015MNRAS.450..967B"
     },
     {
@@ -262,6 +266,7 @@
             "The impact of accretion disc winds on the optical spectra of cataclysmic variables"
         ],
         "year": "2015",
+        "publisher": "OUP",
         "bibcode": "2015MNRAS.450.3331M"
     },
     {
@@ -277,6 +282,7 @@
             "Self-consistent modelling of line-driven hot-star winds with Monte Carlo radiation hydrodynamics"
         ],
         "year": "2015",
+        "publisher": "OUP",
         "bibcode": "2015MNRAS.453.3120N"
     },
     {
@@ -330,6 +336,7 @@
             "The type Iax supernova, SN 2015H. A white dwarf deflagration candidate"
         ],
         "year": "2016",
+        "publisher": "EDP",
         "bibcode": "2016A&A...589A..89M"
     },
     {
@@ -347,6 +354,7 @@
             "Line Identifications of Type I Supernovae: On the Detection of Si II for These Hydrogen-poor Events"
         ],
         "year": "2016",
+        "publisher": "IOP",
         "bibcode": "2016ApJ...820...75P"
     },
     {
@@ -364,6 +372,7 @@
             "Spectropolarimetry of Superluminous Supernovae: Insight into Their Geometry"
         ],
         "year": "2016",
+        "publisher": "IOP",
         "bibcode": "2016ApJ...831...79I"
     },
     {
@@ -469,6 +478,7 @@
             "The virtual atomic and molecular data centre (VAMDC) consortium"
         ],
         "year": "2016",
+        "publisher": "IOP",
         "bibcode": "2016JPhB...49g4003D"
     },
     {
@@ -487,6 +497,7 @@
             "The CHIANTI atomic database"
         ],
         "year": "2016",
+        "publisher": "IOP",
         "bibcode": "2016JPhB...49g4009Y"
     },
     {
@@ -522,6 +533,7 @@
             "Comparative analysis of SN 2012dn optical spectra: days -14 to +114"
         ],
         "year": "2016",
+        "publisher": "OUP",
         "bibcode": "2016MNRAS.457.3702P"
     },
     {
@@ -555,6 +567,7 @@
             "The continuing story of SN IIb 2013df: new optical and IR observations and analysis"
         ],
         "year": "2016",
+        "publisher": "OUP",
         "bibcode": "2016MNRAS.460.1500S"
     },
     {
@@ -573,6 +586,7 @@
             "Type Ia supernovae within dense carbon- and oxygen-rich envelopes: a model for `Super-Chandrasekhar' explosions?"
         ],
         "year": "2016",
+        "publisher": "OUP",
         "bibcode": "2016MNRAS.463.2972N"
     },
     {
@@ -590,6 +604,7 @@
             "Helium in double-detonation models of type Ia supernovae"
         ],
         "year": "2017",
+        "publisher": "EDP",
         "bibcode": "2017A&A...599A..46B"
     },
     {
@@ -616,6 +631,7 @@
             "Growing evidence that SNe Iax are not a one-parameter family. The case of PS1-12bwh"
         ],
         "year": "2017",
+        "publisher": "EDP",
         "bibcode": "2017A&A...601A..62M"
     },
     {
@@ -633,6 +649,7 @@
             "Spectral Sequences of Type Ia Supernovae. I. Connecting Normal and Subluminous SNe Ia and the Presence of Unburned Carbon"
         ],
         "year": "2017",
+        "publisher": "IOP",
         "bibcode": "2017ApJ...846...15H"
     },
     {
@@ -649,6 +666,7 @@
             "Time-dependent ionization in the envelopes of type II supernovae at the photospheric phase."
         ],
         "year": "2017",
+        "publisher": "Springer",
         "bibcode": "2017AstL...43...36P"
     },
     {
@@ -736,6 +754,7 @@
             "The e-ASTROGAM mission. Exploring the extreme Universe with gamma rays in the MeV - GeV range"
         ],
         "year": "2017",
+        "publisher": "Springer",
         "bibcode": "2017ExA....44...25D"
     },
     {
@@ -757,6 +776,7 @@
             "Abundance tomography of Type Iax SN 2011ay with tardis"
         ],
         "year": "2017",
+        "publisher": "OUP",
         "bibcode": "2017MNRAS.471.4865B"
     },
     {
@@ -952,6 +972,7 @@
             "Modelling the early time behaviour of type Ia supernovae: effects of the <SUP>56</SUP>Ni distribution"
         ],
         "year": "2018",
+        "publisher": "EDP",
         "bibcode": "2018A&A...614A.115M"
     },
     {
@@ -971,6 +992,7 @@
             "Monte-Carlo methods for NLTE spectral synthesis of supernovae"
         ],
         "year": "2018",
+        "publisher": "EDP",
         "bibcode": "2018A&A...620A.156E"
     },
     {
@@ -1014,6 +1036,7 @@
             "The Cow: Discovery of a Luminous, Hot, and Rapidly Evolving Transient"
         ],
         "year": "2018",
+        "publisher": "IOP",
         "bibcode": "2018ApJ...865L...3P"
     },
     {
@@ -1278,6 +1301,7 @@
             "Science with e-ASTROGAM. A space mission for MeV-GeV gamma-ray astrophysics"
         ],
         "year": "2018",
+        "publisher": "Elsevier",
         "bibcode": "2018JHEAp..19....1D"
     },
     {
@@ -1294,6 +1318,7 @@
             "Bayesian modelling of uncertainties of Monte Carlo radiative-transfer simulations"
         ],
         "year": "2018",
+        "publisher": "OUP",
         "bibcode": "2018MNRAS.477.3425B"
     },
     {
@@ -1314,6 +1339,7 @@
             "Type Iax supernovae as a few-parameter family"
         ],
         "year": "2018",
+        "publisher": "OUP",
         "bibcode": "2018MNRAS.480.3609B"
     },
     {
@@ -1332,6 +1358,7 @@
             "Spectral modeling of type II supernovae. I. Dilution factors"
         ],
         "year": "2019",
+        "publisher": "EDP",
         "bibcode": "2019A&A...621A..29V"
     },
     {
@@ -1350,6 +1377,7 @@
             "Detecting the signatures of helium in type Iax supernovae"
         ],
         "year": "2019",
+        "publisher": "EDP",
         "bibcode": "2019A&A...622A.102M"
     },
     {
@@ -1368,6 +1396,7 @@
             "Spectral Sequences of Type Ia Supernovae. II. Carbon as a Diagnostic Tool for Explosion Mechanisms"
         ],
         "year": "2019",
+        "publisher": "IOP",
         "bibcode": "2019ApJ...871..250H"
     },
     {
@@ -1383,6 +1412,7 @@
             "Gray Radiation Hydrodynamics with the FLASH Code for Astrophysical Applications"
         ],
         "year": "2019",
+        "publisher": "IOP",
         "bibcode": "2019ApJ...876..148C"
     },
     {
@@ -1430,6 +1460,7 @@
             "SN2018kzr: A Rapidly Declining Transient from the Destruction of a White Dwarf"
         ],
         "year": "2019",
+        "publisher": "IOP",
         "bibcode": "2019ApJ...885L..23M"
     },
     {
@@ -1445,6 +1476,7 @@
             "Monte Carlo radiative transfer"
         ],
         "year": "2019",
+        "publisher": "Springer",
         "bibcode": "2019LRCA....5....1N"
     },
     {
@@ -1461,6 +1493,7 @@
             "Exploring the shell model of high-velocity features of Type Ia supernovae using TARDIS"
         ],
         "year": "2019",
+        "publisher": "OUP",
         "bibcode": "2019MNRAS.484.4785M"
     },
     {
@@ -1483,6 +1516,7 @@
             "Detection of circumstellar helium in Type Iax progenitor systems"
         ],
         "year": "2019",
+        "publisher": "OUP",
         "bibcode": "2019MNRAS.487.2538J"
     },
     {
@@ -1497,6 +1531,7 @@
             "POSSIS: predicting spectra, light curves, and polarization for multidimensional models of supernovae and kilonovae"
         ],
         "year": "2019",
+        "publisher": "OUP",
         "bibcode": "2019MNRAS.489.5037B"
     },
     {
@@ -1602,6 +1637,7 @@
             "Current status of r-process nucleosynthesis"
         ],
         "year": "2019",
+        "publisher": "Elsevier",
         "bibcode": "2019PrPNP.107..109K"
     },
     {
@@ -1621,6 +1657,7 @@
             "Spectral modeling of type II supernovae. II. A machine-learning approach to quantitative spectroscopic analysis"
         ],
         "year": "2020",
+        "publisher": "EDP",
         "bibcode": "2020A&A...633A..88V"
     },
     {
@@ -1641,6 +1678,7 @@
             "Determining the <SUP>56</SUP>Ni distribution of type Ia supernovae from observations within days of explosion"
         ],
         "year": "2020",
+        "publisher": "EDP",
         "bibcode": "2020A&A...634A..37M"
     },
     {
@@ -1656,6 +1694,7 @@
             "An investigation of <SUP>56</SUP>Ni shells as the source of early light curve bumps in type Ia supernovae"
         ],
         "year": "2020",
+        "publisher": "EDP",
         "bibcode": "2020A&A...642A.189M"
     },
     {
@@ -1687,6 +1726,7 @@
             "The Lowest of the Low: Discovery of SN 2019gsc and the Nature of Faint Iax Supernovae"
         ],
         "year": "2020",
+        "publisher": "IOP",
         "bibcode": "2020ApJ...892L..24S"
     },
     {
@@ -1741,6 +1781,7 @@
             "SN 2019ein: New Insights into the Similarities and Diversity among High-velocity Type Ia Supernovae"
         ],
         "year": "2020",
+        "publisher": "IOP",
         "bibcode": "2020ApJ...893..143K"
     },
     {
@@ -1799,6 +1840,7 @@
             "The Spectacular Ultraviolet Flash from the Peculiar Type Ia Supernova 2019yvq"
         ],
         "year": "2020",
+        "publisher": "IOP",
         "bibcode": "2020ApJ...898...56M"
     },
     {
@@ -1818,6 +1860,7 @@
             "Credit Lost: Two Decades of Software Citation in Astronomy"
         ],
         "year": "2020",
+        "publisher": "IOP",
         "bibcode": "2020ApJS..249....8B"
     },
     {
@@ -1834,6 +1877,7 @@
             "Artificial Intelligence-Assisted Inversion (AIAI) of Synthetic Type Ia Supernova Spectra"
         ],
         "year": "2020",
+        "publisher": "IOP",
         "bibcode": "2020ApJS..250...12C"
     },
     {
@@ -1849,6 +1893,7 @@
             "Atomic Data for Plasma Spectroscopy: The CHIANTI Database, Improvements and Challenges"
         ],
         "year": "2020",
+        "publisher": "MDPI",
         "bibcode": "2020Atoms...8...46D"
     },
     {
@@ -1874,6 +1919,7 @@
             "Monte Carlo radiative transfer for the nebular phase of Type Ia supernovae"
         ],
         "year": "2020",
+        "publisher": "OUP",
         "bibcode": "2020MNRAS.492.2029S"
     },
     {
@@ -1889,6 +1935,7 @@
             "Extracting high-level information from gamma-ray burst supernova spectra"
         ],
         "year": "2020",
+        "publisher": "OUP",
         "bibcode": "2020MNRAS.492.5956A"
     },
     {
@@ -1904,6 +1951,7 @@
             "An asymmetric explosion mechanism may explain the diversity of Si II linewidths in Type Ia supernovae"
         ],
         "year": "2020",
+        "publisher": "OUP",
         "bibcode": "2020MNRAS.494.5811L"
     },
     {
@@ -1929,6 +1977,7 @@
             "Observations of the low-luminosity Type Iax supernova 2019gsc: a fainter clone of SN 2008ha?"
         ],
         "year": "2020",
+        "publisher": "OUP",
         "bibcode": "2020MNRAS.496.1132T"
     },
     {
@@ -1945,6 +1994,7 @@
             "AT2018kzr: the merger of an oxygen-neon white dwarf and a neutron star or black hole"
         ],
         "year": "2020",
+        "publisher": "OUP",
         "bibcode": "2020MNRAS.497..246G"
     },
     {
@@ -1966,6 +2016,7 @@
             "HOLISMOKES. V. Microlensing of type II supernovae and time-delay inference through spectroscopic phase retrieval"
         ],
         "year": "2021",
+        "publisher": "EDP",
         "bibcode": "2021A&A...653A..29B"
     },
     {
@@ -1982,6 +2033,7 @@
             "Modeling Type Ic Supernovae with TARDIS: Hidden Helium in SN 1994I?"
         ],
         "year": "2021",
+        "publisher": "IOP",
         "bibcode": "2021ApJ...908..150W"
     },
     {
@@ -2002,6 +2054,7 @@
             "Non-local Thermodynamic Equilibrium Radiative Transfer Simulations of Sub-Chandrasekhar-mass White Dwarf Detonations"
         ],
         "year": "2021",
+        "publisher": "IOP",
         "bibcode": "2021ApJ...909L..18S"
     },
     {
@@ -2021,6 +2074,7 @@
             "Dalek: A Deep Learning Emulator for TARDIS"
         ],
         "year": "2021",
+        "publisher": "IOP",
         "bibcode": "2021ApJ...910L..23K"
     },
     {
@@ -2045,6 +2099,7 @@
             "Probabilistic Reconstruction of Type Ia Supernova SN 2002bo"
         ],
         "year": "2021",
+        "publisher": "IOP",
         "bibcode": "2021ApJ...916L..14O"
     },
     {
@@ -2075,6 +2130,7 @@
             "A Bright Ultraviolet Excess in the Transitional 02es-like Type Ia Supernova 2019yvq"
         ],
         "year": "2021",
+        "publisher": "IOP",
         "bibcode": "2021ApJ...919..142B"
     },
     {
@@ -2108,6 +2164,7 @@
             "Measuring an Off-center Detonation through Infrared Line Profiles: The Peculiar Type Ia Supernova SN 2020qxp/ASASSN-20jq"
         ],
         "year": "2021",
+        "publisher": "IOP",
         "bibcode": "2021ApJ...922..186H"
     },
     {
@@ -2124,6 +2181,7 @@
             "Light Curves of Type Ia Supernovae"
         ],
         "year": "2021",
+        "publisher": "Springer",
         "bibcode": "2021AstL...47....1L"
     },
     {
@@ -2178,6 +2236,7 @@
             "SN 2019muj - a well-observed Type Iax supernova that bridges the luminosity gap of the class"
         ],
         "year": "2021",
+        "publisher": "OUP",
         "bibcode": "2021MNRAS.501.1078B"
     },
     {
@@ -2221,6 +2280,7 @@
             "SN 2017gci: a nearby Type I Superluminous Supernova with a bumpy tail"
         ],
         "year": "2021",
+        "publisher": "OUP",
         "bibcode": "2021MNRAS.502.2120F"
     },
     {
@@ -2238,6 +2298,7 @@
             "Exploring the diversity of double-detonation explosions for Type Ia supernovae: effects of the post-explosion helium shell composition"
         ],
         "year": "2021",
+        "publisher": "OUP",
         "bibcode": "2021MNRAS.502.3533M"
     },
     {
@@ -2256,6 +2317,7 @@
             "SN 2017hpa: a carbon-rich Type Ia supernova"
         ],
         "year": "2021",
+        "publisher": "OUP",
         "bibcode": "2021MNRAS.503..896D"
     },
     {
@@ -2282,6 +2344,7 @@
             "ASASSN-14lp: two possible solutions for the observed ultraviolet suppression"
         ],
         "year": "2021",
+        "publisher": "OUP",
         "bibcode": "2021MNRAS.506..415B"
     },
     {
@@ -2300,6 +2363,7 @@
             "Constraints on the presence of platinum and gold in the spectra of the kilonova AT2017gfo"
         ],
         "year": "2021",
+        "publisher": "OUP",
         "bibcode": "2021MNRAS.506.3560G"
     },
     {
@@ -2334,6 +2398,7 @@
             "SN 2019hcc: a Type II supernova displaying early O II lines"
         ],
         "year": "2021",
+        "publisher": "OUP",
         "bibcode": "2021MNRAS.506.4819P"
     },
     {
@@ -2350,6 +2415,7 @@
             "Moving-mesh radiation-hydrodynamic simulations of wind-reprocessed transients"
         ],
         "year": "2021",
+        "publisher": "OUP",
         "bibcode": "2021MNRAS.507.1092C"
     },
     {
@@ -2392,6 +2458,7 @@
             "StaNdaRT: a repository of standardised test models and outputs for supernova radiative transfer"
         ],
         "year": "2022",
+        "publisher": "EDP",
         "bibcode": "2022A&A...668A.163B"
     },
     {
@@ -2439,6 +2506,7 @@
             "An Early-time Optical and Ultraviolet Excess in the Type-Ic SN 2020oi"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...924...55G"
     },
     {
@@ -2465,6 +2533,7 @@
             "Production of Very Light Elements and Strontium in the Early Ejecta of Neutron Star Mergers"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...925...22P"
     },
     {
@@ -2488,6 +2557,7 @@
             "SN 2020sck: Deflagration in a Carbon-Oxygen White Dwarf"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...925..217D"
     },
     {
@@ -2507,6 +2577,7 @@
             "SN 2020jfo: A Short-plateau Type II Supernova from a Low-mass Progenitor"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...930...34T"
     },
     {
@@ -2527,6 +2598,7 @@
             "New Mass Estimates for Massive Binary Systems: A Probabilistic Approach Using Polarimetric Radiative Transfer"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...930...89F"
     },
     {
@@ -2572,6 +2644,7 @@
             "SN 2016dsg: A Thermonuclear Explosion Involving a Thick Helium Shell"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...934..102D"
     },
     {
@@ -2607,6 +2680,7 @@
             "Early-time Ultraviolet Spectroscopy and Optical Follow-up Observations of the Type IIP Supernova 2021yja"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...934..134V"
     },
     {
@@ -2629,6 +2703,7 @@
             "A Spatially Resolved Study of Hard X-Ray Emission in Kepler's Supernova Remnant: Indications of Different Regimes of Particle Acceleration"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...935..152S"
     },
     {
@@ -2656,6 +2731,7 @@
             "Ultraviolet Spectroscopy and TARDIS Models of the Broad-lined Type Ic Supernova 2014ad"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...937...40K"
     },
     {
@@ -2671,6 +2747,7 @@
             "Properties of Type Iax Supernova 2019muj in the Late Phase: Existence, Nature, and Origin of the Iron-rich Dense Core"
         ],
         "year": "2022",
+        "publisher": "IOP",
         "bibcode": "2022ApJ...941...15M"
     },
     {
@@ -2689,6 +2766,7 @@
             "An analysis of the spectroscopic signatures of layering in the ejecta of Type Iax supernovae"
         ],
         "year": "2022",
+        "publisher": "OUP",
         "bibcode": "2022MNRAS.509.3580M"
     },
     {
@@ -2722,6 +2800,7 @@
             "SN 2020kyg and the rates of faint Iax supernovae from ATLAS"
         ],
         "year": "2022",
+        "publisher": "OUP",
         "bibcode": "2022MNRAS.511.2708S"
     },
     {
@@ -2737,6 +2816,7 @@
             "Polarization signatures of the head-on collision model for Type Ia supernovae: how much asymmetry is too much?"
         ],
         "year": "2022",
+        "publisher": "OUP",
         "bibcode": "2022MNRAS.511.2994L"
     },
     {
@@ -2761,6 +2841,7 @@
             "The detection efficiency of Type Ia supernovae from the Zwicky Transient Facility: limits on the intrinsic rate of early flux excesses"
         ],
         "year": "2022",
+        "publisher": "OUP",
         "bibcode": "2022MNRAS.513.3035M"
     },
     {
@@ -2779,6 +2860,7 @@
             "Modelling the spectra of the kilonova AT2017gfo - I. The photospheric epochs"
         ],
         "year": "2022",
+        "publisher": "OUP",
         "bibcode": "2022MNRAS.515..631G"
     },
     {
@@ -2809,6 +2891,7 @@
             "Optical studies of a bright Type Iax supernova SN 2020rea"
         ],
         "year": "2022",
+        "publisher": "OUP",
         "bibcode": "2022MNRAS.517.5617S"
     },
     {
@@ -2878,6 +2961,7 @@
             "Progress towards a 3D Monte Carlo radiative transfer code for outflow wind modelling"
         ],
         "year": "2023",
+        "publisher": "EDP",
         "bibcode": "2023A&A...670A..41F"
     },
     {
@@ -2901,6 +2985,7 @@
             "Consistency of Type IIP supernova sibling distances"
         ],
         "year": "2023",
+        "publisher": "EDP",
         "bibcode": "2023A&A...672A.129C"
     },
     {
@@ -2937,6 +3022,7 @@
             "Photometry and spectroscopy of the Type Icn supernova 2021ckj. The diverse properties of the ejecta and circumstellar matter of Type Icn supernovae"
         ],
         "year": "2023",
+        "publisher": "EDP",
         "bibcode": "2023A&A...673A..27N"
     },
     {
@@ -2974,6 +3060,7 @@
             "A comparative analysis of type Ia supernovae 2018xx and 2019gbx"
         ],
         "year": "2023",
+        "publisher": "EDP",
         "bibcode": "2023A&A...675A..73L"
     },
     {
@@ -2989,6 +3076,7 @@
             "Discovery of a 760 nm P Cygni line in AT2017gfo: Identification of yttrium in the kilonova photosphere"
         ],
         "year": "2023",
+        "publisher": "EDP",
         "bibcode": "2023A&A...675A.194S"
     },
     {
@@ -3106,6 +3194,7 @@
             "Panning for gold, but finding helium: Discovery of the ultra-stripped supernova SN 2019wxt from gravitational-wave follow-up observations"
         ],
         "year": "2023",
+        "publisher": "EDP",
         "bibcode": "2023A&A...675A.201A"
     },
     {
@@ -3137,6 +3226,7 @@
             "Three is the magic number: Distance measurement of NGC 3147 using SN 2021hpr and its siblings"
         ],
         "year": "2023",
+        "publisher": "EDP",
         "bibcode": "2023A&A...677A.183B"
     },
     {
@@ -3157,6 +3247,7 @@
             "Reeling in the Whirlpool galaxy: Distance to M 51 clarified through Cepheids and the type IIP supernova 2005cs"
         ],
         "year": "2023",
+        "publisher": "EDP",
         "bibcode": "2023A&A...678A..44C"
     },
     {
@@ -3177,6 +3268,7 @@
             "Spectroscopic r-Process Abundance Retrieval for Kilonovae. I. The Inferred Abundance Pattern of Early Emission from GW170817"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...944..123V"
     },
     {
@@ -3210,6 +3302,7 @@
             "SN 2019ewu: A Peculiar Supernova with Early Strong Carbon and Weak Oxygen Features from a New Sample of Young SN Ic Spectra"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...944L..49W"
     },
     {
@@ -3246,6 +3339,7 @@
             "Over 500 Days in the Life of the Photosphere of the Type Iax Supernova SN 2014dt"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...951...67C"
     },
     {
@@ -3270,6 +3364,7 @@
             "Peculiar Spectral Evolution of the Type I Supernova 2019eix: A Possible Double Detonation from a Helium Shell on a Sub-Chandrasekhar-mass White Dwarf"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...953...25P"
     },
     {
@@ -3315,6 +3410,7 @@
             "Observational Properties of a Bright Type lax SN 2018cni and a Faint Type Iax SN 2020kyg"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...953...93S"
     },
     {
@@ -3332,6 +3428,7 @@
             "Monte Carlo Radiation Transport for Astrophysical Transients Powered by Circumstellar Interaction"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...953..132W"
     },
     {
@@ -3348,6 +3445,7 @@
             "Systematic Investigation of Very-early-phase Spectra of Type Ia Supernovae"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...955...49O"
     },
     {
@@ -3406,6 +3504,7 @@
             "SN 2022jli: A Type Ic Supernova with Periodic Modulation of Its Light Curve and an Unusually Long Rise"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...956L..31M"
     },
     {
@@ -3422,6 +3521,7 @@
             "Exploring the Impact of the Ejecta Velocity Profile on the Evolution of Kilonova: Diversity of the Kilonova Lightcurves"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...958..121T"
     },
     {
@@ -3448,6 +3548,7 @@
             "Early-time Ultraviolet and Optical Hubble Space Telescope Spectroscopy of the Type II Supernova 2022wsp"
         ],
         "year": "2023",
+        "publisher": "IOP",
         "bibcode": "2023ApJ...959L..26V"
     },
     {
@@ -3465,6 +3566,7 @@
             "The Laboratory Astrophysics Programme at Imperial College London"
         ],
         "year": "2023",
+        "publisher": "Springer",
         "bibcode": "2023EPJD...77..104C"
     },
     {
@@ -3496,6 +3598,7 @@
             "Early-time spectroscopic modelling of the transitional Type Ia Supernova 2021rhu with TARDIS"
         ],
         "year": "2023",
+        "publisher": "OUP",
         "bibcode": "2023MNRAS.522.4444H"
     },
     {
@@ -3513,6 +3616,7 @@
             "Envelope ejection and the transition to homologous expansion in common-envelope events"
         ],
         "year": "2023",
+        "publisher": "OUP",
         "bibcode": "2023MNRAS.526.5365V"
     },
     {
@@ -3549,6 +3653,7 @@
             "Scalable stellar evolution forecasting. Deep learning emulation versus hierarchical nearest-neighbor interpolation"
         ],
         "year": "2024",
+        "publisher": "EDP",
         "bibcode": "2024A&A...681A..86M"
     },
     {
@@ -3567,6 +3672,7 @@
             "Diagnosis of Circumstellar Matter Structure in Interaction-powered Supernovae with Hydrogen Line Features"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024ApJ...961...47I"
     },
     {
@@ -3584,6 +3690,7 @@
             "KilonovAE: Exploring Kilonova Spectral Features with Autoencoders"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024ApJ...961..119F"
     },
     {
@@ -3603,6 +3710,7 @@
             "Spectroscopic r-process Abundance Retrieval for Kilonovae. II. Lanthanides in the Inferred Abundance Patterns of Multicomponent Ejecta from the GW170817 Kilonova"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024ApJ...962...33V"
     },
     {
@@ -3620,6 +3728,7 @@
             "Artificial Intelligence Assisted Inversion (AIAI): Quantifying the Spectral Features of <SUP>56</SUP>Ni of Type Ia Supernovae"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024ApJ...962..125C"
     },
     {
@@ -3643,6 +3752,7 @@
             "1991T-Like Type Ia Supernovae as an Extension of the Normal Population"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024ApJ...964..137O"
     },
     {
@@ -3682,6 +3792,7 @@
             "SN 2020udy: A New Piece of the Homogeneous Bright Group in the Diverse Iax Subclass"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024ApJ...965...73S"
     },
     {
@@ -3698,6 +3809,7 @@
             "Impact of Ejecta Temperature and Mass on the Strength of Heavy Element Signatures in Kilonovae"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024ApJ...967...54T"
     },
     {
@@ -3774,6 +3886,7 @@
             "SN 2022oqm: A Bright and Multipeaked Calcium-rich Transient"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024ApJ...972..194Y"
     },
     {
@@ -3791,6 +3904,7 @@
             "Shock cooling emission from explosions of red supergiants: II. An analytic model of deviations from blackbody emission"
         ],
         "year": "2024",
+        "publisher": "OUP",
         "bibcode": "2024MNRAS.528.7137M"
     },
     {
@@ -3811,6 +3925,7 @@
             "xkn: a semi-analytic framework for the modelling of kilonovae"
         ],
         "year": "2024",
+        "publisher": "OUP",
         "bibcode": "2024MNRAS.529..647R"
     },
     {
@@ -3829,6 +3944,7 @@
             "Modelling the spectra of the kilonova AT2017gfo - II. Beyond the photospheric epochs"
         ],
         "year": "2024",
+        "publisher": "OUP",
         "bibcode": "2024MNRAS.529.2918G"
     },
     {
@@ -3847,6 +3963,7 @@
             "Quantitative modelling of type Ia supernovae spectral time series: constraining the explosion physics"
         ],
         "year": "2024",
+        "publisher": "OUP",
         "bibcode": "2024MNRAS.531.3042M"
     },
     {
@@ -3866,6 +3983,7 @@
             "New radiative and collisional atomic data for Sr II and Y II with application to Kilonova modelling"
         ],
         "year": "2024",
+        "publisher": "OUP",
         "bibcode": "2024MNRAS.532.2289M"
     },
     {
@@ -3884,6 +4002,7 @@
             "Collisional and radiative data for tellurium ions in kilonovae modelling and laboratory benchmarks"
         ],
         "year": "2024",
+        "publisher": "OUP",
         "bibcode": "2024MNRAS.534.3423M"
     },
     {
@@ -3900,6 +4019,7 @@
             "SupSpec: A Python Package for Measuring the Doppler Shifts of Supernova Spectral Lines"
         ],
         "year": "2024",
+        "publisher": "IOP",
         "bibcode": "2024RNAAS...8..177L"
     },
     {
@@ -3965,6 +4085,7 @@
             "ZTF SN Ia DR2: The spectral diversity of Type Ia supernovae in a volume-limited sample"
         ],
         "year": "2025",
+        "publisher": "EDP",
         "bibcode": "2025A&A...694A...9B"
     },
     {
@@ -3993,6 +4114,7 @@
             "No rungs attached: A distance-ladder-free determination of the Hubble constant through type II supernova spectral modelling"
         ],
         "year": "2025",
+        "publisher": "EDP",
         "bibcode": "2025A&A...702A..41V"
     },
     {
@@ -4026,6 +4148,7 @@
             "SN 2022xlp: The second-known well-observed, intermediate-luminosity Iax supernova"
         ],
         "year": "2025",
+        "publisher": "EDP",
         "bibcode": "2025A&A...703A..64B"
     },
     {
@@ -4041,6 +4164,7 @@
             "Type Ia supernova progenitors: a contemporary view of a long-standing puzzle"
         ],
         "year": "2025",
+        "publisher": "Springer",
         "bibcode": "2025A&ARv..33....1R"
     },
     {
@@ -4062,6 +4186,7 @@
             "Physics-driven Explosions of Stripped High-mass Stars: Synthetic Light Curves and Spectra of Stripped-envelope Supernovae with Broad Light Curves"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025ApJ...979..148L"
     },
     {
@@ -4104,6 +4229,7 @@
             "SN 2023zaw: The Low-energy Explosion of an Ultrastripped Star"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025ApJ...980L..44M"
     },
     {
@@ -4133,6 +4259,7 @@
             "A Near-infrared Search for Helium in the Superluminous Supernova SN 2024ahr"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025ApJ...987..127K"
     },
     {
@@ -4156,6 +4283,7 @@
             "Introducing STARDIS: An Open and Modular Stellar Spectral Synthesis Code"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025ApJ...990...41S"
     },
     {
@@ -4177,6 +4305,7 @@
             "Effect of Positronium on the \u03b3-Ray Spectra and Energy Deposition in Type Ia Supernovae"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025ApJ...990..129D"
     },
     {
@@ -4192,6 +4321,7 @@
             "The Spectra of a Radiative Reprocessing Outflow Model for Fast Blue Optical Transients"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025ApJ...991..180C"
     },
     {
@@ -4208,6 +4338,7 @@
             "An Integral-based Technique to Accelerate the Monte Carlo Radiative Transfer Computation for Supernovae"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025ApJ...991..219C"
     },
     {
@@ -4264,6 +4395,7 @@
             "JWST Observations of SN 2024ggi. I. Interpretation and Model Comparison of the Type II Supernova 2024ggi at 55 Days past Explosion"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025ApJ...994..249B"
     },
     {
@@ -4278,6 +4410,7 @@
             "Spectral synthesis techniques for supernovae and kilonovae"
         ],
         "year": "2025",
+        "publisher": "Springer",
         "bibcode": "2025LRCA...11....1J"
     },
     {
@@ -4302,6 +4435,7 @@
             "SIROCCO: a publicly available Monte Carlo ionization and radiative transfer code for astrophysical outflows"
         ],
         "year": "2025",
+        "publisher": "OUP",
         "bibcode": "2025MNRAS.536..879M"
     },
     {
@@ -4320,6 +4454,7 @@
             "Electron-impact excitation of zirconium I-III in support of neutron star merger diagnostics"
         ],
         "year": "2025",
+        "publisher": "OUP",
         "bibcode": "2025MNRAS.540.2923M"
     },
     {
@@ -4337,6 +4472,7 @@
             "Strontium I, III, IV, and V: electron impact excitation data for Kilonovae and white dwarf diagnostic applications"
         ],
         "year": "2025",
+        "publisher": "OUP",
         "bibcode": "2025MNRAS.541..367D"
     },
     {
@@ -4363,6 +4499,7 @@
             "Progenitor insights of Type IIP SN 2018pq: a comprehensive photometric and spectroscopic study"
         ],
         "year": "2025",
+        "publisher": "OUP",
         "bibcode": "2025MNRAS.541..384D"
     },
     {
@@ -4384,6 +4521,7 @@
             "The ultraviolet spectra of 2003fg-like Type Ia supernovae"
         ],
         "year": "2025",
+        "publisher": "OUP",
         "bibcode": "2025MNRAS.542.2752B"
     },
     {
@@ -4439,6 +4577,7 @@
             "SN 2024bfu, SN 2025qe, and the early light curves of type Iax supernovae"
         ],
         "year": "2025",
+        "publisher": "OUP",
         "bibcode": "2025MNRAS.543.3731M"
     },
     {
@@ -4453,6 +4592,7 @@
             "Modelling the light curve and spectra of SN 2023aew"
         ],
         "year": "2025",
+        "publisher": "OUP",
         "bibcode": "2025MNRAS.543.3885O"
     },
     {
@@ -4472,6 +4612,7 @@
             "Measuring type Ia supernova angular-diameter distances with intensity interferometry"
         ],
         "year": "2025",
+        "publisher": "APS",
         "bibcode": "2025PhRvD.111h3047K"
     },
     {
@@ -4488,22 +4629,8 @@
             "Polarization Signals of Luminous Supernovae by Jet-driven Bipolar Explosions"
         ],
         "year": "2025",
+        "publisher": "IOP",
         "bibcode": "2025RAA....25f5016W"
-    },
-    {
-        "author": [
-            "van Baal, Bart F. A.",
-            "Jerkstrand, Anders"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2511"
-        ],
-        "title": [
-            "ExTraSS: a Domain Decomposed 3D NLTE Radiative Transfer spectral synthesis code for nebular phase transients"
-        ],
-        "year": "2025",
-        "bibcode": "2025arXiv251107539V"
     },
     {
         "author": [
@@ -4566,6 +4693,7 @@
             "Normal or transitional? The evolution and properties of two type Ia supernovae in the Virgo cluster"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...706A.381I"
     },
     {
@@ -4590,6 +4718,7 @@
             "Exploring the origins of high-velocity features in SNe Ia with the spectral synthesis code TARDIS"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...707A..57H"
     },
     {
@@ -4635,6 +4764,7 @@
             "GRB 180728A and SN 2018fip: The nearest high-energy cosmological gamma-ray burst with an associated supernova"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...708A..60R"
     },
     {
@@ -4686,6 +4816,7 @@
             "The Local Distance Network: A community consensus report on the measurement of the Hubble constant at \u03031% precision"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...708A.166H"
     },
     {
@@ -4705,6 +4836,7 @@
             "The MARTINI platform: I. Se I\u2500X atomic calculation and expansion opacity for early stage kilonova spectral analysis"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...708A.366B"
     },
     {
@@ -4746,6 +4878,7 @@
             "The extremely low-luminosity Type Iax SNe 2022ywf and 2023zgx"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...710A..72B"
     },
     {
@@ -4802,6 +4935,7 @@
             "The nearby He-rich superluminous supernova SN 2021bnw during photospheric phases"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...710A.221F"
     },
     {
@@ -4821,6 +4955,7 @@
             "HOLISMOKES: XVIII. Cosmology with strongly lensed type II supernovae: Effects of instrumental setups on H<SUB>0</SUB>"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...710A.258G"
     },
     {
@@ -4862,6 +4997,7 @@
             "SN 2021lwz: Another exotic, luminous, and fast-evolving optical stripped-envelope supernova?"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...710A.367P"
     },
     {
@@ -4892,6 +5028,7 @@
             "SN 2024igg: A super-Chandrasekhar/03fg-like supernova exhibiting C II-dominated spectra after explosion"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...711A.262L"
     },
     {
@@ -4946,6 +5083,7 @@
             "An analysis of the Type Ia SN 2024gy and a comparison of different host extinction estimation techniques"
         ],
         "year": "2026",
+        "publisher": "EDP",
         "bibcode": "2026A&A...712A.173T"
     },
     {
@@ -4964,6 +5102,7 @@
             "Spectroscopic r-process Abundance Retrieval for Kilonovae. III. Linking Spectral and Light-curve Modeling of the GW170817 Kilonova"
         ],
         "year": "2026",
+        "publisher": "IOP",
         "bibcode": "2026ApJ...997...92V"
     },
     {
@@ -4983,6 +5122,7 @@
             "Unveiling SN 2022eyw: A Bright Member of the Type Iax Supernova Subclass"
         ],
         "year": "2026",
+        "publisher": "IOP",
         "bibcode": "2026ApJ...999...10D"
     },
     {
@@ -5050,6 +5190,7 @@
             "SN 2023zcu: A Type IIP SN with Early Flash Features"
         ],
         "year": "2026",
+        "publisher": "IOP",
         "bibcode": "2026ApJ...999...93D"
     },
     {
@@ -5071,6 +5212,7 @@
             "<SUP>56</SUP>Ni Production in Long-lived Binary Neutron Star Merger Remnants"
         ],
         "year": "2026",
+        "publisher": "IOP",
         "bibcode": "2026ApJ...999L..16J"
     },
     {
@@ -5093,6 +5235,7 @@
             "Traces of Helium Detected in Type Ic Supernova 2014L"
         ],
         "year": "2026",
+        "publisher": "IOP",
         "bibcode": "2026ApJ..1002L..11L"
     },
     {
@@ -5114,6 +5257,7 @@
             "SEDONA-GesaRaT: A Deep Learning Accelerated Radiative Transfer Program for 3D Supernova Simulations"
         ],
         "year": "2026",
+        "publisher": "IOP",
         "bibcode": "2026ApJ..1006...86C"
     },
     {
@@ -5138,7 +5282,36 @@
             "Photometric and Spectroscopic Studies of Type Ic Supernovae SN 2020akf and SN 2021mxx"
         ],
         "year": "2026",
+        "publisher": "IOP",
         "bibcode": "2026ApJ..1007....7K"
+    },
+    {
+        "author": [
+            "Wen, Xudong",
+            "Yang, Yi",
+            "Lu, Jing",
+            "Wang, Lifan",
+            "Wheeler, J. Craig",
+            "Pursiainen, Miika",
+            "Huang, QiuJu",
+            "Wang, Bao",
+            "Wu, Xuefeng",
+            "Filippenko, Alexei V.",
+            "Kerzendorf, Wolfgang E.",
+            "Leloudas, Giorgos",
+            "Schulze, Steve",
+            "Patat, Ferdinando"
+        ],
+        "bibstem": [
+            "ApJL",
+            "ApJL.1008"
+        ],
+        "title": [
+            "Pinning Down the Geometry of the Type Ic Broad-line Supernova 2026gzf"
+        ],
+        "year": "2026",
+        "publisher": "IOP",
+        "bibcode": "2026ApJ..1008L...3W"
     },
     {
         "author": [
@@ -5155,6 +5328,7 @@
             "Abundance stratification in type Iax SN 2020rea with TARDIS"
         ],
         "year": "2026",
+        "publisher": "Springer",
         "bibcode": "2026JApA...47...19K"
     },
     {
@@ -5173,6 +5347,7 @@
             "Expanding ejecta method: mapping supernova morphology with intensity interferometry"
         ],
         "year": "2026",
+        "publisher": "IOP",
         "bibcode": "2026JCAP...08..013C"
     },
     {
@@ -5188,6 +5363,7 @@
             "3D NLTE radiation transfer: theory and applications to stars, exoplanets, and kilonovae"
         ],
         "year": "2026",
+        "publisher": "Springer",
         "bibcode": "2026LRCA...12....7B"
     },
     {
@@ -5205,6 +5381,7 @@
             "Comparison of Ne-22 core and shell distilled WD detonations in AREPO"
         ],
         "year": "2026",
+        "publisher": "OUP",
         "bibcode": "2026MNRAS.545f2149B"
     },
     {
@@ -5225,6 +5402,7 @@
             "Light travel time effects in kilonova models"
         ],
         "year": "2026",
+        "publisher": "OUP",
         "bibcode": "2026MNRAS.546ag068M"
     },
     {
@@ -5241,7 +5419,24 @@
             "Improved lanthanide constraints for the kilonova AT 2017gfo"
         ],
         "year": "2026",
+        "publisher": "OUP",
         "bibcode": "2026MNRAS.548ag748G"
+    },
+    {
+        "author": [
+            "van Baal, Bart F. A.",
+            "Jerkstrand, Anders"
+        ],
+        "bibstem": [
+            "MNRAS",
+            "MNRAS.tmp"
+        ],
+        "title": [
+            "ExTraSS: a Domain Decomposed 3D NLTE Radiative Transfer spectral synthesis code for nebular phase transients"
+        ],
+        "year": "2026",
+        "publisher": "OUP",
+        "bibcode": "2026MNRAS.tmp.1621V"
     },
     {
         "author": [
@@ -5374,33 +5569,6 @@
         ],
         "year": "2026",
         "bibcode": "2026arXiv260400158L"
-    },
-    {
-        "author": [
-            "Wen, Xudong",
-            "Yang, Yi",
-            "Lu, Jing",
-            "Wang, Lifan",
-            "Wheeler, J. Craig",
-            "Pursiainen, Miika",
-            "Huang, QiuJu",
-            "Wang, Bao",
-            "Wu, Xuefeng",
-            "Filippenko, Alexei V.",
-            "Kerzendorf, Wolfgang E.",
-            "Leloudas, Giorgos",
-            "Schulze, Steve",
-            "Patat, Ferdinando"
-        ],
-        "bibstem": [
-            "arXiv",
-            "arXiv2606"
-        ],
-        "title": [
-            "Pinning Down the Geometry of the Type Ic Broad-Line Supernova 2026gzf"
-        ],
-        "year": "2026",
-        "bibcode": "2026arXiv260618881W"
     },
     {
         "author": [
