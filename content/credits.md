@@ -1,13 +1,13 @@
 ---
 title: "Citation Guide"
-date: 2026-10-10
+date: 2026-10-17
 draft: false
 layout: page
 ---
 
 # Credits & Publication Policies {#tardiscredits}
 
-[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.985438-blue)](https://doi.org/10.5281/zenodo.985438)
+[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.3290502-blue)](https://doi.org/10.5281/zenodo.3290502)
 
 We provide TARDIS as a free, open-source tool. If you are using it,
 please adhere to a few policies and acknowledge the TARDIS Team.
@@ -22,7 +22,7 @@ add the following paragraph to the Acknowledgement section:
 ```
 This research made use of \textsc{tardis}, a community-developed
 software package for spectral synthesis in supernovae
-\citep{2014MNRAS.440..387K, kerzendorf_2026_22985438}. The development
+\citep{2014MNRAS.440..387K, kerzendorf_2026_23290502}. The development
 of \textsc{tardis} received support from GitHub, the Google Summer of
 Code initiative, and from ESA's Summer of Code in Space program.
 \textsc{tardis} is a fiscally sponsored project of NumFOCUS.
@@ -81,7 +81,7 @@ archivePrefix = {arXiv},
 ```
 
 ``` bibtex
-@software{kerzendorf_2026_22985438,
+@software{kerzendorf_2026_23290502,
   author       = {Kerzendorf, Wolfgang and
                   Sim, Stuart and
                   Vogl, Christian and
@@ -106,15 +106,15 @@ archivePrefix = {arXiv},
                   Barna, Barnabás and
                   Gautam, Gaurav and
                   Arya, Atharva and
-                  Shields, Joshua and
                   Smith, Isaac and
+                  Shields, Joshua and
                   Cawley, Kevin and
                   Singhal, Jaladh and
                   Fullard, Andrew and
                   Barbosa, Talytha and
                   O'Brien, Jack and
-                  Sondhi, Dhruv and
                   Yu, Jenny and
+                  Sondhi, Dhruv and
                   Shields, Josh and
                   Patel, Maryam and
                   Varanasi, Kaushik and
@@ -122,23 +122,23 @@ archivePrefix = {arXiv},
                   Chitchyan, Sona and
                   Gillanders, James and
                   Gupta, Sumit and
-                  Singh, Shreyas and
                   Savel, Arjun and
+                  Singh, Shreyas and
                   Marie Lynn, Haille and
                   Eweis, Youssef and
                   Shah, Swayam and
                   Reinecke, Martin and
                   Holas, Alexander and
-                  Visser, Erin and
-                  Bylund, Tomas and
                   McClellan, Connor and
+                  Bylund, Tomas and
+                  Visser, Erin and
                   Bentil, Laud and
                   Black, William and
-                  Lu, Jing and
-                  Saraf, Shreyans and
                   Groneck, Ryan and
+                  Lu, Jing and
                   Kumar, Asish and
                   Dutta, Anirban and
+                  Saraf, Shreyans and
                   Eguren, Jordi and
                   Bartnik, Matthew and
                   Srivastava, Sarthak and
@@ -153,31 +153,32 @@ archivePrefix = {arXiv},
                   Roldan, Israel and
                   Bhakar, Jayant and
                   Dadu, Aaryan and
+                  Rao, Rishmita and
                   Rajagopalan, Srinath and
                   Mishra, Sashank and
+                  Nitish, P and
                   Reichenbach, John and
                   Actions, GitHub and
-                  Rao, Rishmita and
                   Jain, Rinkle and
-                  Nitish, P and
                   Gupta, Harshul and
                   Singh, Sourav and
                   Brar, Antreev and
                   Chaumal, Aarya and
-                  Patidar, Abhishek and
-                  Kunisetty, Saanvi and
+                  Matsumura, Yuki and
                   Gangbhoj, Riddhi and
                   Sofiatti, Caroline and
-                  Matsumura, Yuki and
+                  Kunisetty, Saanvi and
+                  Patidar, Abhishek and
                   Kowalski, Nathan and
-                  Selsing, Jonatan and
-                  Perkins, Haille and
                   Talegaonkar, Chinmay and
+                  Selsing, Jonatan and
+                  Gupta, Angel and
+                  Perkins, Haille and
                   Aggarwal, Yash and
                   L. Lim, P. and
                   Patra, Nilesh and
-                  Volodin, Dmitry and
                   Buchner, Johannes and
+                  Volodin, Dmitry and
                   Vieira, Nicholas and
                   Diddige, Harshitha and
                   Bhandari, Jhalak and
@@ -193,13 +194,12 @@ archivePrefix = {arXiv},
                   Wahi, Ujjwal and
                   Watson, Clyde and
                   Gupta, Suyash and
-                  PATIDAR, ABHISHEK and
                   Jaiswal, Abhayraj and
-                  Dasgupta, Debajyoti and
                   Kumar, Aman and
                   Nayak U, Ashwin and
                   Kumar, Atul and
-                  Gupta, Angel and
+                  Dasgupta, Debajyoti and
+                  PATIDAR, ABHISHEK and
                   Chen, Nutan and
                   Singh Rathore, Parikshit and
                   Patel, Pratik and
@@ -208,12 +208,12 @@ archivePrefix = {arXiv},
                   Sharma, Sampark and
                   Venkat, Shashank and
                   Prasad, Shilpi},
-  title        = {tardis-sn/tardis: TARDIS v2026.09.27},
-  month        = sep,
+  title        = {tardis-sn/tardis: TARDIS v2026.10.11},
+  month        = oct,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {release-2026.09.27},
-  doi          = {10.5281/zenodo.22985438},
-  url          = {https://doi.org/10.5281/zenodo.22985438},
+  version      = {release-2026.10.11},
+  doi          = {10.5281/zenodo.23290502},
+  url          = {https://doi.org/10.5281/zenodo.23290502},
 }
 ```
