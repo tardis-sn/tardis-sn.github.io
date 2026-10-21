@@ -408,44 +408,6 @@
         "twitter": ""
     },
     {
-        "title": "LIV (Last Interaction Velocity) Plot",
-        "author_id": "Sarthak Srivastava",
-        "article_id": "liv_plot_sarthak",
-        "display": true,
-        "date": "2024-08-23",
-        "category": "News",
-        "tags": [
-            "visualization"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
-        "cover_image_height": "520px",
-        "cover_image_width": "330px",
-        "cover_image": "../articles/LIV_ply.png",
-        "content": {
-            "1_para": "The TARDIS SDEC plot visualizes which atoms photon packets interact with before they escape the ejecta and contribute to the output spectrum's absorption and emission features. However, the SDEC plot does not visualize where these interactions occur within the ejecta. This information can be beneficial to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum.",
-            "2_para": "This project develops the LIV (Last Interaction Velocity) Plot that plots the number of photon packet interactions as a velocity function for each element present in the ejecta. One such example is shown in the plot below.",
-            "3_img": "research_news/articles/LIV_Plot_Sarthak/media/images/LIV_mpl.png",
-            "4_para": "We can create a highly informative and visually appealing Last Interaction Velocity plot using Matplotlib, If you're using the Last Interaction Velocity plot for exploration, consider creating an interactive version with Plotly. This allows you to zoom, pan, and inspect data values by hovering, resizing the scale, and more conveniently.",
-            "5_img": "research_news/articles/LIV_Plot_Sarthak/media/images/plotly-gif.gif",
-            "6_para": "The plots have various options providing the users with more control over how your last interaction velocity looks, like, 'species_list', 'nelements', 'packet_wvl_range', 'num_bins', 'log_scale' and many other options.",
-            "7_para": "The detailed report for the GSoC project is available <a href='https://sites.google.com/view/sarthak-gsoc2024/home'>here</a>."
-        },
-        "people_involved_ids": [
-            "Sarthak Srivastava",
-            "James Gillanders",
-            "Jaladh Singhal",
-            "Abhinav Ohri",
-            "Mark Magee"
-        ],
-        "links": {
-            "Full Report": "https://sites.google.com/view/sarthak-gsoc2024/home"
-        },
-        "twitter": ""
-    },
-    {
         "title": "Enhancing Packet Trackers",
         "author_id": "Sumit Gupta",
         "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
@@ -482,34 +444,42 @@
         "twitter": ""
     },
     {
-        "title": "Introducing a new logger widget for TARDIS!",
-        "author_id": "",
-        "article_id": "logger_widget_2024",
+        "title": "LIV (Last Interaction Velocity) Plot",
+        "author_id": "Sarthak Srivastava",
+        "article_id": "liv_plot_sarthak",
         "display": true,
-        "date": "2024-07-19",
+        "date": "2024-08-23",
         "category": "News",
         "tags": [
-            "logging",
-            "simulation"
+            "visualization"
         ],
         "platforms": [
             "tardis"
         ],
-        "short_description": "Detailed logger for TARDIS simulation run",
+        "short_description": "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program\u2014a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
         "cover_image_height": "520px",
         "cover_image_width": "330px",
-        "cover_image": "../articles/logger.gif",
+        "cover_image": "../articles/LIV_ply.png",
         "content": {
-            "1_para": "During TARDIS Con 2024, a collaborative effort by [deeksha_mohanty], [jaladh_singhal], [jing_lu], and [anirban_dutta] led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
-            "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
+            "1_para": "The TARDIS SDEC plot visualizes which atoms photon packets interact with before they escape the ejecta and contribute to the output spectrum's absorption and emission features. However, the SDEC plot does not visualize where these interactions occur within the ejecta. This information can be beneficial to astronomers who want to understand which regions of the ejecta are responsible for important features in the output spectrum.",
+            "2_para": "This project develops the LIV (Last Interaction Velocity) Plot that plots the number of photon packet interactions as a velocity function for each element present in the ejecta. One such example is shown in the plot below.",
+            "3_img": "research_news/articles/LIV_Plot_Sarthak/media/images/LIV_mpl.png",
+            "4_para": "We can create a highly informative and visually appealing Last Interaction Velocity plot using Matplotlib, If you're using the Last Interaction Velocity plot for exploration, consider creating an interactive version with Plotly. This allows you to zoom, pan, and inspect data values by hovering, resizing the scale, and more conveniently.",
+            "5_img": "research_news/articles/LIV_Plot_Sarthak/media/images/plotly-gif.gif",
+            "6_para": "The plots have various options providing the users with more control over how your last interaction velocity looks, like, 'species_list', 'nelements', 'packet_wvl_range', 'num_bins', 'log_scale' and many other options.",
+            "7_para": "The detailed report for the GSoC project is available <a href='https://sites.google.com/view/sarthak-gsoc2024/home'>here</a>."
         },
         "people_involved_ids": [
+            "Sarthak Srivastava",
+            "James Gillanders",
             "Jaladh Singhal",
-            "Jing Lu",
-            "Anirban  Dutta"
+            "Abhinav Ohri",
+            "Mark Magee"
         ],
-        "links": {},
-        "twitter": "None"
+        "links": {
+            "Full Report": "https://sites.google.com/view/sarthak-gsoc2024/home"
+        },
+        "twitter": ""
     },
     {
         "title": "TARDIS-con",
@@ -549,6 +519,36 @@
             "Jack O'Brien",
             "",
             ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "Introducing a new logger widget for TARDIS!",
+        "author_id": "",
+        "article_id": "logger_widget_2024",
+        "display": true,
+        "date": "2024-07-19",
+        "category": "News",
+        "tags": [
+            "logging",
+            "simulation"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Detailed logger for TARDIS simulation run",
+        "cover_image_height": "520px",
+        "cover_image_width": "330px",
+        "cover_image": "../articles/logger.gif",
+        "content": {
+            "1_para": "During TARDIS Con 2024, a collaborative effort by [deeksha_mohanty], [jaladh_singhal], [jing_lu], and [anirban_dutta] led to the development of a logging widget for TARDIS simulation runs. This widget organizes logging information into four tabs with the categories: warnings and errors, detailed simulation run information (including convergence and iteration details), debugging logs, and a comprehensive tab that consolidates all logs in the order they occur.",
+            "2_para": "The new logging widget enhances the user experience by providing a clear overview of the simulation's performance and potential issues."
+        },
+        "people_involved_ids": [
+            "Jaladh Singhal",
+            "Jing Lu",
+            "Anirban  Dutta"
         ],
         "links": {},
         "twitter": "None"
