@@ -1,27 +1,5 @@
 [
     {
-        "title": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at SuperVirtual 2021.",
-        "author_id": "Marc Williamson",
-        "article_id": "marc_talk_supervirtual_2021",
-        "display": true,
-        "date": "2021-10-01",
-        "category": "Presentation",
-        "tags": [
-            "talks"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at *SuperVirtual 2021*.",
-        "cover_image": "https://drive.google.com/file/d/1CV9xtbGbTNEytzVUqUfMlHVo8s9AgVnF/preview",
-        "content": {},
-        "people_involved_ids": [
-            "Marc Williamson"
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
         "title": "Yssavo Camacho-Neves presented a poster on \u201c500 Days in the Photospheric Phase of Type Iax Supernova 2014dt\u201d at SuperVirtual 2021.",
         "author_id": "",
         "article_id": "yssavo_poster_supervirtual_2021",
@@ -39,6 +17,28 @@
         "content": {},
         "people_involved_ids": [
             ""
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at SuperVirtual 2021.",
+        "author_id": "Marc Williamson",
+        "article_id": "marc_talk_supervirtual_2021",
+        "display": true,
+        "date": "2021-10-01",
+        "category": "Presentation",
+        "tags": [
+            "talks"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Marc Williamson gave a talk on \u201cReconstructing Exploded Stars: Constraining Helium Mass in Stripped Supernovae\u201d at *SuperVirtual 2021*.",
+        "cover_image": "https://drive.google.com/file/d/1CV9xtbGbTNEytzVUqUfMlHVo8s9AgVnF/preview",
+        "content": {},
+        "people_involved_ids": [
+            "Marc Williamson"
         ],
         "links": {},
         "twitter": "None"
@@ -66,28 +66,6 @@
         "twitter": "None"
     },
     {
-        "title": "Luke Harvey gave a talk on \u201cExploring SNe Ia with spectral synthesis code TARDIS\u201d at Irish National Astronomy Meeting in September \u201921.",
-        "author_id": "Luke Harvey",
-        "article_id": "luke_talk_irish_national_meeting_2021",
-        "display": true,
-        "date": "2021-09-01",
-        "category": "Presentation",
-        "tags": [
-            "talks"
-        ],
-        "platforms": [
-            "tardis"
-        ],
-        "short_description": "Luke Harvey gave a talk on \u201cExploring SNe Ia with spectral synthesis code TARDIS\u201d at *Irish National Astronomy Meeting* in September \u201921.",
-        "cover_image": "https://drive.google.com/file/d/1VSiuNk0NY3WWXfo4tWy5hM-qYfUyvHa4/preview",
-        "content": {},
-        "people_involved_ids": [
-            "Luke Harvey"
-        ],
-        "links": {},
-        "twitter": "None"
-    },
-    {
         "title": "James Gillanders gave a talk on Spectroscopic Modelling of the kilonova AT2017gfo at Irish National Astronomy Meeting in September \u201921 in which he demonstrated how he used TARDIS.",
         "author_id": "James Gillanders",
         "article_id": "james_talk_irish_national_meeting_2021",
@@ -105,6 +83,28 @@
         "content": {},
         "people_involved_ids": [
             "James Gillanders"
+        ],
+        "links": {},
+        "twitter": "None"
+    },
+    {
+        "title": "Luke Harvey gave a talk on \u201cExploring SNe Ia with spectral synthesis code TARDIS\u201d at Irish National Astronomy Meeting in September \u201921.",
+        "author_id": "Luke Harvey",
+        "article_id": "luke_talk_irish_national_meeting_2021",
+        "display": true,
+        "date": "2021-09-01",
+        "category": "Presentation",
+        "tags": [
+            "talks"
+        ],
+        "platforms": [
+            "tardis"
+        ],
+        "short_description": "Luke Harvey gave a talk on \u201cExploring SNe Ia with spectral synthesis code TARDIS\u201d at *Irish National Astronomy Meeting* in September \u201921.",
+        "cover_image": "https://drive.google.com/file/d/1VSiuNk0NY3WWXfo4tWy5hM-qYfUyvHa4/preview",
+        "content": {},
+        "people_involved_ids": [
+            "Luke Harvey"
         ],
         "links": {},
         "twitter": "None"
