@@ -1,13 +1,13 @@
 ---
 title: "Citation Guide"
-date: 2026-10-24
+date: 2026-10-25
 draft: false
 layout: page
 ---
 
 # Credits & Publication Policies {#tardiscredits}
 
-[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.3444617-blue)](https://doi.org/10.5281/zenodo.3444617)
+[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.3631067-blue)](https://doi.org/10.5281/zenodo.3631067)
 
 We provide TARDIS as a free, open-source tool. If you are using it,
 please adhere to a few policies and acknowledge the TARDIS Team.
@@ -22,7 +22,7 @@ add the following paragraph to the Acknowledgement section:
 ```
 This research made use of \textsc{tardis}, a community-developed
 software package for spectral synthesis in supernovae
-\citep{2014MNRAS.440..387K, kerzendorf_2026_23444617}. The development
+\citep{2014MNRAS.440..387K, kerzendorf_2026_23631067}. The development
 of \textsc{tardis} received support from GitHub, the Google Summer of
 Code initiative, and from ESA's Summer of Code in Space program.
 \textsc{tardis} is a fiscally sponsored project of NumFOCUS.
@@ -81,7 +81,7 @@ archivePrefix = {arXiv},
 ```
 
 ``` bibtex
-@software{kerzendorf_2026_23444617,
+@software{kerzendorf_2026_23631067,
   author       = {Kerzendorf, Wolfgang and
                   Sim, Stuart and
                   Vogl, Christian and
@@ -106,14 +106,14 @@ archivePrefix = {arXiv},
                   Barna, Barnabás and
                   Gautam, Gaurav and
                   Arya, Atharva and
-                  Smith, Isaac and
                   Shields, Joshua and
+                  Smith, Isaac and
                   Cawley, Kevin and
                   Singhal, Jaladh and
                   Fullard, Andrew and
                   Barbosa, Talytha and
-                  O'Brien, Jack and
                   Yu, Jenny and
+                  O'Brien, Jack and
                   Sondhi, Dhruv and
                   Shields, Josh and
                   Patel, Maryam and
@@ -121,33 +121,33 @@ archivePrefix = {arXiv},
                   Rathi, Shikha and
                   Chitchyan, Sona and
                   Gillanders, James and
+                  Marie Lynn, Haille and
+                  McClellan, Connor and
                   Gupta, Sumit and
                   Savel, Arjun and
                   Singh, Shreyas and
-                  Marie Lynn, Haille and
-                  Eweis, Youssef and
                   Shah, Swayam and
+                  Eweis, Youssef and
                   Reinecke, Martin and
                   Holas, Alexander and
-                  McClellan, Connor and
-                  Bylund, Tomas and
                   Visser, Erin and
+                  Bylund, Tomas and
                   Bentil, Laud and
                   Black, William and
-                  Groneck, Ryan and
-                  Lu, Jing and
                   Kumar, Asish and
                   Dutta, Anirban and
                   Saraf, Shreyans and
+                  Groneck, Ryan and
+                  Lu, Jing and
                   Eguren, Jordi and
                   Bartnik, Matthew and
-                  Srivastava, Sarthak and
                   Kumar, Ansh and
-                  Alam, Arib and
-                  Magee, Mark and
+                  Srivastava, Sarthak and
                   Varma Buddaraju, Rohith and
-                  Kambham, Satwik and
+                  Magee, Mark and
+                  Alam, Arib and
                   Daksh, Ayushi and
+                  Kambham, Satwik and
                   Livneh, Ran and
                   Powers, Cecelia and
                   Roldan, Israel and
@@ -208,12 +208,12 @@ archivePrefix = {arXiv},
                   Sharma, Sampark and
                   Venkat, Shashank and
                   Prasad, Shilpi},
-  title        = {tardis-sn/tardis: TARDIS v2026.10.18},
+  title        = {tardis-sn/tardis: TARDIS v2026.10.25},
   month        = oct,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {release-2026.10.18},
-  doi          = {10.5281/zenodo.23444617},
-  url          = {https://doi.org/10.5281/zenodo.23444617},
+  version      = {release-2026.10.25},
+  doi          = {10.5281/zenodo.23631067},
+  url          = {https://doi.org/10.5281/zenodo.23631067},
 }
 ```
