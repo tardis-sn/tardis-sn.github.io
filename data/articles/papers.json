@@ -194,12 +194,18 @@
             "2026MNRAS.545f2149B",
             "2026MNRAS.546ag068M",
             "2026MNRAS.548ag748G",
+            "2026MNRAS.552g1744V",
             "2026MNRAS.tmp.1621V",
             "2026arXiv260114235L",
             "2026arXiv260121782F",
             "2026arXiv260315791O",
             "2026arXiv260400158L",
-            "2026arXiv260712525K"
+            "2026arXiv260422927M",
+            "2026arXiv260610009C",
+            "2026arXiv260712525K",
+            "2026arXiv260818342C",
+            "2026arXiv260928712B",
+            "2026arXiv261027807B"
         ]
     },
     {
@@ -912,6 +918,7 @@
             "A kilonova as the electromagnetic counterpart to a gravitational-wave source"
         ],
         "year": "2017",
+        "publisher": "Springer",
         "bibcode": "2017Natur.551...75S"
     },
     {
@@ -955,6 +962,7 @@
             "Supernova Explosions"
         ],
         "year": "2017",
+        "publisher": "Springer",
         "bibcode": "2017suex.book.....B"
     },
     {
@@ -1587,6 +1595,7 @@
             "Signatures of a jet cocoon in early spectra of a supernova associated with a \u03b3-ray burst"
         ],
         "year": "2019",
+        "publisher": "Springer",
         "bibcode": "2019Natur.565..324I"
     },
     {
@@ -1618,6 +1627,7 @@
             "Identification of strontium in the merger of two neutron stars"
         ],
         "year": "2019",
+        "publisher": "Springer",
         "bibcode": "2019Natur.574..497W"
     },
     {
@@ -5429,14 +5439,14 @@
         ],
         "bibstem": [
             "MNRAS",
-            "MNRAS.tmp"
+            "MNRAS.552"
         ],
         "title": [
-            "ExTraSS: a Domain Decomposed 3D NLTE Radiative Transfer spectral synthesis code for nebular phase transients"
+            "EXTRASS: a domain-decomposed 3D NLTE radiative transfer spectral synthesis code for nebular phase transients"
         ],
         "year": "2026",
         "publisher": "OUP",
-        "bibcode": "2026MNRAS.tmp.1621V"
+        "bibcode": "2026MNRAS.552g1744V"
     },
     {
         "author": [
@@ -5572,6 +5582,88 @@
     },
     {
         "author": [
+            "Magee, M. R."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2604"
+        ],
+        "title": [
+            "Quantitative modelling of type Ia supernovae spectral time series II: Exploring the diversity of thermonuclear explosion scenarios"
+        ],
+        "year": "2026",
+        "bibcode": "2026arXiv260422927M"
+    },
+    {
+        "author": [
+            "Chen, Ting-Wan",
+            "Aryan, Amar",
+            "Yang, Sheng",
+            "Smartt, Stephen J.",
+            "Moriya, Takashi J.",
+            "Brennan, Se\u00e1n J.",
+            "Stritzinger, Maximilian D.",
+            "Martin, Bailey",
+            "Nicholl, Matt",
+            "Kong, Albert K. H.",
+            "Gillanders, James H.",
+            "Dutta, Anirban",
+            "Schmidt, Brian P.",
+            "Cheng, Yu-Chi",
+            "Huber, Mark E.",
+            "Lai, Cheng-Han",
+            "Lee, Chien-Hsiu",
+            "Lee, Yu-Hsing",
+            "Ngeow, Chow-Choong",
+            "Smith, Ken W.",
+            "Ashall, Christopher",
+            "Auchettl, Katie",
+            "Burns, Chris R.",
+            "Chambers, Kenneth C.",
+            "Chen, Zhi-Yue",
+            "de Boer, Thomas",
+            "Hsiao, Eric Y.",
+            "Ngo Thanh Ho, Khoa",
+            "Hoogendam, Willem B.",
+            "Jones, David O.",
+            "Kankare, Erkki",
+            "Killestein, Tom L.",
+            "Kuncarayakti, Hanindyo",
+            "Lee, Meng-Han",
+            "Li, Chuan-Jui",
+            "Lin, Chien-Cheng",
+            "Lidman, Christopher",
+            "Lowe, Thomas B.",
+            "Magnier, Eugene A.",
+            "Medler, Kyle",
+            "M\u00f6ller, Anais",
+            "Moore, Thomas",
+            "Morrell, Nidia",
+            "Paek, Gregory S. H.",
+            "Pfeffer, Cameron M.",
+            "Qiang, Da-Chun",
+            "Rauf, Liana",
+            "Reynolds, Thomas M.",
+            "Sankar. K, Aiswarya",
+            "Srivastav, Shubham",
+            "Tweddle, Jack",
+            "Wainscoat, Richard",
+            "Wang, Ze-Ning",
+            "Xiao, Huangfei",
+            "Zhu, Zonghong"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2606"
+        ],
+        "title": [
+            "Decadal pre-explosion activity and circumstellar interaction in a supernova"
+        ],
+        "year": "2026",
+        "bibcode": "2026arXiv260610009C"
+    },
+    {
+        "author": [
             "Kurre, Mulchand",
             "Sahu, K. R.",
             "Tiwari, Shrutika",
@@ -5593,5 +5685,147 @@
         ],
         "year": "2026",
         "bibcode": "2026arXiv260712525K"
+    },
+    {
+        "author": [
+            "Chen, Xingzhuo",
+            "Braga-Neto, Ulisses",
+            "Wang, Lifan"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2608"
+        ],
+        "title": [
+            "High-Redshift Type Ia Supernovae Exhibit Enhanced Calcium Abundances"
+        ],
+        "year": "2026",
+        "bibcode": "2026arXiv260818342C"
+    },
+    {
+        "author": [
+            "Barna, Barnab\u00e1s",
+            "Singh, Mridweeka",
+            "Kwok, Lindsey A.",
+            "Jha, Saurabh W.",
+            "Dastidar, R.",
+            "Larison, Conor",
+            "Filippenko, Alexei V.",
+            "Anderson, J. P.",
+            "Andrews, Jennifer E.",
+            "Andrews, Moira",
+            "Anupama, G. C.",
+            "Arunachalam, Prasiddha",
+            "Auchettl, Katie",
+            "B\u00e1nhidi, Dominik",
+            "Bostroem, K. Azalee",
+            "Brink, Thomas G.",
+            "Cartier, R\u00e9gis",
+            "Chen, Ping",
+            "Chen, T.-W.",
+            "Christy, Collin T.",
+            "Coulter, David A.",
+            "Covarrubias, Sofia",
+            "Davis, Kyle W.",
+            "Dickinson, Connor B.",
+            "Dong, Yize",
+            "Farah, Joseph",
+            "Fl\u00f6rs, Andreas",
+            "Foley, Ryan J.",
+            "Franz, Noah",
+            "Fremling, Christoffer",
+            "Galbany, Llu\u00eds",
+            "Gangopadhyay, Anjasha",
+            "Garg, Aarna",
+            "Gates, Elinor L.",
+            "Graur, Or",
+            "Gromadzki, Mariusz",
+            "Hiramatsu, Daichi",
+            "Hoang, Emily",
+            "Howell, D. Andrew",
+            "Hsu, Brian",
+            "Johansson, Joel",
+            "Joshi, Arti",
+            "Kahinga, Lordrick A.",
+            "Kaur, Ravjit",
+            "Kumar, Sahana",
+            "Kumnurdmanee, Piramon",
+            "Kuncarayakti, Hanindyo",
+            "Liu, Chang",
+            "Maeda, Keiichi",
+            "Maguire, Kate",
+            "Martin, Bailey",
+            "McCully, Curtis",
+            "Mehta, Darshana",
+            "Menotti, Luca M.",
+            "Metevier, Anne J.",
+            "Miller, A. A.",
+            "Misra, Kuntal",
+            "Mochn\u00e1cs, Erika",
+            "M\u00fcller-Bravo, T. E.",
+            "Newsome, Megan",
+            "Padilla Gonzalez, Estefania",
+            "Patra, Kishore C.",
+            "Pearson, Jeniveve",
+            "Piro, Anthony L.",
+            "Polin, Abigail",
+            "Ravi, Aravind P.",
+            "Rest, Armin",
+            "Meza Retamal, Nicolas",
+            "Robinson, O. M.",
+            "Rojas-Bravo, C\u00e9sar",
+            "Sahu, Devendra K.",
+            "Sand, David J.",
+            "Schmidt, Brian P.",
+            "Schulze, Steve",
+            "Schwab, Michaela",
+            "Shrestha, Manisha",
+            "Siebert, Matthew R.",
+            "Simha, Sunil",
+            "Smith, Nathan",
+            "Sollerman, Jesper",
+            "Srivastav, Shubham",
+            "Subrayan, Bhagya M.",
+            "Szalai, Tam\u00e1s",
+            "Taggart, Kirsty",
+            "Singh Teja, Rishabh",
+            "Terwel, Jacco H.",
+            "Tinyanont, Samaporn",
+            "Valenti, Stefano",
+            "Vink\u00f3, J\u00f3zsef",
+            "Westerling, Aya L.",
+            "Wheeler, J. Craig",
+            "Yang, Yi",
+            "Zheng, WeiKang"
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2609"
+        ],
+        "title": [
+            "Tomography analysis of the intermediate-luminosity Type Iax SN 2024pxl"
+        ],
+        "year": "2026",
+        "bibcode": "2026arXiv260928712B"
+    },
+    {
+        "author": [
+            "Bhattacharjee, Snehasish",
+            "Pan, Yen-Chen",
+            "Dutta, Anirban",
+            "Gupta, Shubham",
+            "Cheng, Chia-Yu",
+            "Kilpatrick, Charles D.",
+            "Siebert, Matthew R."
+        ],
+        "bibstem": [
+            "arXiv",
+            "arXiv2610"
+        ],
+        "title": [
+            "What Shapes the Ultraviolet Spectra of Type Ia Supernovae?"
+        ],
+        "year": "2026",
+        "bibcode": "2026arXiv261027807B"
     }
 ]
