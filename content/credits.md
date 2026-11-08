@@ -1,13 +1,13 @@
 ---
 title: "Citation Guide"
-date: 2026-11-01
+date: 2026-11-07
 draft: false
 layout: page
 ---
 
 # Credits & Publication Policies {#tardiscredits}
 
-[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.3631067-blue)](https://doi.org/10.5281/zenodo.3631067)
+[![DOI_BADGE](https://img.shields.io/badge/DOI-10.5281/zenodo.3888045-blue)](https://doi.org/10.5281/zenodo.3888045)
 
 We provide TARDIS as a free, open-source tool. If you are using it,
 please adhere to a few policies and acknowledge the TARDIS Team.
@@ -22,7 +22,7 @@ add the following paragraph to the Acknowledgement section:
 ```
 This research made use of \textsc{tardis}, a community-developed
 software package for spectral synthesis in supernovae
-\citep{2014MNRAS.440..387K, kerzendorf_2026_23631067}. The development
+\citep{2014MNRAS.440..387K, kerzendorf_2026_23888045}. The development
 of \textsc{tardis} received support from GitHub, the Google Summer of
 Code initiative, and from ESA's Summer of Code in Space program.
 \textsc{tardis} is a fiscally sponsored project of NumFOCUS.
@@ -81,7 +81,7 @@ archivePrefix = {arXiv},
 ```
 
 ``` bibtex
-@software{kerzendorf_2026_23631067,
+@software{kerzendorf_2026_23888045,
   author       = {Kerzendorf, Wolfgang and
                   Sim, Stuart and
                   Vogl, Christian and
@@ -121,8 +121,8 @@ archivePrefix = {arXiv},
                   Rathi, Shikha and
                   Chitchyan, Sona and
                   Gillanders, James and
-                  Marie Lynn, Haille and
                   McClellan, Connor and
+                  Marie Lynn, Haille and
                   Gupta, Sumit and
                   Savel, Arjun and
                   Singh, Shreyas and
@@ -208,12 +208,12 @@ archivePrefix = {arXiv},
                   Sharma, Sampark and
                   Venkat, Shashank and
                   Prasad, Shilpi},
-  title        = {tardis-sn/tardis: TARDIS v2026.10.25},
-  month        = oct,
+  title        = {tardis-sn/tardis: TARDIS v2026.11.02},
+  month        = nov,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {release-2026.10.25},
-  doi          = {10.5281/zenodo.23631067},
-  url          = {https://doi.org/10.5281/zenodo.23631067},
+  version      = {release-2026.11.02},
+  doi          = {10.5281/zenodo.23888045},
+  url          = {https://doi.org/10.5281/zenodo.23888045},
 }
 ```
