@@ -1,0 +1,95 @@
+.member-profile {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
+
+.member-profile-header {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid $gray-200;
+}
+
+.member-profile-photo {
+  flex-shrink: 0;
+}
+
+.member-profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid $gray-200;
+}
+
+.member-profile-info {
+  flex: 1;
+}
+
+.member-profile-name {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.member-profile-intro {
+  color: $gray-500;
+  line-height: 1.6;
+}
+
+.member-profile-social {
+  display: flex;
+  gap: 0.8em;
+  margin-top: 1em;
+  align-items: center;
+
+  a {
+    color: $gray-500;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: inline-flex;
+
+    &:hover {
+      color: $color-primary;
+    }
+
+    svg {
+      vertical-align: middle;
+    }
+  }
+}
+
+.member-profile-section {
+  margin-bottom: 2em;
+
+  h2 {
+    border-bottom: 2px solid $color-primary;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+  }
+
+  table {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .member-profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .member-profile-social {
+    justify-content: center;
+  }
+
+  .member-profile-img {
+    width: 140px;
+    height: 140px;
+  }
+}
